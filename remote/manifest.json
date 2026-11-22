@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "publishedAt": "2026-11-22T14:52:18Z",
+ "publishedAt": "2026-11-22T22:58:29Z",
  "minAppVersion": "1.0.0",
  "files": [
   {
@@ -57,6 +57,11 @@
    "path": "world_clock.json",
    "version": 1,
    "sha256": "69ce081032c5a1ed9701c5640560cb62f204e011151030aa8bcea723b271fb4d"
+  },
+  {
+   "path": "themes.json",
+   "version": 1,
+   "sha256": "1c634f28c5888d190dfce6222373a4f38260d43fd8220596ec2f33baa7b8e836"
   }
  ]
 }
