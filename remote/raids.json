@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "updatedAt": "2026-11-21T16:58:04Z",
+ "updatedAt": "2026-11-22T03:59:37Z",
  "_comment": "자동 생성 파일 — schedule/raids.json을 고친 뒤 tools/build_schedule.py 실행. shiny.odds=null이면 config.shinyOddsByTier 사용. lastEggAt=종료일 마지막 알 시각.",
  "raids": [
   {
@@ -1070,7 +1070,7 @@
     {
      "ref": "555/galarian_zen",
      "ko": "불비달마",
-     "formKo": null,
+     "formKo": "가라르의 모습 Zen Mode",
      "shadow": true,
      "fast": "ice_fang_fast",
      "charged": "avalanche",
@@ -1227,7 +1227,7 @@
      {
       "ref": "555/galarian_zen",
       "ko": "불비달마",
-      "formKo": null,
+      "formKo": "가라르의 모습 Zen Mode",
       "shadow": true,
       "fast": "ice_fang_fast",
       "charged": "avalanche",
@@ -1326,7 +1326,7 @@
      {
       "ref": "555/galarian_zen",
       "ko": "불비달마",
-      "formKo": null,
+      "formKo": "가라르의 모습 Zen Mode",
       "shadow": false,
       "fast": "ice_fang_fast",
       "charged": "avalanche",
@@ -3117,17 +3117,19 @@
       "relative": 80
      },
      {
-      "ref": "243/s",
-      "ko": "라이코",
+      "ref": "145/normal",
+      "ko": "썬더",
       "formKo": null,
       "shadow": true,
-      "fast": "volt_switch_fast",
-      "charged": "wild_charge",
-      "legacy": [],
-      "score": 134.2,
-      "fastKo": "볼트체인지",
-      "chargedKo": "와일드볼트",
-      "relative": 80
+      "fast": "thunder_shock_fast",
+      "charged": "zap_cannon",
+      "legacy": [
+       "thunder_shock_fast"
+      ],
+      "score": 131.2,
+      "fastKo": "전기쇼크",
+      "chargedKo": "전자포",
+      "relative": 79
      }
     ],
     "noShadowNoMega": [
@@ -3607,6 +3609,21 @@
       "fastKo": "메탈클로",
       "chargedKo": "인파이트",
       "relative": 91
+     },
+     {
+      "ref": "639/normal",
+      "ko": "테라키온",
+      "formKo": null,
+      "shadow": false,
+      "fast": "double_kick_fast",
+      "charged": "sacred_sword",
+      "legacy": [
+       "sacred_sword"
+      ],
+      "score": 130.5,
+      "fastKo": "두번차기",
+      "chargedKo": "성스러운칼",
+      "relative": 90
      }
     ]
    },
@@ -3919,17 +3936,19 @@
       "relative": 80
      },
      {
-      "ref": "243/s",
-      "ko": "라이코",
+      "ref": "145/normal",
+      "ko": "썬더",
       "formKo": null,
       "shadow": true,
-      "fast": "volt_switch_fast",
-      "charged": "wild_charge",
-      "legacy": [],
-      "score": 134.2,
-      "fastKo": "볼트체인지",
-      "chargedKo": "와일드볼트",
-      "relative": 80
+      "fast": "thunder_shock_fast",
+      "charged": "zap_cannon",
+      "legacy": [
+       "thunder_shock_fast"
+      ],
+      "score": 131.2,
+      "fastKo": "전기쇼크",
+      "chargedKo": "전자포",
+      "relative": 79
      }
     ],
     "noShadowNoMega": [
@@ -4090,7 +4109,7 @@
     {
      "ref": "555/galarian_zen",
      "ko": "불비달마",
-     "formKo": null,
+     "formKo": "가라르의 모습 Zen Mode",
      "shadow": true,
      "fast": "ice_fang_fast",
      "charged": "avalanche",
@@ -4272,7 +4291,7 @@
      {
       "ref": "555/galarian_zen",
       "ko": "불비달마",
-      "formKo": null,
+      "formKo": "가라르의 모습 Zen Mode",
       "shadow": true,
       "fast": "ice_fang_fast",
       "charged": "avalanche",
@@ -4405,7 +4424,7 @@
      {
       "ref": "555/galarian_zen",
       "ko": "불비달마",
-      "formKo": null,
+      "formKo": "가라르의 모습 Zen Mode",
       "shadow": false,
       "fast": "ice_fang_fast",
       "charged": "avalanche",

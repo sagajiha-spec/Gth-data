@@ -26,23 +26,6 @@
  ],
  "boxes": [
   {
-   "id": "remote3_1c",
-   "name": {
-    "ko": "리모트 레이드패스 3개 박스"
-   },
-   "price": 1,
-   "contents": [
-    {
-     "itemId": "item_remote_raid_ticket",
-     "count": 3
-    }
-   ],
-   "note": {
-    "ko": "가끔 특가(가격 1)로 등장"
-   },
-   "recurring": true
-  },
-  {
    "id": "pbp99",
    "name": {
     "ko": "프리미엄 배틀패스 99개 박스"

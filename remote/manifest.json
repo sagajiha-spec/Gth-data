@@ -1,17 +1,17 @@
 {
  "schemaVersion": 2,
- "publishedAt": "2026-11-22T00:45:31Z",
+ "publishedAt": "2026-11-22T03:59:37Z",
  "minAppVersion": "1.0.0",
  "files": [
   {
    "path": "events.json",
-   "version": 9,
-   "sha256": "130677b02965e2f829d78d9caa10775be430f157f92cab9f89411010eddff7dd"
+   "version": 10,
+   "sha256": "fa7edce73e13b59bcf0ca0743656617ec06ec66061f97b3b8a5a6aec46713e87"
   },
   {
    "path": "raids.json",
-   "version": 11,
-   "sha256": "8c5f7db3130b00f1a13b73a7a41266d13f60174a9e9755104f73383262e982d9"
+   "version": 12,
+   "sha256": "d0d73d15496ddd278845bad6d27295bdf6548189c02703edb1eb6fb579688c58"
   },
   {
    "path": "config.json",
@@ -25,8 +25,8 @@
   },
   {
    "path": "shop.json",
-   "version": 2,
-   "sha256": "784f3afcad3278ff6d17808e1c24136f9b4b0d64b3e08249bf368b72254d3705"
+   "version": 3,
+   "sha256": "558cfdc906b7184221aec729260f2e7c78947e63dd747ddac14bf992c970e8d8"
   },
   {
    "path": "rocket.json",
