@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "updatedAt": "2026-11-22T09:51:06Z",
+ "updatedAt": "2026-11-22T10:13:19Z",
  "_comment": "자동 생성 파일 — 직접 고치지 말고 schedule/events.json·raids.json을 고친 뒤 tools/build_schedule.py 실행. title은 9개 언어, label은 종류 이름.",
  "events": [
   {
@@ -43,6 +43,81 @@
     "https://pokemon.gamepedia.jp/go/archives/119476",
     "https://pokemongo-raku.com/post161481",
     "https://www.poke-toku.com/events/choose-your-path-twilight-trails-2026"
+   ],
+   "about": {
+    "ko": "「Twilight Trails」 시즌(9/8 10:00 ~ 12/1 10:00 현지). 시즌 동안 요일 보너스(시닉 선데이 등)와 매달 GO 패스가 이어지고, GO 패스 마일스톤을 달성하면 그 달 끝까지 보너스가 켜져요.",
+    "ja": "シーズン「Twilight Trails」（9/8 10:00〜12/1 10:00 現地）。期間中は曜日ボーナスと毎月のGOパスが続き、GOパスのマイルストーンを達成するとその月の終わりまでボーナスが付きます。",
+    "en": "The Twilight Trails Season (Sep 8, 10:00 – Dec 1, 10:00 local). Weekly Daily Discoveries and a monthly GO Pass run all season; reaching GO Pass milestones turns on bonuses until that pass ends.",
+    "zh-Hant": "「Twilight Trails」季節（9/8 10:00～12/1 10:00 當地）。期間內每週有每日發現加成，每月有GO通行證；達成GO通行證里程碑後，加成會持續到該月通行證結束。",
+    "zh-Hans": "「Twilight Trails」季节（9/8 10:00～12/1 10:00 当地）。期间内每周有每日发现加成，每月有GO通行证；达成GO通行证里程碑后，加成会持续到该月通行证结束。",
+    "fr": "Saison « Twilight Trails » (du 8/9 10 h au 1/12 10 h, heure locale). Bonus quotidiens hebdomadaires et Pass GO mensuel pendant toute la saison ; atteindre les paliers du Pass GO active des bonus jusqu'à la fin du Pass.",
+    "de": "Saison „Twilight Trails“ (8.9., 10:00 – 1.12., 10:00 Ortszeit). Wöchentliche Tagesboni und ein monatlicher GO-Pass laufen die ganze Saison; Meilensteine im GO-Pass schalten Boni bis zum Ende des Passes frei.",
+    "es": "Temporada «Twilight Trails» (del 8/9 a las 10:00 al 1/12 a las 10:00, hora local). Bonificaciones diarias semanales y un Pase GO mensual durante toda la temporada; alcanzar hitos del Pase GO activa bonificaciones hasta que termina el pase.",
+    "it": "Stagione «Twilight Trails» (dall'8/9 ore 10:00 all'1/12 ore 10:00, ora locale). Bonus giornalieri settimanali e un GO Pass mensile per tutta la stagione; raggiungere i traguardi del GO Pass attiva bonus fino alla fine del pass."
+   },
+   "detailSources": [
+    "https://pokemongo.com/seasons/twilight-trails",
+    "https://leekduck.com/events/season-24-twilight-trails/",
+    "https://pokemongohub.net/post/guide/twilight-trails-season/",
+    "https://www.dexerto.com/pokemon/pokemon-go-twilight-trails-season-guide-dates-events-raids-more-3402729/"
+   ],
+   "bonuses": [
+    {
+     "code": "custom",
+     "text": {
+      "ko": "GO 패스 랭크 1: 교환 시 사탕 1개 추가, 트레이너 레벨 31 이상과 교환하면 사탕XL 확정",
+      "ja": "GOパス ランク1：交換でアメ+1、TL31以上のトレーナーとの交換でアメXL確定",
+      "en": "GO Pass Rank 1: +1 Candy from trades, guaranteed Candy XL when trading with Trainers level 31+",
+      "zh-Hant": "GO通行證等級1：交換多得1顆糖果，與31級以上訓練家交換必得糖果XL",
+      "zh-Hans": "GO通行证等级1：交换多得1颗糖果，与31级以上训练家交换必得糖果XL",
+      "fr": "Pass GO rang 1 : +1 Bonbon par échange, Bonbon L garanti avec un Dresseur niveau 31+",
+      "de": "GO-Pass Rang 1: +1 Bonbon beim Tausch, garantiertes Bonbon XL bei Trainern ab Level 31",
+      "es": "Pase GO rango 1: +1 caramelo por intercambio, Caramelo++ garantizado con Entrenadores de nivel 31+",
+      "it": "GO Pass grado 1: +1 Caramella per scambio, Caramella L garantita con Allenatori di livello 31+"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "GO 패스 랭크 25: 선물 열기·받기·보관 한도 증가",
+      "ja": "GOパス ランク25：ギフトを開ける・もらう・持てる上限アップ",
+      "en": "GO Pass Rank 25: higher Gift open, receive and storage limits",
+      "zh-Hant": "GO通行證等級25：開啟・獲得・持有禮物上限提升",
+      "zh-Hans": "GO通行证等级25：开启・获得・持有礼物上限提升",
+      "fr": "Pass GO rang 25 : limites de Cadeaux (ouverture, obtention, stockage) augmentées",
+      "de": "GO-Pass Rang 25: höhere Limits für Geschenke (öffnen, erhalten, aufbewahren)",
+      "es": "Pase GO rango 25: más límite de regalos (abrir, recibir y guardar)",
+      "it": "GO Pass grado 25: limiti più alti per i Pacchi amicizia (aprire, ricevere, tenere)"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "GO 패스 랭크 50: 산책향로 지속 시간 2배",
+      "ja": "GOパス ランク50：おさんぽおこうの効果時間2倍",
+      "en": "GO Pass Rank 50: 2× Daily Adventure Incense duration",
+      "zh-Hant": "GO通行證等級50：散步小薰香持續時間2倍",
+      "zh-Hans": "GO通行证等级50：散步小熏香持续时间2倍",
+      "fr": "Pass GO rang 50 : durée de l'Encens d'aventure quotidienne ×2",
+      "de": "GO-Pass Rang 50: 2× Dauer des Täglichen Abenteuerrauchs",
+      "es": "Pase GO rango 50: 2× duración del Incienso de aventura diario",
+      "it": "GO Pass grado 50: durata dell'Aroma avventura giornaliera ×2"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "GO 패스 랭크 75: 알 부화 XP·별의모래 증가",
+      "ja": "GOパス ランク75：タマゴ孵化のXP・ほしのすなアップ",
+      "en": "GO Pass Rank 75: more XP and Stardust from hatching Eggs",
+      "zh-Hant": "GO通行證等級75：孵蛋XP・星星沙子增加",
+      "zh-Hans": "GO通行证等级75：孵蛋XP・星星沙子增加",
+      "fr": "Pass GO rang 75 : plus d'XP et de Poussière Étoile à l'éclosion",
+      "de": "GO-Pass Rang 75: mehr EP und Sternenstaub beim Schlüpfen",
+      "es": "Pase GO rango 75: más PX y polvoestelar al eclosionar Huevos",
+      "it": "GO Pass grado 75: più PE e polvere di stelle dalla schiusa delle Uova"
+     }
+    }
    ]
   },
   {
@@ -79,7 +154,54 @@
    "pokemonRefs": [],
    "sourceUrl": "https://pokemongo.com/news",
    "footnoteIds": [],
-   "alarmPresetsMin": []
+   "alarmPresetsMin": [],
+   "about": {
+    "ko": "아디다스 협업 시간제한 리서치. 참여하는 아디다스·제휴 매장에 가서 포켓몬 GO를 열면 받을 수 있어요. 아바타용 아디다스 모자·재킷, XP, 별의모래, 루카리오 만남과 루카리오 메가 에너지를 받아요.",
+    "ja": "adidasコラボのタイムチャレンジ。参加しているadidas・提携店舗でPokémon GOを開くと受け取れます。着せ替え用のadidasキャップ・ジャケット、XP、ほしのすな、ルカリオとの出会い、ルカリオのメガエナジーがもらえます。",
+    "en": "adidas collaboration Timed Research. Open Pokémon GO at a participating adidas or partner store to get it. Rewards include an adidas cap and jacket for your avatar, XP, Stardust, a Lucario encounter and Lucario Mega Energy.",
+    "zh-Hant": "adidas合作限時調查。在參與活動的adidas・合作門市開啟Pokémon GO即可獲得。獎勵包括角色用adidas帽子・夾克、XP、星星沙子、與路卡利歐相遇及路卡利歐超級能量。",
+    "zh-Hans": "adidas合作限时调查。在参与活动的adidas・合作门店打开Pokémon GO即可获得。奖励包括角色用adidas帽子・夹克、XP、星星沙子、与路卡利欧相遇及路卡利欧超级能量。",
+    "fr": "Étude ponctuelle en collaboration avec adidas. Ouvrez Pokémon GO dans une boutique adidas ou partenaire participante pour l'obtenir. Récompenses : casquette et veste adidas pour l'avatar, XP, Poussière Étoile, rencontre avec Lucario et Méga-Énergie de Lucario.",
+    "de": "Befristete Forschung mit adidas. Öffne Pokémon GO in einem teilnehmenden adidas- oder Partnergeschäft, um sie zu erhalten. Belohnungen: adidas-Kappe und -Jacke für den Avatar, EP, Sternenstaub, eine Lucario-Begegnung und Lucario-Mega-Energie.",
+    "es": "Investigación temporal con adidas. Abre Pokémon GO en una tienda adidas o asociada participante para obtenerla. Recompensas: gorra y chaqueta adidas para el avatar, PX, polvoestelar, un encuentro con Lucario y Megaenergía de Lucario.",
+    "it": "Ricerca a tempo in collaborazione con adidas. Apri Pokémon GO in un negozio adidas o partner aderente per ottenerla. Ricompense: cappellino e giacca adidas per l'avatar, PE, polvere di stelle, un incontro con Lucario e Megaenergia di Lucario."
+   },
+   "detailSources": [
+    "https://pokemongo.com/news/pokemon-x-adidas-2026",
+    "https://leekduck.com/events/pokemon-x-adidas-2026/",
+    "https://pokemongohub.net/post/news/avatar-items-from-the-adidas-x-pokemon-collection-are-coming-to-pokemon-go/",
+    "https://serebii.net/pokemongo/todaysviewresearch/adidastimedresearch.shtml"
+   ],
+   "bonuses": [
+    {
+     "code": "custom",
+     "text": {
+      "ko": "매장에서 리서치 받기: 2027/1/15 20:00까지",
+      "ja": "店舗でリサーチ入手：2027/1/15 20:00まで",
+      "en": "Get the research at a store by Jan 15, 2027, 20:00",
+      "zh-Hant": "在門市領取調查：2027/1/15 20:00前",
+      "zh-Hans": "在门店领取调查：2027/1/15 20:00前",
+      "fr": "Obtenez l'étude en boutique avant le 15/1/2027 à 20 h",
+      "de": "Forschung im Geschäft bis 15.1.2027, 20:00 holen",
+      "es": "Consigue la investigación en tienda antes del 15/1/2027 a las 20:00",
+      "it": "Ottieni la ricerca in negozio entro il 15/1/2027 alle 20:00"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "과제 완료·보상 받기: 2027/2/13 20:00까지",
+      "ja": "タスク完了・報酬受け取り：2027/2/13 20:00まで",
+      "en": "Complete tasks and claim rewards by Feb 13, 2027, 20:00",
+      "zh-Hant": "完成任務・領取獎勵：2027/2/13 20:00前",
+      "zh-Hans": "完成任务・领取奖励：2027/2/13 20:00前",
+      "fr": "Terminez les tâches et récupérez les récompenses avant le 13/2/2027 à 20 h",
+      "de": "Aufgaben abschließen und Belohnungen holen bis 13.2.2027, 20:00",
+      "es": "Completa las tareas y reclama las recompensas antes del 13/2/2027 a las 20:00",
+      "it": "Completa le attività e riscatta le ricompense entro il 13/2/2027 alle 20:00"
+     }
+    }
+   ]
   },
   {
    "id": "go_pass-2026-11-03-go-pass-november",
@@ -115,7 +237,110 @@
    "pokemonRefs": [],
    "sourceUrl": "https://pokemongo.com/news",
    "footnoteIds": [],
-   "alarmPresetsMin": []
+   "alarmPresetsMin": [],
+   "about": {
+    "ko": "한 달 동안 패스 과제를 해서 GO 포인트를 모아 랭크를 올리는 보상 트랙(11/3 10:00 ~ 12/1 10:00 현지). 무료는 자동 지급, 디럭스(유료)는 보상이 더 많아요. 무료 랭크 100 보상은 그란돈(색이 다를 수 있음)이에요.",
+    "ja": "1か月間パスタスクでGOポイントを集めてランクを上げる報酬トラック（11/3 10:00〜12/1 10:00 現地）。無料版は自動で付与、デラックス（有料）は報酬が増えます。無料ランク100の報酬はグラードン（色違いの可能性あり）。",
+    "en": "A month-long reward track: complete Pass Tasks to earn GO Points and rank up (Nov 3, 10:00 – Dec 1, 10:00 local). The free pass is automatic; Deluxe (paid) adds more rewards. The free Rank 100 reward is Groudon (may be Shiny).",
+    "zh-Hant": "為期一個月的獎勵軌道：完成通行證任務獲得GO點數提升等級（11/3 10:00～12/1 10:00 當地）。免費版自動獲得，豪華版（付費）獎勵更多。免費等級100獎勵為固拉多（可能是異色）。",
+    "zh-Hans": "为期一个月的奖励轨道：完成通行证任务获得GO点数提升等级（11/3 10:00～12/1 10:00 当地）。免费版自动获得，豪华版（付费）奖励更多。免费等级100奖励为固拉多（可能是异色）。",
+    "fr": "Parcours de récompenses d'un mois : accomplissez les tâches du Pass pour gagner des points GO et monter de rang (du 3/11 10 h au 1/12 10 h, heure locale). Le Pass gratuit est automatique ; le Deluxe (payant) ajoute des récompenses. Au rang 100 gratuit : Groudon (peut être chromatique).",
+    "de": "Monatliche Belohnungsleiste: Pass-Aufgaben erledigen, GO-Punkte sammeln und aufsteigen (3.11., 10:00 – 1.12., 10:00 Ortszeit). Der kostenlose Pass kommt automatisch, Deluxe (kostenpflichtig) bietet mehr. Kostenlose Belohnung auf Rang 100: Groudon (kann schillernd sein).",
+    "es": "Recorrido de recompensas de un mes: completa tareas del pase para ganar puntos GO y subir de rango (del 3/11 a las 10:00 al 1/12 a las 10:00, hora local). El pase gratuito es automático; el Deluxe (de pago) da más recompensas. Rango 100 gratuito: Groudon (puede ser variocolor).",
+    "it": "Percorso di ricompense di un mese: completa le attività del pass per ottenere punti GO e salire di grado (dal 3/11 ore 10:00 all'1/12 ore 10:00, ora locale). Il pass gratuito è automatico; il Deluxe (a pagamento) dà più ricompense. Grado 100 gratuito: Groudon (può essere cromatico)."
+   },
+   "detailSources": [
+    "https://pokemongo.com/news/go-pass-november-2026",
+    "https://leekduck.com/events/go-pass-november-2026/",
+    "https://pokemongohub.net/post/guide/go-pass-november-2026/",
+    "https://pokemon.gameinfo.io/en/events/go-pass-november-2026"
+   ],
+   "bonuses": [
+    {
+     "code": "custom",
+     "text": {
+      "ko": "랭크 1: 교환 시 사탕 1개 추가, 레벨 31 이상과 교환하면 사탕XL 확정",
+      "ja": "ランク1：交換でアメ+1、TL31以上との交換でアメXL確定",
+      "en": "Rank 1: +1 Candy from trades, guaranteed Candy XL trading with level 31+ Trainers",
+      "zh-Hant": "等級1：交換多得1顆糖果，與31級以上交換必得糖果XL",
+      "zh-Hans": "等级1：交换多得1颗糖果，与31级以上交换必得糖果XL",
+      "fr": "Rang 1 : +1 Bonbon par échange, Bonbon L garanti avec un niveau 31+",
+      "de": "Rang 1: +1 Bonbon beim Tausch, Bonbon XL garantiert ab Level 31",
+      "es": "Rango 1: +1 caramelo por intercambio, Caramelo++ garantizado con nivel 31+",
+      "it": "Grado 1: +1 Caramella per scambio, Caramella L garantita con livello 31+"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "랭크 25: 선물 하루 40개 열기·포토디스크로 하루 125개 받기·10개 더 보관 (디럭스 50·150·20)",
+      "ja": "ランク25：ギフトを1日40個開封・フォトディスクで1日125個入手・10個多く所持（デラックスは50・150・20）",
+      "en": "Rank 25: open 40 Gifts/day, get 125/day from Photo Discs, hold 10 more (Deluxe: 50 · 150 · 20)",
+      "zh-Hant": "等級25：每天開啟40個禮物・從照片圓盤每天獲得125個・多持有10個（豪華版50・150・20）",
+      "zh-Hans": "等级25：每天开启40个礼物・从照片圆盘每天获得125个・多持有10个（豪华版50・150・20）",
+      "fr": "Rang 25 : ouvrir 40 Cadeaux/jour, en obtenir 125/jour via les Disques Photo, 10 de plus en stock (Deluxe : 50 · 150 · 20)",
+      "de": "Rang 25: 40 Geschenke/Tag öffnen, 125/Tag von Fotoscheiben, 10 mehr lagern (Deluxe: 50 · 150 · 20)",
+      "es": "Rango 25: abrir 40 regalos/día, conseguir 125/día de los Discos Foto, guardar 10 más (Deluxe: 50 · 150 · 20)",
+      "it": "Grado 25: aprire 40 Pacchi amicizia/giorno, riceverne 125/giorno dai Dischi Foto, tenerne 10 in più (Deluxe: 50 · 150 · 20)"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "랭크 50: 산책향로 지속 시간 2배",
+      "ja": "ランク50：おさんぽおこうの効果時間2倍",
+      "en": "Rank 50: 2× Daily Adventure Incense duration",
+      "zh-Hant": "等級50：散步小薰香持續時間2倍",
+      "zh-Hans": "等级50：散步小熏香持续时间2倍",
+      "fr": "Rang 50 : durée de l'Encens d'aventure quotidienne ×2",
+      "de": "Rang 50: 2× Dauer des Täglichen Abenteuerrauchs",
+      "es": "Rango 50: 2× duración del Incienso de aventura diario",
+      "it": "Grado 50: durata dell'Aroma avventura giornaliera ×2"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "랭크 75: 알 부화 XP·별의모래 증가",
+      "ja": "ランク75：タマゴ孵化のXP・ほしのすなアップ",
+      "en": "Rank 75: more XP and Stardust from hatching Eggs",
+      "zh-Hant": "等級75：孵蛋XP・星星沙子增加",
+      "zh-Hans": "等级75：孵蛋XP・星星沙子增加",
+      "fr": "Rang 75 : plus d'XP et de Poussière Étoile à l'éclosion",
+      "de": "Rang 75: mehr EP und Sternenstaub beim Schlüpfen",
+      "es": "Rango 75: más PX y polvoestelar al eclosionar",
+      "it": "Grado 75: più PE e polvere di stelle dalla schiusa"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "11/28 0:00 ~ 11/29 23:59 하루 GO 포인트 제한 없음",
+      "ja": "11/28 0:00〜11/29 23:59 GOポイントの1日の上限なし",
+      "en": "No daily GO Points limit Nov 28, 0:00 – Nov 29, 23:59",
+      "zh-Hant": "11/28 0:00～11/29 23:59 GO點數無每日上限",
+      "zh-Hans": "11/28 0:00～11/29 23:59 GO点数无每日上限",
+      "fr": "Pas de limite quotidienne de points GO du 28/11 0 h au 29/11 23 h 59",
+      "de": "Kein tägliches GO-Punkte-Limit vom 28.11., 0:00 bis 29.11., 23:59",
+      "es": "Sin límite diario de puntos GO del 28/11 0:00 al 29/11 23:59",
+      "it": "Nessun limite giornaliero di punti GO dal 28/11 0:00 al 29/11 23:59"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "보상은 12/3 10:00까지 받기",
+      "ja": "報酬は12/3 10:00までに受け取る",
+      "en": "Claim rewards by Dec 3, 10:00",
+      "zh-Hant": "獎勵請在12/3 10:00前領取",
+      "zh-Hans": "奖励请在12/3 10:00前领取",
+      "fr": "Récupérez les récompenses avant le 3/12 à 10 h",
+      "de": "Belohnungen bis 3.12., 10:00 abholen",
+      "es": "Reclama las recompensas antes del 3/12 a las 10:00",
+      "it": "Riscatta le ricompense entro il 3/12 alle 10:00"
+     }
+    }
+   ]
   },
   {
    "id": "scenic_sunday-2026-11-08",
@@ -125,7 +350,7 @@
    "start": "2026-11-08T00:00:00",
    "end": "2026-11-08T23:59:00",
    "title": {
-    "ko": "Scenic Sunday",
+    "ko": "시닉 선데이",
     "ja": "Scenic Sunday",
     "en": "Scenic Sunday",
     "zh-Hant": "Scenic Sunday",
@@ -245,6 +470,52 @@
    "alarmPresetsMin": [
     30,
     0
+   ],
+   "about": {
+    "ko": "GO배틀리그 기간(11/10 ~ 11/17, 21:00 UTC 시작·끝). 슈퍼리그, 하이퍼리그: 메가 에디션(2500 이하, 메가진화 포켓몬 사용 가능), 2026 GO LAIC 컵이 열려요.",
+    "ja": "GOバトルリーグ期間（11/10〜11/17、21:00 UTC開始・終了）。スーパーリーグ、ハイパーリーグ：メガエディション（2500以下、メガシンカポケモン使用可）、2026 GO LAICカップを開催。",
+    "en": "GO Battle League period (Nov 10 – Nov 17, starts/ends 21:00 UTC). Great League, Ultra League: Mega Edition (2,500 CP, Mega-Evolved Pokémon allowed) and the 2026 GO LAIC Cup.",
+    "zh-Hant": "GO對戰聯盟期間（11/10～11/17，21:00 UTC開始・結束）。舉辦超級聯盟、高級聯盟：超級進化版（2500以下，可使用超級進化寶可夢）、2026 GO LAIC盃。",
+    "zh-Hans": "GO对战联盟期间（11/10～11/17，21:00 UTC开始・结束）。举办超级联盟、高级联盟：超级进化版（2500以下，可使用超级进化宝可梦）、2026 GO LAIC杯。",
+    "fr": "Période de la Ligue de Combat GO (du 10/11 au 17/11, début et fin à 21 h UTC). Ligue Super, Ligue Hyper : édition Méga (2 500 PC, Pokémon méga-évolués autorisés) et Coupe GO LAIC 2026.",
+    "de": "GO-Kampfliga-Zeitraum (10.11. – 17.11., Start/Ende 21:00 UTC). Superliga, Hyperliga: Mega-Edition (2.500 WP, Mega-Pokémon erlaubt) und GO-LAIC-Cup 2026.",
+    "es": "Periodo de la Liga de Combates GO (del 10/11 al 17/11, empieza y acaba a las 21:00 UTC). Liga Super Ball, Liga Ultra Ball: edición Mega (2500 PC, Pokémon megaevolucionados permitidos) y Copa GO LAIC 2026.",
+    "it": "Periodo della Lega Lotte GO (dal 10/11 al 17/11, inizio e fine alle 21:00 UTC). Lega Mega, Lega Ultra: edizione Mega (2.500 PL, Pokémon megaevoluti ammessi) e Coppa GO LAIC 2026."
+   },
+   "detailSources": [
+    "https://pokemongo.com/news/go-battle-league-twilight-trails",
+    "https://pokemongohub.net/post/pvp/go-battle-league-twilight-trails-schedule-cups-events/",
+    "https://leekduck.com/events/gbl-twilight-trails_great-league_ultra-league-mega-edition_2026-go-laic-cup/"
+   ],
+   "bonuses": [
+    {
+     "code": "custom",
+     "text": {
+      "ko": "2026 GO LAIC 컵: CP 1500 이하, 불꽃·악·강철·페어리 타입과 전설·환상·울트라비스트 불가, 일부 포켓몬 금지",
+      "ja": "2026 GO LAICカップ：CP1500以下、ほのお・あく・はがね・フェアリータイプと伝説・幻・ウルトラビースト不可、一部ポケモン禁止",
+      "en": "2026 GO LAIC Cup: 1,500 CP; no Fire, Dark, Steel or Fairy types, no Legendary, Mythical or Ultra Beasts; some Pokémon banned",
+      "zh-Hant": "2026 GO LAIC盃：CP1500以下，不可使用火・惡・鋼・妖精屬性及傳說・幻・究極異獸，部分寶可夢禁用",
+      "zh-Hans": "2026 GO LAIC杯：CP1500以下，不可使用火・恶・钢・妖精属性及传说・幻・究极异兽，部分宝可梦禁用",
+      "fr": "Coupe GO LAIC 2026 : 1 500 PC ; types Feu, Ténèbres, Acier et Fée interdits, ainsi que légendaires, fabuleux et Ultra-Chimères ; certains Pokémon bannis",
+      "de": "GO-LAIC-Cup 2026: 1.500 WP; keine Feuer-, Unlicht-, Stahl- oder Feen-Typen, keine legendären, mysteriösen Pokémon oder Ultrabestien; einige Pokémon gesperrt",
+      "es": "Copa GO LAIC 2026: 1500 PC; sin tipos Fuego, Siniestro, Acero ni Hada, ni legendarios, singulares o Ultraentes; algunos Pokémon prohibidos",
+      "it": "Coppa GO LAIC 2026: 1.500 PL; esclusi i tipi Fuoco, Buio, Acciaio e Folletto, leggendari, misteriosi e Ultracreature; alcuni Pokémon vietati"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "이 기간엔 특별 보너스 없음 (11/9~11/15는 요일 보너스도 쉼)",
+      "ja": "この期間は特別ボーナスなし（11/9〜11/15は曜日ボーナスも休み）",
+      "en": "No special bonus this period (Daily Discoveries paused Nov 9–15)",
+      "zh-Hant": "本期間沒有特別加成（11/9～11/15每日發現加成暫停）",
+      "zh-Hans": "本期间没有特别加成（11/9～11/15每日发现加成暂停）",
+      "fr": "Pas de bonus spécial sur cette période (bonus quotidiens suspendus du 9 au 15/11)",
+      "de": "Kein Sonderbonus in diesem Zeitraum (Tagesboni vom 9.–15.11. pausiert)",
+      "es": "Sin bonificación especial en este periodo (bonificaciones diarias en pausa del 9 al 15/11)",
+      "it": "Nessun bonus speciale in questo periodo (bonus giornalieri sospesi dal 9 al 15/11)"
+     }
+    }
    ]
   },
   {
@@ -286,7 +557,147 @@
    "alarmPresetsMin": [
     60,
     0
+   ],
+   "about": {
+    "ko": "실제 사자자리 유성우에 맞춘 「메테노 유성우」(11/14 17:00 ~ 11/19 23:59 현지). 노란색 코어 메테노가 처음 나왔어요. 하늘에 별똥별이 떨어지는 연출이 있어요.",
+    "ja": "現実のしし座流星群に合わせた「メテノの流星群」（11/14 17:00〜11/19 23:59 現地）。黄色のコアのメテノが初登場。空に流れ星の演出があります。",
+    "en": "A Minior Shower timed to the real Leonids (Nov 14, 17:00 – Nov 19, 23:59 local). Yellow Core Minior debuted, with shooting stars in the in-game sky.",
+    "zh-Hant": "配合現實獅子座流星雨的「小隕星流星雨」（11/14 17:00～11/19 23:59 當地）。黃色核心的小隕星首次登場，天空會有流星特效。",
+    "zh-Hans": "配合现实狮子座流星雨的「小陨星流星雨」（11/14 17:00～11/19 23:59 当地）。黄色核心的小陨星首次登场，天空会有流星特效。",
+    "fr": "Pluie de Météno calée sur les Léonides réelles (du 14/11 17 h au 19/11 23 h 59, heure locale). Première apparition de Météno à noyau jaune, avec des étoiles filantes dans le ciel du jeu.",
+    "de": "Meteno-Schauer zu den echten Leoniden (14.11., 17:00 – 19.11., 23:59 Ortszeit). Meteno mit gelbem Kern feierte sein Debüt, mit Sternschnuppen am Spielhimmel.",
+    "es": "Lluvia de Minior coincidiendo con las Leónidas reales (del 14/11 a las 17:00 al 19/11 a las 23:59, hora local). Debutó Minior de núcleo amarillo, con estrellas fugaces en el cielo del juego.",
+    "it": "Pioggia di Minior in concomitanza con le Leonidi reali (dal 14/11 ore 17:00 al 19/11 ore 23:59, ora locale). Debutto di Minior dal nucleo giallo, con stelle cadenti nel cielo del gioco."
+   },
+   "detailSources": [
+    "https://pokemongo.com/news/minior-meteor-showers-2026",
+    "https://pokemongohub.net/post/event/minior-showers-leonid-november-2026/",
+    "https://leekduck.com/events/minior-showers-leonids-2026/",
+    "https://pokemongohub.net/post/guide/minior-showers/"
+   ],
+   "bonuses": [
+    {
+     "code": "custom",
+     "text": {
+      "ko": "매일 17:00~21:00 메테노가 더 자주 나와요",
+      "ja": "毎日17:00〜21:00 メテノに出会いやすい",
+      "en": "Minior appears more often daily 17:00–21:00",
+      "zh-Hant": "每天17:00～21:00 小隕星更常出現",
+      "zh-Hans": "每天17:00～21:00 小陨星更常出现",
+      "fr": "Météno apparaît plus souvent chaque jour de 17 h à 21 h",
+      "de": "Meteno erscheint täglich 17–21 Uhr häufiger",
+      "es": "Minior aparece más a menudo cada día de 17:00 a 21:00",
+      "it": "Minior appare più spesso ogni giorno dalle 17:00 alle 21:00"
+     },
+     "until": "21:00"
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "메테노를 잡으면 별의모래 1,000",
+      "ja": "メテノを捕まえるとほしのすな1,000",
+      "en": "1,000 Stardust for catching Minior",
+      "zh-Hant": "捕捉小隕星獲得1,000星星沙子",
+      "zh-Hans": "捕捉小陨星获得1,000星星沙子",
+      "fr": "1 000 Poussière Étoile en attrapant Météno",
+      "de": "1.000 Sternenstaub für das Fangen von Meteno",
+      "es": "1000 polvoestelar al atrapar a Minior",
+      "it": "1.000 polvere di stelle catturando Minior"
+     }
+    }
    ]
+  },
+  {
+   "id": "max_monday-2026-11-16",
+   "category": "max_monday",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-11-16T06:00:00",
+   "end": "2026-11-16T21:00:00",
+   "title": {
+    "ko": "맥스 먼데이",
+    "ja": "マックスマンデー",
+    "en": "Max Monday",
+    "zh-Hant": "極巨星期一",
+    "zh-Hans": "极巨星期一",
+    "fr": "Lundi Max",
+    "de": "Max-Montag",
+    "es": "Lunes Max",
+    "it": "Lunedì Max"
+   },
+   "label": {
+    "ko": "맥스 먼데이",
+    "ja": "マックスマンデー",
+    "en": "Max Monday",
+    "zh-Hant": "極巨星期一",
+    "zh-Hans": "极巨星期一",
+    "fr": "Lundi Max",
+    "de": "Max-Montag",
+    "es": "Lunes Max",
+    "it": "Lunedì Max"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    30,
+    0
+   ],
+   "sources": [
+    "https://leekduck.com/events/season-24-twilight-trails/",
+    "https://leekduck.com/events/season-23-forever-forward/",
+    "https://leekduck.com/events/season-22-memories-in-motion/",
+    "https://leekduck.com/events/max-mondays-2026-11-23/",
+    "https://leekduck.com/events/raidhour20261125/",
+    "https://leekduck.com/events/pokemonspotlighthour2026-11-26/",
+    "https://leekduck.com/events/pokemonspotlighthour2026-06-18/",
+    "https://pokemongohub.net/post/guide/max-monday-schedule/",
+    "https://pokemongohub.net/post/pvp/go-battle-league-twilight-trails-schedule-cups-events/",
+    "https://pokemongohub.net/post/news/pokemon-go-showcase-rewards-buffed/",
+    "https://pokemongohub.net/post/article/introducing-a-new-pokemon-go-feature-pokestop-showcases/",
+    "https://pokemongo.com/news/seasons--twilight-trails",
+    "https://pokemongo.com/news/go-battle-league-twilight-trails",
+    "https://pokemongo.com/ko/news/choose-your-path-forever-forward-2026",
+    "https://pokemongo.com/news/dynamax-max-mondays",
+    "https://pokemongo.com/news/pokestop-showcase-new-feature",
+    "https://www.dexerto.com/pokemon/pokemon-go-daily-discoveries-schedule-3328489/",
+    "https://dexerto.com/pokemon/what-are-pokestop-showcases-in-pokemon-go-2201728",
+    "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9Stop_Showcase",
+    "https://nintendowire.com/guides/pokemon-go/showcase-tuesday-for-november-17th-2026/",
+    "https://www.techtimes.com/articles/318216/20260611/pokemon-go-spotlight-hour-moves-thursdays-full-schedule-through-august-revealed.htm",
+    "https://leekduck.com/posts/crowned-energy-resource-zacian-zamazenta/",
+    "https://pokemongohub.net/post/news/zacian-and-zamazenta-debut-at-pokemon-go-fest-with-crowned-sword-crown-shield-energy/",
+    "https://pokemongo.com/news/crowned-energy-resource-zacian-zamazenta",
+    "https://bulbapedia.bulbagarden.net/wiki/Zacian_(GO)",
+    "https://bulbapedia.bulbagarden.net/wiki/Behemoth_Bash_(move)",
+    "https://leekduck.com/events/kyurem-fusion-raid-day/",
+    "https://pokemongo.com/news/kyurem-fusion-raid-day-2026",
+    "https://bulbapedia.bulbagarden.net/wiki/Kyurem_(GO)",
+    "https://leekduck.com/events/pokemon-fusions-debut-during-go-fest/",
+    "https://pokemongohub.net/post/guide/go-hub-guide-to-fusions-in-pokemon-go/",
+    "https://pokemongo.com/news/necrozma-fusion-raid-day-2024",
+    "https://bulbapedia.bulbagarden.net/wiki/Necrozma_(GO)",
+    "https://pokemongohub.net/post/guide/gigantamax-raids-in-pokemon-go-a-complete-guide/",
+    "https://bulbapedia.bulbagarden.net/wiki/Max_Move_(GO)",
+    "https://bulbapedia.bulbagarden.net/wiki/Gigantamax_(GO)",
+    "https://www.dittobase.com/pokemon-go/moves/g-max-wildfire",
+    "https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/latest.json",
+    "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Texts/Latest%20APK/JSON/i18n_korean.json"
+   ],
+   "about": {
+    "ko": "매주 월요일 6:00~21:00(현지). 파워스폿이 더 많이 생기고 더 자주 바뀌며, 그 주의 다이맥스 포켓몬이 맥스 배틀에 나와요. 직접 가서 하는 맥스 배틀에서 이기면 이상한사탕 XL 1개 확정.",
+    "ja": "毎週月曜6:00〜21:00（現地）。パワースポットが増えて入れ替わりも早くなり、その週のダイマックスポケモンがマックスバトルに登場。現地でマックスバトルに勝つとふしぎなアメXLが1個確定。",
+    "en": "Every Monday 6:00 a.m.–9:00 p.m. local. More Power Spots that refresh more often, featuring the week's Dynamax Pokémon in Max Battles. Win an in-person Max Battle for one guaranteed Rare Candy XL.",
+    "zh-Hant": "每週一6:00～21:00（當地）。能量點變多、更新更快，該週的極巨化寶可夢會出現在極巨對戰。親自參加極巨對戰獲勝，必定獲得1個神奇糖果XL。",
+    "zh-Hans": "每周一6:00～21:00（当地）。能量点变多、更新更快，该周的极巨化宝可梦会出现在极巨对战。亲自参加极巨对战获胜，必定获得1个神奇糖果XL。",
+    "fr": "Chaque lundi de 6 h à 21 h (heure locale). Plus de Zones Dynamax, renouvelées plus souvent, avec le Pokémon Dynamax de la semaine en Combats Max. Gagnez un Combat Max sur place pour 1 Super Bonbon XL garanti.",
+    "de": "Jeden Montag 6–21 Uhr (Ortszeit). Mehr Kraftquellen, die öfter wechseln, mit dem Dynamax-Pokémon der Woche in Dyna-Kämpfen. Ein vor Ort gewonnener Dyna-Kampf bringt garantiert 1 Sonderbonbon XL.",
+    "es": "Cada lunes de 6:00 a 21:00 (hora local). Más Puntos Energéticos que cambian más a menudo, con el Pokémon Dinamax de la semana en los combates Max. Gana un combate Max en persona para 1 Caramelo Raro XL asegurado.",
+    "it": "Ogni lunedì dalle 6:00 alle 21:00 (ora locale). Più Aree Power che cambiano più spesso, con il Pokémon Dynamax della settimana nelle lotte Dynamax. Vinci una lotta Dynamax di persona per 1 Caramella Rara XL garantita."
+   },
+   "weekly": "mon"
   },
   {
    "id": "raid_battles-2026-11-16-5-488-491",
@@ -335,6 +746,17 @@
     60,
     0
    ],
+   "about": {
+    "ko": "체육관 레이드에 나오는 보스 목록이에요. 5성·메가 보스는 보통 수요일 10:00(현지)에 바뀌고, 1성·3성 보스는 이벤트에 따라 바뀌어요.",
+    "ja": "ジムのレイドに登場するボスの一覧。★5・メガのボスはふだん水曜10:00（現地）に入れ替わり、★1・★3はイベントによって変わります。",
+    "en": "The current raid boss line-up at Gyms. Five-star and Mega bosses usually change on Wednesdays at 10:00 local; 1- and 3-star bosses change with events.",
+    "zh-Hant": "道館團體戰頭目一覽。五星・超級頭目通常在週三10:00（當地）更換，一星・三星依活動更換。",
+    "zh-Hans": "道馆团体战头目一览。五星・超级头目通常在周三10:00（当地）更换，一星・三星依活动更换。",
+    "fr": "Les boss de Raid actuels dans les Arènes. Les boss 5 étoiles et Méga changent en général le mercredi à 10 h ; ceux de 1 et 3 étoiles changent selon les événements.",
+    "de": "Die aktuellen Raid-Bosse in Arenen. 5-Sterne- und Mega-Bosse wechseln meist mittwochs um 10:00 Ortszeit; 1- und 3-Sterne-Bosse je nach Event.",
+    "es": "Los jefes de incursión actuales en los gimnasios. Los de 5 estrellas y Mega suelen cambiar el miércoles a las 10:00; los de 1 y 3 estrellas cambian con los eventos.",
+    "it": "I boss dei raid attuali nelle Palestre. Quelli da 5 stelle e Mega cambiano di solito il mercoledì alle 10:00; quelli da 1 e 3 stelle con gli eventi."
+   },
    "auto": "schedule/raids.json에서 자동 생성"
   },
   {
@@ -380,6 +802,17 @@
     60,
     0
    ],
+   "about": {
+    "ko": "체육관 레이드에 나오는 보스 목록이에요. 5성·메가 보스는 보통 수요일 10:00(현지)에 바뀌고, 1성·3성 보스는 이벤트에 따라 바뀌어요.",
+    "ja": "ジムのレイドに登場するボスの一覧。★5・メガのボスはふだん水曜10:00（現地）に入れ替わり、★1・★3はイベントによって変わります。",
+    "en": "The current raid boss line-up at Gyms. Five-star and Mega bosses usually change on Wednesdays at 10:00 local; 1- and 3-star bosses change with events.",
+    "zh-Hant": "道館團體戰頭目一覽。五星・超級頭目通常在週三10:00（當地）更換，一星・三星依活動更換。",
+    "zh-Hans": "道馆团体战头目一览。五星・超级头目通常在周三10:00（当地）更换，一星・三星依活动更换。",
+    "fr": "Les boss de Raid actuels dans les Arènes. Les boss 5 étoiles et Méga changent en général le mercredi à 10 h ; ceux de 1 et 3 étoiles changent selon les événements.",
+    "de": "Die aktuellen Raid-Bosse in Arenen. 5-Sterne- und Mega-Bosse wechseln meist mittwochs um 10:00 Ortszeit; 1- und 3-Sterne-Bosse je nach Event.",
+    "es": "Los jefes de incursión actuales en los gimnasios. Los de 5 estrellas y Mega suelen cambiar el miércoles a las 10:00; los de 1 y 3 estrellas cambian con los eventos.",
+    "it": "I boss dei raid attuali nelle Palestre. Quelli da 5 stelle e Mega cambiano di solito il mercoledì alle 10:00; quelli da 1 e 3 stelle con gli eventi."
+   },
    "auto": "schedule/raids.json에서 자동 생성"
   },
   {
@@ -425,6 +858,17 @@
     60,
     0
    ],
+   "about": {
+    "ko": "체육관 레이드에 나오는 보스 목록이에요. 5성·메가 보스는 보통 수요일 10:00(현지)에 바뀌고, 1성·3성 보스는 이벤트에 따라 바뀌어요.",
+    "ja": "ジムのレイドに登場するボスの一覧。★5・メガのボスはふだん水曜10:00（現地）に入れ替わり、★1・★3はイベントによって変わります。",
+    "en": "The current raid boss line-up at Gyms. Five-star and Mega bosses usually change on Wednesdays at 10:00 local; 1- and 3-star bosses change with events.",
+    "zh-Hant": "道館團體戰頭目一覽。五星・超級頭目通常在週三10:00（當地）更換，一星・三星依活動更換。",
+    "zh-Hans": "道馆团体战头目一览。五星・超级头目通常在周三10:00（当地）更换，一星・三星依活动更换。",
+    "fr": "Les boss de Raid actuels dans les Arènes. Les boss 5 étoiles et Méga changent en général le mercredi à 10 h ; ceux de 1 et 3 étoiles changent selon les événements.",
+    "de": "Die aktuellen Raid-Bosse in Arenen. 5-Sterne- und Mega-Bosse wechseln meist mittwochs um 10:00 Ortszeit; 1- und 3-Sterne-Bosse je nach Event.",
+    "es": "Los jefes de incursión actuales en los gimnasios. Los de 5 estrellas y Mega suelen cambiar el miércoles a las 10:00; los de 1 y 3 estrellas cambian con los eventos.",
+    "it": "I boss dei raid attuali nelle Palestre. Quelli da 5 stelle e Mega cambiano di solito il mercoledì alle 10:00; quelli da 1 e 3 stelle con gli eventi."
+   },
    "auto": "schedule/raids.json에서 자동 생성"
   },
   {
@@ -471,33 +915,149 @@
     "https://nintendowire.com/guides/pokemon-go/season-of-twilight-trails/dynamax-trails/",
     "https://www.theclick.gg/pokemon-go-dynamax-trails-2026/"
    ],
+   "about": {
+    "ko": "다이맥스 포켓몬이 주인공인 이벤트(11/16 10:00 ~ 11/23 20:00 현지). 파워스폿이 늘고 맥스배틀에 지금까지 나온 다이맥스 포켓몬(전설·환상 제외)이 나와요. 무료 GO 패스 「다이맥스 트레일」로 무한다이노를 1번 잡을 수 있어요.",
+    "ja": "ダイマックスポケモンが主役のイベント（11/16 10:00〜11/23 20:00 現地）。パワースポットが増え、マックスバトルにこれまで登場したダイマックスポケモン（伝説・幻を除く）が出現。無料のGOパス「Dynamax Trails」でムゲンダイナを1回ゲットできます。",
+    "en": "A Dynamax-themed event (Nov 16, 10:00 – Nov 23, 20:00 local). More Power Spots, and Max Battles feature every Dynamax Pokémon released so far (except Legendary and Mythical). The free GO Pass: Dynamax Trails lets you catch Eternatus once.",
+    "zh-Hant": "以極巨化寶可夢為主角的活動（11/16 10:00～11/23 20:00 當地）。能量點增加，極巨對戰會出現至今登場過的極巨化寶可夢（傳說・幻之寶可夢除外）。免費的GO通行證「Dynamax Trails」可捕捉1次無極汰那。",
+    "zh-Hans": "以极巨化宝可梦为主角的活动（11/16 10:00～11/23 20:00 当地）。能量点增加，极巨对战会出现至今登场过的极巨化宝可梦（传说・幻之宝可梦除外）。免费的GO通行证「Dynamax Trails」可捕捉1次无极汰那。",
+    "fr": "Événement Dynamax (du 16/11 10 h au 23/11 20 h, heure locale). Plus de Sources d'Énergie, et les Combats Dynamax proposent tous les Pokémon Dynamax déjà sortis (sauf légendaires et fabuleux). Le Pass GO gratuit « Dynamax Trails » permet d'attraper Éthernatos une fois.",
+    "de": "Dynamax-Event (16.11., 10:00 – 23.11., 20:00 Ortszeit). Mehr Kraftquellen, und in Dyna-Kämpfen erscheinen alle bisher erschienenen Dynamax-Pokémon (außer legendäre und mysteriöse). Mit dem kostenlosen GO-Pass „Dynamax Trails“ kannst du Endynalos einmal fangen.",
+    "es": "Evento Dinamax (del 16/11 a las 10:00 al 23/11 a las 20:00, hora local). Más nodos energéticos y en los Combates Max aparecen todos los Pokémon Dinamax lanzados hasta ahora (salvo legendarios y singulares). El Pase GO gratuito «Dynamax Trails» permite atrapar a Eternatus una vez.",
+    "it": "Evento Dynamax (dal 16/11 ore 10:00 al 23/11 ore 20:00, ora locale). Più Punti energetici e nelle Lotte Dynamax compaiono tutti i Pokémon Dynamax usciti finora (esclusi leggendari e misteriosi). Il GO Pass gratuito «Dynamax Trails» permette di catturare Eternatus una volta."
+   },
+   "detailSources": [
+    "https://pokemongo.com/news/dynamax-trails-eternamax-eternatus-2026",
+    "https://pokemongohub.net/post/event/dynamax-trails-eternatus-returns/",
+    "https://leekduck.com/events/dynamax-trails-2026/",
+    "https://leekduck.com/events/eternamax-eternatus-max-battles-2026/",
+    "https://www.gameleap.com/articles/pokemon-go-all-roads-lead-to-eternatus-s-return-during-the-dynamax"
+   ],
    "bonuses": [
     {
-     "code": "gopass_tier",
+     "code": "custom",
      "text": {
-      "ko": "GO 패스 15티어 달성: 포획 별의모래 2배",
-      "ja": "GOパス ティア15達成：捕獲時のほしのすな2倍",
-      "en": "GO Pass tier 15: 2× catch Stardust",
-      "zh-Hant": "GO通行證第15階：捕捉星星沙子2倍",
-      "zh-Hans": "GO通行证第15阶：捕捉星星沙子2倍",
-      "fr": "Pass GO palier 15 : Poussière de capture ×2",
-      "de": "GO-Pass Stufe 15: 2× Fang-Sternenstaub",
-      "es": "Pase GO nivel 15: 2× polvoestelar al atrapar",
-      "it": "Pass GO livello 15: 2× polvere di stelle per cattura"
+      "ko": "파워스폿이 평소보다 많이 나와요",
+      "ja": "パワースポットがいつもより多く出現",
+      "en": "More Power Spots than usual",
+      "zh-Hant": "能量點比平常更多",
+      "zh-Hans": "能量点比平常更多",
+      "fr": "Plus de Sources d'Énergie que d'habitude",
+      "de": "Mehr Kraftquellen als sonst",
+      "es": "Más nodos energéticos de lo habitual",
+      "it": "Più Punti energetici del solito"
      }
     },
     {
      "code": "custom",
      "text": {
-      "ko": "GO 패스: 다이맥스 트레일 자동 지급 · 무한다이노 1회 포획 가능",
-      "ja": "GOパス「Dynamax Trails」自動付与・ムゲンダイナを1回捕獲可能",
-      "en": "GO Pass: Dynamax Trails given automatically · catch Eternatus once",
-      "zh-Hant": "自動獲得GO通行證：Dynamax Trails・可捕捉無極汰那1次",
-      "zh-Hans": "自动获得GO通行证：Dynamax Trails・可捕捉无极汰那1次",
-      "fr": "Pass GO : Dynamax Trails offert · capturez Éthernatos une fois",
-      "de": "GO-Pass: Dynamax Trails automatisch · Endynalos einmal fangen",
-      "es": "Pase GO: Dynamax Trails gratis · atrapa a Eternatus una vez",
-      "it": "Pass GO: Dynamax Trails automatico · cattura Eternatus una volta"
+      "ko": "이벤트 포켓몬을 야생·맥스배틀에서 잡으면 맥스 파티클을 받을 수 있음 (Pokémon GO Plus + 등 자동 포획은 제외)",
+      "ja": "イベントのポケモンを野生・マックスバトルで捕まえるとマックス粒子がもらえることがある（Pokémon GO Plus +などの自動捕獲は対象外）",
+      "en": "Chance of Max Particles when catching event Pokémon in the wild or after Max Battles (not from auto-catch devices like Pokémon GO Plus +)",
+      "zh-Hant": "在野外或極巨對戰後捕捉活動寶可夢有機會獲得極巨粒子（Pokémon GO Plus +等自動捕捉除外）",
+      "zh-Hans": "在野外或极巨对战后捕捉活动宝可梦有机会获得极巨粒子（Pokémon GO Plus +等自动捕捉除外）",
+      "fr": "Chance d'obtenir des Particules Max en attrapant les Pokémon de l'événement (sauvages ou après un Combat Dynamax), sauf via un Pokémon GO Plus +",
+      "de": "Chance auf Dyna-Partikel beim Fangen von Event-Pokémon in freier Wildbahn oder nach Dyna-Kämpfen (nicht mit Pokémon GO Plus +)",
+      "es": "Probabilidad de Partículas Max al atrapar Pokémon del evento salvajes o tras Combates Max (no con Pokémon GO Plus +)",
+      "it": "Possibilità di Particelle Dynamax catturando i Pokémon dell'evento, selvatici o dopo le Lotte Dynamax (non con Pokémon GO Plus +)"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "GO 패스 랭크 15: 포획 별의모래 2배",
+      "ja": "GOパス ランク15：捕獲時のほしのすな2倍",
+      "en": "GO Pass Rank 15: 2× catch Stardust",
+      "zh-Hant": "GO通行證等級15：捕捉星星沙子2倍",
+      "zh-Hans": "GO通行证等级15：捕捉星星沙子2倍",
+      "fr": "Pass GO rang 15 : Poussière Étoile de capture ×2",
+      "de": "GO-Pass Rang 15: 2× Fang-Sternenstaub",
+      "es": "Pase GO rango 15: 2× polvoestelar al atrapar",
+      "it": "GO Pass grado 15: 2× polvere di stelle per cattura"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "GO 패스 랭크 35: 무한다이노 다이맥스포 모험 효과에 드는 사탕·별의모래 절반",
+      "ja": "GOパス ランク35：ムゲンダイナの「ダイマックスほう」冒険エフェクトに必要なアメ・ほしのすなが半分",
+      "en": "GO Pass Rank 35: half the Candy and Stardust to activate Eternatus's Dynamax Cannon Adventure Effect",
+      "zh-Hant": "GO通行證等級35：啟動無極汰那「極巨炮」冒險效果所需的糖果・星星沙子減半",
+      "zh-Hans": "GO通行证等级35：启动无极汰那「极巨炮」冒险效果所需的糖果・星星沙子减半",
+      "fr": "Pass GO rang 35 : moitié moins de Bonbons et de Poussière Étoile pour l'effet d'aventure Canon Dynamax d'Éthernatos",
+      "de": "GO-Pass Rang 35: halbe Bonbons und Sternenstaub für Endynalos' Abenteuereffekt Dynamax-Kanone",
+      "es": "Pase GO rango 35: mitad de caramelos y polvoestelar para el efecto de aventura Cañón Dinamax de Eternatus",
+      "it": "GO Pass grado 35: metà Caramelle e polvere di stelle per l'effetto avventura Cannone Dynamax di Eternatus"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "GO 패스 랭크 55: 맥스배틀 보상 사탕·사탕XL 추가",
+      "ja": "GOパス ランク55：マックスバトルのアメ・アメXLが追加",
+      "en": "GO Pass Rank 55: extra Candy and Candy XL from Max Battles",
+      "zh-Hant": "GO通行證等級55：極巨對戰額外獲得糖果・糖果XL",
+      "zh-Hans": "GO通行证等级55：极巨对战额外获得糖果・糖果XL",
+      "fr": "Pass GO rang 55 : Bonbons et Bonbons L en plus après les Combats Dynamax",
+      "de": "GO-Pass Rang 55: zusätzliche Bonbons und Bonbons XL aus Dyna-Kämpfen",
+      "es": "Pase GO rango 55: caramelos y Caramelos++ extra en Combates Max",
+      "it": "GO Pass grado 55: Caramelle e Caramelle L extra dalle Lotte Dynamax"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "11/21 11:00~14:00 무한다이맥스 무한다이노가 대부분의 파워스폿에 등장 (맥스 파티클 8배·수집 한도 2400)",
+      "ja": "11/21 11:00〜14:00 ムゲンダイマックスのムゲンダイナがほとんどのパワースポットに登場（マックス粒子8倍・上限2400）",
+      "en": "Nov 21, 11:00–14:00: Eternamax Eternatus takes over most Power Spots (8× Max Particles, 2,400 limit)",
+      "zh-Hant": "11/21 11:00～14:00 無極巨化無極汰那佔領大部分能量點（極巨粒子8倍・上限2400）",
+      "zh-Hans": "11/21 11:00～14:00 无极巨化无极汰那占领大部分能量点（极巨粒子8倍・上限2400）",
+      "fr": "21/11 de 11 h à 14 h : Éthernatos Infinimax sur la plupart des Sources d'Énergie (Particules Max ×8, limite 2 400)",
+      "de": "21.11., 11–14 Uhr: Unendynamax-Endynalos in den meisten Kraftquellen (8× Dyna-Partikel, Limit 2.400)",
+      "es": "21/11 de 11:00 a 14:00: Eternatus Dinamax Infinito en la mayoría de nodos energéticos (Partículas Max ×8, límite 2400)",
+      "it": "21/11 dalle 11:00 alle 14:00: Eternatus Dynamax Infinito nella maggior parte dei Punti energetici (Particelle Dynamax ×8, limite 2.400)"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "리모트 레이드 하루 제한 10 → 30 (11/20 21:00 ~ 11/22 02:00 UTC)",
+      "ja": "リモートレイドの1日の上限 10→30（11/20 21:00〜11/22 02:00 UTC）",
+      "en": "Daily Remote Raid limit 10 → 30 (Nov 20 21:00 – Nov 22 02:00 UTC)",
+      "zh-Hant": "遠距團體戰每日上限 10→30（11/20 21:00～11/22 02:00 UTC）",
+      "zh-Hans": "远距团体战每日上限 10→30（11/20 21:00～11/22 02:00 UTC）",
+      "fr": "Limite quotidienne de Raids à distance 10 → 30 (du 20/11 21 h au 22/11 2 h UTC)",
+      "de": "Tägliches Fern-Raid-Limit 10 → 30 (20.11. 21:00 – 22.11. 02:00 UTC)",
+      "es": "Límite diario de incursiones remotas 10 → 30 (del 20/11 21:00 al 22/11 02:00 UTC)",
+      "it": "Limite giornaliero raid da remoto 10 → 30 (dal 20/11 21:00 al 22/11 02:00 UTC)"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "11/19 18:00~19:00 스포트라이트 아워: 흥나숭·염버니·울머기, 포획 사탕 2배",
+      "ja": "11/19 18:00〜19:00 スポットライトアワー：サルノリ・ヒバニー・メッソン、捕獲時のアメ2倍",
+      "en": "Nov 19, 18:00–19:00 Spotlight Hour: Grookey, Scorbunny, Sobble, 2× catch Candy",
+      "zh-Hant": "11/19 18:00～19:00 聚光燈時刻：敲音猴・炎兔兒・淚眼蜥，捕捉糖果2倍",
+      "zh-Hans": "11/19 18:00～19:00 聚光灯时刻：敲音猴・炎兔儿・泪眼蜥，捕捉糖果2倍",
+      "fr": "19/11 de 18 h à 19 h, Heure Vedette : Ouistempo, Flambino, Larméléon, Bonbons de capture ×2",
+      "de": "19.11., 18–19 Uhr Rampenlicht-Stunde: Chimpep, Hopplo, Memmeon, 2× Fang-Bonbons",
+      "es": "19/11 de 18:00 a 19:00, Hora Destacada: Grookey, Scorbunny, Sobble, 2× caramelos al atrapar",
+      "it": "19/11 dalle 18:00 alle 19:00, Ora del Pokémon in evidenza: Grookey, Scorbunny, Sobble, 2× Caramelle per cattura"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "GO 패스 보상은 11/25 20:00까지 받기",
+      "ja": "GOパスの報酬は11/25 20:00までに受け取る",
+      "en": "Claim GO Pass rewards by Nov 25, 20:00",
+      "zh-Hant": "GO通行證獎勵請在11/25 20:00前領取",
+      "zh-Hans": "GO通行证奖励请在11/25 20:00前领取",
+      "fr": "Récupérez les récompenses du Pass GO avant le 25/11 à 20 h",
+      "de": "GO-Pass-Belohnungen bis 25.11., 20:00 abholen",
+      "es": "Reclama las recompensas del Pase GO antes del 25/11 a las 20:00",
+      "it": "Riscatta le ricompense del GO Pass entro il 25/11 alle 20:00"
      }
     }
    ]
@@ -543,33 +1103,64 @@
     "https://pokemongohub.net/post/event/pokemon-go-x-duolingo-duos-pokemon-party-timed-research-language-tag/",
     "https://www.dexerto.com/pokemon/pokemon-go-rewards-your-duolingo-lessons-with-a-chance-at-shiny-lucario-3428914/"
    ],
+   "about": {
+    "ko": "듀오링고 협업 시간제한 리서치. 듀오링고 앱의 「Duo's Pokémon Party」 퀘스트에서 서로 다른 7일 동안 레슨을 하면 개인 코드를 받고, 포켓몬 GO 웹스토어에서 입력하면 리서치가 열려요. 15개 언어 중 하나를 골라 진행하고, 특별한 배경의 루카리오 등을 만나며 일부 포켓몬에 언어 태그가 붙어요.",
+    "ja": "Duolingoコラボのタイムチャレンジ。Duolingoアプリのクエスト「Duo's Pokémon Party」で別々の7日間レッスンをすると個人コードがもらえ、Pokémon GO Webストアで入力するとリサーチが始まります。15言語から1つ選んで進め、スペシャル背景のルカリオなどに出会え、一部のポケモンに言語タグが付きます。",
+    "en": "Duolingo collaboration Timed Research. Do lessons on 7 different days in Duolingo's \"Duo's Pokémon Party\" quest to get a personal code, then redeem it in the Pokémon GO Web Store. Pick one of 15 languages; encounters include Lucario with a special background, and some Pokémon get a language tag.",
+    "zh-Hant": "Duolingo合作限時調查。在Duolingo的「Duo's Pokémon Party」任務中於不同的7天完成課程即可獲得個人代碼，在Pokémon GO網路商店兌換後開始調查。從15種語言中選擇一種，可遇到帶特別背景的路卡利歐等，部分寶可夢會附上語言標籤。",
+    "zh-Hans": "Duolingo合作限时调查。在Duolingo的「Duo's Pokémon Party」任务中于不同的7天完成课程即可获得个人代码，在Pokémon GO网店兑换后开始调查。从15种语言中选择一种，可遇到带特别背景的路卡利欧等，部分宝可梦会附上语言标签。",
+    "fr": "Étude ponctuelle en collaboration avec Duolingo. Faites des leçons sur 7 jours différents dans la quête « Duo's Pokémon Party » pour obtenir un code personnel, à utiliser sur la boutique en ligne Pokémon GO. Choisissez l'une des 15 langues ; rencontres dont Lucario avec un arrière-plan spécial, et certains Pokémon reçoivent une étiquette de langue.",
+    "de": "Befristete Forschung mit Duolingo. Mache an 7 verschiedenen Tagen Lektionen in Duolingos Quest „Duo's Pokémon Party“, um einen persönlichen Code zu erhalten, und löse ihn im Pokémon GO-Webstore ein. Wähle eine von 15 Sprachen; Begegnungen u. a. mit Lucario mit Spezialhintergrund, manche Pokémon erhalten ein Sprach-Etikett.",
+    "es": "Investigación temporal con Duolingo. Haz lecciones en 7 días distintos en la misión «Duo's Pokémon Party» de Duolingo para obtener un código personal y canjéalo en la tienda web de Pokémon GO. Elige uno de 15 idiomas; hay encuentros como Lucario con fondo especial y algunos Pokémon reciben una etiqueta de idioma.",
+    "it": "Ricerca a tempo in collaborazione con Duolingo. Fai lezioni in 7 giorni diversi nella missione «Duo's Pokémon Party» di Duolingo per ottenere un codice personale, da riscattare nel Web Store di Pokémon GO. Scegli una di 15 lingue; incontri come Lucario con sfondo speciale e alcuni Pokémon ricevono un'etichetta di lingua."
+   },
+   "detailSources": [
+    "https://pokemongo.com/news/duolingo-2026",
+    "https://leekduck.com/events/duolingo-timed-research-2026/",
+    "https://pokemongohub.net/post/event/pokemon-go-x-duolingo-duos-pokemon-party-timed-research-language-tag/",
+    "https://www.dexerto.com/pokemon/pokemon-go-rewards-your-duolingo-lessons-with-a-chance-at-shiny-lucario-3428914/"
+   ],
    "bonuses": [
     {
      "code": "custom",
      "text": {
-      "ko": "듀오링고 레슨을 서로 다른 7일 동안 해야 코드 받음 · 12월 21일 23:59까지 시작",
-      "ja": "Duolingoのレッスンを別々の7日間で行うとコード入手・12月21日23:59までに開始",
-      "en": "Do Duolingo lessons on 7 separate days for the code · join by Dec 21, 23:59",
-      "zh-Hant": "需在不同的7天完成Duolingo課程才能取得代碼・12月21日23:59前開始",
-      "zh-Hans": "需在不同的7天完成Duolingo课程才能获得代码・12月21日23:59前开始",
-      "fr": "Leçons Duolingo sur 7 jours différents pour le code · à commencer avant le 21 déc. 23 h 59",
-      "de": "Duolingo-Lektionen an 7 verschiedenen Tagen für den Code · bis 21. Dez. 23:59 starten",
-      "es": "Lecciones de Duolingo en 7 días distintos para el código · empieza antes del 21 dic. 23:59",
-      "it": "Lezioni Duolingo in 7 giorni diversi per il codice · inizia entro il 21 dic. 23:59"
+      "ko": "12/21 23:59까지 듀오링고 퀘스트 시작",
+      "ja": "12/21 23:59までにDuolingoのクエストを開始",
+      "en": "Join the Duolingo quest by Dec 21, 23:59",
+      "zh-Hant": "12/21 23:59前開始Duolingo任務",
+      "zh-Hans": "12/21 23:59前开始Duolingo任务",
+      "fr": "Rejoignez la quête Duolingo avant le 21/12 à 23 h 59",
+      "de": "Duolingo-Quest bis 21.12., 23:59 starten",
+      "es": "Únete a la misión de Duolingo antes del 21/12 a las 23:59",
+      "it": "Inizia la missione Duolingo entro il 21/12 alle 23:59"
      }
     },
     {
      "code": "custom",
      "text": {
-      "ko": "보상 받기 마감 12월 29일 23:59",
-      "ja": "報酬の受け取り期限 12月29日23:59",
-      "en": "Claim rewards by Dec 29, 23:59",
-      "zh-Hant": "領取獎勵期限12月29日23:59",
-      "zh-Hans": "领取奖励期限12月29日23:59",
-      "fr": "Récompenses à réclamer avant le 29 déc. 23 h 59",
-      "de": "Belohnungen bis 29. Dez. 23:59 abholen",
-      "es": "Reclama las recompensas antes del 29 dic. 23:59",
-      "it": "Riscatta i premi entro il 29 dic. 23:59"
+      "ko": "12/29 23:59까지 서로 다른 7일 레슨 채우기",
+      "ja": "12/29 23:59までに別々の7日間レッスン",
+      "en": "Finish lessons on 7 different days by Dec 29, 23:59",
+      "zh-Hant": "12/29 23:59前於不同的7天完成課程",
+      "zh-Hans": "12/29 23:59前于不同的7天完成课程",
+      "fr": "Leçons sur 7 jours différents avant le 29/12 à 23 h 59",
+      "de": "Lektionen an 7 verschiedenen Tagen bis 29.12., 23:59",
+      "es": "Lecciones en 7 días distintos antes del 29/12 a las 23:59",
+      "it": "Lezioni in 7 giorni diversi entro il 29/12 alle 23:59"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "리서치는 12/31 23:59에 끝나요",
+      "ja": "リサーチは12/31 23:59に終了",
+      "en": "The research ends Dec 31, 23:59",
+      "zh-Hant": "調查於12/31 23:59結束",
+      "zh-Hans": "调查于12/31 23:59结束",
+      "fr": "L'étude se termine le 31/12 à 23 h 59",
+      "de": "Die Forschung endet am 31.12., 23:59",
+      "es": "La investigación termina el 31/12 a las 23:59",
+      "it": "La ricerca termina il 31/12 alle 23:59"
      }
     }
    ]
@@ -762,6 +1353,52 @@
    "alarmPresetsMin": [
     30,
     0
+   ],
+   "about": {
+    "ko": "GO배틀리그 기간(11/18 ~ 11/25, 21:00 UTC 시작·끝). 하이퍼리그, 마스터리그: 메가 에디션(CP 제한 없음, 메가진화 포켓몬 사용 가능), 2026 GO LAIC 컵이 열려요.",
+    "ja": "GOバトルリーグ期間（11/18〜11/25、21:00 UTC開始・終了）。ハイパーリーグ、マスターリーグ：メガエディション（CP上限なし、メガシンカポケモン使用可）、2026 GO LAICカップを開催。",
+    "en": "GO Battle League period (Nov 18 – Nov 25, starts/ends 21:00 UTC). Ultra League, Master League: Mega Edition (no CP cap, Mega-Evolved Pokémon allowed) and the 2026 GO LAIC Cup.",
+    "zh-Hant": "GO對戰聯盟期間（11/18～11/25，21:00 UTC開始・結束）。舉辦高級聯盟、大師聯盟：超級進化版（無CP上限，可使用超級進化寶可夢）、2026 GO LAIC盃。",
+    "zh-Hans": "GO对战联盟期间（11/18～11/25，21:00 UTC开始・结束）。举办高级联盟、大师联盟：超级进化版（无CP上限，可使用超级进化宝可梦）、2026 GO LAIC杯。",
+    "fr": "Période de la Ligue de Combat GO (du 18/11 au 25/11, début et fin à 21 h UTC). Ligue Hyper, Ligue Master : édition Méga (sans limite de PC, Pokémon méga-évolués autorisés) et Coupe GO LAIC 2026.",
+    "de": "GO-Kampfliga-Zeitraum (18.11. – 25.11., Start/Ende 21:00 UTC). Hyperliga, Meisterliga: Mega-Edition (kein WP-Limit, Mega-Pokémon erlaubt) und GO-LAIC-Cup 2026.",
+    "es": "Periodo de la Liga de Combates GO (del 18/11 al 25/11, empieza y acaba a las 21:00 UTC). Liga Ultra Ball, Liga Master Ball: edición Mega (sin límite de PC, Pokémon megaevolucionados permitidos) y Copa GO LAIC 2026.",
+    "it": "Periodo della Lega Lotte GO (dal 18/11 al 25/11, inizio e fine alle 21:00 UTC). Lega Ultra, Lega Master: edizione Mega (nessun limite di PL, Pokémon megaevoluti ammessi) e Coppa GO LAIC 2026."
+   },
+   "detailSources": [
+    "https://pokemongo.com/news/go-battle-league-twilight-trails",
+    "https://pokemongohub.net/post/pvp/go-battle-league-twilight-trails-schedule-cups-events/",
+    "https://leekduck.com/events/gbl-twilight-trails_ultra-league_master-league-mega-edition_2026-go-laic-cup/"
+   ],
+   "bonuses": [
+    {
+     "code": "custom",
+     "text": {
+      "ko": "승리 보상 별의모래 4배 (세트 종료 보상 제외)",
+      "ja": "勝利報酬のほしのすな4倍（セット終了報酬は除く）",
+      "en": "4× Stardust from win rewards (not end-of-set rewards)",
+      "zh-Hant": "勝利獎勵星星沙子4倍（不含系列結束獎勵）",
+      "zh-Hans": "胜利奖励星星沙子4倍（不含系列结束奖励）",
+      "fr": "Poussière Étoile ×4 dans les récompenses de victoire (hors fin de série)",
+      "de": "4× Sternenstaub aus Siegesbelohnungen (nicht am Satzende)",
+      "es": "4× polvoestelar en recompensas por victoria (no al final del set)",
+      "it": "4× polvere di stelle nelle ricompense per le vittorie (non a fine serie)"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "11/19 GO 배틀 목요일: 하루 배틀 제한 5 → 10세트",
+      "ja": "11/19 GOバトル木曜日：1日のバトル上限 5→10セット",
+      "en": "Nov 19 GO Battle Thursday: daily battle limit 5 → 10 sets",
+      "zh-Hant": "11/19 GO對戰星期四：每日對戰上限 5→10組",
+      "zh-Hans": "11/19 GO对战星期四：每日对战上限 5→10组",
+      "fr": "19/11, jeudi Combat GO : limite quotidienne de 5 → 10 séries",
+      "de": "19.11. GO-Kampf-Donnerstag: tägliches Limit 5 → 10 Sätze",
+      "es": "19/11, jueves de combates GO: límite diario de 5 → 10 sets",
+      "it": "19/11, giovedì Lotte GO: limite giornaliero da 5 → 10 serie"
+     }
+    }
    ]
   },
   {
@@ -772,7 +1409,7 @@
    "start": "2026-11-19T00:00:00",
    "end": "2026-11-19T23:59:00",
    "title": {
-    "ko": "GO Battle Thursday",
+    "ko": "고배틀 썰스데이",
     "ja": "GO Battle Thursday",
     "en": "GO Battle Thursday",
     "zh-Hant": "GO Battle Thursday",
@@ -907,30 +1544,37 @@
     0
    ],
    "about": {
-    "ko": "매주 목요일 18:00~19:00(현지). 정해진 포켓몬이 야생에 많이 나오고, 보너스 1개(예: 잡기 사탕 2배, 잡기 별의모래 2배)가 붙어요.",
-    "ja": "毎週木曜18:00〜19:00（現地）。決まったポケモンが野生にたくさん出現し、ボーナスが1つ（例：捕獲時のアメ2倍、ほしのすな2倍）付きます。",
-    "en": "Every Thursday 6–7 p.m. local. One featured Pokémon appears much more often in the wild, with one bonus (e.g. 2× catch Candy or 2× catch Stardust).",
-    "zh-Hant": "每週四18:00～19:00（當地）。指定的寶可夢在野外大量出現，並附帶1個加成（例：捕捉糖果2倍、捕捉星星沙子2倍）。",
-    "zh-Hans": "每周四18:00～19:00（当地）。指定的宝可梦在野外大量出现，并附带1个加成（例：捕捉糖果2倍、捕捉星星沙子2倍）。",
-    "fr": "Chaque jeudi de 18 h à 19 h (heure locale). Un Pokémon vedette apparaît bien plus souvent à l'état sauvage, avec un bonus (ex. Bonbons ×2 ou Poussière Étoile ×2 à la capture).",
-    "de": "Jeden Donnerstag 18–19 Uhr (Ortszeit). Ein bestimmtes Pokémon erscheint viel häufiger in der Wildnis, dazu ein Bonus (z. B. 2× Bonbons oder 2× Sternenstaub beim Fangen).",
-    "es": "Cada jueves de 18:00 a 19:00 (hora local). Un Pokémon destacado aparece mucho más en estado salvaje, con una bonificación (p. ej., 2× caramelos o 2× polvos estelares al atrapar).",
-    "it": "Ogni giovedì dalle 18:00 alle 19:00 (ora locale). Un Pokémon in evidenza appare molto più spesso allo stato selvatico, con un bonus (es. caramelle ×2 o polvere di stelle ×2 alla cattura)."
+    "ko": "11/19 18:00~19:00(현지) 스포트라이트 아워. 흥나숭·염버니·울머기가 야생에 아주 많이 나오고, 1시간 동안 포획 사탕 2배예요.",
+    "ja": "11/19 18:00〜19:00（現地）のスポットライトアワー。サルノリ・ヒバニー・メッソンが野生にたくさん出現し、1時間、捕獲時のアメ2倍。",
+    "en": "Spotlight Hour, Nov 19 18:00–19:00 local. Grookey, Scorbunny and Sobble appear much more often in the wild, with 2× catch Candy for the hour.",
+    "zh-Hant": "11/19 18:00～19:00（當地）聚光燈時刻。敲音猴・炎兔兒・淚眼蜥大量出現在野外，1小時內捕捉糖果2倍。",
+    "zh-Hans": "11/19 18:00～19:00（当地）聚光灯时刻。敲音猴・炎兔儿・泪眼蜥大量出现在野外，1小时内捕捉糖果2倍。",
+    "fr": "Heure Vedette le 19/11 de 18 h à 19 h (heure locale). Ouistempo, Flambino et Larméléon apparaissent bien plus souvent à l'état sauvage, avec Bonbons de capture ×2 pendant l'heure.",
+    "de": "Rampenlicht-Stunde am 19.11., 18–19 Uhr Ortszeit. Chimpep, Hopplo und Memmeon erscheinen viel häufiger in freier Wildbahn, eine Stunde lang 2× Fang-Bonbons.",
+    "es": "Hora Destacada el 19/11 de 18:00 a 19:00 (hora local). Grookey, Scorbunny y Sobble aparecen mucho más en estado salvaje, con 2× caramelos al atrapar durante la hora.",
+    "it": "Ora del Pokémon in evidenza il 19/11 dalle 18:00 alle 19:00 (ora locale). Grookey, Scorbunny e Sobble appaiono molto più spesso allo stato selvatico, con 2× Caramelle per cattura per un'ora."
    },
+   "detailSources": [
+    "https://leekduck.com/events/pokemonspotlighthour2026-11-19/",
+    "https://pokemongohub.net/post/guide/spotlight-hour-schedule/",
+    "https://pokemongohub.net/post/event/dynamax-trails-eternatus-returns/",
+    "https://leekduck.com/events/dynamax-trails-2026/"
+   ],
    "bonuses": [
     {
-     "code": "catch_candy_2x",
+     "code": "custom",
      "text": {
-      "ko": "포획 사탕 2배",
-      "ja": "捕獲時のアメ2倍",
-      "en": "2× Catch Candy",
-      "zh-Hant": "捕捉糖果2倍",
-      "zh-Hans": "捕捉糖果2倍",
-      "fr": "Bonbons de capture ×2",
-      "de": "2× Fang-Bonbons",
-      "es": "2× caramelos al atrapar",
-      "it": "2× caramelle per cattura"
-     }
+      "ko": "포획 사탕 2배 (18:00~19:00)",
+      "ja": "捕獲時のアメ2倍（18:00〜19:00）",
+      "en": "2× catch Candy (18:00–19:00)",
+      "zh-Hant": "捕捉糖果2倍（18:00～19:00）",
+      "zh-Hans": "捕捉糖果2倍（18:00～19:00）",
+      "fr": "Bonbons de capture ×2 (18 h – 19 h)",
+      "de": "2× Fang-Bonbons (18–19 Uhr)",
+      "es": "2× caramelos al atrapar (18:00–19:00)",
+      "it": "2× Caramelle per cattura (18:00–19:00)"
+     },
+     "until": "19:00"
     }
    ]
   },
@@ -942,7 +1586,7 @@
    "start": "2026-11-20T00:00:00",
    "end": "2026-11-20T23:59:00",
    "title": {
-    "ko": "Friendship Friday",
+    "ko": "프렌드쉽 프라이데이",
     "ja": "Friendship Friday",
     "en": "Friendship Friday",
     "zh-Hant": "Friendship Friday",
@@ -1067,6 +1711,81 @@
    "alarmPresetsMin": [
     60,
     0
+   ],
+   "about": {
+    "ko": "다이맥스 트레일 이벤트 중 맥스배틀 데이(11/21 11:00~14:00 현지). 무한다이맥스 무한다이노가 대부분의 파워스폿을 차지해요. 이긴 뒤 잡을 수는 없고, 대신 무한다이노 사탕·사탕XL을 많이 받아요.",
+    "ja": "Dynamax Trails期間中のマックスバトル・デイ（11/21 11:00〜14:00 現地）。ムゲンダイマックスのムゲンダイナがほとんどのパワースポットに登場。勝っても捕まえられず、代わりにムゲンダイナのアメ・アメXLがたくさんもらえます。",
+    "en": "Max Battle Day during Dynamax Trails (Nov 21, 11:00–14:00 local). Eternamax Eternatus takes over most Power Spots. It can't be caught after winning; you get lots of Eternatus Candy and Candy XL instead.",
+    "zh-Hant": "Dynamax Trails期間的極巨對戰日（11/21 11:00～14:00 當地）。無極巨化無極汰那佔領大部分能量點。獲勝後無法捕捉，改為獲得大量無極汰那糖果・糖果XL。",
+    "zh-Hans": "Dynamax Trails期间的极巨对战日（11/21 11:00～14:00 当地）。无极巨化无极汰那占领大部分能量点。获胜后无法捕捉，改为获得大量无极汰那糖果・糖果XL。",
+    "fr": "Journée Combats Dynamax pendant Dynamax Trails (21/11 de 11 h à 14 h, heure locale). Éthernatos Infinimax occupe la plupart des Sources d'Énergie. Impossible de l'attraper après la victoire : vous recevez beaucoup de Bonbons et Bonbons L Éthernatos à la place.",
+    "de": "Dyna-Kampftag während Dynamax Trails (21.11., 11–14 Uhr Ortszeit). Unendynamax-Endynalos besetzt die meisten Kraftquellen. Nach dem Sieg kann es nicht gefangen werden; stattdessen gibt es viele Endynalos-Bonbons und -Bonbons XL.",
+    "es": "Día de Combates Max durante Dynamax Trails (21/11 de 11:00 a 14:00, hora local). Eternatus Dinamax Infinito ocupa la mayoría de nodos energéticos. No se puede atrapar tras ganar; en su lugar recibes muchos caramelos y Caramelos++ de Eternatus.",
+    "it": "Giornata delle Lotte Dynamax durante Dynamax Trails (21/11 dalle 11:00 alle 14:00, ora locale). Eternatus Dynamax Infinito occupa la maggior parte dei Punti energetici. Non si può catturare dopo la vittoria; in cambio ricevi molte Caramelle e Caramelle L di Eternatus."
+   },
+   "detailSources": [
+    "https://leekduck.com/events/eternamax-eternatus-max-battles-2026/",
+    "https://leekduck.com/events/dynamax-trails-2026/",
+    "https://pokemongohub.net/post/event/dynamax-trails-eternatus-returns/",
+    "https://pokemongo.com/news/dynamax-trails-eternamax-eternatus-2026"
+   ],
+   "bonuses": [
+    {
+     "code": "custom",
+     "text": {
+      "ko": "파워스폿 갱신이 빨라짐",
+      "ja": "パワースポットの更新が早くなる",
+      "en": "Power Spots refresh more often",
+      "zh-Hant": "能量點更新更頻繁",
+      "zh-Hans": "能量点更新更频繁",
+      "fr": "Les Sources d'Énergie se renouvellent plus souvent",
+      "de": "Kraftquellen erneuern sich häufiger",
+      "es": "Los nodos energéticos se renuevan más a menudo",
+      "it": "I Punti energetici si rinnovano più spesso"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "파워스폿 맥스 파티클 8배, 수집 한도 2,400",
+      "ja": "パワースポットのマックス粒子8倍、上限2,400",
+      "en": "8× Max Particles from Power Spots, 2,400 collection limit",
+      "zh-Hant": "能量點極巨粒子8倍，收集上限2,400",
+      "zh-Hans": "能量点极巨粒子8倍，收集上限2,400",
+      "fr": "Particules Max ×8 aux Sources d'Énergie, limite 2 400",
+      "de": "8× Dyna-Partikel aus Kraftquellen, Limit 2.400",
+      "es": "8× Partículas Max de nodos energéticos, límite 2400",
+      "it": "8× Particelle Dynamax dai Punti energetici, limite 2.400"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "리모트 레이드 하루 제한 10 → 30 (11/20 21:00 ~ 11/22 02:00 UTC)",
+      "ja": "リモートレイドの1日の上限 10→30（11/20 21:00〜11/22 02:00 UTC）",
+      "en": "Daily Remote Raid limit 10 → 30 (Nov 20 21:00 – Nov 22 02:00 UTC)",
+      "zh-Hant": "遠距團體戰每日上限 10→30（11/20 21:00～11/22 02:00 UTC）",
+      "zh-Hans": "远距团体战每日上限 10→30（11/20 21:00～11/22 02:00 UTC）",
+      "fr": "Limite quotidienne de Raids à distance 10 → 30 (du 20/11 21 h au 22/11 2 h UTC)",
+      "de": "Tägliches Fern-Raid-Limit 10 → 30 (20.11. 21:00 – 22.11. 02:00 UTC)",
+      "es": "Límite diario de incursiones remotas 10 → 30 (del 20/11 21:00 al 22/11 02:00 UTC)",
+      "it": "Limite giornaliero raid da remoto 10 → 30 (dal 20/11 21:00 al 22/11 02:00 UTC)"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "무한다이노는 GO 패스로 1번만 잡을 수 있음 (이미 있으면 사탕 100개)",
+      "ja": "ムゲンダイナはGOパスで1回だけ（すでに持っていればアメ100個）",
+      "en": "Eternatus can be caught once, via the GO Pass (100 Candy if you already have it)",
+      "zh-Hant": "無極汰那只能透過GO通行證捕捉1次（已有則獲得100顆糖果）",
+      "zh-Hans": "无极汰那只能通过GO通行证捕捉1次（已有则获得100颗糖果）",
+      "fr": "Éthernatos ne s'attrape qu'une fois, via le Pass GO (100 Bonbons si vous l'avez déjà)",
+      "de": "Endynalos nur einmal über den GO-Pass fangbar (100 Bonbons, falls schon vorhanden)",
+      "es": "Eternatus solo se atrapa una vez, con el Pase GO (100 caramelos si ya lo tienes)",
+      "it": "Eternatus si cattura una sola volta, tramite il GO Pass (100 Caramelle se lo hai già)"
+     }
+    }
    ]
   },
   {
@@ -1118,6 +1837,17 @@
     "https://leekduck.com/events/november-communityday2026/",
     "https://www.dexerto.com/pokemon/pokemon-go-community-day-event-1773041/"
    ],
+   "about": {
+    "ko": "한 달에 한 번 정해진 포켓몬이 3시간(보통 14:00~17:00 현지) 야생에 아주 많이 나오는 날. 그 시간이나 그 뒤 몇 시간 안에 진화하면 특별한 기술을 배우고, 별의모래·사탕 같은 보너스가 붙어요.",
+    "ja": "月に1回、特定のポケモンが3時間（通常14:00〜17:00 現地）野生にたくさん出現する日。その時間やその後の数時間に進化させると特別な技を覚え、ほしのすな・アメなどのボーナスが付きます。",
+    "en": "Once a month, a featured Pokémon appears in huge numbers for 3 hours (usually 14:00–17:00 local). Evolving it during or a few hours after gives an exclusive move, plus bonuses like extra Stardust or Candy.",
+    "zh-Hant": "每月一次，指定寶可夢在3小時內（通常14:00～17:00 當地）大量出現在野外。在活動期間或之後數小時內進化可學會特別招式，並有星星沙子・糖果等加成。",
+    "zh-Hans": "每月一次，指定宝可梦在3小时内（通常14:00～17:00 当地）大量出现在野外。在活动期间或之后数小时内进化可学会特别招式，并有星星沙子・糖果等加成。",
+    "fr": "Une fois par mois, un Pokémon vedette apparaît en masse pendant 3 h (souvent 14 h – 17 h, heure locale). Le faire évoluer pendant ou quelques heures après donne une capacité exclusive, avec des bonus comme plus de Poussière Étoile ou de Bonbons.",
+    "de": "Einmal im Monat erscheint ein Pokémon 3 Stunden lang massenhaft (meist 14–17 Uhr Ortszeit). Entwickelst du es währenddessen oder einige Stunden danach, lernt es eine exklusive Attacke; dazu Boni wie mehr Sternenstaub oder Bonbons.",
+    "es": "Una vez al mes, un Pokémon protagonista aparece en masa durante 3 horas (normalmente de 14:00 a 17:00, hora local). Si lo evolucionas durante o unas horas después aprende un movimiento exclusivo, y hay bonificaciones como más polvoestelar o caramelos.",
+    "it": "Una volta al mese un Pokémon protagonista appare in massa per 3 ore (di solito 14:00–17:00, ora locale). Facendolo evolvere durante o qualche ora dopo impara una mossa esclusiva, con bonus come più polvere di stelle o Caramelle."
+   },
    "bonuses": [
     {
      "code": "legacy_evolve",
@@ -1350,7 +2080,7 @@
    "start": "2026-11-22T00:00:00",
    "end": "2026-11-22T23:59:00",
    "title": {
-    "ko": "Scenic Sunday",
+    "ko": "시닉 선데이",
     "ja": "Scenic Sunday",
     "en": "Scenic Sunday",
     "zh-Hant": "Scenic Sunday",
@@ -1533,40 +2263,29 @@
     "https://www.pocketgamer.com/pokemon-go/twlight-trails-event/",
     "https://pokemon.gameinfo.io/en/events/twilight-wishes-2026"
    ],
+   "about": {
+    "ko": "별이 빛나는 밤하늘이 테마인 이벤트(11/24 10:00 ~ 11/30 20:00 현지). 별가사리·리그레의 색이 다른 포켓몬 확률이 올라가고, 1성·3성·메가 레이드에 이벤트 포켓몬이 나와요. 무료 GO 패스 랭크를 올리면 교환·별의모래 보너스가 켜져요.",
+    "ja": "星空がテーマのイベント（11/24 10:00〜11/30 20:00 現地）。ヒトデマン・リグレーの色違いに出会いやすくなり、★1・★3・メガレイドにイベントのポケモンが登場。無料GOパスのランクを上げると交換・ほしのすなのボーナスが付きます。",
+    "en": "A starry-sky event (Nov 24, 10:00 – Nov 30, 20:00 local). Higher Shiny odds for Staryu and Elgyem, and event Pokémon in 1-star, 3-star and Mega Raids. Ranking up the free GO Pass unlocks trade and Stardust bonuses.",
+    "zh-Hant": "以星空為主題的活動（11/24 10:00～11/30 20:00 當地）。海星星・小灰怪的異色機率提升，一星・三星・超級團體戰會出現活動寶可夢。提升免費GO通行證等級可開啟交換與星星沙子加成。",
+    "zh-Hans": "以星空为主题的活动（11/24 10:00～11/30 20:00 当地）。海星星・小灰怪的异色概率提升，一星・三星・超级团体战会出现活动宝可梦。提升免费GO通行证等级可开启交换与星星沙子加成。",
+    "fr": "Événement sous un ciel étoilé (du 24/11 10 h au 30/11 20 h, heure locale). Plus de chances de Stari et Lewsor chromatiques, et Pokémon de l'événement en Raids 1 étoile, 3 étoiles et Méga. Monter de rang dans le Pass GO gratuit débloque des bonus d'échange et de Poussière Étoile.",
+    "de": "Sternenhimmel-Event (24.11., 10:00 – 30.11., 20:00 Ortszeit). Höhere Shiny-Chance für Sterndu und Pygraulon, Event-Pokémon in 1-Sterne-, 3-Sterne- und Mega-Raids. Mit Rängen im kostenlosen GO-Pass schaltest du Tausch- und Sternenstaub-Boni frei.",
+    "es": "Evento de cielo estrellado (del 24/11 a las 10:00 al 30/11 a las 20:00, hora local). Más probabilidad de Staryu y Elgyem variocolor, y Pokémon del evento en incursiones de 1 y 3 estrellas y Mega. Subir de rango en el Pase GO gratuito activa bonificaciones de intercambio y polvoestelar.",
+    "it": "Evento a tema cielo stellato (dal 24/11 ore 10:00 al 30/11 ore 20:00, ora locale). Più probabilità di Staryu ed Elgyem cromatici e Pokémon dell'evento nei raid da 1 e 3 stelle e nei Megaraid. Salire di grado nel GO Pass gratuito sblocca bonus per scambi e polvere di stelle."
+   },
+   "detailSources": [
+    "https://pokemongo.com/news/twilight-wishes-2026",
+    "https://pokemongohub.net/post/event/twilight-wishes-2026/",
+    "https://leekduck.com/events/twilight-wishes-2026/",
+    "https://www.gameleap.com/articles/pokemon-go-gather-beneath-a-starry-sky-during-twilight-wishes"
+   ],
    "bonuses": [
-    {
-     "code": "gopass_tier",
-     "text": {
-      "ko": "GO 패스 1티어 달성: 교환 시 반짝반짝 확률·반짝반짝 프렌드 확률 증가",
-      "ja": "GOパス ティア1達成：交換でキラになる確率・キラフレンド確率アップ",
-      "en": "GO Pass tier 1: Higher chance of Lucky trades and Lucky Friends",
-      "zh-Hant": "GO通行證第1階：交換亮晶晶與亮晶晶好朋友機率提升",
-      "zh-Hans": "GO通行证第1阶：交换亮晶晶与亮晶晶好朋友概率提升",
-      "fr": "Pass GO palier 1 : Plus de chances d'échanges chanceux et d'amis chanceux",
-      "de": "GO-Pass Stufe 1: Höhere Chance auf Glückstausch und Glücksfreunde",
-      "es": "Pase GO nivel 1: Más probabilidad de intercambios con suerte y amigos con suerte",
-      "it": "Pass GO livello 1: Più probabilità di scambi fortunati e amici fortunati"
-     }
-    },
-    {
-     "code": "gopass_tier",
-     "text": {
-      "ko": "GO 패스 10티어 달성: 포획 별의모래 2배 (디럭스 3배)",
-      "ja": "GOパス ティア10達成：捕獲時のほしのすな2倍（デラックスは3倍）",
-      "en": "GO Pass tier 10: 2× catch Stardust (3× with Deluxe)",
-      "zh-Hant": "GO通行證第10階：捕捉星星沙子2倍（豪華版3倍）",
-      "zh-Hans": "GO通行证第10阶：捕捉星星沙子2倍（豪华版3倍）",
-      "fr": "Pass GO palier 10 : Poussière de capture ×2 (×3 en Deluxe)",
-      "de": "GO-Pass Stufe 10: 2× Fang-Sternenstaub (3× mit Deluxe)",
-      "es": "Pase GO nivel 10: 2× polvoestelar al atrapar (3× con Deluxe)",
-      "it": "Pass GO livello 10: 2× polvere di stelle per cattura (3× con Deluxe)"
-     }
-    },
     {
      "code": "custom",
      "text": {
-      "ko": "별가사리·리그레 이로치 확률 증가",
-      "ja": "ヒトデマン・リグレーの色違い確率アップ",
+      "ko": "별가사리·리그레 색이 다른 포켓몬 확률 증가",
+      "ja": "ヒトデマン・リグレーの色違いに出会いやすい",
       "en": "Higher Shiny odds for Staryu and Elgyem",
       "zh-Hant": "海星星・小灰怪異色機率提升",
       "zh-Hans": "海星星・小灰怪异色概率提升",
@@ -1574,6 +2293,62 @@
       "de": "Höhere Shiny-Chance für Sterndu und Pygraulon",
       "es": "Más probabilidad de Staryu y Elgyem variocolor",
       "it": "Più probabilità di Staryu ed Elgyem cromatici"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "GO 패스 랭크 1: 교환 시 반짝반짝 확률·반짝반짝 프렌드 확률 증가",
+      "ja": "GOパス ランク1：交換でキラになる確率・キラフレンド確率アップ",
+      "en": "GO Pass Rank 1: higher chance of Lucky trades and Lucky Friends",
+      "zh-Hant": "GO通行證等級1：交換亮晶晶與亮晶晶好朋友機率提升",
+      "zh-Hans": "GO通行证等级1：交换亮晶晶与亮晶晶好朋友概率提升",
+      "fr": "Pass GO rang 1 : plus de chances d'échanges chanceux et d'Amis Chanceux",
+      "de": "GO-Pass Rang 1: höhere Chance auf Glückstausch und Glücks-Freunde",
+      "es": "Pase GO rango 1: más probabilidad de intercambios con suerte y amistad con suerte",
+      "it": "GO Pass grado 1: più probabilità di scambi fortunati e Amici fortunati"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "GO 패스 랭크 10: 포획 별의모래 2배 (디럭스는 3배)",
+      "ja": "GOパス ランク10：捕獲時のほしのすな2倍（デラックスは3倍）",
+      "en": "GO Pass Rank 10: 2× catch Stardust (3× with Deluxe)",
+      "zh-Hant": "GO通行證等級10：捕捉星星沙子2倍（豪華版3倍）",
+      "zh-Hans": "GO通行证等级10：捕捉星星沙子2倍（豪华版3倍）",
+      "fr": "Pass GO rang 10 : Poussière Étoile de capture ×2 (×3 en Deluxe)",
+      "de": "GO-Pass Rang 10: 2× Fang-Sternenstaub (3× mit Deluxe)",
+      "es": "Pase GO rango 10: 2× polvoestelar al atrapar (3× con Deluxe)",
+      "it": "GO Pass grado 10: 2× polvere di stelle per cattura (3× con Deluxe)"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "필드리서치 포켓몬이 11/26 10:00에 바뀜",
+      "ja": "フィールドリサーチのポケモンが11/26 10:00に入れ替わり",
+      "en": "Field Research encounters change on Nov 26 at 10:00",
+      "zh-Hant": "實地調查的寶可夢於11/26 10:00更換",
+      "zh-Hans": "实地调查的宝可梦于11/26 10:00更换",
+      "fr": "Les rencontres des Études de terrain changent le 26/11 à 10 h",
+      "de": "Feldforschungs-Begegnungen wechseln am 26.11. um 10:00",
+      "es": "Los encuentros de investigación de campo cambian el 26/11 a las 10:00",
+      "it": "Gli incontri delle ricerche sul campo cambiano il 26/11 alle 10:00"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "GO 패스 보상은 12/2 20:00까지 받기",
+      "ja": "GOパスの報酬は12/2 20:00までに受け取る",
+      "en": "Claim GO Pass rewards by Dec 2, 20:00",
+      "zh-Hant": "GO通行證獎勵請在12/2 20:00前領取",
+      "zh-Hans": "GO通行证奖励请在12/2 20:00前领取",
+      "fr": "Récupérez les récompenses du Pass GO avant le 2/12 à 20 h",
+      "de": "GO-Pass-Belohnungen bis 2.12., 20:00 abholen",
+      "es": "Reclama las recompensas del Pase GO antes del 2/12 a las 20:00",
+      "it": "Riscatta le ricompense del GO Pass entro il 2/12 alle 20:00"
      }
     }
    ]
@@ -1706,6 +2481,53 @@
    "alarmPresetsMin": [
     30,
     0
+   ],
+   "about": {
+    "ko": "시즌 마지막 GO배틀리그 기간(11/24 ~ 12/1, 21:00 UTC 시작·끝). 마스터리그와 메가 캐치컵: 슈퍼리그 에디션이 열려요. 메가 캐치컵은 CP 1500 이하, 메가진화 포켓몬 사용 가능, 이번 시즌(9/8~12/1)에 잡은 포켓몬만 쓸 수 있어요.",
+    "ja": "シーズン最後のGOバトルリーグ期間（11/24〜12/1、21:00 UTC開始・終了）。マスターリーグとメガキャッチカップ：スーパーリーグエディションを開催。メガキャッチカップはCP1500以下、メガシンカ可、今シーズン（9/8〜12/1）に捕まえたポケモンのみ。",
+    "en": "The Season's last GO Battle League period (Nov 24 – Dec 1, starts/ends 21:00 UTC). Master League and Mega Catch Cup: Great League Edition — 1,500 CP, Mega-Evolved Pokémon allowed, only Pokémon caught this Season (Sep 8 – Dec 1).",
+    "zh-Hant": "本季最後的GO對戰聯盟期間（11/24～12/1，21:00 UTC開始・結束）。舉辦大師聯盟與超級捕捉盃：超級聯盟版。超級捕捉盃為CP1500以下，可使用超級進化，只能使用本季（9/8～12/1）捕捉的寶可夢。",
+    "zh-Hans": "本季最后的GO对战联盟期间（11/24～12/1，21:00 UTC开始・结束）。举办大师联盟与超级捕捉杯：超级联盟版。超级捕捉杯为CP1500以下，可使用超级进化，只能使用本季（9/8～12/1）捕捉的宝可梦。",
+    "fr": "Dernière période de Ligue de Combat GO de la saison (du 24/11 au 1/12, début et fin à 21 h UTC). Ligue Master et Coupe Méga Capture : édition Ligue Super — 1 500 PC, Pokémon méga-évolués autorisés, uniquement des Pokémon attrapés cette saison (8/9 – 1/12).",
+    "de": "Letzter GO-Kampfliga-Zeitraum der Saison (24.11. – 1.12., Start/Ende 21:00 UTC). Meisterliga und Mega-Fang-Cup: Superliga-Edition — 1.500 WP, Mega-Pokémon erlaubt, nur in dieser Saison (8.9. – 1.12.) gefangene Pokémon.",
+    "es": "Último periodo de la Liga de Combates GO de la temporada (del 24/11 al 1/12, empieza y acaba a las 21:00 UTC). Liga Master Ball y Copa Megacaptura: edición Liga Super Ball — 1500 PC, megaevolucionados permitidos, solo Pokémon atrapados esta temporada (8/9 – 1/12).",
+    "it": "Ultimo periodo della Lega Lotte GO della stagione (dal 24/11 all'1/12, inizio e fine alle 21:00 UTC). Lega Master e Coppa Megacattura: edizione Lega Mega — 1.500 PL, Pokémon megaevoluti ammessi, solo Pokémon catturati in questa stagione (8/9 – 1/12)."
+   },
+   "detailSources": [
+    "https://pokemongo.com/news/go-battle-league-twilight-trails",
+    "https://pokemongohub.net/post/pvp/go-battle-league-twilight-trails-schedule-cups-events/",
+    "https://leekduck.com/events/gbl-twilight-trails_master-league_mega-catch-cup-great-league-edition/",
+    "https://www.serebii.net/pokemongo/battleleague/season28.shtml"
+   ],
+   "bonuses": [
+    {
+     "code": "custom",
+     "text": {
+      "ko": "승리 보상 별의모래 4배 (세트 종료 보상 제외)",
+      "ja": "勝利報酬のほしのすな4倍（セット終了報酬は除く）",
+      "en": "4× Stardust from win rewards (not end-of-set rewards)",
+      "zh-Hant": "勝利獎勵星星沙子4倍（不含系列結束獎勵）",
+      "zh-Hans": "胜利奖励星星沙子4倍（不含系列结束奖励）",
+      "fr": "Poussière Étoile ×4 dans les récompenses de victoire (hors fin de série)",
+      "de": "4× Sternenstaub aus Siegesbelohnungen (nicht am Satzende)",
+      "es": "4× polvoestelar en recompensas por victoria (no al final del set)",
+      "it": "4× polvere di stelle nelle ricompense per le vittorie (non a fine serie)"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "11/26 GO 배틀 목요일: 하루 배틀 제한 5 → 10세트",
+      "ja": "11/26 GOバトル木曜日：1日のバトル上限 5→10セット",
+      "en": "Nov 26 GO Battle Thursday: daily battle limit 5 → 10 sets",
+      "zh-Hant": "11/26 GO對戰星期四：每日對戰上限 5→10組",
+      "zh-Hans": "11/26 GO对战星期四：每日对战上限 5→10组",
+      "fr": "26/11, jeudi Combat GO : limite quotidienne de 5 → 10 séries",
+      "de": "26.11. GO-Kampf-Donnerstag: tägliches Limit 5 → 10 Sätze",
+      "es": "26/11, jueves de combates GO: límite diario de 5 → 10 sets",
+      "it": "26/11, giovedì Lotte GO: limite giornaliero da 5 → 10 serie"
+     }
+    }
    ]
   },
   {
@@ -1751,6 +2573,17 @@
     60,
     0
    ],
+   "about": {
+    "ko": "체육관 레이드에 나오는 보스 목록이에요. 5성·메가 보스는 보통 수요일 10:00(현지)에 바뀌고, 1성·3성 보스는 이벤트에 따라 바뀌어요.",
+    "ja": "ジムのレイドに登場するボスの一覧。★5・メガのボスはふだん水曜10:00（現地）に入れ替わり、★1・★3はイベントによって変わります。",
+    "en": "The current raid boss line-up at Gyms. Five-star and Mega bosses usually change on Wednesdays at 10:00 local; 1- and 3-star bosses change with events.",
+    "zh-Hant": "道館團體戰頭目一覽。五星・超級頭目通常在週三10:00（當地）更換，一星・三星依活動更換。",
+    "zh-Hans": "道馆团体战头目一览。五星・超级头目通常在周三10:00（当地）更换，一星・三星依活动更换。",
+    "fr": "Les boss de Raid actuels dans les Arènes. Les boss 5 étoiles et Méga changent en général le mercredi à 10 h ; ceux de 1 et 3 étoiles changent selon les événements.",
+    "de": "Die aktuellen Raid-Bosse in Arenen. 5-Sterne- und Mega-Bosse wechseln meist mittwochs um 10:00 Ortszeit; 1- und 3-Sterne-Bosse je nach Event.",
+    "es": "Los jefes de incursión actuales en los gimnasios. Los de 5 estrellas y Mega suelen cambiar el miércoles a las 10:00; los de 1 y 3 estrellas cambian con los eventos.",
+    "it": "I boss dei raid attuali nelle Palestre. Quelli da 5 stelle e Mega cambiano di solito il mercoledì alle 10:00; quelli da 1 e 3 stelle con gli eventi."
+   },
    "auto": "schedule/raids.json에서 자동 생성"
   },
   {
@@ -1796,6 +2629,17 @@
     60,
     0
    ],
+   "about": {
+    "ko": "체육관 레이드에 나오는 보스 목록이에요. 5성·메가 보스는 보통 수요일 10:00(현지)에 바뀌고, 1성·3성 보스는 이벤트에 따라 바뀌어요.",
+    "ja": "ジムのレイドに登場するボスの一覧。★5・メガのボスはふだん水曜10:00（現地）に入れ替わり、★1・★3はイベントによって変わります。",
+    "en": "The current raid boss line-up at Gyms. Five-star and Mega bosses usually change on Wednesdays at 10:00 local; 1- and 3-star bosses change with events.",
+    "zh-Hant": "道館團體戰頭目一覽。五星・超級頭目通常在週三10:00（當地）更換，一星・三星依活動更換。",
+    "zh-Hans": "道馆团体战头目一览。五星・超级头目通常在周三10:00（当地）更换，一星・三星依活动更换。",
+    "fr": "Les boss de Raid actuels dans les Arènes. Les boss 5 étoiles et Méga changent en général le mercredi à 10 h ; ceux de 1 et 3 étoiles changent selon les événements.",
+    "de": "Die aktuellen Raid-Bosse in Arenen. 5-Sterne- und Mega-Bosse wechseln meist mittwochs um 10:00 Ortszeit; 1- und 3-Sterne-Bosse je nach Event.",
+    "es": "Los jefes de incursión actuales en los gimnasios. Los de 5 estrellas y Mega suelen cambiar el miércoles a las 10:00; los de 1 y 3 estrellas cambian con los eventos.",
+    "it": "I boss dei raid attuali nelle Palestre. Quelli da 5 stelle e Mega cambiano di solito il mercoledì alle 10:00; quelli da 1 e 3 stelle con gli eventi."
+   },
    "auto": "schedule/raids.json에서 자동 생성"
   },
   {
@@ -1862,7 +2706,7 @@
    "start": "2026-11-26T00:00:00",
    "end": "2026-11-26T23:59:00",
    "title": {
-    "ko": "GO Battle Thursday",
+    "ko": "고배틀 썰스데이",
     "ja": "GO Battle Thursday",
     "en": "GO Battle Thursday",
     "zh-Hant": "GO Battle Thursday",
@@ -1989,30 +2833,36 @@
     0
    ],
    "about": {
-    "ko": "매주 목요일 18:00~19:00(현지). 정해진 포켓몬이 야생에 많이 나오고, 보너스 1개(예: 잡기 사탕 2배, 잡기 별의모래 2배)가 붙어요.",
-    "ja": "毎週木曜18:00〜19:00（現地）。決まったポケモンが野生にたくさん出現し、ボーナスが1つ（例：捕獲時のアメ2倍、ほしのすな2倍）付きます。",
-    "en": "Every Thursday 6–7 p.m. local. One featured Pokémon appears much more often in the wild, with one bonus (e.g. 2× catch Candy or 2× catch Stardust).",
-    "zh-Hant": "每週四18:00～19:00（當地）。指定的寶可夢在野外大量出現，並附帶1個加成（例：捕捉糖果2倍、捕捉星星沙子2倍）。",
-    "zh-Hans": "每周四18:00～19:00（当地）。指定的宝可梦在野外大量出现，并附带1个加成（例：捕捉糖果2倍、捕捉星星沙子2倍）。",
-    "fr": "Chaque jeudi de 18 h à 19 h (heure locale). Un Pokémon vedette apparaît bien plus souvent à l'état sauvage, avec un bonus (ex. Bonbons ×2 ou Poussière Étoile ×2 à la capture).",
-    "de": "Jeden Donnerstag 18–19 Uhr (Ortszeit). Ein bestimmtes Pokémon erscheint viel häufiger in der Wildnis, dazu ein Bonus (z. B. 2× Bonbons oder 2× Sternenstaub beim Fangen).",
-    "es": "Cada jueves de 18:00 a 19:00 (hora local). Un Pokémon destacado aparece mucho más en estado salvaje, con una bonificación (p. ej., 2× caramelos o 2× polvos estelares al atrapar).",
-    "it": "Ogni giovedì dalle 18:00 alle 19:00 (ora locale). Un Pokémon in evidenza appare molto più spesso allo stato selvatico, con un bonus (es. caramelle ×2 o polvere di stelle ×2 alla cattura)."
+    "ko": "11/26 18:00~19:00(현지) 스포트라이트 아워. 음뱃이 야생에 아주 많이 나오고, 1시간 동안 포획 사탕 2배예요.",
+    "ja": "11/26 18:00〜19:00（現地）のスポットライトアワー。オンバットが野生にたくさん出現し、1時間、捕獲時のアメ2倍。",
+    "en": "Spotlight Hour, Nov 26 18:00–19:00 local. Noibat appears much more often in the wild, with 2× catch Candy for the hour.",
+    "zh-Hant": "11/26 18:00～19:00（當地）聚光燈時刻。嗡蝠大量出現在野外，1小時內捕捉糖果2倍。",
+    "zh-Hans": "11/26 18:00～19:00（当地）聚光灯时刻。嗡蝠大量出现在野外，1小时内捕捉糖果2倍。",
+    "fr": "Heure Vedette le 26/11 de 18 h à 19 h (heure locale). Sonistrelle apparaît bien plus souvent à l'état sauvage, avec Bonbons de capture ×2 pendant l'heure.",
+    "de": "Rampenlicht-Stunde am 26.11., 18–19 Uhr Ortszeit. eF-eM erscheint viel häufiger in freier Wildbahn, eine Stunde lang 2× Fang-Bonbons.",
+    "es": "Hora Destacada el 26/11 de 18:00 a 19:00 (hora local). Noibat aparece mucho más en estado salvaje, con 2× caramelos al atrapar durante la hora.",
+    "it": "Ora del Pokémon in evidenza il 26/11 dalle 18:00 alle 19:00 (ora locale). Noibat appare molto più spesso allo stato selvatico, con 2× Caramelle per cattura per un'ora."
    },
+   "detailSources": [
+    "https://leekduck.com/events/pokemonspotlighthour2026-11-26/",
+    "https://pokemongohub.net/post/guide/spotlight-hour-schedule/",
+    "https://www.dittobase.com/pokemon-go/events/noibat-spotlight-hour-november-26-2026"
+   ],
    "bonuses": [
     {
-     "code": "catch_candy_2x",
+     "code": "custom",
      "text": {
-      "ko": "포획 사탕 2배",
-      "ja": "捕獲時のアメ2倍",
-      "en": "2× Catch Candy",
-      "zh-Hant": "捕捉糖果2倍",
-      "zh-Hans": "捕捉糖果2倍",
-      "fr": "Bonbons de capture ×2",
-      "de": "2× Fang-Bonbons",
-      "es": "2× caramelos al atrapar",
-      "it": "2× caramelle per cattura"
-     }
+      "ko": "포획 사탕 2배 (18:00~19:00)",
+      "ja": "捕獲時のアメ2倍（18:00〜19:00）",
+      "en": "2× catch Candy (18:00–19:00)",
+      "zh-Hant": "捕捉糖果2倍（18:00～19:00）",
+      "zh-Hans": "捕捉糖果2倍（18:00～19:00）",
+      "fr": "Bonbons de capture ×2 (18 h – 19 h)",
+      "de": "2× Fang-Bonbons (18–19 Uhr)",
+      "es": "2× caramelos al atrapar (18:00–19:00)",
+      "it": "2× Caramelle per cattura (18:00–19:00)"
+     },
+     "until": "19:00"
     }
    ]
   },
@@ -2024,7 +2874,7 @@
    "start": "2026-11-27T00:00:00",
    "end": "2026-11-27T23:59:00",
    "title": {
-    "ko": "Friendship Friday",
+    "ko": "프렌드쉽 프라이데이",
     "ja": "Friendship Friday",
     "en": "Friendship Friday",
     "zh-Hant": "Friendship Friday",
@@ -2149,6 +2999,95 @@
    "alarmPresetsMin": [
     60,
     0
+   ],
+   "about": {
+    "ko": "픽시 슈퍼 메가 레이드 데이(11/28 14:00~17:00 현지). 메가픽시가 슈퍼 메가 레이드(일부 체육관, 여럿이 협력)에 처음 나와요. 잡은 픽시는 메가 레벨 1이 열려 있고, 메가 레벨을 최대보다 더 올리면 「문포스+」를 배울 수 있어요.",
+    "ja": "ピクシーのスーパーメガレイド・デイ（11/28 14:00〜17:00 現地）。メガピクシーがスーパーメガレイド（一部のジム・協力プレイ）に初登場。ゲットしたピクシーはメガレベル1が解放済みで、メガレベルを最大よりさらに上げると「ムーンフォース+」を覚えられます。",
+    "en": "Clefable Super Mega Raid Day (Nov 28, 14:00–17:00 local). Mega Clefable debuts in Super Mega Raids (at certain Gyms, teamwork needed). Clefable caught there has Mega Level 1 unlocked; raising it past Max Mega Level lets it learn Moonblast+.",
+    "zh-Hant": "皮可西超級Mega團體戰日（11/28 14:00～17:00 當地）。超級皮可西首次登場於超級Mega團體戰（部分道館、需合作）。捕捉到的皮可西已解鎖超級進化等級1，將等級提升到最高以上可學會「月亮之力+」。",
+    "zh-Hans": "皮可西超级Mega团体战日（11/28 14:00～17:00 当地）。超级皮可西首次登场于超级Mega团体战（部分道馆、需合作）。捕捉到的皮可西已解锁超级进化等级1，将等级提升到最高以上可学会「月亮之力+」。",
+    "fr": "Journée Super Méga-Raids de Mélodelfe (28/11 de 14 h à 17 h, heure locale). Méga-Mélodelfe débute en Super Méga-Raids (certaines Arènes, à plusieurs). Les Mélodelfe attrapés ont le niveau Méga 1 débloqué ; au-delà du niveau Méga max, ils peuvent apprendre Pouvoir Lunaire+.",
+    "de": "Super-Mega-Raid-Tag mit Pixi (28.11., 14–17 Uhr Ortszeit). Mega-Pixi debütiert in Super-Mega-Raids (bestimmte Arenen, Teamarbeit). Gefangene Pixi haben Mega-Level 1 freigeschaltet; über das maximale Mega-Level hinaus lernen sie Mondgewalt+.",
+    "es": "Día de Súper Megaincursiones de Clefable (28/11 de 14:00 a 17:00, hora local). Mega-Clefable debuta en Súper Megaincursiones (en ciertos gimnasios, en equipo). Los Clefable atrapados tienen el nivel Mega 1 desbloqueado; por encima del nivel Mega máximo aprenden Fuerza Lunar+.",
+    "it": "Giornata dei Super Megaraid di Clefable (28/11 dalle 14:00 alle 17:00, ora locale). MegaClefable debutta nei Super Megaraid (in certe Palestre, di squadra). I Clefable catturati hanno il livello Mega 1 sbloccato; oltre il livello Mega massimo imparano Forza Lunare+."
+   },
+   "detailSources": [
+    "https://pokemongo.com/news/clefable-super-mega-raid-day-2026",
+    "https://pokemongohub.net/post/event/super-mega-clefable-raid-day/",
+    "https://leekduck.com/events/clefable-super-mega-raid-day-2026/",
+    "https://www.gameleap.com/articles/pokemon-go-dance-under-the-moonlight-during-clefable-super-mega-raid-day"
+   ],
+   "bonuses": [
+    {
+     "code": "custom",
+     "text": {
+      "ko": "체육관 포토디스크를 돌리면 레이드패스 최대 6장 (티켓 있으면 최대 14장)",
+      "ja": "ジムのフォトディスクを回すとレイドパス最大6枚（チケットありは最大14枚）",
+      "en": "Up to 6 Raid Passes from Gym Photo Discs (up to 14 with the ticket)",
+      "zh-Hant": "轉動道館照片圓盤最多獲得6張團體戰入場券（持門票最多14張）",
+      "zh-Hans": "转动道馆照片圆盘最多获得6张团体战入场券（持门票最多14张）",
+      "fr": "Jusqu'à 6 Passes de Raid en tournant les Disques Photo d'Arène (14 avec le billet)",
+      "de": "Bis zu 6 Raid-Pässe von Arena-Fotoscheiben (bis zu 14 mit Ticket)",
+      "es": "Hasta 6 Pases de incursión de los Discos Foto de gimnasio (hasta 14 con la entrada)",
+      "it": "Fino a 6 Biglietti raid dai Dischi Foto delle Palestre (fino a 14 con il biglietto)"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "색이 다른 픽시 확률 증가 (슈퍼 메가 레이드)",
+      "ja": "色違いのピクシーに出会いやすい（スーパーメガレイド）",
+      "en": "Higher Shiny Clefable odds from Super Mega Raids",
+      "zh-Hant": "超級Mega團體戰異色皮可西機率提升",
+      "zh-Hans": "超级Mega团体战异色皮可西概率提升",
+      "fr": "Plus de chances de Mélodelfe chromatique en Super Méga-Raids",
+      "de": "Höhere Shiny-Chance auf Pixi in Super-Mega-Raids",
+      "es": "Más probabilidad de Clefable variocolor en Súper Megaincursiones",
+      "it": "Più probabilità di Clefable cromatico nei Super Megaraid"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "리모트 레이드 하루 제한 20 (11/28 01:00 ~ 11/29 04:00 UTC)",
+      "ja": "リモートレイドの1日の上限20（11/28 01:00〜11/29 04:00 UTC）",
+      "en": "Daily Remote Raid limit 20 (Nov 28 01:00 – Nov 29 04:00 UTC)",
+      "zh-Hant": "遠距團體戰每日上限20（11/28 01:00～11/29 04:00 UTC）",
+      "zh-Hans": "远距团体战每日上限20（11/28 01:00～11/29 04:00 UTC）",
+      "fr": "Limite quotidienne de Raids à distance : 20 (du 28/11 1 h au 29/11 4 h UTC)",
+      "de": "Tägliches Fern-Raid-Limit 20 (28.11. 01:00 – 29.11. 04:00 UTC)",
+      "es": "Límite diario de incursiones remotas: 20 (del 28/11 01:00 al 29/11 04:00 UTC)",
+      "it": "Limite giornaliero raid da remoto: 20 (dal 28/11 01:00 al 29/11 04:00 UTC)"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "티켓(US$4.99): 레이드 이상한사탕XL 확률 증가, 슈퍼 메가 레이드 XP·별의모래 +5,000",
+      "ja": "チケット（US$4.99）：レイドでふしぎなアメXLが出やすい、スーパーメガレイドでXP・ほしのすな+5,000",
+      "en": "Ticket (US$4.99): better Rare Candy XL odds from raids, +5,000 XP and Stardust from Super Mega Raids",
+      "zh-Hant": "門票（US$4.99）：團體戰神奇糖果XL機率提升，超級Mega團體戰XP・星星沙子+5,000",
+      "zh-Hans": "门票（US$4.99）：团体战神奇糖果XL概率提升，超级Mega团体战XP・星星沙子+5,000",
+      "fr": "Billet (4,99 $ US) : plus de Super Bonbons L en Raid, +5 000 XP et Poussière Étoile en Super Méga-Raids",
+      "de": "Ticket (4,99 US$): höhere Chance auf Sonderbonbon XL aus Raids, +5.000 EP und Sternenstaub aus Super-Mega-Raids",
+      "es": "Entrada (4,99 US$): más probabilidad de Caramelo Raro ++ en incursiones, +5000 PX y polvoestelar en Súper Megaincursiones",
+      "it": "Biglietto (4,99 US$): più probabilità di Caramella Rara L dai raid, +5.000 PE e polvere di stelle dai Super Megaraid"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "글로벌 챌린지(11/28 01:00 ~ 11/29 04:00 UTC) 결과에 따라 11/30 20:00 ~ 12/13 20:00 UTC 메가픽시 강화 (GO배틀리그 제외)",
+      "ja": "グローバルチャレンジ（11/28 01:00〜11/29 04:00 UTC）の結果で11/30 20:00〜12/13 20:00 UTCにメガピクシー強化（GOバトルリーグ除く）",
+      "en": "Global Challenge (Nov 28 01:00 – Nov 29 04:00 UTC) boosts Mega Clefable Nov 30 20:00 – Dec 13 20:00 UTC (not in GO Battle League)",
+      "zh-Hant": "全球挑戰（11/28 01:00～11/29 04:00 UTC）結果決定11/30 20:00～12/13 20:00 UTC超級皮可西強化（GO對戰聯盟除外）",
+      "zh-Hans": "全球挑战（11/28 01:00～11/29 04:00 UTC）结果决定11/30 20:00～12/13 20:00 UTC超级皮可西强化（GO对战联盟除外）",
+      "fr": "Défi mondial (du 28/11 1 h au 29/11 4 h UTC) : renforce Méga-Mélodelfe du 30/11 20 h au 13/12 20 h UTC (hors Ligue de Combat GO)",
+      "de": "Globale Herausforderung (28.11. 01:00 – 29.11. 04:00 UTC) verstärkt Mega-Pixi vom 30.11. 20:00 bis 13.12. 20:00 UTC (nicht in der GO-Kampfliga)",
+      "es": "Desafío global (del 28/11 01:00 al 29/11 04:00 UTC): mejora a Mega-Clefable del 30/11 20:00 al 13/12 20:00 UTC (no en la Liga de Combates GO)",
+      "it": "Sfida globale (dal 28/11 01:00 al 29/11 04:00 UTC): potenzia MegaClefable dal 30/11 20:00 al 13/12 20:00 UTC (non nella Lega Lotte GO)"
+     }
+    }
    ]
   },
   {
@@ -2159,7 +3098,7 @@
    "start": "2026-11-29T00:00:00",
    "end": "2026-11-29T23:59:00",
    "title": {
-    "ko": "Scenic Sunday",
+    "ko": "시닉 선데이",
     "ja": "Scenic Sunday",
     "en": "Scenic Sunday",
     "zh-Hant": "Scenic Sunday",
@@ -2334,6 +3273,22 @@
    "alarmPresetsMin": [
     60,
     0
+   ],
+   "about": {
+    "ko": "맥스배틀 데이(12/5 14:00~17:00 현지). 주인공 포켓몬과 보너스는 아직 발표 전이에요. 보통 정해진 포켓몬이 대부분의 파워스폿에 나오고 보너스가 붙어요.",
+    "ja": "マックスバトル・デイ（12/5 14:00〜17:00 現地）。対象ポケモンとボーナスはまだ未発表。ふだんは特定のポケモンがほとんどのパワースポットに登場し、ボーナスが付きます。",
+    "en": "Max Battle Day (Dec 5, 14:00–17:00 local). The featured Pokémon and bonuses haven't been announced yet. Usually one Pokémon takes over most Power Spots, with bonuses.",
+    "zh-Hant": "極巨對戰日（12/5 14:00～17:00 當地）。主角寶可夢與加成尚未公布。通常指定寶可夢會佔領大部分能量點並附有加成。",
+    "zh-Hans": "极巨对战日（12/5 14:00～17:00 当地）。主角宝可梦与加成尚未公布。通常指定宝可梦会占领大部分能量点并附有加成。",
+    "fr": "Journée Combats Dynamax (5/12 de 14 h à 17 h, heure locale). Pokémon vedette et bonus pas encore annoncés. En général, un Pokémon occupe la plupart des Sources d'Énergie, avec des bonus.",
+    "de": "Dyna-Kampftag (5.12., 14–17 Uhr Ortszeit). Pokémon und Boni noch nicht angekündigt. Meist besetzt ein Pokémon die meisten Kraftquellen, dazu gibt es Boni.",
+    "es": "Día de Combates Max (5/12 de 14:00 a 17:00, hora local). El Pokémon protagonista y las bonificaciones aún no se han anunciado. Normalmente un Pokémon ocupa la mayoría de nodos energéticos, con bonificaciones.",
+    "it": "Giornata delle Lotte Dynamax (5/12 dalle 14:00 alle 17:00, ora locale). Pokémon protagonista e bonus non ancora annunciati. Di solito un Pokémon occupa la maggior parte dei Punti energetici, con dei bonus."
+   },
+   "detailSources": [
+    "https://pokemongo.com/news/save-the-date-s25",
+    "https://leekduck.com/events/max-battle-day-december-2026/",
+    "https://leekduck.com/events/"
    ]
   },
   {
@@ -2375,6 +3330,54 @@
    "alarmPresetsMin": [
     60,
     0
+   ],
+   "about": {
+    "ko": "실제 쌍둥이자리 유성우에 맞춘 「메테노 유성우」(12/11 17:00 ~ 12/16 23:59 현지). 북반구와 남반구에 서로 다른 새 색 코어 메테노가 하나씩 나와요(색은 아직 발표 전).",
+    "ja": "現実のふたご座流星群に合わせた「メテノの流星群」（12/11 17:00〜12/16 23:59 現地）。北半球と南半球でそれぞれ違う新しい色のコアのメテノが登場（色は未発表）。",
+    "en": "A Minior Shower timed to the real Geminids (Dec 11, 17:00 – Dec 16, 23:59 local). A different new Core colour debuts in each hemisphere (colours not yet announced).",
+    "zh-Hant": "配合現實雙子座流星雨的「小隕星流星雨」（12/11 17:00～12/16 23:59 當地）。北半球與南半球各有一種不同的新顏色核心小隕星登場（顏色尚未公布）。",
+    "zh-Hans": "配合现实双子座流星雨的「小陨星流星雨」（12/11 17:00～12/16 23:59 当地）。北半球与南半球各有一种不同的新颜色核心小陨星登场（颜色尚未公布）。",
+    "fr": "Pluie de Météno calée sur les Géminides réelles (du 11/12 17 h au 16/12 23 h 59, heure locale). Une nouvelle couleur de noyau différente dans chaque hémisphère (pas encore annoncée).",
+    "de": "Meteno-Schauer zu den echten Geminiden (11.12., 17:00 – 16.12., 23:59 Ortszeit). Auf jeder Halbkugel debütiert eine andere neue Kernfarbe (noch nicht bekannt).",
+    "es": "Lluvia de Minior coincidiendo con las Gemínidas reales (del 11/12 a las 17:00 al 16/12 a las 23:59, hora local). Un nuevo color de núcleo distinto en cada hemisferio (aún sin anunciar).",
+    "it": "Pioggia di Minior in concomitanza con le Geminidi reali (dall'11/12 ore 17:00 al 16/12 ore 23:59, ora locale). Un nuovo colore di nucleo diverso per ogni emisfero (non ancora annunciato)."
+   },
+   "detailSources": [
+    "https://pokemongo.com/news/minior-meteor-showers-2026",
+    "https://leekduck.com/events/minior-showers-geminids-2026/",
+    "https://pokemongohub.net/post/guide/minior-showers/",
+    "https://pokemongohub.net/post/event/minior-showers/"
+   ],
+   "bonuses": [
+    {
+     "code": "custom",
+     "text": {
+      "ko": "매일 17:00~21:00 메테노가 더 자주 나와요",
+      "ja": "毎日17:00〜21:00 メテノに出会いやすい",
+      "en": "Minior appears more often daily 17:00–21:00",
+      "zh-Hant": "每天17:00～21:00 小隕星更常出現",
+      "zh-Hans": "每天17:00～21:00 小陨星更常出现",
+      "fr": "Météno apparaît plus souvent chaque jour de 17 h à 21 h",
+      "de": "Meteno erscheint täglich 17–21 Uhr häufiger",
+      "es": "Minior aparece más a menudo cada día de 17:00 a 21:00",
+      "it": "Minior appare più spesso ogni giorno dalle 17:00 alle 21:00"
+     },
+     "until": "21:00"
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "메테노를 잡으면 별의모래 1,000",
+      "ja": "メテノを捕まえるとほしのすな1,000",
+      "en": "1,000 Stardust for catching Minior",
+      "zh-Hant": "捕捉小隕星獲得1,000星星沙子",
+      "zh-Hans": "捕捉小陨星获得1,000星星沙子",
+      "fr": "1 000 Poussière Étoile en attrapant Météno",
+      "de": "1.000 Sternenstaub für das Fangen von Meteno",
+      "es": "1000 polvoestelar al atrapar a Minior",
+      "it": "1.000 polvere di stelle catturando Minior"
+     }
+    }
    ]
   },
   {
@@ -2414,7 +3417,18 @@
    "alarmPresetsMin": [
     60,
     0
-   ]
+   ],
+   "about": {
+    "ko": "한 달에 한 번 정해진 포켓몬이 3시간(보통 14:00~17:00 현지) 야생에 아주 많이 나오는 날. 그 시간이나 그 뒤 몇 시간 안에 진화하면 특별한 기술을 배우고, 별의모래·사탕 같은 보너스가 붙어요.",
+    "ja": "月に1回、特定のポケモンが3時間（通常14:00〜17:00 現地）野生にたくさん出現する日。その時間やその後の数時間に進化させると特別な技を覚え、ほしのすな・アメなどのボーナスが付きます。",
+    "en": "Once a month, a featured Pokémon appears in huge numbers for 3 hours (usually 14:00–17:00 local). Evolving it during or a few hours after gives an exclusive move, plus bonuses like extra Stardust or Candy.",
+    "zh-Hant": "每月一次，指定寶可夢在3小時內（通常14:00～17:00 當地）大量出現在野外。在活動期間或之後數小時內進化可學會特別招式，並有星星沙子・糖果等加成。",
+    "zh-Hans": "每月一次，指定宝可梦在3小时内（通常14:00～17:00 当地）大量出现在野外。在活动期间或之后数小时内进化可学会特别招式，并有星星沙子・糖果等加成。",
+    "fr": "Une fois par mois, un Pokémon vedette apparaît en masse pendant 3 h (souvent 14 h – 17 h, heure locale). Le faire évoluer pendant ou quelques heures après donne une capacité exclusive, avec des bonus comme plus de Poussière Étoile ou de Bonbons.",
+    "de": "Einmal im Monat erscheint ein Pokémon 3 Stunden lang massenhaft (meist 14–17 Uhr Ortszeit). Entwickelst du es währenddessen oder einige Stunden danach, lernt es eine exklusive Attacke; dazu Boni wie mehr Sternenstaub oder Bonbons.",
+    "es": "Una vez al mes, un Pokémon protagonista aparece en masa durante 3 horas (normalmente de 14:00 a 17:00, hora local). Si lo evolucionas durante o unas horas después aprende un movimiento exclusivo, y hay bonificaciones como más polvoestelar o caramelos.",
+    "it": "Una volta al mese un Pokémon protagonista appare in massa per 3 ore (di solito 14:00–17:00, ora locale). Facendolo evolvere durante o qualche ora dopo impara una mossa esclusiva, con bonus come più polvere di stelle o Caramelle."
+   }
   },
   {
    "id": "raid_day-2026-12-19-raid-day",
@@ -2453,7 +3467,18 @@
    "alarmPresetsMin": [
     60,
     0
-   ]
+   ],
+   "about": {
+    "ko": "몇 시간 동안 정해진 레이드 보스가 대부분의 체육관에 나오는 날. 체육관 포토디스크에서 무료 레이드패스를 더 받는 등의 보너스가 붙고, 유료 티켓으로 보너스를 늘릴 수 있어요.",
+    "ja": "数時間、特定のレイドボスがほとんどのジムに登場する日。ジムのフォトディスクから無料レイドパスを多くもらえるなどのボーナスがあり、有料チケットでボーナスを増やせます。",
+    "en": "For a few hours a featured raid boss appears at most Gyms. Bonuses such as extra free Raid Passes from Gym Photo Discs; a paid ticket adds more.",
+    "zh-Hant": "數小時內指定團體戰頭目出現在大部分道館。有從道館照片圓盤獲得更多免費團體戰入場券等加成，付費門票可增加加成。",
+    "zh-Hans": "数小时内指定团体战头目出现在大部分道馆。有从道馆照片圆盘获得更多免费团体战入场券等加成，付费门票可增加加成。",
+    "fr": "Pendant quelques heures, un boss de Raid vedette apparaît dans la plupart des Arènes. Bonus comme des Passes de Raid gratuits en plus via les Disques Photo ; un billet payant en ajoute.",
+    "de": "Einige Stunden lang erscheint ein Raid-Boss in den meisten Arenen. Boni wie zusätzliche kostenlose Raid-Pässe von Arena-Fotoscheiben; ein kostenpflichtiges Ticket bringt mehr.",
+    "es": "Durante unas horas, un jefe de incursión aparece en la mayoría de gimnasios. Bonificaciones como más Pases de incursión gratis de los Discos Foto; una entrada de pago añade más.",
+    "it": "Per alcune ore un boss dei raid appare nella maggior parte delle Palestre. Bonus come Biglietti raid gratuiti extra dai Dischi Foto; un biglietto a pagamento ne aggiunge altri."
+   }
   },
   {
    "id": "event-2026-12-26-hatch-day",
@@ -2492,6 +3517,22 @@
    "alarmPresetsMin": [
     60,
     0
+   ],
+   "about": {
+    "ko": "부화 데이(12/26 11:00~17:00 현지). 정해진 포켓몬이 알에서 잘 나오는 날이에요. 주인공 포켓몬과 보너스는 아직 발표 전이에요(보통 알 부화 거리 단축 같은 보너스가 붙어요).",
+    "ja": "孵化デイ（12/26 11:00〜17:00 現地）。特定のポケモンがタマゴから生まれやすい日。対象ポケモンとボーナスはまだ未発表（ふだんは孵化距離短縮などのボーナスが付きます）。",
+    "en": "Hatch Day (Dec 26, 11:00–17:00 local): a featured Pokémon hatches more often from Eggs. The Pokémon and bonuses haven't been announced yet (usually things like reduced hatch distance).",
+    "zh-Hant": "孵化日（12/26 11:00～17:00 當地）：指定寶可夢更容易從蛋中孵出。主角寶可夢與加成尚未公布（通常會有孵蛋距離縮短等加成）。",
+    "zh-Hans": "孵化日（12/26 11:00～17:00 当地）：指定宝可梦更容易从蛋中孵出。主角宝可梦与加成尚未公布（通常会有孵蛋距离缩短等加成）。",
+    "fr": "Journée Éclosion (26/12 de 11 h à 17 h, heure locale) : un Pokémon vedette éclot plus souvent des Œufs. Pokémon et bonus pas encore annoncés (en général, distance d'éclosion réduite).",
+    "de": "Schlüpftag (26.12., 11–17 Uhr Ortszeit): Ein bestimmtes Pokémon schlüpft häufiger aus Eiern. Pokémon und Boni noch nicht angekündigt (meist z. B. kürzere Schlüpfdistanz).",
+    "es": "Día de Eclosión (26/12 de 11:00 a 17:00, hora local): un Pokémon protagonista eclosiona más a menudo. El Pokémon y las bonificaciones aún no se han anunciado (suelen reducir la distancia de eclosión).",
+    "it": "Giornata delle schiuse (26/12 dalle 11:00 alle 17:00, ora locale): un Pokémon protagonista si schiude più spesso dalle Uova. Pokémon e bonus non ancora annunciati (di solito distanza di schiusa ridotta)."
+   },
+   "detailSources": [
+    "https://pokemongo.com/news/save-the-date-s25",
+    "https://leekduck.com/events/hatch-day-december-2026/",
+    "https://leekduck.com/events/"
    ]
   },
   {
@@ -2531,7 +3572,18 @@
    "alarmPresetsMin": [
     60,
     0
-   ]
+   ],
+   "about": {
+    "ko": "한 달에 한 번 정해진 포켓몬이 3시간(보통 14:00~17:00 현지) 야생에 아주 많이 나오는 날. 그 시간이나 그 뒤 몇 시간 안에 진화하면 특별한 기술을 배우고, 별의모래·사탕 같은 보너스가 붙어요.",
+    "ja": "月に1回、特定のポケモンが3時間（通常14:00〜17:00 現地）野生にたくさん出現する日。その時間やその後の数時間に進化させると特別な技を覚え、ほしのすな・アメなどのボーナスが付きます。",
+    "en": "Once a month, a featured Pokémon appears in huge numbers for 3 hours (usually 14:00–17:00 local). Evolving it during or a few hours after gives an exclusive move, plus bonuses like extra Stardust or Candy.",
+    "zh-Hant": "每月一次，指定寶可夢在3小時內（通常14:00～17:00 當地）大量出現在野外。在活動期間或之後數小時內進化可學會特別招式，並有星星沙子・糖果等加成。",
+    "zh-Hans": "每月一次，指定宝可梦在3小时内（通常14:00～17:00 当地）大量出现在野外。在活动期间或之后数小时内进化可学会特别招式，并有星星沙子・糖果等加成。",
+    "fr": "Une fois par mois, un Pokémon vedette apparaît en masse pendant 3 h (souvent 14 h – 17 h, heure locale). Le faire évoluer pendant ou quelques heures après donne une capacité exclusive, avec des bonus comme plus de Poussière Étoile ou de Bonbons.",
+    "de": "Einmal im Monat erscheint ein Pokémon 3 Stunden lang massenhaft (meist 14–17 Uhr Ortszeit). Entwickelst du es währenddessen oder einige Stunden danach, lernt es eine exklusive Attacke; dazu Boni wie mehr Sternenstaub oder Bonbons.",
+    "es": "Una vez al mes, un Pokémon protagonista aparece en masa durante 3 horas (normalmente de 14:00 a 17:00, hora local). Si lo evolucionas durante o unas horas después aprende un movimiento exclusivo, y hay bonificaciones como más polvoestelar o caramelos.",
+    "it": "Una volta al mese un Pokémon protagonista appare in massa per 3 ore (di solito 14:00–17:00, ora locale). Facendolo evolvere durante o qualche ora dopo impara una mossa esclusiva, con bonus come più polvere di stelle o Caramelle."
+   }
   },
   {
    "id": "super_mega_raid_day-2027-01-09-super-mega-raid-day",
@@ -2570,7 +3622,18 @@
    "alarmPresetsMin": [
     60,
     0
-   ]
+   ],
+   "about": {
+    "ko": "몇 시간 동안 새 메가진화 포켓몬이 「슈퍼 메가 레이드」(일부 체육관, 여럿이 협력)에 나오는 날. 잡은 포켓몬은 메가 레벨이 열려 있고, 무료 레이드패스·리모트 레이드 한도 같은 보너스와 유료 티켓이 있어요.",
+    "ja": "数時間、新しいメガシンカポケモンが「スーパーメガレイド」（一部のジム・協力プレイ）に登場する日。ゲットしたポケモンはメガレベルが解放済みで、無料レイドパス・リモートレイド上限などのボーナスと有料チケットがあります。",
+    "en": "For a few hours a new Mega Evolution appears in Super Mega Raids (certain Gyms, teamwork needed). Caught Pokémon have a Mega Level unlocked; bonuses include free Raid Passes and a higher Remote Raid limit, plus a paid ticket.",
+    "zh-Hant": "數小時內新的超級進化寶可夢出現在「超級Mega團體戰」（部分道館、需合作）。捕捉到的寶可夢已解鎖超級進化等級，有免費團體戰入場券・遠距團體戰上限等加成與付費門票。",
+    "zh-Hans": "数小时内新的超级进化宝可梦出现在「超级Mega团体战」（部分道馆、需合作）。捕捉到的宝可梦已解锁超级进化等级，有免费团体战入场券・远距团体战上限等加成与付费门票。",
+    "fr": "Pendant quelques heures, une nouvelle Méga-Évolution apparaît en Super Méga-Raids (certaines Arènes, à plusieurs). Les Pokémon attrapés ont un niveau Méga débloqué ; bonus comme des Passes de Raid gratuits et une limite de Raids à distance plus haute, plus un billet payant.",
+    "de": "Einige Stunden lang erscheint eine neue Mega-Entwicklung in Super-Mega-Raids (bestimmte Arenen, Teamarbeit). Gefangene Pokémon haben ein Mega-Level freigeschaltet; Boni wie kostenlose Raid-Pässe und höheres Fern-Raid-Limit, dazu ein Ticket.",
+    "es": "Durante unas horas, una nueva megaevolución aparece en Súper Megaincursiones (ciertos gimnasios, en equipo). Los Pokémon atrapados tienen un nivel Mega desbloqueado; bonificaciones como Pases de incursión gratis y más incursiones remotas, además de una entrada de pago.",
+    "it": "Per alcune ore una nuova Megaevoluzione appare nei Super Megaraid (certe Palestre, di squadra). I Pokémon catturati hanno un livello Mega sbloccato; bonus come Biglietti raid gratuiti e più raid da remoto, oltre a un biglietto a pagamento."
+   }
   },
   {
    "id": "community_day-2027-01-16-january-community-day",
@@ -2609,7 +3672,18 @@
    "alarmPresetsMin": [
     60,
     0
-   ]
+   ],
+   "about": {
+    "ko": "한 달에 한 번 정해진 포켓몬이 3시간(보통 14:00~17:00 현지) 야생에 아주 많이 나오는 날. 그 시간이나 그 뒤 몇 시간 안에 진화하면 특별한 기술을 배우고, 별의모래·사탕 같은 보너스가 붙어요.",
+    "ja": "月に1回、特定のポケモンが3時間（通常14:00〜17:00 現地）野生にたくさん出現する日。その時間やその後の数時間に進化させると特別な技を覚え、ほしのすな・アメなどのボーナスが付きます。",
+    "en": "Once a month, a featured Pokémon appears in huge numbers for 3 hours (usually 14:00–17:00 local). Evolving it during or a few hours after gives an exclusive move, plus bonuses like extra Stardust or Candy.",
+    "zh-Hant": "每月一次，指定寶可夢在3小時內（通常14:00～17:00 當地）大量出現在野外。在活動期間或之後數小時內進化可學會特別招式，並有星星沙子・糖果等加成。",
+    "zh-Hans": "每月一次，指定宝可梦在3小时内（通常14:00～17:00 当地）大量出现在野外。在活动期间或之后数小时内进化可学会特别招式，并有星星沙子・糖果等加成。",
+    "fr": "Une fois par mois, un Pokémon vedette apparaît en masse pendant 3 h (souvent 14 h – 17 h, heure locale). Le faire évoluer pendant ou quelques heures après donne une capacité exclusive, avec des bonus comme plus de Poussière Étoile ou de Bonbons.",
+    "de": "Einmal im Monat erscheint ein Pokémon 3 Stunden lang massenhaft (meist 14–17 Uhr Ortszeit). Entwickelst du es währenddessen oder einige Stunden danach, lernt es eine exklusive Attacke; dazu Boni wie mehr Sternenstaub oder Bonbons.",
+    "es": "Una vez al mes, un Pokémon protagonista aparece en masa durante 3 horas (normalmente de 14:00 a 17:00, hora local). Si lo evolucionas durante o unas horas después aprende un movimiento exclusivo, y hay bonificaciones como más polvoestelar o caramelos.",
+    "it": "Una volta al mese un Pokémon protagonista appare in massa per 3 ore (di solito 14:00–17:00, ora locale). Facendolo evolvere durante o qualche ora dopo impara una mossa esclusiva, con bonus come più polvere di stelle o Caramelle."
+   }
   },
   {
    "id": "max_battle_day-2027-01-23-max-battle-day",
@@ -2648,7 +3722,18 @@
    "alarmPresetsMin": [
     60,
     0
-   ]
+   ],
+   "about": {
+    "ko": "몇 시간(보통 14:00~17:00 현지) 동안 정해진 다이맥스·거다이맥스 포켓몬이 대부분의 파워스폿에 나오는 날. 맥스 파티클 수집 한도 증가 같은 보너스가 붙어요.",
+    "ja": "数時間（通常14:00〜17:00 現地）、特定のダイマックス・キョダイマックスポケモンがほとんどのパワースポットに登場する日。マックス粒子の上限アップなどのボーナスが付きます。",
+    "en": "For a few hours (usually 14:00–17:00 local) a featured Dynamax or Gigantamax Pokémon takes over most Power Spots, with bonuses like a higher Max Particle limit.",
+    "zh-Hant": "數小時內（通常14:00～17:00 當地）指定的極巨化・超極巨化寶可夢佔領大部分能量點，並有極巨粒子上限提升等加成。",
+    "zh-Hans": "数小时内（通常14:00～17:00 当地）指定的极巨化・超极巨化宝可梦占领大部分能量点，并有极巨粒子上限提升等加成。",
+    "fr": "Pendant quelques heures (souvent 14 h – 17 h), un Pokémon Dynamax ou Gigamax occupe la plupart des Sources d'Énergie, avec des bonus comme une limite de Particules Max plus haute.",
+    "de": "Einige Stunden (meist 14–17 Uhr Ortszeit) besetzt ein Dynamax- oder Gigadynamax-Pokémon die meisten Kraftquellen, mit Boni wie höherem Dyna-Partikel-Limit.",
+    "es": "Durante unas horas (normalmente de 14:00 a 17:00) un Pokémon Dinamax o Gigamax ocupa la mayoría de nodos energéticos, con bonificaciones como más límite de Partículas Max.",
+    "it": "Per alcune ore (di solito 14:00–17:00) un Pokémon Dynamax o Gigamax occupa la maggior parte dei Punti energetici, con bonus come un limite più alto di Particelle Dynamax."
+   }
   },
   {
    "id": "super_mega_raid_day-2027-01-30-super-mega-raid-day",
@@ -2687,7 +3772,18 @@
    "alarmPresetsMin": [
     60,
     0
-   ]
+   ],
+   "about": {
+    "ko": "몇 시간 동안 새 메가진화 포켓몬이 「슈퍼 메가 레이드」(일부 체육관, 여럿이 협력)에 나오는 날. 잡은 포켓몬은 메가 레벨이 열려 있고, 무료 레이드패스·리모트 레이드 한도 같은 보너스와 유료 티켓이 있어요.",
+    "ja": "数時間、新しいメガシンカポケモンが「スーパーメガレイド」（一部のジム・協力プレイ）に登場する日。ゲットしたポケモンはメガレベルが解放済みで、無料レイドパス・リモートレイド上限などのボーナスと有料チケットがあります。",
+    "en": "For a few hours a new Mega Evolution appears in Super Mega Raids (certain Gyms, teamwork needed). Caught Pokémon have a Mega Level unlocked; bonuses include free Raid Passes and a higher Remote Raid limit, plus a paid ticket.",
+    "zh-Hant": "數小時內新的超級進化寶可夢出現在「超級Mega團體戰」（部分道館、需合作）。捕捉到的寶可夢已解鎖超級進化等級，有免費團體戰入場券・遠距團體戰上限等加成與付費門票。",
+    "zh-Hans": "数小时内新的超级进化宝可梦出现在「超级Mega团体战」（部分道馆、需合作）。捕捉到的宝可梦已解锁超级进化等级，有免费团体战入场券・远距团体战上限等加成与付费门票。",
+    "fr": "Pendant quelques heures, une nouvelle Méga-Évolution apparaît en Super Méga-Raids (certaines Arènes, à plusieurs). Les Pokémon attrapés ont un niveau Méga débloqué ; bonus comme des Passes de Raid gratuits et une limite de Raids à distance plus haute, plus un billet payant.",
+    "de": "Einige Stunden lang erscheint eine neue Mega-Entwicklung in Super-Mega-Raids (bestimmte Arenen, Teamarbeit). Gefangene Pokémon haben ein Mega-Level freigeschaltet; Boni wie kostenlose Raid-Pässe und höheres Fern-Raid-Limit, dazu ein Ticket.",
+    "es": "Durante unas horas, una nueva megaevolución aparece en Súper Megaincursiones (ciertos gimnasios, en equipo). Los Pokémon atrapados tienen un nivel Mega desbloqueado; bonificaciones como Pases de incursión gratis y más incursiones remotas, además de una entrada de pago.",
+    "it": "Per alcune ore una nuova Megaevoluzione appare nei Super Megaraid (certe Palestre, di squadra). I Pokémon catturati hanno un livello Mega sbloccato; bonus come Biglietti raid gratuiti e più raid da remoto, oltre a un biglietto a pagamento."
+   }
   },
   {
    "id": "community_day-2027-02-06-february-community-day",
@@ -2726,7 +3822,18 @@
    "alarmPresetsMin": [
     60,
     0
-   ]
+   ],
+   "about": {
+    "ko": "한 달에 한 번 정해진 포켓몬이 3시간(보통 14:00~17:00 현지) 야생에 아주 많이 나오는 날. 그 시간이나 그 뒤 몇 시간 안에 진화하면 특별한 기술을 배우고, 별의모래·사탕 같은 보너스가 붙어요.",
+    "ja": "月に1回、特定のポケモンが3時間（通常14:00〜17:00 現地）野生にたくさん出現する日。その時間やその後の数時間に進化させると特別な技を覚え、ほしのすな・アメなどのボーナスが付きます。",
+    "en": "Once a month, a featured Pokémon appears in huge numbers for 3 hours (usually 14:00–17:00 local). Evolving it during or a few hours after gives an exclusive move, plus bonuses like extra Stardust or Candy.",
+    "zh-Hant": "每月一次，指定寶可夢在3小時內（通常14:00～17:00 當地）大量出現在野外。在活動期間或之後數小時內進化可學會特別招式，並有星星沙子・糖果等加成。",
+    "zh-Hans": "每月一次，指定宝可梦在3小时内（通常14:00～17:00 当地）大量出现在野外。在活动期间或之后数小时内进化可学会特别招式，并有星星沙子・糖果等加成。",
+    "fr": "Une fois par mois, un Pokémon vedette apparaît en masse pendant 3 h (souvent 14 h – 17 h, heure locale). Le faire évoluer pendant ou quelques heures après donne une capacité exclusive, avec des bonus comme plus de Poussière Étoile ou de Bonbons.",
+    "de": "Einmal im Monat erscheint ein Pokémon 3 Stunden lang massenhaft (meist 14–17 Uhr Ortszeit). Entwickelst du es währenddessen oder einige Stunden danach, lernt es eine exklusive Attacke; dazu Boni wie mehr Sternenstaub oder Bonbons.",
+    "es": "Una vez al mes, un Pokémon protagonista aparece en masa durante 3 horas (normalmente de 14:00 a 17:00, hora local). Si lo evolucionas durante o unas horas después aprende un movimiento exclusivo, y hay bonificaciones como más polvoestelar o caramelos.",
+    "it": "Una volta al mese un Pokémon protagonista appare in massa per 3 ore (di solito 14:00–17:00, ora locale). Facendolo evolvere durante o qualche ora dopo impara una mossa esclusiva, con bonus come più polvere di stelle o Caramelle."
+   }
   },
   {
    "id": "raid_day-2027-02-13-raid-day",
@@ -2765,7 +3872,18 @@
    "alarmPresetsMin": [
     60,
     0
-   ]
+   ],
+   "about": {
+    "ko": "몇 시간 동안 정해진 레이드 보스가 대부분의 체육관에 나오는 날. 체육관 포토디스크에서 무료 레이드패스를 더 받는 등의 보너스가 붙고, 유료 티켓으로 보너스를 늘릴 수 있어요.",
+    "ja": "数時間、特定のレイドボスがほとんどのジムに登場する日。ジムのフォトディスクから無料レイドパスを多くもらえるなどのボーナスがあり、有料チケットでボーナスを増やせます。",
+    "en": "For a few hours a featured raid boss appears at most Gyms. Bonuses such as extra free Raid Passes from Gym Photo Discs; a paid ticket adds more.",
+    "zh-Hant": "數小時內指定團體戰頭目出現在大部分道館。有從道館照片圓盤獲得更多免費團體戰入場券等加成，付費門票可增加加成。",
+    "zh-Hans": "数小时内指定团体战头目出现在大部分道馆。有从道馆照片圆盘获得更多免费团体战入场券等加成，付费门票可增加加成。",
+    "fr": "Pendant quelques heures, un boss de Raid vedette apparaît dans la plupart des Arènes. Bonus comme des Passes de Raid gratuits en plus via les Disques Photo ; un billet payant en ajoute.",
+    "de": "Einige Stunden lang erscheint ein Raid-Boss in den meisten Arenen. Boni wie zusätzliche kostenlose Raid-Pässe von Arena-Fotoscheiben; ein kostenpflichtiges Ticket bringt mehr.",
+    "es": "Durante unas horas, un jefe de incursión aparece en la mayoría de gimnasios. Bonificaciones como más Pases de incursión gratis de los Discos Foto; una entrada de pago añade más.",
+    "it": "Per alcune ore un boss dei raid appare nella maggior parte delle Palestre. Bonus come Biglietti raid gratuiti extra dai Dischi Foto; un biglietto a pagamento ne aggiunge altri."
+   }
   },
   {
    "id": "go_tour-2027-02-18-pok-mon-go-tour-alola-kaohsiung-2027",
@@ -2806,6 +3924,17 @@
     60,
     0
    ],
+   "about": {
+    "ko": "한 지방(세대)을 기념하는 큰 행사. 실제 장소에서 열리는 유료 행사와 전 세계 동시 행사가 있고, 그 지방 포켓몬·색이 다른 포켓몬·전설 레이드와 특별 리서치가 나와요.",
+    "ja": "1つの地方（世代）を記念する大型イベント。現地開催の有料イベントと全世界同時開催があり、その地方のポケモン・色違い・伝説レイドとスペシャルリサーチが登場します。",
+    "en": "A big event celebrating one region. There are paid in-person events and a global event, with that region's Pokémon, Shinies, Legendary raids and Special Research.",
+    "zh-Hant": "紀念一個地區的大型活動。有實體付費活動與全球同步活動，會出現該地區的寶可夢・異色・傳說團體戰與特別調查。",
+    "zh-Hans": "纪念一个地区的大型活动。有实体付费活动与全球同步活动，会出现该地区的宝可梦・异色・传说团体战与特别调查。",
+    "fr": "Un grand événement consacré à une région, avec des éditions payantes sur place et une édition mondiale : Pokémon de la région, chromatiques, Raids légendaires et Études spéciales.",
+    "de": "Großes Event zu einer Region, mit kostenpflichtigen Vor-Ort-Events und einem globalen Event: Pokémon der Region, Shinys, legendäre Raids und Spezialforschung.",
+    "es": "Un gran evento dedicado a una región, con ediciones presenciales de pago y una global: Pokémon de la región, variocolor, incursiones legendarias e investigaciones especiales.",
+    "it": "Un grande evento dedicato a una regione, con edizioni dal vivo a pagamento e una globale: Pokémon della regione, cromatici, raid leggendari e ricerche speciali."
+   },
    "tz": "Asia/Taipei",
    "countryCode": "TW"
   },
@@ -2848,6 +3977,17 @@
     60,
     0
    ],
+   "about": {
+    "ko": "한 지방(세대)을 기념하는 큰 행사. 실제 장소에서 열리는 유료 행사와 전 세계 동시 행사가 있고, 그 지방 포켓몬·색이 다른 포켓몬·전설 레이드와 특별 리서치가 나와요.",
+    "ja": "1つの地方（世代）を記念する大型イベント。現地開催の有料イベントと全世界同時開催があり、その地方のポケモン・色違い・伝説レイドとスペシャルリサーチが登場します。",
+    "en": "A big event celebrating one region. There are paid in-person events and a global event, with that region's Pokémon, Shinies, Legendary raids and Special Research.",
+    "zh-Hant": "紀念一個地區的大型活動。有實體付費活動與全球同步活動，會出現該地區的寶可夢・異色・傳說團體戰與特別調查。",
+    "zh-Hans": "纪念一个地区的大型活动。有实体付费活动与全球同步活动，会出现该地区的宝可梦・异色・传说团体战与特别调查。",
+    "fr": "Un grand événement consacré à une région, avec des éditions payantes sur place et une édition mondiale : Pokémon de la région, chromatiques, Raids légendaires et Études spéciales.",
+    "de": "Großes Event zu einer Region, mit kostenpflichtigen Vor-Ort-Events und einem globalen Event: Pokémon der Region, Shinys, legendäre Raids und Spezialforschung.",
+    "es": "Un gran evento dedicado a una región, con ediciones presenciales de pago y una global: Pokémon de la región, variocolor, incursiones legendarias e investigaciones especiales.",
+    "it": "Un grande evento dedicato a una regione, con edizioni dal vivo a pagamento e una globale: Pokémon della regione, cromatici, raid leggendari e ricerche speciali."
+   },
    "tz": "America/Los_Angeles",
    "countryCode": "US-W"
   },
@@ -2889,7 +4029,18 @@
     1440,
     60,
     0
-   ]
+   ],
+   "about": {
+    "ko": "한 지방(세대)을 기념하는 큰 행사. 실제 장소에서 열리는 유료 행사와 전 세계 동시 행사가 있고, 그 지방 포켓몬·색이 다른 포켓몬·전설 레이드와 특별 리서치가 나와요.",
+    "ja": "1つの地方（世代）を記念する大型イベント。現地開催の有料イベントと全世界同時開催があり、その地方のポケモン・色違い・伝説レイドとスペシャルリサーチが登場します。",
+    "en": "A big event celebrating one region. There are paid in-person events and a global event, with that region's Pokémon, Shinies, Legendary raids and Special Research.",
+    "zh-Hant": "紀念一個地區的大型活動。有實體付費活動與全球同步活動，會出現該地區的寶可夢・異色・傳說團體戰與特別調查。",
+    "zh-Hans": "纪念一个地区的大型活动。有实体付费活动与全球同步活动，会出现该地区的宝可梦・异色・传说团体战与特别调查。",
+    "fr": "Un grand événement consacré à une région, avec des éditions payantes sur place et une édition mondiale : Pokémon de la région, chromatiques, Raids légendaires et Études spéciales.",
+    "de": "Großes Event zu einer Region, mit kostenpflichtigen Vor-Ort-Events und einem globalen Event: Pokémon der Region, Shinys, legendäre Raids und Spezialforschung.",
+    "es": "Un gran evento dedicado a una región, con ediciones presenciales de pago y una global: Pokémon de la región, variocolor, incursiones legendarias e investigaciones especiales.",
+    "it": "Un grande evento dedicato a una regione, con edizioni dal vivo a pagamento e una globale: Pokémon della regione, cromatici, raid leggendari e ricerche speciali."
+   }
   },
   {
    "id": "meteor_shower-2027-05-03-eta-aquariids",
@@ -2930,7 +4081,18 @@
    "alarmPresetsMin": [
     60,
     0
-   ]
+   ],
+   "about": {
+    "ko": "실제 유성우 기간에 맞춘 「메테노 유성우」. 매일 17:00~21:00(현지) 메테노가 더 자주 나오고, 회차마다 새 색 코어가 하나씩 나와요.",
+    "ja": "現実の流星群に合わせた「メテノの流星群」。毎日17:00〜21:00（現地）メテノに出会いやすく、回ごとに新しい色のコアが登場します。",
+    "en": "Minior Showers timed to real meteor showers. Minior appears more often daily 17:00–21:00 local, and each shower debuts a new Core colour.",
+    "zh-Hant": "配合現實流星雨的「小隕星流星雨」。每天17:00～21:00（當地）小隕星更常出現，每次會有新顏色的核心登場。",
+    "zh-Hans": "配合现实流星雨的「小陨星流星雨」。每天17:00～21:00（当地）小陨星更常出现，每次会有新颜色的核心登场。",
+    "fr": "Pluies de Météno calées sur les vraies pluies d'étoiles filantes. Météno apparaît plus souvent chaque jour de 17 h à 21 h, et chaque pluie fait débuter une nouvelle couleur de noyau.",
+    "de": "Meteno-Schauer zu echten Meteorschauern. Meteno erscheint täglich 17–21 Uhr häufiger, jeder Schauer bringt eine neue Kernfarbe.",
+    "es": "Lluvias de Minior que coinciden con lluvias de meteoros reales. Minior aparece más a menudo cada día de 17:00 a 21:00, y en cada lluvia debuta un nuevo color de núcleo.",
+    "it": "Piogge di Minior in concomitanza con vere piogge di meteore. Minior appare più spesso ogni giorno dalle 17:00 alle 21:00 e ogni pioggia porta un nuovo colore di nucleo."
+   }
   },
   {
    "id": "meteor_shower-2027-07-28-southern-delta-aquariids",
@@ -2971,7 +4133,18 @@
    "alarmPresetsMin": [
     60,
     0
-   ]
+   ],
+   "about": {
+    "ko": "실제 유성우 기간에 맞춘 「메테노 유성우」. 매일 17:00~21:00(현지) 메테노가 더 자주 나오고, 회차마다 새 색 코어가 하나씩 나와요.",
+    "ja": "現実の流星群に合わせた「メテノの流星群」。毎日17:00〜21:00（現地）メテノに出会いやすく、回ごとに新しい色のコアが登場します。",
+    "en": "Minior Showers timed to real meteor showers. Minior appears more often daily 17:00–21:00 local, and each shower debuts a new Core colour.",
+    "zh-Hant": "配合現實流星雨的「小隕星流星雨」。每天17:00～21:00（當地）小隕星更常出現，每次會有新顏色的核心登場。",
+    "zh-Hans": "配合现实流星雨的「小陨星流星雨」。每天17:00～21:00（当地）小陨星更常出现，每次会有新颜色的核心登场。",
+    "fr": "Pluies de Météno calées sur les vraies pluies d'étoiles filantes. Météno apparaît plus souvent chaque jour de 17 h à 21 h, et chaque pluie fait débuter une nouvelle couleur de noyau.",
+    "de": "Meteno-Schauer zu echten Meteorschauern. Meteno erscheint täglich 17–21 Uhr häufiger, jeder Schauer bringt eine neue Kernfarbe.",
+    "es": "Lluvias de Minior que coinciden con lluvias de meteoros reales. Minior aparece más a menudo cada día de 17:00 a 21:00, y en cada lluvia debuta un nuevo color de núcleo.",
+    "it": "Piogge di Minior in concomitanza con vere piogge di meteore. Minior appare più spesso ogni giorno dalle 17:00 alle 21:00 e ogni pioggia porta un nuovo colore di nucleo."
+   }
   },
   {
    "id": "meteor_shower-2027-08-10-perseids",
@@ -3012,7 +4185,18 @@
    "alarmPresetsMin": [
     60,
     0
-   ]
+   ],
+   "about": {
+    "ko": "실제 유성우 기간에 맞춘 「메테노 유성우」. 매일 17:00~21:00(현지) 메테노가 더 자주 나오고, 회차마다 새 색 코어가 하나씩 나와요.",
+    "ja": "現実の流星群に合わせた「メテノの流星群」。毎日17:00〜21:00（現地）メテノに出会いやすく、回ごとに新しい色のコアが登場します。",
+    "en": "Minior Showers timed to real meteor showers. Minior appears more often daily 17:00–21:00 local, and each shower debuts a new Core colour.",
+    "zh-Hant": "配合現實流星雨的「小隕星流星雨」。每天17:00～21:00（當地）小隕星更常出現，每次會有新顏色的核心登場。",
+    "zh-Hans": "配合现实流星雨的「小陨星流星雨」。每天17:00～21:00（当地）小陨星更常出现，每次会有新颜色的核心登场。",
+    "fr": "Pluies de Météno calées sur les vraies pluies d'étoiles filantes. Météno apparaît plus souvent chaque jour de 17 h à 21 h, et chaque pluie fait débuter une nouvelle couleur de noyau.",
+    "de": "Meteno-Schauer zu echten Meteorschauern. Meteno erscheint täglich 17–21 Uhr häufiger, jeder Schauer bringt eine neue Kernfarbe.",
+    "es": "Lluvias de Minior que coinciden con lluvias de meteoros reales. Minior aparece más a menudo cada día de 17:00 a 21:00, y en cada lluvia debuta un nuevo color de núcleo.",
+    "it": "Piogge di Minior in concomitanza con vere piogge di meteore. Minior appare più spesso ogni giorno dalle 17:00 alle 21:00 e ogni pioggia porta un nuovo colore di nucleo."
+   }
   }
  ]
 }
