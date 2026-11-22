@@ -1,0 +1,4 @@
+{
+ "_help": "메달 개발자 의견. notes에 메달 id → 9개 언어 문장. 예: \"7_day_streaks\": {\"ko\": \"매일 포켓스톱 하나만 돌려도 돼요\", \"en\": \"...\"} (없는 언어는 영어→한국어 순으로 대신 보여 줌). 고친 뒤 python3 tools/publish_manifest.py → publish_remote.py",
+ "notes": {}
+}

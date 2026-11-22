@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "publishedAt": "2026-11-22T12:07:50Z",
+ "publishedAt": "2026-11-22T12:56:24Z",
  "minAppVersion": "1.0.0",
  "files": [
   {
@@ -47,6 +47,11 @@
    "path": "form_moves.json",
    "version": 1,
    "sha256": "724d9a8faa0bcd8cf1c9ad64f277bdc287229874235ea4676a70009f65dd2f68"
+  },
+  {
+   "path": "medal_notes.json",
+   "version": 1,
+   "sha256": "71e2848e5e5b1fc60603e215cae4386bf6f5be13275302deaaacccf6a4decf9a"
   }
  ]
 }
