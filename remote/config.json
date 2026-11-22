@@ -1,0 +1,450 @@
+{
+ "schemaVersion": 2,
+ "updatedAt": "2026-11-19T09:00:00Z",
+ "remoteRaid": {
+  "dailyLimit": null,
+  "gameDataHint": {
+   "template": "REMOTE_RAID_LIMIT_SETTINGS",
+   "value": 10,
+   "_note": "게임 데이터 squashSettings.dailySquashLimit=10 — 리모트 레이드 일일 제한인지 확인 필요"
+  },
+  "note": {
+   "ko": "이벤트·시즌에 따라 변동",
+   "ja": "イベント・シーズンにより変動",
+   "en": "Varies by event/season"
+  },
+  "footnoteId": "fn_remote_raid_limit",
+  "verify": true
+ },
+ "raidTiming": {
+  "eggCountdownMin": 60,
+  "battleWindowMin": 45,
+  "raidHour": {
+   "weekday": 3,
+   "startLocal": "18:00",
+   "endLocal": "19:00",
+   "cycle": [
+    {
+     "phase": "active",
+     "durationMin": 25
+    },
+    {
+     "phase": "rest",
+     "durationMin": 5
+    }
+   ],
+   "footnoteId": "fn_raid_hour_cycle"
+  }
+ },
+ "tradeDiscount": {
+  "active": false,
+  "multiplier": 1.0,
+  "eventId": null
+ },
+ "remotePassXlCandy": {
+  "min": 3,
+  "max": 5,
+  "footnoteId": "fn_remote_xl"
+ },
+ "worldClockCountries": [
+  {
+   "code": "KR",
+   "tz": "Asia/Seoul",
+   "flag": "🇰🇷",
+   "name": {
+    "ko": "대한민국",
+    "ja": "韓国",
+    "en": "South Korea",
+    "zh-Hant": "南韓",
+    "zh-Hans": "韩国",
+    "fr": "Corée du Sud",
+    "de": "Südkorea",
+    "es": "Corea del Sur",
+    "it": "Corea del Sud"
+   }
+  },
+  {
+   "code": "JP",
+   "tz": "Asia/Tokyo",
+   "flag": "🇯🇵",
+   "name": {
+    "ko": "일본",
+    "ja": "日本",
+    "en": "Japan",
+    "zh-Hant": "日本",
+    "zh-Hans": "日本",
+    "fr": "Japon",
+    "de": "Japan",
+    "es": "Japón",
+    "it": "Giappone"
+   }
+  },
+  {
+   "code": "TW",
+   "tz": "Asia/Taipei",
+   "flag": "🇹🇼",
+   "name": {
+    "ko": "대만",
+    "ja": "台湾",
+    "en": "Taiwan",
+    "zh-Hant": "台灣",
+    "zh-Hans": "台湾",
+    "fr": "Taïwan",
+    "de": "Taiwan",
+    "es": "Taiwán",
+    "it": "Taiwan"
+   }
+  },
+  {
+   "code": "HK",
+   "tz": "Asia/Hong_Kong",
+   "flag": "🇭🇰",
+   "name": {
+    "ko": "홍콩",
+    "ja": "香港",
+    "en": "Hong Kong",
+    "zh-Hant": "香港",
+    "zh-Hans": "香港",
+    "fr": "Hong Kong",
+    "de": "Hongkong",
+    "es": "Hong Kong",
+    "it": "Hong Kong"
+   }
+  },
+  {
+   "code": "SG",
+   "tz": "Asia/Singapore",
+   "flag": "🇸🇬",
+   "name": {
+    "ko": "싱가포르",
+    "ja": "シンガポール",
+    "en": "Singapore",
+    "zh-Hant": "新加坡",
+    "zh-Hans": "新加坡",
+    "fr": "Singapour",
+    "de": "Singapur",
+    "es": "Singapur",
+    "it": "Singapore"
+   }
+  },
+  {
+   "code": "TH",
+   "tz": "Asia/Bangkok",
+   "flag": "🇹🇭",
+   "name": {
+    "ko": "태국",
+    "ja": "タイ",
+    "en": "Thailand",
+    "zh-Hant": "泰國",
+    "zh-Hans": "泰国",
+    "fr": "Thaïlande",
+    "de": "Thailand",
+    "es": "Tailandia",
+    "it": "Thailandia"
+   }
+  },
+  {
+   "code": "ID",
+   "tz": "Asia/Jakarta",
+   "flag": "🇮🇩",
+   "name": {
+    "ko": "인도네시아",
+    "ja": "インドネシア",
+    "en": "Indonesia",
+    "zh-Hant": "印尼",
+    "zh-Hans": "印度尼西亚",
+    "fr": "Indonésie",
+    "de": "Indonesien",
+    "es": "Indonesia",
+    "it": "Indonesia"
+   }
+  },
+  {
+   "code": "AU",
+   "tz": "Australia/Sydney",
+   "flag": "🇦🇺",
+   "name": {
+    "ko": "호주",
+    "ja": "オーストラリア",
+    "en": "Australia",
+    "zh-Hant": "澳洲",
+    "zh-Hans": "澳大利亚",
+    "fr": "Australie",
+    "de": "Australien",
+    "es": "Australia",
+    "it": "Australia"
+   }
+  },
+  {
+   "code": "NZ",
+   "tz": "Pacific/Auckland",
+   "flag": "🇳🇿",
+   "name": {
+    "ko": "뉴질랜드",
+    "ja": "ニュージーランド",
+    "en": "New Zealand",
+    "zh-Hant": "紐西蘭",
+    "zh-Hans": "新西兰",
+    "fr": "Nouvelle-Zélande",
+    "de": "Neuseeland",
+    "es": "Nueva Zelanda",
+    "it": "Nuova Zelanda"
+   }
+  },
+  {
+   "code": "US-W",
+   "tz": "America/Los_Angeles",
+   "flag": "🇺🇸",
+   "name": {
+    "ko": "미국(서부)",
+    "ja": "アメリカ(西部)",
+    "en": "USA (Pacific)",
+    "zh-Hant": "美國（西岸）",
+    "zh-Hans": "美国（西部）",
+    "fr": "États-Unis (Pacifique)",
+    "de": "USA (Pazifik)",
+    "es": "EE. UU. (Pacífico)",
+    "it": "USA (Pacifico)"
+   }
+  },
+  {
+   "code": "US-E",
+   "tz": "America/New_York",
+   "flag": "🇺🇸",
+   "name": {
+    "ko": "미국(동부)",
+    "ja": "アメリカ(東部)",
+    "en": "USA (Eastern)",
+    "zh-Hant": "美國（東岸）",
+    "zh-Hans": "美国（东部）",
+    "fr": "États-Unis (Est)",
+    "de": "USA (Osten)",
+    "es": "EE. UU. (Este)",
+    "it": "USA (Est)"
+   }
+  },
+  {
+   "code": "CA",
+   "tz": "America/Toronto",
+   "flag": "🇨🇦",
+   "name": {
+    "ko": "캐나다(동부)",
+    "ja": "カナダ(東部)",
+    "en": "Canada (Eastern)",
+    "zh-Hant": "加拿大（東部）",
+    "zh-Hans": "加拿大（东部）",
+    "fr": "Canada (Est)",
+    "de": "Kanada (Osten)",
+    "es": "Canadá (Este)",
+    "it": "Canada (Est)"
+   }
+  },
+  {
+   "code": "MX",
+   "tz": "America/Mexico_City",
+   "flag": "🇲🇽",
+   "name": {
+    "ko": "멕시코",
+    "ja": "メキシコ",
+    "en": "Mexico",
+    "zh-Hant": "墨西哥",
+    "zh-Hans": "墨西哥",
+    "fr": "Mexique",
+    "de": "Mexiko",
+    "es": "México",
+    "it": "Messico"
+   }
+  },
+  {
+   "code": "BR",
+   "tz": "America/Sao_Paulo",
+   "flag": "🇧🇷",
+   "name": {
+    "ko": "브라질",
+    "ja": "ブラジル",
+    "en": "Brazil",
+    "zh-Hant": "巴西",
+    "zh-Hans": "巴西",
+    "fr": "Brésil",
+    "de": "Brasilien",
+    "es": "Brasil",
+    "it": "Brasile"
+   }
+  },
+  {
+   "code": "GB",
+   "tz": "Europe/London",
+   "flag": "🇬🇧",
+   "name": {
+    "ko": "영국",
+    "ja": "イギリス",
+    "en": "United Kingdom",
+    "zh-Hant": "英國",
+    "zh-Hans": "英国",
+    "fr": "Royaume-Uni",
+    "de": "Vereinigtes Königreich",
+    "es": "Reino Unido",
+    "it": "Regno Unito"
+   }
+  },
+  {
+   "code": "FR",
+   "tz": "Europe/Paris",
+   "flag": "🇫🇷",
+   "name": {
+    "ko": "프랑스",
+    "ja": "フランス",
+    "en": "France",
+    "zh-Hant": "法國",
+    "zh-Hans": "法国",
+    "fr": "France",
+    "de": "Frankreich",
+    "es": "Francia",
+    "it": "Francia"
+   }
+  },
+  {
+   "code": "DE",
+   "tz": "Europe/Berlin",
+   "flag": "🇩🇪",
+   "name": {
+    "ko": "독일",
+    "ja": "ドイツ",
+    "en": "Germany",
+    "zh-Hant": "德國",
+    "zh-Hans": "德国",
+    "fr": "Allemagne",
+    "de": "Deutschland",
+    "es": "Alemania",
+    "it": "Germania"
+   }
+  },
+  {
+   "code": "ES",
+   "tz": "Europe/Madrid",
+   "flag": "🇪🇸",
+   "name": {
+    "ko": "스페인",
+    "ja": "スペイン",
+    "en": "Spain",
+    "zh-Hant": "西班牙",
+    "zh-Hans": "西班牙",
+    "fr": "Espagne",
+    "de": "Spanien",
+    "es": "España",
+    "it": "Spagna"
+   }
+  },
+  {
+   "code": "IT",
+   "tz": "Europe/Rome",
+   "flag": "🇮🇹",
+   "name": {
+    "ko": "이탈리아",
+    "ja": "イタリア",
+    "en": "Italy",
+    "zh-Hant": "義大利",
+    "zh-Hans": "意大利",
+    "fr": "Italie",
+    "de": "Italien",
+    "es": "Italia",
+    "it": "Italia"
+   }
+  }
+ ],
+ "freeRaidPass": {
+  "perDay": 1,
+  "maxHeld": 1,
+  "verify": true
+ },
+ "specialTradesPerDay": 1,
+ "giftLimits": {
+  "openPerDay": 20,
+  "sendPerDay": 100,
+  "holdMax": 10,
+  "verify": true
+ },
+ "maxBattle": {
+  "maxTrainers": 4,
+  "tiers": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ]
+ },
+ "worldClockDefault": [
+  "KR",
+  "JP",
+  "US-W",
+  "GB",
+  "AU"
+ ],
+ "shinyOddsByTier": {
+  "_comment": "레이드 이로치 확률(커뮤니티 관측 추정). null=확인 중. 개별 레이드 shiny.odds가 있으면 그게 우선",
+  "5": {
+   "num": 1,
+   "den": 20
+  },
+  "shadow_5": {
+   "num": 1,
+   "den": 20
+  },
+  "mega_legendary": {
+   "num": 1,
+   "den": 20
+  },
+  "primal": {
+   "num": 1,
+   "den": 20
+  },
+  "1": null,
+  "3": null,
+  "mega": null,
+  "shadow_1": null,
+  "shadow_3": null,
+  "max_6": null,
+  "verify": true
+ },
+ "raidDailyWindow": {
+  "firstEgg": "05:00",
+  "lastEgg": "19:45",
+  "lastBattleEnd": "21:30",
+  "bossRotation": "06:00",
+  "_comment": "현지 시각. 알은 firstEgg~lastEgg 사이에만 출현, 마지막 레이드는 lastBattleEnd쯤 종료. 보스 교체는 bossRotation. 이벤트(레이드 데이 등)는 예외",
+  "verify": true,
+  "sources": [
+   "https://bulbapedia.bulbagarden.net/wiki/Raid_hour",
+   "https://www.gamesradar.com/pokemon-go-raids",
+   "https://leekduck.com/events/cresselia-darkrai-in-5-star-raid-battles-november-2026/"
+  ]
+ },
+ "contactEmail": "",
+ "_contactEmailComment": "설정 > 문의하기에 표시할 이메일. 비어 있으면 \"이메일 주소 입력 예정\" 표시, 채우면 누를 때 메일 앱 열기",
+ "privacyPolicyUrl": "",
+ "_privacyPolicyUrlComment": "개인정보처리방침 주소 (Play 등록 필수, AdMob 사용). 비어 있으면 설정에서 \"주소 입력 예정\" 표시",
+ "alarmPolicy": {
+  "mode": "inexact",
+  "toleranceMinutes": 10,
+  "_comment": "Android 14+ 정확한 알람(SCHEDULE_EXACT_ALARM)은 시계·캘린더 앱이 아니면 Play 심사에서 거절될 수 있어 일반 예약 알림(WorkManager/setWindow) 사용. 몇 분 오차 허용"
+ },
+ "adPrivacyOptions": {
+  "enabled": true,
+  "_comment": "UMP 동의 도구: 동의 대상 지역(EEA·UK 등)이면 설정 > 광고 개인정보 설정 줄을 보여 줌"
+ },
+ "appName": "Go Trainer Helper",
+ "defaultCountryByLanguage": {
+  "ko": "KR",
+  "ja": "JP",
+  "en": "US-E",
+  "zh-Hant": "TW",
+  "zh-Hans": "SG",
+  "fr": "FR",
+  "de": "DE",
+  "es": "ES",
+  "it": "IT"
+ },
+ "_countryComment": "첫 실행에 고르는 기준 나라(시간대). worldClockCountries의 tz로 일정 시각을 바꿔 보여 줌. defaultCountryByLanguage=언어를 고르면 먼저 선택돼 있는 나라"
+}

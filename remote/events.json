@@ -1,0 +1,2133 @@
+{
+ "schemaVersion": 3,
+ "updatedAt": "2026-11-21T16:58:04Z",
+ "_comment": "자동 생성 파일 — 직접 고치지 말고 schedule/events.json·raids.json을 고친 뒤 tools/build_schedule.py 실행. title은 9개 언어, label은 종류 이름.",
+ "events": [
+  {
+   "id": "season-2026-09-08-twilight-trails",
+   "category": "season",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-09-08T10:00:00",
+   "end": "2026-12-01T10:00:00",
+   "title": {
+    "ko": "Twilight Trails",
+    "ja": "黄昏の旅路",
+    "en": "Twilight Trails",
+    "zh-Hant": "Twilight Trails",
+    "zh-Hans": "Twilight Trails",
+    "fr": "Twilight Trails",
+    "de": "Twilight Trails",
+    "es": "Twilight Trails",
+    "it": "Twilight Trails"
+   },
+   "label": {
+    "ko": "시즌",
+    "ja": "シーズン",
+    "en": "Season",
+    "zh-Hant": "季節",
+    "zh-Hans": "季节",
+    "fr": "Saison",
+    "de": "Saison",
+    "es": "Temporada",
+    "it": "Stagione"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [],
+   "sources": [
+    "https://leekduck.com/events/season-24-twilight-trails/",
+    "https://pokemon.gamepedia.jp/go/archives/119476",
+    "https://pokemongo-raku.com/post161481",
+    "https://www.poke-toku.com/events/choose-your-path-twilight-trails-2026"
+   ]
+  },
+  {
+   "id": "research-2026-09-25-adidas-pok-mon-timed-research",
+   "category": "research",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-09-25T10:00:00",
+   "end": "2027-01-15T20:00:00",
+   "title": {
+    "ko": "adidas × Pokémon Timed Research",
+    "ja": "adidas × Pokémon Timed Research",
+    "en": "adidas × Pokémon Timed Research",
+    "zh-Hant": "adidas × Pokémon Timed Research",
+    "zh-Hans": "adidas × Pokémon Timed Research",
+    "fr": "adidas × Pokémon Timed Research",
+    "de": "adidas × Pokémon Timed Research",
+    "es": "adidas × Pokémon Timed Research",
+    "it": "adidas × Pokémon Timed Research"
+   },
+   "label": {
+    "ko": "리서치",
+    "ja": "リサーチ",
+    "en": "Research",
+    "zh-Hant": "調查",
+    "zh-Hans": "调查",
+    "fr": "Études",
+    "de": "Forschung",
+    "es": "Investigación",
+    "it": "Ricerca"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": []
+  },
+  {
+   "id": "go_pass-2026-11-03-go-pass-november",
+   "category": "go_pass",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-11-03T10:00:00",
+   "end": "2026-12-01T10:00:00",
+   "title": {
+    "ko": "GO 패스: 11월",
+    "ja": "GOパス：11月",
+    "en": "GO Pass: November",
+    "zh-Hant": "GO Pass: November",
+    "zh-Hans": "GO Pass: November",
+    "fr": "GO Pass: November",
+    "de": "GO Pass: November",
+    "es": "GO Pass: November",
+    "it": "GO Pass: November"
+   },
+   "label": {
+    "ko": "GO 패스",
+    "ja": "GOパス",
+    "en": "GO Pass",
+    "zh-Hant": "GO通行證",
+    "zh-Hans": "GO通行证",
+    "fr": "Pass GO",
+    "de": "GO-Pass",
+    "es": "Pase GO",
+    "it": "Pass GO"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": []
+  },
+  {
+   "id": "gbl-2026-11-10-great-league-ultra-league-mega-edition-2026-go-laic-cup",
+   "category": "gbl",
+   "region": "global",
+   "timeMode": "utc",
+   "start": "2026-11-10T21:00:00",
+   "end": "2026-11-17T21:00:00",
+   "title": {
+    "ko": "GO배틀리그: 슈퍼리그, 하이퍼리그, 메가 에디션, 2026 GO LAIC 컵",
+    "ja": "GOバトルリーグ：スーパーリーグ・ハイパーリーグ・メガエディション・2026 GO LAICカップ",
+    "en": "GO Battle League: Great League, Ultra League, Mega Edition, 2026 GO LAIC Cup",
+    "zh-Hant": "GO對戰聯盟：超級聯盟、高級聯盟、超級進化版、2026 GO LAIC盃",
+    "zh-Hans": "GO对战联盟：超级联盟、高级联盟、超级进化版、2026 GO LAIC杯",
+    "fr": "Ligue de Combat GO : Ligue Super, Ligue Hyper, édition Méga, Coupe GO LAIC 2026",
+    "de": "GO-Kampfliga: Superliga, Hyperliga, Mega-Edition, GO-LAIC-Cup 2026",
+    "es": "Liga de Combates GO: Liga Super Ball, Liga Ultra Ball, edición Mega, Copa GO LAIC 2026",
+    "it": "Lega Lotte GO: Lega Mega, Lega Ultra, edizione Mega, Coppa GO LAIC 2026"
+   },
+   "label": {
+    "ko": "GO배틀리그",
+    "ja": "GOバトルリーグ",
+    "en": "GO Battle League",
+    "zh-Hant": "GO對戰聯盟",
+    "zh-Hans": "GO对战联盟",
+    "fr": "Ligue de Combat GO",
+    "de": "GO-Kampfliga",
+    "es": "Liga de Combates GO",
+    "it": "Lega Lotte GO"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    30,
+    0
+   ]
+  },
+  {
+   "id": "meteor_shower-2026-11-14-leonids",
+   "category": "meteor_shower",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-11-14T17:00:00",
+   "end": "2026-11-19T23:59:00",
+   "title": {
+    "ko": "메테노 유성우: 사자자리",
+    "ja": "メテノの流星群：しし座",
+    "en": "Minior Showers: Leonids",
+    "zh-Hant": "小隕星流星雨：獅子座",
+    "zh-Hans": "小陨星流星雨：狮子座",
+    "fr": "Pluie de Météno : Léonides",
+    "de": "Meteno-Sternschnuppen: Leoniden",
+    "es": "Lluvia de Minior: Leónidas",
+    "it": "Pioggia di Minior: Leonidi"
+   },
+   "label": {
+    "ko": "메테노 유성우",
+    "ja": "メテノの流星群",
+    "en": "Minior Showers",
+    "zh-Hant": "小隕星流星雨",
+    "zh-Hans": "小陨星流星雨",
+    "fr": "Pluie de Météno",
+    "de": "Meteno-Sternschnuppen",
+    "es": "Lluvia de Minior",
+    "it": "Pioggia di Minior"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [
+    "fn_meteor_shower"
+   ],
+   "alarmPresetsMin": [
+    60,
+    0
+   ]
+  },
+  {
+   "id": "raid_battles-2026-11-16-5-488-491",
+   "category": "raid_battles",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-11-16T06:00:00",
+   "end": "2026-11-24T22:00:00",
+   "title": {
+    "ko": "★5 레이드: 크레세리아, 다크라이",
+    "ja": "★5レイド：クレセリア・ダークライ",
+    "en": "5-Star Raids: Cresselia, Darkrai",
+    "zh-Hant": "五星團體戰：克雷色利亞、達克萊伊",
+    "zh-Hans": "五星团体战：克雷色利亚、达克莱伊",
+    "fr": "Raids 5 étoiles : Cresselia, Darkrai",
+    "de": "5-Sterne-Raids: Cresselia, Darkrai",
+    "es": "Incursiones de 5 estrellas: Cresselia, Darkrai",
+    "it": "Raid a 5 stelle: Cresselia, Darkrai"
+   },
+   "label": {
+    "ko": "레이드",
+    "ja": "レイド",
+    "en": "Raids",
+    "zh-Hant": "團體戰",
+    "zh-Hans": "团体战",
+    "fr": "Raids",
+    "de": "Raids",
+    "es": "Incursiones",
+    "it": "Raid"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 488,
+     "formId": "normal"
+    },
+    {
+     "dex": 491,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ],
+   "auto": "schedule/raids.json에서 자동 생성"
+  },
+  {
+   "id": "raid_battles-2026-11-16-mega-354",
+   "category": "raid_battles",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-11-16T06:00:00",
+   "end": "2026-11-24T22:00:00",
+   "title": {
+    "ko": "메가 레이드: 메가다크펫",
+    "ja": "メガレイド：メガジュペッタ",
+    "en": "Mega Raids: Mega Banette",
+    "zh-Hant": "超級進化團體戰：超級詛咒娃娃",
+    "zh-Hans": "超级进化团体战：超级诅咒娃娃",
+    "fr": "Raids Méga : Méga-Branette",
+    "de": "Mega-Raids: Mega-Banette",
+    "es": "Incursiones Mega: Mega-Banette",
+    "it": "Raid Mega: MegaBanette"
+   },
+   "label": {
+    "ko": "레이드",
+    "ja": "レイド",
+    "en": "Raids",
+    "zh-Hant": "團體戰",
+    "zh-Hans": "团体战",
+    "fr": "Raids",
+    "de": "Raids",
+    "es": "Incursiones",
+    "it": "Raid"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 354,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ],
+   "auto": "schedule/raids.json에서 자동 생성"
+  },
+  {
+   "id": "raid_battles-2026-11-16-shadow_5-641",
+   "category": "raid_battles",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-11-16T06:00:00",
+   "end": "2026-12-01T22:00:00",
+   "title": {
+    "ko": "그림자 레이드: 그림자 토네로스",
+    "ja": "シャドウレイド：シャドウトルネロス",
+    "en": "Shadow Raids: Shadow Tornadus",
+    "zh-Hant": "暗影團體戰：暗影龍捲雲",
+    "zh-Hans": "暗影团体战：暗影龙卷云",
+    "fr": "Raids Obscurs : Boréas obscur",
+    "de": "Crypto-Raids: Crypto-Boreos",
+    "es": "Incursiones Oscuras: Tornadus oscuro",
+    "it": "Raid Ombra: Tornadus ombra"
+   },
+   "label": {
+    "ko": "레이드",
+    "ja": "レイド",
+    "en": "Raids",
+    "zh-Hant": "團體戰",
+    "zh-Hans": "团体战",
+    "fr": "Raids",
+    "de": "Raids",
+    "es": "Incursiones",
+    "it": "Raid"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 641,
+     "formId": "incarnate"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ],
+   "auto": "schedule/raids.json에서 자동 생성"
+  },
+  {
+   "id": "event-2026-11-16-dynamax-trails",
+   "category": "event",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-11-16T10:00:00",
+   "end": "2026-11-23T20:00:00",
+   "title": {
+    "ko": "Dynamax Trails",
+    "ja": "Dynamax Trails",
+    "en": "Dynamax Trails",
+    "zh-Hant": "Dynamax Trails",
+    "zh-Hans": "Dynamax Trails",
+    "fr": "Dynamax Trails",
+    "de": "Dynamax Trails",
+    "es": "Dynamax Trails",
+    "it": "Dynamax Trails"
+   },
+   "label": {
+    "ko": "이벤트",
+    "ja": "イベント",
+    "en": "Event",
+    "zh-Hant": "活動",
+    "zh-Hans": "活动",
+    "fr": "Évènement",
+    "de": "Event",
+    "es": "Evento",
+    "it": "Evento"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ],
+   "sources": [
+    "https://leekduck.com/events/dynamax-trails-2026/",
+    "https://www.serebii.net/pokemongo/events/dynamaxtrails.shtml",
+    "https://nintendowire.com/guides/pokemon-go/season-of-twilight-trails/dynamax-trails/",
+    "https://www.theclick.gg/pokemon-go-dynamax-trails-2026/"
+   ],
+   "bonuses": [
+    {
+     "code": "gopass_tier",
+     "text": {
+      "ko": "GO 패스 15티어 달성: 포획 별의모래 2배",
+      "ja": "GOパス ティア15達成：捕獲時のほしのすな2倍",
+      "en": "GO Pass tier 15: 2× catch Stardust",
+      "zh-Hant": "GO通行證第15階：捕捉星星沙子2倍",
+      "zh-Hans": "GO通行证第15阶：捕捉星星沙子2倍",
+      "fr": "Pass GO palier 15 : Poussière de capture ×2",
+      "de": "GO-Pass Stufe 15: 2× Fang-Sternenstaub",
+      "es": "Pase GO nivel 15: 2× polvoestelar al atrapar",
+      "it": "Pass GO livello 15: 2× polvere di stelle per cattura"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "GO 패스: 다이맥스 트레일 자동 지급 · 무한다이노 1회 포획 가능",
+      "ja": "GOパス「Dynamax Trails」自動付与・ムゲンダイナを1回捕獲可能",
+      "en": "GO Pass: Dynamax Trails given automatically · catch Eternatus once",
+      "zh-Hant": "自動獲得GO通行證：Dynamax Trails・可捕捉無極汰那1次",
+      "zh-Hans": "自动获得GO通行证：Dynamax Trails・可捕捉无极汰那1次",
+      "fr": "Pass GO : Dynamax Trails offert · capturez Éthernatos une fois",
+      "de": "GO-Pass: Dynamax Trails automatisch · Endynalos einmal fangen",
+      "es": "Pase GO: Dynamax Trails gratis · atrapa a Eternatus una vez",
+      "it": "Pass GO: Dynamax Trails automatico · cattura Eternatus una volta"
+     }
+    }
+   ]
+  },
+  {
+   "id": "research-2026-11-17-pok-mon-go-and-duolingo-timed-research",
+   "category": "research",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-11-17T10:00:00",
+   "end": "2026-12-31T23:59:00",
+   "title": {
+    "ko": "Pokémon GO and Duolingo Timed Research",
+    "ja": "Pokémon GO and Duolingo Timed Research",
+    "en": "Pokémon GO and Duolingo Timed Research",
+    "zh-Hant": "Pokémon GO and Duolingo Timed Research",
+    "zh-Hans": "Pokémon GO and Duolingo Timed Research",
+    "fr": "Pokémon GO and Duolingo Timed Research",
+    "de": "Pokémon GO and Duolingo Timed Research",
+    "es": "Pokémon GO and Duolingo Timed Research",
+    "it": "Pokémon GO and Duolingo Timed Research"
+   },
+   "label": {
+    "ko": "리서치",
+    "ja": "リサーチ",
+    "en": "Research",
+    "zh-Hant": "調查",
+    "zh-Hans": "调查",
+    "fr": "Études",
+    "de": "Forschung",
+    "es": "Investigación",
+    "it": "Ricerca"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [],
+   "sources": [
+    "https://pokemongo.com/news/duolingo-2026",
+    "https://leekduck.com/events/duolingo-timed-research-2026/",
+    "https://pokemongohub.net/post/event/pokemon-go-x-duolingo-duos-pokemon-party-timed-research-language-tag/",
+    "https://www.dexerto.com/pokemon/pokemon-go-rewards-your-duolingo-lessons-with-a-chance-at-shiny-lucario-3428914/"
+   ],
+   "bonuses": [
+    {
+     "code": "custom",
+     "text": {
+      "ko": "듀오링고 레슨을 서로 다른 7일 동안 해야 코드 받음 · 12월 21일 23:59까지 시작",
+      "ja": "Duolingoのレッスンを別々の7日間で行うとコード入手・12月21日23:59までに開始",
+      "en": "Do Duolingo lessons on 7 separate days for the code · join by Dec 21, 23:59",
+      "zh-Hant": "需在不同的7天完成Duolingo課程才能取得代碼・12月21日23:59前開始",
+      "zh-Hans": "需在不同的7天完成Duolingo课程才能获得代码・12月21日23:59前开始",
+      "fr": "Leçons Duolingo sur 7 jours différents pour le code · à commencer avant le 21 déc. 23 h 59",
+      "de": "Duolingo-Lektionen an 7 verschiedenen Tagen für den Code · bis 21. Dez. 23:59 starten",
+      "es": "Lecciones de Duolingo en 7 días distintos para el código · empieza antes del 21 dic. 23:59",
+      "it": "Lezioni Duolingo in 7 giorni diversi per il codice · inizia entro il 21 dic. 23:59"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "보상 받기 마감 12월 29일 23:59",
+      "ja": "報酬の受け取り期限 12月29日23:59",
+      "en": "Claim rewards by Dec 29, 23:59",
+      "zh-Hant": "領取獎勵期限12月29日23:59",
+      "zh-Hans": "领取奖励期限12月29日23:59",
+      "fr": "Récompenses à réclamer avant le 29 déc. 23 h 59",
+      "de": "Belohnungen bis 29. Dez. 23:59 abholen",
+      "es": "Reclama las recompensas antes del 29 dic. 23:59",
+      "it": "Riscatta i premi entro il 29 dic. 23:59"
+     }
+    }
+   ]
+  },
+  {
+   "id": "raid_hour-2026-11-18-488-491",
+   "category": "raid_hour",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-11-18T18:00:00",
+   "end": "2026-11-18T19:00:00",
+   "title": {
+    "ko": "크레세리아, 다크라이 레이드 아워",
+    "ja": "レイドアワー：クレセリア・ダークライ",
+    "en": "Cresselia, Darkrai Raid Hour",
+    "zh-Hant": "團體戰時間：克雷色利亞、達克萊伊",
+    "zh-Hans": "团体战时间：克雷色利亚、达克莱伊",
+    "fr": "Heure de Raids : Cresselia, Darkrai",
+    "de": "Raid-Stunde: Cresselia, Darkrai",
+    "es": "Hora de Incursiones: Cresselia, Darkrai",
+    "it": "Ora dei Raid: Cresselia, Darkrai"
+   },
+   "label": {
+    "ko": "레이드 아워",
+    "ja": "レイドアワー",
+    "en": "Raid Hour",
+    "zh-Hant": "團體戰時間",
+    "zh-Hans": "团体战时间",
+    "fr": "Heure de Raids",
+    "de": "Raid-Stunde",
+    "es": "Hora de Incursiones",
+    "it": "Ora dei Raid"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 488,
+     "formId": "normal"
+    },
+    {
+     "dex": 491,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    30,
+    0
+   ],
+   "auto": "schedule/raids.json에서 자동 생성"
+  },
+  {
+   "id": "gbl-2026-11-18-ultra-league-master-league-mega-edition-2026-go-laic-cup",
+   "category": "gbl",
+   "region": "global",
+   "timeMode": "utc",
+   "start": "2026-11-18T21:00:00",
+   "end": "2026-11-25T21:00:00",
+   "title": {
+    "ko": "GO배틀리그: 하이퍼리그, 마스터리그, 메가 에디션, 2026 GO LAIC 컵",
+    "ja": "GOバトルリーグ：ハイパーリーグ・マスターリーグ・メガエディション・2026 GO LAICカップ",
+    "en": "GO Battle League: Ultra League, Master League, Mega Edition, 2026 GO LAIC Cup",
+    "zh-Hant": "GO對戰聯盟：高級聯盟、大師聯盟、超級進化版、2026 GO LAIC盃",
+    "zh-Hans": "GO对战联盟：高级联盟、大师联盟、超级进化版、2026 GO LAIC杯",
+    "fr": "Ligue de Combat GO : Ligue Hyper, Ligue Master, édition Méga, Coupe GO LAIC 2026",
+    "de": "GO-Kampfliga: Hyperliga, Meisterliga, Mega-Edition, GO-LAIC-Cup 2026",
+    "es": "Liga de Combates GO: Liga Ultra Ball, Liga Master Ball, edición Mega, Copa GO LAIC 2026",
+    "it": "Lega Lotte GO: Lega Ultra, Lega Master, edizione Mega, Coppa GO LAIC 2026"
+   },
+   "label": {
+    "ko": "GO배틀리그",
+    "ja": "GOバトルリーグ",
+    "en": "GO Battle League",
+    "zh-Hant": "GO對戰聯盟",
+    "zh-Hans": "GO对战联盟",
+    "fr": "Ligue de Combat GO",
+    "de": "GO-Kampfliga",
+    "es": "Liga de Combates GO",
+    "it": "Lega Lotte GO"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    30,
+    0
+   ]
+  },
+  {
+   "id": "spotlight_hour-2026-11-19-grookey",
+   "category": "spotlight_hour",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-11-19T18:00:00",
+   "end": "2026-11-19T19:00:00",
+   "title": {
+    "ko": "흥나숭, 염버니, 울머기 스포트라이트 아워",
+    "ja": "スポットライトアワー：サルノリ・ヒバニー・メッソン",
+    "en": "Grookey, Scorbunny, Sobble Spotlight Hour",
+    "zh-Hant": "聚光燈時刻：敲音猴、炎兔兒、淚眼蜥",
+    "zh-Hans": "聚光灯时刻：敲音猴、炎兔儿、泪眼蜥",
+    "fr": "Heure Vedette : Ouistempo, Flambino, Larméléon",
+    "de": "Rampenlicht-Stunde: Chimpep, Hopplo, Memmeon",
+    "es": "Hora Destacada: Grookey, Scorbunny, Sobble",
+    "it": "Ora del Pokémon in evidenza: Grookey, Scorbunny, Sobble"
+   },
+   "label": {
+    "ko": "스포트라이트 아워",
+    "ja": "スポットライトアワー",
+    "en": "Spotlight Hour",
+    "zh-Hant": "聚光燈時刻",
+    "zh-Hans": "聚光灯时刻",
+    "fr": "Heure Vedette",
+    "de": "Rampenlicht-Stunde",
+    "es": "Hora Destacada",
+    "it": "Ora del Pokémon in evidenza"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 810,
+     "formId": "normal"
+    },
+    {
+     "dex": 813,
+     "formId": "normal"
+    },
+    {
+     "dex": 816,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    30,
+    0
+   ],
+   "bonuses": [
+    {
+     "code": "catch_candy_2x",
+     "text": {
+      "ko": "포획 사탕 2배",
+      "ja": "捕獲時のアメ2倍",
+      "en": "2× Catch Candy",
+      "zh-Hant": "捕捉糖果2倍",
+      "zh-Hans": "捕捉糖果2倍",
+      "fr": "Bonbons de capture ×2",
+      "de": "2× Fang-Bonbons",
+      "es": "2× caramelos al atrapar",
+      "it": "2× caramelle per cattura"
+     }
+    }
+   ]
+  },
+  {
+   "id": "max_battle_day-2026-11-21-eternatus",
+   "category": "max_battle_day",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-11-21T11:00:00",
+   "end": "2026-11-21T14:00:00",
+   "title": {
+    "ko": "무한다이노 맥스배틀 데이",
+    "ja": "マックスバトル・デイ：ムゲンダイナ",
+    "en": "Eternatus Max Battle Day",
+    "zh-Hant": "極巨對戰日：無極汰那",
+    "zh-Hans": "极巨对战日：无极汰那",
+    "fr": "Journée Combats Dynamax : Éthernatos",
+    "de": "Dyna-Kampftag: Endynalos",
+    "es": "Día de Combates Max: Eternatus",
+    "it": "Giornata delle Lotte Dynamax: Eternatus"
+   },
+   "label": {
+    "ko": "맥스배틀 데이",
+    "ja": "マックスバトル・デイ",
+    "en": "Max Battle Day",
+    "zh-Hant": "極巨對戰日",
+    "zh-Hans": "极巨对战日",
+    "fr": "Journée Combats Dynamax",
+    "de": "Dyna-Kampftag",
+    "es": "Día de Combates Max",
+    "it": "Giornata delle Lotte Dynamax"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 890,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ]
+  },
+  {
+   "id": "community_day-2026-11-21-pawniard",
+   "category": "community_day",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-11-21T14:00:00",
+   "end": "2026-11-21T17:00:00",
+   "title": {
+    "ko": "자망칼 커뮤니티 데이",
+    "ja": "コミュニティ・デイ：コマタナ",
+    "en": "Pawniard Community Day",
+    "zh-Hant": "社群日：駒刀小兵",
+    "zh-Hans": "社区日：驹刀小兵",
+    "fr": "Journée Communauté : Scalpion",
+    "de": "Community Day: Gladiantri",
+    "es": "Día de la Comunidad: Pawniard",
+    "it": "Community Day: Pawniard"
+   },
+   "label": {
+    "ko": "커뮤니티 데이",
+    "ja": "コミュニティ・デイ",
+    "en": "Community Day",
+    "zh-Hant": "社群日",
+    "zh-Hans": "社区日",
+    "fr": "Journée Communauté",
+    "de": "Community Day",
+    "es": "Día de la Comunidad",
+    "it": "Community Day"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 624,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ],
+   "sources": [
+    "https://pokemongo.com/en/news/communityday-november-2026-pawniard",
+    "https://pokemongohub.net/post/event/pawniard-community-day-november-2026/",
+    "https://leekduck.com/events/november-communityday2026/",
+    "https://www.dexerto.com/pokemon/pokemon-go-community-day-event-1773041/"
+   ],
+   "bonuses": [
+    {
+     "code": "legacy_evolve",
+     "text": {
+      "ko": "대도각참(으)로 진화하면 도각참 습득",
+      "ja": "ドドゲザンに進化させるとドゲザンを覚える",
+      "en": "Evolve into Kingambit to learn Kowtow Cleave",
+      "zh-Hant": "進化成仆斬將軍可學會仆斬",
+      "zh-Hans": "进化成仆刀将军可学会仆刀",
+      "fr": "Faites évoluer en Scalpereur pour apprendre Génusection",
+      "de": "Zu Gladimperio entwickeln, um Kniefallspalter zu lernen",
+      "es": "Evoluciona a Kingambit para aprender Genufendiente",
+      "it": "Fai evolvere in Kingambit per imparare Genufendente"
+     },
+     "until": "21:00"
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "대도각참 진화 조건 완화: 악·강철 타입 레이드 보스 1번 이기기 (원래 15번)",
+      "ja": "ドドゲザンの進化条件緩和：あく・はがねタイプのレイドボスに1回勝つ（通常15回）",
+      "en": "Easier Kingambit evolution: defeat 1 Dark- or Steel-type raid boss (normally 15)",
+      "zh-Hant": "仆斬將軍進化條件放寬：打倒1次惡或鋼屬性團體戰首領（平時15次）",
+      "zh-Hans": "仆刀将军进化条件放宽：打倒1次恶或钢属性团体战首领（平时15次）",
+      "fr": "Évolution en Scalpereur facilitée : vaincre 1 boss de raid Ténèbres ou Acier (15 normalement)",
+      "de": "Leichtere Entwicklung zu Gladimperio: 1 Unlicht- oder Stahl-Raid-Boss besiegen (sonst 15)",
+      "es": "Evolución a Kingambit más fácil: derrota 1 jefe de incursión Siniestro o Acero (normalmente 15)",
+      "it": "Evoluzione in Kingambit più facile: sconfiggi 1 boss raid Buio o Acciaio (di solito 15)"
+     },
+     "until": "21:00"
+    },
+    {
+     "code": "increased_spawns",
+     "text": {
+      "ko": "출현 증가",
+      "ja": "出現数アップ",
+      "en": "Increased spawns",
+      "zh-Hant": "出現增加",
+      "zh-Hans": "出现增加",
+      "fr": "Apparitions accrues",
+      "de": "Mehr Pokémon in der Wildnis",
+      "es": "Más apariciones",
+      "it": "Più apparizioni"
+     }
+    },
+    {
+     "code": "egg_distance_quarter",
+     "text": {
+      "ko": "알 부화 거리 1/4",
+      "ja": "タマゴ孵化距離1/4",
+      "en": "1/4 Egg hatch distance",
+      "zh-Hant": "孵蛋距離1/4",
+      "zh-Hans": "孵蛋距离1/4",
+      "fr": "Distance d'éclosion ÷4",
+      "de": "1/4 Schlüpfdistanz",
+      "es": "Distancia de eclosión 1/4",
+      "it": "Distanza di schiusa 1/4"
+     }
+    },
+    {
+     "code": "incense_3h",
+     "text": {
+      "ko": "향로 3시간",
+      "ja": "おこう3時間",
+      "en": "3-hour Incense",
+      "zh-Hant": "薰香3小時",
+      "zh-Hans": "熏香3小时",
+      "fr": "Encens 3 h",
+      "de": "Rauch 3 Std.",
+      "es": "Incienso de 3 h",
+      "it": "Aroma 3 ore"
+     }
+    },
+    {
+     "code": "lure_1h",
+     "text": {
+      "ko": "루어 모듈 1시간",
+      "ja": "ルアーモジュール1時間",
+      "en": "1-hour Lures",
+      "zh-Hant": "誘餌模組1小時",
+      "zh-Hans": "诱饵模块1小时",
+      "fr": "Leurres 1 h",
+      "de": "Lockmodule 1 Std.",
+      "es": "Señuelos de 1 h",
+      "it": "Esche 1 ora"
+     },
+     "until": "21:00"
+    },
+    {
+     "code": "catch_candy_2x",
+     "text": {
+      "ko": "포획 사탕 2배",
+      "ja": "捕獲時のアメ2倍",
+      "en": "2× Catch Candy",
+      "zh-Hant": "捕捉糖果2倍",
+      "zh-Hans": "捕捉糖果2倍",
+      "fr": "Bonbons de capture ×2",
+      "de": "2× Fang-Bonbons",
+      "es": "2× caramelos al atrapar",
+      "it": "2× caramelle per cattura"
+     }
+    },
+    {
+     "code": "catch_xl_2x",
+     "text": {
+      "ko": "트레이너 Lv.31 이상 포획 사탕XL 확률 2배",
+      "ja": "TL31以上 捕獲時のアメXL確率2倍",
+      "en": "2× chance of Candy XL from catches (level 31+)",
+      "zh-Hant": "31級以上捕捉獲得糖果XL機率2倍",
+      "zh-Hans": "31级以上捕捉获得糖果XL概率2倍",
+      "fr": "Chance de Bonbon L ×2 en capturant (niv. 31+)",
+      "de": "2× Chance auf XL-Bonbons beim Fangen (Lv. 31+)",
+      "es": "2× probabilidad de Caramelo++ al atrapar (nv. 31+)",
+      "it": "2× probabilità di Caramella L catturando (liv. 31+)"
+     }
+    },
+    {
+     "code": "special_trade_extra",
+     "text": {
+      "ko": "특별한 교환 1회 추가 (하루 최대 2회)",
+      "ja": "特別な交換が1回追加（1日最大2回）",
+      "en": "One extra Special Trade (max 2 per day)",
+      "zh-Hant": "特別交換多1次（每天最多2次）",
+      "zh-Hans": "特别交换多1次（每天最多2次）",
+      "fr": "1 échange spécial en plus (2 max par jour)",
+      "de": "1 zusätzlicher Spezialtausch (max. 2 pro Tag)",
+      "es": "1 intercambio especial extra (máx. 2 al día)",
+      "it": "1 scambio speciale in più (max 2 al giorno)"
+     },
+     "until": "21:00"
+    },
+    {
+     "code": "trade_stardust_half",
+     "text": {
+      "ko": "교환 별의모래 50% 감소",
+      "ja": "交換のほしのすな50%減",
+      "en": "Trades cost 50% less Stardust",
+      "zh-Hant": "交換所需星星沙子減少50%",
+      "zh-Hans": "交换所需星星沙子减少50%",
+      "fr": "Échanges : 50 % de Poussière en moins",
+      "de": "Tausch kostet 50 % weniger Sternenstaub",
+      "es": "Intercambios con 50 % menos polvoestelar",
+      "it": "Scambi con il 50% di polvere di stelle in meno"
+     },
+     "until": "21:00"
+    }
+   ],
+   "evolutions": [
+    {
+     "from": 624,
+     "to": 625,
+     "fromName": {
+      "ko": "자망칼",
+      "ja": "コマタナ",
+      "en": "Pawniard",
+      "zh-Hant": "駒刀小兵",
+      "zh-Hans": "驹刀小兵",
+      "fr": "Scalpion",
+      "de": "Gladiantri",
+      "es": "Pawniard",
+      "it": "Pawniard"
+     },
+     "toName": {
+      "ko": "절각참",
+      "ja": "キリキザン",
+      "en": "Bisharp",
+      "zh-Hant": "劈斬司令",
+      "zh-Hans": "劈斩司令",
+      "fr": "Scalproie",
+      "de": "Caesurio",
+      "es": "Bisharp",
+      "it": "Bisharp"
+     },
+     "requirement": {
+      "ko": "사탕 50개",
+      "ja": "アメ50個",
+      "en": "50 Candy",
+      "zh-Hant": "50顆糖果",
+      "zh-Hans": "50颗糖果",
+      "fr": "50 Bonbons",
+      "de": "50 Bonbons",
+      "es": "50 caramelos",
+      "it": "50 caramelle"
+     }
+    },
+    {
+     "from": 625,
+     "to": 983,
+     "fromName": {
+      "ko": "절각참",
+      "ja": "キリキザン",
+      "en": "Bisharp",
+      "zh-Hant": "劈斬司令",
+      "zh-Hans": "劈斩司令",
+      "fr": "Scalproie",
+      "de": "Caesurio",
+      "es": "Bisharp",
+      "it": "Bisharp"
+     },
+     "toName": {
+      "ko": "대도각참",
+      "ja": "ドドゲザン",
+      "en": "Kingambit",
+      "zh-Hant": "仆斬將軍",
+      "zh-Hans": "仆刀将军",
+      "fr": "Scalpereur",
+      "de": "Gladimperio",
+      "es": "Kingambit",
+      "it": "Kingambit"
+     },
+     "requirement": {
+      "ko": "사탕 100개 · 특별 조건 필요 (게임에서 확인)",
+      "ja": "アメ100個 · 特別な条件あり（ゲーム内で確認）",
+      "en": "100 Candy · Special requirement (check in game)",
+      "zh-Hant": "100顆糖果 · 需要特殊條件（請在遊戲中確認）",
+      "zh-Hans": "100颗糖果 · 需要特殊条件（请在游戏中确认）",
+      "fr": "100 Bonbons · Condition spéciale (voir en jeu)",
+      "de": "100 Bonbons · Sonderbedingung (im Spiel prüfen)",
+      "es": "100 caramelos · Requisito especial (ver en el juego)",
+      "it": "100 caramelle · Requisito speciale (vedi nel gioco)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "max_monday-2026-11-23-espurr",
+   "category": "max_monday",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-11-23T06:00:00",
+   "end": "2026-11-23T21:00:00",
+   "title": {
+    "ko": "맥스 먼데이 · 다이맥스 냐스퍼",
+    "ja": "マックスマンデー：ダイマックスニャスパー",
+    "en": "Max Monday: Dynamax Espurr",
+    "zh-Hant": "極巨星期一：極巨化妙喵",
+    "zh-Hans": "极巨星期一：极巨化妙喵",
+    "fr": "Lundi Max : Psystigri Dynamax",
+    "de": "Max-Montag: Dynamax-Psiau",
+    "es": "Lunes Max: Espurr Dinamax",
+    "it": "Lunedì Max: Espurr Dynamax"
+   },
+   "label": {
+    "ko": "맥스 먼데이",
+    "ja": "マックスマンデー",
+    "en": "Max Monday",
+    "zh-Hant": "極巨星期一",
+    "zh-Hans": "极巨星期一",
+    "fr": "Lundi Max",
+    "de": "Max-Montag",
+    "es": "Lunes Max",
+    "it": "Lunedì Max"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 677,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    30,
+    0
+   ]
+  },
+  {
+   "id": "event-2026-11-24-twilight-wishes",
+   "category": "event",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-11-24T10:00:00",
+   "end": "2026-11-30T20:00:00",
+   "title": {
+    "ko": "Twilight Wishes",
+    "ja": "Twilight Wishes",
+    "en": "Twilight Wishes",
+    "zh-Hant": "Twilight Wishes",
+    "zh-Hans": "Twilight Wishes",
+    "fr": "Twilight Wishes",
+    "de": "Twilight Wishes",
+    "es": "Twilight Wishes",
+    "it": "Twilight Wishes"
+   },
+   "label": {
+    "ko": "이벤트",
+    "ja": "イベント",
+    "en": "Event",
+    "zh-Hant": "活動",
+    "zh-Hans": "活动",
+    "fr": "Évènement",
+    "de": "Event",
+    "es": "Evento",
+    "it": "Evento"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ],
+   "sources": [
+    "https://pokemongo.com/news/twilight-wishes-2026",
+    "https://pokemongohub.net/post/event/twilight-wishes-2026/",
+    "https://gonintendo.com/contents/66782-pokemon-go-twilight-wishes-event-runs-nov-24th-to-30th-2026",
+    "https://www.pocketgamer.com/pokemon-go/twlight-trails-event/",
+    "https://pokemon.gameinfo.io/en/events/twilight-wishes-2026"
+   ],
+   "bonuses": [
+    {
+     "code": "gopass_tier",
+     "text": {
+      "ko": "GO 패스 1티어 달성: 교환 시 반짝반짝 확률·반짝반짝 프렌드 확률 증가",
+      "ja": "GOパス ティア1達成：交換でキラになる確率・キラフレンド確率アップ",
+      "en": "GO Pass tier 1: Higher chance of Lucky trades and Lucky Friends",
+      "zh-Hant": "GO通行證第1階：交換亮晶晶與亮晶晶好朋友機率提升",
+      "zh-Hans": "GO通行证第1阶：交换亮晶晶与亮晶晶好朋友概率提升",
+      "fr": "Pass GO palier 1 : Plus de chances d'échanges chanceux et d'amis chanceux",
+      "de": "GO-Pass Stufe 1: Höhere Chance auf Glückstausch und Glücksfreunde",
+      "es": "Pase GO nivel 1: Más probabilidad de intercambios con suerte y amigos con suerte",
+      "it": "Pass GO livello 1: Più probabilità di scambi fortunati e amici fortunati"
+     }
+    },
+    {
+     "code": "gopass_tier",
+     "text": {
+      "ko": "GO 패스 10티어 달성: 포획 별의모래 2배 (디럭스 3배)",
+      "ja": "GOパス ティア10達成：捕獲時のほしのすな2倍（デラックスは3倍）",
+      "en": "GO Pass tier 10: 2× catch Stardust (3× with Deluxe)",
+      "zh-Hant": "GO通行證第10階：捕捉星星沙子2倍（豪華版3倍）",
+      "zh-Hans": "GO通行证第10阶：捕捉星星沙子2倍（豪华版3倍）",
+      "fr": "Pass GO palier 10 : Poussière de capture ×2 (×3 en Deluxe)",
+      "de": "GO-Pass Stufe 10: 2× Fang-Sternenstaub (3× mit Deluxe)",
+      "es": "Pase GO nivel 10: 2× polvoestelar al atrapar (3× con Deluxe)",
+      "it": "Pass GO livello 10: 2× polvere di stelle per cattura (3× con Deluxe)"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "별가사리·리그레 이로치 확률 증가",
+      "ja": "ヒトデマン・リグレーの色違い確率アップ",
+      "en": "Higher Shiny odds for Staryu and Elgyem",
+      "zh-Hant": "海星星・小灰怪異色機率提升",
+      "zh-Hans": "海星星・小灰怪异色概率提升",
+      "fr": "Plus de chances de Stari et Lewsor chromatiques",
+      "de": "Höhere Shiny-Chance für Sterndu und Pygraulon",
+      "es": "Más probabilidad de Staryu y Elgyem variocolor",
+      "it": "Più probabilità di Staryu ed Elgyem cromatici"
+     }
+    }
+   ]
+  },
+  {
+   "id": "gbl-2026-11-24-master-league-mega-catch-cup",
+   "category": "gbl",
+   "region": "global",
+   "timeMode": "utc",
+   "start": "2026-11-24T21:00:00",
+   "end": "2026-12-01T21:00:00",
+   "title": {
+    "ko": "GO배틀리그: 마스터리그, 메가 캐치컵",
+    "ja": "GOバトルリーグ：マスターリーグ・メガキャッチカップ",
+    "en": "GO Battle League: Master League, Mega Catch Cup",
+    "zh-Hant": "GO對戰聯盟：大師聯盟、超級捕捉盃",
+    "zh-Hans": "GO对战联盟：大师联盟、超级捕捉杯",
+    "fr": "Ligue de Combat GO : Ligue Master, Coupe Méga Capture",
+    "de": "GO-Kampfliga: Meisterliga, Mega-Fang-Cup",
+    "es": "Liga de Combates GO: Liga Master Ball, Copa Megacaptura",
+    "it": "Lega Lotte GO: Lega Master, Coppa Megacattura"
+   },
+   "label": {
+    "ko": "GO배틀리그",
+    "ja": "GOバトルリーグ",
+    "en": "GO Battle League",
+    "zh-Hant": "GO對戰聯盟",
+    "zh-Hans": "GO对战联盟",
+    "fr": "Ligue de Combat GO",
+    "de": "GO-Kampfliga",
+    "es": "Liga de Combates GO",
+    "it": "Lega Lotte GO"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    30,
+    0
+   ]
+  },
+  {
+   "id": "raid_battles-2026-11-25-5-386",
+   "category": "raid_battles",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-11-25T06:00:00",
+   "end": "2026-12-01T22:00:00",
+   "title": {
+    "ko": "★5 레이드: 테오키스",
+    "ja": "★5レイド：デオキシス",
+    "en": "5-Star Raids: Deoxys",
+    "zh-Hant": "五星團體戰：代歐奇希斯",
+    "zh-Hans": "五星团体战：代欧奇希斯",
+    "fr": "Raids 5 étoiles : Deoxys",
+    "de": "5-Sterne-Raids: Deoxys",
+    "es": "Incursiones de 5 estrellas: Deoxys",
+    "it": "Raid a 5 stelle: Deoxys"
+   },
+   "label": {
+    "ko": "레이드",
+    "ja": "レイド",
+    "en": "Raids",
+    "zh-Hant": "團體戰",
+    "zh-Hans": "团体战",
+    "fr": "Raids",
+    "de": "Raids",
+    "es": "Incursiones",
+    "it": "Raid"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 386,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ],
+   "auto": "schedule/raids.json에서 자동 생성"
+  },
+  {
+   "id": "raid_battles-2026-11-25-mega-376",
+   "category": "raid_battles",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-11-25T06:00:00",
+   "end": "2026-12-01T22:00:00",
+   "title": {
+    "ko": "메가 레이드: 메가메타그로스",
+    "ja": "メガレイド：メガメタグロス",
+    "en": "Mega Raids: Mega Metagross",
+    "zh-Hant": "超級進化團體戰：超級巨金怪",
+    "zh-Hans": "超级进化团体战：超级巨金怪",
+    "fr": "Raids Méga : Méga-Métalosse",
+    "de": "Mega-Raids: Mega-Metagross",
+    "es": "Incursiones Mega: Mega-Metagross",
+    "it": "Raid Mega: MegaMetagross"
+   },
+   "label": {
+    "ko": "레이드",
+    "ja": "レイド",
+    "en": "Raids",
+    "zh-Hant": "團體戰",
+    "zh-Hans": "团体战",
+    "fr": "Raids",
+    "de": "Raids",
+    "es": "Incursiones",
+    "it": "Raid"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 376,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ],
+   "auto": "schedule/raids.json에서 자동 생성"
+  },
+  {
+   "id": "raid_hour-2026-11-25-386",
+   "category": "raid_hour",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-11-25T18:00:00",
+   "end": "2026-11-25T19:00:00",
+   "title": {
+    "ko": "테오키스 레이드 아워",
+    "ja": "レイドアワー：デオキシス",
+    "en": "Deoxys Raid Hour",
+    "zh-Hant": "團體戰時間：代歐奇希斯",
+    "zh-Hans": "团体战时间：代欧奇希斯",
+    "fr": "Heure de Raids : Deoxys",
+    "de": "Raid-Stunde: Deoxys",
+    "es": "Hora de Incursiones: Deoxys",
+    "it": "Ora dei Raid: Deoxys"
+   },
+   "label": {
+    "ko": "레이드 아워",
+    "ja": "レイドアワー",
+    "en": "Raid Hour",
+    "zh-Hant": "團體戰時間",
+    "zh-Hans": "团体战时间",
+    "fr": "Heure de Raids",
+    "de": "Raid-Stunde",
+    "es": "Hora de Incursiones",
+    "it": "Ora dei Raid"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 386,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    30,
+    0
+   ],
+   "auto": "schedule/raids.json에서 자동 생성"
+  },
+  {
+   "id": "spotlight_hour-2026-11-26-noibat",
+   "category": "spotlight_hour",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-11-26T18:00:00",
+   "end": "2026-11-26T19:00:00",
+   "title": {
+    "ko": "음뱃 스포트라이트 아워",
+    "ja": "スポットライトアワー：オンバット",
+    "en": "Noibat Spotlight Hour",
+    "zh-Hant": "聚光燈時刻：嗡蝠",
+    "zh-Hans": "聚光灯时刻：嗡蝠",
+    "fr": "Heure Vedette : Sonistrelle",
+    "de": "Rampenlicht-Stunde: eF-eM",
+    "es": "Hora Destacada: Noibat",
+    "it": "Ora del Pokémon in evidenza: Noibat"
+   },
+   "label": {
+    "ko": "스포트라이트 아워",
+    "ja": "スポットライトアワー",
+    "en": "Spotlight Hour",
+    "zh-Hant": "聚光燈時刻",
+    "zh-Hans": "聚光灯时刻",
+    "fr": "Heure Vedette",
+    "de": "Rampenlicht-Stunde",
+    "es": "Hora Destacada",
+    "it": "Ora del Pokémon in evidenza"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 714,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    30,
+    0
+   ],
+   "bonuses": [
+    {
+     "code": "catch_candy_2x",
+     "text": {
+      "ko": "포획 사탕 2배",
+      "ja": "捕獲時のアメ2倍",
+      "en": "2× Catch Candy",
+      "zh-Hant": "捕捉糖果2倍",
+      "zh-Hans": "捕捉糖果2倍",
+      "fr": "Bonbons de capture ×2",
+      "de": "2× Fang-Bonbons",
+      "es": "2× caramelos al atrapar",
+      "it": "2× caramelle per cattura"
+     }
+    }
+   ]
+  },
+  {
+   "id": "super_mega_raid_day-2026-11-28-clefable",
+   "category": "super_mega_raid_day",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-11-28T14:00:00",
+   "end": "2026-11-28T17:00:00",
+   "title": {
+    "ko": "메가픽시 슈퍼 메가 레이드 데이",
+    "ja": "スーパーメガレイド・デイ：メガピクシー",
+    "en": "Mega Clefable Super Mega Raid Day",
+    "zh-Hant": "超級Mega團體戰日：超級皮可西",
+    "zh-Hans": "超级Mega团体战日：超级皮可西",
+    "fr": "Journée Super Méga-Raids : Méga-Mélodelfe",
+    "de": "Super-Mega-Raid-Tag: Mega-Pixi",
+    "es": "Día de Súper Megaincursiones: Mega-Clefable",
+    "it": "Giornata dei Super Megaraid: MegaClefable"
+   },
+   "label": {
+    "ko": "슈퍼 메가 레이드 데이",
+    "ja": "スーパーメガレイド・デイ",
+    "en": "Super Mega Raid Day",
+    "zh-Hant": "超級Mega團體戰日",
+    "zh-Hans": "超级Mega团体战日",
+    "fr": "Journée Super Méga-Raids",
+    "de": "Super-Mega-Raid-Tag",
+    "es": "Día de Súper Megaincursiones",
+    "it": "Giornata dei Super Megaraid"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 36,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ]
+  },
+  {
+   "id": "max_monday-2026-11-30-cryogonal",
+   "category": "max_monday",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-11-30T06:00:00",
+   "end": "2026-11-30T21:00:00",
+   "title": {
+    "ko": "맥스 먼데이 · 다이맥스 프리지오",
+    "ja": "マックスマンデー：ダイマックスフリージオ",
+    "en": "Max Monday: Dynamax Cryogonal",
+    "zh-Hant": "極巨星期一：極巨化幾何雪花",
+    "zh-Hans": "极巨星期一：极巨化几何雪花",
+    "fr": "Lundi Max : Hexagel Dynamax",
+    "de": "Max-Montag: Dynamax-Frigometri",
+    "es": "Lunes Max: Cryogonal Dinamax",
+    "it": "Lunedì Max: Cryogonal Dynamax"
+   },
+   "label": {
+    "ko": "맥스 먼데이",
+    "ja": "マックスマンデー",
+    "en": "Max Monday",
+    "zh-Hant": "極巨星期一",
+    "zh-Hans": "极巨星期一",
+    "fr": "Lundi Max",
+    "de": "Max-Montag",
+    "es": "Lunes Max",
+    "it": "Lunedì Max"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 615,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    30,
+    0
+   ]
+  },
+  {
+   "id": "max_battle_day-2026-12-05-max-battle-day",
+   "category": "max_battle_day",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-05T14:00:00",
+   "end": "2026-12-05T17:00:00",
+   "title": {
+    "ko": "맥스배틀 데이",
+    "ja": "マックスバトル・デイ",
+    "en": "Max Battle Day",
+    "zh-Hant": "極巨對戰日",
+    "zh-Hans": "极巨对战日",
+    "fr": "Journée Combats Dynamax",
+    "de": "Dyna-Kampftag",
+    "es": "Día de Combates Max",
+    "it": "Giornata delle Lotte Dynamax"
+   },
+   "label": {
+    "ko": "맥스배틀 데이",
+    "ja": "マックスバトル・デイ",
+    "en": "Max Battle Day",
+    "zh-Hant": "極巨對戰日",
+    "zh-Hans": "极巨对战日",
+    "fr": "Journée Combats Dynamax",
+    "de": "Dyna-Kampftag",
+    "es": "Día de Combates Max",
+    "it": "Giornata delle Lotte Dynamax"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ]
+  },
+  {
+   "id": "meteor_shower-2026-12-11-geminids",
+   "category": "meteor_shower",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-11T17:00:00",
+   "end": "2026-12-16T23:59:00",
+   "title": {
+    "ko": "메테노 유성우: 쌍둥이자리",
+    "ja": "メテノの流星群：ふたご座",
+    "en": "Minior Showers: Geminids",
+    "zh-Hant": "小隕星流星雨：雙子座",
+    "zh-Hans": "小陨星流星雨：双子座",
+    "fr": "Pluie de Météno : Géminides",
+    "de": "Meteno-Sternschnuppen: Geminiden",
+    "es": "Lluvia de Minior: Gemínidas",
+    "it": "Pioggia di Minior: Geminidi"
+   },
+   "label": {
+    "ko": "메테노 유성우",
+    "ja": "メテノの流星群",
+    "en": "Minior Showers",
+    "zh-Hant": "小隕星流星雨",
+    "zh-Hans": "小陨星流星雨",
+    "fr": "Pluie de Météno",
+    "de": "Meteno-Sternschnuppen",
+    "es": "Lluvia de Minior",
+    "it": "Pioggia di Minior"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [
+    "fn_meteor_shower"
+   ],
+   "alarmPresetsMin": [
+    60,
+    0
+   ]
+  },
+  {
+   "id": "community_day-2026-12-12-december-community-day",
+   "category": "community_day",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-12T14:00:00",
+   "end": "2026-12-13T17:00:00",
+   "title": {
+    "ko": "12월 커뮤니티 데이",
+    "ja": "12月のコミュニティ・デイ",
+    "en": "December Community Day",
+    "zh-Hant": "12月社群日",
+    "zh-Hans": "12月社区日",
+    "fr": "Journée Communauté de décembre",
+    "de": "Community Day im Dezember",
+    "es": "Día de la Comunidad de diciembre",
+    "it": "Community Day di dicembre"
+   },
+   "label": {
+    "ko": "커뮤니티 데이",
+    "ja": "コミュニティ・デイ",
+    "en": "Community Day",
+    "zh-Hant": "社群日",
+    "zh-Hans": "社区日",
+    "fr": "Journée Communauté",
+    "de": "Community Day",
+    "es": "Día de la Comunidad",
+    "it": "Community Day"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ]
+  },
+  {
+   "id": "raid_day-2026-12-19-raid-day",
+   "category": "raid_day",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-19T14:00:00",
+   "end": "2026-12-19T17:00:00",
+   "title": {
+    "ko": "레이드 데이",
+    "ja": "レイド・デイ",
+    "en": "Raid Day",
+    "zh-Hant": "團體戰日",
+    "zh-Hans": "团体战日",
+    "fr": "Journée Raids",
+    "de": "Raid-Tag",
+    "es": "Día de Incursiones",
+    "it": "Giornata dei Raid"
+   },
+   "label": {
+    "ko": "레이드 데이",
+    "ja": "レイド・デイ",
+    "en": "Raid Day",
+    "zh-Hant": "團體戰日",
+    "zh-Hans": "团体战日",
+    "fr": "Journée Raids",
+    "de": "Raid-Tag",
+    "es": "Día de Incursiones",
+    "it": "Giornata dei Raid"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ]
+  },
+  {
+   "id": "event-2026-12-26-hatch-day",
+   "category": "event",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-26T11:00:00",
+   "end": "2026-12-26T17:00:00",
+   "title": {
+    "ko": "Hatch Day",
+    "ja": "Hatch Day",
+    "en": "Hatch Day",
+    "zh-Hant": "Hatch Day",
+    "zh-Hans": "Hatch Day",
+    "fr": "Hatch Day",
+    "de": "Hatch Day",
+    "es": "Hatch Day",
+    "it": "Hatch Day"
+   },
+   "label": {
+    "ko": "이벤트",
+    "ja": "イベント",
+    "en": "Event",
+    "zh-Hant": "活動",
+    "zh-Hans": "活动",
+    "fr": "Évènement",
+    "de": "Event",
+    "es": "Evento",
+    "it": "Evento"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ]
+  },
+  {
+   "id": "community_day-2027-01-02-january-community-day-classic",
+   "category": "community_day",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2027-01-02T14:00:00",
+   "end": "2027-01-02T17:00:00",
+   "title": {
+    "ko": "1월 커뮤니티 데이 클래식",
+    "ja": "1月のコミュニティ・デイ・クラシック",
+    "en": "January Community Day Classic",
+    "zh-Hant": "1月社群日經典",
+    "zh-Hans": "1月社区日经典",
+    "fr": "Journée Communauté Classique de janvier",
+    "de": "Community Day Classic im Januar",
+    "es": "Día de la Comunidad Clásico de enero",
+    "it": "Community Day Classico di gennaio"
+   },
+   "label": {
+    "ko": "커뮤니티 데이",
+    "ja": "コミュニティ・デイ",
+    "en": "Community Day",
+    "zh-Hant": "社群日",
+    "zh-Hans": "社区日",
+    "fr": "Journée Communauté",
+    "de": "Community Day",
+    "es": "Día de la Comunidad",
+    "it": "Community Day"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ]
+  },
+  {
+   "id": "super_mega_raid_day-2027-01-09-super-mega-raid-day",
+   "category": "super_mega_raid_day",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2027-01-09T14:00:00",
+   "end": "2027-01-09T17:00:00",
+   "title": {
+    "ko": "슈퍼 메가 레이드 데이",
+    "ja": "スーパーメガレイド・デイ",
+    "en": "Super Mega Raid Day",
+    "zh-Hant": "超級Mega團體戰日",
+    "zh-Hans": "超级Mega团体战日",
+    "fr": "Journée Super Méga-Raids",
+    "de": "Super-Mega-Raid-Tag",
+    "es": "Día de Súper Megaincursiones",
+    "it": "Giornata dei Super Megaraid"
+   },
+   "label": {
+    "ko": "슈퍼 메가 레이드 데이",
+    "ja": "スーパーメガレイド・デイ",
+    "en": "Super Mega Raid Day",
+    "zh-Hant": "超級Mega團體戰日",
+    "zh-Hans": "超级Mega团体战日",
+    "fr": "Journée Super Méga-Raids",
+    "de": "Super-Mega-Raid-Tag",
+    "es": "Día de Súper Megaincursiones",
+    "it": "Giornata dei Super Megaraid"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ]
+  },
+  {
+   "id": "community_day-2027-01-16-january-community-day",
+   "category": "community_day",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2027-01-16T14:00:00",
+   "end": "2027-01-16T17:00:00",
+   "title": {
+    "ko": "1월 커뮤니티 데이",
+    "ja": "1月のコミュニティ・デイ",
+    "en": "January Community Day",
+    "zh-Hant": "1月社群日",
+    "zh-Hans": "1月社区日",
+    "fr": "Journée Communauté de janvier",
+    "de": "Community Day im Januar",
+    "es": "Día de la Comunidad de enero",
+    "it": "Community Day di gennaio"
+   },
+   "label": {
+    "ko": "커뮤니티 데이",
+    "ja": "コミュニティ・デイ",
+    "en": "Community Day",
+    "zh-Hant": "社群日",
+    "zh-Hans": "社区日",
+    "fr": "Journée Communauté",
+    "de": "Community Day",
+    "es": "Día de la Comunidad",
+    "it": "Community Day"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ]
+  },
+  {
+   "id": "max_battle_day-2027-01-23-max-battle-day",
+   "category": "max_battle_day",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2027-01-23T14:00:00",
+   "end": "2027-01-23T17:00:00",
+   "title": {
+    "ko": "맥스배틀 데이",
+    "ja": "マックスバトル・デイ",
+    "en": "Max Battle Day",
+    "zh-Hant": "極巨對戰日",
+    "zh-Hans": "极巨对战日",
+    "fr": "Journée Combats Dynamax",
+    "de": "Dyna-Kampftag",
+    "es": "Día de Combates Max",
+    "it": "Giornata delle Lotte Dynamax"
+   },
+   "label": {
+    "ko": "맥스배틀 데이",
+    "ja": "マックスバトル・デイ",
+    "en": "Max Battle Day",
+    "zh-Hant": "極巨對戰日",
+    "zh-Hans": "极巨对战日",
+    "fr": "Journée Combats Dynamax",
+    "de": "Dyna-Kampftag",
+    "es": "Día de Combates Max",
+    "it": "Giornata delle Lotte Dynamax"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ]
+  },
+  {
+   "id": "super_mega_raid_day-2027-01-30-super-mega-raid-day",
+   "category": "super_mega_raid_day",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2027-01-30T14:00:00",
+   "end": "2027-01-30T17:00:00",
+   "title": {
+    "ko": "슈퍼 메가 레이드 데이",
+    "ja": "スーパーメガレイド・デイ",
+    "en": "Super Mega Raid Day",
+    "zh-Hant": "超級Mega團體戰日",
+    "zh-Hans": "超级Mega团体战日",
+    "fr": "Journée Super Méga-Raids",
+    "de": "Super-Mega-Raid-Tag",
+    "es": "Día de Súper Megaincursiones",
+    "it": "Giornata dei Super Megaraid"
+   },
+   "label": {
+    "ko": "슈퍼 메가 레이드 데이",
+    "ja": "スーパーメガレイド・デイ",
+    "en": "Super Mega Raid Day",
+    "zh-Hant": "超級Mega團體戰日",
+    "zh-Hans": "超级Mega团体战日",
+    "fr": "Journée Super Méga-Raids",
+    "de": "Super-Mega-Raid-Tag",
+    "es": "Día de Súper Megaincursiones",
+    "it": "Giornata dei Super Megaraid"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ]
+  },
+  {
+   "id": "community_day-2027-02-06-february-community-day",
+   "category": "community_day",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2027-02-06T14:00:00",
+   "end": "2027-02-06T17:00:00",
+   "title": {
+    "ko": "2월 커뮤니티 데이",
+    "ja": "2月のコミュニティ・デイ",
+    "en": "February Community Day",
+    "zh-Hant": "2月社群日",
+    "zh-Hans": "2月社区日",
+    "fr": "Journée Communauté de février",
+    "de": "Community Day im Februar",
+    "es": "Día de la Comunidad de febrero",
+    "it": "Community Day di febbraio"
+   },
+   "label": {
+    "ko": "커뮤니티 데이",
+    "ja": "コミュニティ・デイ",
+    "en": "Community Day",
+    "zh-Hant": "社群日",
+    "zh-Hans": "社区日",
+    "fr": "Journée Communauté",
+    "de": "Community Day",
+    "es": "Día de la Comunidad",
+    "it": "Community Day"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ]
+  },
+  {
+   "id": "raid_day-2027-02-13-raid-day",
+   "category": "raid_day",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2027-02-13T14:00:00",
+   "end": "2027-02-13T17:00:00",
+   "title": {
+    "ko": "레이드 데이",
+    "ja": "レイド・デイ",
+    "en": "Raid Day",
+    "zh-Hant": "團體戰日",
+    "zh-Hans": "团体战日",
+    "fr": "Journée Raids",
+    "de": "Raid-Tag",
+    "es": "Día de Incursiones",
+    "it": "Giornata dei Raid"
+   },
+   "label": {
+    "ko": "레이드 데이",
+    "ja": "レイド・デイ",
+    "en": "Raid Day",
+    "zh-Hant": "團體戰日",
+    "zh-Hans": "团体战日",
+    "fr": "Journée Raids",
+    "de": "Raid-Tag",
+    "es": "Día de Incursiones",
+    "it": "Giornata dei Raid"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ]
+  },
+  {
+   "id": "go_tour-2027-02-18-pok-mon-go-tour-alola-kaohsiung-2027",
+   "category": "go_tour",
+   "region": "overseas",
+   "timeMode": "fixed_tz",
+   "start": "2027-02-18T16:00:00",
+   "end": "2027-02-21T15:59:00",
+   "title": {
+    "ko": "Pokémon GO Tour: Alola - Kaohsiung 2027",
+    "ja": "Pokémon GO Tour: Alola - Kaohsiung 2027",
+    "en": "Pokémon GO Tour: Alola - Kaohsiung 2027",
+    "zh-Hant": "Pokémon GO Tour: Alola - Kaohsiung 2027",
+    "zh-Hans": "Pokémon GO Tour: Alola - Kaohsiung 2027",
+    "fr": "Pokémon GO Tour: Alola - Kaohsiung 2027",
+    "de": "Pokémon GO Tour: Alola - Kaohsiung 2027",
+    "es": "Pokémon GO Tour: Alola - Kaohsiung 2027",
+    "it": "Pokémon GO Tour: Alola - Kaohsiung 2027"
+   },
+   "label": {
+    "ko": "GO 투어",
+    "ja": "GO Tour",
+    "en": "GO Tour",
+    "zh-Hant": "GO Tour",
+    "zh-Hans": "GO Tour",
+    "fr": "GO Tour",
+    "de": "GO Tour",
+    "es": "GO Tour",
+    "it": "GO Tour"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    1440,
+    60,
+    0
+   ],
+   "tz": "Asia/Taipei",
+   "countryCode": "TW"
+  },
+  {
+   "id": "go_tour-2027-02-19-pok-mon-go-tour-alola-los-angeles-2027",
+   "category": "go_tour",
+   "region": "overseas",
+   "timeMode": "fixed_tz",
+   "start": "2027-02-19T08:00:00",
+   "end": "2027-02-22T07:59:00",
+   "title": {
+    "ko": "Pokémon GO Tour: Alola - Los Angeles 2027",
+    "ja": "Pokémon GO Tour: Alola - Los Angeles 2027",
+    "en": "Pokémon GO Tour: Alola - Los Angeles 2027",
+    "zh-Hant": "Pokémon GO Tour: Alola - Los Angeles 2027",
+    "zh-Hans": "Pokémon GO Tour: Alola - Los Angeles 2027",
+    "fr": "Pokémon GO Tour: Alola - Los Angeles 2027",
+    "de": "Pokémon GO Tour: Alola - Los Angeles 2027",
+    "es": "Pokémon GO Tour: Alola - Los Angeles 2027",
+    "it": "Pokémon GO Tour: Alola - Los Angeles 2027"
+   },
+   "label": {
+    "ko": "GO 투어",
+    "ja": "GO Tour",
+    "en": "GO Tour",
+    "zh-Hant": "GO Tour",
+    "zh-Hans": "GO Tour",
+    "fr": "GO Tour",
+    "de": "GO Tour",
+    "es": "GO Tour",
+    "it": "GO Tour"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    1440,
+    60,
+    0
+   ],
+   "tz": "America/Los_Angeles",
+   "countryCode": "US-W"
+  },
+  {
+   "id": "go_tour-2027-02-27-pok-mon-go-tour-alola-global-2027",
+   "category": "go_tour",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2027-02-27T00:00:00",
+   "end": "2027-02-28T23:59:00",
+   "title": {
+    "ko": "Pokémon GO Tour: Alola - Global 2027",
+    "ja": "Pokémon GO Tour: Alola - Global 2027",
+    "en": "Pokémon GO Tour: Alola - Global 2027",
+    "zh-Hant": "Pokémon GO Tour: Alola - Global 2027",
+    "zh-Hans": "Pokémon GO Tour: Alola - Global 2027",
+    "fr": "Pokémon GO Tour: Alola - Global 2027",
+    "de": "Pokémon GO Tour: Alola - Global 2027",
+    "es": "Pokémon GO Tour: Alola - Global 2027",
+    "it": "Pokémon GO Tour: Alola - Global 2027"
+   },
+   "label": {
+    "ko": "GO 투어",
+    "ja": "GO Tour",
+    "en": "GO Tour",
+    "zh-Hant": "GO Tour",
+    "zh-Hans": "GO Tour",
+    "fr": "GO Tour",
+    "de": "GO Tour",
+    "es": "GO Tour",
+    "it": "GO Tour"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    1440,
+    60,
+    0
+   ]
+  },
+  {
+   "id": "meteor_shower-2027-05-03-eta-aquariids",
+   "category": "meteor_shower",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2027-05-03T17:00:00",
+   "end": "2027-05-08T23:59:00",
+   "title": {
+    "ko": "메테노 유성우: 물병자리 에타",
+    "ja": "メテノの流星群：みずがめ座η",
+    "en": "Minior Showers: Eta Aquariids",
+    "zh-Hant": "小隕星流星雨：寶瓶座η",
+    "zh-Hans": "小陨星流星雨：宝瓶座η",
+    "fr": "Pluie de Météno : Êta Aquarides",
+    "de": "Meteno-Sternschnuppen: Eta-Aquariiden",
+    "es": "Lluvia de Minior: Eta Acuáridas",
+    "it": "Pioggia di Minior: Eta Aquaridi"
+   },
+   "label": {
+    "ko": "메테노 유성우",
+    "ja": "メテノの流星群",
+    "en": "Minior Showers",
+    "zh-Hant": "小隕星流星雨",
+    "zh-Hans": "小陨星流星雨",
+    "fr": "Pluie de Météno",
+    "de": "Meteno-Sternschnuppen",
+    "es": "Lluvia de Minior",
+    "it": "Pioggia di Minior"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [
+    "fn_meteor_shower"
+   ],
+   "alarmPresetsMin": [
+    60,
+    0
+   ]
+  },
+  {
+   "id": "meteor_shower-2027-07-28-southern-delta-aquariids",
+   "category": "meteor_shower",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2027-07-28T17:00:00",
+   "end": "2027-08-02T23:59:00",
+   "title": {
+    "ko": "메테노 유성우: 남쪽 물병자리 델타",
+    "ja": "メテノの流星群：みずがめ座δ南",
+    "en": "Minior Showers: Southern Delta Aquariids",
+    "zh-Hant": "小隕星流星雨：南寶瓶座δ",
+    "zh-Hans": "小陨星流星雨：南宝瓶座δ",
+    "fr": "Pluie de Météno : Delta Aquarides du Sud",
+    "de": "Meteno-Sternschnuppen: Südliche Delta-Aquariiden",
+    "es": "Lluvia de Minior: Delta Acuáridas del Sur",
+    "it": "Pioggia di Minior: Delta Aquaridi Australi"
+   },
+   "label": {
+    "ko": "메테노 유성우",
+    "ja": "メテノの流星群",
+    "en": "Minior Showers",
+    "zh-Hant": "小隕星流星雨",
+    "zh-Hans": "小陨星流星雨",
+    "fr": "Pluie de Météno",
+    "de": "Meteno-Sternschnuppen",
+    "es": "Lluvia de Minior",
+    "it": "Pioggia di Minior"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [
+    "fn_meteor_shower"
+   ],
+   "alarmPresetsMin": [
+    60,
+    0
+   ]
+  },
+  {
+   "id": "meteor_shower-2027-08-10-perseids",
+   "category": "meteor_shower",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2027-08-10T17:00:00",
+   "end": "2027-08-15T23:59:00",
+   "title": {
+    "ko": "메테노 유성우: 페르세우스자리",
+    "ja": "メテノの流星群：ペルセウス座",
+    "en": "Minior Showers: Perseids",
+    "zh-Hant": "小隕星流星雨：英仙座",
+    "zh-Hans": "小陨星流星雨：英仙座",
+    "fr": "Pluie de Météno : Perséides",
+    "de": "Meteno-Sternschnuppen: Perseiden",
+    "es": "Lluvia de Minior: Perseidas",
+    "it": "Pioggia di Minior: Perseidi"
+   },
+   "label": {
+    "ko": "메테노 유성우",
+    "ja": "メテノの流星群",
+    "en": "Minior Showers",
+    "zh-Hant": "小隕星流星雨",
+    "zh-Hans": "小陨星流星雨",
+    "fr": "Pluie de Météno",
+    "de": "Meteno-Sternschnuppen",
+    "es": "Lluvia de Minior",
+    "it": "Pioggia di Minior"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [
+    "fn_meteor_shower"
+   ],
+   "alarmPresetsMin": [
+    60,
+    0
+   ]
+  }
+ ]
+}

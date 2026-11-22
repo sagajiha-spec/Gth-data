@@ -1,0 +1,87 @@
+{
+ "schemaVersion": 1,
+ "updatedAt": "2026-11-19T09:00:00Z",
+ "footnotes": [
+  {
+   "id": "fn_remote_raid_limit",
+   "text": {
+    "ko": "리모트 레이드 일일 참여 횟수는 이벤트·시즌에 따라 바뀝니다. 주변 레이드는 Campfire 앱에서 확인할 수 있습니다.",
+    "ja": "リモートレイドの1日の参加回数はイベント・シーズンにより変わります。近くのレイドはCampfireで確認できます。",
+    "en": "The daily Remote Raid limit changes with events/seasons. Nearby raids can be found in Campfire.",
+    "zh-Hant": "遠距團體戰的每日參加次數會依活動、季節而改變。附近的團體戰可在Campfire查看。",
+    "zh-Hans": "远程团体战的每日参加次数会因活动、季节而改变。附近的团体战可在Campfire查看。",
+    "fr": "La limite quotidienne de raids à distance change selon les événements et saisons. Les raids proches sont visibles dans Campfire.",
+    "de": "Das tägliche Fern-Raid-Limit ändert sich je nach Event/Saison. Raids in der Nähe findest du in Campfire.",
+    "es": "El límite diario de incursiones remotas cambia según eventos y temporadas. Las cercanas se ven en Campfire.",
+    "it": "Il limite giornaliero dei raid a distanza cambia con eventi e stagioni. I raid vicini sono su Campfire."
+   },
+   "sourceUrl": "https://pokemongolive.com/news",
+   "verifiedAt": "2026-11-19",
+   "term": {
+    "ko": "리모트 레이드 횟수",
+    "ja": "リモートレイドの回数",
+    "en": "Remote Raid limit",
+    "zh-Hant": "遠距團體戰次數",
+    "zh-Hans": "远程团体战次数",
+    "fr": "Limite de raids à distance",
+    "de": "Fern-Raid-Limit",
+    "es": "Límite de incursiones remotas",
+    "it": "Limite raid a distanza"
+   }
+  },
+  {
+   "id": "fn_raid_hour_cycle",
+   "text": {
+    "ko": "레이드 아워 중 활성/휴식 구간은 관측 기준 안내이며 실제와 다를 수 있습니다.",
+    "ja": "レイドアワー中のアクティブ/休憩区間は観測ベースの目安です。",
+    "en": "Active/rest windows during Raid Hour are observational guidance.",
+    "zh-Hant": "團體戰時間中的進行/休息區段是根據觀察的參考，可能與實際不同。",
+    "zh-Hans": "团体战时间中的进行/休息区段是根据观察的参考，可能与实际不同。",
+    "fr": "Les phases actives/pause pendant l'Heure de raids sont indicatives (observations).",
+    "de": "Aktiv-/Pausenphasen während der Raid-Stunde sind Beobachtungswerte.",
+    "es": "Las fases activas/de descanso de la Hora de incursiones son orientativas (observadas).",
+    "it": "Le fasi attive/di pausa dell'Ora dei raid sono indicative (osservate)."
+   },
+   "sourceUrl": null,
+   "verifiedAt": "2026-11-19",
+   "term": {
+    "ko": "레이드 아워 구간",
+    "ja": "レイドアワーの区間",
+    "en": "Raid Hour windows",
+    "zh-Hant": "團體戰時間區段",
+    "zh-Hans": "团体战时间区段",
+    "fr": "Phases de l'Heure de raids",
+    "de": "Raid-Stunde-Phasen",
+    "es": "Fases de la Hora de incursiones",
+    "it": "Fasi dell'Ora dei raid"
+   }
+  },
+  {
+   "id": "fn_remote_xl",
+   "text": {
+    "ko": "리모트 레이드 참여 시 사탕XL 보상은 일반 참여보다 적게 지급됩니다.",
+    "ja": "リモート参加時のアメXL報酬は現地参加より少なくなります。",
+    "en": "Remote participants receive fewer XL Candy than in-person players.",
+    "zh-Hant": "遠距參加獲得的XL糖果比現場參加少。",
+    "zh-Hans": "远程参加获得的XL糖果比现场参加少。",
+    "fr": "Les participants à distance reçoivent moins de Bonbons XL qu'en personne.",
+    "de": "Fern-Teilnehmer erhalten weniger XL-Bonbons als Spieler vor Ort.",
+    "es": "Quien participa en remoto recibe menos Caramelos XL que en persona.",
+    "it": "Chi partecipa a distanza riceve meno Caramelle XL rispetto a chi è sul posto."
+   },
+   "sourceUrl": null,
+   "verifiedAt": "2026-11-19",
+   "term": {
+    "ko": "리모트 사탕XL",
+    "ja": "リモートのアメXL",
+    "en": "Remote XL Candy",
+    "zh-Hant": "遠距XL糖果",
+    "zh-Hans": "远程XL糖果",
+    "fr": "Bonbons XL à distance",
+    "de": "XL-Bonbons bei Fern-Raids",
+    "es": "Caramelos XL en remoto",
+    "it": "Caramelle XL a distanza"
+   }
+  }
+ ]
+}

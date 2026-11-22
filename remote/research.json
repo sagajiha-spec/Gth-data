@@ -1,0 +1,2486 @@
+{
+ "schemaVersion": 2,
+ "_comment": "현재 필드리서치 과제와 보상. task는 영어 원문만 있으므로 ko/ja 번역은 직접 추가",
+ "tasks": [
+  {
+   "task": {
+    "en": "Catch 8 Pokémon"
+   },
+   "type": null,
+   "rewards": [
+    {
+     "name": "Bulbasaur",
+     "ref": "1/normal",
+     "shadow": false,
+     "ko": "이상해씨",
+     "canBeShiny": false,
+     "cp": {
+      "min": 442,
+      "max": 477
+     }
+    },
+    {
+     "name": "Charmander",
+     "ref": "4/normal",
+     "shadow": false,
+     "ko": "파이리",
+     "canBeShiny": false,
+     "cp": {
+      "min": 387,
+      "max": 420
+     }
+    },
+    {
+     "name": "Squirtle",
+     "ref": "7/normal",
+     "shadow": false,
+     "ko": "꼬부기",
+     "canBeShiny": false,
+     "cp": {
+      "min": 372,
+      "max": 405
+     }
+    },
+    {
+     "name": "Grookey",
+     "ref": "810/normal",
+     "shadow": false,
+     "ko": "흥나숭",
+     "canBeShiny": false,
+     "cp": {
+      "min": 430,
+      "max": 465
+     }
+    },
+    {
+     "name": "Scorbunny",
+     "ref": "813/normal",
+     "shadow": false,
+     "ko": "염버니",
+     "canBeShiny": false,
+     "cp": {
+      "min": 434,
+      "max": 470
+     }
+    },
+    {
+     "name": "Sobble",
+     "ref": "816/normal",
+     "shadow": false,
+     "ko": "울머기",
+     "canBeShiny": false,
+     "cp": {
+      "min": 434,
+      "max": 470
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Power up Pokémon 8 times"
+   },
+   "type": null,
+   "rewards": [
+    {
+     "name": "Magikarp",
+     "ref": "129/normal",
+     "shadow": false,
+     "ko": "잉어킹",
+     "canBeShiny": false,
+     "cp": {
+      "min": 99,
+      "max": 117
+     }
+    },
+    {
+     "name": "Feebas",
+     "ref": "349/normal",
+     "shadow": false,
+     "ko": "빈티나",
+     "canBeShiny": false,
+     "cp": {
+      "min": 99,
+      "max": 117
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Explore 1 km"
+   },
+   "type": null,
+   "rewards": [
+    {
+     "name": "Eevee",
+     "ref": "133/normal",
+     "shadow": false,
+     "ko": "이브이",
+     "canBeShiny": false,
+     "cp": {
+      "min": 424,
+      "max": 459
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Win a Max Battle"
+   },
+   "type": null,
+   "rewards": [
+    {
+     "name": "Drampa",
+     "ref": "780/normal",
+     "shadow": false,
+     "ko": "할비롱",
+     "canBeShiny": false,
+     "cp": {
+      "min": 1191,
+      "max": 1249
+     }
+    },
+    {
+     "name": "Duraludon",
+     "ref": "884/normal",
+     "shadow": false,
+     "ko": "두랄루돈",
+     "canBeShiny": false,
+     "cp": {
+      "min": 1255,
+      "max": 1314
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Catch 7 Pokémon"
+   },
+   "type": "catch",
+   "rewards": [
+    {
+     "name": "Magikarp",
+     "ref": "129/normal",
+     "shadow": false,
+     "ko": "잉어킹",
+     "canBeShiny": false,
+     "cp": {
+      "min": 99,
+      "max": 117
+     }
+    },
+    {
+     "name": "Stufful",
+     "ref": "759/normal",
+     "shadow": false,
+     "ko": "포곰곰",
+     "canBeShiny": false,
+     "cp": {
+      "min": 540,
+      "max": 579
+     }
+    },
+    {
+     "name": "Wimpod",
+     "ref": "767/normal",
+     "shadow": false,
+     "ko": "꼬시레",
+     "canBeShiny": false,
+     "cp": {
+      "min": 191,
+      "max": 215
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Catch a Dragon-type Pokémon"
+   },
+   "type": "catch",
+   "rewards": [
+    {
+     "name": "Dratini",
+     "ref": "147/normal",
+     "shadow": false,
+     "ko": "미뇽",
+     "canBeShiny": false,
+     "cp": {
+      "min": 397,
+      "max": 430
+     }
+    },
+    {
+     "name": "Bagon",
+     "ref": "371/normal",
+     "shadow": false,
+     "ko": "아공이",
+     "canBeShiny": false,
+     "cp": {
+      "min": 459,
+      "max": 495
+     }
+    },
+    {
+     "name": "Axew",
+     "ref": "610/normal",
+     "shadow": false,
+     "ko": "터검니",
+     "canBeShiny": false,
+     "cp": {
+      "min": 547,
+      "max": 586
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Catch 7 different species of Pokémon"
+   },
+   "type": "catch",
+   "rewards": [
+    {
+     "name": "Psyduck",
+     "ref": "54/normal",
+     "shadow": false,
+     "ko": "고라파덕",
+     "canBeShiny": false,
+     "cp": {
+      "min": 439,
+      "max": 474
+     }
+    },
+    {
+     "name": "Seaking",
+     "ref": "119/normal",
+     "shadow": false,
+     "ko": "왕콘치",
+     "canBeShiny": false,
+     "cp": {
+      "min": 877,
+      "max": 926
+     }
+    },
+    {
+     "name": "Marill",
+     "ref": "183/normal",
+     "shadow": false,
+     "ko": "마릴",
+     "canBeShiny": false,
+     "cp": {
+      "min": 172,
+      "max": 197
+     }
+    },
+    {
+     "name": "Teddiursa",
+     "ref": "216/normal",
+     "shadow": false,
+     "ko": "깜지곰",
+     "canBeShiny": false,
+     "cp": {
+      "min": 530,
+      "max": 569
+     }
+    },
+    {
+     "name": "Lombre",
+     "ref": "271/normal",
+     "shadow": false,
+     "ko": "로토스",
+     "canBeShiny": false,
+     "cp": {
+      "min": 476,
+      "max": 513
+     }
+    },
+    {
+     "name": "Stunky",
+     "ref": "434/normal",
+     "shadow": false,
+     "ko": "스컹뿡",
+     "canBeShiny": false,
+     "cp": {
+      "min": 457,
+      "max": 493
+     }
+    },
+    {
+     "name": "Liepard",
+     "ref": "510/normal",
+     "shadow": false,
+     "ko": "레파르다스",
+     "canBeShiny": false,
+     "cp": {
+      "min": 744,
+      "max": 791
+     }
+    },
+    {
+     "name": "Darumaka",
+     "ref": "554/normal",
+     "shadow": false,
+     "ko": "달막화",
+     "canBeShiny": false,
+     "cp": {
+      "min": 576,
+      "max": 618
+     }
+    },
+    {
+     "name": "Clauncher",
+     "ref": "692/normal",
+     "shadow": false,
+     "ko": "완철포",
+     "canBeShiny": false,
+     "cp": {
+      "min": 431,
+      "max": 466
+     }
+    },
+    {
+     "name": "Dedenne",
+     "ref": "702/normal",
+     "shadow": false,
+     "ko": "데덴네",
+     "canBeShiny": false,
+     "cp": {
+      "min": 743,
+      "max": 789
+     }
+    },
+    {
+     "name": "Cutiefly",
+     "ref": "742/normal",
+     "shadow": false,
+     "ko": "에블리",
+     "canBeShiny": false,
+     "cp": {
+      "min": 349,
+      "max": 380
+     }
+    },
+    {
+     "name": "Smoliv",
+     "ref": "928/normal",
+     "shadow": false,
+     "ko": "미니브",
+     "canBeShiny": false,
+     "cp": {
+      "min": 335,
+      "max": 366
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Catch 10 Grass-type Pokémon"
+   },
+   "type": "catch",
+   "rewards": [
+    {
+     "name": "Sunkern",
+     "ref": "191/normal",
+     "shadow": false,
+     "ko": "해너츠",
+     "canBeShiny": false,
+     "cp": {
+      "min": 148,
+      "max": 169
+     }
+    },
+    {
+     "name": "Seedot",
+     "ref": "273/normal",
+     "shadow": false,
+     "ko": "도토링",
+     "canBeShiny": false,
+     "cp": {
+      "min": 230,
+      "max": 256
+     }
+    },
+    {
+     "name": "Shroomish",
+     "ref": "285/normal",
+     "shadow": false,
+     "ko": "버섯꼬",
+     "canBeShiny": false,
+     "cp": {
+      "min": 316,
+      "max": 347
+     }
+    },
+    {
+     "name": "Petilil",
+     "ref": "548/normal",
+     "shadow": false,
+     "ko": "치릴리",
+     "canBeShiny": false,
+     "cp": {
+      "min": 407,
+      "max": 441
+     }
+    },
+    {
+     "name": "Skiddo",
+     "ref": "672/normal",
+     "shadow": false,
+     "ko": "메이클",
+     "canBeShiny": false,
+     "cp": {
+      "min": 498,
+      "max": 536
+     }
+    },
+    {
+     "name": "Smoliv",
+     "ref": "928/normal",
+     "shadow": false,
+     "ko": "미니브",
+     "canBeShiny": false,
+     "cp": {
+      "min": 335,
+      "max": 366
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Catch 10 Ghost-type Pokémon"
+   },
+   "type": "catch",
+   "rewards": [
+    {
+     "name": "Gastly",
+     "ref": "92/normal",
+     "shadow": false,
+     "ko": "고오스",
+     "canBeShiny": false,
+     "cp": {
+      "min": 487,
+      "max": 527
+     }
+    },
+    {
+     "name": "Shuppet",
+     "ref": "353/normal",
+     "shadow": false,
+     "ko": "어둠대신",
+     "canBeShiny": false,
+     "cp": {
+      "min": 401,
+      "max": 436
+     }
+    },
+    {
+     "name": "Duskull",
+     "ref": "355/normal",
+     "shadow": false,
+     "ko": "해골몽",
+     "canBeShiny": false,
+     "cp": {
+      "min": 273,
+      "max": 302
+     }
+    },
+    {
+     "name": "Drifloon",
+     "ref": "425/normal",
+     "shadow": false,
+     "ko": "흔들풍손",
+     "canBeShiny": false,
+     "cp": {
+      "min": 475,
+      "max": 513
+     }
+    },
+    {
+     "name": "Yamask",
+     "ref": "562/normal",
+     "shadow": false,
+     "ko": "데스마스",
+     "canBeShiny": false,
+     "cp": {
+      "min": 387,
+      "max": 420
+     }
+    },
+    {
+     "name": "Golett",
+     "ref": "622/normal",
+     "shadow": false,
+     "ko": "골비람",
+     "canBeShiny": false,
+     "cp": {
+      "min": 472,
+      "max": 509
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Catch 10 Dark-type Pokémon"
+   },
+   "type": "catch",
+   "rewards": [
+    {
+     "name": "Murkrow",
+     "ref": "198/normal",
+     "shadow": false,
+     "ko": "니로우",
+     "canBeShiny": false,
+     "cp": {
+      "min": 626,
+      "max": 669
+     }
+    },
+    {
+     "name": "Sneasel",
+     "ref": "215/normal",
+     "shadow": false,
+     "ko": "포푸니",
+     "canBeShiny": false,
+     "cp": {
+      "min": 831,
+      "max": 879
+     }
+    },
+    {
+     "name": "Poochyena",
+     "ref": "261/normal",
+     "shadow": false,
+     "ko": "포챠나",
+     "canBeShiny": false,
+     "cp": {
+      "min": 263,
+      "max": 290
+     }
+    },
+    {
+     "name": "Purrloin",
+     "ref": "509/normal",
+     "shadow": false,
+     "ko": "쌔비냥",
+     "canBeShiny": false,
+     "cp": {
+      "min": 301,
+      "max": 330
+     }
+    },
+    {
+     "name": "Inkay",
+     "ref": "686/normal",
+     "shadow": false,
+     "ko": "오케이징",
+     "canBeShiny": false,
+     "cp": {
+      "min": 365,
+      "max": 397
+     }
+    },
+    {
+     "name": "Nickit",
+     "ref": "827/normal",
+     "shadow": false,
+     "ko": "훔처우",
+     "canBeShiny": false,
+     "cp": {
+      "min": 278,
+      "max": 306
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Catch 5 Pokémon with Weather Boost"
+   },
+   "type": "catch",
+   "rewards": [
+    {
+     "name": "Vulpix",
+     "ref": "37/normal",
+     "shadow": false,
+     "ko": "식스테일",
+     "canBeShiny": false,
+     "cp": {
+      "min": 347,
+      "max": 378
+     }
+    },
+    {
+     "name": "Poliwag",
+     "ref": "60/normal",
+     "shadow": false,
+     "ko": "발챙이",
+     "canBeShiny": false,
+     "cp": {
+      "min": 324,
+      "max": 355
+     }
+    },
+    {
+     "name": "Wingull",
+     "ref": "278/normal",
+     "shadow": false,
+     "ko": "갈모매",
+     "canBeShiny": false,
+     "cp": {
+      "min": 298,
+      "max": 328
+     }
+    },
+    {
+     "name": "Hippopotas",
+     "ref": "449/normal",
+     "shadow": false,
+     "ko": "히포포타스",
+     "canBeShiny": false,
+     "cp": {
+      "min": 542,
+      "max": 582
+     }
+    },
+    {
+     "name": "Snover",
+     "ref": "459/normal",
+     "shadow": false,
+     "ko": "눈쓰개",
+     "canBeShiny": false,
+     "cp": {
+      "min": 460,
+      "max": 497
+     }
+    },
+    {
+     "name": "Roggenrola",
+     "ref": "524/normal",
+     "shadow": false,
+     "ko": "단굴",
+     "canBeShiny": false,
+     "cp": {
+      "min": 479,
+      "max": 516
+     }
+    },
+    {
+     "name": "Vanillite",
+     "ref": "582/normal",
+     "shadow": false,
+     "ko": "바닐프티",
+     "canBeShiny": false,
+     "cp": {
+      "min": 409,
+      "max": 443
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Make 10 Curveball Throws"
+   },
+   "type": "throw",
+   "rewards": [
+    {
+     "name": "Alolan Geodude",
+     "ref": "74/alola",
+     "shadow": false,
+     "ko": "꼬마돌",
+     "canBeShiny": false,
+     "cp": {
+      "min": 516,
+      "max": 554
+     }
+    },
+    {
+     "name": "Electabuzz",
+     "ref": "125/normal",
+     "shadow": false,
+     "ko": "에레브",
+     "canBeShiny": false,
+     "cp": {
+      "min": 949,
+      "max": 1000
+     }
+    },
+    {
+     "name": "Makuhita",
+     "ref": "296/normal",
+     "shadow": false,
+     "ko": "마크탕",
+     "canBeShiny": false,
+     "cp": {
+      "min": 318,
+      "max": 350
+     }
+    },
+    {
+     "name": "Swablu",
+     "ref": "333/normal",
+     "shadow": false,
+     "ko": "파비코",
+     "canBeShiny": false,
+     "cp": {
+      "min": 322,
+      "max": 353
+     }
+    },
+    {
+     "name": "Baltoy",
+     "ref": "343/normal",
+     "shadow": false,
+     "ko": "오뚝군",
+     "canBeShiny": false,
+     "cp": {
+      "min": 307,
+      "max": 337
+     }
+    },
+    {
+     "name": "Dusclops",
+     "ref": "356/normal",
+     "shadow": false,
+     "ko": "미라몽",
+     "canBeShiny": false,
+     "cp": {
+      "min": 638,
+      "max": 682
+     }
+    },
+    {
+     "name": "Staravia",
+     "ref": "397/normal",
+     "shadow": false,
+     "ko": "찌르버드",
+     "canBeShiny": false,
+     "cp": {
+      "min": 518,
+      "max": 556
+     }
+    },
+    {
+     "name": "Emolga",
+     "ref": "587/normal",
+     "shadow": false,
+     "ko": "에몽가",
+     "canBeShiny": false,
+     "cp": {
+      "min": 657,
+      "max": 700
+     }
+    },
+    {
+     "name": "Ferroseed",
+     "ref": "597/normal",
+     "shadow": false,
+     "ko": "철시드",
+     "canBeShiny": false,
+     "cp": {
+      "min": 370,
+      "max": 403
+     }
+    },
+    {
+     "name": "Lechonk",
+     "ref": "915/normal",
+     "shadow": false,
+     "ko": "맛보돈",
+     "canBeShiny": false,
+     "cp": {
+      "min": 285,
+      "max": 314
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Make 10 Nice Throws"
+   },
+   "type": "throw",
+   "rewards": [
+    {
+     "name": "Magmar",
+     "ref": "126/normal",
+     "shadow": false,
+     "ko": "마그마",
+     "canBeShiny": false,
+     "cp": {
+      "min": 973,
+      "max": 1026
+     }
+    },
+    {
+     "name": "Magikarp",
+     "ref": "129/normal",
+     "shadow": false,
+     "ko": "잉어킹",
+     "canBeShiny": false,
+     "cp": {
+      "min": 99,
+      "max": 117
+     }
+    },
+    {
+     "name": "Sunkern",
+     "ref": "191/normal",
+     "shadow": false,
+     "ko": "해너츠",
+     "canBeShiny": false,
+     "cp": {
+      "min": 148,
+      "max": 169
+     }
+    },
+    {
+     "name": "Nuzleaf",
+     "ref": "274/normal",
+     "shadow": false,
+     "ko": "잎새코",
+     "canBeShiny": false,
+     "cp": {
+      "min": 487,
+      "max": 526
+     }
+    },
+    {
+     "name": "Roggenrola",
+     "ref": "524/normal",
+     "shadow": false,
+     "ko": "단굴",
+     "canBeShiny": false,
+     "cp": {
+      "min": 479,
+      "max": 516
+     }
+    },
+    {
+     "name": "Galarian Stunfisk",
+     "ref": "618/galarian",
+     "shadow": false,
+     "ko": "메더",
+     "canBeShiny": false,
+     "cp": {
+      "min": 876,
+      "max": 926
+     }
+    },
+    {
+     "name": "Stunfisk",
+     "ref": "618/normal",
+     "shadow": false,
+     "ko": "메더",
+     "canBeShiny": false,
+     "cp": {
+      "min": 876,
+      "max": 926
+     }
+    },
+    {
+     "name": "Trumbeak",
+     "ref": "732/normal",
+     "shadow": false,
+     "ko": "크라파",
+     "canBeShiny": false,
+     "cp": {
+      "min": 592,
+      "max": 633
+     }
+    },
+    {
+     "name": "Mareanie",
+     "ref": "747/normal",
+     "shadow": false,
+     "ko": "시마사리",
+     "canBeShiny": false,
+     "cp": {
+      "min": 383,
+      "max": 416
+     }
+    },
+    {
+     "name": "Nymble",
+     "ref": "919/normal",
+     "shadow": false,
+     "ko": "콩알뚜기",
+     "canBeShiny": false,
+     "cp": {
+      "min": 228,
+      "max": 253
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Make 2 Excellent Throws"
+   },
+   "type": "throw",
+   "rewards": [
+    {
+     "name": "Dratini",
+     "ref": "147/normal",
+     "shadow": false,
+     "ko": "미뇽",
+     "canBeShiny": false,
+     "cp": {
+      "min": 397,
+      "max": 430
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Make 3 Excellent Throws in a row"
+   },
+   "type": "throw",
+   "rewards": [
+    {
+     "name": "Larvitar",
+     "ref": "246/normal",
+     "shadow": false,
+     "ko": "애버라스",
+     "canBeShiny": false,
+     "cp": {
+      "min": 411,
+      "max": 445
+     }
+    },
+    {
+     "name": "Beldum",
+     "ref": "374/normal",
+     "shadow": false,
+     "ko": "메탕",
+     "canBeShiny": false,
+     "cp": {
+      "min": 385,
+      "max": 418
+     }
+    },
+    {
+     "name": "Gible",
+     "ref": "443/normal",
+     "shadow": false,
+     "ko": "딥상어동",
+     "canBeShiny": false,
+     "cp": {
+      "min": 441,
+      "max": 477
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Make 3 Great Throws"
+   },
+   "type": "throw",
+   "rewards": [
+    {
+     "name": "Omanyte",
+     "ref": "138/normal",
+     "shadow": false,
+     "ko": "암나이트",
+     "canBeShiny": false,
+     "cp": {
+      "min": 620,
+      "max": 662
+     }
+    },
+    {
+     "name": "Kabuto",
+     "ref": "140/normal",
+     "shadow": false,
+     "ko": "투구",
+     "canBeShiny": false,
+     "cp": {
+      "min": 548,
+      "max": 587
+     }
+    },
+    {
+     "name": "Clamperl",
+     "ref": "366/normal",
+     "shadow": false,
+     "ko": "진주몽",
+     "canBeShiny": false,
+     "cp": {
+      "min": 507,
+      "max": 544
+     }
+    },
+    {
+     "name": "Elgyem",
+     "ref": "605/normal",
+     "shadow": false,
+     "ko": "리그레",
+     "canBeShiny": false,
+     "cp": {
+      "min": 554,
+      "max": 593
+     }
+    },
+    {
+     "name": "Binacle",
+     "ref": "688/normal",
+     "shadow": false,
+     "ko": "거북손손",
+     "canBeShiny": false,
+     "cp": {
+      "min": 373,
+      "max": 405
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Make 3 Great Throws in a row"
+   },
+   "type": "throw",
+   "rewards": [
+    {
+     "name": "Lileep",
+     "ref": "345/normal",
+     "shadow": false,
+     "ko": "릴링",
+     "canBeShiny": false,
+     "cp": {
+      "min": 515,
+      "max": 553
+     }
+    },
+    {
+     "name": "Anorith",
+     "ref": "347/normal",
+     "shadow": false,
+     "ko": "아노딥스",
+     "canBeShiny": false,
+     "cp": {
+      "min": 613,
+      "max": 655
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Make 5 Great Curveball Throws in a row"
+   },
+   "type": "throw",
+   "rewards": [
+    {
+     "name": "Spinda 4",
+     "ref": null,
+     "shadow": false,
+     "canBeShiny": false,
+     "cp": {
+      "min": 486,
+      "max": 523
+     }
+    },
+    {
+     "name": "Spinda 5",
+     "ref": null,
+     "shadow": false,
+     "canBeShiny": false,
+     "cp": {
+      "min": 486,
+      "max": 523
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Make 5 Nice Throws"
+   },
+   "type": "throw",
+   "rewards": [
+    {
+     "name": "Alolan Diglett",
+     "ref": "50/alola",
+     "shadow": false,
+     "ko": "디그다",
+     "canBeShiny": false,
+     "cp": {
+      "min": 264,
+      "max": 292
+     }
+    },
+    {
+     "name": "Diglett",
+     "ref": "50/normal",
+     "shadow": false,
+     "ko": "디그다",
+     "canBeShiny": false,
+     "cp": {
+      "min": 262,
+      "max": 289
+     }
+    },
+    {
+     "name": "Sudowoodo",
+     "ref": "185/normal",
+     "shadow": false,
+     "ko": "꼬지모",
+     "canBeShiny": false,
+     "cp": {
+      "min": 871,
+      "max": 920
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Win a raid"
+   },
+   "type": "battle",
+   "rewards": [
+    {
+     "name": "Lapras",
+     "ref": "131/normal",
+     "shadow": false,
+     "ko": "라프라스",
+     "canBeShiny": false,
+     "cp": {
+      "min": 1076,
+      "max": 1131
+     }
+    },
+    {
+     "name": "Vaporeon",
+     "ref": "134/normal",
+     "shadow": false,
+     "ko": "샤미드",
+     "canBeShiny": false,
+     "cp": {
+      "min": 1275,
+      "max": 1335
+     }
+    },
+    {
+     "name": "Jolteon",
+     "ref": "135/normal",
+     "shadow": false,
+     "ko": "쥬피썬더",
+     "canBeShiny": false,
+     "cp": {
+      "min": 1180,
+      "max": 1238
+     }
+    },
+    {
+     "name": "Flareon",
+     "ref": "136/normal",
+     "shadow": false,
+     "ko": "부스터",
+     "canBeShiny": false,
+     "cp": {
+      "min": 1239,
+      "max": 1298
+     }
+    },
+    {
+     "name": "Snorlax",
+     "ref": "143/normal",
+     "shadow": false,
+     "ko": "잠만보",
+     "canBeShiny": false,
+     "cp": {
+      "min": 1320,
+      "max": 1382
+     }
+    },
+    {
+     "name": "Piloswine",
+     "ref": "221/normal",
+     "shadow": false,
+     "ko": "메꾸리",
+     "canBeShiny": false,
+     "cp": {
+      "min": 953,
+      "max": 1005
+     }
+    },
+    {
+     "name": "Sealeo",
+     "ref": "364/normal",
+     "shadow": false,
+     "ko": "씨레오",
+     "canBeShiny": false,
+     "cp": {
+      "min": 690,
+      "max": 735
+     }
+    },
+    {
+     "name": "Metang",
+     "ref": "375/normal",
+     "shadow": false,
+     "ko": "메탕구",
+     "canBeShiny": false,
+     "cp": {
+      "min": 694,
+      "max": 738
+     }
+    },
+    {
+     "name": "Luxio",
+     "ref": "404/normal",
+     "shadow": false,
+     "ko": "럭시오",
+     "canBeShiny": false,
+     "cp": {
+      "min": 595,
+      "max": 636
+     }
+    },
+    {
+     "name": "Gabite",
+     "ref": "444/normal",
+     "shadow": false,
+     "ko": "한바이트",
+     "canBeShiny": false,
+     "cp": {
+      "min": 757,
+      "max": 803
+     }
+    },
+    {
+     "name": "Lampent",
+     "ref": "608/normal",
+     "shadow": false,
+     "ko": "램프라",
+     "canBeShiny": false,
+     "cp": {
+      "min": 688,
+      "max": 732
+     }
+    },
+    {
+     "name": "Fletchinder",
+     "ref": "662/normal",
+     "shadow": false,
+     "ko": "불화살빈",
+     "canBeShiny": false,
+     "cp": {
+      "min": 589,
+      "max": 629
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Win a three-star raid or higher"
+   },
+   "type": "battle",
+   "rewards": [
+    {
+     "name": "Tirtouga",
+     "ref": "564/normal",
+     "shadow": false,
+     "ko": "프로토가",
+     "canBeShiny": false,
+     "cp": {
+      "min": 597,
+      "max": 638
+     }
+    },
+    {
+     "name": "Archen",
+     "ref": "566/normal",
+     "shadow": false,
+     "ko": "아켄",
+     "canBeShiny": false,
+     "cp": {
+      "min": 741,
+      "max": 789
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Win 5 raids"
+   },
+   "type": "battle",
+   "rewards": [
+    {
+     "name": "Alolan Exeggutor",
+     "ref": "103/alola",
+     "shadow": false,
+     "ko": "나시",
+     "canBeShiny": false,
+     "cp": {
+      "min": 1233,
+      "max": 1292
+     }
+    },
+    {
+     "name": "Alolan Marowak",
+     "ref": "105/alola",
+     "shadow": false,
+     "ko": "텅구리",
+     "canBeShiny": false,
+     "cp": {
+      "min": 741,
+      "max": 786
+     }
+    },
+    {
+     "name": "Aerodactyl",
+     "ref": "142/normal",
+     "shadow": false,
+     "ko": "프테라",
+     "canBeShiny": false,
+     "cp": {
+      "min": 1136,
+      "max": 1193
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Explore 2 km"
+   },
+   "type": "explore",
+   "rewards": [
+    {
+     "name": "Growlithe",
+     "ref": "58/normal",
+     "shadow": false,
+     "ko": "가디",
+     "canBeShiny": false,
+     "cp": {
+      "min": 495,
+      "max": 533
+     }
+    },
+    {
+     "name": "Galarian Ponyta",
+     "ref": "77/galarian",
+     "shadow": false,
+     "ko": "포니타",
+     "canBeShiny": false,
+     "cp": {
+      "min": 683,
+      "max": 727
+     }
+    },
+    {
+     "name": "Ponyta",
+     "ref": "77/normal",
+     "shadow": false,
+     "ko": "포니타",
+     "canBeShiny": false,
+     "cp": {
+      "min": 683,
+      "max": 727
+     }
+    },
+    {
+     "name": "Galarian Slowpoke",
+     "ref": "79/galarian",
+     "shadow": false,
+     "ko": "야돈",
+     "canBeShiny": false,
+     "cp": {
+      "min": 487,
+      "max": 525
+     }
+    },
+    {
+     "name": "Slowpoke",
+     "ref": "79/normal",
+     "shadow": false,
+     "ko": "야돈",
+     "canBeShiny": false,
+     "cp": {
+      "min": 487,
+      "max": 525
+     }
+    },
+    {
+     "name": "Lapras",
+     "ref": "131/normal",
+     "shadow": false,
+     "ko": "라프라스",
+     "canBeShiny": false,
+     "cp": {
+      "min": 1076,
+      "max": 1131
+     }
+    },
+    {
+     "name": "Houndour",
+     "ref": "228/normal",
+     "shadow": false,
+     "ko": "델빌",
+     "canBeShiny": false,
+     "cp": {
+      "min": 491,
+      "max": 529
+     }
+    },
+    {
+     "name": "Electrike",
+     "ref": "309/normal",
+     "shadow": false,
+     "ko": "썬더라이",
+     "canBeShiny": false,
+     "cp": {
+      "min": 380,
+      "max": 413
+     }
+    },
+    {
+     "name": "Wailmer",
+     "ref": "320/normal",
+     "shadow": false,
+     "ko": "고래왕자",
+     "canBeShiny": false,
+     "cp": {
+      "min": 584,
+      "max": 629
+     }
+    },
+    {
+     "name": "Herdier",
+     "ref": "507/normal",
+     "shadow": false,
+     "ko": "하데리어",
+     "canBeShiny": false,
+     "cp": {
+      "min": 636,
+      "max": 678
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Hatch an Egg"
+   },
+   "type": "explore",
+   "rewards": [
+    {
+     "name": "Alolan Marowak",
+     "ref": "105/alola",
+     "shadow": false,
+     "ko": "텅구리",
+     "canBeShiny": false,
+     "cp": {
+      "min": 741,
+      "max": 786
+     }
+    },
+    {
+     "name": "Scyther",
+     "ref": "123/normal",
+     "shadow": false,
+     "ko": "스라크",
+     "canBeShiny": false,
+     "cp": {
+      "min": 1104,
+      "max": 1160
+     }
+    },
+    {
+     "name": "Noctowl",
+     "ref": "164/normal",
+     "shadow": false,
+     "ko": "야부엉",
+     "canBeShiny": false,
+     "cp": {
+      "min": 819,
+      "max": 867
+     }
+    },
+    {
+     "name": "Sudowoodo",
+     "ref": "185/normal",
+     "shadow": false,
+     "ko": "꼬지모",
+     "canBeShiny": false,
+     "cp": {
+      "min": 871,
+      "max": 920
+     }
+    },
+    {
+     "name": "Nincada",
+     "ref": "290/normal",
+     "shadow": false,
+     "ko": "토중몬",
+     "canBeShiny": false,
+     "cp": {
+      "min": 299,
+      "max": 329
+     }
+    },
+    {
+     "name": "Lileep",
+     "ref": "345/normal",
+     "shadow": false,
+     "ko": "릴링",
+     "canBeShiny": false,
+     "cp": {
+      "min": 515,
+      "max": 553
+     }
+    },
+    {
+     "name": "Anorith",
+     "ref": "347/normal",
+     "shadow": false,
+     "ko": "아노딥스",
+     "canBeShiny": false,
+     "cp": {
+      "min": 613,
+      "max": 655
+     }
+    },
+    {
+     "name": "Combee",
+     "ref": "415/normal",
+     "shadow": false,
+     "ko": "세꿀버리",
+     "canBeShiny": false,
+     "cp": {
+      "min": 188,
+      "max": 212
+     }
+    },
+    {
+     "name": "Audino",
+     "ref": "531/normal",
+     "shadow": false,
+     "ko": "다부니",
+     "canBeShiny": false,
+     "cp": {
+      "min": 676,
+      "max": 721
+     }
+    },
+    {
+     "name": "Trubbish",
+     "ref": "568/normal",
+     "shadow": false,
+     "ko": "깨봉이",
+     "canBeShiny": false,
+     "cp": {
+      "min": 395,
+      "max": 428
+     }
+    },
+    {
+     "name": "Cubchoo",
+     "ref": "613/normal",
+     "shadow": false,
+     "ko": "코고미",
+     "canBeShiny": false,
+     "cp": {
+      "min": 422,
+      "max": 458
+     }
+    },
+    {
+     "name": "Stufful",
+     "ref": "759/normal",
+     "shadow": false,
+     "ko": "포곰곰",
+     "canBeShiny": false,
+     "cp": {
+      "min": 540,
+      "max": 579
+     }
+    },
+    {
+     "name": "Wimpod",
+     "ref": "767/normal",
+     "shadow": false,
+     "ko": "꼬시레",
+     "canBeShiny": false,
+     "cp": {
+      "min": 191,
+      "max": 215
+     }
+    },
+    {
+     "name": "Fidough",
+     "ref": "926/normal",
+     "shadow": false,
+     "ko": "쫀도기",
+     "canBeShiny": false,
+     "cp": {
+      "min": 389,
+      "max": 422
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Hatch 2 Eggs"
+   },
+   "type": "explore",
+   "rewards": [
+    {
+     "name": "Sneasel",
+     "ref": "215/normal",
+     "shadow": false,
+     "ko": "포푸니",
+     "canBeShiny": false,
+     "cp": {
+      "min": 831,
+      "max": 879
+     }
+    },
+    {
+     "name": "Mawile",
+     "ref": "303/normal",
+     "shadow": false,
+     "ko": "입치트",
+     "canBeShiny": false,
+     "cp": {
+      "min": 658,
+      "max": 700
+     }
+    },
+    {
+     "name": "Feebas",
+     "ref": "349/normal",
+     "shadow": false,
+     "ko": "빈티나",
+     "canBeShiny": false,
+     "cp": {
+      "min": 99,
+      "max": 117
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Spin 3 PokéStops or Gyms"
+   },
+   "type": "explore",
+   "rewards": [
+    {
+     "name": "Doduo",
+     "ref": "84/normal",
+     "shadow": false,
+     "ko": "두두",
+     "canBeShiny": false,
+     "cp": {
+      "min": 477,
+      "max": 514
+     }
+    },
+    {
+     "name": "Remoraid",
+     "ref": "223/normal",
+     "shadow": false,
+     "ko": "총어",
+     "canBeShiny": false,
+     "cp": {
+      "min": 358,
+      "max": 391
+     }
+    },
+    {
+     "name": "Ralts",
+     "ref": "280/normal",
+     "shadow": false,
+     "ko": "랄토스",
+     "canBeShiny": false,
+     "cp": {
+      "min": 206,
+      "max": 231
+     }
+    },
+    {
+     "name": "Aron",
+     "ref": "304/normal",
+     "shadow": false,
+     "ko": "가보리",
+     "canBeShiny": false,
+     "cp": {
+      "min": 522,
+      "max": 560
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Spin 5 PokéStops"
+   },
+   "type": "explore",
+   "rewards": [
+    {
+     "name": "Alolan Sandshrew",
+     "ref": "27/alola",
+     "shadow": false,
+     "ko": "모래두지",
+     "canBeShiny": false,
+     "cp": {
+      "min": 516,
+      "max": 554
+     }
+    },
+    {
+     "name": "Sandshrew",
+     "ref": "27/normal",
+     "shadow": false,
+     "ko": "모래두지",
+     "canBeShiny": false,
+     "cp": {
+      "min": 503,
+      "max": 540
+     }
+    },
+    {
+     "name": "Dunsparce",
+     "ref": "206/normal",
+     "shadow": false,
+     "ko": "노고치",
+     "canBeShiny": false,
+     "cp": {
+      "min": 679,
+      "max": 724
+     }
+    },
+    {
+     "name": "Sneasel",
+     "ref": "215/normal",
+     "shadow": false,
+     "ko": "포푸니",
+     "canBeShiny": false,
+     "cp": {
+      "min": 831,
+      "max": 879
+     }
+    },
+    {
+     "name": "Galarian Zigzagoon",
+     "ref": "263/galarian",
+     "shadow": false,
+     "ko": "지그제구리",
+     "canBeShiny": false,
+     "cp": {
+      "min": 193,
+      "max": 218
+     }
+    },
+    {
+     "name": "Zigzagoon",
+     "ref": "263/normal",
+     "shadow": false,
+     "ko": "지그제구리",
+     "canBeShiny": false,
+     "cp": {
+      "min": 193,
+      "max": 218
+     }
+    },
+    {
+     "name": "Snorunt",
+     "ref": "361/normal",
+     "shadow": false,
+     "ko": "눈꼬마",
+     "canBeShiny": false,
+     "cp": {
+      "min": 349,
+      "max": 380
+     }
+    },
+    {
+     "name": "Bidoof",
+     "ref": "399/normal",
+     "shadow": false,
+     "ko": "비버니",
+     "canBeShiny": false,
+     "cp": {
+      "min": 280,
+      "max": 309
+     }
+    },
+    {
+     "name": "Hippopotas",
+     "ref": "449/normal",
+     "shadow": false,
+     "ko": "히포포타스",
+     "canBeShiny": false,
+     "cp": {
+      "min": 542,
+      "max": 582
+     }
+    },
+    {
+     "name": "Trubbish",
+     "ref": "568/normal",
+     "shadow": false,
+     "ko": "깨봉이",
+     "canBeShiny": false,
+     "cp": {
+      "min": 395,
+      "max": 428
+     }
+    },
+    {
+     "name": "Ducklett",
+     "ref": "580/normal",
+     "shadow": false,
+     "ko": "꼬지보리",
+     "canBeShiny": false,
+     "cp": {
+      "min": 335,
+      "max": 367
+     }
+    },
+    {
+     "name": "Dewpider",
+     "ref": "751/normal",
+     "shadow": false,
+     "ko": "물거미",
+     "canBeShiny": false,
+     "cp": {
+      "min": 277,
+      "max": 306
+     }
+    },
+    {
+     "name": "Skwovet",
+     "ref": "819/normal",
+     "shadow": false,
+     "ko": "탐리스",
+     "canBeShiny": false,
+     "cp": {
+      "min": 371,
+      "max": 404
+     }
+    },
+    {
+     "name": "Blipbug",
+     "ref": "824/normal",
+     "shadow": false,
+     "ko": "두루지벌레",
+     "canBeShiny": false,
+     "cp": {
+      "min": 133,
+      "max": 153
+     }
+    },
+    {
+     "name": "Arrokuda",
+     "ref": "846/normal",
+     "shadow": false,
+     "ko": "찌로꼬치",
+     "canBeShiny": false,
+     "cp": {
+      "min": 355,
+      "max": 387
+     }
+    },
+    {
+     "name": "Tarountula",
+     "ref": "917/normal",
+     "shadow": false,
+     "ko": "타랜툴라",
+     "canBeShiny": false,
+     "cp": {
+      "min": 219,
+      "max": 244
+     }
+    },
+    {
+     "name": "Nacli",
+     "ref": "932/normal",
+     "shadow": false,
+     "ko": "베베솔트",
+     "canBeShiny": false,
+     "cp": {
+      "min": 381,
+      "max": 414
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Spin 5 PokéStops or Gyms"
+   },
+   "type": "explore",
+   "rewards": [
+    {
+     "name": "Growlithe",
+     "ref": "58/normal",
+     "shadow": false,
+     "ko": "가디",
+     "canBeShiny": false,
+     "cp": {
+      "min": 495,
+      "max": 533
+     }
+    },
+    {
+     "name": "Hisuian Growlithe",
+     "ref": "58/hisuian",
+     "shadow": false,
+     "ko": "가디",
+     "canBeShiny": false,
+     "cp": {
+      "min": 527,
+      "max": 566
+     }
+    },
+    {
+     "name": "Galarian Slowpoke",
+     "ref": "79/galarian",
+     "shadow": false,
+     "ko": "야돈",
+     "canBeShiny": false,
+     "cp": {
+      "min": 487,
+      "max": 525
+     }
+    },
+    {
+     "name": "Slowpoke",
+     "ref": "79/normal",
+     "shadow": false,
+     "ko": "야돈",
+     "canBeShiny": false,
+     "cp": {
+      "min": 487,
+      "max": 525
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Take a snapshot of a wild Pokémon"
+   },
+   "type": "explore",
+   "rewards": [
+    {
+     "name": "Trapinch",
+     "ref": "328/normal",
+     "shadow": false,
+     "ko": "톱치",
+     "canBeShiny": false,
+     "cp": {
+      "min": 507,
+      "max": 546
+     }
+    },
+    {
+     "name": "Croagunk",
+     "ref": "453/normal",
+     "shadow": false,
+     "ko": "삐딱구리",
+     "canBeShiny": false,
+     "cp": {
+      "min": 375,
+      "max": 408
+     }
+    },
+    {
+     "name": "Cottonee",
+     "ref": "546/normal",
+     "shadow": false,
+     "ko": "소미안",
+     "canBeShiny": false,
+     "cp": {
+      "min": 271,
+      "max": 300
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Evolve a Pokémon"
+   },
+   "type": "training",
+   "rewards": [
+    {
+     "name": "Seadra",
+     "ref": "117/normal",
+     "shadow": false,
+     "ko": "시드라",
+     "canBeShiny": false,
+     "cp": {
+      "min": 848,
+      "max": 897
+     }
+    },
+    {
+     "name": "Eevee",
+     "ref": "133/normal",
+     "shadow": false,
+     "ko": "이브이",
+     "canBeShiny": false,
+     "cp": {
+      "min": 424,
+      "max": 459
+     }
+    },
+    {
+     "name": "Ursaring",
+     "ref": "217/normal",
+     "shadow": false,
+     "ko": "링곰",
+     "canBeShiny": false,
+     "cp": {
+      "min": 1203,
+      "max": 1262
+     }
+    },
+    {
+     "name": "Magcargo",
+     "ref": "219/normal",
+     "shadow": false,
+     "ko": "마그카르고",
+     "canBeShiny": false,
+     "cp": {
+      "min": 685,
+      "max": 729
+     }
+    },
+    {
+     "name": "Grumpig",
+     "ref": "326/normal",
+     "shadow": false,
+     "ko": "피그킹",
+     "canBeShiny": false,
+     "cp": {
+      "min": 964,
+      "max": 1015
+     }
+    },
+    {
+     "name": "Whirlipede",
+     "ref": "544/normal",
+     "shadow": false,
+     "ko": "휠구",
+     "canBeShiny": false,
+     "cp": {
+      "min": 454,
+      "max": 490
+     }
+    },
+    {
+     "name": "Eelektrik",
+     "ref": "603/normal",
+     "shadow": false,
+     "ko": "저리릴",
+     "canBeShiny": false,
+     "cp": {
+      "min": 691,
+      "max": 735
+     }
+    },
+    {
+     "name": "Diggersby",
+     "ref": "660/normal",
+     "shadow": false,
+     "ko": "파르토",
+     "canBeShiny": false,
+     "cp": {
+      "min": 605,
+      "max": 646
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Power up Pokémon 3 times"
+   },
+   "type": "training",
+   "rewards": [
+    {
+     "name": "Bulbasaur",
+     "ref": "1/normal",
+     "shadow": false,
+     "ko": "이상해씨",
+     "canBeShiny": false,
+     "cp": {
+      "min": 442,
+      "max": 477
+     }
+    },
+    {
+     "name": "Charmander",
+     "ref": "4/normal",
+     "shadow": false,
+     "ko": "파이리",
+     "canBeShiny": false,
+     "cp": {
+      "min": 387,
+      "max": 420
+     }
+    },
+    {
+     "name": "Squirtle",
+     "ref": "7/normal",
+     "shadow": false,
+     "ko": "꼬부기",
+     "canBeShiny": false,
+     "cp": {
+      "min": 372,
+      "max": 405
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Power up Pokémon 5 times"
+   },
+   "type": "training",
+   "rewards": [
+    {
+     "name": "Snivy",
+     "ref": "495/normal",
+     "shadow": false,
+     "ko": "주리비얀",
+     "canBeShiny": false,
+     "cp": {
+      "min": 333,
+      "max": 364
+     }
+    },
+    {
+     "name": "Tepig",
+     "ref": "498/normal",
+     "shadow": false,
+     "ko": "뚜꾸리",
+     "canBeShiny": false,
+     "cp": {
+      "min": 428,
+      "max": 464
+     }
+    },
+    {
+     "name": "Oshawott",
+     "ref": "501/normal",
+     "shadow": false,
+     "ko": "수댕이",
+     "canBeShiny": false,
+     "cp": {
+      "min": 413,
+      "max": 448
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Power up Pokémon 7 times"
+   },
+   "type": "training",
+   "rewards": [
+    {
+     "name": "Rowlet",
+     "ref": "722/normal",
+     "shadow": false,
+     "ko": "나몰빼미",
+     "canBeShiny": false,
+     "cp": {
+      "min": 418,
+      "max": 453
+     }
+    },
+    {
+     "name": "Litten",
+     "ref": "725/normal",
+     "shadow": false,
+     "ko": "냐오불",
+     "canBeShiny": false,
+     "cp": {
+      "min": 409,
+      "max": 443
+     }
+    },
+    {
+     "name": "Popplio",
+     "ref": "728/normal",
+     "shadow": false,
+     "ko": "누리공",
+     "canBeShiny": false,
+     "cp": {
+      "min": 448,
+      "max": 483
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Earn 2 Candies walking with your buddy"
+   },
+   "type": "buddy",
+   "rewards": [
+    {
+     "name": "Jigglypuff",
+     "ref": "39/normal",
+     "shadow": false,
+     "ko": "푸린",
+     "canBeShiny": false,
+     "cp": {
+      "min": 277,
+      "max": 310
+     }
+    },
+    {
+     "name": "Buneary",
+     "ref": "427/normal",
+     "shadow": false,
+     "ko": "이어롤",
+     "canBeShiny": false,
+     "cp": {
+      "min": 501,
+      "max": 539
+     }
+    },
+    {
+     "name": "Glameow",
+     "ref": "431/normal",
+     "shadow": false,
+     "ko": "나옹마",
+     "canBeShiny": false,
+     "cp": {
+      "min": 367,
+      "max": 400
+     }
+    },
+    {
+     "name": "Bunnelby",
+     "ref": "659/normal",
+     "shadow": false,
+     "ko": "파르빗",
+     "canBeShiny": false,
+     "cp": {
+      "min": 212,
+      "max": 237
+     }
+    },
+    {
+     "name": "Litleo",
+     "ref": "667/normal",
+     "shadow": false,
+     "ko": "레오꼬",
+     "canBeShiny": false,
+     "cp": {
+      "min": 571,
+      "max": 611
+     }
+    },
+    {
+     "name": "Dedenne",
+     "ref": "702/normal",
+     "shadow": false,
+     "ko": "데덴네",
+     "canBeShiny": false,
+     "cp": {
+      "min": 743,
+      "max": 789
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Earn 3 Candies walking with your buddy"
+   },
+   "type": "buddy",
+   "rewards": [
+    {
+     "name": "Galarian Stunfisk",
+     "ref": "618/galarian",
+     "shadow": false,
+     "ko": "메더",
+     "canBeShiny": false,
+     "cp": {
+      "min": 876,
+      "max": 926
+     }
+    },
+    {
+     "name": "Stunfisk",
+     "ref": "618/normal",
+     "shadow": false,
+     "ko": "메더",
+     "canBeShiny": false,
+     "cp": {
+      "min": 876,
+      "max": 926
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Send 3 Gifts and add a sticker to each"
+   },
+   "type": "buddy",
+   "rewards": [
+    {
+     "name": "Clefairy",
+     "ref": "35/normal",
+     "shadow": false,
+     "ko": "삐삐",
+     "canBeShiny": false,
+     "cp": {
+      "min": 458,
+      "max": 495
+     }
+    },
+    {
+     "name": "Jigglypuff",
+     "ref": "39/normal",
+     "shadow": false,
+     "ko": "푸린",
+     "canBeShiny": false,
+     "cp": {
+      "min": 277,
+      "max": 310
+     }
+    },
+    {
+     "name": "Eevee",
+     "ref": "133/normal",
+     "shadow": false,
+     "ko": "이브이",
+     "canBeShiny": false,
+     "cp": {
+      "min": 424,
+      "max": 459
+     }
+    },
+    {
+     "name": "Togetic",
+     "ref": "176/normal",
+     "shadow": false,
+     "ko": "토게틱",
+     "canBeShiny": false,
+     "cp": {
+      "min": 688,
+      "max": 732
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Trade a Pokémon"
+   },
+   "type": "buddy",
+   "rewards": [
+    {
+     "name": "Poliwhirl",
+     "ref": "61/normal",
+     "shadow": false,
+     "ko": "슈륙챙이",
+     "canBeShiny": false,
+     "cp": {
+      "min": 568,
+      "max": 608
+     }
+    },
+    {
+     "name": "Kadabra",
+     "ref": "64/normal",
+     "shadow": false,
+     "ko": "윤겔라",
+     "canBeShiny": false,
+     "cp": {
+      "min": 832,
+      "max": 882
+     }
+    },
+    {
+     "name": "Machoke",
+     "ref": "67/normal",
+     "shadow": false,
+     "ko": "근육몬",
+     "canBeShiny": false,
+     "cp": {
+      "min": 822,
+      "max": 870
+     }
+    },
+    {
+     "name": "Haunter",
+     "ref": "93/normal",
+     "shadow": false,
+     "ko": "고우스트",
+     "canBeShiny": false,
+     "cp": {
+      "min": 792,
+      "max": 841
+     }
+    }
+   ]
+  },
+  {
+   "task": {
+    "en": "Defeat a Team GO Rocket Grunt"
+   },
+   "type": "rocket",
+   "rewards": [
+    {
+     "name": "Arbok",
+     "ref": "24/normal",
+     "shadow": false,
+     "ko": "아보크",
+     "canBeShiny": false,
+     "cp": {
+      "min": 777,
+      "max": 823
+     }
+    },
+    {
+     "name": "Meowth",
+     "ref": "52/normal",
+     "shadow": false,
+     "ko": "나옹",
+     "canBeShiny": false,
+     "cp": {
+      "min": 292,
+      "max": 320
+     }
+    },
+    {
+     "name": "Weezing",
+     "ref": "110/normal",
+     "shadow": false,
+     "ko": "또도가스",
+     "canBeShiny": false,
+     "cp": {
+      "min": 932,
+      "max": 982
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "schemaVersion": 2,
+ "publishedAt": "2026-11-22T00:45:31Z",
+ "minAppVersion": "1.0.0",
+ "files": [
+  {
+   "path": "events.json",
+   "version": 9,
+   "sha256": "130677b02965e2f829d78d9caa10775be430f157f92cab9f89411010eddff7dd"
+  },
+  {
+   "path": "raids.json",
+   "version": 11,
+   "sha256": "8c5f7db3130b00f1a13b73a7a41266d13f60174a9e9755104f73383262e982d9"
+  },
+  {
+   "path": "config.json",
+   "version": 7,
+   "sha256": "a6e2412e04a5ff5c37365a1bbdbc5dc023b68cf3577b1fade5e2d03e411eb838"
+  },
+  {
+   "path": "footnotes_remote.json",
+   "version": 2,
+   "sha256": "ba39b39fcbd7df54ddb8e21c7f834547dbcd2fb02d7c2e4af04ced369978ef87"
+  },
+  {
+   "path": "shop.json",
+   "version": 2,
+   "sha256": "784f3afcad3278ff6d17808e1c24136f9b4b0d64b3e08249bf368b72254d3705"
+  },
+  {
+   "path": "rocket.json",
+   "version": 1,
+   "sha256": "ce8bbe1455ba73dfa9836f717d8981bba046c68e0276da015c7a0447f5c99fd5"
+  },
+  {
+   "path": "eggs.json",
+   "version": 1,
+   "sha256": "8719a9ba8eec4e2cb58083c88c09bf7035328cb8ba344361053c3260a03e7fa4"
+  },
+  {
+   "path": "research.json",
+   "version": 1,
+   "sha256": "cfb9fa74a9a0f568da3b24d6e2254dd9c89e73e465b36926b85154dde158d51b"
+  }
+ ]
+}

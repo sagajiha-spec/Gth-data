@@ -1,0 +1,2923 @@
+{
+ "schemaVersion": 2,
+ "_comment": "로켓단 조무래기·간부·보스 라인업. slots[0..2]=1·2·3번째 포켓몬 후보. encounter=true면 이기고 잡을 수 있는 포켓몬. counterTypes=조무래기 타입에 1.6배 이상인 공격 타입",
+ "grunts": [
+  {
+   "name": "Giovanni",
+   "title": "Team GO Rocket Boss",
+   "type": null,
+   "counterTypes": [],
+   "slots": [
+    [
+     {
+      "name": "Persian",
+      "ref": "53/normal",
+      "shadow": false,
+      "ko": "페르시온",
+      "types": [
+       "normal"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ],
+    [
+     {
+      "name": "Kangaskhan",
+      "ref": "115/normal",
+      "shadow": false,
+      "ko": "캥카",
+      "types": [
+       "normal"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Rhyperior",
+      "ref": "464/normal",
+      "shadow": false,
+      "ko": "거대코뿌리",
+      "types": [
+       "ground",
+       "rock"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Machamp",
+      "ref": "68/normal",
+      "shadow": false,
+      "ko": "괴력몬",
+      "types": [
+       "fighting"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ],
+    [
+     {
+      "name": "Zekrom",
+      "ref": "644/normal",
+      "shadow": false,
+      "ko": "제크로무",
+      "types": [
+       "dragon",
+       "electric"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Cliff",
+   "title": "Team GO Rocket Leader",
+   "type": null,
+   "counterTypes": [],
+   "slots": [
+    [
+     {
+      "name": "Cubone",
+      "ref": "104/normal",
+      "shadow": false,
+      "ko": "탕구리",
+      "types": [
+       "ground"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Snorlax",
+      "ref": "143/normal",
+      "shadow": false,
+      "ko": "잠만보",
+      "types": [
+       "normal"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Golurk",
+      "ref": "623/normal",
+      "shadow": false,
+      "ko": "골루그",
+      "types": [
+       "ground",
+       "ghost"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Galarian Weezing",
+      "ref": "110/galarian",
+      "shadow": false,
+      "ko": "또도가스",
+      "types": [
+       "poison",
+       "fairy"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ],
+    [
+     {
+      "name": "Tyranitar",
+      "ref": "248/normal",
+      "shadow": false,
+      "ko": "마기라스",
+      "types": [
+       "rock",
+       "dark"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Camerupt",
+      "ref": "323/normal",
+      "shadow": false,
+      "ko": "폭타",
+      "types": [
+       "fire",
+       "ground"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Gallade",
+      "ref": "475/normal",
+      "shadow": false,
+      "ko": "엘레이드",
+      "types": [
+       "psychic",
+       "fighting"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Arlo",
+   "title": "Team GO Rocket Leader",
+   "type": null,
+   "counterTypes": [],
+   "slots": [
+    [
+     {
+      "name": "Alolan Grimer",
+      "ref": "88/alola",
+      "shadow": false,
+      "ko": "질퍽이",
+      "types": [
+       "poison",
+       "dark"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Steelix",
+      "ref": "208/normal",
+      "shadow": false,
+      "ko": "강철톤",
+      "types": [
+       "steel",
+       "ground"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Golurk",
+      "ref": "623/normal",
+      "shadow": false,
+      "ko": "골루그",
+      "types": [
+       "ground",
+       "ghost"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Slowbro",
+      "ref": "80/normal",
+      "shadow": false,
+      "ko": "야도란",
+      "types": [
+       "water",
+       "psychic"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ],
+    [
+     {
+      "name": "Alakazam",
+      "ref": "65/normal",
+      "shadow": false,
+      "ko": "후딘",
+      "types": [
+       "psychic"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Charizard",
+      "ref": "6/normal",
+      "shadow": false,
+      "ko": "리자몽",
+      "types": [
+       "fire",
+       "flying"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Scizor",
+      "ref": "212/normal",
+      "shadow": false,
+      "ko": "핫삼",
+      "types": [
+       "bug",
+       "steel"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Sierra",
+   "title": "Team GO Rocket Leader",
+   "type": null,
+   "counterTypes": [],
+   "slots": [
+    [
+     {
+      "name": "Pancham",
+      "ref": "674/normal",
+      "shadow": false,
+      "ko": "판짱",
+      "types": [
+       "fighting"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Blastoise",
+      "ref": "9/normal",
+      "shadow": false,
+      "ko": "거북왕",
+      "types": [
+       "water"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Flygon",
+      "ref": "330/normal",
+      "shadow": false,
+      "ko": "플라이곤",
+      "types": [
+       "ground",
+       "dragon"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Ferrothorn",
+      "ref": "598/normal",
+      "shadow": false,
+      "ko": "너트령",
+      "types": [
+       "grass",
+       "steel"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ],
+    [
+     {
+      "name": "Milotic",
+      "ref": "350/normal",
+      "shadow": false,
+      "ko": "밀로틱",
+      "types": [
+       "water"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Houndoom",
+      "ref": "229/normal",
+      "shadow": false,
+      "ko": "헬가",
+      "types": [
+       "dark",
+       "fire"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Steelix",
+      "ref": "208/normal",
+      "shadow": false,
+      "ko": "강철톤",
+      "types": [
+       "steel",
+       "ground"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Normal-type Male Grunt",
+   "title": "Team GO Rocket Grunt",
+   "type": "normal",
+   "counterTypes": [
+    "fighting"
+   ],
+   "slots": [
+    [
+     {
+      "name": "Teddiursa",
+      "ref": "216/normal",
+      "shadow": false,
+      "ko": "깜지곰",
+      "types": [
+       "normal"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Hoothoot",
+      "ref": "163/normal",
+      "shadow": false,
+      "ko": "부우부",
+      "types": [
+       "normal",
+       "flying"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Porygon",
+      "ref": "137/normal",
+      "shadow": false,
+      "ko": "폴리곤",
+      "types": [
+       "normal"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Loudred",
+      "ref": "294/normal",
+      "shadow": false,
+      "ko": "노공룡",
+      "types": [
+       "normal"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Stufful",
+      "ref": "759/normal",
+      "shadow": false,
+      "ko": "포곰곰",
+      "types": [
+       "normal",
+       "fighting"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Starly",
+      "ref": "396/normal",
+      "shadow": false,
+      "ko": "찌르꼬",
+      "types": [
+       "normal",
+       "flying"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Ursaring",
+      "ref": "217/normal",
+      "shadow": false,
+      "ko": "링곰",
+      "types": [
+       "normal"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Swellow",
+      "ref": "277/normal",
+      "shadow": false,
+      "ko": "스왈로",
+      "types": [
+       "normal",
+       "flying"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Kangaskhan",
+      "ref": "115/normal",
+      "shadow": false,
+      "ko": "캥카",
+      "types": [
+       "normal"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Fire-type Female Grunt",
+   "title": "Team GO Rocket Grunt",
+   "type": "fire",
+   "counterTypes": [
+    "ground",
+    "rock",
+    "water"
+   ],
+   "slots": [
+    [
+     {
+      "name": "Litwick",
+      "ref": "607/normal",
+      "shadow": false,
+      "ko": "불켜미",
+      "types": [
+       "ghost",
+       "fire"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Ponyta",
+      "ref": "77/normal",
+      "shadow": false,
+      "ko": "포니타",
+      "types": [
+       "fire"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Torchic",
+      "ref": "255/normal",
+      "shadow": false,
+      "ko": "아차모",
+      "types": [
+       "fire"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Magmar",
+      "ref": "126/normal",
+      "shadow": false,
+      "ko": "마그마",
+      "types": [
+       "fire"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Blaziken",
+      "ref": "257/normal",
+      "shadow": false,
+      "ko": "번치코",
+      "types": [
+       "fire",
+       "fighting"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Camerupt",
+      "ref": "323/normal",
+      "shadow": false,
+      "ko": "폭타",
+      "types": [
+       "fire",
+       "ground"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ],
+    [
+     {
+      "name": "Darmanitan",
+      "ref": "555/galarian_standard",
+      "shadow": false,
+      "ko": "불비달마",
+      "types": [
+       "fire"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Delphox",
+      "ref": "655/normal",
+      "shadow": false,
+      "ko": "마폭시",
+      "types": [
+       "fire",
+       "psychic"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Magmortar",
+      "ref": "467/normal",
+      "shadow": false,
+      "ko": "마그마번",
+      "types": [
+       "fire"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Water-type Female Grunt",
+   "title": "Team GO Rocket Grunt",
+   "type": "water",
+   "counterTypes": [
+    "grass",
+    "electric"
+   ],
+   "slots": [
+    [
+     {
+      "name": "Mudkip",
+      "ref": "258/normal",
+      "shadow": false,
+      "ko": "물짱이",
+      "types": [
+       "water"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Tentacool",
+      "ref": "72/normal",
+      "shadow": false,
+      "ko": "왕눈해",
+      "types": [
+       "water",
+       "poison"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Krabby",
+      "ref": "98/normal",
+      "shadow": false,
+      "ko": "크랩",
+      "types": [
+       "water"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Dewpider",
+      "ref": "751/normal",
+      "shadow": false,
+      "ko": "물거미",
+      "types": [
+       "water",
+       "bug"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Swampert",
+      "ref": "260/normal",
+      "shadow": false,
+      "ko": "대짱이",
+      "types": [
+       "water",
+       "ground"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Sharpedo",
+      "ref": "319/normal",
+      "shadow": false,
+      "ko": "샤크니아",
+      "types": [
+       "water",
+       "dark"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ],
+    [
+     {
+      "name": "Walrein",
+      "ref": "365/normal",
+      "shadow": false,
+      "ko": "씨카이저",
+      "types": [
+       "ice",
+       "water"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Greninja",
+      "ref": "658/normal",
+      "shadow": false,
+      "ko": "개굴닌자",
+      "types": [
+       "water",
+       "dark"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Tentacruel",
+      "ref": "73/normal",
+      "shadow": false,
+      "ko": "독파리",
+      "types": [
+       "water",
+       "poison"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Water-type Male Grunt",
+   "title": "Team GO Rocket Grunt",
+   "type": "water",
+   "counterTypes": [
+    "grass",
+    "electric"
+   ],
+   "slots": [
+    [
+     {
+      "name": "Magikarp",
+      "ref": "129/normal",
+      "shadow": false,
+      "ko": "잉어킹",
+      "types": [
+       "water"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Feebas",
+      "ref": "349/normal",
+      "shadow": false,
+      "ko": "빈티나",
+      "types": [
+       "water"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Magikarp",
+      "ref": "129/normal",
+      "shadow": false,
+      "ko": "잉어킹",
+      "types": [
+       "water"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Magikarp",
+      "ref": "129/normal",
+      "shadow": false,
+      "ko": "잉어킹",
+      "types": [
+       "water"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Gyarados",
+      "ref": "130/normal",
+      "shadow": false,
+      "ko": "갸라도스",
+      "types": [
+       "water",
+       "flying"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Electric-type Female Grunt",
+   "title": "Team GO Rocket Grunt",
+   "type": "electric",
+   "counterTypes": [
+    "ground"
+   ],
+   "slots": [
+    [
+     {
+      "name": "Voltorb",
+      "ref": "100/normal",
+      "shadow": false,
+      "ko": "찌리리공",
+      "types": [
+       "electric"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Shinx",
+      "ref": "403/normal",
+      "shadow": false,
+      "ko": "꼬링크",
+      "types": [
+       "electric"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Helioptile",
+      "ref": "694/normal",
+      "shadow": false,
+      "ko": "목도리키텔",
+      "types": [
+       "electric",
+       "normal"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Electabuzz",
+      "ref": "125/normal",
+      "shadow": false,
+      "ko": "에레브",
+      "types": [
+       "electric"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Magnemite",
+      "ref": "81/normal",
+      "shadow": false,
+      "ko": "코일",
+      "types": [
+       "electric",
+       "steel"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Alolan Geodude",
+      "ref": "74/alola",
+      "shadow": false,
+      "ko": "꼬마돌",
+      "types": [
+       "rock",
+       "electric"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Luxray",
+      "ref": "405/normal",
+      "shadow": false,
+      "ko": "렌트라",
+      "types": [
+       "electric"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Ampharos",
+      "ref": "181/normal",
+      "shadow": false,
+      "ko": "전룡",
+      "types": [
+       "electric"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Galvantula",
+      "ref": "596/normal",
+      "shadow": false,
+      "ko": "전툴라",
+      "types": [
+       "bug",
+       "electric"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Grass-type Male Grunt",
+   "title": "Team GO Rocket Grunt",
+   "type": "grass",
+   "counterTypes": [
+    "flying",
+    "poison",
+    "bug"
+   ],
+   "slots": [
+    [
+     {
+      "name": "Phantump",
+      "ref": "708/normal",
+      "shadow": false,
+      "ko": "나목령",
+      "types": [
+       "ghost",
+       "grass"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Fomantis",
+      "ref": "753/normal",
+      "shadow": false,
+      "ko": "짜랑랑",
+      "types": [
+       "grass"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Tangela",
+      "ref": "114/normal",
+      "shadow": false,
+      "ko": "덩쿠리",
+      "types": [
+       "grass"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Lileep",
+      "ref": "345/normal",
+      "shadow": false,
+      "ko": "릴링",
+      "types": [
+       "rock",
+       "grass"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Sceptile",
+      "ref": "254/normal",
+      "shadow": false,
+      "ko": "나무킹",
+      "types": [
+       "grass"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Morelull",
+      "ref": "755/normal",
+      "shadow": false,
+      "ko": "자마슈",
+      "types": [
+       "grass",
+       "fairy"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ],
+    [
+     {
+      "name": "Chesnaught",
+      "ref": "652/normal",
+      "shadow": false,
+      "ko": "브리가론",
+      "types": [
+       "grass",
+       "fighting"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Trevenant",
+      "ref": "709/normal",
+      "shadow": false,
+      "ko": "대로트",
+      "types": [
+       "ghost",
+       "grass"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Cradily",
+      "ref": "346/normal",
+      "shadow": false,
+      "ko": "릴리요",
+      "types": [
+       "rock",
+       "grass"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Ice-type Female Grunt",
+   "title": "Team GO Rocket Grunt",
+   "type": "ice",
+   "counterTypes": [
+    "fighting",
+    "rock",
+    "steel"
+   ],
+   "slots": [
+    [
+     {
+      "name": "Seel",
+      "ref": "86/normal",
+      "shadow": false,
+      "ko": "쥬쥬",
+      "types": [
+       "water"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Delibird",
+      "ref": "225/normal",
+      "shadow": false,
+      "ko": "딜리버드",
+      "types": [
+       "ice",
+       "flying"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Spheal",
+      "ref": "363/normal",
+      "shadow": false,
+      "ko": "대굴레오",
+      "types": [
+       "ice",
+       "water"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Sealeo",
+      "ref": "364/normal",
+      "shadow": false,
+      "ko": "씨레오",
+      "types": [
+       "ice",
+       "water"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Froslass",
+      "ref": "478/normal",
+      "shadow": false,
+      "ko": "눈여아",
+      "types": [
+       "ice",
+       "ghost"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Alolan Ninetales",
+      "ref": "38/alola",
+      "shadow": false,
+      "ko": "나인테일",
+      "types": [
+       "ice",
+       "fairy"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ],
+    [
+     {
+      "name": "Aurorus",
+      "ref": "699/normal",
+      "shadow": false,
+      "ko": "아마루르가",
+      "types": [
+       "rock",
+       "ice"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Froslass",
+      "ref": "478/normal",
+      "shadow": false,
+      "ko": "눈여아",
+      "types": [
+       "ice",
+       "ghost"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Glalie",
+      "ref": "362/normal",
+      "shadow": false,
+      "ko": "얼음귀신",
+      "types": [
+       "ice"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Fighting-type Female Grunt",
+   "title": "Team GO Rocket Grunt",
+   "type": "fighting",
+   "counterTypes": [
+    "flying",
+    "psychic",
+    "fairy"
+   ],
+   "slots": [
+    [
+     {
+      "name": "Timburr",
+      "ref": "532/normal",
+      "shadow": false,
+      "ko": "으랏차",
+      "types": [
+       "fighting"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Mankey",
+      "ref": "56/normal",
+      "shadow": false,
+      "ko": "망키",
+      "types": [
+       "fighting"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Makuhita",
+      "ref": "296/normal",
+      "shadow": false,
+      "ko": "마크탕",
+      "types": [
+       "fighting"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Hitmontop",
+      "ref": "237/normal",
+      "shadow": false,
+      "ko": "카포에라",
+      "types": [
+       "fighting"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Hitmonlee",
+      "ref": "106/normal",
+      "shadow": false,
+      "ko": "시라소몬",
+      "types": [
+       "fighting"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Hitmonchan",
+      "ref": "107/normal",
+      "shadow": false,
+      "ko": "홍수몬",
+      "types": [
+       "fighting"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Conkeldurr",
+      "ref": "534/normal",
+      "shadow": false,
+      "ko": "노보청",
+      "types": [
+       "fighting"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Annihilape",
+      "ref": "979/normal",
+      "shadow": false,
+      "ko": "저승갓숭",
+      "types": [
+       "fighting",
+       "ghost"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Infernape",
+      "ref": "392/normal",
+      "shadow": false,
+      "ko": "초염몽",
+      "types": [
+       "fire",
+       "fighting"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Poison-type Female Grunt",
+   "title": "Team GO Rocket Grunt",
+   "type": "poison",
+   "counterTypes": [
+    "ground",
+    "psychic"
+   ],
+   "slots": [
+    [
+     {
+      "name": "Oddish",
+      "ref": "43/normal",
+      "shadow": false,
+      "ko": "뚜벅쵸",
+      "types": [
+       "grass",
+       "poison"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Zubat",
+      "ref": "41/normal",
+      "shadow": false,
+      "ko": "주뱃",
+      "types": [
+       "poison",
+       "flying"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Qwilfish",
+      "ref": "211/normal",
+      "shadow": false,
+      "ko": "침바루",
+      "types": [
+       "water",
+       "poison"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Galarian Weezing",
+      "ref": "110/galarian",
+      "shadow": false,
+      "ko": "또도가스",
+      "types": [
+       "poison",
+       "fairy"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Nidorino",
+      "ref": "33/normal",
+      "shadow": false,
+      "ko": "니드리노",
+      "types": [
+       "poison"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Nidorina",
+      "ref": "30/normal",
+      "shadow": false,
+      "ko": "니드리나",
+      "types": [
+       "poison"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Weezing",
+      "ref": "110/normal",
+      "shadow": false,
+      "ko": "또도가스",
+      "types": [
+       "poison"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Toxicroak",
+      "ref": "454/normal",
+      "shadow": false,
+      "ko": "독개굴",
+      "types": [
+       "poison",
+       "fighting"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Amoonguss",
+      "ref": "591/normal",
+      "shadow": false,
+      "ko": "뽀록나",
+      "types": [
+       "grass",
+       "poison"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Ground-type Male Grunt",
+   "title": "Team GO Rocket Grunt",
+   "type": "ground",
+   "counterTypes": [
+    "water",
+    "grass",
+    "ice"
+   ],
+   "slots": [
+    [
+     {
+      "name": "Rhyhorn",
+      "ref": "111/normal",
+      "shadow": false,
+      "ko": "뿔카노",
+      "types": [
+       "ground",
+       "rock"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Gligar",
+      "ref": "207/normal",
+      "shadow": false,
+      "ko": "글라이거",
+      "types": [
+       "ground",
+       "flying"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Trapinch",
+      "ref": "328/normal",
+      "shadow": false,
+      "ko": "톱치",
+      "types": [
+       "ground"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Gligar",
+      "ref": "207/normal",
+      "shadow": false,
+      "ko": "글라이거",
+      "types": [
+       "ground",
+       "flying"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Claydol",
+      "ref": "344/normal",
+      "shadow": false,
+      "ko": "점토도리",
+      "types": [
+       "ground",
+       "psychic"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Vibrava",
+      "ref": "329/normal",
+      "shadow": false,
+      "ko": "비브라바",
+      "types": [
+       "ground",
+       "dragon"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Golurk",
+      "ref": "623/normal",
+      "shadow": false,
+      "ko": "골루그",
+      "types": [
+       "ground",
+       "ghost"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Hippowdon",
+      "ref": "450/normal",
+      "shadow": false,
+      "ko": "하마돈",
+      "types": [
+       "ground"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Flygon",
+      "ref": "330/normal",
+      "shadow": false,
+      "ko": "플라이곤",
+      "types": [
+       "ground",
+       "dragon"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Flying-type Female Grunt",
+   "title": "Team GO Rocket Grunt",
+   "type": "flying",
+   "counterTypes": [
+    "rock",
+    "electric",
+    "ice"
+   ],
+   "slots": [
+    [
+     {
+      "name": "Taillow",
+      "ref": "276/normal",
+      "shadow": false,
+      "ko": "테일로",
+      "types": [
+       "normal",
+       "flying"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Rookidee",
+      "ref": "821/normal",
+      "shadow": false,
+      "ko": "파라꼬",
+      "types": [
+       "flying"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Swablu",
+      "ref": "333/normal",
+      "shadow": false,
+      "ko": "파비코",
+      "types": [
+       "normal",
+       "flying"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Scyther",
+      "ref": "123/normal",
+      "shadow": false,
+      "ko": "스라크",
+      "types": [
+       "bug",
+       "flying"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Zubat",
+      "ref": "41/normal",
+      "shadow": false,
+      "ko": "주뱃",
+      "types": [
+       "poison",
+       "flying"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Gligar",
+      "ref": "207/normal",
+      "shadow": false,
+      "ko": "글라이거",
+      "types": [
+       "ground",
+       "flying"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Dragonite",
+      "ref": "149/normal",
+      "shadow": false,
+      "ko": "망나뇽",
+      "types": [
+       "dragon",
+       "flying"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Toucannon",
+      "ref": "733/normal",
+      "shadow": false,
+      "ko": "왕큰부리",
+      "types": [
+       "normal",
+       "flying"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Swanna",
+      "ref": "581/normal",
+      "shadow": false,
+      "ko": "스완나",
+      "types": [
+       "water",
+       "flying"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Psychic-type Male Grunt",
+   "title": "Team GO Rocket Grunt",
+   "type": "psychic",
+   "counterTypes": [
+    "bug",
+    "ghost",
+    "dark"
+   ],
+   "slots": [
+    [
+     {
+      "name": "Wobbuffet",
+      "ref": "202/normal",
+      "shadow": false,
+      "ko": "마자용",
+      "types": [
+       "psychic"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Ralts",
+      "ref": "280/normal",
+      "shadow": false,
+      "ko": "랄토스",
+      "types": [
+       "psychic",
+       "fairy"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Drowzee",
+      "ref": "96/normal",
+      "shadow": false,
+      "ko": "슬리프",
+      "types": [
+       "psychic"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Drowzee",
+      "ref": "96/normal",
+      "shadow": false,
+      "ko": "슬리프",
+      "types": [
+       "psychic"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Duosion",
+      "ref": "578/normal",
+      "shadow": false,
+      "ko": "듀란",
+      "types": [
+       "psychic"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Wobbuffet",
+      "ref": "202/normal",
+      "shadow": false,
+      "ko": "마자용",
+      "types": [
+       "psychic"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Gallade",
+      "ref": "475/normal",
+      "shadow": false,
+      "ko": "엘레이드",
+      "types": [
+       "psychic",
+       "fighting"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Malamar",
+      "ref": "687/normal",
+      "shadow": false,
+      "ko": "칼라마네로",
+      "types": [
+       "dark",
+       "psychic"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Reuniclus",
+      "ref": "579/normal",
+      "shadow": false,
+      "ko": "란쿨루스",
+      "types": [
+       "psychic"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Bug-type Male Grunt",
+   "title": "Team GO Rocket Grunt",
+   "type": "bug",
+   "counterTypes": [
+    "flying",
+    "rock",
+    "fire"
+   ],
+   "slots": [
+    [
+     {
+      "name": "Venonat",
+      "ref": "48/normal",
+      "shadow": false,
+      "ko": "콘팡",
+      "types": [
+       "bug",
+       "poison"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Weedle",
+      "ref": "13/normal",
+      "shadow": false,
+      "ko": "뿔충이",
+      "types": [
+       "bug",
+       "poison"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Wimpod",
+      "ref": "767/normal",
+      "shadow": false,
+      "ko": "꼬시레",
+      "types": [
+       "bug",
+       "water"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Pinsir",
+      "ref": "127/normal",
+      "shadow": false,
+      "ko": "쁘사이저",
+      "types": [
+       "bug"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Anorith",
+      "ref": "347/normal",
+      "shadow": false,
+      "ko": "아노딥스",
+      "types": [
+       "rock",
+       "bug"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Dewpider",
+      "ref": "751/normal",
+      "shadow": false,
+      "ko": "물거미",
+      "types": [
+       "water",
+       "bug"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Scizor",
+      "ref": "212/normal",
+      "shadow": false,
+      "ko": "핫삼",
+      "types": [
+       "bug",
+       "steel"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Scolipede",
+      "ref": "545/normal",
+      "shadow": false,
+      "ko": "펜드라",
+      "types": [
+       "bug",
+       "poison"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Vikavolt",
+      "ref": "738/normal",
+      "shadow": false,
+      "ko": "투구뿌논",
+      "types": [
+       "bug",
+       "electric"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Rock-type Male Grunt",
+   "title": "Team GO Rocket Grunt",
+   "type": "rock",
+   "counterTypes": [
+    "fighting",
+    "ground",
+    "steel"
+   ],
+   "slots": [
+    [
+     {
+      "name": "Onix",
+      "ref": "95/normal",
+      "shadow": false,
+      "ko": "롱스톤",
+      "types": [
+       "rock",
+       "ground"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Kabuto",
+      "ref": "140/normal",
+      "shadow": false,
+      "ko": "투구",
+      "types": [
+       "rock",
+       "water"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Cranidos",
+      "ref": "408/normal",
+      "shadow": false,
+      "ko": "두개도스",
+      "types": [
+       "rock"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Shieldon",
+      "ref": "410/normal",
+      "shadow": false,
+      "ko": "방패톱스",
+      "types": [
+       "rock",
+       "steel"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Graveler",
+      "ref": "75/normal",
+      "shadow": false,
+      "ko": "데구리",
+      "types": [
+       "rock",
+       "ground"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Cranidos",
+      "ref": "408/normal",
+      "shadow": false,
+      "ko": "두개도스",
+      "types": [
+       "rock"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Tyrantrum",
+      "ref": "697/normal",
+      "shadow": false,
+      "ko": "견고라스",
+      "types": [
+       "rock",
+       "dragon"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Golem",
+      "ref": "76/normal",
+      "shadow": false,
+      "ko": "딱구리",
+      "types": [
+       "rock",
+       "ground"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Aurorus",
+      "ref": "699/normal",
+      "shadow": false,
+      "ko": "아마루르가",
+      "types": [
+       "rock",
+       "ice"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Ghost-type Male Grunt",
+   "title": "Team GO Rocket Grunt",
+   "type": "ghost",
+   "counterTypes": [
+    "ghost",
+    "dark"
+   ],
+   "slots": [
+    [
+     {
+      "name": "Duskull",
+      "ref": "355/normal",
+      "shadow": false,
+      "ko": "해골몽",
+      "types": [
+       "ghost"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Sandygast",
+      "ref": "769/normal",
+      "shadow": false,
+      "ko": "모래꿍",
+      "types": [
+       "ghost",
+       "ground"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Yamask",
+      "ref": "562/normal",
+      "shadow": false,
+      "ko": "데스마스",
+      "types": [
+       "ghost"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Dusclops",
+      "ref": "356/normal",
+      "shadow": false,
+      "ko": "미라몽",
+      "types": [
+       "ghost"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Sableye",
+      "ref": "302/normal",
+      "shadow": false,
+      "ko": "깜까미",
+      "types": [
+       "dark",
+       "ghost"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Cofagrigus",
+      "ref": "563/normal",
+      "shadow": false,
+      "ko": "데스니칸",
+      "types": [
+       "ghost"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ],
+    [
+     {
+      "name": "Gengar",
+      "ref": "94/normal",
+      "shadow": false,
+      "ko": "팬텀",
+      "types": [
+       "ghost",
+       "poison"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Froslass",
+      "ref": "478/normal",
+      "shadow": false,
+      "ko": "눈여아",
+      "types": [
+       "ice",
+       "ghost"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Cofagrigus",
+      "ref": "563/normal",
+      "shadow": false,
+      "ko": "데스니칸",
+      "types": [
+       "ghost"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Dragon-type Female Grunt",
+   "title": "Team GO Rocket Grunt",
+   "type": "dragon",
+   "counterTypes": [
+    "ice",
+    "dragon",
+    "fairy"
+   ],
+   "slots": [
+    [
+     {
+      "name": "Noibat",
+      "ref": "714/normal",
+      "shadow": false,
+      "ko": "음뱃",
+      "types": [
+       "flying",
+       "dragon"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Deino",
+      "ref": "633/normal",
+      "shadow": false,
+      "ko": "모노두",
+      "types": [
+       "dark",
+       "dragon"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Axew",
+      "ref": "610/normal",
+      "shadow": false,
+      "ko": "터검니",
+      "types": [
+       "dragon"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Alolan Exeggutor",
+      "ref": "103/alola",
+      "shadow": false,
+      "ko": "나시",
+      "types": [
+       "grass",
+       "dragon"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Dragonair",
+      "ref": "148/normal",
+      "shadow": false,
+      "ko": "신뇽",
+      "types": [
+       "dragon"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Gabite",
+      "ref": "444/normal",
+      "shadow": false,
+      "ko": "한바이트",
+      "types": [
+       "dragon",
+       "ground"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ],
+    [
+     {
+      "name": "Dragonite",
+      "ref": "149/normal",
+      "shadow": false,
+      "ko": "망나뇽",
+      "types": [
+       "dragon",
+       "flying"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Garchomp",
+      "ref": "445/normal",
+      "shadow": false,
+      "ko": "한카리아스",
+      "types": [
+       "dragon",
+       "ground"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Salamence",
+      "ref": "373/normal",
+      "shadow": false,
+      "ko": "보만다",
+      "types": [
+       "dragon",
+       "flying"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Dark-type Female Grunt",
+   "title": "Team GO Rocket Grunt",
+   "type": "dark",
+   "counterTypes": [
+    "fighting",
+    "bug",
+    "fairy"
+   ],
+   "slots": [
+    [
+     {
+      "name": "Carvanha",
+      "ref": "318/normal",
+      "shadow": false,
+      "ko": "샤프니아",
+      "types": [
+       "water",
+       "dark"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Poochyena",
+      "ref": "261/normal",
+      "shadow": false,
+      "ko": "포챠나",
+      "types": [
+       "dark"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Alolan Rattata",
+      "ref": "19/alola",
+      "shadow": false,
+      "ko": "꼬렛",
+      "types": [
+       "dark",
+       "normal"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Sneasel",
+      "ref": "215/normal",
+      "shadow": false,
+      "ko": "포푸니",
+      "types": [
+       "dark",
+       "ice"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Houndour",
+      "ref": "228/normal",
+      "shadow": false,
+      "ko": "델빌",
+      "types": [
+       "dark",
+       "fire"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Absol",
+      "ref": "359/normal",
+      "shadow": false,
+      "ko": "앱솔",
+      "types": [
+       "dark"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Liepard",
+      "ref": "510/normal",
+      "shadow": false,
+      "ko": "레파르다스",
+      "types": [
+       "dark"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Hydreigon",
+      "ref": "635/normal",
+      "shadow": false,
+      "ko": "삼삼드래",
+      "types": [
+       "dark",
+       "dragon"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Steel-type Male Grunt",
+   "title": "Team GO Rocket Grunt",
+   "type": "steel",
+   "counterTypes": [
+    "fighting",
+    "ground",
+    "fire"
+   ],
+   "slots": [
+    [
+     {
+      "name": "Alolan Sandshrew",
+      "ref": "27/alola",
+      "shadow": false,
+      "ko": "모래두지",
+      "types": [
+       "ice",
+       "steel"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Aron",
+      "ref": "304/normal",
+      "shadow": false,
+      "ko": "가보리",
+      "types": [
+       "steel",
+       "rock"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Beldum",
+      "ref": "374/normal",
+      "shadow": false,
+      "ko": "메탕",
+      "types": [
+       "steel",
+       "psychic"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Lairon",
+      "ref": "305/normal",
+      "shadow": false,
+      "ko": "갱도라",
+      "types": [
+       "steel",
+       "rock"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Skarmory",
+      "ref": "227/normal",
+      "shadow": false,
+      "ko": "무장조",
+      "types": [
+       "steel",
+       "flying"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Metang",
+      "ref": "375/normal",
+      "shadow": false,
+      "ko": "메탕구",
+      "types": [
+       "steel",
+       "psychic"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ],
+    [
+     {
+      "name": "Aggron",
+      "ref": "306/normal",
+      "shadow": false,
+      "ko": "보스로라",
+      "types": [
+       "steel",
+       "rock"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Alolan Sandslash",
+      "ref": "28/alola",
+      "shadow": false,
+      "ko": "고지",
+      "types": [
+       "ice",
+       "steel"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Probopass",
+      "ref": "476/normal",
+      "shadow": false,
+      "ko": "대코파스",
+      "types": [
+       "rock",
+       "steel"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Fairy-type Female Grunt",
+   "title": "Team GO Rocket Grunt",
+   "type": "fairy",
+   "counterTypes": [
+    "poison",
+    "steel"
+   ],
+   "slots": [
+    [
+     {
+      "name": "Ralts",
+      "ref": "280/normal",
+      "shadow": false,
+      "ko": "랄토스",
+      "types": [
+       "psychic",
+       "fairy"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Snubbull",
+      "ref": "209/normal",
+      "shadow": false,
+      "ko": "블루",
+      "types": [
+       "fairy"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Alolan Vulpix",
+      "ref": "37/alola",
+      "shadow": false,
+      "ko": "식스테일",
+      "types": [
+       "ice"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Snubbull",
+      "ref": "209/normal",
+      "shadow": false,
+      "ko": "블루",
+      "types": [
+       "fairy"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Galarian Weezing",
+      "ref": "110/galarian",
+      "shadow": false,
+      "ko": "또도가스",
+      "types": [
+       "poison",
+       "fairy"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Kirlia",
+      "ref": "281/normal",
+      "shadow": false,
+      "ko": "킬리아",
+      "types": [
+       "psychic",
+       "fairy"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Alolan Ninetales",
+      "ref": "38/alola",
+      "shadow": false,
+      "ko": "나인테일",
+      "types": [
+       "ice",
+       "fairy"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Galarian Weezing",
+      "ref": "110/galarian",
+      "shadow": false,
+      "ko": "또도가스",
+      "types": [
+       "poison",
+       "fairy"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Granbull",
+      "ref": "210/normal",
+      "shadow": false,
+      "ko": "그랑블루",
+      "types": [
+       "fairy"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Male Grunt",
+   "title": "Team GO Rocket Grunt",
+   "type": null,
+   "counterTypes": [],
+   "slots": [
+    [
+     {
+      "name": "Bulbasaur",
+      "ref": "1/normal",
+      "shadow": false,
+      "ko": "이상해씨",
+      "types": [
+       "grass",
+       "poison"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Charmander",
+      "ref": "4/normal",
+      "shadow": false,
+      "ko": "파이리",
+      "types": [
+       "fire"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Squirtle",
+      "ref": "7/normal",
+      "shadow": false,
+      "ko": "꼬부기",
+      "types": [
+       "water"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Ivysaur",
+      "ref": "2/normal",
+      "shadow": false,
+      "ko": "이상해풀",
+      "types": [
+       "grass",
+       "poison"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Charmeleon",
+      "ref": "5/normal",
+      "shadow": false,
+      "ko": "리자드",
+      "types": [
+       "fire"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Wartortle",
+      "ref": "8/normal",
+      "shadow": false,
+      "ko": "어니부기",
+      "types": [
+       "water"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ],
+    [
+     {
+      "name": "Venusaur",
+      "ref": "3/normal",
+      "shadow": false,
+      "ko": "이상해꽃",
+      "types": [
+       "grass",
+       "poison"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Charizard",
+      "ref": "6/normal",
+      "shadow": false,
+      "ko": "리자몽",
+      "types": [
+       "fire",
+       "flying"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Blastoise",
+      "ref": "9/normal",
+      "shadow": false,
+      "ko": "거북왕",
+      "types": [
+       "water"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Female Grunt",
+   "title": "Team GO Rocket Grunt",
+   "type": null,
+   "counterTypes": [],
+   "slots": [
+    [
+     {
+      "name": "Snorlax",
+      "ref": "143/normal",
+      "shadow": false,
+      "ko": "잠만보",
+      "types": [
+       "normal"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     },
+     {
+      "name": "Lapras",
+      "ref": "131/normal",
+      "shadow": false,
+      "ko": "라프라스",
+      "types": [
+       "water",
+       "ice"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Poliwrath",
+      "ref": "62/normal",
+      "shadow": false,
+      "ko": "강챙이",
+      "types": [
+       "water",
+       "fighting"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Gardevoir",
+      "ref": "282/normal",
+      "shadow": false,
+      "ko": "가디안",
+      "types": [
+       "psychic",
+       "fairy"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Snorlax",
+      "ref": "143/normal",
+      "shadow": false,
+      "ko": "잠만보",
+      "types": [
+       "normal"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ],
+    [
+     {
+      "name": "Gyarados",
+      "ref": "130/normal",
+      "shadow": false,
+      "ko": "갸라도스",
+      "types": [
+       "water",
+       "flying"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Dragonite",
+      "ref": "149/normal",
+      "shadow": false,
+      "ko": "망나뇽",
+      "types": [
+       "dragon",
+       "flying"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Snorlax",
+      "ref": "143/normal",
+      "shadow": false,
+      "ko": "잠만보",
+      "types": [
+       "normal"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ]
+   ]
+  },
+  {
+   "name": "Decoy Female Grunt",
+   "title": "Team GO Rocket Grunt",
+   "type": null,
+   "counterTypes": [],
+   "slots": [
+    [
+     {
+      "name": "Bellsprout",
+      "ref": "69/normal",
+      "shadow": false,
+      "ko": "모다피",
+      "types": [
+       "grass",
+       "poison"
+      ],
+      "encounter": true,
+      "canBeShiny": true
+     }
+    ],
+    [
+     {
+      "name": "Raticate",
+      "ref": "20/normal",
+      "shadow": false,
+      "ko": "레트라",
+      "types": [
+       "normal"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Weepinbell",
+      "ref": "70/normal",
+      "shadow": false,
+      "ko": "우츠동",
+      "types": [
+       "grass",
+       "poison"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ],
+    [
+     {
+      "name": "Raticate",
+      "ref": "20/normal",
+      "shadow": false,
+      "ko": "레트라",
+      "types": [
+       "normal"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     },
+     {
+      "name": "Snorlax",
+      "ref": "143/normal",
+      "shadow": false,
+      "ko": "잠만보",
+      "types": [
+       "normal"
+      ],
+      "encounter": false,
+      "canBeShiny": false
+     }
+    ]
+   ]
+  }
+ ]
+}

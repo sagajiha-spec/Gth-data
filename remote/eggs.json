@@ -1,0 +1,1188 @@
+{
+ "schemaVersion": 2,
+ "_comment": "현재 알 부화 목록. 키=알 거리. rarity 1~5 (클수록 흔함). adventureSync=걸음 보상 알, giftExchange=선물 알(7km)",
+ "pools": {
+  "1km": [
+   {
+    "name": "Bulbasaur",
+    "ref": "1/normal",
+    "shadow": false,
+    "ko": "이상해씨",
+    "canBeShiny": true,
+    "cp": {
+     "min": 637,
+     "max": 637
+    },
+    "rarity": 4,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Charmander",
+    "ref": "4/normal",
+    "shadow": false,
+    "ko": "파이리",
+    "canBeShiny": true,
+    "cp": {
+     "min": 560,
+     "max": 560
+    },
+    "rarity": 4,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Squirtle",
+    "ref": "7/normal",
+    "shadow": false,
+    "ko": "꼬부기",
+    "canBeShiny": true,
+    "cp": {
+     "min": 540,
+     "max": 540
+    },
+    "rarity": 4,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Chikorita",
+    "ref": "152/normal",
+    "shadow": false,
+    "ko": "치코리타",
+    "canBeShiny": true,
+    "cp": {
+     "min": 534,
+     "max": 534
+    },
+    "rarity": 4,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Cyndaquil",
+    "ref": "155/normal",
+    "shadow": false,
+    "ko": "브케인",
+    "canBeShiny": true,
+    "cp": {
+     "min": 560,
+     "max": 560
+    },
+    "rarity": 4,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Totodile",
+    "ref": "158/normal",
+    "shadow": false,
+    "ko": "리아코",
+    "canBeShiny": true,
+    "cp": {
+     "min": 646,
+     "max": 646
+    },
+    "rarity": 4,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Treecko",
+    "ref": "252/normal",
+    "shadow": false,
+    "ko": "나무지기",
+    "canBeShiny": true,
+    "cp": {
+     "min": 601,
+     "max": 601
+    },
+    "rarity": 4,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Torchic",
+    "ref": "255/normal",
+    "shadow": false,
+    "ko": "아차모",
+    "canBeShiny": true,
+    "cp": {
+     "min": 624,
+     "max": 624
+    },
+    "rarity": 4,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Mudkip",
+    "ref": "258/normal",
+    "shadow": false,
+    "ko": "물짱이",
+    "canBeShiny": true,
+    "cp": {
+     "min": 644,
+     "max": 644
+    },
+    "rarity": 4,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Turtwig",
+    "ref": "387/normal",
+    "shadow": false,
+    "ko": "모부기",
+    "canBeShiny": true,
+    "cp": {
+     "min": 678,
+     "max": 678
+    },
+    "rarity": 4,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Chimchar",
+    "ref": "390/normal",
+    "shadow": false,
+    "ko": "불꽃숭이",
+    "canBeShiny": true,
+    "cp": {
+     "min": 547,
+     "max": 547
+    },
+    "rarity": 4,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Piplup",
+    "ref": "393/normal",
+    "shadow": false,
+    "ko": "팽도리",
+    "canBeShiny": true,
+    "cp": {
+     "min": 614,
+     "max": 614
+    },
+    "rarity": 4,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Snivy",
+    "ref": "495/normal",
+    "shadow": false,
+    "ko": "주리비얀",
+    "canBeShiny": true,
+    "cp": {
+     "min": 485,
+     "max": 485
+    },
+    "rarity": 4,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Tepig",
+    "ref": "498/normal",
+    "shadow": false,
+    "ko": "뚜꾸리",
+    "canBeShiny": true,
+    "cp": {
+     "min": 618,
+     "max": 618
+    },
+    "rarity": 4,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Oshawott",
+    "ref": "501/normal",
+    "shadow": false,
+    "ko": "수댕이",
+    "canBeShiny": true,
+    "cp": {
+     "min": 597,
+     "max": 597
+    },
+    "rarity": 4,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Chespin",
+    "ref": "650/normal",
+    "shadow": false,
+    "ko": "도치마론",
+    "canBeShiny": true,
+    "cp": {
+     "min": 626,
+     "max": 626
+    },
+    "rarity": 4,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Fennekin",
+    "ref": "653/normal",
+    "shadow": false,
+    "ko": "푸호꼬",
+    "canBeShiny": true,
+    "cp": {
+     "min": 587,
+     "max": 587
+    },
+    "rarity": 4,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Froakie",
+    "ref": "656/normal",
+    "shadow": false,
+    "ko": "개구마르",
+    "canBeShiny": true,
+    "cp": {
+     "min": 567,
+     "max": 567
+    },
+    "rarity": 4,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Rowlet",
+    "ref": "722/normal",
+    "shadow": false,
+    "ko": "나몰빼미",
+    "canBeShiny": true,
+    "cp": {
+     "min": 604,
+     "max": 604
+    },
+    "rarity": 4,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Litten",
+    "ref": "725/normal",
+    "shadow": false,
+    "ko": "냐오불",
+    "canBeShiny": true,
+    "cp": {
+     "min": 591,
+     "max": 591
+    },
+    "rarity": 4,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Popplio",
+    "ref": "728/normal",
+    "shadow": false,
+    "ko": "누리공",
+    "canBeShiny": true,
+    "cp": {
+     "min": 645,
+     "max": 645
+    },
+    "rarity": 4,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Grookey",
+    "ref": "810/normal",
+    "shadow": false,
+    "ko": "흥나숭",
+    "canBeShiny": true,
+    "cp": {
+     "min": 620,
+     "max": 620
+    },
+    "rarity": 4,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Scorbunny",
+    "ref": "813/normal",
+    "shadow": false,
+    "ko": "염버니",
+    "canBeShiny": true,
+    "cp": {
+     "min": 627,
+     "max": 627
+    },
+    "rarity": 4,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Sobble",
+    "ref": "816/normal",
+    "shadow": false,
+    "ko": "울머기",
+    "canBeShiny": true,
+    "cp": {
+     "min": 627,
+     "max": 627
+    },
+    "rarity": 4,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Sprigatito",
+    "ref": "906/normal",
+    "shadow": false,
+    "ko": "나오하",
+    "canBeShiny": true,
+    "cp": {
+     "min": 579,
+     "max": 579
+    },
+    "rarity": 4,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Fuecoco",
+    "ref": "909/normal",
+    "shadow": false,
+    "ko": "뜨아거",
+    "canBeShiny": true,
+    "cp": {
+     "min": 644,
+     "max": 644
+    },
+    "rarity": 4,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Quaxly",
+    "ref": "912/normal",
+    "shadow": false,
+    "ko": "꾸왁스",
+    "canBeShiny": true,
+    "cp": {
+     "min": 614,
+     "max": 614
+    },
+    "rarity": 4,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   }
+  ],
+  "2km": [
+   {
+    "name": "Pichu",
+    "ref": "172/normal",
+    "shadow": false,
+    "ko": "피츄",
+    "canBeShiny": true,
+    "cp": {
+     "min": 270,
+     "max": 270
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Togepi",
+    "ref": "175/normal",
+    "shadow": false,
+    "ko": "토게피",
+    "canBeShiny": true,
+    "cp": {
+     "min": 375,
+     "max": 375
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Elekid",
+    "ref": "239/normal",
+    "shadow": false,
+    "ko": "에레키드",
+    "canBeShiny": true,
+    "cp": {
+     "min": 689,
+     "max": 689
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Magby",
+    "ref": "240/normal",
+    "shadow": false,
+    "ko": "마그비",
+    "canBeShiny": true,
+    "cp": {
+     "min": 756,
+     "max": 756
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Azurill",
+    "ref": "298/normal",
+    "shadow": false,
+    "ko": "루리리",
+    "canBeShiny": true,
+    "cp": {
+     "min": 208,
+     "max": 208
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Tadbulb",
+    "ref": "938/normal",
+    "shadow": false,
+    "ko": "빈나두",
+    "canBeShiny": true,
+    "cp": {
+     "min": 520,
+     "max": 520
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Larvesta",
+    "ref": "636/normal",
+    "shadow": false,
+    "ko": "활화르바",
+    "canBeShiny": true,
+    "cp": {
+     "min": 855,
+     "max": 855
+    },
+    "rarity": 5,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   }
+  ],
+  "5km": [
+   {
+    "name": "Snom",
+    "ref": "872/normal",
+    "shadow": false,
+    "ko": "누니머기",
+    "canBeShiny": true,
+    "cp": {
+     "min": 302,
+     "max": 302
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Fidough",
+    "ref": "926/normal",
+    "shadow": false,
+    "ko": "쫀도기",
+    "canBeShiny": true,
+    "cp": {
+     "min": 563,
+     "max": 563
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Munchlax",
+    "ref": "446/normal",
+    "shadow": false,
+    "ko": "먹고자",
+    "canBeShiny": true,
+    "cp": {
+     "min": 1081,
+     "max": 1081
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Sizzlipede",
+    "ref": "850/normal",
+    "shadow": false,
+    "ko": "태우지네",
+    "canBeShiny": true,
+    "cp": {
+     "min": 599,
+     "max": 599
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Maschiff",
+    "ref": "942/normal",
+    "shadow": false,
+    "ko": "오라티프",
+    "canBeShiny": false,
+    "cp": {
+     "min": 799,
+     "max": 799
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Mime Jr",
+    "ref": "439/normal",
+    "shadow": false,
+    "ko": "흉내내",
+    "canBeShiny": true,
+    "cp": {
+     "min": 626,
+     "max": 626
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Indeedee (Male)",
+    "ref": "876/male",
+    "shadow": false,
+    "ko": "에써르",
+    "canBeShiny": true,
+    "cp": {
+     "min": 1396,
+     "max": 1396
+    },
+    "rarity": 2,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Indeedee (Female)",
+    "ref": "876/female",
+    "shadow": false,
+    "ko": "에써르",
+    "canBeShiny": true,
+    "cp": {
+     "min": 1370,
+     "max": 1370
+    },
+    "rarity": 2,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Larvesta",
+    "ref": "636/normal",
+    "shadow": false,
+    "ko": "활화르바",
+    "canBeShiny": true,
+    "cp": {
+     "min": 855,
+     "max": 855
+    },
+    "rarity": 5,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Chingling",
+    "ref": "433/normal",
+    "shadow": false,
+    "ko": "랑딸랑",
+    "canBeShiny": true,
+    "cp": {
+     "min": 574,
+     "max": 574
+    },
+    "rarity": 1,
+    "adventureSync": true,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Happiny",
+    "ref": "440/normal",
+    "shadow": false,
+    "ko": "핑복",
+    "canBeShiny": true,
+    "cp": {
+     "min": 212,
+     "max": 212
+    },
+    "rarity": 1,
+    "adventureSync": true,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Budew",
+    "ref": "406/normal",
+    "shadow": false,
+    "ko": "꼬몽울",
+    "canBeShiny": true,
+    "cp": {
+     "min": 489,
+     "max": 489
+    },
+    "rarity": 1,
+    "adventureSync": true,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Sableye",
+    "ref": "302/normal",
+    "shadow": false,
+    "ko": "깜까미",
+    "canBeShiny": true,
+    "cp": {
+     "min": 843,
+     "max": 843
+    },
+    "rarity": 1,
+    "adventureSync": true,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Tyrogue",
+    "ref": "236/normal",
+    "shadow": false,
+    "ko": "배루키",
+    "canBeShiny": true,
+    "cp": {
+     "min": 281,
+     "max": 281
+    },
+    "rarity": 1,
+    "adventureSync": true,
+    "giftExchange": false,
+    "regional": false
+   }
+  ],
+  "7km": [
+   {
+    "name": "Galarian Meowth",
+    "ref": "52/galarian",
+    "shadow": false,
+    "ko": "나옹",
+    "canBeShiny": true,
+    "cp": {
+     "min": 591,
+     "max": 591
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Galarian Darumaka",
+    "ref": "554/galarian",
+    "shadow": false,
+    "ko": "달막화",
+    "canBeShiny": true,
+    "cp": {
+     "min": 823,
+     "max": 823
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Galarian Corsola",
+    "ref": "222/galarian",
+    "shadow": false,
+    "ko": "코산호",
+    "canBeShiny": true,
+    "cp": {
+     "min": 855,
+     "max": 855
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Galarian Zigzagoon",
+    "ref": "263/galarian",
+    "shadow": false,
+    "ko": "지그제구리",
+    "canBeShiny": true,
+    "cp": {
+     "min": 290,
+     "max": 290
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Galarian Stunfisk",
+    "ref": "618/galarian",
+    "shadow": false,
+    "ko": "메더",
+    "canBeShiny": true,
+    "cp": {
+     "min": 1235,
+     "max": 1235
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Alolan Geodude",
+    "ref": "74/alola",
+    "shadow": false,
+    "ko": "꼬마돌",
+    "canBeShiny": true,
+    "cp": {
+     "min": 739,
+     "max": 739
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Alolan Diglett",
+    "ref": "50/alola",
+    "shadow": false,
+    "ko": "디그다",
+    "canBeShiny": true,
+    "cp": {
+     "min": 389,
+     "max": 389
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Hisuian Sneasel",
+    "ref": "215/hisuian",
+    "shadow": false,
+    "ko": "포푸니",
+    "canBeShiny": true,
+    "cp": {
+     "min": 1172,
+     "max": 1172
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": true,
+    "regional": false
+   },
+   {
+    "name": "Galarian Corsola",
+    "ref": "222/galarian",
+    "shadow": false,
+    "ko": "코산호",
+    "canBeShiny": true,
+    "cp": {
+     "min": 855,
+     "max": 855
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": true,
+    "regional": false
+   },
+   {
+    "name": "Basculin (White Striped)",
+    "ref": "550/white_striped",
+    "shadow": false,
+    "ko": "배쓰나이",
+    "canBeShiny": true,
+    "cp": {
+     "min": 1194,
+     "max": 1194
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": true,
+    "regional": false
+   },
+   {
+    "name": "Hisuian Growlithe",
+    "ref": "58/hisuian",
+    "shadow": false,
+    "ko": "가디",
+    "canBeShiny": true,
+    "cp": {
+     "min": 755,
+     "max": 755
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": true,
+    "regional": false
+   },
+   {
+    "name": "Galarian Slowpoke",
+    "ref": "79/galarian",
+    "shadow": false,
+    "ko": "야돈",
+    "canBeShiny": true,
+    "cp": {
+     "min": 700,
+     "max": 700
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": true,
+    "regional": false
+   }
+  ],
+  "10km": [
+   {
+    "name": "Charcadet",
+    "ref": "935/normal",
+    "shadow": false,
+    "ko": "카르본",
+    "canBeShiny": true,
+    "cp": {
+     "min": 418,
+     "max": 418
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Tinkatink",
+    "ref": "957/normal",
+    "shadow": false,
+    "ko": "어리짱",
+    "canBeShiny": true,
+    "cp": {
+     "min": 491,
+     "max": 491
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Honedge",
+    "ref": "679/normal",
+    "shadow": false,
+    "ko": "단칼빙",
+    "canBeShiny": true,
+    "cp": {
+     "min": 794,
+     "max": 794
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Frigibax",
+    "ref": "996/normal",
+    "shadow": false,
+    "ko": "드니차",
+    "canBeShiny": true,
+    "cp": {
+     "min": 712,
+     "max": 712
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Impidimp",
+    "ref": "859/normal",
+    "shadow": false,
+    "ko": "메롱꿍",
+    "canBeShiny": true,
+    "cp": {
+     "min": 461,
+     "max": 461
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Dratini",
+    "ref": "147/normal",
+    "shadow": false,
+    "ko": "미뇽",
+    "canBeShiny": true,
+    "cp": {
+     "min": 574,
+     "max": 574
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Larvesta",
+    "ref": "636/normal",
+    "shadow": false,
+    "ko": "활화르바",
+    "canBeShiny": true,
+    "cp": {
+     "min": 855,
+     "max": 855
+    },
+    "rarity": 5,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Gible",
+    "ref": "443/normal",
+    "shadow": false,
+    "ko": "딥상어동",
+    "canBeShiny": true,
+    "cp": {
+     "min": 635,
+     "max": 635
+    },
+    "rarity": 1,
+    "adventureSync": true,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Toxel",
+    "ref": "848/normal",
+    "shadow": false,
+    "ko": "일레즌",
+    "canBeShiny": true,
+    "cp": {
+     "min": 415,
+     "max": 415
+    },
+    "rarity": 1,
+    "adventureSync": true,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Druddigon",
+    "ref": "621/normal",
+    "shadow": false,
+    "ko": "크리만",
+    "canBeShiny": true,
+    "cp": {
+     "min": 1561,
+     "max": 1561
+    },
+    "rarity": 1,
+    "adventureSync": true,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Bagon",
+    "ref": "371/normal",
+    "shadow": false,
+    "ko": "아공이",
+    "canBeShiny": true,
+    "cp": {
+     "min": 660,
+     "max": 660
+    },
+    "rarity": 1,
+    "adventureSync": true,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Drampa",
+    "ref": "780/normal",
+    "shadow": false,
+    "ko": "할비롱",
+    "canBeShiny": true,
+    "cp": {
+     "min": 1665,
+     "max": 1665
+    },
+    "rarity": 1,
+    "adventureSync": true,
+    "giftExchange": false,
+    "regional": false
+   }
+  ],
+  "12km": [
+   {
+    "name": "Sandile",
+    "ref": "551/normal",
+    "shadow": false,
+    "ko": "깜눈크",
+    "canBeShiny": true,
+    "cp": {
+     "min": 592,
+     "max": 592
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Vullaby",
+    "ref": "629/normal",
+    "shadow": false,
+    "ko": "벌차이",
+    "canBeShiny": true,
+    "cp": {
+     "min": 726,
+     "max": 726
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Shroodle",
+    "ref": "944/normal",
+    "shadow": false,
+    "ko": "땃쭈르",
+    "canBeShiny": true,
+    "cp": {
+     "min": 531,
+     "max": 531
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Pancham",
+    "ref": "674/normal",
+    "shadow": false,
+    "ko": "판짱",
+    "canBeShiny": true,
+    "cp": {
+     "min": 850,
+     "max": 850
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Salandit",
+    "ref": "757/normal",
+    "shadow": false,
+    "ko": "야도뇽",
+    "canBeShiny": true,
+    "cp": {
+     "min": 641,
+     "max": 641
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   },
+   {
+    "name": "Varoom",
+    "ref": "965/normal",
+    "shadow": false,
+    "ko": "부르롱",
+    "canBeShiny": true,
+    "cp": {
+     "min": 650,
+     "max": 650
+    },
+    "rarity": 1,
+    "adventureSync": false,
+    "giftExchange": false,
+    "regional": false
+   }
+  ]
+ }
+}

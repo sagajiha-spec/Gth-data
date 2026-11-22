@@ -1,0 +1,275 @@
+{
+ "schemaVersion": 3,
+ "updatedAt": "2026-11-20T00:00:00Z",
+ "_comment": "상점 로테이션 박스 목록. 가격은 게임 내 화폐 기준(화면에도 화폐 이름은 표시하지 않음). 패스 1개당 = priceCurrency ÷ (리모트+프리미엄 수). recurring=true는 자주 다시 들어오는 박스",
+ "fixedItems": [
+  {
+   "itemId": "item_remote_raid_ticket",
+   "count": 1,
+   "price": 195
+  },
+  {
+   "itemId": "item_remote_raid_ticket",
+   "count": 3,
+   "price": 525
+  },
+  {
+   "itemId": "item_paid_raid_ticket",
+   "count": 1,
+   "price": 100
+  },
+  {
+   "itemId": "item_paid_raid_ticket",
+   "count": 3,
+   "price": 250
+  }
+ ],
+ "boxes": [
+  {
+   "id": "remote3_1c",
+   "name": {
+    "ko": "리모트 레이드패스 3개 박스"
+   },
+   "price": 1,
+   "contents": [
+    {
+     "itemId": "item_remote_raid_ticket",
+     "count": 3
+    }
+   ],
+   "note": {
+    "ko": "가끔 특가(가격 1)로 등장"
+   },
+   "recurring": true
+  },
+  {
+   "id": "pbp99",
+   "name": {
+    "ko": "프리미엄 배틀패스 99개 박스"
+   },
+   "price": 5425,
+   "contents": [
+    {
+     "itemId": "item_paid_raid_ticket",
+     "count": 99
+    }
+   ],
+   "note": {
+    "ko": "로테이션 (5,425~5,450)"
+   },
+   "recurring": true
+  },
+  {
+   "id": "pbp10",
+   "name": {
+    "ko": "프리미엄 배틀패스 10개 박스"
+   },
+   "price": 625,
+   "contents": [
+    {
+     "itemId": "item_paid_raid_ticket",
+     "count": 10
+    }
+   ],
+   "note": {
+    "ko": "로테이션"
+   },
+   "recurring": true
+  },
+  {
+   "id": "ultra_raid",
+   "name": {
+    "ko": "울트라 레이드 박스"
+   },
+   "price": 3195,
+   "contents": [
+    {
+     "itemId": "item_paid_raid_ticket",
+     "count": 50
+    },
+    {
+     "itemId": "item_max_revive",
+     "count": 10
+    },
+    {
+     "itemId": "item_move_reroll_elite_special_attack",
+     "count": 1
+    }
+   ],
+   "note": {
+    "ko": "2026 이벤트 (마스터 레이드 박스로도 판매)"
+   },
+   "recurring": false
+  },
+  {
+   "id": "pbp6",
+   "name": {
+    "ko": "프리미엄 배틀패스 6개 박스"
+   },
+   "price": 385,
+   "contents": [
+    {
+     "itemId": "item_paid_raid_ticket",
+     "count": 6
+    }
+   ],
+   "note": {
+    "ko": "로테이션"
+   },
+   "recurring": true
+  },
+  {
+   "id": "raid15_lure",
+   "name": {
+    "ko": "레이드 박스 (루어 포함)"
+   },
+   "price": 999,
+   "contents": [
+    {
+     "itemId": "item_paid_raid_ticket",
+     "count": 15
+    },
+    {
+     "itemId": "item_troy_disk",
+     "count": null
+    }
+   ],
+   "note": {
+    "ko": "로테이션 · 구성 일부 확인 필요"
+   },
+   "recurring": true
+  },
+  {
+   "id": "raid15_star",
+   "name": {
+    "ko": "레이드 박스 (별의조각 포함)"
+   },
+   "price": 1025,
+   "contents": [
+    {
+     "itemId": "item_paid_raid_ticket",
+     "count": 15
+    },
+    {
+     "itemId": "item_star_piece",
+     "count": null
+    }
+   ],
+   "note": {
+    "ko": "로테이션 · 구성 일부 확인 필요"
+   },
+   "recurring": true
+  },
+  {
+   "id": "great_raid",
+   "name": {
+    "ko": "그레이트 레이드 박스"
+   },
+   "price": 675,
+   "contents": [
+    {
+     "itemId": "item_paid_raid_ticket",
+     "count": 3
+    },
+    {
+     "itemId": "item_remote_raid_ticket",
+     "count": 3
+    },
+    {
+     "itemId": "item_incubator_basic",
+     "count": 1
+    }
+   ],
+   "note": {
+    "ko": "2026년 1월 슈퍼 메가 레이드 데이"
+   },
+   "recurring": false
+  },
+  {
+   "id": "raid",
+   "name": {
+    "ko": "레이드 박스"
+   },
+   "price": 595,
+   "contents": [
+    {
+     "itemId": "item_paid_raid_ticket",
+     "count": 2
+    },
+    {
+     "itemId": "item_remote_raid_ticket",
+     "count": 3
+    }
+   ],
+   "note": {
+    "ko": "2026 이벤트"
+   },
+   "recurring": false
+  },
+  {
+   "id": "wa_boost",
+   "name": {
+    "ko": "부스트 박스"
+   },
+   "price": 525,
+   "contents": [],
+   "note": {
+    "ko": "와일드 에어리어 2026 · 구성 확인 필요"
+   },
+   "recurring": false
+  },
+  {
+   "id": "wa_battler",
+   "name": {
+    "ko": "배틀러 박스"
+   },
+   "price": 775,
+   "contents": [],
+   "note": {
+    "ko": "와일드 에어리어 2026 · 구성 확인 필요"
+   },
+   "recurring": false
+  },
+  {
+   "id": "wa_hatcher",
+   "name": {
+    "ko": "해처 박스"
+   },
+   "price": 1800,
+   "contents": [],
+   "note": {
+    "ko": "와일드 에어리어 2026 · 구성 확인 필요"
+   },
+   "recurring": false
+  },
+  {
+   "id": "wa_ultimate",
+   "name": {
+    "ko": "얼티밋 박스"
+   },
+   "price": 3700,
+   "contents": [],
+   "note": {
+    "ko": "와일드 에어리어 2026 · 구성 확인 필요"
+   },
+   "recurring": false
+  },
+  {
+   "id": "daily",
+   "name": {
+    "ko": "데일리 박스"
+   },
+   "price": 0,
+   "contents": [],
+   "note": {
+    "ko": "상점 아래쪽 · 무료 · 매일 구성 바뀜"
+   },
+   "recurring": true
+  }
+ ],
+ "sources": [
+  "https://pokemongo.fandom.com/wiki/List_of_shop_special_offers_and_promotions/2026",
+  "https://pokestealordeal.com/en/best-boxes/",
+  "https://pokexperience.com/raid-passes/"
+ ]
+}
