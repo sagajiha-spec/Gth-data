@@ -1225,23 +1225,25 @@
    "rewards": [
     {
      "name": "Spinda 4",
-     "ref": null,
+     "ref": "327/03",
      "shadow": false,
      "canBeShiny": false,
      "cp": {
       "min": 486,
       "max": 523
-     }
+     },
+     "ko": "얼루기"
     },
     {
      "name": "Spinda 5",
-     "ref": null,
+     "ref": "327/04",
      "shadow": false,
      "canBeShiny": false,
      "cp": {
       "min": 486,
       "max": 523
-     }
+     },
+     "ko": "얼루기"
     }
    ]
   },

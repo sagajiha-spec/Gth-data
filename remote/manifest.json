@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "publishedAt": "2026-11-22T12:56:24Z",
+ "publishedAt": "2026-11-22T13:16:34Z",
  "minAppVersion": "1.0.0",
  "files": [
   {
@@ -40,8 +40,8 @@
   },
   {
    "path": "research.json",
-   "version": 2,
-   "sha256": "775e9a1f9c2da91ac860d749484a6904d2c184b2a2b3b666b7fee1e1fa3bf8ec"
+   "version": 3,
+   "sha256": "5f43879b88eb5711259e2828c8012aca85fd409cf49dbddefdeee82d36dbcb68"
   },
   {
    "path": "form_moves.json",
@@ -52,6 +52,11 @@
    "path": "medal_notes.json",
    "version": 1,
    "sha256": "71e2848e5e5b1fc60603e215cae4386bf6f5be13275302deaaacccf6a4decf9a"
+  },
+  {
+   "path": "world_clock.json",
+   "version": 1,
+   "sha256": "69ce081032c5a1ed9701c5640560cb62f204e011151030aa8bcea723b271fb4d"
   }
  ]
 }
