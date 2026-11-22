@@ -1,10 +1,18 @@
 {
  "schemaVersion": 2,
- "_comment": "현재 필드리서치 과제와 보상. task는 영어 원문만 있으므로 ko/ja 번역은 직접 추가",
+ "_comment": "현재 필드리서치 과제와 보상. task 는 tools/research_i18n.py 가 9개 언어로 바꿈 (모르는 형식은 영어 원문)",
  "tasks": [
   {
    "task": {
-    "en": "Catch 8 Pokémon"
+    "ko": "포켓몬을 8마리 잡기",
+    "ja": "ポケモンを8匹捕まえる",
+    "en": "Catch 8 Pokémon",
+    "zh-Hant": "捕捉8隻寶可夢",
+    "zh-Hans": "捕捉8只宝可梦",
+    "fr": "Attrapez 8 Pokémon",
+    "de": "Fange 8 Pokémon",
+    "es": "Atrapa 8 Pokémon",
+    "it": "Cattura 8 Pokémon"
    },
    "type": null,
    "rewards": [
@@ -78,7 +86,15 @@
   },
   {
    "task": {
-    "en": "Power up Pokémon 8 times"
+    "ko": "포켓몬을 8번 강화하기",
+    "ja": "ポケモンを8回強化する",
+    "en": "Power up Pokémon 8 times",
+    "zh-Hant": "強化寶可夢8次",
+    "zh-Hans": "强化宝可梦8次",
+    "fr": "Améliorez des Pokémon 8 fois",
+    "de": "Verbessere Pokémon 8-mal",
+    "es": "Mejora Pokémon 8 veces",
+    "it": "Potenzia Pokémon 8 volte"
    },
    "type": null,
    "rewards": [
@@ -108,7 +124,15 @@
   },
   {
    "task": {
-    "en": "Explore 1 km"
+    "ko": "1km 걷기",
+    "ja": "1km歩く",
+    "en": "Explore 1 km",
+    "zh-Hant": "步行1公里",
+    "zh-Hans": "步行1公里",
+    "fr": "Parcourez 1 km",
+    "de": "Lege 1 km zurück",
+    "es": "Recorre 1 km",
+    "it": "Percorri 1 km"
    },
    "type": null,
    "rewards": [
@@ -127,7 +151,15 @@
   },
   {
    "task": {
-    "en": "Win a Max Battle"
+    "ko": "맥스배틀에서 이기기",
+    "ja": "マックスバトルで勝つ",
+    "en": "Win a Max Battle",
+    "zh-Hant": "在極巨對戰中獲勝",
+    "zh-Hans": "在极巨对战中获胜",
+    "fr": "Gagnez un Combat Dynamax",
+    "de": "Gewinne einen Dyna-Kampf",
+    "es": "Gana un Combate Max",
+    "it": "Vinci una Lotta Dynamax"
    },
    "type": null,
    "rewards": [
@@ -157,7 +189,15 @@
   },
   {
    "task": {
-    "en": "Catch 7 Pokémon"
+    "ko": "포켓몬을 7마리 잡기",
+    "ja": "ポケモンを7匹捕まえる",
+    "en": "Catch 7 Pokémon",
+    "zh-Hant": "捕捉7隻寶可夢",
+    "zh-Hans": "捕捉7只宝可梦",
+    "fr": "Attrapez 7 Pokémon",
+    "de": "Fange 7 Pokémon",
+    "es": "Atrapa 7 Pokémon",
+    "it": "Cattura 7 Pokémon"
    },
    "type": "catch",
    "rewards": [
@@ -198,7 +238,15 @@
   },
   {
    "task": {
-    "en": "Catch a Dragon-type Pokémon"
+    "ko": "드래곤 타입 포켓몬 잡기",
+    "ja": "ドラゴンタイプのポケモンを捕まえる",
+    "en": "Catch a Dragon-type Pokémon",
+    "zh-Hant": "捕捉1隻龍屬性寶可夢",
+    "zh-Hans": "捕捉1只龙属性宝可梦",
+    "fr": "Attrapez un Pokémon de type Dragon",
+    "de": "Fange ein Pokémon vom Typ Drache",
+    "es": "Atrapa un Pokémon de tipo Dragón",
+    "it": "Cattura un Pokémon di tipo Drago"
    },
    "type": "catch",
    "rewards": [
@@ -239,7 +287,15 @@
   },
   {
    "task": {
-    "en": "Catch 7 different species of Pokémon"
+    "ko": "서로 다른 종류의 포켓몬을 7마리 잡기",
+    "ja": "異なる種類のポケモンを7匹捕まえる",
+    "en": "Catch 7 different species of Pokémon",
+    "zh-Hant": "捕捉7種不同的寶可夢",
+    "zh-Hans": "捕捉7种不同的宝可梦",
+    "fr": "Attrapez 7 espèces de Pokémon différentes",
+    "de": "Fange 7 verschiedene Pokémon-Arten",
+    "es": "Atrapa 7 especies distintas de Pokémon",
+    "it": "Cattura 7 specie diverse di Pokémon"
    },
    "type": "catch",
    "rewards": [
@@ -379,7 +435,15 @@
   },
   {
    "task": {
-    "en": "Catch 10 Grass-type Pokémon"
+    "ko": "풀 타입 포켓몬을 10마리 잡기",
+    "ja": "くさタイプのポケモンを10匹捕まえる",
+    "en": "Catch 10 Grass-type Pokémon",
+    "zh-Hant": "捕捉10隻草屬性寶可夢",
+    "zh-Hans": "捕捉10只草属性宝可梦",
+    "fr": "Attrapez 10 Pokémon de type Plante",
+    "de": "Fange 10 Pokémon vom Typ Pflanze",
+    "es": "Atrapa 10 Pokémon de tipo Planta",
+    "it": "Cattura 10 Pokémon di tipo Erba"
    },
    "type": "catch",
    "rewards": [
@@ -453,7 +517,15 @@
   },
   {
    "task": {
-    "en": "Catch 10 Ghost-type Pokémon"
+    "ko": "고스트 타입 포켓몬을 10마리 잡기",
+    "ja": "ゴーストタイプのポケモンを10匹捕まえる",
+    "en": "Catch 10 Ghost-type Pokémon",
+    "zh-Hant": "捕捉10隻幽靈屬性寶可夢",
+    "zh-Hans": "捕捉10只幽灵属性宝可梦",
+    "fr": "Attrapez 10 Pokémon de type Spectre",
+    "de": "Fange 10 Pokémon vom Typ Geist",
+    "es": "Atrapa 10 Pokémon de tipo Fantasma",
+    "it": "Cattura 10 Pokémon di tipo Spettro"
    },
    "type": "catch",
    "rewards": [
@@ -527,7 +599,15 @@
   },
   {
    "task": {
-    "en": "Catch 10 Dark-type Pokémon"
+    "ko": "악 타입 포켓몬을 10마리 잡기",
+    "ja": "あくタイプのポケモンを10匹捕まえる",
+    "en": "Catch 10 Dark-type Pokémon",
+    "zh-Hant": "捕捉10隻惡屬性寶可夢",
+    "zh-Hans": "捕捉10只恶属性宝可梦",
+    "fr": "Attrapez 10 Pokémon de type Ténèbres",
+    "de": "Fange 10 Pokémon vom Typ Unlicht",
+    "es": "Atrapa 10 Pokémon de tipo Siniestro",
+    "it": "Cattura 10 Pokémon di tipo Buio"
    },
    "type": "catch",
    "rewards": [
@@ -601,7 +681,15 @@
   },
   {
    "task": {
-    "en": "Catch 5 Pokémon with Weather Boost"
+    "ko": "날씨 부스트 포켓몬을 5마리 잡기",
+    "ja": "天候ブーストのポケモンを5匹捕まえる",
+    "en": "Catch 5 Pokémon with Weather Boost",
+    "zh-Hant": "捕捉5隻受天氣加成的寶可夢",
+    "zh-Hans": "捕捉5只受天气加成的宝可梦",
+    "fr": "Attrapez 5 Pokémon boostés par la météo",
+    "de": "Fange 5 wetterverstärkte Pokémon",
+    "es": "Atrapa 5 Pokémon potenciados por el clima",
+    "it": "Cattura 5 Pokémon potenziati dal meteo"
    },
    "type": "catch",
    "rewards": [
@@ -686,7 +774,15 @@
   },
   {
    "task": {
-    "en": "Make 10 Curveball Throws"
+    "ko": "커브볼을 10번 던지기",
+    "ja": "カーブボールを10回投げる",
+    "en": "Make 10 Curveball Throws",
+    "zh-Hant": "投出10次曲球",
+    "zh-Hans": "投出10次曲球",
+    "fr": "Faites 10 balles courbes",
+    "de": "Wirf 10 Curveballs",
+    "es": "Haz 10 lanzamientos con efecto",
+    "it": "Fai 10 tiri a effetto"
    },
    "type": "throw",
    "rewards": [
@@ -804,7 +900,15 @@
   },
   {
    "task": {
-    "en": "Make 10 Nice Throws"
+    "ko": "나이스 스로를 10번 하기",
+    "ja": "ナイススローを10回投げる",
+    "en": "Make 10 Nice Throws",
+    "zh-Hant": "投出10次Nice",
+    "zh-Hans": "投出10次Nice",
+    "fr": "Faites 10 lancers « Bien »",
+    "de": "Wirf 10-mal „Nett“",
+    "es": "Haz 10 lanzamientos «Bien»",
+    "it": "Fai 10 tiri «Bello»"
    },
    "type": "throw",
    "rewards": [
@@ -922,7 +1026,15 @@
   },
   {
    "task": {
-    "en": "Make 2 Excellent Throws"
+    "ko": "엑설런트 스로를 2번 하기",
+    "ja": "エクセレントスローを2回投げる",
+    "en": "Make 2 Excellent Throws",
+    "zh-Hant": "投出2次Excellent",
+    "zh-Hans": "投出2次Excellent",
+    "fr": "Faites 2 lancers « Excellent »",
+    "de": "Wirf 2-mal „Fabelhaft“",
+    "es": "Haz 2 lanzamientos «Excelente»",
+    "it": "Fai 2 tiri «Eccellente»"
    },
    "type": "throw",
    "rewards": [
@@ -941,7 +1053,15 @@
   },
   {
    "task": {
-    "en": "Make 3 Excellent Throws in a row"
+    "ko": "엑설런트 스로를 3번 연속으로 하기",
+    "ja": "エクセレントスローを3回連続で投げる",
+    "en": "Make 3 Excellent Throws in a row",
+    "zh-Hant": "連續投出3次Excellent",
+    "zh-Hans": "连续投出3次Excellent",
+    "fr": "Faites 3 lancers « Excellent » d'affilée",
+    "de": "Wirf 3-mal in Folge „Fabelhaft“",
+    "es": "Haz 3 lanzamientos «Excelente» seguidos",
+    "it": "Fai 3 tiri «Eccellente» di fila"
    },
    "type": "throw",
    "rewards": [
@@ -982,7 +1102,15 @@
   },
   {
    "task": {
-    "en": "Make 3 Great Throws"
+    "ko": "그레이트 스로를 3번 하기",
+    "ja": "グレートスローを3回投げる",
+    "en": "Make 3 Great Throws",
+    "zh-Hant": "投出3次Great",
+    "zh-Hans": "投出3次Great",
+    "fr": "Faites 3 lancers « Super »",
+    "de": "Wirf 3-mal „Großartig“",
+    "es": "Haz 3 lanzamientos «Genial»",
+    "it": "Fai 3 tiri «Ottimo»"
    },
    "type": "throw",
    "rewards": [
@@ -1045,7 +1173,15 @@
   },
   {
    "task": {
-    "en": "Make 3 Great Throws in a row"
+    "ko": "그레이트 스로를 3번 연속으로 하기",
+    "ja": "グレートスローを3回連続で投げる",
+    "en": "Make 3 Great Throws in a row",
+    "zh-Hant": "連續投出3次Great",
+    "zh-Hans": "连续投出3次Great",
+    "fr": "Faites 3 lancers « Super » d'affilée",
+    "de": "Wirf 3-mal in Folge „Großartig“",
+    "es": "Haz 3 lanzamientos «Genial» seguidos",
+    "it": "Fai 3 tiri «Ottimo» di fila"
    },
    "type": "throw",
    "rewards": [
@@ -1075,7 +1211,15 @@
   },
   {
    "task": {
-    "en": "Make 5 Great Curveball Throws in a row"
+    "ko": "그레이트 커브볼을 5번 연속으로 던지기",
+    "ja": "グレートなカーブボールを5回連続で投げる",
+    "en": "Make 5 Great Curveball Throws in a row",
+    "zh-Hant": "連續投出5次Great曲球",
+    "zh-Hans": "连续投出5次Great曲球",
+    "fr": "Faites 5 balles courbes « Super » d'affilée",
+    "de": "Wirf 5-mal in Folge einen „Großartig“-Curveball",
+    "es": "Haz 5 lanzamientos con efecto «Genial» seguidos",
+    "it": "Fai 5 tiri a effetto «Ottimo» di fila"
    },
    "type": "throw",
    "rewards": [
@@ -1103,7 +1247,15 @@
   },
   {
    "task": {
-    "en": "Make 5 Nice Throws"
+    "ko": "나이스 스로를 5번 하기",
+    "ja": "ナイススローを5回投げる",
+    "en": "Make 5 Nice Throws",
+    "zh-Hant": "投出5次Nice",
+    "zh-Hans": "投出5次Nice",
+    "fr": "Faites 5 lancers « Bien »",
+    "de": "Wirf 5-mal „Nett“",
+    "es": "Haz 5 lanzamientos «Bien»",
+    "it": "Fai 5 tiri «Bello»"
    },
    "type": "throw",
    "rewards": [
@@ -1144,7 +1296,15 @@
   },
   {
    "task": {
-    "en": "Win a raid"
+    "ko": "레이드배틀에서 이기기",
+    "ja": "レイドバトルで勝つ",
+    "en": "Win a raid",
+    "zh-Hant": "在團體戰中獲勝",
+    "zh-Hans": "在团体战中获胜",
+    "fr": "Gagnez un raid",
+    "de": "Gewinne einen Raid",
+    "es": "Gana una incursión",
+    "it": "Vinci un raid"
    },
    "type": "battle",
    "rewards": [
@@ -1284,7 +1444,15 @@
   },
   {
    "task": {
-    "en": "Win a three-star raid or higher"
+    "ko": "★3 이상 레이드배틀에서 이기기",
+    "ja": "★3以上のレイドバトルで勝つ",
+    "en": "Win a three-star raid or higher",
+    "zh-Hant": "在★3以上的團體戰中獲勝",
+    "zh-Hans": "在★3以上的团体战中获胜",
+    "fr": "Gagnez un raid de niveau 3 ou plus",
+    "de": "Gewinne einen Raid der Stufe 3 oder höher",
+    "es": "Gana una incursión de nivel 3 o superior",
+    "it": "Vinci un raid di livello 3 o superiore"
    },
    "type": "battle",
    "rewards": [
@@ -1314,7 +1482,15 @@
   },
   {
    "task": {
-    "en": "Win 5 raids"
+    "ko": "레이드배틀에서 5번 이기기",
+    "ja": "レイドバトルで5回勝つ",
+    "en": "Win 5 raids",
+    "zh-Hant": "在團體戰中獲勝5次",
+    "zh-Hans": "在团体战中获胜5次",
+    "fr": "Gagnez 5 raids",
+    "de": "Gewinne 5 Raids",
+    "es": "Gana 5 incursiones",
+    "it": "Vinci 5 raid"
    },
    "type": "battle",
    "rewards": [
@@ -1355,7 +1531,15 @@
   },
   {
    "task": {
-    "en": "Explore 2 km"
+    "ko": "2km 걷기",
+    "ja": "2km歩く",
+    "en": "Explore 2 km",
+    "zh-Hant": "步行2公里",
+    "zh-Hans": "步行2公里",
+    "fr": "Parcourez 2 km",
+    "de": "Lege 2 km zurück",
+    "es": "Recorre 2 km",
+    "it": "Percorri 2 km"
    },
    "type": "explore",
    "rewards": [
@@ -1473,7 +1657,15 @@
   },
   {
    "task": {
-    "en": "Hatch an Egg"
+    "ko": "알 1개 부화시키기",
+    "ja": "タマゴを1個かえす",
+    "en": "Hatch an Egg",
+    "zh-Hant": "孵化1顆蛋",
+    "zh-Hans": "孵化1颗蛋",
+    "fr": "Faites éclore un Œuf",
+    "de": "Brüte ein Ei aus",
+    "es": "Eclosiona un Huevo",
+    "it": "Fai schiudere un Uovo"
    },
    "type": "explore",
    "rewards": [
@@ -1635,7 +1827,15 @@
   },
   {
    "task": {
-    "en": "Hatch 2 Eggs"
+    "ko": "알 2개 부화시키기",
+    "ja": "タマゴを2個かえす",
+    "en": "Hatch 2 Eggs",
+    "zh-Hant": "孵化2顆蛋",
+    "zh-Hans": "孵化2颗蛋",
+    "fr": "Faites éclore 2 Œufs",
+    "de": "Brüte 2 Eier aus",
+    "es": "Eclosiona 2 Huevos",
+    "it": "Fai schiudere 2 Uova"
    },
    "type": "explore",
    "rewards": [
@@ -1676,7 +1876,15 @@
   },
   {
    "task": {
-    "en": "Spin 3 PokéStops or Gyms"
+    "ko": "포켓스톱이나 체육관을 3번 돌리기",
+    "ja": "ポケストップかジムを3回まわす",
+    "en": "Spin 3 PokéStops or Gyms",
+    "zh-Hant": "轉動3次寶可補給站或道館",
+    "zh-Hans": "转动3次宝可补给站或道馆",
+    "fr": "Faites tourner 3 PokéStops ou Arènes",
+    "de": "Drehe 3 PokéStops oder Arenen",
+    "es": "Gira 3 Poképaradas o gimnasios",
+    "it": "Fai girare 3 PokéStop o Palestre"
    },
    "type": "explore",
    "rewards": [
@@ -1728,7 +1936,15 @@
   },
   {
    "task": {
-    "en": "Spin 5 PokéStops"
+    "ko": "포켓스톱을 5번 돌리기",
+    "ja": "ポケストップを5回まわす",
+    "en": "Spin 5 PokéStops",
+    "zh-Hant": "轉動5次寶可補給站",
+    "zh-Hans": "转动5次宝可补给站",
+    "fr": "Faites tourner 5 PokéStops",
+    "de": "Drehe 5 PokéStops",
+    "es": "Gira 5 Poképaradas",
+    "it": "Fai girare 5 PokéStop"
    },
    "type": "explore",
    "rewards": [
@@ -1923,7 +2139,15 @@
   },
   {
    "task": {
-    "en": "Spin 5 PokéStops or Gyms"
+    "ko": "포켓스톱이나 체육관을 5번 돌리기",
+    "ja": "ポケストップかジムを5回まわす",
+    "en": "Spin 5 PokéStops or Gyms",
+    "zh-Hant": "轉動5次寶可補給站或道館",
+    "zh-Hans": "转动5次宝可补给站或道馆",
+    "fr": "Faites tourner 5 PokéStops ou Arènes",
+    "de": "Drehe 5 PokéStops oder Arenen",
+    "es": "Gira 5 Poképaradas o gimnasios",
+    "it": "Fai girare 5 PokéStop o Palestre"
    },
    "type": "explore",
    "rewards": [
@@ -1975,7 +2199,15 @@
   },
   {
    "task": {
-    "en": "Take a snapshot of a wild Pokémon"
+    "ko": "야생 포켓몬 스냅샷 찍기",
+    "ja": "野生のポケモンのGOスナップショットを撮る",
+    "en": "Take a snapshot of a wild Pokémon",
+    "zh-Hant": "為野生寶可夢拍攝快照",
+    "zh-Hans": "为野生宝可梦拍摄快照",
+    "fr": "Prenez un instantané d'un Pokémon sauvage",
+    "de": "Mach einen Schnappschuss von einem wilden Pokémon",
+    "es": "Haz una instantánea de un Pokémon salvaje",
+    "it": "Scatta un'istantanea di un Pokémon selvatico"
    },
    "type": "explore",
    "rewards": [
@@ -2016,7 +2248,15 @@
   },
   {
    "task": {
-    "en": "Evolve a Pokémon"
+    "ko": "포켓몬 진화시키기",
+    "ja": "ポケモンを進化させる",
+    "en": "Evolve a Pokémon",
+    "zh-Hant": "讓1隻寶可夢進化",
+    "zh-Hans": "让1只宝可梦进化",
+    "fr": "Faites évoluer un Pokémon",
+    "de": "Entwickle ein Pokémon",
+    "es": "Haz evolucionar un Pokémon",
+    "it": "Fai evolvere un Pokémon"
    },
    "type": "training",
    "rewards": [
@@ -2112,7 +2352,15 @@
   },
   {
    "task": {
-    "en": "Power up Pokémon 3 times"
+    "ko": "포켓몬을 3번 강화하기",
+    "ja": "ポケモンを3回強化する",
+    "en": "Power up Pokémon 3 times",
+    "zh-Hant": "強化寶可夢3次",
+    "zh-Hans": "强化宝可梦3次",
+    "fr": "Améliorez des Pokémon 3 fois",
+    "de": "Verbessere Pokémon 3-mal",
+    "es": "Mejora Pokémon 3 veces",
+    "it": "Potenzia Pokémon 3 volte"
    },
    "type": "training",
    "rewards": [
@@ -2153,7 +2401,15 @@
   },
   {
    "task": {
-    "en": "Power up Pokémon 5 times"
+    "ko": "포켓몬을 5번 강화하기",
+    "ja": "ポケモンを5回強化する",
+    "en": "Power up Pokémon 5 times",
+    "zh-Hant": "強化寶可夢5次",
+    "zh-Hans": "强化宝可梦5次",
+    "fr": "Améliorez des Pokémon 5 fois",
+    "de": "Verbessere Pokémon 5-mal",
+    "es": "Mejora Pokémon 5 veces",
+    "it": "Potenzia Pokémon 5 volte"
    },
    "type": "training",
    "rewards": [
@@ -2194,7 +2450,15 @@
   },
   {
    "task": {
-    "en": "Power up Pokémon 7 times"
+    "ko": "포켓몬을 7번 강화하기",
+    "ja": "ポケモンを7回強化する",
+    "en": "Power up Pokémon 7 times",
+    "zh-Hant": "強化寶可夢7次",
+    "zh-Hans": "强化宝可梦7次",
+    "fr": "Améliorez des Pokémon 7 fois",
+    "de": "Verbessere Pokémon 7-mal",
+    "es": "Mejora Pokémon 7 veces",
+    "it": "Potenzia Pokémon 7 volte"
    },
    "type": "training",
    "rewards": [
@@ -2235,7 +2499,15 @@
   },
   {
    "task": {
-    "en": "Earn 2 Candies walking with your buddy"
+    "ko": "파트너 포켓몬과 걸어서 사탕 2개 얻기",
+    "ja": "相棒と歩いてアメを2個もらう",
+    "en": "Earn 2 Candies walking with your buddy",
+    "zh-Hant": "和夥伴一起走路獲得2顆糖果",
+    "zh-Hans": "和伙伴一起走路获得2颗糖果",
+    "fr": "Gagnez 2 Bonbons en marchant avec votre copain",
+    "de": "Verdiene 2 Bonbons beim Laufen mit deinem Kumpel",
+    "es": "Consigue 2 caramelos caminando con tu compañero",
+    "it": "Ottieni 2 caramelle camminando con il tuo compagno"
    },
    "type": "buddy",
    "rewards": [
@@ -2309,7 +2581,15 @@
   },
   {
    "task": {
-    "en": "Earn 3 Candies walking with your buddy"
+    "ko": "파트너 포켓몬과 걸어서 사탕 3개 얻기",
+    "ja": "相棒と歩いてアメを3個もらう",
+    "en": "Earn 3 Candies walking with your buddy",
+    "zh-Hant": "和夥伴一起走路獲得3顆糖果",
+    "zh-Hans": "和伙伴一起走路获得3颗糖果",
+    "fr": "Gagnez 3 Bonbons en marchant avec votre copain",
+    "de": "Verdiene 3 Bonbons beim Laufen mit deinem Kumpel",
+    "es": "Consigue 3 caramelos caminando con tu compañero",
+    "it": "Ottieni 3 caramelle camminando con il tuo compagno"
    },
    "type": "buddy",
    "rewards": [
@@ -2339,7 +2619,15 @@
   },
   {
    "task": {
-    "en": "Send 3 Gifts and add a sticker to each"
+    "ko": "선물 3개에 스티커를 붙여 보내기",
+    "ja": "ステッカーを付けてギフトを3個送る",
+    "en": "Send 3 Gifts and add a sticker to each",
+    "zh-Hant": "送出3份貼上貼圖的禮物",
+    "zh-Hans": "送出3份贴上贴图的礼物",
+    "fr": "Envoyez 3 cadeaux avec un autocollant",
+    "de": "Sende 3 Geschenke mit Sticker",
+    "es": "Envía 3 regalos con una pegatina",
+    "it": "Invia 3 regali con un adesivo"
    },
    "type": "buddy",
    "rewards": [
@@ -2391,7 +2679,15 @@
   },
   {
    "task": {
-    "en": "Trade a Pokémon"
+    "ko": "포켓몬 교환하기",
+    "ja": "ポケモンを交換する",
+    "en": "Trade a Pokémon",
+    "zh-Hant": "交換1隻寶可夢",
+    "zh-Hans": "交换1只宝可梦",
+    "fr": "Échangez un Pokémon",
+    "de": "Tausche ein Pokémon",
+    "es": "Intercambia un Pokémon",
+    "it": "Scambia un Pokémon"
    },
    "type": "buddy",
    "rewards": [
@@ -2443,7 +2739,15 @@
   },
   {
    "task": {
-    "en": "Defeat a Team GO Rocket Grunt"
+    "ko": "GO로켓단 조무래기 이기기",
+    "ja": "GOロケット団のしたっぱに勝つ",
+    "en": "Defeat a Team GO Rocket Grunt",
+    "zh-Hant": "打敗GO火箭隊手下",
+    "zh-Hans": "打败GO火箭队手下",
+    "fr": "Battez un sbire de la Team GO Rocket",
+    "de": "Besiege einen Team GO Rocket-Rüpel",
+    "es": "Derrota a un recluta del Team GO Rocket",
+    "it": "Sconfiggi una recluta del Team GO Rocket"
    },
    "type": "rocket",
    "rewards": [
