@@ -1,0 +1,537 @@
+{
+ "_comment": "자동 생성 — schedule/weekly_fusion_gmax.json을 고친 뒤 tools/build_form_moves.py 실행",
+ "verifiedAt": "2026-11-22",
+ "fusion": [
+  {
+   "dex": 888,
+   "formId": "crowned_sword",
+   "fromForm": "hero",
+   "partnerDex": null,
+   "signatureMoves": [
+    "behemoth_blade"
+   ],
+   "replaces": "iron_head",
+   "how": {
+    "ko": "아이언헤드를 아는 자시안(역전의 용사)에게 소드 에너지 1,000 + 자시안 사탕 30을 쓰면 자시안(검왕)으로 모습이 바뀌어요. 소드 에너지는 자시안(검왕) 레이드에서 얻어요. 처음 한 번만 들고, 그 뒤로는 되돌렸다가 다시 바꿔도 무료예요. 바뀌면 아이언헤드가 거수참으로 바뀌고 되돌리면 돌아와요. 이 모습으로는 교환할 수 없어요.",
+    "ja": "アイアンヘッドを覚えたザシアン(れきせんのゆうしゃ)にソードエナジー 1,000とザシアンのアメ30を使うとザシアン(けんのおう)にすがたが変わります。ソードエナジーはザシアン(けんのおう)のレイドで入手。必要なのは最初の1回だけで、その後は戻してまた変えても無料です。変わるとアイアンヘッドがきょじゅうざんになり、戻すと元に戻ります。このすがたでは交換できません。",
+    "en": "Use 1,000 Crowned Sword Energy + 30 Zacian Candy on a Zacian (Hero of Many Battles) that knows Iron Head to change it into Zacian (Crowned Sword). Get Crowned Sword Energy from Zacian (Crowned Sword) raids. You pay only the first time; switching back and forth after that is free. Iron Head becomes Behemoth Blade, and changes back when you revert. Can't be traded in this form.",
+    "zh-Hant": "對學會鐵頭的蒼響(百戰勇者)使用劍王能量 1,000＋蒼響糖果30，即可變成蒼響(劍之王)。劍王能量可在蒼響(劍之王)團體戰取得。只有第一次需要支付，之後切換回來再變化都免費。變化後鐵頭會變成巨獸斬，變回時恢復。此樣子無法交換。",
+    "zh-Hans": "对学会铁头的苍响(百战勇者)使用剑王能量 1,000＋苍响糖果30，即可变成苍响(剑之王)。剑王能量可在苍响(剑之王)团体战取得。只有第一次需要支付，之后切换回来再变化都免费。变化后铁头会变成巨兽斩，变回时恢复。此样子无法交换。",
+    "fr": "Utilisez 1 000 Énergie Épée Suprême + 30 Bonbons Zacian sur un Zacian (Héros Aguerri) qui connaît Tête de Fer pour le changer en Zacian (Épée Suprême). L'Énergie Épée Suprême s'obtient dans les Raids Zacian (Épée Suprême). Seule la première fois est payante ; ensuite, les changements sont gratuits. Tête de Fer devient Gladius Maximus, puis redevient Tête de Fer au retour. Ne peut pas être échangé sous cette forme.",
+    "de": "Setze 1.000 Energie: König des Schwertes + 30 Zacian-Bonbons bei einem Zacian (Heldenhafter Krieger) mit Eisenschädel ein, um es in Zacian (König des Schwertes) zu verwandeln. Energie: König des Schwertes gibt es in Zacian (König des Schwertes)-Raids. Nur beim ersten Mal kostet es etwas, danach ist Wechseln kostenlos. Eisenschädel wird zu Gigantenhieb und beim Zurückwechseln wieder zu Eisenschädel. In dieser Form nicht tauschbar.",
+    "es": "Usa 1000 de Energía Espada Suprema + 30 caramelos de Zacian en un Zacian (Guerrero Avezado) que conozca Cabeza de Hierro para cambiarlo a Zacian (Espada Suprema). La Energía Espada Suprema se consigue en incursiones de Zacian (Espada Suprema). Solo se paga la primera vez; después cambiar es gratis. Cabeza de Hierro pasa a ser Tajo Supremo y vuelve al revertir. No se puede intercambiar con esta forma.",
+    "it": "Usa 1.000 Energia Re delle Spade + 30 caramelle Zacian su un Zacian (Eroe di Mille Lotte) che conosce Metaltestata per trasformarlo in Zacian (Re delle Spade). L'Energia Re delle Spade si ottiene nei raid di Zacian (Re delle Spade). Si paga solo la prima volta, poi cambiare è gratis. Metaltestata diventa Taglio Maestoso e torna com'era quando lo riporti indietro. Non si può scambiare in questa forma."
+   },
+   "agree": [
+    "leekduck",
+    "gohub",
+    "official",
+    "bulbapedia",
+    "gamemaster"
+   ]
+  },
+  {
+   "dex": 889,
+   "formId": "crowned_shield",
+   "fromForm": "hero",
+   "partnerDex": null,
+   "signatureMoves": [
+    "behemoth_bash"
+   ],
+   "replaces": "iron_head",
+   "how": {
+    "ko": "아이언헤드를 아는 자마젠타(역전의 용사)에게 실드 에너지 1,000 + 자마젠타 사탕 30을 쓰면 자마젠타(방패왕)으로 모습이 바뀌어요. 실드 에너지는 자마젠타(방패왕) 레이드에서 얻어요. 처음 한 번만 들고, 그 뒤로는 되돌렸다가 다시 바꿔도 무료예요. 바뀌면 아이언헤드가 거수탄으로 바뀌고 되돌리면 돌아와요. 이 모습으로는 교환할 수 없어요.",
+    "ja": "アイアンヘッドを覚えたザマゼンタ(れきせんのゆうしゃ)にシールドエナジー 1,000とザマゼンタのアメ30を使うとザマゼンタ(たてのおう)にすがたが変わります。シールドエナジーはザマゼンタ(たてのおう)のレイドで入手。必要なのは最初の1回だけで、その後は戻してまた変えても無料です。変わるとアイアンヘッドがきょじゅうだんになり、戻すと元に戻ります。このすがたでは交換できません。",
+    "en": "Use 1,000 Crowned Shield Energy + 30 Zamazenta Candy on a Zamazenta (Hero of Many Battles) that knows Iron Head to change it into Zamazenta (Crowned Shield). Get Crowned Shield Energy from Zamazenta (Crowned Shield) raids. You pay only the first time; switching back and forth after that is free. Iron Head becomes Behemoth Bash, and changes back when you revert. Can't be traded in this form.",
+    "zh-Hant": "對學會鐵頭的藏瑪然特(百戰勇者)使用盾王能量 1,000＋藏瑪然特糖果30，即可變成藏瑪然特(盾之王)。盾王能量可在藏瑪然特(盾之王)團體戰取得。只有第一次需要支付，之後切換回來再變化都免費。變化後鐵頭會變成巨獸彈，變回時恢復。此樣子無法交換。",
+    "zh-Hans": "对学会铁头的藏玛然特(百战勇者)使用盾王能量 1,000＋藏玛然特糖果30，即可变成藏玛然特(盾之王)。盾王能量可在藏玛然特(盾之王)团体战取得。只有第一次需要支付，之后切换回来再变化都免费。变化后铁头会变成巨兽弹，变回时恢复。此样子无法交换。",
+    "fr": "Utilisez 1 000 Énergie Bouclier Suprême + 30 Bonbons Zamazenta sur un Zamazenta (Héros Aguerri) qui connaît Tête de Fer pour le changer en Zamazenta (Bouclier Suprême). L'Énergie Bouclier Suprême s'obtient dans les Raids Zamazenta (Bouclier Suprême). Seule la première fois est payante ; ensuite, les changements sont gratuits. Tête de Fer devient Aegis Maxima, puis redevient Tête de Fer au retour. Ne peut pas être échangé sous cette forme.",
+    "de": "Setze 1.000 Energie: König des Schildes + 30 Zamazenta-Bonbons bei einem Zamazenta (Heldenhafter Krieger) mit Eisenschädel ein, um es in Zamazenta (König des Schildes) zu verwandeln. Energie: König des Schildes gibt es in Zamazenta (König des Schildes)-Raids. Nur beim ersten Mal kostet es etwas, danach ist Wechseln kostenlos. Eisenschädel wird zu Gigantenstoß und beim Zurückwechseln wieder zu Eisenschädel. In dieser Form nicht tauschbar.",
+    "es": "Usa 1000 de Energía Escudo Supremo + 30 caramelos de Zamazenta en un Zamazenta (Guerrero Avezado) que conozca Cabeza de Hierro para cambiarlo a Zamazenta (Escudo Supremo). La Energía Escudo Supremo se consigue en incursiones de Zamazenta (Escudo Supremo). Solo se paga la primera vez; después cambiar es gratis. Cabeza de Hierro pasa a ser Embate Supremo y vuelve al revertir. No se puede intercambiar con esta forma.",
+    "it": "Usa 1.000 Energia Re degli Scudi + 30 caramelle Zamazenta su un Zamazenta (Eroe di Mille Lotte) che conosce Metaltestata per trasformarlo in Zamazenta (Re degli Scudi). L'Energia Re degli Scudi si ottiene nei raid di Zamazenta (Re degli Scudi). Si paga solo la prima volta, poi cambiare è gratis. Metaltestata diventa Colpo Maestoso e torna com'era quando lo riporti indietro. Non si può scambiare in questa forma."
+   },
+   "agree": [
+    "leekduck",
+    "gohub",
+    "official",
+    "bulbapedia",
+    "gamemaster"
+   ]
+  },
+  {
+   "dex": 646,
+   "formId": "black",
+   "fromForm": "normal",
+   "partnerDex": 644,
+   "signatureMoves": [
+    "freeze_shock"
+   ],
+   "replaces": "glaciate",
+   "how": {
+    "ko": "큐레무 + 제크로무 합체: 볼트 에너지 1,000 + 큐레무 사탕 30 + 제크로무 사탕 30. 볼트 에너지는 블랙큐레무 레이드에서 얻어요. 분리는 무료지만 다시 합체하면 비용이 또 들어요. 합체한 상태로는 교환할 수 없어요. 큐레무가 얼어붙은세계를 알고 있으면 합체할 때 프리즈볼트로 바뀌고, 분리하면 다시 얼어붙은세계로 돌아와요.",
+    "ja": "キュレムとゼクロムが合体：ボルトエナジー 1,000 ＋ キュレムのアメ30 ＋ ゼクロムのアメ30。ボルトエナジーはブラックキュレムのレイドで入手。分離は無料ですが、もう一度合体するとまたコストがかかります。合体中は交換できません。 キュレムがこごえるせかいを覚えていると、合体時にフリーズボルトに変わり、分離するとこごえるせかいに戻ります。",
+    "en": "Fuse Kyurem with Zekrom: 1,000 Volt Fusion Energy + 30 Kyurem Candy + 30 Zekrom Candy. Get Volt Fusion Energy from Black Kyurem raids. Separating is free, but fusing again costs the same again. Fused Pokémon can't be traded. If Kyurem knows Glaciate, it becomes Freeze Shock when fused and turns back into Glaciate when separated.",
+    "zh-Hant": "酋雷姆與捷克羅姆合體：電壓能量 1,000 ＋ 酋雷姆糖果30 ＋ 捷克羅姆糖果30。電壓能量可在闇黑酋雷姆團體戰取得。分離免費，但再次合體需要再付一次。合體狀態無法交換。 酋雷姆學會冰封世界時，合體後會變成冰凍伏特，分離後變回冰封世界。",
+    "zh-Hans": "酋雷姆与捷克罗姆合体：电压能量 1,000 ＋ 酋雷姆糖果30 ＋ 捷克罗姆糖果30。电压能量可在暗黑酋雷姆团体战取得。分离免费，但再次合体需要再付一次。合体状态无法交换。 酋雷姆学会冰封世界时，合体后会变成冰冻伏特，分离后变回冰封世界。",
+    "fr": "Fusionnez Kyurem avec Zekrom : 1 000 Énergie fusion Voltage + 30 Bonbons Kyurem + 30 Bonbons Zekrom. L'Énergie fusion Voltage s'obtient dans les Raids Kyurem Noir. La séparation est gratuite, mais refusionner coûte à nouveau. Un Pokémon fusionné ne peut pas être échangé. Si Kyurem connaît Ère Glaciaire, l'attaque devient Éclair Gelé une fois fusionné et redevient Ère Glaciaire à la séparation.",
+    "de": "Kyurem mit Zekrom fusionieren: 1.000 Volt-Fusionsenergie + 30 Kyurem-Bonbons + 30 Zekrom-Bonbons. Volt-Fusionsenergie gibt es in Schwarzes Kyurem-Raids. Trennen ist kostenlos, erneutes Fusionieren kostet wieder. Fusionierte Pokémon können nicht getauscht werden. Beherrscht Kyurem Eiszeit, wird daraus bei der Fusion Frostvolt; beim Trennen wieder Eiszeit.",
+    "es": "Fusiona a Kyurem con Zekrom: 1000 de Energía Fusión Voltaje + 30 caramelos de Kyurem + 30 caramelos de Zekrom. La Energía Fusión Voltaje se consigue en incursiones de Kyurem Negro. Separarlos es gratis, pero volver a fusionarlos cuesta otra vez. No se pueden intercambiar fusionados. Si Kyurem conoce Mundo Gélido, pasa a ser Rayo Gélido al fusionarse y vuelve a Mundo Gélido al separarse.",
+    "it": "Fondi Kyurem con Zekrom: 1.000 Energia fusione volt + 30 caramelle Kyurem + 30 caramelle Zekrom. L'Energia fusione volt si ottiene nei raid di Kyurem Nero. Separarli è gratis, ma fonderli di nuovo costa di nuovo. I Pokémon fusi non si possono scambiare. Se Kyurem conosce Gelamondo, diventa Elettrogelo con la fusione e torna Gelamondo quando si separa."
+   },
+   "agree": [
+    "leekduck",
+    "official",
+    "bulbapedia",
+    "gamemaster"
+   ]
+  },
+  {
+   "dex": 646,
+   "formId": "white",
+   "fromForm": "normal",
+   "partnerDex": 643,
+   "signatureMoves": [
+    "ice_burn"
+   ],
+   "replaces": "glaciate",
+   "how": {
+    "ko": "큐레무 + 레시라무 합체: 블레이즈 에너지 1,000 + 큐레무 사탕 30 + 레시라무 사탕 30. 블레이즈 에너지는 화이트큐레무 레이드에서 얻어요. 분리는 무료지만 다시 합체하면 비용이 또 들어요. 합체한 상태로는 교환할 수 없어요. 큐레무가 얼어붙은세계를 알고 있으면 합체할 때 콜드플레어로 바뀌고, 분리하면 다시 얼어붙은세계로 돌아와요.",
+    "ja": "キュレムとレシラムが合体：ブレイズエナジー 1,000 ＋ キュレムのアメ30 ＋ レシラムのアメ30。ブレイズエナジーはホワイトキュレムのレイドで入手。分離は無料ですが、もう一度合体するとまたコストがかかります。合体中は交換できません。 キュレムがこごえるせかいを覚えていると、合体時にコールドフレアに変わり、分離するとこごえるせかいに戻ります。",
+    "en": "Fuse Kyurem with Reshiram: 1,000 Blaze Fusion Energy + 30 Kyurem Candy + 30 Reshiram Candy. Get Blaze Fusion Energy from White Kyurem raids. Separating is free, but fusing again costs the same again. Fused Pokémon can't be traded. If Kyurem knows Glaciate, it becomes Ice Burn when fused and turns back into Glaciate when separated.",
+    "zh-Hant": "酋雷姆與萊希拉姆合體：火焰能量 1,000 ＋ 酋雷姆糖果30 ＋ 萊希拉姆糖果30。火焰能量可在焰白酋雷姆團體戰取得。分離免費，但再次合體需要再付一次。合體狀態無法交換。 酋雷姆學會冰封世界時，合體後會變成極寒冷焰，分離後變回冰封世界。",
+    "zh-Hans": "酋雷姆与莱希拉姆合体：火焰能量 1,000 ＋ 酋雷姆糖果30 ＋ 莱希拉姆糖果30。火焰能量可在焰白酋雷姆团体战取得。分离免费，但再次合体需要再付一次。合体状态无法交换。 酋雷姆学会冰封世界时，合体后会变成极寒冷焰，分离后变回冰封世界。",
+    "fr": "Fusionnez Kyurem avec Reshiram : 1 000 Énergie fusion Brasier + 30 Bonbons Kyurem + 30 Bonbons Reshiram. L'Énergie fusion Brasier s'obtient dans les Raids Kyurem Blanc. La séparation est gratuite, mais refusionner coûte à nouveau. Un Pokémon fusionné ne peut pas être échangé. Si Kyurem connaît Ère Glaciaire, l'attaque devient Feu Glacé une fois fusionné et redevient Ère Glaciaire à la séparation.",
+    "de": "Kyurem mit Reshiram fusionieren: 1.000 Brand-Fusionsenergie + 30 Kyurem-Bonbons + 30 Reshiram-Bonbons. Brand-Fusionsenergie gibt es in Weißes Kyurem-Raids. Trennen ist kostenlos, erneutes Fusionieren kostet wieder. Fusionierte Pokémon können nicht getauscht werden. Beherrscht Kyurem Eiszeit, wird daraus bei der Fusion Frosthauch; beim Trennen wieder Eiszeit.",
+    "es": "Fusiona a Kyurem con Reshiram: 1000 de Energía Fusión Llama + 30 caramelos de Kyurem + 30 caramelos de Reshiram. La Energía Fusión Llama se consigue en incursiones de Kyurem Blanco. Separarlos es gratis, pero volver a fusionarlos cuesta otra vez. No se pueden intercambiar fusionados. Si Kyurem conoce Mundo Gélido, pasa a ser Llama Gélida al fusionarse y vuelve a Mundo Gélido al separarse.",
+    "it": "Fondi Kyurem con Reshiram: 1.000 Energia fusione piro + 30 caramelle Kyurem + 30 caramelle Reshiram. L'Energia fusione piro si ottiene nei raid di Kyurem Bianco. Separarli è gratis, ma fonderli di nuovo costa di nuovo. I Pokémon fusi non si possono scambiare. Se Kyurem conosce Gelamondo, diventa Vampagelida con la fusione e torna Gelamondo quando si separa."
+   },
+   "agree": [
+    "leekduck",
+    "official",
+    "bulbapedia",
+    "gamemaster"
+   ]
+  },
+  {
+   "dex": 800,
+   "formId": "dusk_mane",
+   "fromForm": "normal",
+   "partnerDex": 791,
+   "signatureMoves": [
+    "sunsteel_strike"
+   ],
+   "replaces": null,
+   "how": {
+    "ko": "네크로즈마 + 솔가레오 합체: 선 에너지 1,000 + 네크로즈마 사탕 30 + 코스모그 사탕 30. 선 에너지는 네크로즈마(황혼의 갈기) 레이드에서 얻어요. 분리는 무료지만 다시 합체하면 비용이 또 들어요. 합체한 상태로는 교환할 수 없어요. 합체하면 메테오드라이브를 자동으로 배워요(기술머신으로는 못 배워요).",
+    "ja": "ネクロズマとソルガレオが合体：サンエナジー 1,000 ＋ ネクロズマのアメ30 ＋ コスモッグのアメ30。サンエナジーはネクロズマ(たそがれのたてがみ)のレイドで入手。分離は無料ですが、もう一度合体するとまたコストがかかります。合体中は交換できません。 合体するとメテオドライブを自動で覚えます（わざマシンでは覚えません）。",
+    "en": "Fuse Necrozma with Solgaleo: 1,000 Solar Fusion Energy + 30 Necrozma Candy + 30 Cosmog Candy. Get Solar Fusion Energy from Necrozma (Dusk Mane) raids. Separating is free, but fusing again costs the same again. Fused Pokémon can't be traded. Learns Sunsteel Strike automatically when fused (not via TM).",
+    "zh-Hant": "奈克洛茲瑪與索爾迦雷歐合體：太陽能量 1,000 ＋ 奈克洛茲瑪糖果30 ＋ 科斯莫古糖果30。太陽能量可在奈克洛茲瑪(黃昏之鬃)團體戰取得。分離免費，但再次合體需要再付一次。合體狀態無法交換。 合體後會自動學會流星閃衝（無法用招式學習器學會）。",
+    "zh-Hans": "奈克洛兹玛与索尔迦雷欧合体：太阳能量 1,000 ＋ 奈克洛兹玛糖果30 ＋ 科斯莫古糖果30。太阳能量可在奈克洛兹玛(黄昏之鬃)团体战取得。分离免费，但再次合体需要再付一次。合体状态无法交换。 合体后会自动学会流星闪冲（无法用招式学习器学会）。",
+    "fr": "Fusionnez Necrozma avec Solgaleo : 1 000 Énergie fusion solaire + 30 Bonbons Necrozma + 30 Bonbons Cosmog. L'Énergie fusion solaire s'obtient dans les Raids Necrozma (Crinière du Couchant). La séparation est gratuite, mais refusionner coûte à nouveau. Un Pokémon fusionné ne peut pas être échangé. Apprend Choc Météore automatiquement une fois fusionné (pas avec une CT).",
+    "de": "Necrozma mit Solgaleo fusionieren: 1.000 Solar-Fusionsenergie + 30 Necrozma-Bonbons + 30 Cosmog-Bonbons. Solar-Fusionsenergie gibt es in Necrozma (Abendmähne)-Raids. Trennen ist kostenlos, erneutes Fusionieren kostet wieder. Fusionierte Pokémon können nicht getauscht werden. Erlernt Stahlgestirn automatisch bei der Fusion (nicht per TM).",
+    "es": "Fusiona a Necrozma con Solgaleo: 1000 de Energía Fusión Solar + 30 caramelos de Necrozma + 30 caramelos de Cosmog. La Energía Fusión Solar se consigue en incursiones de Necrozma (Melena Crepuscular). Separarlos es gratis, pero volver a fusionarlos cuesta otra vez. No se pueden intercambiar fusionados. Aprende Meteoimpacto automáticamente al fusionarse (no con MT).",
+    "it": "Fondi Necrozma con Solgaleo: 1.000 Energia fusione solare + 30 caramelle Necrozma + 30 caramelle Cosmog. L'Energia fusione solare si ottiene nei raid di Necrozma (Criniera del Vespro). Separarli è gratis, ma fonderli di nuovo costa di nuovo. I Pokémon fusi non si possono scambiare. Impara Astrocarica automaticamente con la fusione (non con MT)."
+   },
+   "agree": [
+    "leekduck",
+    "gohub",
+    "official",
+    "gamemaster"
+   ]
+  },
+  {
+   "dex": 800,
+   "formId": "dawn_wings",
+   "fromForm": "normal",
+   "partnerDex": 792,
+   "signatureMoves": [
+    "moongeist_beam"
+   ],
+   "replaces": null,
+   "how": {
+    "ko": "네크로즈마 + 루나아라 합체: 문 에너지 1,000 + 네크로즈마 사탕 30 + 코스모그 사탕 30. 문 에너지는 네크로즈마(새벽의 날개) 레이드에서 얻어요. 분리는 무료지만 다시 합체하면 비용이 또 들어요. 합체한 상태로는 교환할 수 없어요. 합체하면 섀도레이를 자동으로 배워요(기술머신으로는 못 배워요).",
+    "ja": "ネクロズマとルナアーラが合体：ムーンエナジー 1,000 ＋ ネクロズマのアメ30 ＋ コスモッグのアメ30。ムーンエナジーはネクロズマ(あかつきのつばさ)のレイドで入手。分離は無料ですが、もう一度合体するとまたコストがかかります。合体中は交換できません。 合体するとシャドーレイを自動で覚えます（わざマシンでは覚えません）。",
+    "en": "Fuse Necrozma with Lunala: 1,000 Lunar Fusion Energy + 30 Necrozma Candy + 30 Cosmog Candy. Get Lunar Fusion Energy from Necrozma (Dawn Wings) raids. Separating is free, but fusing again costs the same again. Fused Pokémon can't be traded. Learns Moongeist Beam automatically when fused (not via TM).",
+    "zh-Hant": "奈克洛茲瑪與露奈雅拉合體：月亮能量 1,000 ＋ 奈克洛茲瑪糖果30 ＋ 科斯莫古糖果30。月亮能量可在奈克洛茲瑪(拂曉之翼)團體戰取得。分離免費，但再次合體需要再付一次。合體狀態無法交換。 合體後會自動學會暗影之光（無法用招式學習器學會）。",
+    "zh-Hans": "奈克洛兹玛与露奈雅拉合体：月亮能量 1,000 ＋ 奈克洛兹玛糖果30 ＋ 科斯莫古糖果30。月亮能量可在奈克洛兹玛(拂晓之翼)团体战取得。分离免费，但再次合体需要再付一次。合体状态无法交换。 合体后会自动学会暗影之光（无法用招式学习器学会）。",
+    "fr": "Fusionnez Necrozma avec Lunala : 1 000 Énergie fusion lunaire + 30 Bonbons Necrozma + 30 Bonbons Cosmog. L'Énergie fusion lunaire s'obtient dans les Raids Necrozma (Ailes de l’Aurore). La séparation est gratuite, mais refusionner coûte à nouveau. Un Pokémon fusionné ne peut pas être échangé. Apprend Rayon Spectral automatiquement une fois fusionné (pas avec une CT).",
+    "de": "Necrozma mit Lunala fusionieren: 1.000 Lunar-Fusionsenergie + 30 Necrozma-Bonbons + 30 Cosmog-Bonbons. Lunar-Fusionsenergie gibt es in Necrozma (Morgenschwingen)-Raids. Trennen ist kostenlos, erneutes Fusionieren kostet wieder. Fusionierte Pokémon können nicht getauscht werden. Erlernt Schattenstrahl automatisch bei der Fusion (nicht per TM).",
+    "es": "Fusiona a Necrozma con Lunala: 1000 de Energía Fusión Lunar + 30 caramelos de Necrozma + 30 caramelos de Cosmog. La Energía Fusión Lunar se consigue en incursiones de Necrozma (Alas del Alba). Separarlos es gratis, pero volver a fusionarlos cuesta otra vez. No se pueden intercambiar fusionados. Aprende Rayo Umbrío automáticamente al fusionarse (no con MT).",
+    "it": "Fondi Necrozma con Lunala: 1.000 Energia fusione lunare + 30 caramelle Necrozma + 30 caramelle Cosmog. L'Energia fusione lunare si ottiene nei raid di Necrozma (Ali dell'Aurora). Separarli è gratis, ma fonderli di nuovo costa di nuovo. I Pokémon fusi non si possono scambiare. Impara Raggio d’Ombra automaticamente con la fusione (non con MT)."
+   },
+   "agree": [
+    "leekduck",
+    "gohub",
+    "official",
+    "gamemaster"
+   ]
+  }
+ ],
+ "gmax": [
+  {
+   "dex": 3,
+   "name": {
+    "ko": "거다이편달",
+    "ja": "キョダイベンタツ",
+    "en": "G-Max Vine Lash",
+    "zh-Hant": "超極巨灰飛鞭滅",
+    "fr": "Fouet G-Max",
+    "de": "Giga-Geißel",
+    "es": "Gigalianas",
+    "it": "Gigasferzata",
+    "zh-Hans": "超极巨灰飞鞭灭"
+   },
+   "type": "grass",
+   "power": [
+    350,
+    400,
+    450
+   ]
+  },
+  {
+   "dex": 6,
+   "name": {
+    "ko": "거다이옥염",
+    "ja": "キョダイゴクエン",
+    "en": "G-Max Wildfire",
+    "zh-Hant": "超極巨地獄滅焰",
+    "fr": "Fournaise G-Max",
+    "de": "Giga-Feuerflug",
+    "es": "Gigallamarada",
+    "it": "Gigavampa",
+    "zh-Hans": "超极巨地狱灭焰"
+   },
+   "type": "fire",
+   "power": [
+    350,
+    400,
+    450
+   ]
+  },
+  {
+   "dex": 9,
+   "name": {
+    "ko": "거다이포격",
+    "ja": "キョダイホウゲキ",
+    "en": "G-Max Cannonade",
+    "zh-Hant": "超極巨水砲轟滅",
+    "fr": "Canonnade G-Max",
+    "de": "Giga-Beschuss",
+    "es": "Gigacañonazo",
+    "it": "Gigacannonata",
+    "zh-Hans": "超极巨水炮轰灭"
+   },
+   "type": "water",
+   "power": [
+    350,
+    400,
+    450
+   ]
+  },
+  {
+   "dex": 94,
+   "name": {
+    "ko": "거다이환영",
+    "ja": "キョダイゲンエイ",
+    "en": "G-Max Terror",
+    "zh-Hant": "超極巨幻影幽魂",
+    "fr": "Hantise G-Max",
+    "de": "Giga-Spuksperre",
+    "es": "Gigaaparición",
+    "it": "Gigaillusione",
+    "zh-Hans": "超极巨幻影幽魂"
+   },
+   "type": "ghost",
+   "power": [
+    350,
+    400,
+    450
+   ]
+  },
+  {
+   "dex": 849,
+   "name": {
+    "ko": "거다이감전",
+    "ja": "キョダイカンデン",
+    "en": "G-Max Stun Shock",
+    "zh-Hant": "超極巨異毒電場",
+    "fr": "Choc G-Max",
+    "de": "Giga-Voltschlag",
+    "es": "Gigadescarga",
+    "it": "Gigatoxiscossa",
+    "zh-Hans": "超极巨异毒电场"
+   },
+   "type": "electric",
+   "power": [
+    350,
+    400,
+    450
+   ]
+  },
+  {
+   "dex": 131,
+   "name": {
+    "ko": "거다이선율",
+    "ja": "キョダイセンリツ",
+    "en": "G-Max Resonance",
+    "zh-Hant": "超極巨極光旋律",
+    "fr": "Résonance G-Max",
+    "de": "Giga-Melodie",
+    "es": "Gigamelodía",
+    "it": "Gigamelodia",
+    "zh-Hans": "超极巨极光旋律"
+   },
+   "type": "ice",
+   "power": [
+    350,
+    400,
+    450
+   ]
+  },
+  {
+   "dex": 99,
+   "name": {
+    "ko": "거다이포말",
+    "ja": "キョダイホウマツ",
+    "en": "G-Max Foam Burst",
+    "zh-Hant": "超極巨激漩泡渦",
+    "fr": "Bulles G-Max",
+    "de": "Giga-Schaumbad",
+    "es": "Gigaespuma",
+    "it": "Gigaschiuma",
+    "zh-Hans": "超极巨激漩泡涡"
+   },
+   "type": "water",
+   "power": [
+    350,
+    400,
+    450
+   ]
+  },
+  {
+   "dex": 143,
+   "name": {
+    "ko": "거다이재생",
+    "ja": "キョダイサイセイ",
+    "en": "G-Max Replenish",
+    "zh-Hant": "超極巨資源再生",
+    "fr": "Récolte G-Max",
+    "de": "Giga-Recycling",
+    "es": "Gigarreciclaje",
+    "it": "Gigarinnovamento",
+    "zh-Hans": "超极巨资源再生"
+   },
+   "type": "normal",
+   "power": [
+    350,
+    400,
+    450
+   ]
+  },
+  {
+   "dex": 68,
+   "name": {
+    "ko": "거다이회심격",
+    "ja": "キョダイシンゲキ",
+    "en": "G-Max Chi Strike",
+    "zh-Hant": "超極巨會心一擊",
+    "fr": "Frappe G-Max",
+    "de": "Giga-Fokusschlag",
+    "es": "Gigapuñición",
+    "it": "Gigapugnointuito",
+    "zh-Hans": "超极巨会心一击"
+   },
+   "type": "fighting",
+   "power": [
+    350,
+    400,
+    450
+   ]
+  },
+  {
+   "dex": 812,
+   "name": {
+    "ko": "거다이난타",
+    "ja": "キョダイコランダ",
+    "en": "G-Max Drum Solo",
+    "zh-Hant": "超極巨狂擂亂打",
+    "fr": "Percussion G-Max",
+    "de": "Giga-Getrommel",
+    "es": "Gigarredoble",
+    "it": "Gigarullio",
+    "zh-Hans": "超极巨狂擂乱打"
+   },
+   "type": "grass",
+   "power": [
+    350,
+    400,
+    450
+   ]
+  },
+  {
+   "dex": 815,
+   "name": {
+    "ko": "거다이화염구",
+    "ja": "キョダイカキュウ",
+    "en": "G-Max Fireball",
+    "zh-Hant": "超極巨破陣火球",
+    "fr": "Pyroball G-Max",
+    "de": "Giga-Brandball",
+    "es": "Gigaesfera Ígnea",
+    "it": "Gigafiammopalla",
+    "zh-Hans": "超极巨破阵火球"
+   },
+   "type": "fire",
+   "power": [
+    350,
+    400,
+    450
+   ]
+  },
+  {
+   "dex": 818,
+   "name": {
+    "ko": "거다이저격",
+    "ja": "キョダイソゲキ",
+    "en": "G-Max Hydrosnipe",
+    "zh-Hant": "超極巨狙擊神射",
+    "fr": "Gâchette G-Max",
+    "de": "Giga-Schütze",
+    "es": "Gigadisparo",
+    "it": "Gigasparomirato",
+    "zh-Hans": "超极巨狙击神射"
+   },
+   "type": "water",
+   "power": [
+    350,
+    400,
+    450
+   ]
+  },
+  {
+   "dex": 12,
+   "name": {
+    "ko": "거다이고혹",
+    "ja": "キョダイコワク",
+    "en": "G-Max Befuddle",
+    "zh-Hant": "超極巨蝶影蠱惑",
+    "fr": "Illusion G-Max",
+    "de": "Giga-Benebelung",
+    "es": "Gigaestupor",
+    "it": "Gigastupore",
+    "zh-Hans": "超极巨蝶影蛊惑"
+   },
+   "type": "bug",
+   "power": [
+    350,
+    400,
+    450
+   ]
+  },
+  {
+   "dex": 569,
+   "name": {
+    "ko": "거다이악취",
+    "ja": "キョダイシュウキ",
+    "en": "G-Max Malodor",
+    "zh-Hant": "超極巨臭氣沖天",
+    "fr": "Pestilence G-Max",
+    "de": "Giga-Gestank",
+    "es": "Gigapestilencia",
+    "it": "Gigafetore",
+    "zh-Hans": "超极巨臭气冲天"
+   },
+   "type": "poison",
+   "power": [
+    350,
+    400,
+    450
+   ]
+  },
+  {
+   "dex": 861,
+   "name": {
+    "ko": "거다이수마",
+    "ja": "キョダイスイマ",
+    "en": "G-Max Snooze",
+    "zh-Hant": "超極巨睡魔降臨",
+    "fr": "Torpeur G-Max",
+    "de": "Giga-Gähnzwang",
+    "es": "Gigasopor",
+    "it": "Gigatorpore",
+    "zh-Hans": "超极巨睡魔降临"
+   },
+   "type": "dark",
+   "power": [
+    350,
+    400,
+    450
+   ]
+  },
+  {
+   "dex": 52,
+   "name": {
+    "ko": "거다이금화",
+    "ja": "キョダイコバン",
+    "en": "G-Max Gold Rush",
+    "zh-Hant": "超極巨特大金幣",
+    "fr": "Pactole G-Max",
+    "de": "Giga-Münzregen",
+    "es": "Gigamonedas",
+    "it": "Gigamonete",
+    "zh-Hans": "超极巨特大金币"
+   },
+   "type": "normal",
+   "power": [
+    350,
+    400,
+    450
+   ]
+  },
+  {
+   "dex": 25,
+   "name": {
+    "ko": "거다이만뢰",
+    "ja": "キョダイバンライ",
+    "en": "G-Max Volt Crash",
+    "zh-Hant": "超極巨萬雷轟頂",
+    "fr": "Foudre G-Max",
+    "de": "Giga-Blitzhagel",
+    "es": "Gigatronada",
+    "it": "Gigapikafolgori",
+    "zh-Hans": "超极巨万雷轰顶"
+   },
+   "type": "electric",
+   "power": [
+    350,
+    400,
+    450
+   ]
+  },
+  {
+   "dex": 884,
+   "name": {
+    "ko": "거다이감쇠",
+    "ja": "キョダイゲンスイ",
+    "en": "G-Max Depletion",
+    "zh-Hant": "超極巨劣化衰變",
+    "fr": "Usure G-Max",
+    "de": "Giga-Dämpfer",
+    "es": "Gigadesgaste",
+    "it": "Gigalogoramento",
+    "zh-Hans": "超极巨劣化衰变"
+   },
+   "type": "dragon",
+   "power": [
+    350,
+    400,
+    450
+   ]
+  }
+ ],
+ "maxMovePower": [
+  250,
+  300,
+  350
+ ]
+}

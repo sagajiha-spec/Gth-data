@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "publishedAt": "2026-11-22T10:13:19Z",
+ "publishedAt": "2026-11-22T12:07:50Z",
  "minAppVersion": "1.0.0",
  "files": [
   {
@@ -42,6 +42,11 @@
    "path": "research.json",
    "version": 2,
    "sha256": "775e9a1f9c2da91ac860d749484a6904d2c184b2a2b3b666b7fee1e1fa3bf8ec"
+  },
+  {
+   "path": "form_moves.json",
+   "version": 1,
+   "sha256": "724d9a8faa0bcd8cf1c9ad64f277bdc287229874235ea4676a70009f65dd2f68"
   }
  ]
 }
