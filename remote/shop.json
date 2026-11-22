@@ -1,7 +1,7 @@
 {
  "schemaVersion": 3,
- "updatedAt": "2026-11-20T00:00:00Z",
- "_comment": "상점 로테이션 박스 목록. 가격은 게임 내 화폐 기준(화면에도 화폐 이름은 표시하지 않음). 패스 1개당 = priceCurrency ÷ (리모트+프리미엄 수). recurring=true는 자주 다시 들어오는 박스",
+ "updatedAt": "2026-11-22T00:00:00Z",
+ "_comment": "상점 로테이션 박스 목록. 가격은 게임 내 화폐 기준(화면에도 화폐 이름은 표시하지 않음). 패스 1개당 = priceCurrency ÷ (리모트+프리미엄 수). recurring=true는 자주 다시 들어오는 박스 | until(현지 시각)이 지나거나 ended=true면 앱에서 숨김. 이벤트 박스는 판매 기간을 확인해서 until을 적을 것",
  "fixedItems": [
   {
    "itemId": "item_remote_raid_ticket",
@@ -80,9 +80,10 @@
     }
    ],
    "note": {
-    "ko": "2026 이벤트 (마스터 레이드 박스로도 판매)"
+    "ko": "GO Tour 칼로스·GO Fest 2026·메가 피날레 이벤트 한정 · 정확한 종료일 미확인"
    },
-   "recurring": false
+   "recurring": false,
+   "ended": true
   },
   {
    "id": "pbp6",
@@ -164,9 +165,10 @@
     }
    ],
    "note": {
-    "ko": "2026년 1월 슈퍼 메가 레이드 데이"
+    "ko": "대여르 슈퍼 메가 레이드 데이(5/23) 등 이벤트 한정 · 정확한 종료일 미확인"
    },
-   "recurring": false
+   "recurring": false,
+   "ended": true
   },
   {
    "id": "raid",
@@ -185,9 +187,10 @@
     }
    ],
    "note": {
-    "ko": "2026 이벤트"
+    "ko": "샹델라 슈퍼 메가 레이드 데이 (10/31)"
    },
-   "recurring": false
+   "recurring": false,
+   "until": "2026-10-31T23:59:00"
   },
   {
    "id": "wa_boost",
@@ -197,9 +200,10 @@
    "price": 525,
    "contents": [],
    "note": {
-    "ko": "와일드 에어리어 2026 · 구성 확인 필요"
+    "ko": "GO 와일드 에어리어 2026 글로벌 (11/14~15)"
    },
-   "recurring": false
+   "recurring": false,
+   "until": "2026-11-15T23:59:00"
   },
   {
    "id": "wa_battler",
@@ -209,9 +213,10 @@
    "price": 775,
    "contents": [],
    "note": {
-    "ko": "와일드 에어리어 2026 · 구성 확인 필요"
+    "ko": "GO 와일드 에어리어 2026 글로벌 (11/14~15)"
    },
-   "recurring": false
+   "recurring": false,
+   "until": "2026-11-15T23:59:00"
   },
   {
    "id": "wa_hatcher",
@@ -221,9 +226,10 @@
    "price": 1800,
    "contents": [],
    "note": {
-    "ko": "와일드 에어리어 2026 · 구성 확인 필요"
+    "ko": "GO 와일드 에어리어 2026 글로벌 (11/14~15)"
    },
-   "recurring": false
+   "recurring": false,
+   "until": "2026-11-15T23:59:00"
   },
   {
    "id": "wa_ultimate",
@@ -233,9 +239,10 @@
    "price": 3700,
    "contents": [],
    "note": {
-    "ko": "와일드 에어리어 2026 · 구성 확인 필요"
+    "ko": "GO 와일드 에어리어 2026 글로벌 (11/14~15)"
    },
-   "recurring": false
+   "recurring": false,
+   "until": "2026-11-15T23:59:00"
   },
   {
    "id": "daily",
@@ -252,7 +259,9 @@
  ],
  "sources": [
   "https://pokemongo.fandom.com/wiki/List_of_shop_special_offers_and_promotions/2026",
+  "https://pokemongohub.net/post/event/wild-area-2026-global/",
   "https://pokestealordeal.com/en/best-boxes/",
-  "https://pokexperience.com/raid-passes/"
+  "https://pokexperience.com/raid-passes/",
+  "https://serebii.net/pokemongo/events/gowildarea2026global.shtml"
  ]
 }

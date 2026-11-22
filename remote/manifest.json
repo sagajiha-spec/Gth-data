@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "publishedAt": "2026-11-22T04:41:46Z",
+ "publishedAt": "2026-11-22T05:03:32Z",
  "minAppVersion": "1.0.0",
  "files": [
   {
@@ -25,8 +25,8 @@
   },
   {
    "path": "shop.json",
-   "version": 3,
-   "sha256": "558cfdc906b7184221aec729260f2e7c78947e63dd747ddac14bf992c970e8d8"
+   "version": 4,
+   "sha256": "62aca012769779cac5c86a965f9a1c1d8a9642863ea609b4032b552345f46133"
   },
   {
    "path": "rocket.json",
@@ -35,8 +35,8 @@
   },
   {
    "path": "eggs.json",
-   "version": 1,
-   "sha256": "8719a9ba8eec4e2cb58083c88c09bf7035328cb8ba344361053c3260a03e7fa4"
+   "version": 2,
+   "sha256": "92966e50158504080c9637153c7ad1bc12888caa5a2e879a184917c8822fcfe4"
   },
   {
    "path": "research.json",
