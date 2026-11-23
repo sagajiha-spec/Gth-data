@@ -423,7 +423,7 @@
  },
  "contactEmail": "",
  "_contactEmailComment": "설정 > 문의하기에 표시할 이메일. 비어 있으면 \"이메일 주소 입력 예정\" 표시, 채우면 누를 때 메일 앱 열기",
- "privacyPolicyUrl": "",
+ "privacyPolicyUrl": "https://sagajiha-spec.github.io/gth-data/privacy.html",
  "_privacyPolicyUrlComment": "개인정보처리방침 주소 (Play 등록 필수, AdMob 사용). 비어 있으면 설정에서 \"주소 입력 예정\" 표시",
  "alarmPolicy": {
   "mode": "inexact",

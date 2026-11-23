@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "publishedAt": "2026-11-22T22:58:29Z",
+ "publishedAt": "2026-11-23T00:36:45Z",
  "minAppVersion": "1.0.0",
  "files": [
   {
@@ -15,8 +15,8 @@
   },
   {
    "path": "config.json",
-   "version": 7,
-   "sha256": "a6e2412e04a5ff5c37365a1bbdbc5dc023b68cf3577b1fade5e2d03e411eb838"
+   "version": 8,
+   "sha256": "16e9054fd4ad8df34e6080e9a453dd71f4e1cf72d3fecfd91cd9575a99688bb4"
   },
   {
    "path": "footnotes_remote.json",
