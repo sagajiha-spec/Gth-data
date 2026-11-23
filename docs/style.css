@@ -1,0 +1,7 @@
+:root{--bg:#f4f5f8;--card:#fff;--text:#15171c;--sub:#4a505c;--accent:#2f5bea;--line:#e4e6eb}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1424;--card:#18213a;--text:#f3f6ff;--sub:#b8c3e3;--accent:#52e5ff;--line:#33426a}}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,"Noto Sans KR",sans-serif}
+#app{max-width:760px;margin:0 auto;padding:20px 16px 48px}
+.langs{font-size:14px;color:var(--sub);margin-bottom:12px}
+a{color:var(--accent)}h1{font-size:24px;margin:8px 0 4px}h2{font-size:18px;margin:24px 0 6px}
+.upd{color:var(--sub);font-size:13px;margin:0 0 12px}ul{padding-left:20px}li{margin:4px 0}
