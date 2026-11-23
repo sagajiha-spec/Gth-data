@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "updatedAt": "2026-11-23T01:50:02Z",
+ "updatedAt": "2026-11-23T02:03:53Z",
  "_comment": "자동 생성 파일 — 직접 고치지 말고 schedule/events.json·raids.json을 고친 뒤 tools/build_schedule.py 실행. title은 9개 언어, label은 종류 이름.",
  "events": [
   {
@@ -146,7 +146,6 @@
      "it": "Grado 100: Latias (gratis) / Deluxe: Portafortuna"
     }
    ],
-   "passPrice": "US$7.99",
    "passClaim": "2026-09-10 10:00"
   },
   {
@@ -281,7 +280,6 @@
      "it": "Grado 100: Latios (gratis) / Deluxe: XP ×25,000"
     }
    ],
-   "passPrice": "US$7.99",
    "passClaim": "2026-10-08 10:00"
   },
   {
@@ -570,7 +568,6 @@
     }
    ],
    "passDeluxe": [],
-   "passPrice": "US$4.99",
    "passClaim": "2026-10-07 20:00"
   },
   {
@@ -705,7 +702,6 @@
      "it": "Grado 100: Kyogre (gratis) / Deluxe: Portafortuna"
     }
    ],
-   "passPrice": "US$7.99",
    "passClaim": "2026-11-05 10:00"
   },
   {
@@ -797,7 +793,6 @@
      "it": "Deluxe: 3× Caramelle per cattura / 3× Polvere di stelle per cattura"
     }
    ],
-   "passPrice": "US$7.99",
    "passClaim": "2026-11-07 20:00"
   },
   {
@@ -922,7 +917,6 @@
      "it": "Potenziamento Deluxe — Livello 2 (Grado 25): Apri fino a 50 Pacchi amicizia al giorno, ricevine fino a 150 al giorno dai Photo Disc di PokéStop e Palestre, conserva 20 Pacchi in più nella Borsa"
     }
    ],
-   "passPrice": "US$7.99",
    "passClaim": "2026-12-03 10:00"
   },
   {
@@ -1025,7 +1019,6 @@
      "it": "Bonus Deluxe: +5.000 PE e +5.000 Polvere per raid, costo ¾ Particelle Dynamax, Caramelle extra… (GO Hub)"
     }
    ],
-   "passPrice": "US$14.99",
    "passClaim": "2026-11-17 23:59"
   },
   {
@@ -1564,7 +1557,6 @@
     }
    ],
    "passDeluxe": [],
-   "passPrice": "US$4.99",
    "passClaim": "2026-11-25 20:00"
   },
   {
@@ -3229,7 +3221,6 @@
      "it": "Deluxe: 3× Polvere di stelle per cattura"
     }
    ],
-   "passPrice": "US$4.99",
    "passClaim": "2026-12-02 20:00"
   },
   {

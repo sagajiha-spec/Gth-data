@@ -1,17 +1,17 @@
 {
  "schemaVersion": 2,
- "publishedAt": "2026-11-23T01:50:03Z",
+ "publishedAt": "2026-11-23T02:03:53Z",
  "minAppVersion": "1.0.0",
  "files": [
   {
    "path": "events.json",
-   "version": 17,
-   "sha256": "2ae09fc8a4a90e151f1a982a9117af726ca8b213a4a46788241912d91d8752d5"
+   "version": 18,
+   "sha256": "4e0e38264f1904103b753c6a0ae4c5fc36911b76d9e00d7f84b549f2c389f47b"
   },
   {
    "path": "raids.json",
-   "version": 19,
-   "sha256": "e011b61c2d22197a8c763498354723c2f94d7423c1a23437321694d099c4de58"
+   "version": 20,
+   "sha256": "afeaec1ea200a0af1985710346562246b6320cad9a041f820bf2154aa4182abd"
   },
   {
    "path": "config.json",
@@ -62,6 +62,11 @@
    "path": "themes.json",
    "version": 2,
    "sha256": "4918ec0c275cdcaf412b97dcd0ba3d36c8c408d2770a8bfd22e888bd8267b8d0"
+  },
+  {
+   "path": "trade_rules.json",
+   "version": 1,
+   "sha256": "fd070b2e406ba69ae8d8afa2eade70277485bf6f621ffef72603d6269a9dc511"
   }
  ]
 }
