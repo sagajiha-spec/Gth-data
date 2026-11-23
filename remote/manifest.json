@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "publishedAt": "2026-11-23T02:03:53Z",
+ "publishedAt": "2026-11-23T04:38:07Z",
  "minAppVersion": "1.0.0",
  "files": [
   {
@@ -60,8 +60,8 @@
   },
   {
    "path": "themes.json",
-   "version": 2,
-   "sha256": "4918ec0c275cdcaf412b97dcd0ba3d36c8c408d2770a8bfd22e888bd8267b8d0"
+   "version": 3,
+   "sha256": "a3b25b01616d14669fda4934fe94f48525d6e75f4233882655e766652d28f83f"
   },
   {
    "path": "trade_rules.json",
