@@ -30,7 +30,8 @@
   "navSelectedText": "고른 탭 글자(없으면 text)",
   "headerBorder": "상단 바 아래 선 굵기",
   "headerBorderColor": "상단 바 아래 선 색(없으면 line)",
-  "card": "카드 모양 {border 굵기, borderColor, dashed 점선, shadow{x,y,blur,color}, tape 마스킹테이프 색, shine 반짝 빛, innerBottom 아래 안쪽 그림자}"
+  "card": "카드 모양 {border 굵기, borderColor, dashed 점선, shadow{x,y,blur,color}, tape 마스킹테이프 색, shine 반짝 빛, innerBottom 아래 안쪽 그림자}",
+  "titleScale": "제목 글꼴 크기 배율 (기본 1)"
  },
  "themes": {
   "white": {
@@ -202,7 +203,8 @@
     "borderColor": "#B9C3D3",
     "dashed": true,
     "tape": "#E8738A73"
-   }
+   },
+   "titleScale": 1.3
   },
   "green": {
    "name": {
@@ -226,9 +228,9 @@
    "tint": "#DCEBC8",
    "accent2": "#B4651F",
    "accent3": "#7A5BB0",
-   "header": "#5E8C3A",
+   "header": "#4A7330",
    "headerText": "#FFF9EC",
-   "navBg": "#5E8C3A",
+   "navBg": "#4A7330",
    "navText": "#E4EEDC",
    "navIndicator": "#86B35F",
    "navSelectedText": "#FFF9EC",
