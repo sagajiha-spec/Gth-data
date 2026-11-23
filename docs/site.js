@@ -1,4 +1,4 @@
-// Go Trainer Helper 안내 페이지 공통: 언어 고르기 (주소 ?lang=ko 또는 기기 언어)
+// Trainer Note(트레이너 노트) 안내 페이지 공통: 언어 고르기 (주소 ?lang=ko 또는 기기 언어)
 const LANGS = ["ko","ja","en","zh-Hant","zh-Hans","fr","de","es","it"];
 const LANG_NAMES = {"ko":"한국어","ja":"日本語","en":"English","zh-Hant":"繁體中文","zh-Hans":"简体中文","fr":"Français","de":"Deutsch","es":"Español","it":"Italiano"};
 // 문의 메일: 앱 전용 이메일이 정해지면 여기만 바꾸면 됨

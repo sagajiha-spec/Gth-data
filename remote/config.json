@@ -434,7 +434,7 @@
   "enabled": true,
   "_comment": "UMP 동의 도구: 동의 대상 지역(EEA·UK 등)이면 설정 > 광고 개인정보 설정 줄을 보여 줌"
  },
- "appName": "Go Trainer Helper",
+ "appName": "Trainer Note",
  "defaultCountryByLanguage": {
   "ko": "KR",
   "ja": "JP",
