@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "updatedAt": "2026-11-22T14:52:17Z",
+ "updatedAt": "2026-11-23T01:50:02Z",
  "_comment": "자동 생성 파일 — 직접 고치지 말고 schedule/events.json·raids.json을 고친 뒤 tools/build_schedule.py 실행. title은 9개 언어, label은 종류 이름.",
  "events": [
   {
@@ -54,190 +54,100 @@
     "es": "Pase mensual gratuito para todos los Entrenadores. Gana Puntos GO con las tareas del pase para subir de rango (recompensas repetidas tras el rango 100).",
     "it": "Pass mensile gratuito per tutti gli Allenatori. Ottieni Punti GO con le attività del pass per salire di grado (ricompense ripetute dopo il grado 100)."
    },
-   "bonuses": [
+   "passFree": [
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 랭크 100: 라티아스 만남 (색이 다른 모습 가능)",
-      "ja": "🎟️ 無料 · ランク100: ラティアスと出会える（色違いの可能性あり）",
-      "en": "🎟️ Free · Rank 100: Latias encounter (may be Shiny)",
-      "zh-Hant": "🎟️ 免費 · 等級100: 拉帝亞斯相遇（有機會是異色）",
-      "zh-Hans": "🎟️ 免费 · 等级100: 拉帝亚斯相遇（有机会是异色）",
-      "fr": "🎟️ Gratuit · Rang 100: Latias : rencontre (peut être chromatique)",
-      "de": "🎟️ Gratis · Rang 100: Latias-Begegnung (kann schillernd sein)",
-      "es": "🎟️ Gratis · Rango 100: Latias: encuentro (puede ser variocolor)",
-      "it": "🎟️ Gratis · Grado 100: Latias: incontro (può essere cromatico)"
-     }
+     "ko": "랭크 100: 라티아스 만남 (색이 다른 모습 가능)",
+     "ja": "ランク100: ラティアスと出会える（色違いの可能性あり）",
+     "en": "Rank 100: Latias encounter (may be Shiny)",
+     "zh-Hant": "等級100: 拉帝亞斯相遇（有機會是異色）",
+     "zh-Hans": "等级100: 拉帝亚斯相遇（有机会是异色）",
+     "fr": "Rang 100: Latias : rencontre (peut être chromatique)",
+     "de": "Rang 100: Latias-Begegnung (kann schillernd sein)",
+     "es": "Rango 100: Latias: encuentro (puede ser variocolor)",
+     "it": "Grado 100: Latias: incontro (può essere cromatico)"
     },
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 티어 1 (랭크 1): 교환 시 사탕 1개 추가, 트레이너 레벨 31 이상은 교환 시 사탕XL 1개 확정",
-      "ja": "🎟️ 無料 · ティア1 (ランク1): 交換でアメ1個追加、トレーナーレベル31以上は交換でアメXL1個確定",
-      "en": "🎟️ Free · Tier 1 (Rank 1): One additional Candy for trading; Trainers level 31+ get one guaranteed Candy XL when trading",
-      "zh-Hant": "🎟️ 免費 · 第1階 (等級1): 交換時額外獲得1顆糖果，訓練家等級31以上交換時必定獲得1顆糖果XL",
-      "zh-Hans": "🎟️ 免费 · 第1阶 (等级1): 交换时额外获得1颗糖果，训练家等级31以上交换时必定获得1颗糖果XL",
-      "fr": "🎟️ Gratuit · Palier 1 (Rang 1): Un Bonbon supplémentaire lors des échanges ; Bonbon L garanti dès le niveau 31",
-      "de": "🎟️ Gratis · Stufe 1 (Rang 1): Ein zusätzliches Bonbon beim Tauschen; ab Level 31 ein garantiertes Bonbon XL",
-      "es": "🎟️ Gratis · Nivel 1 (Rango 1): Un Caramelo adicional al intercambiar; desde nivel 31, un Caramelo ++ asegurado",
-      "it": "🎟️ Gratis · Livello 1 (Grado 1): Una Caramella in più negli scambi; dal livello 31 una Caramella L garantita"
-     }
+     "ko": "티어 1 (랭크 1): 교환 시 사탕 1개 추가, 트레이너 레벨 31 이상은 교환 시 사탕XL 1개 확정",
+     "ja": "ティア1 (ランク1): 交換でアメ1個追加、トレーナーレベル31以上は交換でアメXL1個確定",
+     "en": "Tier 1 (Rank 1): One additional Candy for trading; Trainers level 31+ get one guaranteed Candy XL when trading",
+     "zh-Hant": "第1階 (等級1): 交換時額外獲得1顆糖果，訓練家等級31以上交換時必定獲得1顆糖果XL",
+     "zh-Hans": "第1阶 (等级1): 交换时额外获得1颗糖果，训练家等级31以上交换时必定获得1颗糖果XL",
+     "fr": "Palier 1 (Rang 1): Un Bonbon supplémentaire lors des échanges ; Bonbon L garanti dès le niveau 31",
+     "de": "Stufe 1 (Rang 1): Ein zusätzliches Bonbon beim Tauschen; ab Level 31 ein garantiertes Bonbon XL",
+     "es": "Nivel 1 (Rango 1): Un Caramelo adicional al intercambiar; desde nivel 31, un Caramelo ++ asegurado",
+     "it": "Livello 1 (Grado 1): Una Caramella in più negli scambi; dal livello 31 una Caramella L garantita"
     },
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 티어 2 (랭크 25): 선물 하루 40개까지 열기, 포켓스톱·체육관 포토 디스크에서 하루 125개까지 받기, 가방에 선물 10개 더 보관",
-      "ja": "🎟️ 無料 · ティア2 (ランク25): ギフトを1日40個まで開封、ポケストップ・ジムのフォトディスクから1日125個まで入手、バッグにギフトを10個多く保持",
-      "en": "🎟️ Free · Tier 2 (Rank 25): Open up to 40 Gifts per day, receive up to 125 Gifts per day from PokéStop and Gym Photo Discs, hold 10 more Gifts in your Item Bag",
-      "zh-Hant": "🎟️ 免費 · 第2階 (等級25): 每天最多可打開40個友情禮物、每天最多可從寶可補給站和道館的照片圓盤獲得125個、道具背包可多放10個友情禮物",
-      "zh-Hans": "🎟️ 免费 · 第2阶 (等级25): 每天最多可打开40个友情礼物、每天最多可从宝可补给站和道馆的照片圆盘获得125个、道具背包可多放10个友情礼物",
-      "fr": "🎟️ Gratuit · Palier 2 (Rang 25): Ouvrez jusqu’à 40 Cadeaux par jour, recevez jusqu’à 125 Cadeaux par jour en faisant tourner les Disques Photo des PokéStops et des Arènes, gardez 10 Cadeaux de plus dans votre Sac",
-      "de": "🎟️ Gratis · Stufe 2 (Rang 25): Bis zu 40 Geschenke pro Tag öffnen, bis zu 125 Geschenke pro Tag an Foto-Discs von PokéStops und Arenen erhalten, 10 Geschenke mehr im Beutel aufbewahren",
-      "es": "🎟️ Gratis · Nivel 2 (Rango 25): Abre hasta 40 Regalos al día, recibe hasta 125 Regalos al día de los Discos Fotográficos de Poképaradas y Gimnasios, guarda 10 Regalos más en la Mochila",
-      "it": "🎟️ Gratis · Livello 2 (Grado 25): Apri fino a 40 Pacchi amicizia al giorno, ricevine fino a 125 al giorno dai Photo Disc di PokéStop e Palestre, conserva 10 Pacchi in più nella Borsa"
-     }
+     "ko": "티어 2 (랭크 25): 선물 하루 40개까지 열기, 포켓스톱·체육관 포토 디스크에서 하루 125개까지 받기, 가방에 선물 10개 더 보관",
+     "ja": "ティア2 (ランク25): ギフトを1日40個まで開封、ポケストップ・ジムのフォトディスクから1日125個まで入手、バッグにギフトを10個多く保持",
+     "en": "Tier 2 (Rank 25): Open up to 40 Gifts per day, receive up to 125 Gifts per day from PokéStop and Gym Photo Discs, hold 10 more Gifts in your Item Bag",
+     "zh-Hant": "第2階 (等級25): 每天最多可打開40個友情禮物、每天最多可從寶可補給站和道館的照片圓盤獲得125個、道具背包可多放10個友情禮物",
+     "zh-Hans": "第2阶 (等级25): 每天最多可打开40个友情礼物、每天最多可从宝可补给站和道馆的照片圆盘获得125个、道具背包可多放10个友情礼物",
+     "fr": "Palier 2 (Rang 25): Ouvrez jusqu’à 40 Cadeaux par jour, recevez jusqu’à 125 Cadeaux par jour en faisant tourner les Disques Photo des PokéStops et des Arènes, gardez 10 Cadeaux de plus dans votre Sac",
+     "de": "Stufe 2 (Rang 25): Bis zu 40 Geschenke pro Tag öffnen, bis zu 125 Geschenke pro Tag an Foto-Discs von PokéStops und Arenen erhalten, 10 Geschenke mehr im Beutel aufbewahren",
+     "es": "Nivel 2 (Rango 25): Abre hasta 40 Regalos al día, recibe hasta 125 Regalos al día de los Discos Fotográficos de Poképaradas y Gimnasios, guarda 10 Regalos más en la Mochila",
+     "it": "Livello 2 (Grado 25): Apri fino a 40 Pacchi amicizia al giorno, ricevine fino a 125 al giorno dai Photo Disc di PokéStop e Palestre, conserva 10 Pacchi in più nella Borsa"
     },
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 티어 3 (랭크 50): 산책향로 지속 시간 2배",
-      "ja": "🎟️ 無料 · ティア3 (ランク50): おさんぽおこうの効果時間2倍",
-      "en": "🎟️ Free · Tier 3 (Rank 50): 2× Daily Adventure Incense duration",
-      "zh-Hant": "🎟️ 免費 · 第3階 (等級50): 散步小薰香效果時間2倍",
-      "zh-Hans": "🎟️ 免费 · 第3阶 (等级50): 散步小熏香效果时间2倍",
-      "fr": "🎟️ Gratuit · Palier 3 (Rang 50): Durée ×2 de l’Encens d’aventure quotidienne",
-      "de": "🎟️ Gratis · Stufe 3 (Rang 50): 2× Dauer von Täglicher Abenteuerrauch",
-      "es": "🎟️ Gratis · Nivel 3 (Rango 50): Duración ×2 del Incienso de aventura diario",
-      "it": "🎟️ Gratis · Livello 3 (Grado 50): Durata ×2 dell’Aroma avventura giornaliera"
-     }
+     "ko": "티어 3 (랭크 50): 산책향로 지속 시간 2배",
+     "ja": "ティア3 (ランク50): おさんぽおこうの効果時間2倍",
+     "en": "Tier 3 (Rank 50): 2× Daily Adventure Incense duration",
+     "zh-Hant": "第3階 (等級50): 散步小薰香效果時間2倍",
+     "zh-Hans": "第3阶 (等级50): 散步小熏香效果时间2倍",
+     "fr": "Palier 3 (Rang 50): Durée ×2 de l’Encens d’aventure quotidienne",
+     "de": "Stufe 3 (Rang 50): 2× Dauer von Täglicher Abenteuerrauch",
+     "es": "Nivel 3 (Rango 50): Duración ×2 del Incienso de aventura diario",
+     "it": "Livello 3 (Grado 50): Durata ×2 dell’Aroma avventura giornaliera"
     },
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 티어 4 (랭크 75): 알 부화 시 XP·별의모래 증가",
-      "ja": "🎟️ 無料 · ティア4 (ランク75): タマゴ孵化時のXP・ほしのすな増加",
-      "en": "🎟️ Free · Tier 4 (Rank 75): Increased XP and Stardust from hatching Eggs",
-      "zh-Hant": "🎟️ 免費 · 第4階 (等級75): 孵蛋時獲得的XP與星星沙子增加",
-      "zh-Hans": "🎟️ 免费 · 第4阶 (等级75): 孵蛋时获得的XP与星星沙子增加",
-      "fr": "🎟️ Gratuit · Palier 4 (Rang 75): Plus d’XP et de Poussière Étoile en faisant éclore des Œufs",
-      "de": "🎟️ Gratis · Stufe 4 (Rang 75): Mehr EP und Sternenstaub beim Ausbrüten von Eiern",
-      "es": "🎟️ Gratis · Nivel 4 (Rango 75): Más PX y Polvos Estelares al eclosionar Huevos",
-      "it": "🎟️ Gratis · Livello 4 (Grado 75): Più PE e Polvere di stelle dalla schiusa delle Uova"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 2026-09-05 00:00 ~ 2026-09-06 23:59: GO 포인트 하루 획득 상한 없음",
-      "ja": "🎟️ 無料 · 2026-09-05 0:00〜2026-09-06 23:59：GOポイントの1日の獲得上限なし",
-      "en": "🎟️ Free · 2026-09-05 00:00 – 2026-09-06 23:59: no daily limit on GO Points",
-      "zh-Hant": "🎟️ 免費 · 2026-09-05 00:00～2026-09-06 23:59：GO點數每日獲得無上限",
-      "zh-Hans": "🎟️ 免费 · 2026-09-05 00:00～2026-09-06 23:59：GO点数每日获得无上限",
-      "fr": "🎟️ Gratuit · 2026-09-05 00:00 – 2026-09-06 23:59 : pas de limite quotidienne de Points GO",
-      "de": "🎟️ Gratis · 2026-09-05 00:00 – 2026-09-06 23:59: kein Tageslimit für GO-Punkte",
-      "es": "🎟️ Gratis · 2026-09-05 00:00 – 2026-09-06 23:59: sin límite diario de Puntos GO",
-      "it": "🎟️ Gratis · 2026-09-05 00:00 – 2026-09-06 23:59: nessun limite giornaliero di Punti GO"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$7.99) · 반짝이 참 1개 (2026-09-13 23:59까지 사용 가능, 받은 시점과 관계없음)",
-      "ja": "💎 デラックス（有料 US$7.99） · キラチャーム 1個（受け取り時期に関係なく2026-09-13 23:59まで有効）",
-      "en": "💎 Deluxe (paid, US$7.99) · Lucky Trinket ×1 (expires 2026-09-13 23:59 regardless of when claimed)",
-      "zh-Hant": "💎 豪華版（付費 US$7.99） · 亮晶晶首飾 ×1（無論何時領取，2026-09-13 23:59失效）",
-      "zh-Hans": "💎 豪华版（付费 US$7.99） · 亮晶晶首饰 ×1（无论何时领取，2026-09-13 23:59失效）",
-      "fr": "💎 Deluxe (payant, US$7.99) · Bibelot Chance ×1 (expire le 2026-09-13 23:59, quelle que soit la date de réception)",
-      "de": "💎 Deluxe (kostenpflichtig, US$7.99) · Glücks-Klimbim ×1 (läuft am 2026-09-13 23:59 ab, egal wann erhalten)",
-      "es": "💎 Deluxe (de pago, US$7.99) · Recuerdo Suerte ×1 (caduca el 2026-09-13 23:59, sin importar cuándo se reciba)",
-      "it": "💎 Deluxe (a pagamento, US$7.99) · Portafortuna ×1 (scade il 2026-09-13 23:59, a prescindere da quando lo ricevi)"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$7.99) · 티어 1 (랭크 1): (디럭스 전용) 하루 첫 포켓스톱·체육관 회전 시 1회용 부화장치 1개",
-      "ja": "💎 デラックス（有料 US$7.99） · ティア1 (ランク1): （デラックス限定）その日最初のポケストップ・ジム回しで1回用ふかそうち1個",
-      "en": "💎 Deluxe (paid, US$7.99) · Tier 1 (Rank 1): (Deluxe only) one single-use Incubator for your first PokéStop or Gym spin of the day",
-      "zh-Hant": "💎 豪華版（付費 US$7.99） · 第1階 (等級1): （Deluxe限定）每天第一次轉動寶可補給站或道館時獲得1個一次性孵化器",
-      "zh-Hans": "💎 豪华版（付费 US$7.99） · 第1阶 (等级1): （Deluxe限定）每天第一次转动宝可补给站或道馆时获得1个一次性孵化器",
-      "fr": "💎 Deluxe (payant, US$7.99) · Palier 1 (Rang 1): (Deluxe uniquement) un Incubateur à usage unique pour le premier PokéStop ou Arène du jour",
-      "de": "💎 Deluxe (kostenpflichtig, US$7.99) · Stufe 1 (Rang 1): (Nur Deluxe) eine Einweg-Ei-Brutmaschine für den ersten PokéStop- oder Arena-Dreh des Tages",
-      "es": "💎 Deluxe (de pago, US$7.99) · Nivel 1 (Rango 1): (Solo Deluxe) una Incubadora de un uso por la primera Poképarada o Gimnasio del día",
-      "it": "💎 Deluxe (a pagamento, US$7.99) · Livello 1 (Grado 1): (Solo Deluxe) un’Incubatrice monouso per il primo PokéStop o Palestra girato del giorno"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$7.99) · 디럭스 강화 — 티어 2 (랭크 25): 선물 하루 50개까지 열기, 포켓스톱·체육관 포토 디스크에서 하루 150개까지 받기, 가방에 선물 20개 더 보관",
-      "ja": "💎 デラックス（有料 US$7.99） · デラックス強化：ティア2 (ランク25): ギフトを1日50個まで開封、ポケストップ・ジムのフォトディスクから1日150個まで入手、バッグにギフトを20個多く保持",
-      "en": "💎 Deluxe (paid, US$7.99) · Deluxe upgrade — Tier 2 (Rank 25): Open up to 50 Gifts per day, receive up to 150 Gifts per day from PokéStop and Gym Photo Discs, hold 20 more Gifts in your Item Bag",
-      "zh-Hant": "💎 豪華版（付費 US$7.99） · Deluxe強化：第2階 (等級25): 每天最多可打開50個友情禮物、每天最多可從寶可補給站和道館的照片圓盤獲得150個、道具背包可多放20個友情禮物",
-      "zh-Hans": "💎 豪华版（付费 US$7.99） · Deluxe强化：第2阶 (等级25): 每天最多可打开50个友情礼物、每天最多可从宝可补给站和道馆的照片圆盘获得150个、道具背包可多放20个友情礼物",
-      "fr": "💎 Deluxe (payant, US$7.99) · Amélioration Deluxe — Palier 2 (Rang 25): Ouvrez jusqu’à 50 Cadeaux par jour, recevez jusqu’à 150 Cadeaux par jour en faisant tourner les Disques Photo des PokéStops et des Arènes, gardez 20 Cadeaux de plus dans votre Sac",
-      "de": "💎 Deluxe (kostenpflichtig, US$7.99) · Deluxe-Verstärkung – Stufe 2 (Rang 25): Bis zu 50 Geschenke pro Tag öffnen, bis zu 150 Geschenke pro Tag an Foto-Discs von PokéStops und Arenen erhalten, 20 Geschenke mehr im Beutel aufbewahren",
-      "es": "💎 Deluxe (de pago, US$7.99) · Mejora Deluxe — Nivel 2 (Rango 25): Abre hasta 50 Regalos al día, recibe hasta 150 Regalos al día de los Discos Fotográficos de Poképaradas y Gimnasios, guarda 20 Regalos más en la Mochila",
-      "it": "💎 Deluxe (a pagamento, US$7.99) · Potenziamento Deluxe — Livello 2 (Grado 25): Apri fino a 50 Pacchi amicizia al giorno, ricevine fino a 150 al giorno dai Photo Disc di PokéStop e Palestre, conserva 20 Pacchi in più nella Borsa"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$7.99) · 랭크 100: 라티아스 (무료) / 디럭스: 반짝이 참",
-      "ja": "💎 デラックス（有料 US$7.99） · ランク100: ラティアス（無料）／デラックス：キラチャーム",
-      "en": "💎 Deluxe (paid, US$7.99) · Rank 100: Latias (free) / Deluxe: Lucky Trinket",
-      "zh-Hant": "💎 豪華版（付費 US$7.99） · 等級100: 拉帝亞斯（免費）／Deluxe：亮晶晶首飾",
-      "zh-Hans": "💎 豪华版（付费 US$7.99） · 等级100: 拉帝亚斯（免费）／Deluxe：亮晶晶首饰",
-      "fr": "💎 Deluxe (payant, US$7.99) · Rang 100: Latias (gratuit) / Deluxe : Bibelot Chance",
-      "de": "💎 Deluxe (kostenpflichtig, US$7.99) · Rang 100: Latias (gratis) / Deluxe: Glücks-Klimbim",
-      "es": "💎 Deluxe (de pago, US$7.99) · Rango 100: Latias (gratis) / Deluxe: Recuerdo Suerte",
-      "it": "💎 Deluxe (a pagamento, US$7.99) · Grado 100: Latias (gratis) / Deluxe: Portafortuna"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$7.99) · 추가 포켓몬 만남",
-      "ja": "💎 デラックス（有料 US$7.99） · 追加のポケモンとの出会い",
-      "en": "💎 Deluxe (paid, US$7.99) · Additional Pokémon encounters",
-      "zh-Hant": "💎 豪華版（付費 US$7.99） · 額外的寶可夢相遇",
-      "zh-Hans": "💎 豪华版（付费 US$7.99） · 额外的宝可梦相遇",
-      "fr": "💎 Deluxe (payant, US$7.99) · Rencontres de Pokémon supplémentaires",
-      "de": "💎 Deluxe (kostenpflichtig, US$7.99) · Zusätzliche Pokémon-Begegnungen",
-      "es": "💎 Deluxe (de pago, US$7.99) · Encuentros adicionales con Pokémon",
-      "it": "💎 Deluxe (a pagamento, US$7.99) · Incontri aggiuntivi con Pokémon"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$7.99) · 디럭스는 기간 중 언제 사도 이미 연 랭크의 보상을 받을 수 있음",
-      "ja": "💎 デラックス（有料 US$7.99） · デラックスは期間中いつ購入しても解放済みランクのリワードを受け取れる",
-      "en": "💎 Deluxe (paid, US$7.99) · Deluxe can be bought any time during the pass; rewards from already-unlocked ranks can still be claimed",
-      "zh-Hant": "💎 豪華版（付費 US$7.99） · 期間內任何時候購買Deluxe都能領取已解鎖等級的獎勵",
-      "zh-Hans": "💎 豪华版（付费 US$7.99） · 期间内任何时候购买Deluxe都能领取已解锁等级的奖励",
-      "fr": "💎 Deluxe (payant, US$7.99) · Le Deluxe peut être acheté à tout moment ; les rangs déjà atteints restent réclamables",
-      "de": "💎 Deluxe (kostenpflichtig, US$7.99) · Deluxe kann jederzeit gekauft werden; bereits erreichte Ränge bleiben einlösbar",
-      "es": "💎 Deluxe (de pago, US$7.99) · El Deluxe se puede comprar en cualquier momento; los rangos ya alcanzados se pueden reclamar",
-      "it": "💎 Deluxe (a pagamento, US$7.99) · Il Deluxe si può acquistare in qualsiasi momento; i gradi già sbloccati restano riscattabili"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "⏰ 보상 받기 마감 2026-09-10 10:00",
-      "ja": "⏰ リワード受け取り期限 2026-09-10 10:00",
-      "en": "⏰ Claim rewards by 2026-09-10 10:00",
-      "zh-Hant": "⏰ 領取獎勵期限 2026-09-10 10:00",
-      "zh-Hans": "⏰ 领取奖励期限 2026-09-10 10:00",
-      "fr": "⏰ Récupérez les récompenses avant le 2026-09-10 10:00",
-      "de": "⏰ Belohnungen abholen bis 2026-09-10 10:00",
-      "es": "⏰ Reclama las recompensas antes del 2026-09-10 10:00",
-      "it": "⏰ Riscatta le ricompense entro il 2026-09-10 10:00"
-     }
+     "ko": "티어 4 (랭크 75): 알 부화 시 XP·별의모래 증가",
+     "ja": "ティア4 (ランク75): タマゴ孵化時のXP・ほしのすな増加",
+     "en": "Tier 4 (Rank 75): Increased XP and Stardust from hatching Eggs",
+     "zh-Hant": "第4階 (等級75): 孵蛋時獲得的XP與星星沙子增加",
+     "zh-Hans": "第4阶 (等级75): 孵蛋时获得的XP与星星沙子增加",
+     "fr": "Palier 4 (Rang 75): Plus d’XP et de Poussière Étoile en faisant éclore des Œufs",
+     "de": "Stufe 4 (Rang 75): Mehr EP und Sternenstaub beim Ausbrüten von Eiern",
+     "es": "Nivel 4 (Rango 75): Más PX y Polvos Estelares al eclosionar Huevos",
+     "it": "Livello 4 (Grado 75): Più PE e Polvere di stelle dalla schiusa delle Uova"
     }
-   ]
+   ],
+   "passDeluxe": [
+    {
+     "ko": "티어 1 (랭크 1): (디럭스 전용) 하루 첫 포켓스톱·체육관 회전 시 1회용 부화장치 1개",
+     "ja": "ティア1 (ランク1): （デラックス限定）その日最初のポケストップ・ジム回しで1回用ふかそうち1個",
+     "en": "Tier 1 (Rank 1): (Deluxe only) one single-use Incubator for your first PokéStop or Gym spin of the day",
+     "zh-Hant": "第1階 (等級1): （Deluxe限定）每天第一次轉動寶可補給站或道館時獲得1個一次性孵化器",
+     "zh-Hans": "第1阶 (等级1): （Deluxe限定）每天第一次转动宝可补给站或道馆时获得1个一次性孵化器",
+     "fr": "Palier 1 (Rang 1): (Deluxe uniquement) un Incubateur à usage unique pour le premier PokéStop ou Arène du jour",
+     "de": "Stufe 1 (Rang 1): (Nur Deluxe) eine Einweg-Ei-Brutmaschine für den ersten PokéStop- oder Arena-Dreh des Tages",
+     "es": "Nivel 1 (Rango 1): (Solo Deluxe) una Incubadora de un uso por la primera Poképarada o Gimnasio del día",
+     "it": "Livello 1 (Grado 1): (Solo Deluxe) un’Incubatrice monouso per il primo PokéStop o Palestra girato del giorno"
+    },
+    {
+     "ko": "디럭스 강화 — 티어 2 (랭크 25): 선물 하루 50개까지 열기, 포켓스톱·체육관 포토 디스크에서 하루 150개까지 받기, 가방에 선물 20개 더 보관",
+     "ja": "デラックス強化：ティア2 (ランク25): ギフトを1日50個まで開封、ポケストップ・ジムのフォトディスクから1日150個まで入手、バッグにギフトを20個多く保持",
+     "en": "Deluxe upgrade — Tier 2 (Rank 25): Open up to 50 Gifts per day, receive up to 150 Gifts per day from PokéStop and Gym Photo Discs, hold 20 more Gifts in your Item Bag",
+     "zh-Hant": "Deluxe強化：第2階 (等級25): 每天最多可打開50個友情禮物、每天最多可從寶可補給站和道館的照片圓盤獲得150個、道具背包可多放20個友情禮物",
+     "zh-Hans": "Deluxe强化：第2阶 (等级25): 每天最多可打开50个友情礼物、每天最多可从宝可补给站和道馆的照片圆盘获得150个、道具背包可多放20个友情礼物",
+     "fr": "Amélioration Deluxe — Palier 2 (Rang 25): Ouvrez jusqu’à 50 Cadeaux par jour, recevez jusqu’à 150 Cadeaux par jour en faisant tourner les Disques Photo des PokéStops et des Arènes, gardez 20 Cadeaux de plus dans votre Sac",
+     "de": "Deluxe-Verstärkung – Stufe 2 (Rang 25): Bis zu 50 Geschenke pro Tag öffnen, bis zu 150 Geschenke pro Tag an Foto-Discs von PokéStops und Arenen erhalten, 20 Geschenke mehr im Beutel aufbewahren",
+     "es": "Mejora Deluxe — Nivel 2 (Rango 25): Abre hasta 50 Regalos al día, recibe hasta 150 Regalos al día de los Discos Fotográficos de Poképaradas y Gimnasios, guarda 20 Regalos más en la Mochila",
+     "it": "Potenziamento Deluxe — Livello 2 (Grado 25): Apri fino a 50 Pacchi amicizia al giorno, ricevine fino a 150 al giorno dai Photo Disc di PokéStop e Palestre, conserva 20 Pacchi in più nella Borsa"
+    },
+    {
+     "ko": "랭크 100: 라티아스 (무료) / 디럭스: 반짝이 참",
+     "ja": "ランク100: ラティアス（無料）／デラックス：キラチャーム",
+     "en": "Rank 100: Latias (free) / Deluxe: Lucky Trinket",
+     "zh-Hant": "等級100: 拉帝亞斯（免費）／Deluxe：亮晶晶首飾",
+     "zh-Hans": "等级100: 拉帝亚斯（免费）／Deluxe：亮晶晶首饰",
+     "fr": "Rang 100: Latias (gratuit) / Deluxe : Bibelot Chance",
+     "de": "Rang 100: Latias (gratis) / Deluxe: Glücks-Klimbim",
+     "es": "Rango 100: Latias (gratis) / Deluxe: Recuerdo Suerte",
+     "it": "Grado 100: Latias (gratis) / Deluxe: Portafortuna"
+    }
+   ],
+   "passPrice": "US$7.99",
+   "passClaim": "2026-09-10 10:00"
   },
   {
    "id": "go-pass-september-2026",
@@ -290,204 +200,89 @@
     "es": "Pase mensual gratuito para todos los Entrenadores. Gana Puntos GO con las tareas del pase para subir de rango (recompensas repetidas tras el rango 100).",
     "it": "Pass mensile gratuito per tutti gli Allenatori. Ottieni Punti GO con le attività del pass per salire di grado (ricompense ripetute dopo il grado 100)."
    },
-   "bonuses": [
+   "passFree": [
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 랭크 100: 라티오스 만남 (색이 다른 모습 가능)",
-      "ja": "🎟️ 無料 · ランク100: ラティオスと出会える（色違いの可能性あり）",
-      "en": "🎟️ Free · Rank 100: Latios encounter (may be Shiny)",
-      "zh-Hant": "🎟️ 免費 · 等級100: 拉帝歐斯相遇（有機會是異色）",
-      "zh-Hans": "🎟️ 免费 · 等级100: 拉帝欧斯相遇（有机会是异色）",
-      "fr": "🎟️ Gratuit · Rang 100: Latios : rencontre (peut être chromatique)",
-      "de": "🎟️ Gratis · Rang 100: Latios-Begegnung (kann schillernd sein)",
-      "es": "🎟️ Gratis · Rango 100: Latios: encuentro (puede ser variocolor)",
-      "it": "🎟️ Gratis · Grado 100: Latios: incontro (può essere cromatico)"
-     }
+     "ko": "랭크 100: 라티오스 만남 (색이 다른 모습 가능)",
+     "ja": "ランク100: ラティオスと出会える（色違いの可能性あり）",
+     "en": "Rank 100: Latios encounter (may be Shiny)",
+     "zh-Hant": "等級100: 拉帝歐斯相遇（有機會是異色）",
+     "zh-Hans": "等级100: 拉帝欧斯相遇（有机会是异色）",
+     "fr": "Rang 100: Latios : rencontre (peut être chromatique)",
+     "de": "Rang 100: Latios-Begegnung (kann schillernd sein)",
+     "es": "Rango 100: Latios: encuentro (puede ser variocolor)",
+     "it": "Grado 100: Latios: incontro (può essere cromatico)"
     },
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 이상한사탕XL, 프리미엄 배틀패스, 행복의알",
-      "ja": "🎟️ 無料 · ふしぎなアメXL, プレミアムバトルパス, しあわせタマゴ",
-      "en": "🎟️ Free · Rare Candy XL, Premium Battle Pass, Lucky Egg",
-      "zh-Hant": "🎟️ 免費 · 神奇糖果XL, 特級對戰入場券, 幸運蛋",
-      "zh-Hans": "🎟️ 免费 · 神奇糖果XL, 特级对战入场券, 幸运蛋",
-      "fr": "🎟️ Gratuit · Super Bonbon L, Passe de combat premium, Œuf Chance",
-      "de": "🎟️ Gratis · Sonderbonbon XL, Premium-Kampf-Pass, Glücks-Ei",
-      "es": "🎟️ Gratis · Caramelo Raro ++, Pase de combate prémium, Huevo Suerte",
-      "it": "🎟️ Gratis · Caramella Rara L, Biglietto lotta premium, Fortunuovo"
-     }
+     "ko": "티어 1 (랭크 1): 교환 시 사탕 1개 추가, 트레이너 레벨 31 이상은 교환 시 사탕XL 1개 확정",
+     "ja": "ティア1 (ランク1): 交換でアメ1個追加、トレーナーレベル31以上は交換でアメXL1個確定",
+     "en": "Tier 1 (Rank 1): One additional Candy for trading; Trainers level 31+ get one guaranteed Candy XL when trading",
+     "zh-Hant": "第1階 (等級1): 交換時額外獲得1顆糖果，訓練家等級31以上交換時必定獲得1顆糖果XL",
+     "zh-Hans": "第1阶 (等级1): 交换时额外获得1颗糖果，训练家等级31以上交换时必定获得1颗糖果XL",
+     "fr": "Palier 1 (Rang 1): Un Bonbon supplémentaire lors des échanges ; Bonbon L garanti dès le niveau 31",
+     "de": "Stufe 1 (Rang 1): Ein zusätzliches Bonbon beim Tauschen; ab Level 31 ein garantiertes Bonbon XL",
+     "es": "Nivel 1 (Rango 1): Un Caramelo adicional al intercambiar; desde nivel 31, un Caramelo ++ asegurado",
+     "it": "Livello 1 (Grado 1): Una Caramella in più negli scambi; dal livello 31 una Caramella L garantita"
     },
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 티어 1 (랭크 1): 교환 시 사탕 1개 추가, 트레이너 레벨 31 이상은 교환 시 사탕XL 1개 확정",
-      "ja": "🎟️ 無料 · ティア1 (ランク1): 交換でアメ1個追加、トレーナーレベル31以上は交換でアメXL1個確定",
-      "en": "🎟️ Free · Tier 1 (Rank 1): One additional Candy for trading; Trainers level 31+ get one guaranteed Candy XL when trading",
-      "zh-Hant": "🎟️ 免費 · 第1階 (等級1): 交換時額外獲得1顆糖果，訓練家等級31以上交換時必定獲得1顆糖果XL",
-      "zh-Hans": "🎟️ 免费 · 第1阶 (等级1): 交换时额外获得1颗糖果，训练家等级31以上交换时必定获得1颗糖果XL",
-      "fr": "🎟️ Gratuit · Palier 1 (Rang 1): Un Bonbon supplémentaire lors des échanges ; Bonbon L garanti dès le niveau 31",
-      "de": "🎟️ Gratis · Stufe 1 (Rang 1): Ein zusätzliches Bonbon beim Tauschen; ab Level 31 ein garantiertes Bonbon XL",
-      "es": "🎟️ Gratis · Nivel 1 (Rango 1): Un Caramelo adicional al intercambiar; desde nivel 31, un Caramelo ++ asegurado",
-      "it": "🎟️ Gratis · Livello 1 (Grado 1): Una Caramella in più negli scambi; dal livello 31 una Caramella L garantita"
-     }
+     "ko": "티어 2 (랭크 25): 선물 하루 40개까지 열기, 포켓스톱·체육관 포토 디스크에서 하루 125개까지 받기, 가방에 선물 10개 더 보관",
+     "ja": "ティア2 (ランク25): ギフトを1日40個まで開封、ポケストップ・ジムのフォトディスクから1日125個まで入手、バッグにギフトを10個多く保持",
+     "en": "Tier 2 (Rank 25): Open up to 40 Gifts per day, receive up to 125 Gifts per day from PokéStop and Gym Photo Discs, hold 10 more Gifts in your Item Bag",
+     "zh-Hant": "第2階 (等級25): 每天最多可打開40個友情禮物、每天最多可從寶可補給站和道館的照片圓盤獲得125個、道具背包可多放10個友情禮物",
+     "zh-Hans": "第2阶 (等级25): 每天最多可打开40个友情礼物、每天最多可从宝可补给站和道馆的照片圆盘获得125个、道具背包可多放10个友情礼物",
+     "fr": "Palier 2 (Rang 25): Ouvrez jusqu’à 40 Cadeaux par jour, recevez jusqu’à 125 Cadeaux par jour en faisant tourner les Disques Photo des PokéStops et des Arènes, gardez 10 Cadeaux de plus dans votre Sac",
+     "de": "Stufe 2 (Rang 25): Bis zu 40 Geschenke pro Tag öffnen, bis zu 125 Geschenke pro Tag an Foto-Discs von PokéStops und Arenen erhalten, 10 Geschenke mehr im Beutel aufbewahren",
+     "es": "Nivel 2 (Rango 25): Abre hasta 40 Regalos al día, recibe hasta 125 Regalos al día de los Discos Fotográficos de Poképaradas y Gimnasios, guarda 10 Regalos más en la Mochila",
+     "it": "Livello 2 (Grado 25): Apri fino a 40 Pacchi amicizia al giorno, ricevine fino a 125 al giorno dai Photo Disc di PokéStop e Palestre, conserva 10 Pacchi in più nella Borsa"
     },
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 티어 2 (랭크 25): 선물 하루 40개까지 열기, 포켓스톱·체육관 포토 디스크에서 하루 125개까지 받기, 가방에 선물 10개 더 보관",
-      "ja": "🎟️ 無料 · ティア2 (ランク25): ギフトを1日40個まで開封、ポケストップ・ジムのフォトディスクから1日125個まで入手、バッグにギフトを10個多く保持",
-      "en": "🎟️ Free · Tier 2 (Rank 25): Open up to 40 Gifts per day, receive up to 125 Gifts per day from PokéStop and Gym Photo Discs, hold 10 more Gifts in your Item Bag",
-      "zh-Hant": "🎟️ 免費 · 第2階 (等級25): 每天最多可打開40個友情禮物、每天最多可從寶可補給站和道館的照片圓盤獲得125個、道具背包可多放10個友情禮物",
-      "zh-Hans": "🎟️ 免费 · 第2阶 (等级25): 每天最多可打开40个友情礼物、每天最多可从宝可补给站和道馆的照片圆盘获得125个、道具背包可多放10个友情礼物",
-      "fr": "🎟️ Gratuit · Palier 2 (Rang 25): Ouvrez jusqu’à 40 Cadeaux par jour, recevez jusqu’à 125 Cadeaux par jour en faisant tourner les Disques Photo des PokéStops et des Arènes, gardez 10 Cadeaux de plus dans votre Sac",
-      "de": "🎟️ Gratis · Stufe 2 (Rang 25): Bis zu 40 Geschenke pro Tag öffnen, bis zu 125 Geschenke pro Tag an Foto-Discs von PokéStops und Arenen erhalten, 10 Geschenke mehr im Beutel aufbewahren",
-      "es": "🎟️ Gratis · Nivel 2 (Rango 25): Abre hasta 40 Regalos al día, recibe hasta 125 Regalos al día de los Discos Fotográficos de Poképaradas y Gimnasios, guarda 10 Regalos más en la Mochila",
-      "it": "🎟️ Gratis · Livello 2 (Grado 25): Apri fino a 40 Pacchi amicizia al giorno, ricevine fino a 125 al giorno dai Photo Disc di PokéStop e Palestre, conserva 10 Pacchi in più nella Borsa"
-     }
+     "ko": "티어 3 (랭크 50): 산책향로 지속 시간 2배",
+     "ja": "ティア3 (ランク50): おさんぽおこうの効果時間2倍",
+     "en": "Tier 3 (Rank 50): 2× Daily Adventure Incense duration",
+     "zh-Hant": "第3階 (等級50): 散步小薰香效果時間2倍",
+     "zh-Hans": "第3阶 (等级50): 散步小熏香效果时间2倍",
+     "fr": "Palier 3 (Rang 50): Durée ×2 de l’Encens d’aventure quotidienne",
+     "de": "Stufe 3 (Rang 50): 2× Dauer von Täglicher Abenteuerrauch",
+     "es": "Nivel 3 (Rango 50): Duración ×2 del Incienso de aventura diario",
+     "it": "Livello 3 (Grado 50): Durata ×2 dell’Aroma avventura giornaliera"
     },
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 티어 3 (랭크 50): 산책향로 지속 시간 2배",
-      "ja": "🎟️ 無料 · ティア3 (ランク50): おさんぽおこうの効果時間2倍",
-      "en": "🎟️ Free · Tier 3 (Rank 50): 2× Daily Adventure Incense duration",
-      "zh-Hant": "🎟️ 免費 · 第3階 (等級50): 散步小薰香效果時間2倍",
-      "zh-Hans": "🎟️ 免费 · 第3阶 (等级50): 散步小熏香效果时间2倍",
-      "fr": "🎟️ Gratuit · Palier 3 (Rang 50): Durée ×2 de l’Encens d’aventure quotidienne",
-      "de": "🎟️ Gratis · Stufe 3 (Rang 50): 2× Dauer von Täglicher Abenteuerrauch",
-      "es": "🎟️ Gratis · Nivel 3 (Rango 50): Duración ×2 del Incienso de aventura diario",
-      "it": "🎟️ Gratis · Livello 3 (Grado 50): Durata ×2 dell’Aroma avventura giornaliera"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 티어 4 (랭크 75): 알 부화 시 XP·별의모래 증가",
-      "ja": "🎟️ 無料 · ティア4 (ランク75): タマゴ孵化時のXP・ほしのすな増加",
-      "en": "🎟️ Free · Tier 4 (Rank 75): Increased XP and Stardust from hatching Eggs",
-      "zh-Hant": "🎟️ 免費 · 第4階 (等級75): 孵蛋時獲得的XP與星星沙子增加",
-      "zh-Hans": "🎟️ 免费 · 第4阶 (等级75): 孵蛋时获得的XP与星星沙子增加",
-      "fr": "🎟️ Gratuit · Palier 4 (Rang 75): Plus d’XP et de Poussière Étoile en faisant éclore des Œufs",
-      "de": "🎟️ Gratis · Stufe 4 (Rang 75): Mehr EP und Sternenstaub beim Ausbrüten von Eiern",
-      "es": "🎟️ Gratis · Nivel 4 (Rango 75): Más PX y Polvos Estelares al eclosionar Huevos",
-      "it": "🎟️ Gratis · Livello 4 (Grado 75): Più PE e Polvere di stelle dalla schiusa delle Uova"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 2026-10-03 00:00 ~ 2026-10-04 23:59: GO 포인트 하루 획득 상한 없음",
-      "ja": "🎟️ 無料 · 2026-10-03 0:00〜2026-10-04 23:59：GOポイントの1日の獲得上限なし",
-      "en": "🎟️ Free · 2026-10-03 00:00 – 2026-10-04 23:59: no daily limit on GO Points",
-      "zh-Hant": "🎟️ 免費 · 2026-10-03 00:00～2026-10-04 23:59：GO點數每日獲得無上限",
-      "zh-Hans": "🎟️ 免费 · 2026-10-03 00:00～2026-10-04 23:59：GO点数每日获得无上限",
-      "fr": "🎟️ Gratuit · 2026-10-03 00:00 – 2026-10-04 23:59 : pas de limite quotidienne de Points GO",
-      "de": "🎟️ Gratis · 2026-10-03 00:00 – 2026-10-04 23:59: kein Tageslimit für GO-Punkte",
-      "es": "🎟️ Gratis · 2026-10-03 00:00 – 2026-10-04 23:59: sin límite diario de Puntos GO",
-      "it": "🎟️ Gratis · 2026-10-03 00:00 – 2026-10-04 23:59: nessun limite giornaliero di Punti GO"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$7.99) · 기간 한정 부화장치 1개 (2026-10-13 10:00까지 사용 가능, 받은 시점과 관계없음)",
-      "ja": "💎 デラックス（有料 US$7.99） · 期間限定ふかそうち 1個（受け取り時期に関係なく2026-10-13 10:00まで有効）",
-      "en": "💎 Deluxe (paid, US$7.99) · Timed Incubator ×1 (expires 2026-10-13 10:00 regardless of when claimed)",
-      "zh-Hant": "💎 豪華版（付費 US$7.99） · 限時孵化器 ×1（無論何時領取，2026-10-13 10:00失效）",
-      "zh-Hans": "💎 豪华版（付费 US$7.99） · 限时孵化器 ×1（无论何时领取，2026-10-13 10:00失效）",
-      "fr": "💎 Deluxe (payant, US$7.99) · Incubateur temporaire ×1 (expire le 2026-10-13 10:00, quelle que soit la date de réception)",
-      "de": "💎 Deluxe (kostenpflichtig, US$7.99) · befristete Ei-Brutmaschine ×1 (läuft am 2026-10-13 10:00 ab, egal wann erhalten)",
-      "es": "💎 Deluxe (de pago, US$7.99) · Incubadora temporal ×1 (caduca el 2026-10-13 10:00, sin importar cuándo se reciba)",
-      "it": "💎 Deluxe (a pagamento, US$7.99) · Incubatrice a tempo ×1 (scade il 2026-10-13 10:00, a prescindere da quando lo ricevi)"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$7.99) · 슈퍼 부화장치 1개",
-      "ja": "💎 デラックス（有料 US$7.99） · スーパーふかそうち 1個",
-      "en": "💎 Deluxe (paid, US$7.99) · Super Incubator ×1",
-      "zh-Hant": "💎 豪華版（付費 US$7.99） · 超級孵化器 ×1",
-      "zh-Hans": "💎 豪华版（付费 US$7.99） · 超级孵化器 ×1",
-      "fr": "💎 Deluxe (payant, US$7.99) · Super-Incubateur ×1",
-      "de": "💎 Deluxe (kostenpflichtig, US$7.99) · Super-Brutmaschine ×1",
-      "es": "💎 Deluxe (de pago, US$7.99) · Superincubadora ×1",
-      "it": "💎 Deluxe (a pagamento, US$7.99) · Superincubatrice ×1"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$7.99) · 디럭스 강화 — 티어 2 (랭크 25): 선물 하루 50개까지 열기, 포켓스톱·체육관 포토 디스크에서 하루 150개까지 받기, 가방에 선물 20개 더 보관",
-      "ja": "💎 デラックス（有料 US$7.99） · デラックス強化：ティア2 (ランク25): ギフトを1日50個まで開封、ポケストップ・ジムのフォトディスクから1日150個まで入手、バッグにギフトを20個多く保持",
-      "en": "💎 Deluxe (paid, US$7.99) · Deluxe upgrade — Tier 2 (Rank 25): Open up to 50 Gifts per day, receive up to 150 Gifts per day from PokéStop and Gym Photo Discs, hold 20 more Gifts in your Item Bag",
-      "zh-Hant": "💎 豪華版（付費 US$7.99） · Deluxe強化：第2階 (等級25): 每天最多可打開50個友情禮物、每天最多可從寶可補給站和道館的照片圓盤獲得150個、道具背包可多放20個友情禮物",
-      "zh-Hans": "💎 豪华版（付费 US$7.99） · Deluxe强化：第2阶 (等级25): 每天最多可打开50个友情礼物、每天最多可从宝可补给站和道馆的照片圆盘获得150个、道具背包可多放20个友情礼物",
-      "fr": "💎 Deluxe (payant, US$7.99) · Amélioration Deluxe — Palier 2 (Rang 25): Ouvrez jusqu’à 50 Cadeaux par jour, recevez jusqu’à 150 Cadeaux par jour en faisant tourner les Disques Photo des PokéStops et des Arènes, gardez 20 Cadeaux de plus dans votre Sac",
-      "de": "💎 Deluxe (kostenpflichtig, US$7.99) · Deluxe-Verstärkung – Stufe 2 (Rang 25): Bis zu 50 Geschenke pro Tag öffnen, bis zu 150 Geschenke pro Tag an Foto-Discs von PokéStops und Arenen erhalten, 20 Geschenke mehr im Beutel aufbewahren",
-      "es": "💎 Deluxe (de pago, US$7.99) · Mejora Deluxe — Nivel 2 (Rango 25): Abre hasta 50 Regalos al día, recibe hasta 150 Regalos al día de los Discos Fotográficos de Poképaradas y Gimnasios, guarda 20 Regalos más en la Mochila",
-      "it": "💎 Deluxe (a pagamento, US$7.99) · Potenziamento Deluxe — Livello 2 (Grado 25): Apri fino a 50 Pacchi amicizia al giorno, ricevine fino a 150 al giorno dai Photo Disc di PokéStop e Palestre, conserva 20 Pacchi in più nella Borsa"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$7.99) · 랭크 100: 라티오스 (무료) / 디럭스: XP ×25,000",
-      "ja": "💎 デラックス（有料 US$7.99） · ランク100: ラティオス（無料）／デラックス：XP ×25,000",
-      "en": "💎 Deluxe (paid, US$7.99) · Rank 100: Latios (free) / Deluxe: XP ×25,000",
-      "zh-Hant": "💎 豪華版（付費 US$7.99） · 等級100: 拉帝歐斯（免費）／Deluxe：XP ×25,000",
-      "zh-Hans": "💎 豪华版（付费 US$7.99） · 等级100: 拉帝欧斯（免费）／Deluxe：XP ×25,000",
-      "fr": "💎 Deluxe (payant, US$7.99) · Rang 100: Latios (gratuit) / Deluxe : XP ×25,000",
-      "de": "💎 Deluxe (kostenpflichtig, US$7.99) · Rang 100: Latios (gratis) / Deluxe: XP ×25,000",
-      "es": "💎 Deluxe (de pago, US$7.99) · Rango 100: Latios (gratis) / Deluxe: XP ×25,000",
-      "it": "💎 Deluxe (a pagamento, US$7.99) · Grado 100: Latios (gratis) / Deluxe: XP ×25,000"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$7.99) · 추가 포켓몬 만남",
-      "ja": "💎 デラックス（有料 US$7.99） · 追加のポケモンとの出会い",
-      "en": "💎 Deluxe (paid, US$7.99) · Additional Pokémon encounters",
-      "zh-Hant": "💎 豪華版（付費 US$7.99） · 額外的寶可夢相遇",
-      "zh-Hans": "💎 豪华版（付费 US$7.99） · 额外的宝可梦相遇",
-      "fr": "💎 Deluxe (payant, US$7.99) · Rencontres de Pokémon supplémentaires",
-      "de": "💎 Deluxe (kostenpflichtig, US$7.99) · Zusätzliche Pokémon-Begegnungen",
-      "es": "💎 Deluxe (de pago, US$7.99) · Encuentros adicionales con Pokémon",
-      "it": "💎 Deluxe (a pagamento, US$7.99) · Incontri aggiuntivi con Pokémon"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$7.99) · 디럭스는 기간 중 언제 사도 이미 연 랭크의 보상을 받을 수 있음",
-      "ja": "💎 デラックス（有料 US$7.99） · デラックスは期間中いつ購入しても解放済みランクのリワードを受け取れる",
-      "en": "💎 Deluxe (paid, US$7.99) · Deluxe can be bought any time during the pass; rewards from already-unlocked ranks can still be claimed",
-      "zh-Hant": "💎 豪華版（付費 US$7.99） · 期間內任何時候購買Deluxe都能領取已解鎖等級的獎勵",
-      "zh-Hans": "💎 豪华版（付费 US$7.99） · 期间内任何时候购买Deluxe都能领取已解锁等级的奖励",
-      "fr": "💎 Deluxe (payant, US$7.99) · Le Deluxe peut être acheté à tout moment ; les rangs déjà atteints restent réclamables",
-      "de": "💎 Deluxe (kostenpflichtig, US$7.99) · Deluxe kann jederzeit gekauft werden; bereits erreichte Ränge bleiben einlösbar",
-      "es": "💎 Deluxe (de pago, US$7.99) · El Deluxe se puede comprar en cualquier momento; los rangos ya alcanzados se pueden reclamar",
-      "it": "💎 Deluxe (a pagamento, US$7.99) · Il Deluxe si può acquistare in qualsiasi momento; i gradi già sbloccati restano riscattabili"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "⏰ 보상 받기 마감 2026-10-08 10:00",
-      "ja": "⏰ リワード受け取り期限 2026-10-08 10:00",
-      "en": "⏰ Claim rewards by 2026-10-08 10:00",
-      "zh-Hant": "⏰ 領取獎勵期限 2026-10-08 10:00",
-      "zh-Hans": "⏰ 领取奖励期限 2026-10-08 10:00",
-      "fr": "⏰ Récupérez les récompenses avant le 2026-10-08 10:00",
-      "de": "⏰ Belohnungen abholen bis 2026-10-08 10:00",
-      "es": "⏰ Reclama las recompensas antes del 2026-10-08 10:00",
-      "it": "⏰ Riscatta le ricompense entro il 2026-10-08 10:00"
-     }
+     "ko": "티어 4 (랭크 75): 알 부화 시 XP·별의모래 증가",
+     "ja": "ティア4 (ランク75): タマゴ孵化時のXP・ほしのすな増加",
+     "en": "Tier 4 (Rank 75): Increased XP and Stardust from hatching Eggs",
+     "zh-Hant": "第4階 (等級75): 孵蛋時獲得的XP與星星沙子增加",
+     "zh-Hans": "第4阶 (等级75): 孵蛋时获得的XP与星星沙子增加",
+     "fr": "Palier 4 (Rang 75): Plus d’XP et de Poussière Étoile en faisant éclore des Œufs",
+     "de": "Stufe 4 (Rang 75): Mehr EP und Sternenstaub beim Ausbrüten von Eiern",
+     "es": "Nivel 4 (Rango 75): Más PX y Polvos Estelares al eclosionar Huevos",
+     "it": "Livello 4 (Grado 75): Più PE e Polvere di stelle dalla schiusa delle Uova"
     }
-   ]
+   ],
+   "passDeluxe": [
+    {
+     "ko": "디럭스 강화 — 티어 2 (랭크 25): 선물 하루 50개까지 열기, 포켓스톱·체육관 포토 디스크에서 하루 150개까지 받기, 가방에 선물 20개 더 보관",
+     "ja": "デラックス強化：ティア2 (ランク25): ギフトを1日50個まで開封、ポケストップ・ジムのフォトディスクから1日150個まで入手、バッグにギフトを20個多く保持",
+     "en": "Deluxe upgrade — Tier 2 (Rank 25): Open up to 50 Gifts per day, receive up to 150 Gifts per day from PokéStop and Gym Photo Discs, hold 20 more Gifts in your Item Bag",
+     "zh-Hant": "Deluxe強化：第2階 (等級25): 每天最多可打開50個友情禮物、每天最多可從寶可補給站和道館的照片圓盤獲得150個、道具背包可多放20個友情禮物",
+     "zh-Hans": "Deluxe强化：第2阶 (等级25): 每天最多可打开50个友情礼物、每天最多可从宝可补给站和道馆的照片圆盘获得150个、道具背包可多放20个友情礼物",
+     "fr": "Amélioration Deluxe — Palier 2 (Rang 25): Ouvrez jusqu’à 50 Cadeaux par jour, recevez jusqu’à 150 Cadeaux par jour en faisant tourner les Disques Photo des PokéStops et des Arènes, gardez 20 Cadeaux de plus dans votre Sac",
+     "de": "Deluxe-Verstärkung – Stufe 2 (Rang 25): Bis zu 50 Geschenke pro Tag öffnen, bis zu 150 Geschenke pro Tag an Foto-Discs von PokéStops und Arenen erhalten, 20 Geschenke mehr im Beutel aufbewahren",
+     "es": "Mejora Deluxe — Nivel 2 (Rango 25): Abre hasta 50 Regalos al día, recibe hasta 150 Regalos al día de los Discos Fotográficos de Poképaradas y Gimnasios, guarda 20 Regalos más en la Mochila",
+     "it": "Potenziamento Deluxe — Livello 2 (Grado 25): Apri fino a 50 Pacchi amicizia al giorno, ricevine fino a 150 al giorno dai Photo Disc di PokéStop e Palestre, conserva 20 Pacchi in più nella Borsa"
+    },
+    {
+     "ko": "랭크 100: 라티오스 (무료) / 디럭스: XP ×25,000",
+     "ja": "ランク100: ラティオス（無料）／デラックス：XP ×25,000",
+     "en": "Rank 100: Latios (free) / Deluxe: XP ×25,000",
+     "zh-Hant": "等級100: 拉帝歐斯（免費）／Deluxe：XP ×25,000",
+     "zh-Hans": "等级100: 拉帝欧斯（免费）／Deluxe：XP ×25,000",
+     "fr": "Rang 100: Latios (gratuit) / Deluxe : XP ×25,000",
+     "de": "Rang 100: Latios (gratis) / Deluxe: XP ×25,000",
+     "es": "Rango 100: Latios (gratis) / Deluxe: XP ×25,000",
+     "it": "Grado 100: Latios (gratis) / Deluxe: XP ×25,000"
+    }
+   ],
+   "passPrice": "US$7.99",
+   "passClaim": "2026-10-08 10:00"
   },
   {
    "id": "season-2026-09-08-twilight-trails",
@@ -739,162 +534,44 @@
     "es": "Pase de evento gratuito entregado automáticamente durante el evento.",
     "it": "Pass evento gratuito assegnato automaticamente durante l’evento."
    },
-   "bonuses": [
+   "passFree": [
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 이벤트 테마 포켓몬 만남",
-      "ja": "🎟️ 無料 · イベントテーマのポケモンとの出会い",
-      "en": "🎟️ Free · Encounters with event-themed Pokémon",
-      "zh-Hant": "🎟️ 免費 · 與活動主題寶可夢相遇",
-      "zh-Hans": "🎟️ 免费 · 与活动主题宝可梦相遇",
-      "fr": "🎟️ Gratuit · Rencontres avec des Pokémon de l’événement",
-      "de": "🎟️ Gratis · Begegnungen mit Event-Pokémon",
-      "es": "🎟️ Gratis · Encuentros con Pokémon temáticos del evento",
-      "it": "🎟️ Gratis · Incontri con Pokémon a tema"
-     }
+     "ko": "티어 1 (랭크 1): 과사삭벌레가 새콤한사과·달콤한사과·꿀맛사과를 지닐 확률 증가",
+     "ja": "ティア1 (ランク1): カジッチュがすっぱいリンゴ・あまーいリンゴ・みついりリンゴを持つ確率アップ",
+     "en": "Tier 1 (Rank 1): Applin more likely to hold Tart, Sweet or Syrupy Apples",
+     "zh-Hant": "第1階 (等級1): 啃果蟲攜帶酸酸蘋果、甜甜蘋果、蜜汁蘋果機率提升",
+     "zh-Hans": "第1阶 (等级1): 啃果虫携带酸酸苹果、甜甜苹果、蜜汁苹果几率提升",
+     "fr": "Palier 1 (Rang 1): Verpom tient plus souvent une Pomme Acidulée/Sucrée/Nectar",
+     "de": "Stufe 1 (Rang 1): Knapfel hält öfter Saure/Süße/Sirupapfel",
+     "es": "Nivel 1 (Rango 1): Applin lleva más a menudo Manzanas Ácida/Dulce/Melosa",
+     "it": "Livello 1 (Grado 1): Applin tiene più spesso Mele Aspra/Dolce/Sciroppata"
     },
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 슈퍼 로켓레이더 1개",
-      "ja": "🎟️ 無料 · スーパーロケットレーダー 1個",
-      "en": "🎟️ Free · Super Rocket Radar ×1",
-      "zh-Hant": "🎟️ 免費 · 超級火箭隊雷達 ×1",
-      "zh-Hans": "🎟️ 免费 · 超级火箭队雷达 ×1",
-      "fr": "🎟️ Gratuit · Super Radar Rocket ×1",
-      "de": "🎟️ Gratis · Super-Rocket-Radar ×1",
-      "es": "🎟️ Gratis · Superradar Rocket ×1",
-      "it": "🎟️ Gratis · Super radar Rocket ×1"
-     }
+     "ko": "티어 2 (랭크 10): 이벤트 중 허브 루어모듈 1시간 지속",
+     "ja": "ティア2 (ランク10): イベント中のハーブルアーが1時間持続",
+     "en": "Tier 2 (Rank 10): Mossy Lure Modules last 1 hour during the event",
+     "zh-Hant": "第2階 (等級10): 活動期間藥草誘餌模組持續1小時",
+     "zh-Hans": "第2阶 (等级10): 活动期间药草诱饵模组持续1小时",
+     "fr": "Palier 2 (Rang 10): Leurres Moussus 1 h",
+     "de": "Stufe 2 (Rang 10): Moos-Lockmodule 1 Std.",
+     "es": "Nivel 2 (Rango 10): Módulos Cebo Musgosos 1 h",
+     "it": "Livello 2 (Grado 10): Moduli esca silvestri 1 ora"
     },
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 허브 루어모듈",
-      "ja": "🎟️ 無料 · ハーブルアー",
-      "en": "🎟️ Free · Mossy Lure Module",
-      "zh-Hant": "🎟️ 免費 · 藥草誘餌模組",
-      "zh-Hans": "🎟️ 免费 · 药草诱饵模组",
-      "fr": "🎟️ Gratuit · Leurre Moussu",
-      "de": "🎟️ Gratis · Moos-Lockmodul",
-      "es": "🎟️ Gratis · Módulo Cebo Musgoso",
-      "it": "🎟️ Gratis · Modulo esca silvestre"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 티어 1 (랭크 1): 과사삭벌레가 새콤한사과·달콤한사과·꿀맛사과를 지닐 확률 증가",
-      "ja": "🎟️ 無料 · ティア1 (ランク1): カジッチュがすっぱいリンゴ・あまーいリンゴ・みついりリンゴを持つ確率アップ",
-      "en": "🎟️ Free · Tier 1 (Rank 1): Applin more likely to hold Tart, Sweet or Syrupy Apples",
-      "zh-Hant": "🎟️ 免費 · 第1階 (等級1): 啃果蟲攜帶酸酸蘋果、甜甜蘋果、蜜汁蘋果機率提升",
-      "zh-Hans": "🎟️ 免费 · 第1阶 (等级1): 啃果虫携带酸酸苹果、甜甜苹果、蜜汁苹果几率提升",
-      "fr": "🎟️ Gratuit · Palier 1 (Rang 1): Verpom tient plus souvent une Pomme Acidulée/Sucrée/Nectar",
-      "de": "🎟️ Gratis · Stufe 1 (Rang 1): Knapfel hält öfter Saure/Süße/Sirupapfel",
-      "es": "🎟️ Gratis · Nivel 1 (Rango 1): Applin lleva más a menudo Manzanas Ácida/Dulce/Melosa",
-      "it": "🎟️ Gratis · Livello 1 (Grado 1): Applin tiene più spesso Mele Aspra/Dolce/Sciroppata"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 티어 2 (랭크 10): 이벤트 중 허브 루어모듈 1시간 지속",
-      "ja": "🎟️ 無料 · ティア2 (ランク10): イベント中のハーブルアーが1時間持続",
-      "en": "🎟️ Free · Tier 2 (Rank 10): Mossy Lure Modules last 1 hour during the event",
-      "zh-Hant": "🎟️ 免費 · 第2階 (等級10): 活動期間藥草誘餌模組持續1小時",
-      "zh-Hans": "🎟️ 免费 · 第2阶 (等级10): 活动期间药草诱饵模组持续1小时",
-      "fr": "🎟️ Gratuit · Palier 2 (Rang 10): Leurres Moussus 1 h",
-      "de": "🎟️ Gratis · Stufe 2 (Rang 10): Moos-Lockmodule 1 Std.",
-      "es": "🎟️ Gratis · Nivel 2 (Rango 10): Módulos Cebo Musgosos 1 h",
-      "it": "🎟️ Gratis · Livello 2 (Grado 10): Moduli esca silvestri 1 ora"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 티어 3 (랭크 20): 로켓단 조무래기·간부를 이기면 별의모래 증가",
-      "ja": "🎟️ 無料 · ティア3 (ランク20): ロケット団のしたっぱ・リーダーに勝つとほしのすな増加",
-      "en": "🎟️ Free · Tier 3 (Rank 20): More Stardust from defeating Team GO Rocket Grunts and Leaders",
-      "zh-Hant": "🎟️ 免費 · 第3階 (等級20): 擊敗GO火箭隊手下與幹部時星星沙子增加",
-      "zh-Hans": "🎟️ 免费 · 第3阶 (等级20): 击败GO火箭队手下与干部时星星沙子增加",
-      "fr": "🎟️ Gratuit · Palier 3 (Rang 20): Plus de Poussière Étoile en battant les Sbires et Leaders de la Team GO Rocket",
-      "de": "🎟️ Gratis · Stufe 3 (Rang 20): Mehr Sternenstaub für Siege gegen Rüpel und Anführer von TEAM GO ROCKET",
-      "es": "🎟️ Gratis · Nivel 3 (Rango 20): Más Polvos Estelares al vencer a reclutas y líderes del Team GO Rocket",
-      "it": "🎟️ Gratis · Livello 3 (Grado 20): Più Polvere di stelle sconfiggendo Reclute e Leader del Team GO Rocket"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$4.99) · 슈퍼 로켓레이더 +1, 허브 루어모듈 +",
-      "ja": "💎 デラックス（有料 US$4.99） · スーパーロケットレーダー +1, ハーブルアー +",
-      "en": "💎 Deluxe (paid, US$4.99) · Super Rocket Radar +1, Mossy Lure Module +",
-      "zh-Hant": "💎 豪華版（付費 US$4.99） · 超級火箭隊雷達 +1, 藥草誘餌模組 +",
-      "zh-Hans": "💎 豪华版（付费 US$4.99） · 超级火箭队雷达 +1, 药草诱饵模组 +",
-      "fr": "💎 Deluxe (payant, US$4.99) · Super Radar Rocket +1, Leurre Moussu +",
-      "de": "💎 Deluxe (kostenpflichtig, US$4.99) · Super-Rocket-Radar +1, Moos-Lockmodul +",
-      "es": "💎 Deluxe (de pago, US$4.99) · Superradar Rocket +1, Módulo Cebo Musgoso +",
-      "it": "💎 Deluxe (a pagamento, US$4.99) · Super radar Rocket +1, Modulo esca silvestre +"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$4.99) · 추가 포켓몬 만남",
-      "ja": "💎 デラックス（有料 US$4.99） · 追加のポケモンとの出会い",
-      "en": "💎 Deluxe (paid, US$4.99) · Additional Pokémon encounters",
-      "zh-Hant": "💎 豪華版（付費 US$4.99） · 額外的寶可夢相遇",
-      "zh-Hans": "💎 豪华版（付费 US$4.99） · 额外的宝可梦相遇",
-      "fr": "💎 Deluxe (payant, US$4.99) · Rencontres de Pokémon supplémentaires",
-      "de": "💎 Deluxe (kostenpflichtig, US$4.99) · Zusätzliche Pokémon-Begegnungen",
-      "es": "💎 Deluxe (de pago, US$4.99) · Encuentros adicionales con Pokémon",
-      "it": "💎 Deluxe (a pagamento, US$4.99) · Incontri aggiuntivi con Pokémon"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$4.99) · 디럭스 전용 일일 과제: 포켓몬 10마리 잡기 = 100 GO 포인트",
-      "ja": "💎 デラックス（有料 US$4.99） · デラックス限定デイリータスク：ポケモンを10匹捕まえる＝100GOポイント",
-      "en": "💎 Deluxe (paid, US$4.99) · Deluxe-only daily task: Catch 10 Pokémon = 100 GO Points",
-      "zh-Hant": "💎 豪華版（付費 US$4.99） · Deluxe限定每日任務：捕捉10隻寶可夢＝100 GO點數",
-      "zh-Hans": "💎 豪华版（付费 US$4.99） · Deluxe限定每日任务：捕捉10只宝可梦＝100 GO点数",
-      "fr": "💎 Deluxe (payant, US$4.99) · Tâche quotidienne Deluxe : capturer 10 Pokémon = 100 Points GO",
-      "de": "💎 Deluxe (kostenpflichtig, US$4.99) · Deluxe-Tagesaufgabe: 10 Pokémon fangen = 100 GO-Punkte",
-      "es": "💎 Deluxe (de pago, US$4.99) · Tarea diaria Deluxe: atrapa 10 Pokémon = 100 Puntos GO",
-      "it": "💎 Deluxe (a pagamento, US$4.99) · Attività giornaliera Deluxe: cattura 10 Pokémon = 100 Punti GO"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$4.99) · 디럭스는 기간 중 언제 사도 이미 연 랭크의 보상을 받을 수 있음",
-      "ja": "💎 デラックス（有料 US$4.99） · デラックスは期間中いつ購入しても解放済みランクのリワードを受け取れる",
-      "en": "💎 Deluxe (paid, US$4.99) · Deluxe can be bought any time during the pass; rewards from already-unlocked ranks can still be claimed",
-      "zh-Hant": "💎 豪華版（付費 US$4.99） · 期間內任何時候購買Deluxe都能領取已解鎖等級的獎勵",
-      "zh-Hans": "💎 豪华版（付费 US$4.99） · 期间内任何时候购买Deluxe都能领取已解锁等级的奖励",
-      "fr": "💎 Deluxe (payant, US$4.99) · Le Deluxe peut être acheté à tout moment ; les rangs déjà atteints restent réclamables",
-      "de": "💎 Deluxe (kostenpflichtig, US$4.99) · Deluxe kann jederzeit gekauft werden; bereits erreichte Ränge bleiben einlösbar",
-      "es": "💎 Deluxe (de pago, US$4.99) · El Deluxe se puede comprar en cualquier momento; los rangos ya alcanzados se pueden reclamar",
-      "it": "💎 Deluxe (a pagamento, US$4.99) · Il Deluxe si può acquistare in qualsiasi momento; i gradi già sbloccati restano riscattabili"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "⏰ 보상 받기 마감 2026-10-07 20:00",
-      "ja": "⏰ リワード受け取り期限 2026-10-07 20:00",
-      "en": "⏰ Claim rewards by 2026-10-07 20:00",
-      "zh-Hant": "⏰ 領取獎勵期限 2026-10-07 20:00",
-      "zh-Hans": "⏰ 领取奖励期限 2026-10-07 20:00",
-      "fr": "⏰ Récupérez les récompenses avant le 2026-10-07 20:00",
-      "de": "⏰ Belohnungen abholen bis 2026-10-07 20:00",
-      "es": "⏰ Reclama las recompensas antes del 2026-10-07 20:00",
-      "it": "⏰ Riscatta le ricompense entro il 2026-10-07 20:00"
-     }
+     "ko": "티어 3 (랭크 20): 로켓단 조무래기·간부를 이기면 별의모래 증가",
+     "ja": "ティア3 (ランク20): ロケット団のしたっぱ・リーダーに勝つとほしのすな増加",
+     "en": "Tier 3 (Rank 20): More Stardust from defeating Team GO Rocket Grunts and Leaders",
+     "zh-Hant": "第3階 (等級20): 擊敗GO火箭隊手下與幹部時星星沙子增加",
+     "zh-Hans": "第3阶 (等级20): 击败GO火箭队手下与干部时星星沙子增加",
+     "fr": "Palier 3 (Rang 20): Plus de Poussière Étoile en battant les Sbires et Leaders de la Team GO Rocket",
+     "de": "Stufe 3 (Rang 20): Mehr Sternenstaub für Siege gegen Rüpel und Anführer von TEAM GO ROCKET",
+     "es": "Nivel 3 (Rango 20): Más Polvos Estelares al vencer a reclutas y líderes del Team GO Rocket",
+     "it": "Livello 3 (Grado 20): Più Polvere di stelle sconfiggendo Reclute e Leader del Team GO Rocket"
     }
-   ]
+   ],
+   "passDeluxe": [],
+   "passPrice": "US$4.99",
+   "passClaim": "2026-10-07 20:00"
   },
   {
    "id": "go-pass-october-2026",
@@ -947,204 +624,89 @@
     "es": "Pase mensual gratuito para todos los Entrenadores. Gana Puntos GO con las tareas del pase para subir de rango (recompensas repetidas tras el rango 100).",
     "it": "Pass mensile gratuito per tutti gli Allenatori. Ottieni Punti GO con le attività del pass per salire di grado (ricompense ripetute dopo il grado 100)."
    },
-   "bonuses": [
+   "passFree": [
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 랭크 100: 가이오가 만남 (색이 다른 모습 가능)",
-      "ja": "🎟️ 無料 · ランク100: カイオーガと出会える（色違いの可能性あり）",
-      "en": "🎟️ Free · Rank 100: Kyogre encounter (may be Shiny)",
-      "zh-Hant": "🎟️ 免費 · 等級100: 蓋歐卡相遇（有機會是異色）",
-      "zh-Hans": "🎟️ 免费 · 等级100: 盖欧卡相遇（有机会是异色）",
-      "fr": "🎟️ Gratuit · Rang 100: Kyogre : rencontre (peut être chromatique)",
-      "de": "🎟️ Gratis · Rang 100: Kyogre-Begegnung (kann schillernd sein)",
-      "es": "🎟️ Gratis · Rango 100: Kyogre: encuentro (puede ser variocolor)",
-      "it": "🎟️ Gratis · Grado 100: Kyogre: incontro (può essere cromatico)"
-     }
+     "ko": "랭크 100: 가이오가 만남 (색이 다른 모습 가능)",
+     "ja": "ランク100: カイオーガと出会える（色違いの可能性あり）",
+     "en": "Rank 100: Kyogre encounter (may be Shiny)",
+     "zh-Hant": "等級100: 蓋歐卡相遇（有機會是異色）",
+     "zh-Hans": "等级100: 盖欧卡相遇（有机会是异色）",
+     "fr": "Rang 100: Kyogre : rencontre (peut être chromatique)",
+     "de": "Rang 100: Kyogre-Begegnung (kann schillernd sein)",
+     "es": "Rango 100: Kyogre: encuentro (puede ser variocolor)",
+     "it": "Grado 100: Kyogre: incontro (può essere cromatico)"
     },
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 이상한사탕XL, 프리미엄 배틀패스, 행복의알",
-      "ja": "🎟️ 無料 · ふしぎなアメXL, プレミアムバトルパス, しあわせタマゴ",
-      "en": "🎟️ Free · Rare Candy XL, Premium Battle Pass, Lucky Egg",
-      "zh-Hant": "🎟️ 免費 · 神奇糖果XL, 特級對戰入場券, 幸運蛋",
-      "zh-Hans": "🎟️ 免费 · 神奇糖果XL, 特级对战入场券, 幸运蛋",
-      "fr": "🎟️ Gratuit · Super Bonbon L, Passe de combat premium, Œuf Chance",
-      "de": "🎟️ Gratis · Sonderbonbon XL, Premium-Kampf-Pass, Glücks-Ei",
-      "es": "🎟️ Gratis · Caramelo Raro ++, Pase de combate prémium, Huevo Suerte",
-      "it": "🎟️ Gratis · Caramella Rara L, Biglietto lotta premium, Fortunuovo"
-     }
+     "ko": "티어 1 (랭크 1): 교환 시 사탕 1개 추가, 트레이너 레벨 31 이상은 교환 시 사탕XL 1개 확정",
+     "ja": "ティア1 (ランク1): 交換でアメ1個追加、トレーナーレベル31以上は交換でアメXL1個確定",
+     "en": "Tier 1 (Rank 1): One additional Candy for trading; Trainers level 31+ get one guaranteed Candy XL when trading",
+     "zh-Hant": "第1階 (等級1): 交換時額外獲得1顆糖果，訓練家等級31以上交換時必定獲得1顆糖果XL",
+     "zh-Hans": "第1阶 (等级1): 交换时额外获得1颗糖果，训练家等级31以上交换时必定获得1颗糖果XL",
+     "fr": "Palier 1 (Rang 1): Un Bonbon supplémentaire lors des échanges ; Bonbon L garanti dès le niveau 31",
+     "de": "Stufe 1 (Rang 1): Ein zusätzliches Bonbon beim Tauschen; ab Level 31 ein garantiertes Bonbon XL",
+     "es": "Nivel 1 (Rango 1): Un Caramelo adicional al intercambiar; desde nivel 31, un Caramelo ++ asegurado",
+     "it": "Livello 1 (Grado 1): Una Caramella in più negli scambi; dal livello 31 una Caramella L garantita"
     },
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 티어 1 (랭크 1): 교환 시 사탕 1개 추가, 트레이너 레벨 31 이상은 교환 시 사탕XL 1개 확정",
-      "ja": "🎟️ 無料 · ティア1 (ランク1): 交換でアメ1個追加、トレーナーレベル31以上は交換でアメXL1個確定",
-      "en": "🎟️ Free · Tier 1 (Rank 1): One additional Candy for trading; Trainers level 31+ get one guaranteed Candy XL when trading",
-      "zh-Hant": "🎟️ 免費 · 第1階 (等級1): 交換時額外獲得1顆糖果，訓練家等級31以上交換時必定獲得1顆糖果XL",
-      "zh-Hans": "🎟️ 免费 · 第1阶 (等级1): 交换时额外获得1颗糖果，训练家等级31以上交换时必定获得1颗糖果XL",
-      "fr": "🎟️ Gratuit · Palier 1 (Rang 1): Un Bonbon supplémentaire lors des échanges ; Bonbon L garanti dès le niveau 31",
-      "de": "🎟️ Gratis · Stufe 1 (Rang 1): Ein zusätzliches Bonbon beim Tauschen; ab Level 31 ein garantiertes Bonbon XL",
-      "es": "🎟️ Gratis · Nivel 1 (Rango 1): Un Caramelo adicional al intercambiar; desde nivel 31, un Caramelo ++ asegurado",
-      "it": "🎟️ Gratis · Livello 1 (Grado 1): Una Caramella in più negli scambi; dal livello 31 una Caramella L garantita"
-     }
+     "ko": "티어 2 (랭크 25): 선물 하루 40개까지 열기, 포켓스톱·체육관 포토 디스크에서 하루 125개까지 받기, 가방에 선물 10개 더 보관",
+     "ja": "ティア2 (ランク25): ギフトを1日40個まで開封、ポケストップ・ジムのフォトディスクから1日125個まで入手、バッグにギフトを10個多く保持",
+     "en": "Tier 2 (Rank 25): Open up to 40 Gifts per day, receive up to 125 Gifts per day from PokéStop and Gym Photo Discs, hold 10 more Gifts in your Item Bag",
+     "zh-Hant": "第2階 (等級25): 每天最多可打開40個友情禮物、每天最多可從寶可補給站和道館的照片圓盤獲得125個、道具背包可多放10個友情禮物",
+     "zh-Hans": "第2阶 (等级25): 每天最多可打开40个友情礼物、每天最多可从宝可补给站和道馆的照片圆盘获得125个、道具背包可多放10个友情礼物",
+     "fr": "Palier 2 (Rang 25): Ouvrez jusqu’à 40 Cadeaux par jour, recevez jusqu’à 125 Cadeaux par jour en faisant tourner les Disques Photo des PokéStops et des Arènes, gardez 10 Cadeaux de plus dans votre Sac",
+     "de": "Stufe 2 (Rang 25): Bis zu 40 Geschenke pro Tag öffnen, bis zu 125 Geschenke pro Tag an Foto-Discs von PokéStops und Arenen erhalten, 10 Geschenke mehr im Beutel aufbewahren",
+     "es": "Nivel 2 (Rango 25): Abre hasta 40 Regalos al día, recibe hasta 125 Regalos al día de los Discos Fotográficos de Poképaradas y Gimnasios, guarda 10 Regalos más en la Mochila",
+     "it": "Livello 2 (Grado 25): Apri fino a 40 Pacchi amicizia al giorno, ricevine fino a 125 al giorno dai Photo Disc di PokéStop e Palestre, conserva 10 Pacchi in più nella Borsa"
     },
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 티어 2 (랭크 25): 선물 하루 40개까지 열기, 포켓스톱·체육관 포토 디스크에서 하루 125개까지 받기, 가방에 선물 10개 더 보관",
-      "ja": "🎟️ 無料 · ティア2 (ランク25): ギフトを1日40個まで開封、ポケストップ・ジムのフォトディスクから1日125個まで入手、バッグにギフトを10個多く保持",
-      "en": "🎟️ Free · Tier 2 (Rank 25): Open up to 40 Gifts per day, receive up to 125 Gifts per day from PokéStop and Gym Photo Discs, hold 10 more Gifts in your Item Bag",
-      "zh-Hant": "🎟️ 免費 · 第2階 (等級25): 每天最多可打開40個友情禮物、每天最多可從寶可補給站和道館的照片圓盤獲得125個、道具背包可多放10個友情禮物",
-      "zh-Hans": "🎟️ 免费 · 第2阶 (等级25): 每天最多可打开40个友情礼物、每天最多可从宝可补给站和道馆的照片圆盘获得125个、道具背包可多放10个友情礼物",
-      "fr": "🎟️ Gratuit · Palier 2 (Rang 25): Ouvrez jusqu’à 40 Cadeaux par jour, recevez jusqu’à 125 Cadeaux par jour en faisant tourner les Disques Photo des PokéStops et des Arènes, gardez 10 Cadeaux de plus dans votre Sac",
-      "de": "🎟️ Gratis · Stufe 2 (Rang 25): Bis zu 40 Geschenke pro Tag öffnen, bis zu 125 Geschenke pro Tag an Foto-Discs von PokéStops und Arenen erhalten, 10 Geschenke mehr im Beutel aufbewahren",
-      "es": "🎟️ Gratis · Nivel 2 (Rango 25): Abre hasta 40 Regalos al día, recibe hasta 125 Regalos al día de los Discos Fotográficos de Poképaradas y Gimnasios, guarda 10 Regalos más en la Mochila",
-      "it": "🎟️ Gratis · Livello 2 (Grado 25): Apri fino a 40 Pacchi amicizia al giorno, ricevine fino a 125 al giorno dai Photo Disc di PokéStop e Palestre, conserva 10 Pacchi in più nella Borsa"
-     }
+     "ko": "티어 3 (랭크 50): 산책향로 지속 시간 2배",
+     "ja": "ティア3 (ランク50): おさんぽおこうの効果時間2倍",
+     "en": "Tier 3 (Rank 50): 2× Daily Adventure Incense duration",
+     "zh-Hant": "第3階 (等級50): 散步小薰香效果時間2倍",
+     "zh-Hans": "第3阶 (等级50): 散步小熏香效果时间2倍",
+     "fr": "Palier 3 (Rang 50): Durée ×2 de l’Encens d’aventure quotidienne",
+     "de": "Stufe 3 (Rang 50): 2× Dauer von Täglicher Abenteuerrauch",
+     "es": "Nivel 3 (Rango 50): Duración ×2 del Incienso de aventura diario",
+     "it": "Livello 3 (Grado 50): Durata ×2 dell’Aroma avventura giornaliera"
     },
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 티어 3 (랭크 50): 산책향로 지속 시간 2배",
-      "ja": "🎟️ 無料 · ティア3 (ランク50): おさんぽおこうの効果時間2倍",
-      "en": "🎟️ Free · Tier 3 (Rank 50): 2× Daily Adventure Incense duration",
-      "zh-Hant": "🎟️ 免費 · 第3階 (等級50): 散步小薰香效果時間2倍",
-      "zh-Hans": "🎟️ 免费 · 第3阶 (等级50): 散步小熏香效果时间2倍",
-      "fr": "🎟️ Gratuit · Palier 3 (Rang 50): Durée ×2 de l’Encens d’aventure quotidienne",
-      "de": "🎟️ Gratis · Stufe 3 (Rang 50): 2× Dauer von Täglicher Abenteuerrauch",
-      "es": "🎟️ Gratis · Nivel 3 (Rango 50): Duración ×2 del Incienso de aventura diario",
-      "it": "🎟️ Gratis · Livello 3 (Grado 50): Durata ×2 dell’Aroma avventura giornaliera"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 티어 4 (랭크 75): 알 부화 시 XP·별의모래 증가",
-      "ja": "🎟️ 無料 · ティア4 (ランク75): タマゴ孵化時のXP・ほしのすな増加",
-      "en": "🎟️ Free · Tier 4 (Rank 75): Increased XP and Stardust from hatching Eggs",
-      "zh-Hant": "🎟️ 免費 · 第4階 (等級75): 孵蛋時獲得的XP與星星沙子增加",
-      "zh-Hans": "🎟️ 免费 · 第4阶 (等级75): 孵蛋时获得的XP与星星沙子增加",
-      "fr": "🎟️ Gratuit · Palier 4 (Rang 75): Plus d’XP et de Poussière Étoile en faisant éclore des Œufs",
-      "de": "🎟️ Gratis · Stufe 4 (Rang 75): Mehr EP und Sternenstaub beim Ausbrüten von Eiern",
-      "es": "🎟️ Gratis · Nivel 4 (Rango 75): Más PX y Polvos Estelares al eclosionar Huevos",
-      "it": "🎟️ Gratis · Livello 4 (Grado 75): Più PE e Polvere di stelle dalla schiusa delle Uova"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 2026-10-31 00:00 ~ 2026-11-01 23:59: GO 포인트 하루 획득 상한 없음",
-      "ja": "🎟️ 無料 · 2026-10-31 0:00〜2026-11-01 23:59：GOポイントの1日の獲得上限なし",
-      "en": "🎟️ Free · 2026-10-31 00:00 – 2026-11-01 23:59: no daily limit on GO Points",
-      "zh-Hant": "🎟️ 免費 · 2026-10-31 00:00～2026-11-01 23:59：GO點數每日獲得無上限",
-      "zh-Hans": "🎟️ 免费 · 2026-10-31 00:00～2026-11-01 23:59：GO点数每日获得无上限",
-      "fr": "🎟️ Gratuit · 2026-10-31 00:00 – 2026-11-01 23:59 : pas de limite quotidienne de Points GO",
-      "de": "🎟️ Gratis · 2026-10-31 00:00 – 2026-11-01 23:59: kein Tageslimit für GO-Punkte",
-      "es": "🎟️ Gratis · 2026-10-31 00:00 – 2026-11-01 23:59: sin límite diario de Puntos GO",
-      "it": "🎟️ Gratis · 2026-10-31 00:00 – 2026-11-01 23:59: nessun limite giornaliero di Punti GO"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$7.99) · 반짝이 참 1개 (2026-11-08 23:59까지 사용 가능, 받은 시점과 관계없음)",
-      "ja": "💎 デラックス（有料 US$7.99） · キラチャーム 1個（受け取り時期に関係なく2026-11-08 23:59まで有効）",
-      "en": "💎 Deluxe (paid, US$7.99) · Lucky Trinket ×1 (expires 2026-11-08 23:59 regardless of when claimed)",
-      "zh-Hant": "💎 豪華版（付費 US$7.99） · 亮晶晶首飾 ×1（無論何時領取，2026-11-08 23:59失效）",
-      "zh-Hans": "💎 豪华版（付费 US$7.99） · 亮晶晶首饰 ×1（无论何时领取，2026-11-08 23:59失效）",
-      "fr": "💎 Deluxe (payant, US$7.99) · Bibelot Chance ×1 (expire le 2026-11-08 23:59, quelle que soit la date de réception)",
-      "de": "💎 Deluxe (kostenpflichtig, US$7.99) · Glücks-Klimbim ×1 (läuft am 2026-11-08 23:59 ab, egal wann erhalten)",
-      "es": "💎 Deluxe (de pago, US$7.99) · Recuerdo Suerte ×1 (caduca el 2026-11-08 23:59, sin importar cuándo se reciba)",
-      "it": "💎 Deluxe (a pagamento, US$7.99) · Portafortuna ×1 (scade il 2026-11-08 23:59, a prescindere da quando lo ricevi)"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$7.99) · 슈퍼 부화장치 1개",
-      "ja": "💎 デラックス（有料 US$7.99） · スーパーふかそうち 1個",
-      "en": "💎 Deluxe (paid, US$7.99) · Super Incubator ×1",
-      "zh-Hant": "💎 豪華版（付費 US$7.99） · 超級孵化器 ×1",
-      "zh-Hans": "💎 豪华版（付费 US$7.99） · 超级孵化器 ×1",
-      "fr": "💎 Deluxe (payant, US$7.99) · Super-Incubateur ×1",
-      "de": "💎 Deluxe (kostenpflichtig, US$7.99) · Super-Brutmaschine ×1",
-      "es": "💎 Deluxe (de pago, US$7.99) · Superincubadora ×1",
-      "it": "💎 Deluxe (a pagamento, US$7.99) · Superincubatrice ×1"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$7.99) · 디럭스 강화 — 티어 2 (랭크 25): 선물 하루 50개까지 열기, 포켓스톱·체육관 포토 디스크에서 하루 150개까지 받기, 가방에 선물 20개 더 보관",
-      "ja": "💎 デラックス（有料 US$7.99） · デラックス強化：ティア2 (ランク25): ギフトを1日50個まで開封、ポケストップ・ジムのフォトディスクから1日150個まで入手、バッグにギフトを20個多く保持",
-      "en": "💎 Deluxe (paid, US$7.99) · Deluxe upgrade — Tier 2 (Rank 25): Open up to 50 Gifts per day, receive up to 150 Gifts per day from PokéStop and Gym Photo Discs, hold 20 more Gifts in your Item Bag",
-      "zh-Hant": "💎 豪華版（付費 US$7.99） · Deluxe強化：第2階 (等級25): 每天最多可打開50個友情禮物、每天最多可從寶可補給站和道館的照片圓盤獲得150個、道具背包可多放20個友情禮物",
-      "zh-Hans": "💎 豪华版（付费 US$7.99） · Deluxe强化：第2阶 (等级25): 每天最多可打开50个友情礼物、每天最多可从宝可补给站和道馆的照片圆盘获得150个、道具背包可多放20个友情礼物",
-      "fr": "💎 Deluxe (payant, US$7.99) · Amélioration Deluxe — Palier 2 (Rang 25): Ouvrez jusqu’à 50 Cadeaux par jour, recevez jusqu’à 150 Cadeaux par jour en faisant tourner les Disques Photo des PokéStops et des Arènes, gardez 20 Cadeaux de plus dans votre Sac",
-      "de": "💎 Deluxe (kostenpflichtig, US$7.99) · Deluxe-Verstärkung – Stufe 2 (Rang 25): Bis zu 50 Geschenke pro Tag öffnen, bis zu 150 Geschenke pro Tag an Foto-Discs von PokéStops und Arenen erhalten, 20 Geschenke mehr im Beutel aufbewahren",
-      "es": "💎 Deluxe (de pago, US$7.99) · Mejora Deluxe — Nivel 2 (Rango 25): Abre hasta 50 Regalos al día, recibe hasta 150 Regalos al día de los Discos Fotográficos de Poképaradas y Gimnasios, guarda 20 Regalos más en la Mochila",
-      "it": "💎 Deluxe (a pagamento, US$7.99) · Potenziamento Deluxe — Livello 2 (Grado 25): Apri fino a 50 Pacchi amicizia al giorno, ricevine fino a 150 al giorno dai Photo Disc di PokéStop e Palestre, conserva 20 Pacchi in più nella Borsa"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$7.99) · 랭크 100: 가이오가 (무료) / 디럭스: 반짝이 참",
-      "ja": "💎 デラックス（有料 US$7.99） · ランク100: カイオーガ（無料）／デラックス：キラチャーム",
-      "en": "💎 Deluxe (paid, US$7.99) · Rank 100: Kyogre (free) / Deluxe: Lucky Trinket",
-      "zh-Hant": "💎 豪華版（付費 US$7.99） · 等級100: 蓋歐卡（免費）／Deluxe：亮晶晶首飾",
-      "zh-Hans": "💎 豪华版（付费 US$7.99） · 等级100: 盖欧卡（免费）／Deluxe：亮晶晶首饰",
-      "fr": "💎 Deluxe (payant, US$7.99) · Rang 100: Kyogre (gratuit) / Deluxe : Bibelot Chance",
-      "de": "💎 Deluxe (kostenpflichtig, US$7.99) · Rang 100: Kyogre (gratis) / Deluxe: Glücks-Klimbim",
-      "es": "💎 Deluxe (de pago, US$7.99) · Rango 100: Kyogre (gratis) / Deluxe: Recuerdo Suerte",
-      "it": "💎 Deluxe (a pagamento, US$7.99) · Grado 100: Kyogre (gratis) / Deluxe: Portafortuna"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$7.99) · 추가 포켓몬 만남",
-      "ja": "💎 デラックス（有料 US$7.99） · 追加のポケモンとの出会い",
-      "en": "💎 Deluxe (paid, US$7.99) · Additional Pokémon encounters",
-      "zh-Hant": "💎 豪華版（付費 US$7.99） · 額外的寶可夢相遇",
-      "zh-Hans": "💎 豪华版（付费 US$7.99） · 额外的宝可梦相遇",
-      "fr": "💎 Deluxe (payant, US$7.99) · Rencontres de Pokémon supplémentaires",
-      "de": "💎 Deluxe (kostenpflichtig, US$7.99) · Zusätzliche Pokémon-Begegnungen",
-      "es": "💎 Deluxe (de pago, US$7.99) · Encuentros adicionales con Pokémon",
-      "it": "💎 Deluxe (a pagamento, US$7.99) · Incontri aggiuntivi con Pokémon"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$7.99) · 디럭스는 기간 중 언제 사도 이미 연 랭크의 보상을 받을 수 있음",
-      "ja": "💎 デラックス（有料 US$7.99） · デラックスは期間中いつ購入しても解放済みランクのリワードを受け取れる",
-      "en": "💎 Deluxe (paid, US$7.99) · Deluxe can be bought any time during the pass; rewards from already-unlocked ranks can still be claimed",
-      "zh-Hant": "💎 豪華版（付費 US$7.99） · 期間內任何時候購買Deluxe都能領取已解鎖等級的獎勵",
-      "zh-Hans": "💎 豪华版（付费 US$7.99） · 期间内任何时候购买Deluxe都能领取已解锁等级的奖励",
-      "fr": "💎 Deluxe (payant, US$7.99) · Le Deluxe peut être acheté à tout moment ; les rangs déjà atteints restent réclamables",
-      "de": "💎 Deluxe (kostenpflichtig, US$7.99) · Deluxe kann jederzeit gekauft werden; bereits erreichte Ränge bleiben einlösbar",
-      "es": "💎 Deluxe (de pago, US$7.99) · El Deluxe se puede comprar en cualquier momento; los rangos ya alcanzados se pueden reclamar",
-      "it": "💎 Deluxe (a pagamento, US$7.99) · Il Deluxe si può acquistare in qualsiasi momento; i gradi già sbloccati restano riscattabili"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "⏰ 보상 받기 마감 2026-11-05 10:00",
-      "ja": "⏰ リワード受け取り期限 2026-11-05 10:00",
-      "en": "⏰ Claim rewards by 2026-11-05 10:00",
-      "zh-Hant": "⏰ 領取獎勵期限 2026-11-05 10:00",
-      "zh-Hans": "⏰ 领取奖励期限 2026-11-05 10:00",
-      "fr": "⏰ Récupérez les récompenses avant le 2026-11-05 10:00",
-      "de": "⏰ Belohnungen abholen bis 2026-11-05 10:00",
-      "es": "⏰ Reclama las recompensas antes del 2026-11-05 10:00",
-      "it": "⏰ Riscatta le ricompense entro il 2026-11-05 10:00"
-     }
+     "ko": "티어 4 (랭크 75): 알 부화 시 XP·별의모래 증가",
+     "ja": "ティア4 (ランク75): タマゴ孵化時のXP・ほしのすな増加",
+     "en": "Tier 4 (Rank 75): Increased XP and Stardust from hatching Eggs",
+     "zh-Hant": "第4階 (等級75): 孵蛋時獲得的XP與星星沙子增加",
+     "zh-Hans": "第4阶 (等级75): 孵蛋时获得的XP与星星沙子增加",
+     "fr": "Palier 4 (Rang 75): Plus d’XP et de Poussière Étoile en faisant éclore des Œufs",
+     "de": "Stufe 4 (Rang 75): Mehr EP und Sternenstaub beim Ausbrüten von Eiern",
+     "es": "Nivel 4 (Rango 75): Más PX y Polvos Estelares al eclosionar Huevos",
+     "it": "Livello 4 (Grado 75): Più PE e Polvere di stelle dalla schiusa delle Uova"
     }
-   ]
+   ],
+   "passDeluxe": [
+    {
+     "ko": "디럭스 강화 — 티어 2 (랭크 25): 선물 하루 50개까지 열기, 포켓스톱·체육관 포토 디스크에서 하루 150개까지 받기, 가방에 선물 20개 더 보관",
+     "ja": "デラックス強化：ティア2 (ランク25): ギフトを1日50個まで開封、ポケストップ・ジムのフォトディスクから1日150個まで入手、バッグにギフトを20個多く保持",
+     "en": "Deluxe upgrade — Tier 2 (Rank 25): Open up to 50 Gifts per day, receive up to 150 Gifts per day from PokéStop and Gym Photo Discs, hold 20 more Gifts in your Item Bag",
+     "zh-Hant": "Deluxe強化：第2階 (等級25): 每天最多可打開50個友情禮物、每天最多可從寶可補給站和道館的照片圓盤獲得150個、道具背包可多放20個友情禮物",
+     "zh-Hans": "Deluxe强化：第2阶 (等级25): 每天最多可打开50个友情礼物、每天最多可从宝可补给站和道馆的照片圆盘获得150个、道具背包可多放20个友情礼物",
+     "fr": "Amélioration Deluxe — Palier 2 (Rang 25): Ouvrez jusqu’à 50 Cadeaux par jour, recevez jusqu’à 150 Cadeaux par jour en faisant tourner les Disques Photo des PokéStops et des Arènes, gardez 20 Cadeaux de plus dans votre Sac",
+     "de": "Deluxe-Verstärkung – Stufe 2 (Rang 25): Bis zu 50 Geschenke pro Tag öffnen, bis zu 150 Geschenke pro Tag an Foto-Discs von PokéStops und Arenen erhalten, 20 Geschenke mehr im Beutel aufbewahren",
+     "es": "Mejora Deluxe — Nivel 2 (Rango 25): Abre hasta 50 Regalos al día, recibe hasta 150 Regalos al día de los Discos Fotográficos de Poképaradas y Gimnasios, guarda 20 Regalos más en la Mochila",
+     "it": "Potenziamento Deluxe — Livello 2 (Grado 25): Apri fino a 50 Pacchi amicizia al giorno, ricevine fino a 150 al giorno dai Photo Disc di PokéStop e Palestre, conserva 20 Pacchi in più nella Borsa"
+    },
+    {
+     "ko": "랭크 100: 가이오가 (무료) / 디럭스: 반짝이 참",
+     "ja": "ランク100: カイオーガ（無料）／デラックス：キラチャーム",
+     "en": "Rank 100: Kyogre (free) / Deluxe: Lucky Trinket",
+     "zh-Hant": "等級100: 蓋歐卡（免費）／Deluxe：亮晶晶首飾",
+     "zh-Hans": "等级100: 盖欧卡（免费）／Deluxe：亮晶晶首饰",
+     "fr": "Rang 100: Kyogre (gratuit) / Deluxe : Bibelot Chance",
+     "de": "Rang 100: Kyogre (gratis) / Deluxe: Glücks-Klimbim",
+     "es": "Rango 100: Kyogre (gratis) / Deluxe: Recuerdo Suerte",
+     "it": "Grado 100: Kyogre (gratis) / Deluxe: Portafortuna"
+    }
+   ],
+   "passPrice": "US$7.99",
+   "passClaim": "2026-11-05 10:00"
   },
   {
    "id": "halloween-2026",
@@ -1198,148 +760,45 @@
     "es": "Pase de evento gratuito entregado automáticamente durante el evento.",
     "it": "Pass evento gratuito assegnato automaticamente durante l’evento."
    },
-   "bonuses": [
+   "passFree": [
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 이벤트 테마 포켓몬 만남",
-      "ja": "🎟️ 無料 · イベントテーマのポケモンとの出会い",
-      "en": "🎟️ Free · Encounters with event-themed Pokémon",
-      "zh-Hant": "🎟️ 免費 · 與活動主題寶可夢相遇",
-      "zh-Hans": "🎟️ 免费 · 与活动主题宝可梦相遇",
-      "fr": "🎟️ Gratuit · Rencontres avec des Pokémon de l’événement",
-      "de": "🎟️ Gratis · Begegnungen mit Event-Pokémon",
-      "es": "🎟️ Gratis · Encuentros con Pokémon temáticos del evento",
-      "it": "🎟️ Gratis · Incontri con Pokémon a tema"
-     }
+     "ko": "티어 1 (랭크 10): 2× 포획 사탕",
+     "ja": "ティア1 (ランク10): 2× 捕獲時のアメ",
+     "en": "Tier 1 (Rank 10): 2× Catch Candy",
+     "zh-Hant": "第1階 (等級10): 2× 捕捉糖果",
+     "zh-Hans": "第1阶 (等级10): 2× 捕捉糖果",
+     "fr": "Palier 1 (Rang 10): 2× Bonbons de capture",
+     "de": "Stufe 1 (Rang 10): 2× Fang-Bonbons",
+     "es": "Nivel 1 (Rango 10): 2× Caramelos por captura",
+     "it": "Livello 1 (Grado 10): 2× Caramelle per cattura"
     },
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 랭크 50: 로토무 · 랭크 108: 화강돌",
-      "ja": "🎟️ 無料 · ランク50: ロトム · ランク108: ミカルゲ",
-      "en": "🎟️ Free · Rank 50: Rotom · Rank 108: Spiritomb",
-      "zh-Hant": "🎟️ 免費 · 等級50: 洛托姆 · 等級108: 花岩怪",
-      "zh-Hans": "🎟️ 免费 · 等级50: 洛托姆 · 等级108: 花岩怪",
-      "fr": "🎟️ Gratuit · Rang 50: Motisma · Rang 108: Spiritomb",
-      "de": "🎟️ Gratis · Rang 50: Rotom · Rang 108: Kryppuk",
-      "es": "🎟️ Gratis · Rango 50: Rotom · Rango 108: Spiritomb",
-      "it": "🎟️ Gratis · Grado 50: Rotom · Grado 108: Spiritomb"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 이상한사탕, 사탕",
-      "ja": "🎟️ 無料 · ふしぎなアメ, アメ",
-      "en": "🎟️ Free · Rare Candy, Candy",
-      "zh-Hant": "🎟️ 免費 · 神奇糖果, 糖果",
-      "zh-Hans": "🎟️ 免费 · 神奇糖果, 糖果",
-      "fr": "🎟️ Gratuit · Super Bonbon, Bonbons",
-      "de": "🎟️ Gratis · Sonderbonbon, Bonbons",
-      "es": "🎟️ Gratis · Caramelo Raro, Caramelos",
-      "it": "🎟️ Gratis · Caramella Rara, Caramelle"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 티어 1 (랭크 10): 2× 포획 사탕",
-      "ja": "🎟️ 無料 · ティア1 (ランク10): 2× 捕獲時のアメ",
-      "en": "🎟️ Free · Tier 1 (Rank 10): 2× Catch Candy",
-      "zh-Hant": "🎟️ 免費 · 第1階 (等級10): 2× 捕捉糖果",
-      "zh-Hans": "🎟️ 免费 · 第1阶 (等级10): 2× 捕捉糖果",
-      "fr": "🎟️ Gratuit · Palier 1 (Rang 10): 2× Bonbons de capture",
-      "de": "🎟️ Gratis · Stufe 1 (Rang 10): 2× Fang-Bonbons",
-      "es": "🎟️ Gratis · Nivel 1 (Rango 10): 2× Caramelos por captura",
-      "it": "🎟️ Gratis · Livello 1 (Grado 10): 2× Caramelle per cattura"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 티어 2 (랭크 20): 2× 포획 별의모래",
-      "ja": "🎟️ 無料 · ティア2 (ランク20): 2× 捕獲時のほしのすな",
-      "en": "🎟️ Free · Tier 2 (Rank 20): 2× Catch Stardust",
-      "zh-Hant": "🎟️ 免費 · 第2階 (等級20): 2× 捕捉星星沙子",
-      "zh-Hans": "🎟️ 免费 · 第2阶 (等级20): 2× 捕捉星星沙子",
-      "fr": "🎟️ Gratuit · Palier 2 (Rang 20): 2× Poussière Étoile de capture",
-      "de": "🎟️ Gratis · Stufe 2 (Rang 20): 2× Fang-Sternenstaub",
-      "es": "🎟️ Gratis · Nivel 2 (Rango 20): 2× Polvos Estelares por captura",
-      "it": "🎟️ Gratis · Livello 2 (Grado 20): 2× Polvere di stelle per cattura"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$7.99) · 디럭스: 3× 포획 사탕 / 3× 포획 별의모래",
-      "ja": "💎 デラックス（有料 US$7.99） · デラックス：3× 捕獲時のアメ / 3× 捕獲時のほしのすな",
-      "en": "💎 Deluxe (paid, US$7.99) · Deluxe: 3× Catch Candy / 3× Catch Stardust",
-      "zh-Hant": "💎 豪華版（付費 US$7.99） · Deluxe：3× 捕捉糖果 / 3× 捕捉星星沙子",
-      "zh-Hans": "💎 豪华版（付费 US$7.99） · Deluxe：3× 捕捉糖果 / 3× 捕捉星星沙子",
-      "fr": "💎 Deluxe (payant, US$7.99) · Deluxe : 3× Bonbons de capture / 3× Poussière Étoile de capture",
-      "de": "💎 Deluxe (kostenpflichtig, US$7.99) · Deluxe: 3× Fang-Bonbons / 3× Fang-Sternenstaub",
-      "es": "💎 Deluxe (de pago, US$7.99) · Deluxe: 3× Caramelos por captura / 3× Polvos Estelares por captura",
-      "it": "💎 Deluxe (a pagamento, US$7.99) · Deluxe: 3× Caramelle per cattura / 3× Polvere di stelle per cattura"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$7.99) · 파티시에 상의·하의(아바타), 이상한사탕XL, 프리미엄 배틀패스",
-      "ja": "💎 デラックス（有料 US$7.99） · パティシエのトップス・ボトムス（着せ替え）、ふしぎなアメXL、プレミアムバトルパス",
-      "en": "💎 Deluxe (paid, US$7.99) · Patissier Top & Pants (avatar), Rare Candy XL, Premium Battle Passes",
-      "zh-Hant": "💎 豪華版（付費 US$7.99） · 甜點師上衣與褲子（換裝）、神奇糖果XL、特級對戰入場券",
-      "zh-Hans": "💎 豪华版（付费 US$7.99） · 甜点师上衣与裤子（换装）、神奇糖果XL、特级对战入场券",
-      "fr": "💎 Deluxe (payant, US$7.99) · Haut et pantalon Pâtissier, Super Bonbons L, Passes de combat premium",
-      "de": "💎 Deluxe (kostenpflichtig, US$7.99) · Patissier-Oberteil & -Hose, Sonderbonbons XL, Premium-Kampf-Pässe",
-      "es": "💎 Deluxe (de pago, US$7.99) · Parte superior y pantalón Pastelero, Caramelos Raros ++, Pases de combate prémium",
-      "it": "💎 Deluxe (a pagamento, US$7.99) · Maglia e pantaloni Pasticciere, Caramelle Rare L, Biglietti lotta premium"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$7.99) · 추가 포켓몬 만남",
-      "ja": "💎 デラックス（有料 US$7.99） · 追加のポケモンとの出会い",
-      "en": "💎 Deluxe (paid, US$7.99) · Additional Pokémon encounters",
-      "zh-Hant": "💎 豪華版（付費 US$7.99） · 額外的寶可夢相遇",
-      "zh-Hans": "💎 豪华版（付费 US$7.99） · 额外的宝可梦相遇",
-      "fr": "💎 Deluxe (payant, US$7.99) · Rencontres de Pokémon supplémentaires",
-      "de": "💎 Deluxe (kostenpflichtig, US$7.99) · Zusätzliche Pokémon-Begegnungen",
-      "es": "💎 Deluxe (de pago, US$7.99) · Encuentros adicionales con Pokémon",
-      "it": "💎 Deluxe (a pagamento, US$7.99) · Incontri aggiuntivi con Pokémon"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$7.99) · 디럭스는 기간 중 언제 사도 이미 연 랭크의 보상을 받을 수 있음",
-      "ja": "💎 デラックス（有料 US$7.99） · デラックスは期間中いつ購入しても解放済みランクのリワードを受け取れる",
-      "en": "💎 Deluxe (paid, US$7.99) · Deluxe can be bought any time during the pass; rewards from already-unlocked ranks can still be claimed",
-      "zh-Hant": "💎 豪華版（付費 US$7.99） · 期間內任何時候購買Deluxe都能領取已解鎖等級的獎勵",
-      "zh-Hans": "💎 豪华版（付费 US$7.99） · 期间内任何时候购买Deluxe都能领取已解锁等级的奖励",
-      "fr": "💎 Deluxe (payant, US$7.99) · Le Deluxe peut être acheté à tout moment ; les rangs déjà atteints restent réclamables",
-      "de": "💎 Deluxe (kostenpflichtig, US$7.99) · Deluxe kann jederzeit gekauft werden; bereits erreichte Ränge bleiben einlösbar",
-      "es": "💎 Deluxe (de pago, US$7.99) · El Deluxe se puede comprar en cualquier momento; los rangos ya alcanzados se pueden reclamar",
-      "it": "💎 Deluxe (a pagamento, US$7.99) · Il Deluxe si può acquistare in qualsiasi momento; i gradi già sbloccati restano riscattabili"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "⏰ 보상 받기 마감 2026-11-07 20:00",
-      "ja": "⏰ リワード受け取り期限 2026-11-07 20:00",
-      "en": "⏰ Claim rewards by 2026-11-07 20:00",
-      "zh-Hant": "⏰ 領取獎勵期限 2026-11-07 20:00",
-      "zh-Hans": "⏰ 领取奖励期限 2026-11-07 20:00",
-      "fr": "⏰ Récupérez les récompenses avant le 2026-11-07 20:00",
-      "de": "⏰ Belohnungen abholen bis 2026-11-07 20:00",
-      "es": "⏰ Reclama las recompensas antes del 2026-11-07 20:00",
-      "it": "⏰ Riscatta le ricompense entro il 2026-11-07 20:00"
-     }
+     "ko": "티어 2 (랭크 20): 2× 포획 별의모래",
+     "ja": "ティア2 (ランク20): 2× 捕獲時のほしのすな",
+     "en": "Tier 2 (Rank 20): 2× Catch Stardust",
+     "zh-Hant": "第2階 (等級20): 2× 捕捉星星沙子",
+     "zh-Hans": "第2阶 (等级20): 2× 捕捉星星沙子",
+     "fr": "Palier 2 (Rang 20): 2× Poussière Étoile de capture",
+     "de": "Stufe 2 (Rang 20): 2× Fang-Sternenstaub",
+     "es": "Nivel 2 (Rango 20): 2× Polvos Estelares por captura",
+     "it": "Livello 2 (Grado 20): 2× Polvere di stelle per cattura"
     }
-   ]
+   ],
+   "passDeluxe": [
+    {
+     "ko": "디럭스: 3× 포획 사탕 / 3× 포획 별의모래",
+     "ja": "デラックス：3× 捕獲時のアメ / 3× 捕獲時のほしのすな",
+     "en": "Deluxe: 3× Catch Candy / 3× Catch Stardust",
+     "zh-Hant": "Deluxe：3× 捕捉糖果 / 3× 捕捉星星沙子",
+     "zh-Hans": "Deluxe：3× 捕捉糖果 / 3× 捕捉星星沙子",
+     "fr": "Deluxe : 3× Bonbons de capture / 3× Poussière Étoile de capture",
+     "de": "Deluxe: 3× Fang-Bonbons / 3× Fang-Sternenstaub",
+     "es": "Deluxe: 3× Caramelos por captura / 3× Polvos Estelares por captura",
+     "it": "Deluxe: 3× Caramelle per cattura / 3× Polvere di stelle per cattura"
+    }
+   ],
+   "passPrice": "US$7.99",
+   "passClaim": "2026-11-07 20:00"
   },
   {
    "id": "go-pass-november-2026",
@@ -1393,351 +852,78 @@
     "es": "Pase mensual gratuito para todos los Entrenadores. Gana Puntos GO con las tareas del pase para subir de rango (recompensas repetidas tras el rango 100).",
     "it": "Pass mensile gratuito per tutti gli Allenatori. Ottieni Punti GO con le attività del pass per salire di grado (ricompense ripetute dopo il grado 100)."
    },
-   "bonuses": [
+   "passFree": [
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 랭크 100: 그란돈 만남 (레벨 20) (색이 다른 모습 가능)",
-      "ja": "🎟️ 無料 · ランク100: グラードンと出会える（レベル20）（色違いの可能性あり）",
-      "en": "🎟️ Free · Rank 100: Groudon encounter (Level 20) (may be Shiny)",
-      "zh-Hant": "🎟️ 免費 · 等級100: 固拉多相遇（等級20）（有機會是異色）",
-      "zh-Hans": "🎟️ 免费 · 等级100: 固拉多相遇（等级20）（有机会是异色）",
-      "fr": "🎟️ Gratuit · Rang 100: Groudon : rencontre (niveau 20) (peut être chromatique)",
-      "de": "🎟️ Gratis · Rang 100: Groudon-Begegnung (Level 20) (kann schillernd sein)",
-      "es": "🎟️ Gratis · Rango 100: Groudon: encuentro (nivel 20) (puede ser variocolor)",
-      "it": "🎟️ Gratis · Grado 100: Groudon: incontro (livello 20) (può essere cromatico)"
-     }
+     "ko": "랭크 100: 그란돈 만남 (레벨 20) (색이 다른 모습 가능)",
+     "ja": "ランク100: グラードンと出会える（レベル20）（色違いの可能性あり）",
+     "en": "Rank 100: Groudon encounter (Level 20) (may be Shiny)",
+     "zh-Hant": "等級100: 固拉多相遇（等級20）（有機會是異色）",
+     "zh-Hans": "等级100: 固拉多相遇（等级20）（有机会是异色）",
+     "fr": "Rang 100: Groudon : rencontre (niveau 20) (peut être chromatique)",
+     "de": "Rang 100: Groudon-Begegnung (Level 20) (kann schillernd sein)",
+     "es": "Rango 100: Groudon: encuentro (nivel 20) (puede ser variocolor)",
+     "it": "Grado 100: Groudon: incontro (livello 20) (può essere cromatico)"
     },
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 만날 수 있는 포켓몬 — 랭크 3 다이맥스 우르, 랭크 7 모래꿍, 랭크 12 기어르, 랭크 22 코코리, 랭크 24 앱솔, 랭크 32 어리짱, 랭크 37 밀탱크, 랭크 42 빈나두, 랭크 47 망망이, 랭크 52 파비코, 랭크 57 발바로, 랭크 67 신뇽, 랭크 72 알로라 모래두지, 랭크 77 다이맥스 세꿀버리, 랭크 87 알로라 닥트리오, 랭크 92 딥상어동",
-      "ja": "🎟️ 無料 · 出会えるポケモン：ランク3 ダイマックスウールー、ランク7 スナバァ、ランク12 ギアル、ランク22 ゴマゾウ、ランク24 アブソル、ランク32 カヌチャン、ランク37 ミルタンク、ランク42 ズピカ、ランク47 ボチ、ランク52 チルット、ランク57 ヤルキモノ、ランク67 ハクリュー、ランク72 アローラのサンド、ランク77 ダイマックスミツハニー、ランク87 アローラのダグトリオ、ランク92 フカマル",
-      "en": "🎟️ Free · Encounters — Rank 3 Dynamax Wooloo, Rank 7 Sandygast, Rank 12 Klink, Rank 22 Phanpy, Rank 24 Absol, Rank 32 Tinkatink, Rank 37 Miltank, Rank 42 Tadbulb, Rank 47 Greavard, Rank 52 Swablu, Rank 57 Vigoroth, Rank 67 Dragonair, Rank 72 Alolan Sandshrew, Rank 77 Dynamax Combee, Rank 87 Alolan Dugtrio, Rank 92 Gible",
-      "zh-Hant": "🎟️ 免費 · 可相遇的寶可夢：等級3 極巨化毛辮羊、等級7 沙丘娃、等級12 齒輪兒、等級22 小小象、等級24 阿勃梭魯、等級32 小鍛匠、等級37 大奶罐、等級42 光蚪仔、等級47 墓仔狗、等級52 青綿鳥、等級57 過動猿、等級67 哈克龍、等級72 阿羅拉穿山鼠、等級77 極巨化三蜜蜂、等級87 阿羅拉三地鼠、等級92 圓陸鯊",
-      "zh-Hans": "🎟️ 免费 · 可相遇的宝可梦：等级3 极巨化毛辫羊、等级7 沙丘娃、等级12 齿轮儿、等级22 小小象、等级24 阿勃梭鲁、等级32 小锻匠、等级37 大奶罐、等级42 光蚪仔、等级47 墓仔狗、等级52 青绵鸟、等级57 过动猿、等级67 哈克龙、等级72 阿罗拉穿山鼠、等级77 极巨化三蜜蜂、等级87 阿罗拉三地鼠、等级92 圆陆鲨",
-      "fr": "🎟️ Gratuit · Rencontres — Rang 3 Moumouton Dynamax, Rang 7 Bacabouh, Rang 12 Tic, Rang 22 Phanpy, Rang 24 Absol, Rang 32 Forgerette, Rang 37 Écrémeuh, Rang 42 Têtampoule, Rang 47 Toutombe, Rang 52 Tylton, Rang 57 Vigoroth, Rang 67 Draco, Rang 72 Sabelette d’Alola, Rang 77 Apitrini Dynamax, Rang 87 Triopikeur d’Alola, Rang 92 Griknot",
-      "de": "🎟️ Gratis · Begegnungen – Rang 3 Dynamax-Wolly, Rang 7 Sankabuh, Rang 12 Klikk, Rang 22 Phanpy, Rang 24 Absol, Rang 32 Forgita, Rang 37 Miltank, Rang 42 Blipp, Rang 47 Gruff, Rang 52 Wablu, Rang 57 Muntier, Rang 67 Dragonir, Rang 72 Alola-Sandan, Rang 77 Dynamax-Wadribie, Rang 87 Alola-Digdri, Rang 92 Kaumalat",
-      "es": "🎟️ Gratis · Encuentros — Rango 3 Wooloo Dinamax, Rango 7 Sandygast, Rango 12 Klink, Rango 22 Phanpy, Rango 24 Absol, Rango 32 Tinkatink, Rango 37 Miltank, Rango 42 Tadbulb, Rango 47 Greavard, Rango 52 Swablu, Rango 57 Vigoroth, Rango 67 Dragonair, Rango 72 Sandshrew de Alola, Rango 77 Combee Dinamax, Rango 87 Dugtrio de Alola, Rango 92 Gible",
-      "it": "🎟️ Gratis · Incontri — Grado 3 Wooloo Dynamax, Grado 7 Sandygast, Grado 12 Klink, Grado 22 Phanpy, Grado 24 Absol, Grado 32 Tinkatink, Grado 37 Miltank, Grado 42 Tadbulb, Grado 47 Greavard, Grado 52 Swablu, Grado 57 Vigoroth, Grado 67 Dragonair, Grado 72 Sandshrew di Alola, Grado 77 Combee Dynamax, Grado 87 Dugtrio di Alola, Grado 92 Gible"
-     }
+     "ko": "티어 1 (랭크 1): 교환 시 사탕 1개 추가, 트레이너 레벨 31 이상은 교환 시 사탕XL 1개 확정",
+     "ja": "ティア1 (ランク1): 交換でアメ1個追加、トレーナーレベル31以上は交換でアメXL1個確定",
+     "en": "Tier 1 (Rank 1): One additional Candy for trading; Trainers level 31+ get one guaranteed Candy XL when trading",
+     "zh-Hant": "第1階 (等級1): 交換時額外獲得1顆糖果，訓練家等級31以上交換時必定獲得1顆糖果XL",
+     "zh-Hans": "第1阶 (等级1): 交换时额外获得1颗糖果，训练家等级31以上交换时必定获得1颗糖果XL",
+     "fr": "Palier 1 (Rang 1): Un Bonbon supplémentaire lors des échanges ; Bonbon L garanti dès le niveau 31",
+     "de": "Stufe 1 (Rang 1): Ein zusätzliches Bonbon beim Tauschen; ab Level 31 ein garantiertes Bonbon XL",
+     "es": "Nivel 1 (Rango 1): Un Caramelo adicional al intercambiar; desde nivel 31, un Caramelo ++ asegurado",
+     "it": "Livello 1 (Grado 1): Una Caramella in più negli scambi; dal livello 31 una Caramella L garantita"
     },
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 포켓코인 총 400개",
-      "ja": "🎟️ 無料 · ポケコイン 合計400枚",
-      "en": "🎟️ Free · PokéCoins ×400 in total",
-      "zh-Hant": "🎟️ 免費 · 寶可幣 共400枚",
-      "zh-Hans": "🎟️ 免费 · 宝可币 共400枚",
-      "fr": "🎟️ Gratuit · PokéPièces ×400 au total",
-      "de": "🎟️ Gratis · PokéMünzen ×400 insgesamt",
-      "es": "🎟️ Gratis · Pokémonedas ×400 en total",
-      "it": "🎟️ Gratis · Pokémonete ×400 in totale"
-     }
+     "ko": "티어 2 (랭크 25): 선물 하루 40개까지 열기, 포켓스톱·체육관 포토 디스크에서 하루 125개까지 받기, 가방에 선물 10개 더 보관",
+     "ja": "ティア2 (ランク25): ギフトを1日40個まで開封、ポケストップ・ジムのフォトディスクから1日125個まで入手、バッグにギフトを10個多く保持",
+     "en": "Tier 2 (Rank 25): Open up to 40 Gifts per day, receive up to 125 Gifts per day from PokéStop and Gym Photo Discs, hold 10 more Gifts in your Item Bag",
+     "zh-Hant": "第2階 (等級25): 每天最多可打開40個友情禮物、每天最多可從寶可補給站和道館的照片圓盤獲得125個、道具背包可多放10個友情禮物",
+     "zh-Hans": "第2阶 (等级25): 每天最多可打开40个友情礼物、每天最多可从宝可补给站和道馆的照片圆盘获得125个、道具背包可多放10个友情礼物",
+     "fr": "Palier 2 (Rang 25): Ouvrez jusqu’à 40 Cadeaux par jour, recevez jusqu’à 125 Cadeaux par jour en faisant tourner les Disques Photo des PokéStops et des Arènes, gardez 10 Cadeaux de plus dans votre Sac",
+     "de": "Stufe 2 (Rang 25): Bis zu 40 Geschenke pro Tag öffnen, bis zu 125 Geschenke pro Tag an Foto-Discs von PokéStops und Arenen erhalten, 10 Geschenke mehr im Beutel aufbewahren",
+     "es": "Nivel 2 (Rango 25): Abre hasta 40 Regalos al día, recibe hasta 125 Regalos al día de los Discos Fotográficos de Poképaradas y Gimnasios, guarda 10 Regalos más en la Mochila",
+     "it": "Livello 2 (Grado 25): Apri fino a 40 Pacchi amicizia al giorno, ricevine fino a 125 al giorno dai Photo Disc di PokéStop e Palestre, conserva 10 Pacchi in più nella Borsa"
     },
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 랭크 2: XP ×10,000 · 랭크 55: 행복의알 · 랭크 91/95/96: 이상한사탕XL ×1/×2/×2 · 랭크 97: 그란돈 사탕 ×3",
-      "ja": "🎟️ 無料 · ランク2: XP ×10,000 · ランク55: しあわせタマゴ · ランク91/95/96: ふしぎなアメXL ×1/×2/×2 · ランク97: グラードン アメ ×3",
-      "en": "🎟️ Free · Rank 2: XP ×10,000 · Rank 55: Lucky Egg · Rank 91/95/96: Rare Candy XL ×1/×2/×2 · Rank 97: Groudon Candy ×3",
-      "zh-Hant": "🎟️ 免費 · 等級2: XP ×10,000 · 等級55: 幸運蛋 · 等級91/95/96: 神奇糖果XL ×1/×2/×2 · 等級97: 固拉多 糖果 ×3",
-      "zh-Hans": "🎟️ 免费 · 等级2: XP ×10,000 · 等级55: 幸运蛋 · 等级91/95/96: 神奇糖果XL ×1/×2/×2 · 等级97: 固拉多 糖果 ×3",
-      "fr": "🎟️ Gratuit · Rang 2: XP ×10,000 · Rang 55: Œuf Chance · Rang 91/95/96: Super Bonbon L ×1/×2/×2 · Rang 97: Groudon Bonbons ×3",
-      "de": "🎟️ Gratis · Rang 2: XP ×10,000 · Rang 55: Glücks-Ei · Rang 91/95/96: Sonderbonbon XL ×1/×2/×2 · Rang 97: Groudon Bonbons ×3",
-      "es": "🎟️ Gratis · Rango 2: XP ×10,000 · Rango 55: Huevo Suerte · Rango 91/95/96: Caramelo Raro ++ ×1/×2/×2 · Rango 97: Groudon Caramelos ×3",
-      "it": "🎟️ Gratis · Grado 2: XP ×10,000 · Grado 55: Fortunuovo · Grado 91/95/96: Caramella Rara L ×1/×2/×2 · Grado 97: Groudon Caramelle ×3"
-     }
+     "ko": "티어 3 (랭크 50): 산책향로 지속 시간 2배",
+     "ja": "ティア3 (ランク50): おさんぽおこうの効果時間2倍",
+     "en": "Tier 3 (Rank 50): 2× Daily Adventure Incense duration",
+     "zh-Hant": "第3階 (等級50): 散步小薰香效果時間2倍",
+     "zh-Hans": "第3阶 (等级50): 散步小熏香效果时间2倍",
+     "fr": "Palier 3 (Rang 50): Durée ×2 de l’Encens d’aventure quotidienne",
+     "de": "Stufe 3 (Rang 50): 2× Dauer von Täglicher Abenteuerrauch",
+     "es": "Nivel 3 (Rango 50): Duración ×2 del Incienso de aventura diario",
+     "it": "Livello 3 (Grado 50): Durata ×2 dell’Aroma avventura giornaliera"
     },
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 티어 1 (랭크 1): 교환 시 사탕 1개 추가, 트레이너 레벨 31 이상은 교환 시 사탕XL 1개 확정",
-      "ja": "🎟️ 無料 · ティア1 (ランク1): 交換でアメ1個追加、トレーナーレベル31以上は交換でアメXL1個確定",
-      "en": "🎟️ Free · Tier 1 (Rank 1): One additional Candy for trading; Trainers level 31+ get one guaranteed Candy XL when trading",
-      "zh-Hant": "🎟️ 免費 · 第1階 (等級1): 交換時額外獲得1顆糖果，訓練家等級31以上交換時必定獲得1顆糖果XL",
-      "zh-Hans": "🎟️ 免费 · 第1阶 (等级1): 交换时额外获得1颗糖果，训练家等级31以上交换时必定获得1颗糖果XL",
-      "fr": "🎟️ Gratuit · Palier 1 (Rang 1): Un Bonbon supplémentaire lors des échanges ; Bonbon L garanti dès le niveau 31",
-      "de": "🎟️ Gratis · Stufe 1 (Rang 1): Ein zusätzliches Bonbon beim Tauschen; ab Level 31 ein garantiertes Bonbon XL",
-      "es": "🎟️ Gratis · Nivel 1 (Rango 1): Un Caramelo adicional al intercambiar; desde nivel 31, un Caramelo ++ asegurado",
-      "it": "🎟️ Gratis · Livello 1 (Grado 1): Una Caramella in più negli scambi; dal livello 31 una Caramella L garantita"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 티어 2 (랭크 25): 선물 하루 40개까지 열기, 포켓스톱·체육관 포토 디스크에서 하루 125개까지 받기, 가방에 선물 10개 더 보관",
-      "ja": "🎟️ 無料 · ティア2 (ランク25): ギフトを1日40個まで開封、ポケストップ・ジムのフォトディスクから1日125個まで入手、バッグにギフトを10個多く保持",
-      "en": "🎟️ Free · Tier 2 (Rank 25): Open up to 40 Gifts per day, receive up to 125 Gifts per day from PokéStop and Gym Photo Discs, hold 10 more Gifts in your Item Bag",
-      "zh-Hant": "🎟️ 免費 · 第2階 (等級25): 每天最多可打開40個友情禮物、每天最多可從寶可補給站和道館的照片圓盤獲得125個、道具背包可多放10個友情禮物",
-      "zh-Hans": "🎟️ 免费 · 第2阶 (等级25): 每天最多可打开40个友情礼物、每天最多可从宝可补给站和道馆的照片圆盘获得125个、道具背包可多放10个友情礼物",
-      "fr": "🎟️ Gratuit · Palier 2 (Rang 25): Ouvrez jusqu’à 40 Cadeaux par jour, recevez jusqu’à 125 Cadeaux par jour en faisant tourner les Disques Photo des PokéStops et des Arènes, gardez 10 Cadeaux de plus dans votre Sac",
-      "de": "🎟️ Gratis · Stufe 2 (Rang 25): Bis zu 40 Geschenke pro Tag öffnen, bis zu 125 Geschenke pro Tag an Foto-Discs von PokéStops und Arenen erhalten, 10 Geschenke mehr im Beutel aufbewahren",
-      "es": "🎟️ Gratis · Nivel 2 (Rango 25): Abre hasta 40 Regalos al día, recibe hasta 125 Regalos al día de los Discos Fotográficos de Poképaradas y Gimnasios, guarda 10 Regalos más en la Mochila",
-      "it": "🎟️ Gratis · Livello 2 (Grado 25): Apri fino a 40 Pacchi amicizia al giorno, ricevine fino a 125 al giorno dai Photo Disc di PokéStop e Palestre, conserva 10 Pacchi in più nella Borsa"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 티어 3 (랭크 50): 산책향로 지속 시간 2배",
-      "ja": "🎟️ 無料 · ティア3 (ランク50): おさんぽおこうの効果時間2倍",
-      "en": "🎟️ Free · Tier 3 (Rank 50): 2× Daily Adventure Incense duration",
-      "zh-Hant": "🎟️ 免費 · 第3階 (等級50): 散步小薰香效果時間2倍",
-      "zh-Hans": "🎟️ 免费 · 第3阶 (等级50): 散步小熏香效果时间2倍",
-      "fr": "🎟️ Gratuit · Palier 3 (Rang 50): Durée ×2 de l’Encens d’aventure quotidienne",
-      "de": "🎟️ Gratis · Stufe 3 (Rang 50): 2× Dauer von Täglicher Abenteuerrauch",
-      "es": "🎟️ Gratis · Nivel 3 (Rango 50): Duración ×2 del Incienso de aventura diario",
-      "it": "🎟️ Gratis · Livello 3 (Grado 50): Durata ×2 dell’Aroma avventura giornaliera"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 티어 4 (랭크 75): 알 부화 시 XP·별의모래 증가",
-      "ja": "🎟️ 無料 · ティア4 (ランク75): タマゴ孵化時のXP・ほしのすな増加",
-      "en": "🎟️ Free · Tier 4 (Rank 75): Increased XP and Stardust from hatching Eggs",
-      "zh-Hant": "🎟️ 免費 · 第4階 (等級75): 孵蛋時獲得的XP與星星沙子增加",
-      "zh-Hans": "🎟️ 免费 · 第4阶 (等级75): 孵蛋时获得的XP与星星沙子增加",
-      "fr": "🎟️ Gratuit · Palier 4 (Rang 75): Plus d’XP et de Poussière Étoile en faisant éclore des Œufs",
-      "de": "🎟️ Gratis · Stufe 4 (Rang 75): Mehr EP und Sternenstaub beim Ausbrüten von Eiern",
-      "es": "🎟️ Gratis · Nivel 4 (Rango 75): Más PX y Polvos Estelares al eclosionar Huevos",
-      "it": "🎟️ Gratis · Livello 4 (Grado 75): Più PE e Polvere di stelle dalla schiusa delle Uova"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 2026-11-28 00:00 ~ 2026-11-29 23:59: GO 포인트 하루 획득 상한 없음",
-      "ja": "🎟️ 無料 · 2026-11-28 0:00〜2026-11-29 23:59：GOポイントの1日の獲得上限なし",
-      "en": "🎟️ Free · 2026-11-28 00:00 – 2026-11-29 23:59: no daily limit on GO Points",
-      "zh-Hant": "🎟️ 免費 · 2026-11-28 00:00～2026-11-29 23:59：GO點數每日獲得無上限",
-      "zh-Hans": "🎟️ 免费 · 2026-11-28 00:00～2026-11-29 23:59：GO点数每日获得无上限",
-      "fr": "🎟️ Gratuit · 2026-11-28 00:00 – 2026-11-29 23:59 : pas de limite quotidienne de Points GO",
-      "de": "🎟️ Gratis · 2026-11-28 00:00 – 2026-11-29 23:59: kein Tageslimit für GO-Punkte",
-      "es": "🎟️ Gratis · 2026-11-28 00:00 – 2026-11-29 23:59: sin límite diario de Puntos GO",
-      "it": "🎟️ Gratis · 2026-11-28 00:00 – 2026-11-29 23:59: nessun limite giornaliero di Punti GO"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 랭크 101–200: 별의모래 ×50 (반복)",
-      "ja": "🎟️ 無料 · ランク101–200: ほしのすな ×50 (繰り返し)",
-      "en": "🎟️ Free · Rank 101–200: Stardust ×50 (repeat)",
-      "zh-Hant": "🎟️ 免費 · 等級101–200: 星星沙子 ×50 (重複)",
-      "zh-Hans": "🎟️ 免费 · 等级101–200: 星星沙子 ×50 (重复)",
-      "fr": "🎟️ Gratuit · Rang 101–200: Poussière Étoile ×50 (répété)",
-      "de": "🎟️ Gratis · Rang 101–200: Sternenstaub ×50 (wiederholt)",
-      "es": "🎟️ Gratis · Rango 101–200: Polvos Estelares ×50 (repetido)",
-      "it": "🎟️ Gratis · Grado 101–200: Polvere di stelle ×50 (ripetuto)"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$7.99) · 포켓코인 1,000개 추가 (무료 포함 총 1,400개)",
-      "ja": "💎 デラックス（有料 US$7.99） · ポケコイン 1,000枚追加（無料分と合わせて1,400枚）",
-      "en": "💎 Deluxe (paid, US$7.99) · PokéCoins ×1,000 extra (1,400 total with free track)",
-      "zh-Hant": "💎 豪華版（付費 US$7.99） · 寶可幣 額外1,000枚（含免費共1,400枚）",
-      "zh-Hans": "💎 豪华版（付费 US$7.99） · 宝可币 额外1,000枚（含免费共1,400枚）",
-      "fr": "💎 Deluxe (payant, US$7.99) · PokéPièces ×1 000 en plus (1 400 au total)",
-      "de": "💎 Deluxe (kostenpflichtig, US$7.99) · PokéMünzen ×1.000 zusätzlich (insgesamt 1.400)",
-      "es": "💎 Deluxe (de pago, US$7.99) · Pokémonedas ×1000 extra (1400 en total)",
-      "it": "💎 Deluxe (a pagamento, US$7.99) · Pokémonete ×1.000 extra (1.400 in totale)"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$7.99) · 랭크 99: 슈퍼 부화장치 1개",
-      "ja": "💎 デラックス（有料 US$7.99） · ランク99: スーパーふかそうち 1個",
-      "en": "💎 Deluxe (paid, US$7.99) · Rank 99: Super Incubator ×1",
-      "zh-Hant": "💎 豪華版（付費 US$7.99） · 等級99: 超級孵化器 ×1",
-      "zh-Hans": "💎 豪华版（付费 US$7.99） · 等级99: 超级孵化器 ×1",
-      "fr": "💎 Deluxe (payant, US$7.99) · Rang 99: Super-Incubateur ×1",
-      "de": "💎 Deluxe (kostenpflichtig, US$7.99) · Rang 99: Super-Brutmaschine ×1",
-      "es": "💎 Deluxe (de pago, US$7.99) · Rango 99: Superincubadora ×1",
-      "it": "💎 Deluxe (a pagamento, US$7.99) · Grado 99: Superincubatrice ×1"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$7.99) · 만날 수 있는 포켓몬 — 랭크 9 메롱꿍, 랭크 17 훔처우, 랭크 27 대여르, 랭크 39 타타륜, 랭크 54 두랄루돈, 랭크 69 차데스, 랭크 82 쫀도기, 랭크 84 하느라기, 랭크 94 폭거북스",
-      "ja": "💎 デラックス（有料 US$7.99） · 出会えるポケモン：ランク9 ベロバー、ランク17 クスネ、ランク27 タイレーツ、ランク39 ダダリン、ランク54 ジュラルドン、ランク69 チャデス、ランク82 パピモッチ、ランク84 ヒラヒナ、ランク94 バクガメス",
-      "en": "💎 Deluxe (paid, US$7.99) · Encounters — Rank 9 Impidimp, Rank 17 Nickit, Rank 27 Falinks, Rank 39 Dhelmise, Rank 54 Duraludon, Rank 69 Poltchageist, Rank 82 Fidough, Rank 84 Flittle, Rank 94 Turtonator",
-      "zh-Hant": "💎 豪華版（付費 US$7.99） · 可相遇的寶可夢：等級9 搗蛋小妖、等級17 偷兒狐、等級27 列陣兵、等級39 破破舵輪、等級54 鋁鋼龍、等級69 斯魔茶、等級82 狗仔包、等級84 飄飄雛、等級94 爆焰龜獸",
-      "zh-Hans": "💎 豪华版（付费 US$7.99） · 可相遇的宝可梦：等级9 捣蛋小妖、等级17 狡小狐、等级27 列阵兵、等级39 破破舵轮、等级54 铝钢龙、等级69 斯魔茶、等级82 狗仔包、等级84 飘飘雏、等级94 爆焰龟兽",
-      "fr": "💎 Deluxe (payant, US$7.99) · Rencontres — Rang 9 Grimalin, Rang 17 Goupilou, Rang 27 Hexadron, Rang 39 Sinistrail, Rang 54 Duralugon, Rang 69 Poltchageist, Rang 82 Pâtachiot, Rang 84 Flotillon, Rang 94 Boumata",
-      "de": "💎 Deluxe (kostenpflichtig, US$7.99) · Begegnungen – Rang 9 Bähmon, Rang 17 Kleptifux, Rang 27 Legios, Rang 39 Moruda, Rang 54 Duraludon, Rang 69 Mortcha, Rang 82 Hefel, Rang 84 Flattutu, Rang 94 Tortunator",
-      "es": "💎 Deluxe (de pago, US$7.99) · Encuentros — Rango 9 Impidimp, Rango 17 Nickit, Rango 27 Falinks, Rango 39 Dhelmise, Rango 54 Duraludon, Rango 69 Poltchageist, Rango 82 Fidough, Rango 84 Flittle, Rango 94 Turtonator",
-      "it": "💎 Deluxe (a pagamento, US$7.99) · Incontri — Grado 9 Impidimp, Grado 17 Nickit, Grado 27 Falinks, Grado 39 Dhelmise, Grado 54 Duraludon, Grado 69 Poltchageist, Grado 82 Fidough, Grado 84 Flittle, Grado 94 Turtonator"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$7.99) · 랭크 97: 그란돈 사탕 ×10 · 랭크 98: 그란돈 사탕XL ×3 · 랭크 100: 포켓코인 ×200",
-      "ja": "💎 デラックス（有料 US$7.99） · ランク97: グラードン アメ ×10 · ランク98: グラードン アメXL ×3 · ランク100: ポケコイン ×200",
-      "en": "💎 Deluxe (paid, US$7.99) · Rank 97: Groudon Candy ×10 · Rank 98: Groudon Candy XL ×3 · Rank 100: PokéCoins ×200",
-      "zh-Hant": "💎 豪華版（付費 US$7.99） · 等級97: 固拉多 糖果 ×10 · 等級98: 固拉多 糖果XL ×3 · 等級100: 寶可幣 ×200",
-      "zh-Hans": "💎 豪华版（付费 US$7.99） · 等级97: 固拉多 糖果 ×10 · 等级98: 固拉多 糖果XL ×3 · 等级100: 宝可币 ×200",
-      "fr": "💎 Deluxe (payant, US$7.99) · Rang 97: Groudon Bonbons ×10 · Rang 98: Groudon Bonbons L ×3 · Rang 100: PokéPièces ×200",
-      "de": "💎 Deluxe (kostenpflichtig, US$7.99) · Rang 97: Groudon Bonbons ×10 · Rang 98: Groudon Bonbons XL ×3 · Rang 100: PokéMünzen ×200",
-      "es": "💎 Deluxe (de pago, US$7.99) · Rango 97: Groudon Caramelos ×10 · Rango 98: Groudon Caramelos ++ ×3 · Rango 100: Pokémonedas ×200",
-      "it": "💎 Deluxe (a pagamento, US$7.99) · Grado 97: Groudon Caramelle ×10 · Grado 98: Groudon Caramelle L ×3 · Grado 100: Pokémonete ×200"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$7.99) · 디럭스 강화 — 티어 2 (랭크 25): 선물 하루 50개까지 열기, 포켓스톱·체육관 포토 디스크에서 하루 150개까지 받기, 가방에 선물 20개 더 보관",
-      "ja": "💎 デラックス（有料 US$7.99） · デラックス強化：ティア2 (ランク25): ギフトを1日50個まで開封、ポケストップ・ジムのフォトディスクから1日150個まで入手、バッグにギフトを20個多く保持",
-      "en": "💎 Deluxe (paid, US$7.99) · Deluxe upgrade — Tier 2 (Rank 25): Open up to 50 Gifts per day, receive up to 150 Gifts per day from PokéStop and Gym Photo Discs, hold 20 more Gifts in your Item Bag",
-      "zh-Hant": "💎 豪華版（付費 US$7.99） · Deluxe強化：第2階 (等級25): 每天最多可打開50個友情禮物、每天最多可從寶可補給站和道館的照片圓盤獲得150個、道具背包可多放20個友情禮物",
-      "zh-Hans": "💎 豪华版（付费 US$7.99） · Deluxe强化：第2阶 (等级25): 每天最多可打开50个友情礼物、每天最多可从宝可补给站和道馆的照片圆盘获得150个、道具背包可多放20个友情礼物",
-      "fr": "💎 Deluxe (payant, US$7.99) · Amélioration Deluxe — Palier 2 (Rang 25): Ouvrez jusqu’à 50 Cadeaux par jour, recevez jusqu’à 150 Cadeaux par jour en faisant tourner les Disques Photo des PokéStops et des Arènes, gardez 20 Cadeaux de plus dans votre Sac",
-      "de": "💎 Deluxe (kostenpflichtig, US$7.99) · Deluxe-Verstärkung – Stufe 2 (Rang 25): Bis zu 50 Geschenke pro Tag öffnen, bis zu 150 Geschenke pro Tag an Foto-Discs von PokéStops und Arenen erhalten, 20 Geschenke mehr im Beutel aufbewahren",
-      "es": "💎 Deluxe (de pago, US$7.99) · Mejora Deluxe — Nivel 2 (Rango 25): Abre hasta 50 Regalos al día, recibe hasta 150 Regalos al día de los Discos Fotográficos de Poképaradas y Gimnasios, guarda 20 Regalos más en la Mochila",
-      "it": "💎 Deluxe (a pagamento, US$7.99) · Potenziamento Deluxe — Livello 2 (Grado 25): Apri fino a 50 Pacchi amicizia al giorno, ricevine fino a 150 al giorno dai Photo Disc di PokéStop e Palestre, conserva 20 Pacchi in più nella Borsa"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$7.99) · 웹 스토어 구매 특전: 하이퍼볼 10개, 기력의덩어리 5개, 프리미엄 배틀패스 1장, 풀회복약 5개 (+10랭크 상품은 프리미엄 배틀패스 2장)",
-      "ja": "💎 デラックス（有料 US$7.99） · Webストア購入特典：ハイパーボール10個、げんきのかたまり5個、プレミアムバトルパス1枚、まんたんのくすり5個（＋10ランク版はプレミアムバトルパス2枚）",
-      "en": "💎 Deluxe (paid, US$7.99) · Web Store bonus: 10 Ultra Balls, 5 Max Revives, 1 Premium Battle Pass, 5 Max Potions (+10 Ranks version: 2 Premium Battle Passes)",
-      "zh-Hant": "💎 豪華版（付費 US$7.99） · 網路商店購買贈品：高級球10個、活力塊5個、特級對戰入場券1張、全滿藥5個（+10等級版為特級對戰入場券2張）",
-      "zh-Hans": "💎 豪华版（付费 US$7.99） · 网络商店购买赠品：高级球10个、活力块5个、特级对战入场券1张、全满药5个（+10等级版为特级对战入场券2张）",
-      "fr": "💎 Deluxe (payant, US$7.99) · Bonus Boutique en ligne : 10 Hyper Balls, 5 Rappels Max, 1 Passe de combat premium, 5 Potions Max (version +10 rangs : 2 Passes)",
-      "de": "💎 Deluxe (kostenpflichtig, US$7.99) · Webshop-Bonus: 10 Hyperbälle, 5 Top-Beleber, 1 Premium-Kampf-Pass, 5 Top-Tränke (+10-Ränge-Version: 2 Premium-Kampf-Pässe)",
-      "es": "💎 Deluxe (de pago, US$7.99) · Extra de la tienda web: 10 Ultra Balls, 5 Revivir Máximos, 1 Pase de combate prémium, 5 Pociones Máximas (versión +10 rangos: 2 Pases)",
-      "it": "💎 Deluxe (a pagamento, US$7.99) · Bonus del Web Store: 10 Ultra Ball, 5 Revitalizzanti max, 1 Biglietto lotta premium, 5 Pozioni max (versione +10 gradi: 2 Biglietti)"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$7.99) · 디럭스는 기간 중 언제 사도 이미 연 랭크의 보상을 받을 수 있음",
-      "ja": "💎 デラックス（有料 US$7.99） · デラックスは期間中いつ購入しても解放済みランクのリワードを受け取れる",
-      "en": "💎 Deluxe (paid, US$7.99) · Deluxe can be bought any time during the pass; rewards from already-unlocked ranks can still be claimed",
-      "zh-Hant": "💎 豪華版（付費 US$7.99） · 期間內任何時候購買Deluxe都能領取已解鎖等級的獎勵",
-      "zh-Hans": "💎 豪华版（付费 US$7.99） · 期间内任何时候购买Deluxe都能领取已解锁等级的奖励",
-      "fr": "💎 Deluxe (payant, US$7.99) · Le Deluxe peut être acheté à tout moment ; les rangs déjà atteints restent réclamables",
-      "de": "💎 Deluxe (kostenpflichtig, US$7.99) · Deluxe kann jederzeit gekauft werden; bereits erreichte Ränge bleiben einlösbar",
-      "es": "💎 Deluxe (de pago, US$7.99) · El Deluxe se puede comprar en cualquier momento; los rangos ya alcanzados se pueden reclamar",
-      "it": "💎 Deluxe (a pagamento, US$7.99) · Il Deluxe si può acquistare in qualsiasi momento; i gradi già sbloccati restano riscattabili"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "⏰ 보상 받기 마감 2026-12-03 10:00",
-      "ja": "⏰ リワード受け取り期限 2026-12-03 10:00",
-      "en": "⏰ Claim rewards by 2026-12-03 10:00",
-      "zh-Hant": "⏰ 領取獎勵期限 2026-12-03 10:00",
-      "zh-Hans": "⏰ 领取奖励期限 2026-12-03 10:00",
-      "fr": "⏰ Récupérez les récompenses avant le 2026-12-03 10:00",
-      "de": "⏰ Belohnungen abholen bis 2026-12-03 10:00",
-      "es": "⏰ Reclama las recompensas antes del 2026-12-03 10:00",
-      "it": "⏰ Riscatta le ricompense entro il 2026-12-03 10:00"
-     }
+     "ko": "티어 4 (랭크 75): 알 부화 시 XP·별의모래 증가",
+     "ja": "ティア4 (ランク75): タマゴ孵化時のXP・ほしのすな増加",
+     "en": "Tier 4 (Rank 75): Increased XP and Stardust from hatching Eggs",
+     "zh-Hant": "第4階 (等級75): 孵蛋時獲得的XP與星星沙子增加",
+     "zh-Hans": "第4阶 (等级75): 孵蛋时获得的XP与星星沙子增加",
+     "fr": "Palier 4 (Rang 75): Plus d’XP et de Poussière Étoile en faisant éclore des Œufs",
+     "de": "Stufe 4 (Rang 75): Mehr EP und Sternenstaub beim Ausbrüten von Eiern",
+     "es": "Nivel 4 (Rango 75): Más PX y Polvos Estelares al eclosionar Huevos",
+     "it": "Livello 4 (Grado 75): Più PE e Polvere di stelle dalla schiusa delle Uova"
     }
-   ]
-  },
-  {
-   "id": "scenic_sunday-2026-11-08",
-   "category": "weekly",
-   "region": "global",
-   "timeMode": "local",
-   "start": "2026-11-08T00:00:00",
-   "end": "2026-11-08T23:59:00",
-   "title": {
-    "ko": "시닉 선데이",
-    "ja": "Scenic Sunday",
-    "en": "Scenic Sunday",
-    "zh-Hant": "Scenic Sunday",
-    "zh-Hans": "Scenic Sunday",
-    "fr": "Scenic Sunday",
-    "de": "Scenic Sunday",
-    "es": "Scenic Sunday",
-    "it": "Scenic Sunday"
-   },
-   "label": {
-    "ko": "요일 보너스",
-    "ja": "曜日ボーナス",
-    "en": "Daily Discovery",
-    "zh-Hant": "每日加成",
-    "zh-Hans": "每日加成",
-    "fr": "Découverte du jour",
-    "de": "Tagesentdeckung",
-    "es": "Descubrimiento diario",
-    "it": "Scoperta del giorno"
-   },
-   "summary": {},
-   "priority": [],
-   "pokemonRefs": [],
-   "sourceUrl": "https://pokemongo.com/news",
-   "footnoteIds": [],
-   "alarmPresetsMin": [
-    0
    ],
-   "sources": [
-    "https://leekduck.com/events/season-24-twilight-trails/",
-    "https://leekduck.com/events/season-23-forever-forward/",
-    "https://leekduck.com/events/season-22-memories-in-motion/",
-    "https://leekduck.com/events/max-mondays-2026-11-23/",
-    "https://leekduck.com/events/raidhour20261125/",
-    "https://leekduck.com/events/pokemonspotlighthour2026-11-26/",
-    "https://leekduck.com/events/pokemonspotlighthour2026-06-18/",
-    "https://pokemongohub.net/post/guide/max-monday-schedule/",
-    "https://pokemongohub.net/post/pvp/go-battle-league-twilight-trails-schedule-cups-events/",
-    "https://pokemongohub.net/post/news/pokemon-go-showcase-rewards-buffed/",
-    "https://pokemongohub.net/post/article/introducing-a-new-pokemon-go-feature-pokestop-showcases/",
-    "https://pokemongo.com/news/seasons--twilight-trails",
-    "https://pokemongo.com/news/go-battle-league-twilight-trails",
-    "https://pokemongo.com/ko/news/choose-your-path-forever-forward-2026",
-    "https://pokemongo.com/news/dynamax-max-mondays",
-    "https://pokemongo.com/news/pokestop-showcase-new-feature",
-    "https://www.dexerto.com/pokemon/pokemon-go-daily-discoveries-schedule-3328489/",
-    "https://dexerto.com/pokemon/what-are-pokestop-showcases-in-pokemon-go-2201728",
-    "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9Stop_Showcase",
-    "https://nintendowire.com/guides/pokemon-go/showcase-tuesday-for-november-17th-2026/",
-    "https://www.techtimes.com/articles/318216/20260611/pokemon-go-spotlight-hour-moves-thursdays-full-schedule-through-august-revealed.htm",
-    "https://leekduck.com/posts/crowned-energy-resource-zacian-zamazenta/",
-    "https://pokemongohub.net/post/news/zacian-and-zamazenta-debut-at-pokemon-go-fest-with-crowned-sword-crown-shield-energy/",
-    "https://pokemongo.com/news/crowned-energy-resource-zacian-zamazenta",
-    "https://bulbapedia.bulbagarden.net/wiki/Zacian_(GO)",
-    "https://bulbapedia.bulbagarden.net/wiki/Behemoth_Bash_(move)",
-    "https://leekduck.com/events/kyurem-fusion-raid-day/",
-    "https://pokemongo.com/news/kyurem-fusion-raid-day-2026",
-    "https://bulbapedia.bulbagarden.net/wiki/Kyurem_(GO)",
-    "https://leekduck.com/events/pokemon-fusions-debut-during-go-fest/",
-    "https://pokemongohub.net/post/guide/go-hub-guide-to-fusions-in-pokemon-go/",
-    "https://pokemongo.com/news/necrozma-fusion-raid-day-2024",
-    "https://bulbapedia.bulbagarden.net/wiki/Necrozma_(GO)",
-    "https://pokemongohub.net/post/guide/gigantamax-raids-in-pokemon-go-a-complete-guide/",
-    "https://bulbapedia.bulbagarden.net/wiki/Max_Move_(GO)",
-    "https://bulbapedia.bulbagarden.net/wiki/Gigantamax_(GO)",
-    "https://www.dittobase.com/pokemon-go/moves/g-max-wildfire",
-    "https://raw.githubusercontent.com/PokeMiners/game_masters/master/latest/latest.json",
-    "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Texts/Latest%20APK/JSON/i18n_korean.json"
+   "passDeluxe": [
+    {
+     "ko": "디럭스 강화 — 티어 2 (랭크 25): 선물 하루 50개까지 열기, 포켓스톱·체육관 포토 디스크에서 하루 150개까지 받기, 가방에 선물 20개 더 보관",
+     "ja": "デラックス強化：ティア2 (ランク25): ギフトを1日50個まで開封、ポケストップ・ジムのフォトディスクから1日150個まで入手、バッグにギフトを20個多く保持",
+     "en": "Deluxe upgrade — Tier 2 (Rank 25): Open up to 50 Gifts per day, receive up to 150 Gifts per day from PokéStop and Gym Photo Discs, hold 20 more Gifts in your Item Bag",
+     "zh-Hant": "Deluxe強化：第2階 (等級25): 每天最多可打開50個友情禮物、每天最多可從寶可補給站和道館的照片圓盤獲得150個、道具背包可多放20個友情禮物",
+     "zh-Hans": "Deluxe强化：第2阶 (等级25): 每天最多可打开50个友情礼物、每天最多可从宝可补给站和道馆的照片圆盘获得150个、道具背包可多放20个友情礼物",
+     "fr": "Amélioration Deluxe — Palier 2 (Rang 25): Ouvrez jusqu’à 50 Cadeaux par jour, recevez jusqu’à 150 Cadeaux par jour en faisant tourner les Disques Photo des PokéStops et des Arènes, gardez 20 Cadeaux de plus dans votre Sac",
+     "de": "Deluxe-Verstärkung – Stufe 2 (Rang 25): Bis zu 50 Geschenke pro Tag öffnen, bis zu 150 Geschenke pro Tag an Foto-Discs von PokéStops und Arenen erhalten, 20 Geschenke mehr im Beutel aufbewahren",
+     "es": "Mejora Deluxe — Nivel 2 (Rango 25): Abre hasta 50 Regalos al día, recibe hasta 150 Regalos al día de los Discos Fotográficos de Poképaradas y Gimnasios, guarda 20 Regalos más en la Mochila",
+     "it": "Potenziamento Deluxe — Livello 2 (Grado 25): Apri fino a 50 Pacchi amicizia al giorno, ricevine fino a 150 al giorno dai Photo Disc di PokéStop e Palestre, conserva 20 Pacchi in più nella Borsa"
+    }
    ],
-   "about": {
-    "ko": "매주 일요일 하루 종일(현지). 야생 포켓몬이 더 많이 나오고, 루트를 따라가면 더 많이 나와요. 루트에서 향로 효과가 커지고, 루트에서 버디 사탕 얻는 거리가 줄며, 루트에서 마테오를 하루 최대 3번 만날 수 있어요.",
-    "ja": "毎週日曜の終日（現地）。野生のポケモンが増え、ルートをたどるとさらに増えます。ルートではおこうの効果アップ、相棒のアメをもらう距離が短縮、マテオに1日最大3回会えます。",
-    "en": "Every Sunday, all day (local). More wild Pokémon, even more while following a Route. On Routes: stronger Incense, shorter Buddy Candy distance, and up to three Mateo encounters per day.",
-    "zh-Hant": "每週日全天（當地）。野生寶可夢變多，沿著路線走會出現更多。在路線上：薰香效果增強、夥伴糖果所需距離縮短，每天最多可遇到馬特歐3次。",
-    "zh-Hans": "每周日全天（当地）。野生宝可梦变多，沿着路线走会出现更多。在路线上：熏香效果增强、伙伴糖果所需距离缩短，每天最多可遇到马特欧3次。",
-    "fr": "Chaque dimanche, toute la journée (heure locale). Plus de Pokémon sauvages, encore plus en suivant une Route. Sur les Routes : Encens plus efficace, distance réduite pour les Bonbons de copain et jusqu'à 3 rencontres avec Mateo par jour.",
-    "de": "Jeden Sonntag, ganztägig (Ortszeit). Mehr wilde Pokémon, noch mehr auf Routen. Auf Routen: stärkeres Rauch, kürzere Distanz für Kumpel-Bonbons und bis zu 3 Begegnungen mit Mateo pro Tag.",
-    "es": "Cada domingo, todo el día (hora local). Más Pokémon salvajes, y aún más siguiendo una Ruta. En las Rutas: Incienso más eficaz, menos distancia para caramelos de compañero y hasta 3 encuentros con Mateo al día.",
-    "it": "Ogni domenica, tutto il giorno (ora locale). Più Pokémon selvatici, ancora di più seguendo un Percorso. Sui Percorsi: Aroma più efficace, distanza ridotta per le caramelle del compagno e fino a 3 incontri con Mateo al giorno."
-   },
-   "weekly": "sun"
+   "passPrice": "US$7.99",
+   "passClaim": "2026-12-03 10:00"
   },
   {
    "id": "into-the-wild-2026",
@@ -1791,162 +977,56 @@
     "es": "Pase de evento gratuito entregado automáticamente durante el evento.",
     "it": "Pass evento gratuito assegnato automaticamente durante l’evento."
    },
-   "bonuses": [
+   "passFree": [
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 다이맥스 멜탄 만남",
-      "ja": "🎟️ 無料 · ダイマックスメルタン と出会える",
-      "en": "🎟️ Free · Dynamax Meltan encounter",
-      "zh-Hant": "🎟️ 免費 · 極巨化美錄坦 相遇",
-      "zh-Hans": "🎟️ 免费 · 极巨化美录坦 相遇",
-      "fr": "🎟️ Gratuit · Meltan Dynamax : rencontre",
-      "de": "🎟️ Gratis · Dynamax-Meltan-Begegnung",
-      "es": "🎟️ Gratis · Meltan Dinamax: encuentro",
-      "it": "🎟️ Gratis · Meltan Dynamax: incontro"
-     }
+     "ko": "다이맥스 멜탄 만남",
+     "ja": "ダイマックスメルタン と出会える",
+     "en": "Dynamax Meltan encounter",
+     "zh-Hant": "極巨化美錄坦 相遇",
+     "zh-Hans": "极巨化美录坦 相遇",
+     "fr": "Meltan Dynamax : rencontre",
+     "de": "Dynamax-Meltan-Begegnung",
+     "es": "Meltan Dinamax: encuentro",
+     "it": "Meltan Dynamax: incontro"
     },
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 이벤트 테마 포켓몬 만남",
-      "ja": "🎟️ 無料 · イベントテーマのポケモンとの出会い",
-      "en": "🎟️ Free · Encounters with event-themed Pokémon",
-      "zh-Hant": "🎟️ 免費 · 與活動主題寶可夢相遇",
-      "zh-Hans": "🎟️ 免费 · 与活动主题宝可梦相遇",
-      "fr": "🎟️ Gratuit · Rencontres avec des Pokémon de l’événement",
-      "de": "🎟️ Gratis · Begegnungen mit Event-Pokémon",
-      "es": "🎟️ Gratis · Encuentros con Pokémon temáticos del evento",
-      "it": "🎟️ Gratis · Incontri con Pokémon a tema"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · GO 와일드 에어리어 2026 티셔츠(보라)",
-      "ja": "🎟️ 無料 · GO Wild Area 2026 Tシャツ（パープル）",
-      "en": "🎟️ Free · GO Wild Area 2026 Tee (Purple)",
-      "zh-Hant": "🎟️ 免費 · GO Wild Area 2026 T恤（紫）",
-      "zh-Hans": "🎟️ 免费 · GO Wild Area 2026 T恤（紫）",
-      "fr": "🎟️ Gratuit · T-shirt GO Wild Area 2026 (violet)",
-      "de": "🎟️ Gratis · GO Wild Area 2026-Shirt (lila)",
-      "es": "🎟️ Gratis · Camiseta GO Wild Area 2026 (morada)",
-      "it": "🎟️ Gratis · Maglietta GO Wild Area 2026 (viola)"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 11/9~11/13는 하루 GO 포인트 상한 있음, 11/14~11/15는 상한 없음",
-      "ja": "🎟️ 無料 · 11/9〜11/13は1日のGOポイント上限あり、11/14〜11/15は上限なし",
-      "en": "🎟️ Free · Daily GO Points cap Nov 9–13; no cap Nov 14–15",
-      "zh-Hant": "🎟️ 免費 · 11/9～11/13每日GO點數有上限，11/14～11/15無上限",
-      "zh-Hans": "🎟️ 免费 · 11/9～11/13每日GO点数有上限，11/14～11/15无上限",
-      "fr": "🎟️ Gratuit · Plafond quotidien de Points GO du 9 au 13 nov., aucun les 14–15",
-      "de": "🎟️ Gratis · Tageslimit für GO-Punkte 9.–13. Nov., keins am 14.–15.",
-      "es": "🎟️ Gratis · Límite diario de Puntos GO del 9 al 13 de nov.; sin límite el 14–15",
-      "it": "🎟️ Gratis · Limite giornaliero Punti GO 9–13 nov.; nessun limite 14–15"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 티어 1 (랭크 25): 이벤트 중 부화장치에 넣은 알 부화 거리 1/2",
-      "ja": "🎟️ 無料 · ティア1 (ランク25): イベント中にふかそうちに入れたタマゴの孵化距離1/2",
-      "en": "🎟️ Free · Tier 1 (Rank 25): 1/2 Egg Hatch Distance for Eggs incubated during the event",
-      "zh-Hant": "🎟️ 免費 · 第1階 (等級25): 活動期間放入孵化器的蛋孵化距離1/2",
-      "zh-Hans": "🎟️ 免费 · 第1阶 (等级25): 活动期间放入孵化器的蛋孵化距离1/2",
-      "fr": "🎟️ Gratuit · Palier 1 (Rang 25): Distance d’éclosion ½ pour les Œufs incubés pendant l’événement",
-      "de": "🎟️ Gratis · Stufe 1 (Rang 25): ½ Schlüpfdistanz für während des Events ausgebrütete Eier",
-      "es": "🎟️ Gratis · Nivel 1 (Rango 25): Distancia de eclosión ½ para Huevos incubados durante el evento",
-      "it": "🎟️ Gratis · Livello 1 (Grado 25): Distanza di schiusa ½ per Uova incubate durante l’evento"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 랭크 1 보상(보라 티셔츠)을 받으면 다이맥스 트레일 패스 디럭스가 무료로 열리고 11/14 10:00부터 먼저 시작",
-      "ja": "🎟️ 無料 · ランク1報酬（パープルTシャツ）を受け取るとDynamax TrailsのGOパス デラックスが無料で解放、11/14 10:00から先行開始",
-      "en": "🎟️ Free · Claiming the Rank 1 reward (purple tee) unlocks GO Pass Deluxe: Dynamax Trails for free with early access from Nov 14 10:00",
-      "zh-Hant": "🎟️ 免費 · 領取等級1獎勵（紫T恤）即可免費解鎖Dynamax Trails通行證Deluxe，並自11/14 10:00提前開始",
-      "zh-Hans": "🎟️ 免费 · 领取等级1奖励（紫T恤）即可免费解锁Dynamax Trails通行证Deluxe，并自11/14 10:00提前开始",
-      "fr": "🎟️ Gratuit · Réclamer la récompense du rang 1 (t-shirt violet) débloque gratuitement le GO Pass Deluxe : Dynamax Trails, accès anticipé dès le 14 nov. 10:00",
-      "de": "🎟️ Gratis · Rang-1-Belohnung (lila Shirt) einlösen schaltet GO Pass Deluxe: Dynamax Trails gratis frei, Vorabzugang ab 14. Nov. 10:00",
-      "es": "🎟️ Gratis · Reclamar la recompensa del rango 1 (camiseta morada) desbloquea gratis el GO Pass Deluxe: Dynamax Trails con acceso anticipado desde el 14 de nov. a las 10:00",
-      "it": "🎟️ Gratis · Riscattare la ricompensa del grado 1 (maglietta viola) sblocca gratis il GO Pass Deluxe: Dynamax Trails con accesso anticipato dal 14 nov. alle 10:00"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$14.99) · 은색병뚜껑 (2026-11-22 23:59까지 사용 가능, 받은 시점과 관계없음)",
-      "ja": "💎 デラックス（有料 US$14.99） · ぎんのおうかん（受け取り時期に関係なく2026-11-22 23:59まで有効）",
-      "en": "💎 Deluxe (paid, US$14.99) · Silver Bottle Cap (expires 2026-11-22 23:59 regardless of when claimed)",
-      "zh-Hant": "💎 豪華版（付費 US$14.99） · 銀色王冠（無論何時領取，2026-11-22 23:59失效）",
-      "zh-Hans": "💎 豪华版（付费 US$14.99） · 银色王冠（无论何时领取，2026-11-22 23:59失效）",
-      "fr": "💎 Deluxe (payant, US$14.99) · Capsule d’Argent (expire le 2026-11-22 23:59, quelle que soit la date de réception)",
-      "de": "💎 Deluxe (kostenpflichtig, US$14.99) · Silberkronkorken (läuft am 2026-11-22 23:59 ab, egal wann erhalten)",
-      "es": "💎 Deluxe (de pago, US$14.99) · Chapa Plateada (caduca el 2026-11-22 23:59, sin importar cuándo se reciba)",
-      "it": "💎 Deluxe (a pagamento, US$14.99) · Tappo d’argento (scade il 2026-11-22 23:59, a prescindere da quando lo ricevi)"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$14.99) · 듀랄루돈 바지(아바타), 향로, 행복의알, 다이맥스 멜탄 추가 만남",
-      "ja": "💎 デラックス（有料 US$14.99） · ジュラルドンのパンツ（着せ替え）、おこう、しあわせタマゴ、ダイマックスメルタンの追加の出会い",
-      "en": "💎 Deluxe (paid, US$14.99) · Duraludon Pants (avatar), Incense, Lucky Egg, more Dynamax Meltan encounters",
-      "zh-Hant": "💎 豪華版（付費 US$14.99） · 鋁鋼龍褲子（換裝）、薰香、幸運蛋、更多極巨化美錄坦相遇",
-      "zh-Hans": "💎 豪华版（付费 US$14.99） · 铝钢龙裤子（换装）、熏香、幸运蛋、更多极巨化美录坦相遇",
-      "fr": "💎 Deluxe (payant, US$14.99) · Pantalon Duralugon, Encens, Œuf Chance, plus de Meltan Dynamax",
-      "de": "💎 Deluxe (kostenpflichtig, US$14.99) · Duraludon-Hose, Rauch, Glücks-Ei, mehr Dynamax-Meltan",
-      "es": "💎 Deluxe (de pago, US$14.99) · Pantalón Duraludon, Incienso, Huevo Suerte, más Meltan Dinamax",
-      "it": "💎 Deluxe (a pagamento, US$14.99) · Pantaloni Duraludon, Aroma, Fortunuovo, più Meltan Dynamax"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$14.99) · 디럭스 티어 보너스: 레이드 완료 XP +5,000·별의모래 +5,000, 맥스 기술 강화·해제 맥스 파티클 3/4, 사탕 추가 등 (GO Hub)",
-      "ja": "💎 デラックス（有料 US$14.99） · デラックスのティアボーナス：レイド完了でXP+5,000・ほしのすな+5,000、マックスわざ強化・解放のマックス粒子3/4、アメ追加など（GO Hub）",
-      "en": "💎 Deluxe (paid, US$14.99) · Deluxe tier bonuses: +5,000 XP and +5,000 Stardust per raid, 3/4 Max Particle cost for Max Moves, extra Candy, etc. (GO Hub)",
-      "zh-Hant": "💎 豪華版（付費 US$14.99） · Deluxe階段加成：團體戰XP+5,000、星星沙子+5,000、極巨招式強化/解鎖極巨粒子3/4、額外糖果等（GO Hub）",
-      "zh-Hans": "💎 豪华版（付费 US$14.99） · Deluxe阶段加成：团体战XP+5,000、星星沙子+5,000、极巨招式强化/解锁极巨粒子3/4、额外糖果等（GO Hub）",
-      "fr": "💎 Deluxe (payant, US$14.99) · Bonus Deluxe : +5 000 XP et +5 000 Poussière par raid, coût Particules Max ¾, Bonbons en plus… (GO Hub)",
-      "de": "💎 Deluxe (kostenpflichtig, US$14.99) · Deluxe-Boni: +5.000 EP und +5.000 Sternenstaub pro Raid, ¾ Dyna-Partikel-Kosten, mehr Bonbons usw. (GO Hub)",
-      "es": "💎 Deluxe (de pago, US$14.99) · Bonus Deluxe: +5000 PX y +5000 Polvos por incursión, coste ¾ de Partículas Max, Caramelos extra… (GO Hub)",
-      "it": "💎 Deluxe (a pagamento, US$14.99) · Bonus Deluxe: +5.000 PE e +5.000 Polvere per raid, costo ¾ Particelle Dynamax, Caramelle extra… (GO Hub)"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$14.99) · 디럭스는 기간 중 언제 사도 이미 연 랭크의 보상을 받을 수 있음",
-      "ja": "💎 デラックス（有料 US$14.99） · デラックスは期間中いつ購入しても解放済みランクのリワードを受け取れる",
-      "en": "💎 Deluxe (paid, US$14.99) · Deluxe can be bought any time during the pass; rewards from already-unlocked ranks can still be claimed",
-      "zh-Hant": "💎 豪華版（付費 US$14.99） · 期間內任何時候購買Deluxe都能領取已解鎖等級的獎勵",
-      "zh-Hans": "💎 豪华版（付费 US$14.99） · 期间内任何时候购买Deluxe都能领取已解锁等级的奖励",
-      "fr": "💎 Deluxe (payant, US$14.99) · Le Deluxe peut être acheté à tout moment ; les rangs déjà atteints restent réclamables",
-      "de": "💎 Deluxe (kostenpflichtig, US$14.99) · Deluxe kann jederzeit gekauft werden; bereits erreichte Ränge bleiben einlösbar",
-      "es": "💎 Deluxe (de pago, US$14.99) · El Deluxe se puede comprar en cualquier momento; los rangos ya alcanzados se pueden reclamar",
-      "it": "💎 Deluxe (a pagamento, US$14.99) · Il Deluxe si può acquistare in qualsiasi momento; i gradi già sbloccati restano riscattabili"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "⏰ 보상 받기 마감 2026-11-17 23:59",
-      "ja": "⏰ リワード受け取り期限 2026-11-17 23:59",
-      "en": "⏰ Claim rewards by 2026-11-17 23:59",
-      "zh-Hant": "⏰ 領取獎勵期限 2026-11-17 23:59",
-      "zh-Hans": "⏰ 领取奖励期限 2026-11-17 23:59",
-      "fr": "⏰ Récupérez les récompenses avant le 2026-11-17 23:59",
-      "de": "⏰ Belohnungen abholen bis 2026-11-17 23:59",
-      "es": "⏰ Reclama las recompensas antes del 2026-11-17 23:59",
-      "it": "⏰ Riscatta le ricompense entro il 2026-11-17 23:59"
-     }
+     "ko": "티어 1 (랭크 25): 이벤트 중 부화장치에 넣은 알 부화 거리 1/2",
+     "ja": "ティア1 (ランク25): イベント中にふかそうちに入れたタマゴの孵化距離1/2",
+     "en": "Tier 1 (Rank 25): 1/2 Egg Hatch Distance for Eggs incubated during the event",
+     "zh-Hant": "第1階 (等級25): 活動期間放入孵化器的蛋孵化距離1/2",
+     "zh-Hans": "第1阶 (等级25): 活动期间放入孵化器的蛋孵化距离1/2",
+     "fr": "Palier 1 (Rang 25): Distance d’éclosion ½ pour les Œufs incubés pendant l’événement",
+     "de": "Stufe 1 (Rang 25): ½ Schlüpfdistanz für während des Events ausgebrütete Eier",
+     "es": "Nivel 1 (Rango 25): Distancia de eclosión ½ para Huevos incubados durante el evento",
+     "it": "Livello 1 (Grado 25): Distanza di schiusa ½ per Uova incubate durante l’evento"
     }
-   ]
+   ],
+   "passDeluxe": [
+    {
+     "ko": "듀랄루돈 바지(아바타), 향로, 행복의알, 다이맥스 멜탄 추가 만남",
+     "ja": "ジュラルドンのパンツ（着せ替え）、おこう、しあわせタマゴ、ダイマックスメルタンの追加の出会い",
+     "en": "Duraludon Pants (avatar), Incense, Lucky Egg, more Dynamax Meltan encounters",
+     "zh-Hant": "鋁鋼龍褲子（換裝）、薰香、幸運蛋、更多極巨化美錄坦相遇",
+     "zh-Hans": "铝钢龙裤子（换装）、熏香、幸运蛋、更多极巨化美录坦相遇",
+     "fr": "Pantalon Duralugon, Encens, Œuf Chance, plus de Meltan Dynamax",
+     "de": "Duraludon-Hose, Rauch, Glücks-Ei, mehr Dynamax-Meltan",
+     "es": "Pantalón Duraludon, Incienso, Huevo Suerte, más Meltan Dinamax",
+     "it": "Pantaloni Duraludon, Aroma, Fortunuovo, più Meltan Dynamax"
+    },
+    {
+     "ko": "디럭스 티어 보너스: 레이드 완료 XP +5,000·별의모래 +5,000, 맥스 기술 강화·해제 맥스 파티클 3/4, 사탕 추가 등 (GO Hub)",
+     "ja": "デラックスのティアボーナス：レイド完了でXP+5,000・ほしのすな+5,000、マックスわざ強化・解放のマックス粒子3/4、アメ追加など（GO Hub）",
+     "en": "Deluxe tier bonuses: +5,000 XP and +5,000 Stardust per raid, 3/4 Max Particle cost for Max Moves, extra Candy, etc. (GO Hub)",
+     "zh-Hant": "Deluxe階段加成：團體戰XP+5,000、星星沙子+5,000、極巨招式強化/解鎖極巨粒子3/4、額外糖果等（GO Hub）",
+     "zh-Hans": "Deluxe阶段加成：团体战XP+5,000、星星沙子+5,000、极巨招式强化/解锁极巨粒子3/4、额外糖果等（GO Hub）",
+     "fr": "Bonus Deluxe : +5 000 XP et +5 000 Poussière par raid, coût Particules Max ¾, Bonbons en plus… (GO Hub)",
+     "de": "Deluxe-Boni: +5.000 EP und +5.000 Sternenstaub pro Raid, ¾ Dyna-Partikel-Kosten, mehr Bonbons usw. (GO Hub)",
+     "es": "Bonus Deluxe: +5000 PX y +5000 Polvos por incursión, coste ¾ de Partículas Max, Caramelos extra… (GO Hub)",
+     "it": "Bonus Deluxe: +5.000 PE e +5.000 Polvere per raid, costo ¾ Particelle Dynamax, Caramelle extra… (GO Hub)"
+    }
+   ],
+   "passPrice": "US$14.99",
+   "passClaim": "2026-11-17 23:59"
   },
   {
    "id": "gbl-2026-11-10-great-league-ultra-league-mega-edition-2026-go-laic-cup",
@@ -2437,176 +1517,55 @@
     "es": "Pase de evento gratuito entregado automáticamente durante el evento.",
     "it": "Pass evento gratuito assegnato automaticamente durante l’evento."
    },
-   "bonuses": [
+   "passFree": [
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 무한다이노 만남 (이미 잡았으면 무한다이노 사탕 100개)",
-      "ja": "🎟️ 無料 · ムゲンダイナと出会える（捕まえ済みならムゲンダイナのアメ100個）",
-      "en": "🎟️ Free · Eternatus encounter (or 100 Eternatus Candy if already caught)",
-      "zh-Hant": "🎟️ 免費 · 無極汰那相遇（已捕捉則改為100顆無極汰那糖果）",
-      "zh-Hans": "🎟️ 免费 · 无极汰那相遇（已捕捉则改为100颗无极汰那糖果）",
-      "fr": "🎟️ Gratuit · Éthernatos : rencontre (ou 100 Bonbons Éthernatos si déjà capturé)",
-      "de": "🎟️ Gratis · Endynalos-Begegnung (oder 100 Endynalos-Bonbons, falls schon gefangen)",
-      "es": "🎟️ Gratis · Eternatus: encuentro (o 100 Caramelos de Eternatus si ya lo tienes)",
-      "it": "🎟️ Gratis · Eternatus: incontro (o 100 Caramelle Eternatus se già catturato)"
-     }
+     "ko": "무한다이노 만남 (이미 잡았으면 무한다이노 사탕 100개)",
+     "ja": "ムゲンダイナと出会える（捕まえ済みならムゲンダイナのアメ100個）",
+     "en": "Eternatus encounter (or 100 Eternatus Candy if already caught)",
+     "zh-Hant": "無極汰那相遇（已捕捉則改為100顆無極汰那糖果）",
+     "zh-Hans": "无极汰那相遇（已捕捉则改为100颗无极汰那糖果）",
+     "fr": "Éthernatos : rencontre (ou 100 Bonbons Éthernatos si déjà capturé)",
+     "de": "Endynalos-Begegnung (oder 100 Endynalos-Bonbons, falls schon gefangen)",
+     "es": "Eternatus: encuentro (o 100 Caramelos de Eternatus si ya lo tienes)",
+     "it": "Eternatus: incontro (o 100 Caramelle Eternatus se già catturato)"
     },
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 스페셜 배경 다이맥스 포켓몬 만남",
-      "ja": "🎟️ 無料 · スペシャル背景のダイマックスポケモンとの出会い",
-      "en": "🎟️ Free · Dynamax Pokémon with a Special Background",
-      "zh-Hant": "🎟️ 免費 · 特別背景的極巨化寶可夢相遇",
-      "zh-Hans": "🎟️ 免费 · 特别背景的极巨化宝可梦相遇",
-      "fr": "🎟️ Gratuit · Pokémon Dynamax avec fond spécial",
-      "de": "🎟️ Gratis · Dynamax-Pokémon mit Spezialhintergrund",
-      "es": "🎟️ Gratis · Pokémon Dinamax con fondo especial",
-      "it": "🎟️ Gratis · Pokémon Dynamax con sfondo speciale"
-     }
+     "ko": "티어 1 (랭크 15): 2× 포획 별의모래",
+     "ja": "ティア1 (ランク15): 2× 捕獲時のほしのすな",
+     "en": "Tier 1 (Rank 15): 2× Catch Stardust",
+     "zh-Hant": "第1階 (等級15): 2× 捕捉星星沙子",
+     "zh-Hans": "第1阶 (等级15): 2× 捕捉星星沙子",
+     "fr": "Palier 1 (Rang 15): 2× Poussière Étoile de capture",
+     "de": "Stufe 1 (Rang 15): 2× Fang-Sternenstaub",
+     "es": "Nivel 1 (Rango 15): 2× Polvos Estelares por captura",
+     "it": "Livello 1 (Grado 15): 2× Polvere di stelle per cattura"
     },
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 랭크 101–300: 무한다이노 사탕 / 사탕XL, 별의모래",
-      "ja": "🎟️ 無料 · ランク101–300: ムゲンダイナ アメ / アメXL, ほしのすな",
-      "en": "🎟️ Free · Rank 101–300: Eternatus Candy / Candy XL, Stardust",
-      "zh-Hant": "🎟️ 免費 · 等級101–300: 無極汰那 糖果 / 糖果XL, 星星沙子",
-      "zh-Hans": "🎟️ 免费 · 等级101–300: 无极汰那 糖果 / 糖果XL, 星星沙子",
-      "fr": "🎟️ Gratuit · Rang 101–300: Éthernatos Bonbons / Bonbons L, Poussière Étoile",
-      "de": "🎟️ Gratis · Rang 101–300: Endynalos Bonbons / Bonbons XL, Sternenstaub",
-      "es": "🎟️ Gratis · Rango 101–300: Eternatus Caramelos / Caramelos ++, Polvos Estelares",
-      "it": "🎟️ Gratis · Grado 101–300: Eternatus Caramelle / Caramelle L, Polvere di stelle"
-     }
+     "ko": "티어 2 (랭크 35): 다이맥스포 모험 효과 발동 사탕·별의모래 비용 1/2",
+     "ja": "ティア2 (ランク35): ダイマックスほうの冒険効果に必要なアメ・ほしのすな1/2",
+     "en": "Tier 2 (Rank 35): 1/2 Candy and Stardust cost to activate the Dynamax Cannon Adventure Effect",
+     "zh-Hant": "第2階 (等級35): 發動極巨炮冒險效果所需糖果與星星沙子1/2",
+     "zh-Hans": "第2阶 (等级35): 发动极巨炮冒险效果所需糖果与星星沙子1/2",
+     "fr": "Palier 2 (Rang 35): Coût ½ en Bonbons et Poussière pour l’effet d’aventure Canon Dynamax",
+     "de": "Stufe 2 (Rang 35): ½ Bonbon- und Sternenstaub-Kosten für den Abenteuereffekt Dynamax-Kanone",
+     "es": "Nivel 2 (Rango 35): Coste ½ de Caramelos y Polvos para el efecto de aventura Cañón Dinamax",
+     "it": "Livello 2 (Grado 35): Costo ½ di Caramelle e Polvere per l’effetto avventura Cannone Dynamax"
     },
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 티어 1 (랭크 15): 2× 포획 별의모래",
-      "ja": "🎟️ 無料 · ティア1 (ランク15): 2× 捕獲時のほしのすな",
-      "en": "🎟️ Free · Tier 1 (Rank 15): 2× Catch Stardust",
-      "zh-Hant": "🎟️ 免費 · 第1階 (等級15): 2× 捕捉星星沙子",
-      "zh-Hans": "🎟️ 免费 · 第1阶 (等级15): 2× 捕捉星星沙子",
-      "fr": "🎟️ Gratuit · Palier 1 (Rang 15): 2× Poussière Étoile de capture",
-      "de": "🎟️ Gratis · Stufe 1 (Rang 15): 2× Fang-Sternenstaub",
-      "es": "🎟️ Gratis · Nivel 1 (Rango 15): 2× Polvos Estelares por captura",
-      "it": "🎟️ Gratis · Livello 1 (Grado 15): 2× Polvere di stelle per cattura"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 티어 2 (랭크 35): 다이맥스포 모험 효과 발동 사탕·별의모래 비용 1/2",
-      "ja": "🎟️ 無料 · ティア2 (ランク35): ダイマックスほうの冒険効果に必要なアメ・ほしのすな1/2",
-      "en": "🎟️ Free · Tier 2 (Rank 35): 1/2 Candy and Stardust cost to activate the Dynamax Cannon Adventure Effect",
-      "zh-Hant": "🎟️ 免費 · 第2階 (等級35): 發動極巨炮冒險效果所需糖果與星星沙子1/2",
-      "zh-Hans": "🎟️ 免费 · 第2阶 (等级35): 发动极巨炮冒险效果所需糖果与星星沙子1/2",
-      "fr": "🎟️ Gratuit · Palier 2 (Rang 35): Coût ½ en Bonbons et Poussière pour l’effet d’aventure Canon Dynamax",
-      "de": "🎟️ Gratis · Stufe 2 (Rang 35): ½ Bonbon- und Sternenstaub-Kosten für den Abenteuereffekt Dynamax-Kanone",
-      "es": "🎟️ Gratis · Nivel 2 (Rango 35): Coste ½ de Caramelos y Polvos para el efecto de aventura Cañón Dinamax",
-      "it": "🎟️ Gratis · Livello 2 (Grado 35): Costo ½ di Caramelle e Polvere per l’effetto avventura Cannone Dynamax"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 티어 3 (랭크 55): 맥스배틀 사탕·사탕XL 추가",
-      "ja": "🎟️ 無料 · ティア3 (ランク55): マックスバトルでアメ・アメXL追加",
-      "en": "🎟️ Free · Tier 3 (Rank 55): Additional Candy and Candy XL from Max Battles",
-      "zh-Hant": "🎟️ 免費 · 第3階 (等級55): 極巨對戰額外糖果與糖果XL",
-      "zh-Hans": "🎟️ 免费 · 第3阶 (等级55): 极巨对战额外糖果与糖果XL",
-      "fr": "🎟️ Gratuit · Palier 3 (Rang 55): Bonbons et Bonbons L en plus en Combats Dynamax",
-      "de": "🎟️ Gratis · Stufe 3 (Rang 55): Mehr Bonbons und Bonbons XL aus Dyna-Kämpfen",
-      "es": "🎟️ Gratis · Nivel 3 (Rango 55): Caramelos y Caramelos ++ extra en Combates Max",
-      "it": "🎟️ Gratis · Livello 3 (Grado 55): Caramelle e Caramelle L extra nelle Lotte Dynamax"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$4.99) · 무한다이노 사탕 / 사탕XL +, 은 파인열매, 이상한사탕XL",
-      "ja": "💎 デラックス（有料 US$4.99） · ムゲンダイナ アメ / アメXL +, ぎんのパイルのみ, ふしぎなアメXL",
-      "en": "💎 Deluxe (paid, US$4.99) · Eternatus Candy / Candy XL +, Silver Pinap Berry, Rare Candy XL",
-      "zh-Hant": "💎 豪華版（付費 US$4.99） · 無極汰那 糖果 / 糖果XL +, 銀色凰梨果, 神奇糖果XL",
-      "zh-Hans": "💎 豪华版（付费 US$4.99） · 无极汰那 糖果 / 糖果XL +, 银色凰梨果, 神奇糖果XL",
-      "fr": "💎 Deluxe (payant, US$4.99) · Éthernatos Bonbons / Bonbons L +, Baie Nanana argentée, Super Bonbon L",
-      "de": "💎 Deluxe (kostenpflichtig, US$4.99) · Endynalos Bonbons / Bonbons XL +, Silberne Sananabeere, Sonderbonbon XL",
-      "es": "💎 Deluxe (de pago, US$4.99) · Eternatus Caramelos / Caramelos ++ +, Baya Pinia plateada, Caramelo Raro ++",
-      "it": "💎 Deluxe (a pagamento, US$4.99) · Eternatus Caramelle / Caramelle L +, Baccananas argentata, Caramella Rara L"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$4.99) · 추가 포켓몬 만남",
-      "ja": "💎 デラックス（有料 US$4.99） · 追加のポケモンとの出会い",
-      "en": "💎 Deluxe (paid, US$4.99) · Additional Pokémon encounters",
-      "zh-Hant": "💎 豪華版（付費 US$4.99） · 額外的寶可夢相遇",
-      "zh-Hans": "💎 豪华版（付费 US$4.99） · 额外的宝可梦相遇",
-      "fr": "💎 Deluxe (payant, US$4.99) · Rencontres de Pokémon supplémentaires",
-      "de": "💎 Deluxe (kostenpflichtig, US$4.99) · Zusätzliche Pokémon-Begegnungen",
-      "es": "💎 Deluxe (de pago, US$4.99) · Encuentros adicionales con Pokémon",
-      "it": "💎 Deluxe (a pagamento, US$4.99) · Incontri aggiuntivi con Pokémon"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$4.99) · GO 패스: Into the Wild 랭크 1 보상을 받은 사람은 무료 + 11/14 10:00 선행 시작",
-      "ja": "💎 デラックス（有料 US$4.99） · GOパス：Into the Wildのランク1報酬を受け取った人は無料＋11/14 10:00から先行",
-      "en": "💎 Deluxe (paid, US$4.99) · Free (with early access from Nov 14 10:00) for Trainers who claimed Rank 1 of GO Pass: Into the Wild",
-      "zh-Hant": "💎 豪華版（付費 US$4.99） · 領取GO Pass：Into the Wild等級1獎勵者免費，並自11/14 10:00提前開始",
-      "zh-Hans": "💎 豪华版（付费 US$4.99） · 领取GO Pass：Into the Wild等级1奖励者免费，并自11/14 10:00提前开始",
-      "fr": "💎 Deluxe (payant, US$4.99) · Gratuit (accès anticipé dès le 14 nov. 10:00) si vous avez réclamé le rang 1 d’Into the Wild",
-      "de": "💎 Deluxe (kostenpflichtig, US$4.99) · Gratis (Vorabzugang ab 14. Nov. 10:00) für alle, die Rang 1 von Into the Wild eingelöst haben",
-      "es": "💎 Deluxe (de pago, US$4.99) · Gratis (acceso anticipado desde el 14 de nov. 10:00) si reclamaste el rango 1 de Into the Wild",
-      "it": "💎 Deluxe (a pagamento, US$4.99) · Gratis (accesso anticipato dal 14 nov. 10:00) per chi ha riscattato il grado 1 di Into the Wild"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$4.99) · 디럭스 전용 일일 과제: 포켓몬 10번 강화 = 100 GO 포인트",
-      "ja": "💎 デラックス（有料 US$4.99） · デラックス限定デイリータスク：ポケモンを10回強化＝100GOポイント",
-      "en": "💎 Deluxe (paid, US$4.99) · Deluxe-only daily task: Power up Pokémon 10 times = 100 GO Points",
-      "zh-Hant": "💎 豪華版（付費 US$4.99） · Deluxe限定每日任務：強化寶可夢10次＝100 GO點數",
-      "zh-Hans": "💎 豪华版（付费 US$4.99） · Deluxe限定每日任务：强化宝可梦10次＝100 GO点数",
-      "fr": "💎 Deluxe (payant, US$4.99) · Tâche quotidienne Deluxe : renforcer 10 fois = 100 Points GO",
-      "de": "💎 Deluxe (kostenpflichtig, US$4.99) · Deluxe-Tagesaufgabe: 10× Pokémon verstärken = 100 GO-Punkte",
-      "es": "💎 Deluxe (de pago, US$4.99) · Tarea diaria Deluxe: mejora Pokémon 10 veces = 100 Puntos GO",
-      "it": "💎 Deluxe (a pagamento, US$4.99) · Attività giornaliera Deluxe: potenzia 10 volte = 100 Punti GO"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$4.99) · 디럭스는 기간 중 언제 사도 이미 연 랭크의 보상을 받을 수 있음",
-      "ja": "💎 デラックス（有料 US$4.99） · デラックスは期間中いつ購入しても解放済みランクのリワードを受け取れる",
-      "en": "💎 Deluxe (paid, US$4.99) · Deluxe can be bought any time during the pass; rewards from already-unlocked ranks can still be claimed",
-      "zh-Hant": "💎 豪華版（付費 US$4.99） · 期間內任何時候購買Deluxe都能領取已解鎖等級的獎勵",
-      "zh-Hans": "💎 豪华版（付费 US$4.99） · 期间内任何时候购买Deluxe都能领取已解锁等级的奖励",
-      "fr": "💎 Deluxe (payant, US$4.99) · Le Deluxe peut être acheté à tout moment ; les rangs déjà atteints restent réclamables",
-      "de": "💎 Deluxe (kostenpflichtig, US$4.99) · Deluxe kann jederzeit gekauft werden; bereits erreichte Ränge bleiben einlösbar",
-      "es": "💎 Deluxe (de pago, US$4.99) · El Deluxe se puede comprar en cualquier momento; los rangos ya alcanzados se pueden reclamar",
-      "it": "💎 Deluxe (a pagamento, US$4.99) · Il Deluxe si può acquistare in qualsiasi momento; i gradi già sbloccati restano riscattabili"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "⏰ 보상 받기 마감 2026-11-25 20:00",
-      "ja": "⏰ リワード受け取り期限 2026-11-25 20:00",
-      "en": "⏰ Claim rewards by 2026-11-25 20:00",
-      "zh-Hant": "⏰ 領取獎勵期限 2026-11-25 20:00",
-      "zh-Hans": "⏰ 领取奖励期限 2026-11-25 20:00",
-      "fr": "⏰ Récupérez les récompenses avant le 2026-11-25 20:00",
-      "de": "⏰ Belohnungen abholen bis 2026-11-25 20:00",
-      "es": "⏰ Reclama las recompensas antes del 2026-11-25 20:00",
-      "it": "⏰ Riscatta le ricompense entro il 2026-11-25 20:00"
-     }
+     "ko": "티어 3 (랭크 55): 맥스배틀 사탕·사탕XL 추가",
+     "ja": "ティア3 (ランク55): マックスバトルでアメ・アメXL追加",
+     "en": "Tier 3 (Rank 55): Additional Candy and Candy XL from Max Battles",
+     "zh-Hant": "第3階 (等級55): 極巨對戰額外糖果與糖果XL",
+     "zh-Hans": "第3阶 (等级55): 极巨对战额外糖果与糖果XL",
+     "fr": "Palier 3 (Rang 55): Bonbons et Bonbons L en plus en Combats Dynamax",
+     "de": "Stufe 3 (Rang 55): Mehr Bonbons und Bonbons XL aus Dyna-Kämpfen",
+     "es": "Nivel 3 (Rango 55): Caramelos y Caramelos ++ extra en Combates Max",
+     "it": "Livello 3 (Grado 55): Caramelle e Caramelle L extra nelle Lotte Dynamax"
     }
-   ]
+   ],
+   "passDeluxe": [],
+   "passPrice": "US$4.99",
+   "passClaim": "2026-11-25 20:00"
   },
   {
    "id": "event-2026-11-16-dynamax-trails",
@@ -4233,162 +3192,45 @@
     "es": "Pase de evento gratuito entregado automáticamente durante el evento.",
     "it": "Pass evento gratuito assegnato automaticamente durante l’evento."
    },
-   "bonuses": [
+   "passFree": [
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 이벤트 테마 포켓몬 만남",
-      "ja": "🎟️ 無料 · イベントテーマのポケモンとの出会い",
-      "en": "🎟️ Free · Encounters with event-themed Pokémon",
-      "zh-Hant": "🎟️ 免費 · 與活動主題寶可夢相遇",
-      "zh-Hans": "🎟️ 免费 · 与活动主题宝可梦相遇",
-      "fr": "🎟️ Gratuit · Rencontres avec des Pokémon de l’événement",
-      "de": "🎟️ Gratis · Begegnungen mit Event-Pokémon",
-      "es": "🎟️ Gratis · Encuentros con Pokémon temáticos del evento",
-      "it": "🎟️ Gratis · Incontri con Pokémon a tema"
-     }
+     "ko": "티어 1 (랭크 1): 교환 시 반짝반짝 포켓몬 확률 증가, 반짝반짝 프렌드가 될 확률 증가",
+     "ja": "ティア1 (ランク1): 交換でキラポケモンになる確率アップ、キラフレンドになる確率アップ",
+     "en": "Tier 1 (Rank 1): Increased chance of Lucky Pokémon in trades and of becoming Lucky Friends",
+     "zh-Hant": "第1階 (等級1): 交換時亮晶晶寶可夢機率提升、成為亮晶晶好朋友機率提升",
+     "zh-Hans": "第1阶 (等级1): 交换时亮晶晶宝可梦几率提升、成为亮晶晶好朋友几率提升",
+     "fr": "Palier 1 (Rang 1): Plus de chances d’obtenir des Pokémon Chanceux en échange et de devenir Amis Chanceux",
+     "de": "Stufe 1 (Rang 1): Höhere Chance auf Glücks-Pokémon beim Tausch und auf Glücks-Freunde",
+     "es": "Nivel 1 (Rango 1): Más probabilidad de Pokémon con suerte en intercambios y de Amistad con suerte",
+     "it": "Livello 1 (Grado 1): Maggiore probabilità di Pokémon fortunati negli scambi e di diventare Amici fortunati"
     },
     {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 별의조각, 이상한사탕",
-      "ja": "🎟️ 無料 · ほしのかけら, ふしぎなアメ",
-      "en": "🎟️ Free · Star Piece, Rare Candy",
-      "zh-Hant": "🎟️ 免費 · 星星碎片, 神奇糖果",
-      "zh-Hans": "🎟️ 免费 · 星星碎片, 神奇糖果",
-      "fr": "🎟️ Gratuit · Morceau d’Étoile, Super Bonbon",
-      "de": "🎟️ Gratis · Sternenstück, Sonderbonbon",
-      "es": "🎟️ Gratis · Trozo Estrella, Caramelo Raro",
-      "it": "🎟️ Gratis · Pezzo Stella, Caramella Rara"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 독침붕·헬가·깜까미·썬더볼트 메가 에너지",
-      "ja": "🎟️ 無料 · スピアー·ヘルガー·ヤミラミ·ライボルト メガエナジー",
-      "en": "🎟️ Free · Beedrill·Houndoom·Sableye·Manectric Mega Energy",
-      "zh-Hant": "🎟️ 免費 · 大針蜂·黑魯加·勾魂眼·雷電獸 超級能量",
-      "zh-Hans": "🎟️ 免费 · 大针蜂·黑鲁加·勾魂眼·雷电兽 超级能量",
-      "fr": "🎟️ Gratuit · Dardargnan·Démolosse·Ténéfix·Élecsprint Méga-Énergie",
-      "de": "🎟️ Gratis · Bibor·Hundemon·Zobiris·Voltenso Mega-Energie",
-      "es": "🎟️ Gratis · Beedrill·Houndoom·Sableye·Manectric Megaenergía",
-      "it": "🎟️ Gratis · Beedrill·Houndoom·Sableye·Manectric Megaenergia"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 티어 1 (랭크 1): 교환 시 반짝반짝 포켓몬 확률 증가, 반짝반짝 프렌드가 될 확률 증가",
-      "ja": "🎟️ 無料 · ティア1 (ランク1): 交換でキラポケモンになる確率アップ、キラフレンドになる確率アップ",
-      "en": "🎟️ Free · Tier 1 (Rank 1): Increased chance of Lucky Pokémon in trades and of becoming Lucky Friends",
-      "zh-Hant": "🎟️ 免費 · 第1階 (等級1): 交換時亮晶晶寶可夢機率提升、成為亮晶晶好朋友機率提升",
-      "zh-Hans": "🎟️ 免费 · 第1阶 (等级1): 交换时亮晶晶宝可梦几率提升、成为亮晶晶好朋友几率提升",
-      "fr": "🎟️ Gratuit · Palier 1 (Rang 1): Plus de chances d’obtenir des Pokémon Chanceux en échange et de devenir Amis Chanceux",
-      "de": "🎟️ Gratis · Stufe 1 (Rang 1): Höhere Chance auf Glücks-Pokémon beim Tausch und auf Glücks-Freunde",
-      "es": "🎟️ Gratis · Nivel 1 (Rango 1): Más probabilidad de Pokémon con suerte en intercambios y de Amistad con suerte",
-      "it": "🎟️ Gratis · Livello 1 (Grado 1): Maggiore probabilità di Pokémon fortunati negli scambi e di diventare Amici fortunati"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "🎟️ 무료 · 티어 2 (랭크 10): 2× 포획 별의모래",
-      "ja": "🎟️ 無料 · ティア2 (ランク10): 2× 捕獲時のほしのすな",
-      "en": "🎟️ Free · Tier 2 (Rank 10): 2× Catch Stardust",
-      "zh-Hant": "🎟️ 免費 · 第2階 (等級10): 2× 捕捉星星沙子",
-      "zh-Hans": "🎟️ 免费 · 第2阶 (等级10): 2× 捕捉星星沙子",
-      "fr": "🎟️ Gratuit · Palier 2 (Rang 10): 2× Poussière Étoile de capture",
-      "de": "🎟️ Gratis · Stufe 2 (Rang 10): 2× Fang-Sternenstaub",
-      "es": "🎟️ Gratis · Nivel 2 (Rango 10): 2× Polvos Estelares por captura",
-      "it": "🎟️ Gratis · Livello 2 (Grado 10): 2× Polvere di stelle per cattura"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$4.99) · 디럭스: 3× 포획 별의모래",
-      "ja": "💎 デラックス（有料 US$4.99） · デラックス：3× 捕獲時のほしのすな",
-      "en": "💎 Deluxe (paid, US$4.99) · Deluxe: 3× Catch Stardust",
-      "zh-Hant": "💎 豪華版（付費 US$4.99） · Deluxe：3× 捕捉星星沙子",
-      "zh-Hans": "💎 豪华版（付费 US$4.99） · Deluxe：3× 捕捉星星沙子",
-      "fr": "💎 Deluxe (payant, US$4.99) · Deluxe : 3× Poussière Étoile de capture",
-      "de": "💎 Deluxe (kostenpflichtig, US$4.99) · Deluxe: 3× Fang-Sternenstaub",
-      "es": "💎 Deluxe (de pago, US$4.99) · Deluxe: 3× Polvos Estelares por captura",
-      "it": "💎 Deluxe (a pagamento, US$4.99) · Deluxe: 3× Polvere di stelle per cattura"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$4.99) · 이벤트 포즈, 별의조각, 프리미엄 배틀패스",
-      "ja": "💎 デラックス（有料 US$4.99） · イベントのポーズ、ほしのかけら、プレミアムバトルパス",
-      "en": "💎 Deluxe (paid, US$4.99) · Event-themed avatar pose, Star Pieces, Premium Battle Passes",
-      "zh-Hant": "💎 豪華版（付費 US$4.99） · 活動主題姿勢、星星碎片、特級對戰入場券",
-      "zh-Hans": "💎 豪华版（付费 US$4.99） · 活动主题姿势、星星碎片、特级对战入场券",
-      "fr": "💎 Deluxe (payant, US$4.99) · Pose d’avatar, Morceaux d’Étoile, Passes de combat premium",
-      "de": "💎 Deluxe (kostenpflichtig, US$4.99) · Event-Pose, Sternenstücke, Premium-Kampf-Pässe",
-      "es": "💎 Deluxe (de pago, US$4.99) · Pose de avatar, Trozos Estrella, Pases de combate prémium",
-      "it": "💎 Deluxe (a pagamento, US$4.99) · Posa avatar, Pezzi Stella, Biglietti lotta premium"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$4.99) · 추가 포켓몬 만남",
-      "ja": "💎 デラックス（有料 US$4.99） · 追加のポケモンとの出会い",
-      "en": "💎 Deluxe (paid, US$4.99) · Additional Pokémon encounters",
-      "zh-Hant": "💎 豪華版（付費 US$4.99） · 額外的寶可夢相遇",
-      "zh-Hans": "💎 豪华版（付费 US$4.99） · 额外的宝可梦相遇",
-      "fr": "💎 Deluxe (payant, US$4.99) · Rencontres de Pokémon supplémentaires",
-      "de": "💎 Deluxe (kostenpflichtig, US$4.99) · Zusätzliche Pokémon-Begegnungen",
-      "es": "💎 Deluxe (de pago, US$4.99) · Encuentros adicionales con Pokémon",
-      "it": "💎 Deluxe (a pagamento, US$4.99) · Incontri aggiuntivi con Pokémon"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$4.99) · 웹 스토어 구매 특전: 하이퍼볼 10개, 기력의덩어리 5개, 프리미엄 배틀패스 1장, 풀회복약 5개",
-      "ja": "💎 デラックス（有料 US$4.99） · Webストア購入特典：ハイパーボール10個、げんきのかたまり5個、プレミアムバトルパス1枚、まんたんのくすり5個",
-      "en": "💎 Deluxe (paid, US$4.99) · Web Store bonus: 10 Ultra Balls, 5 Max Revives, 1 Premium Battle Pass, 5 Max Potions",
-      "zh-Hant": "💎 豪華版（付費 US$4.99） · 網路商店購買贈品：高級球10個、活力塊5個、特級對戰入場券1張、全滿藥5個",
-      "zh-Hans": "💎 豪华版（付费 US$4.99） · 网络商店购买赠品：高级球10个、活力块5个、特级对战入场券1张、全满药5个",
-      "fr": "💎 Deluxe (payant, US$4.99) · Bonus Boutique en ligne : 10 Hyper Balls, 5 Rappels Max, 1 Passe de combat premium, 5 Potions Max",
-      "de": "💎 Deluxe (kostenpflichtig, US$4.99) · Webshop-Bonus: 10 Hyperbälle, 5 Top-Beleber, 1 Premium-Kampf-Pass, 5 Top-Tränke",
-      "es": "💎 Deluxe (de pago, US$4.99) · Extra de la tienda web: 10 Ultra Balls, 5 Revivir Máximos, 1 Pase de combate prémium, 5 Pociones Máximas",
-      "it": "💎 Deluxe (a pagamento, US$4.99) · Bonus del Web Store: 10 Ultra Ball, 5 Revitalizzanti max, 1 Biglietto lotta premium, 5 Pozioni max"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "💎 디럭스(유료 US$4.99) · 디럭스는 기간 중 언제 사도 이미 연 랭크의 보상을 받을 수 있음",
-      "ja": "💎 デラックス（有料 US$4.99） · デラックスは期間中いつ購入しても解放済みランクのリワードを受け取れる",
-      "en": "💎 Deluxe (paid, US$4.99) · Deluxe can be bought any time during the pass; rewards from already-unlocked ranks can still be claimed",
-      "zh-Hant": "💎 豪華版（付費 US$4.99） · 期間內任何時候購買Deluxe都能領取已解鎖等級的獎勵",
-      "zh-Hans": "💎 豪华版（付费 US$4.99） · 期间内任何时候购买Deluxe都能领取已解锁等级的奖励",
-      "fr": "💎 Deluxe (payant, US$4.99) · Le Deluxe peut être acheté à tout moment ; les rangs déjà atteints restent réclamables",
-      "de": "💎 Deluxe (kostenpflichtig, US$4.99) · Deluxe kann jederzeit gekauft werden; bereits erreichte Ränge bleiben einlösbar",
-      "es": "💎 Deluxe (de pago, US$4.99) · El Deluxe se puede comprar en cualquier momento; los rangos ya alcanzados se pueden reclamar",
-      "it": "💎 Deluxe (a pagamento, US$4.99) · Il Deluxe si può acquistare in qualsiasi momento; i gradi già sbloccati restano riscattabili"
-     }
-    },
-    {
-     "code": "custom",
-     "text": {
-      "ko": "⏰ 보상 받기 마감 2026-12-02 20:00",
-      "ja": "⏰ リワード受け取り期限 2026-12-02 20:00",
-      "en": "⏰ Claim rewards by 2026-12-02 20:00",
-      "zh-Hant": "⏰ 領取獎勵期限 2026-12-02 20:00",
-      "zh-Hans": "⏰ 领取奖励期限 2026-12-02 20:00",
-      "fr": "⏰ Récupérez les récompenses avant le 2026-12-02 20:00",
-      "de": "⏰ Belohnungen abholen bis 2026-12-02 20:00",
-      "es": "⏰ Reclama las recompensas antes del 2026-12-02 20:00",
-      "it": "⏰ Riscatta le ricompense entro il 2026-12-02 20:00"
-     }
+     "ko": "티어 2 (랭크 10): 2× 포획 별의모래",
+     "ja": "ティア2 (ランク10): 2× 捕獲時のほしのすな",
+     "en": "Tier 2 (Rank 10): 2× Catch Stardust",
+     "zh-Hant": "第2階 (等級10): 2× 捕捉星星沙子",
+     "zh-Hans": "第2阶 (等级10): 2× 捕捉星星沙子",
+     "fr": "Palier 2 (Rang 10): 2× Poussière Étoile de capture",
+     "de": "Stufe 2 (Rang 10): 2× Fang-Sternenstaub",
+     "es": "Nivel 2 (Rango 10): 2× Polvos Estelares por captura",
+     "it": "Livello 2 (Grado 10): 2× Polvere di stelle per cattura"
     }
-   ]
+   ],
+   "passDeluxe": [
+    {
+     "ko": "디럭스: 3× 포획 별의모래",
+     "ja": "デラックス：3× 捕獲時のほしのすな",
+     "en": "Deluxe: 3× Catch Stardust",
+     "zh-Hant": "Deluxe：3× 捕捉星星沙子",
+     "zh-Hans": "Deluxe：3× 捕捉星星沙子",
+     "fr": "Deluxe : 3× Poussière Étoile de capture",
+     "de": "Deluxe: 3× Fang-Sternenstaub",
+     "es": "Deluxe: 3× Polvos Estelares por captura",
+     "it": "Deluxe: 3× Polvere di stelle per cattura"
+    }
+   ],
+   "passPrice": "US$4.99",
+   "passClaim": "2026-12-02 20:00"
   },
   {
    "id": "gbl-2026-11-24-master-league-mega-catch-cup",
