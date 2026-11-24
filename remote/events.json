@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "updatedAt": "2026-11-23T02:03:53Z",
+ "updatedAt": "2026-11-24T05:05:14Z",
  "_comment": "자동 생성 파일 — 직접 고치지 말고 schedule/events.json·raids.json을 고친 뒤 tools/build_schedule.py 실행. title은 9개 언어, label은 종류 이름.",
  "events": [
   {
@@ -2907,7 +2907,7 @@
    }
   },
   {
-   "id": "event-2026-11-24-twilight-wishes",
+   "id": "event-2026-11-24-staryu",
    "category": "event",
    "region": "global",
    "timeMode": "local",
@@ -2937,7 +2937,16 @@
    },
    "summary": {},
    "priority": [],
-   "pokemonRefs": [],
+   "pokemonRefs": [
+    {
+     "dex": 120,
+     "formId": "normal"
+    },
+    {
+     "dex": 605,
+     "formId": "normal"
+    }
+   ],
    "sourceUrl": "https://pokemongo.com/news",
    "footnoteIds": [],
    "alarmPresetsMin": [
