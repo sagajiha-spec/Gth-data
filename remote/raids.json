@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "updatedAt": "2026-11-24T05:05:14Z",
+ "updatedAt": "2026-11-24T05:54:10Z",
  "_comment": "자동 생성 파일 — schedule/raids.json을 고친 뒤 tools/build_schedule.py 실행. shiny.odds=null이면 config.shinyOddsByTier 사용. lastEggAt=종료일 마지막 알 시각.",
  "raids": [
   {

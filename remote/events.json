@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "updatedAt": "2026-11-24T05:05:14Z",
+ "updatedAt": "2026-11-24T05:54:10Z",
  "_comment": "자동 생성 파일 — 직접 고치지 말고 schedule/events.json·raids.json을 고친 뒤 tools/build_schedule.py 실행. title은 9개 언어, label은 종류 이름.",
  "events": [
   {
@@ -2907,7 +2907,7 @@
    }
   },
   {
-   "id": "event-2026-11-24-staryu",
+   "id": "event-2026-11-24-clefairy",
    "category": "event",
    "region": "global",
    "timeMode": "local",
@@ -2939,11 +2939,19 @@
    "priority": [],
    "pokemonRefs": [
     {
+     "dex": 35,
+     "formId": "normal"
+    },
+    {
      "dex": 120,
      "formId": "normal"
     },
     {
      "dex": 605,
+     "formId": "normal"
+    },
+    {
+     "dex": 744,
      "formId": "normal"
     }
    ],
@@ -2958,7 +2966,9 @@
     "https://pokemongohub.net/post/event/twilight-wishes-2026/",
     "https://gonintendo.com/contents/66782-pokemon-go-twilight-wishes-event-runs-nov-24th-to-30th-2026",
     "https://www.pocketgamer.com/pokemon-go/twlight-trails-event/",
-    "https://pokemon.gameinfo.io/en/events/twilight-wishes-2026"
+    "https://pokemon.gameinfo.io/en/events/twilight-wishes-2026",
+    "https://serebii.net/pokemongo/events/twilightwishes.shtml",
+    "https://leekduck.com/events/twilight-wishes-2026/"
    ],
    "about": {
     "ko": "별이 빛나는 밤하늘이 테마인 이벤트(11/24 10:00 ~ 11/30 20:00 현지). 별가사리·리그레의 색이 다른 포켓몬 확률이 올라가고, 1성·3성·메가 레이드에 이벤트 포켓몬이 나와요. 무료 GO 패스 랭크를 올리면 교환·별의모래 보너스가 켜져요.",
