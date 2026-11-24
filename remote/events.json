@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "updatedAt": "2026-11-24T05:54:10Z",
+ "updatedAt": "2026-11-24T06:06:33Z",
  "_comment": "자동 생성 파일 — 직접 고치지 말고 schedule/events.json·raids.json을 고친 뒤 tools/build_schedule.py 실행. title은 9개 언어, label은 종류 이름.",
  "events": [
   {
@@ -290,15 +290,15 @@
    "start": "2026-09-08T10:00:00",
    "end": "2026-12-01T10:00:00",
    "title": {
-    "ko": "Twilight Trails",
+    "ko": "황혼의 여정",
     "ja": "黄昏の旅路",
     "en": "Twilight Trails",
-    "zh-Hant": "Twilight Trails",
-    "zh-Hans": "Twilight Trails",
-    "fr": "Twilight Trails",
-    "de": "Twilight Trails",
-    "es": "Twilight Trails",
-    "it": "Twilight Trails"
+    "zh-Hant": "黃昏之旅",
+    "zh-Hans": "黄昏之旅",
+    "fr": "Sentiers crépusculaires",
+    "de": "Abendgoldpfade",
+    "es": "Caminos Crepusculares",
+    "it": "Sentieri crepuscolari"
    },
    "label": {
     "ko": "시즌",
@@ -321,18 +321,26 @@
     "https://leekduck.com/events/season-24-twilight-trails/",
     "https://pokemon.gamepedia.jp/go/archives/119476",
     "https://pokemongo-raku.com/post161481",
-    "https://www.poke-toku.com/events/choose-your-path-twilight-trails-2026"
+    "https://www.poke-toku.com/events/choose-your-path-twilight-trails-2026",
+    "https://pokemongo.com/ko/seasons/twilight-trails",
+    "https://pokemongo.com/ja/seasons/twilight-trails",
+    "https://pokemongo.com/zh_hant/seasons/twilight-trails",
+    "https://pokemongo.com/en/seasons/twilight-trails",
+    "https://pokemongo.com/fr/seasons/twilight-trails",
+    "https://pokemongo.com/de/seasons/twilight-trails",
+    "https://pokemongo.com/es/seasons/twilight-trails",
+    "https://pokemongo.com/it/seasons/twilight-trails"
    ],
    "about": {
-    "ko": "「Twilight Trails」 시즌(9/8 10:00 ~ 12/1 10:00 현지). 시즌 동안 요일 보너스(시닉 선데이 등)와 매달 GO 패스가 이어지고, GO 패스 마일스톤을 달성하면 그 달 끝까지 보너스가 켜져요.",
-    "ja": "シーズン「Twilight Trails」（9/8 10:00〜12/1 10:00 現地）。期間中は曜日ボーナスと毎月のGOパスが続き、GOパスのマイルストーンを達成するとその月の終わりまでボーナスが付きます。",
+    "ko": "「황혼의 여정」 시즌(9/8 10:00 ~ 12/1 10:00 현지). 시즌 동안 요일 보너스(시닉 선데이 등)와 매달 GO 패스가 이어지고, GO 패스 마일스톤을 달성하면 그 달 끝까지 보너스가 켜져요.",
+    "ja": "シーズン「黄昏の旅路」（9/8 10:00〜12/1 10:00 現地）。期間中は曜日ボーナスと毎月のGOパスが続き、GOパスのマイルストーンを達成するとその月の終わりまでボーナスが付きます。",
     "en": "The Twilight Trails Season (Sep 8, 10:00 – Dec 1, 10:00 local). Weekly Daily Discoveries and a monthly GO Pass run all season; reaching GO Pass milestones turns on bonuses until that pass ends.",
-    "zh-Hant": "「Twilight Trails」季節（9/8 10:00～12/1 10:00 當地）。期間內每週有每日發現加成，每月有GO通行證；達成GO通行證里程碑後，加成會持續到該月通行證結束。",
-    "zh-Hans": "「Twilight Trails」季节（9/8 10:00～12/1 10:00 当地）。期间内每周有每日发现加成，每月有GO通行证；达成GO通行证里程碑后，加成会持续到该月通行证结束。",
-    "fr": "Saison « Twilight Trails » (du 8/9 10 h au 1/12 10 h, heure locale). Bonus quotidiens hebdomadaires et Pass GO mensuel pendant toute la saison ; atteindre les paliers du Pass GO active des bonus jusqu'à la fin du Pass.",
-    "de": "Saison „Twilight Trails“ (8.9., 10:00 – 1.12., 10:00 Ortszeit). Wöchentliche Tagesboni und ein monatlicher GO-Pass laufen die ganze Saison; Meilensteine im GO-Pass schalten Boni bis zum Ende des Passes frei.",
-    "es": "Temporada «Twilight Trails» (del 8/9 a las 10:00 al 1/12 a las 10:00, hora local). Bonificaciones diarias semanales y un Pase GO mensual durante toda la temporada; alcanzar hitos del Pase GO activa bonificaciones hasta que termina el pase.",
-    "it": "Stagione «Twilight Trails» (dall'8/9 ore 10:00 all'1/12 ore 10:00, ora locale). Bonus giornalieri settimanali e un GO Pass mensile per tutta la stagione; raggiungere i traguardi del GO Pass attiva bonus fino alla fine del pass."
+    "zh-Hant": "「黃昏之旅」季節（9/8 10:00～12/1 10:00 當地）。期間內每週有每日發現加成，每月有GO通行證；達成GO通行證里程碑後，加成會持續到該月通行證結束。",
+    "zh-Hans": "「黄昏之旅」季节（9/8 10:00～12/1 10:00 当地）。期间内每周有每日发现加成，每月有GO通行证；达成GO通行证里程碑后，加成会持续到该月通行证结束。",
+    "fr": "Saison « Sentiers crépusculaires » (du 8/9 10 h au 1/12 10 h, heure locale). Bonus quotidiens hebdomadaires et Pass GO mensuel pendant toute la saison ; atteindre les paliers du Pass GO active des bonus jusqu'à la fin du Pass.",
+    "de": "Saison „Abendgoldpfade“ (8.9., 10:00 – 1.12., 10:00 Ortszeit). Wöchentliche Tagesboni und ein monatlicher GO-Pass laufen die ganze Saison; Meilensteine im GO-Pass schalten Boni bis zum Ende des Passes frei.",
+    "es": "Temporada «Caminos Crepusculares» (del 8/9 a las 10:00 al 1/12 a las 10:00, hora local). Bonificaciones diarias semanales y un Pase GO mensual durante toda la temporada; alcanzar hitos del Pase GO activa bonificaciones hasta que termina el pase.",
+    "it": "Stagione «Sentieri crepuscolari» (dall'8/9 ore 10:00 all'1/12 ore 10:00, ora locale). Bonus giornalieri settimanali e un GO Pass mensile per tutta la stagione; raggiungere i traguardi del GO Pass attiva bonus fino alla fine del pass."
    },
    "detailSources": [
     "https://pokemongo.com/seasons/twilight-trails",
@@ -2914,15 +2922,15 @@
    "start": "2026-11-24T10:00:00",
    "end": "2026-11-30T20:00:00",
    "title": {
-    "ko": "Twilight Wishes",
-    "ja": "Twilight Wishes",
+    "ko": "황혼의 소원",
+    "ja": "黄昏時の願い",
     "en": "Twilight Wishes",
-    "zh-Hant": "Twilight Wishes",
-    "zh-Hans": "Twilight Wishes",
-    "fr": "Twilight Wishes",
-    "de": "Twilight Wishes",
-    "es": "Twilight Wishes",
-    "it": "Twilight Wishes"
+    "zh-Hant": "黃昏時分的心願",
+    "zh-Hans": "黄昏时分的心愿",
+    "fr": "Souhaits crépusculaires",
+    "de": "Zwielichtwünsche",
+    "es": "Deseos crepusculares",
+    "it": "Desideri al crepuscolo"
    },
    "label": {
     "ko": "이벤트",
@@ -2968,7 +2976,14 @@
     "https://www.pocketgamer.com/pokemon-go/twlight-trails-event/",
     "https://pokemon.gameinfo.io/en/events/twilight-wishes-2026",
     "https://serebii.net/pokemongo/events/twilightwishes.shtml",
-    "https://leekduck.com/events/twilight-wishes-2026/"
+    "https://leekduck.com/events/twilight-wishes-2026/",
+    "https://pokemongo.com/ko/news/twilight-wishes-2026",
+    "https://pokemongo.com/ja/news/twilight-wishes-2026",
+    "https://pokemongo.com/zh_hant/news/twilight-wishes-2026",
+    "https://pokemongo.com/fr/news/twilight-wishes-2026",
+    "https://pokemongo.com/de/news/twilight-wishes-2026",
+    "https://pokemongo.com/es/news/twilight-wishes-2026",
+    "https://pokemongo.com/it/news/twilight-wishes-2026"
    ],
    "about": {
     "ko": "별이 빛나는 밤하늘이 테마인 이벤트(11/24 10:00 ~ 11/30 20:00 현지). 별가사리·리그레의 색이 다른 포켓몬 확률이 올라가고, 1성·3성·메가 레이드에 이벤트 포켓몬이 나와요. 무료 GO 패스 랭크를 올리면 교환·별의모래 보너스가 켜져요.",
@@ -3159,15 +3174,15 @@
    "start": "2026-11-24T10:00:00",
    "end": "2026-11-30T20:00:00",
    "title": {
-    "ko": "GO 패스: Twilight Wishes",
-    "ja": "GOパス：Twilight Wishes",
+    "ko": "GO 패스: 황혼의 소원",
+    "ja": "GOパス：黄昏時の願い",
     "en": "GO Pass: Twilight Wishes",
-    "zh-Hant": "GO Pass：Twilight Wishes",
-    "zh-Hans": "GO Pass：Twilight Wishes",
-    "fr": "GO Pass : Twilight Wishes",
-    "de": "GO Pass: Twilight Wishes",
-    "es": "GO Pass: Twilight Wishes",
-    "it": "GO Pass: Twilight Wishes"
+    "zh-Hant": "GO Pass：黃昏時分的心願",
+    "zh-Hans": "GO Pass：黄昏时分的心愿",
+    "fr": "GO Pass : Souhaits crépusculaires",
+    "de": "GO Pass: Zwielichtwünsche",
+    "es": "GO Pass: Deseos crepusculares",
+    "it": "GO Pass: Desideri al crepuscolo"
    },
    "label": {
     "ko": "GO 패스",
