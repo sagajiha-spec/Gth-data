@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "updatedAt": "2026-11-24T06:06:33Z",
+ "updatedAt": "2026-11-27T02:29:02Z",
  "_comment": "자동 생성 파일 — 직접 고치지 말고 schedule/events.json·raids.json을 고친 뒤 tools/build_schedule.py 실행. title은 9개 언어, label은 종류 이름.",
  "events": [
   {
@@ -16,10 +16,10 @@
     "en": "GO Pass: August",
     "zh-Hant": "GO Pass：8月",
     "zh-Hans": "GO Pass：8月",
-    "fr": "GO Pass : août",
-    "de": "GO Pass: August",
-    "es": "GO Pass: agosto",
-    "it": "GO Pass: agosto"
+    "fr": "Passe GO : août",
+    "de": "GO-Pass: August",
+    "es": "Pase de GO de agosto",
+    "it": "Biglietto GO di agosto"
    },
    "label": {
     "ko": "GO 패스",
@@ -161,10 +161,10 @@
     "en": "GO Pass: September",
     "zh-Hant": "GO Pass：9月",
     "zh-Hans": "GO Pass：9月",
-    "fr": "GO Pass : septembre",
-    "de": "GO Pass: September",
-    "es": "GO Pass: septiembre",
-    "it": "GO Pass: settembre"
+    "fr": "Passe GO : septembre",
+    "de": "GO-Pass: September",
+    "es": "Pase de GO de septiembre",
+    "it": "Biglietto GO di settembre"
    },
    "label": {
     "ko": "GO 패스",
@@ -415,15 +415,15 @@
    "start": "2026-09-25T10:00:00",
    "end": "2027-01-15T20:00:00",
    "title": {
-    "ko": "adidas × Pokémon Timed Research",
-    "ja": "adidas × Pokémon Timed Research",
+    "ko": "adidas × 포켓몬스터 시간제한 리서치",
+    "ja": "adidas × ポケモン タイムチャレンジ",
     "en": "adidas × Pokémon Timed Research",
-    "zh-Hant": "adidas × Pokémon Timed Research",
-    "zh-Hans": "adidas × Pokémon Timed Research",
-    "fr": "adidas × Pokémon Timed Research",
-    "de": "adidas × Pokémon Timed Research",
-    "es": "adidas × Pokémon Timed Research",
-    "it": "adidas × Pokémon Timed Research"
+    "zh-Hant": "adidas ×《寶可夢》限時調查",
+    "zh-Hans": "adidas ×《宝可梦》限时调查",
+    "fr": "Étude ponctuelle adidas × Pokémon",
+    "de": "Befristete Forschung: adidas × Pokémon",
+    "es": "Investigación temporal adidas × Pokémon",
+    "it": "Ricerca a tempo adidas × Pokémon"
    },
    "label": {
     "ko": "리서치",
@@ -498,15 +498,15 @@
    "start": "2026-09-29T10:00:00",
    "end": "2026-10-05T20:00:00",
    "title": {
-    "ko": "GO 패스: Harvest Festival",
-    "ja": "GOパス：Harvest Festival",
+    "ko": "GO 패스: 수확 축제",
+    "ja": "GOパス：収穫祭",
     "en": "GO Pass: Harvest Festival",
-    "zh-Hant": "GO Pass：Harvest Festival",
-    "zh-Hans": "GO Pass：Harvest Festival",
-    "fr": "GO Pass : Harvest Festival",
-    "de": "GO Pass: Harvest Festival",
-    "es": "GO Pass: Harvest Festival",
-    "it": "GO Pass: Harvest Festival"
+    "zh-Hant": "GO Pass：豐收節",
+    "zh-Hans": "GO Pass：丰收节",
+    "fr": "Passe GO : Festival des récoltes",
+    "de": "GO-Pass: Ernte-Festival",
+    "es": "Pase de GO: Festival de la Cosecha",
+    "it": "Biglietto GO: Festival del raccolto"
    },
    "label": {
     "ko": "GO 패스",
@@ -591,10 +591,10 @@
     "en": "GO Pass: October",
     "zh-Hant": "GO Pass：10月",
     "zh-Hans": "GO Pass：10月",
-    "fr": "GO Pass : octobre",
-    "de": "GO Pass: Oktober",
-    "es": "GO Pass: octubre",
-    "it": "GO Pass: ottobre"
+    "fr": "Passe GO : octobre",
+    "de": "GO-Pass: Oktober",
+    "es": "Pase de GO de octubre",
+    "it": "Biglietto GO di ottobre"
    },
    "label": {
     "ko": "GO 패스",
@@ -720,15 +720,15 @@
    "start": "2026-10-27T10:00:00",
    "end": "2026-11-05T20:00:00",
    "title": {
-    "ko": "GO 패스: Halloween 2026",
-    "ja": "GOパス：Halloween 2026",
+    "ko": "GO 패스: 핼러윈 2026",
+    "ja": "GOパス：ハロウィン2026",
     "en": "GO Pass: Halloween 2026",
-    "zh-Hant": "GO Pass：Halloween 2026",
-    "zh-Hans": "GO Pass：Halloween 2026",
-    "fr": "GO Pass : Halloween 2026",
-    "de": "GO Pass: Halloween 2026",
-    "es": "GO Pass: Halloween 2026",
-    "it": "GO Pass: Halloween 2026"
+    "zh-Hant": "GO Pass：萬聖節2026",
+    "zh-Hans": "GO Pass：万圣节2026",
+    "fr": "Passe GO : Halloween 2026",
+    "de": "GO-Pass: Halloween 2026",
+    "es": "Pase de GO: Halloween 2026",
+    "it": "Biglietto GO: Halloween 2026"
    },
    "label": {
     "ko": "GO 패스",
@@ -816,10 +816,10 @@
     "en": "GO Pass: November",
     "zh-Hant": "GO Pass：11月",
     "zh-Hans": "GO Pass：11月",
-    "fr": "GO Pass : novembre",
-    "de": "GO Pass: November",
-    "es": "GO Pass: noviembre",
-    "it": "GO Pass: novembre"
+    "fr": "Passe GO : novembre",
+    "de": "GO-Pass: November",
+    "es": "Pase de GO de noviembre",
+    "it": "Biglietto GO di novembre"
    },
    "label": {
     "ko": "GO 패스",
@@ -935,15 +935,15 @@
    "start": "2026-11-09T10:00:00",
    "end": "2026-11-15T18:00:00",
    "title": {
-    "ko": "GO 패스: Into the Wild",
-    "ja": "GOパス：Into the Wild",
+    "ko": "GO 패스: 와일드 위크",
+    "ja": "GOパス：ワイルドウィーク",
     "en": "GO Pass: Into the Wild",
-    "zh-Hant": "GO Pass：Into the Wild",
-    "zh-Hans": "GO Pass：Into the Wild",
-    "fr": "GO Pass : Into the Wild",
-    "de": "GO Pass: Into the Wild",
-    "es": "GO Pass: Into the Wild",
-    "it": "GO Pass: Into the Wild"
+    "zh-Hant": "GO Pass：曠野週",
+    "zh-Hans": "GO Pass：旷野周",
+    "fr": "Passe GO : Âme sauvage",
+    "de": "GO-Pass: Auf ins Abenteuer",
+    "es": "Pase de GO: Hacia lo silvestre",
+    "it": "Biglietto GO: Nelle Terre Selvagge"
    },
    "label": {
     "ko": "GO 패스",
@@ -1216,10 +1216,10 @@
     "en": "Max Monday",
     "zh-Hant": "極巨星期一",
     "zh-Hans": "极巨星期一",
-    "fr": "Lundi Max",
-    "de": "Max-Montag",
+    "fr": "Lundi Dynamax",
+    "de": "Dyna-Montag",
     "es": "Lunes Max",
-    "it": "Lunedì Max"
+    "it": "Dynalunedì"
    },
    "label": {
     "ko": "맥스 먼데이",
@@ -1227,10 +1227,10 @@
     "en": "Max Monday",
     "zh-Hant": "極巨星期一",
     "zh-Hans": "极巨星期一",
-    "fr": "Lundi Max",
-    "de": "Max-Montag",
+    "fr": "Lundi Dynamax",
+    "de": "Dyna-Montag",
     "es": "Lunes Max",
-    "it": "Lunedì Max"
+    "it": "Dynalunedì"
    },
    "summary": {},
    "priority": [],
@@ -1475,15 +1475,15 @@
    "start": "2026-11-16T10:00:00",
    "end": "2026-11-23T20:00:00",
    "title": {
-    "ko": "GO 패스: Dynamax Trails",
-    "ja": "GOパス：Dynamax Trails",
+    "ko": "GO 패스: 커다란 발자국",
+    "ja": "GOパス：大きな足跡",
     "en": "GO Pass: Dynamax Trails",
-    "zh-Hant": "GO Pass：Dynamax Trails",
-    "zh-Hans": "GO Pass：Dynamax Trails",
-    "fr": "GO Pass : Dynamax Trails",
-    "de": "GO Pass: Dynamax Trails",
-    "es": "GO Pass: Dynamax Trails",
-    "it": "GO Pass: Dynamax Trails"
+    "zh-Hant": "GO Pass：巨大足跡",
+    "zh-Hans": "GO Pass：巨大足迹",
+    "fr": "Passe GO : Sentiers Dynamax",
+    "de": "GO-Pass: Dynamax-Pfade",
+    "es": "Pase de GO: Caminos Dinamax",
+    "it": "Biglietto GO: Sentieri Dynamax"
    },
    "label": {
     "ko": "GO 패스",
@@ -1575,15 +1575,15 @@
    "start": "2026-11-16T10:00:00",
    "end": "2026-11-23T20:00:00",
    "title": {
-    "ko": "Dynamax Trails",
-    "ja": "Dynamax Trails",
+    "ko": "커다란 발자국",
+    "ja": "大きな足跡",
     "en": "Dynamax Trails",
-    "zh-Hant": "Dynamax Trails",
-    "zh-Hans": "Dynamax Trails",
-    "fr": "Dynamax Trails",
-    "de": "Dynamax Trails",
-    "es": "Dynamax Trails",
-    "it": "Dynamax Trails"
+    "zh-Hant": "巨大足跡",
+    "zh-Hans": "巨大足迹",
+    "fr": "Sentiers Dynamax",
+    "de": "Dynamax-Pfade",
+    "es": "Caminos Dinamax",
+    "it": "Sentieri Dynamax"
    },
    "label": {
     "ko": "이벤트",
@@ -1613,14 +1613,14 @@
    ],
    "about": {
     "ko": "다이맥스 포켓몬이 주인공인 이벤트(11/16 10:00 ~ 11/23 20:00 현지). 파워스폿이 늘고 맥스배틀에 지금까지 나온 다이맥스 포켓몬(전설·환상 제외)이 나와요. 무료 GO 패스 「다이맥스 트레일」로 무한다이노를 1번 잡을 수 있어요.",
-    "ja": "ダイマックスポケモンが主役のイベント（11/16 10:00〜11/23 20:00 現地）。パワースポットが増え、マックスバトルにこれまで登場したダイマックスポケモン（伝説・幻を除く）が出現。無料のGOパス「Dynamax Trails」でムゲンダイナを1回ゲットできます。",
+    "ja": "ダイマックスポケモンが主役のイベント（11/16 10:00〜11/23 20:00 現地）。パワースポットが増え、マックスバトルにこれまで登場したダイマックスポケモン（伝説・幻を除く）が出現。無料のGOパス「大きな足跡」でムゲンダイナを1回ゲットできます。",
     "en": "A Dynamax-themed event (Nov 16, 10:00 – Nov 23, 20:00 local). More Power Spots, and Max Battles feature every Dynamax Pokémon released so far (except Legendary and Mythical). The free GO Pass: Dynamax Trails lets you catch Eternatus once.",
-    "zh-Hant": "以極巨化寶可夢為主角的活動（11/16 10:00～11/23 20:00 當地）。能量點增加，極巨對戰會出現至今登場過的極巨化寶可夢（傳說・幻之寶可夢除外）。免費的GO通行證「Dynamax Trails」可捕捉1次無極汰那。",
-    "zh-Hans": "以极巨化宝可梦为主角的活动（11/16 10:00～11/23 20:00 当地）。能量点增加，极巨对战会出现至今登场过的极巨化宝可梦（传说・幻之宝可梦除外）。免费的GO通行证「Dynamax Trails」可捕捉1次无极汰那。",
-    "fr": "Événement Dynamax (du 16/11 10 h au 23/11 20 h, heure locale). Plus de Sources d'Énergie, et les Combats Dynamax proposent tous les Pokémon Dynamax déjà sortis (sauf légendaires et fabuleux). Le Pass GO gratuit « Dynamax Trails » permet d'attraper Éthernatos une fois.",
-    "de": "Dynamax-Event (16.11., 10:00 – 23.11., 20:00 Ortszeit). Mehr Kraftquellen, und in Dyna-Kämpfen erscheinen alle bisher erschienenen Dynamax-Pokémon (außer legendäre und mysteriöse). Mit dem kostenlosen GO-Pass „Dynamax Trails“ kannst du Endynalos einmal fangen.",
-    "es": "Evento Dinamax (del 16/11 a las 10:00 al 23/11 a las 20:00, hora local). Más nodos energéticos y en los Combates Max aparecen todos los Pokémon Dinamax lanzados hasta ahora (salvo legendarios y singulares). El Pase GO gratuito «Dynamax Trails» permite atrapar a Eternatus una vez.",
-    "it": "Evento Dynamax (dal 16/11 ore 10:00 al 23/11 ore 20:00, ora locale). Più Punti energetici e nelle Lotte Dynamax compaiono tutti i Pokémon Dynamax usciti finora (esclusi leggendari e misteriosi). Il GO Pass gratuito «Dynamax Trails» permette di catturare Eternatus una volta."
+    "zh-Hant": "以極巨化寶可夢為主角的活動（11/16 10:00～11/23 20:00 當地）。能量點增加，極巨對戰會出現至今登場過的極巨化寶可夢（傳說・幻之寶可夢除外）。免費的GO通行證「巨大足跡」可捕捉1次無極汰那。",
+    "zh-Hans": "以极巨化宝可梦为主角的活动（11/16 10:00～11/23 20:00 当地）。能量点增加，极巨对战会出现至今登场过的极巨化宝可梦（传说・幻之宝可梦除外）。免费的GO通行证「巨大足迹」可捕捉1次无极汰那。",
+    "fr": "Événement Dynamax (du 16/11 10 h au 23/11 20 h, heure locale). Plus de Sources d'Énergie, et les Combats Dynamax proposent tous les Pokémon Dynamax déjà sortis (sauf légendaires et fabuleux). Le Pass GO gratuit « Sentiers Dynamax » permet d'attraper Éthernatos une fois.",
+    "de": "Dynamax-Event (16.11., 10:00 – 23.11., 20:00 Ortszeit). Mehr Kraftquellen, und in Dyna-Kämpfen erscheinen alle bisher erschienenen Dynamax-Pokémon (außer legendäre und mysteriöse). Mit dem kostenlosen GO-Pass „Dynamax-Pfade“ kannst du Endynalos einmal fangen.",
+    "es": "Evento Dinamax (del 16/11 a las 10:00 al 23/11 a las 20:00, hora local). Más nodos energéticos y en los Combates Max aparecen todos los Pokémon Dinamax lanzados hasta ahora (salvo legendarios y singulares). El Pase GO gratuito «Caminos Dinamax» permite atrapar a Eternatus una vez.",
+    "it": "Evento Dynamax (dal 16/11 ore 10:00 al 23/11 ore 20:00, ora locale). Più Punti energetici e nelle Lotte Dynamax compaiono tutti i Pokémon Dynamax usciti finora (esclusi leggendari e misteriosi). Il GO Pass gratuito «Sentieri Dynamax» permette di catturare Eternatus una volta."
    },
    "detailSources": [
     "https://pokemongo.com/news/dynamax-trails-eternamax-eternatus-2026",
@@ -1766,15 +1766,15 @@
    "start": "2026-11-17T10:00:00",
    "end": "2026-12-31T23:59:00",
    "title": {
-    "ko": "Pokémon GO and Duolingo Timed Research",
-    "ja": "Pokémon GO and Duolingo Timed Research",
+    "ko": "Pokémon GO × 듀오링고 시간제한 리서치",
+    "ja": "『Pokémon GO』×『Duolingo』タイムチャレンジ",
     "en": "Pokémon GO and Duolingo Timed Research",
-    "zh-Hant": "Pokémon GO and Duolingo Timed Research",
-    "zh-Hans": "Pokémon GO and Duolingo Timed Research",
-    "fr": "Pokémon GO and Duolingo Timed Research",
-    "de": "Pokémon GO and Duolingo Timed Research",
-    "es": "Pokémon GO and Duolingo Timed Research",
-    "it": "Pokémon GO and Duolingo Timed Research"
+    "zh-Hant": "《Pokémon GO》×《Duolingo》限時調查",
+    "zh-Hans": "《Pokémon GO》×《Duolingo》限时调查",
+    "fr": "Étude ponctuelle Pokémon GO × Duolingo",
+    "de": "Befristete Forschung: Pokémon GO × Duolingo",
+    "es": "Investigación temporal Pokémon GO × Duolingo",
+    "it": "Ricerca a tempo Pokémon GO × Duolingo"
    },
    "label": {
     "ko": "리서치",
@@ -1870,14 +1870,14 @@
    "end": "2026-11-17T20:00:00",
    "title": {
     "ko": "쇼케이스 투스데이",
-    "ja": "Showcase Tuesday",
+    "ja": "おひろめデイ",
     "en": "Showcase Tuesday",
-    "zh-Hant": "Showcase Tuesday",
-    "zh-Hans": "Showcase Tuesday",
-    "fr": "Showcase Tuesday",
-    "de": "Showcase Tuesday",
-    "es": "Showcase Tuesday",
-    "it": "Showcase Tuesday"
+    "zh-Hant": "週二：選秀會",
+    "zh-Hans": "周二：选秀会",
+    "fr": "Mardi Concours",
+    "de": "Showcase-Dienstag",
+    "es": "Martes de Exhibiciones",
+    "it": "Martedì del concorso"
    },
    "label": {
     "ko": "요일 보너스",
@@ -2105,15 +2105,15 @@
    "start": "2026-11-19T00:00:00",
    "end": "2026-11-19T23:59:00",
    "title": {
-    "ko": "고배틀 썰스데이",
-    "ja": "GO Battle Thursday",
+    "ko": "GO배틀리그 썰스데이",
+    "ja": "GOバトルリーグデイ",
     "en": "GO Battle Thursday",
-    "zh-Hant": "GO Battle Thursday",
-    "zh-Hans": "GO Battle Thursday",
-    "fr": "GO Battle Thursday",
-    "de": "GO Battle Thursday",
-    "es": "GO Battle Thursday",
-    "it": "GO Battle Thursday"
+    "zh-Hant": "週四：GO對戰",
+    "zh-Hans": "周四：GO对战",
+    "fr": "Jeudi Combat GO",
+    "de": "GO-Kampf-Donnerstag",
+    "es": "Jueves de Combates GO",
+    "it": "Giovedì delle Lotte GO"
    },
    "label": {
     "ko": "요일 보너스",
@@ -2282,15 +2282,15 @@
    "start": "2026-11-20T00:00:00",
    "end": "2026-11-20T23:59:00",
    "title": {
-    "ko": "프렌드쉽 프라이데이",
-    "ja": "Friendship Friday",
+    "ko": "우정 프라이데이",
+    "ja": "仲良しフライデー",
     "en": "Friendship Friday",
-    "zh-Hant": "Friendship Friday",
-    "zh-Hans": "Friendship Friday",
-    "fr": "Friendship Friday",
-    "de": "Friendship Friday",
-    "es": "Friendship Friday",
-    "it": "Friendship Friday"
+    "zh-Hant": "週五：友你真好",
+    "zh-Hans": "周五：友你真好",
+    "fr": "Vendredi amitié",
+    "de": "Freundschafts-Freitag",
+    "es": "Viernes entre amigos",
+    "it": "Venerdì dell’amicizia"
    },
    "label": {
     "ko": "요일 보너스",
@@ -2410,14 +2410,14 @@
    ],
    "about": {
     "ko": "다이맥스 트레일 이벤트 중 맥스배틀 데이(11/21 11:00~14:00 현지). 무한다이맥스 무한다이노가 대부분의 파워스폿을 차지해요. 이긴 뒤 잡을 수는 없고, 대신 무한다이노 사탕·사탕XL을 많이 받아요.",
-    "ja": "Dynamax Trails期間中のマックスバトル・デイ（11/21 11:00〜14:00 現地）。ムゲンダイマックスのムゲンダイナがほとんどのパワースポットに登場。勝っても捕まえられず、代わりにムゲンダイナのアメ・アメXLがたくさんもらえます。",
+    "ja": "大きな足跡期間中のマックスバトル・デイ（11/21 11:00〜14:00 現地）。ムゲンダイマックスのムゲンダイナがほとんどのパワースポットに登場。勝っても捕まえられず、代わりにムゲンダイナのアメ・アメXLがたくさんもらえます。",
     "en": "Max Battle Day during Dynamax Trails (Nov 21, 11:00–14:00 local). Eternamax Eternatus takes over most Power Spots. It can't be caught after winning; you get lots of Eternatus Candy and Candy XL instead.",
-    "zh-Hant": "Dynamax Trails期間的極巨對戰日（11/21 11:00～14:00 當地）。無極巨化無極汰那佔領大部分能量點。獲勝後無法捕捉，改為獲得大量無極汰那糖果・糖果XL。",
-    "zh-Hans": "Dynamax Trails期间的极巨对战日（11/21 11:00～14:00 当地）。无极巨化无极汰那占领大部分能量点。获胜后无法捕捉，改为获得大量无极汰那糖果・糖果XL。",
-    "fr": "Journée Combats Dynamax pendant Dynamax Trails (21/11 de 11 h à 14 h, heure locale). Éthernatos Infinimax occupe la plupart des Sources d'Énergie. Impossible de l'attraper après la victoire : vous recevez beaucoup de Bonbons et Bonbons L Éthernatos à la place.",
-    "de": "Dyna-Kampftag während Dynamax Trails (21.11., 11–14 Uhr Ortszeit). Unendynamax-Endynalos besetzt die meisten Kraftquellen. Nach dem Sieg kann es nicht gefangen werden; stattdessen gibt es viele Endynalos-Bonbons und -Bonbons XL.",
-    "es": "Día de Combates Max durante Dynamax Trails (21/11 de 11:00 a 14:00, hora local). Eternatus Dinamax Infinito ocupa la mayoría de nodos energéticos. No se puede atrapar tras ganar; en su lugar recibes muchos caramelos y Caramelos++ de Eternatus.",
-    "it": "Giornata delle Lotte Dynamax durante Dynamax Trails (21/11 dalle 11:00 alle 14:00, ora locale). Eternatus Dynamax Infinito occupa la maggior parte dei Punti energetici. Non si può catturare dopo la vittoria; in cambio ricevi molte Caramelle e Caramelle L di Eternatus."
+    "zh-Hant": "巨大足跡期間的極巨對戰日（11/21 11:00～14:00 當地）。無極巨化無極汰那佔領大部分能量點。獲勝後無法捕捉，改為獲得大量無極汰那糖果・糖果XL。",
+    "zh-Hans": "巨大足迹期间的极巨对战日（11/21 11:00～14:00 当地）。无极巨化无极汰那占领大部分能量点。获胜后无法捕捉，改为获得大量无极汰那糖果・糖果XL。",
+    "fr": "Journée Combats Dynamax pendant Sentiers Dynamax (21/11 de 11 h à 14 h, heure locale). Éthernatos Infinimax occupe la plupart des Sources d'Énergie. Impossible de l'attraper après la victoire : vous recevez beaucoup de Bonbons et Bonbons L Éthernatos à la place.",
+    "de": "Dyna-Kampftag während Dynamax-Pfade (21.11., 11–14 Uhr Ortszeit). Unendynamax-Endynalos besetzt die meisten Kraftquellen. Nach dem Sieg kann es nicht gefangen werden; stattdessen gibt es viele Endynalos-Bonbons und -Bonbons XL.",
+    "es": "Día de Combates Max durante Caminos Dinamax (21/11 de 11:00 a 14:00, hora local). Eternatus Dinamax Infinito ocupa la mayoría de nodos energéticos. No se puede atrapar tras ganar; en su lugar recibes muchos caramelos y Caramelos++ de Eternatus.",
+    "it": "Giornata delle Lotte Dynamax durante Sentieri Dynamax (21/11 dalle 11:00 alle 14:00, ora locale). Eternatus Dynamax Infinito occupa la maggior parte dei Punti energetici. Non si può catturare dopo la vittoria; in cambio ricevi molte Caramelle e Caramelle L di Eternatus."
    },
    "detailSources": [
     "https://leekduck.com/events/eternamax-eternatus-max-battles-2026/",
@@ -2777,14 +2777,14 @@
    "end": "2026-11-22T23:59:00",
    "title": {
     "ko": "시닉 선데이",
-    "ja": "Scenic Sunday",
+    "ja": "シーニックサンデー",
     "en": "Scenic Sunday",
-    "zh-Hant": "Scenic Sunday",
-    "zh-Hans": "Scenic Sunday",
-    "fr": "Scenic Sunday",
-    "de": "Scenic Sunday",
-    "es": "Scenic Sunday",
-    "it": "Scenic Sunday"
+    "zh-Hant": "明媚週日",
+    "zh-Hans": "明媚周日",
+    "fr": "Dimanche en plein air",
+    "de": "Malerischer Sonntag",
+    "es": "Paseíto de domingo",
+    "it": "Passeggiata domenicale"
    },
    "label": {
     "ko": "요일 보너스",
@@ -2872,10 +2872,10 @@
     "en": "Max Monday: Dynamax Espurr",
     "zh-Hant": "極巨星期一：極巨化妙喵",
     "zh-Hans": "极巨星期一：极巨化妙喵",
-    "fr": "Lundi Max : Psystigri Dynamax",
-    "de": "Max-Montag: Dynamax-Psiau",
+    "fr": "Lundi Dynamax : Psystigri Dynamax",
+    "de": "Dyna-Montag: Dynamax-Psiau",
     "es": "Lunes Max: Espurr Dinamax",
-    "it": "Lunedì Max: Espurr Dynamax"
+    "it": "Dynalunedì: Espurr Dynamax"
    },
    "label": {
     "ko": "맥스 먼데이",
@@ -2883,10 +2883,10 @@
     "en": "Max Monday",
     "zh-Hant": "極巨星期一",
     "zh-Hans": "极巨星期一",
-    "fr": "Lundi Max",
-    "de": "Max-Montag",
+    "fr": "Lundi Dynamax",
+    "de": "Dyna-Montag",
     "es": "Lunes Max",
-    "it": "Lunedì Max"
+    "it": "Dynalunedì"
    },
    "summary": {},
    "priority": [],
@@ -3084,14 +3084,14 @@
    "end": "2026-11-24T20:00:00",
    "title": {
     "ko": "쇼케이스 투스데이",
-    "ja": "Showcase Tuesday",
+    "ja": "おひろめデイ",
     "en": "Showcase Tuesday",
-    "zh-Hant": "Showcase Tuesday",
-    "zh-Hans": "Showcase Tuesday",
-    "fr": "Showcase Tuesday",
-    "de": "Showcase Tuesday",
-    "es": "Showcase Tuesday",
-    "it": "Showcase Tuesday"
+    "zh-Hant": "週二：選秀會",
+    "zh-Hans": "周二：选秀会",
+    "fr": "Mardi Concours",
+    "de": "Showcase-Dienstag",
+    "es": "Martes de Exhibiciones",
+    "it": "Martedì del concorso"
    },
    "label": {
     "ko": "요일 보너스",
@@ -3179,10 +3179,10 @@
     "en": "GO Pass: Twilight Wishes",
     "zh-Hant": "GO Pass：黃昏時分的心願",
     "zh-Hans": "GO Pass：黄昏时分的心愿",
-    "fr": "GO Pass : Souhaits crépusculaires",
-    "de": "GO Pass: Zwielichtwünsche",
-    "es": "GO Pass: Deseos crepusculares",
-    "it": "GO Pass: Desideri al crepuscolo"
+    "fr": "Passe GO : Souhaits crépusculaires",
+    "de": "GO-Pass: Zwielichtwünsche",
+    "es": "Pase de GO: Deseos crepusculares",
+    "it": "Biglietto GO: Desideri al crepuscolo"
    },
    "label": {
     "ko": "GO 패스",
@@ -3519,15 +3519,15 @@
    "start": "2026-11-26T00:00:00",
    "end": "2026-11-26T23:59:00",
    "title": {
-    "ko": "고배틀 썰스데이",
-    "ja": "GO Battle Thursday",
+    "ko": "GO배틀리그 썰스데이",
+    "ja": "GOバトルリーグデイ",
     "en": "GO Battle Thursday",
-    "zh-Hant": "GO Battle Thursday",
-    "zh-Hans": "GO Battle Thursday",
-    "fr": "GO Battle Thursday",
-    "de": "GO Battle Thursday",
-    "es": "GO Battle Thursday",
-    "it": "GO Battle Thursday"
+    "zh-Hant": "週四：GO對戰",
+    "zh-Hans": "周四：GO对战",
+    "fr": "Jeudi Combat GO",
+    "de": "GO-Kampf-Donnerstag",
+    "es": "Jueves de Combates GO",
+    "it": "Giovedì delle Lotte GO"
    },
    "label": {
     "ko": "요일 보너스",
@@ -3687,15 +3687,15 @@
    "start": "2026-11-27T00:00:00",
    "end": "2026-11-27T23:59:00",
    "title": {
-    "ko": "프렌드쉽 프라이데이",
-    "ja": "Friendship Friday",
+    "ko": "우정 프라이데이",
+    "ja": "仲良しフライデー",
     "en": "Friendship Friday",
-    "zh-Hant": "Friendship Friday",
-    "zh-Hans": "Friendship Friday",
-    "fr": "Friendship Friday",
-    "de": "Friendship Friday",
-    "es": "Friendship Friday",
-    "it": "Friendship Friday"
+    "zh-Hant": "週五：友你真好",
+    "zh-Hans": "周五：友你真好",
+    "fr": "Vendredi amitié",
+    "de": "Freundschafts-Freitag",
+    "es": "Viernes entre amigos",
+    "it": "Venerdì dell’amicizia"
    },
    "label": {
     "ko": "요일 보너스",
@@ -3912,14 +3912,14 @@
    "end": "2026-11-29T23:59:00",
    "title": {
     "ko": "시닉 선데이",
-    "ja": "Scenic Sunday",
+    "ja": "シーニックサンデー",
     "en": "Scenic Sunday",
-    "zh-Hant": "Scenic Sunday",
-    "zh-Hans": "Scenic Sunday",
-    "fr": "Scenic Sunday",
-    "de": "Scenic Sunday",
-    "es": "Scenic Sunday",
-    "it": "Scenic Sunday"
+    "zh-Hant": "明媚週日",
+    "zh-Hans": "明媚周日",
+    "fr": "Dimanche en plein air",
+    "de": "Malerischer Sonntag",
+    "es": "Paseíto de domingo",
+    "it": "Passeggiata domenicale"
    },
    "label": {
     "ko": "요일 보너스",
@@ -4007,10 +4007,10 @@
     "en": "Max Monday: Dynamax Cryogonal",
     "zh-Hant": "極巨星期一：極巨化幾何雪花",
     "zh-Hans": "极巨星期一：极巨化几何雪花",
-    "fr": "Lundi Max : Hexagel Dynamax",
-    "de": "Max-Montag: Dynamax-Frigometri",
+    "fr": "Lundi Dynamax : Hexagel Dynamax",
+    "de": "Dyna-Montag: Dynamax-Frigometri",
     "es": "Lunes Max: Cryogonal Dinamax",
-    "it": "Lunedì Max: Cryogonal Dynamax"
+    "it": "Dynalunedì: Cryogonal Dynamax"
    },
    "label": {
     "ko": "맥스 먼데이",
@@ -4018,10 +4018,10 @@
     "en": "Max Monday",
     "zh-Hant": "極巨星期一",
     "zh-Hans": "极巨星期一",
-    "fr": "Lundi Max",
-    "de": "Max-Montag",
+    "fr": "Lundi Dynamax",
+    "de": "Dyna-Montag",
     "es": "Lunes Max",
-    "it": "Lunedì Max"
+    "it": "Dynalunedì"
    },
    "summary": {},
    "priority": [],
@@ -4301,15 +4301,15 @@
    "start": "2026-12-26T11:00:00",
    "end": "2026-12-26T17:00:00",
    "title": {
-    "ko": "Hatch Day",
-    "ja": "Hatch Day",
+    "ko": "부화데이",
+    "ja": "ふかの日",
     "en": "Hatch Day",
-    "zh-Hant": "Hatch Day",
-    "zh-Hans": "Hatch Day",
-    "fr": "Hatch Day",
-    "de": "Hatch Day",
-    "es": "Hatch Day",
-    "it": "Hatch Day"
+    "zh-Hant": "孵化日",
+    "zh-Hans": "孵化日",
+    "fr": "Journée Éclosion",
+    "de": "Schlüpftag",
+    "es": "Día de eclosiones",
+    "it": "Giornata della schiusa"
    },
    "label": {
     "ko": "이벤트",
@@ -4706,15 +4706,15 @@
    "start": "2027-02-18T16:00:00",
    "end": "2027-02-21T15:59:00",
    "title": {
-    "ko": "Pokémon GO Tour: Alola - Kaohsiung 2027",
-    "ja": "Pokémon GO Tour: Alola - Kaohsiung 2027",
+    "ko": "Pokémon GO Tour: 알로라 - 가오슝 2027",
+    "ja": "Pokémon GO Tour：アローラ - 高雄 2027",
     "en": "Pokémon GO Tour: Alola - Kaohsiung 2027",
-    "zh-Hant": "Pokémon GO Tour: Alola - Kaohsiung 2027",
-    "zh-Hans": "Pokémon GO Tour: Alola - Kaohsiung 2027",
-    "fr": "Pokémon GO Tour: Alola - Kaohsiung 2027",
+    "zh-Hant": "Pokémon GO Tour：阿羅拉 - 高雄 2027",
+    "zh-Hans": "Pokémon GO Tour：阿罗拉 - 高雄 2027",
+    "fr": "Circuit Pokémon GO : Alola - Kaohsiung 2027",
     "de": "Pokémon GO Tour: Alola - Kaohsiung 2027",
-    "es": "Pokémon GO Tour: Alola - Kaohsiung 2027",
-    "it": "Pokémon GO Tour: Alola - Kaohsiung 2027"
+    "es": "Tour de Pokémon GO: Alola - Kaohsiung 2027",
+    "it": "Tour di Pokémon GO: Alola - Kaohsiung 2027"
    },
    "label": {
     "ko": "GO 투어",
@@ -4759,15 +4759,15 @@
    "start": "2027-02-19T08:00:00",
    "end": "2027-02-22T07:59:00",
    "title": {
-    "ko": "Pokémon GO Tour: Alola - Los Angeles 2027",
-    "ja": "Pokémon GO Tour: Alola - Los Angeles 2027",
+    "ko": "Pokémon GO Tour: 알로라 - 로스앤젤레스 2027",
+    "ja": "Pokémon GO Tour：アローラ - ロサンゼルス 2027",
     "en": "Pokémon GO Tour: Alola - Los Angeles 2027",
-    "zh-Hant": "Pokémon GO Tour: Alola - Los Angeles 2027",
-    "zh-Hans": "Pokémon GO Tour: Alola - Los Angeles 2027",
-    "fr": "Pokémon GO Tour: Alola - Los Angeles 2027",
+    "zh-Hant": "Pokémon GO Tour：阿羅拉 - 洛杉磯 2027",
+    "zh-Hans": "Pokémon GO Tour：阿罗拉 - 洛杉矶 2027",
+    "fr": "Circuit Pokémon GO : Alola - Los Angeles 2027",
     "de": "Pokémon GO Tour: Alola - Los Angeles 2027",
-    "es": "Pokémon GO Tour: Alola - Los Angeles 2027",
-    "it": "Pokémon GO Tour: Alola - Los Angeles 2027"
+    "es": "Tour de Pokémon GO: Alola - Los Ángeles 2027",
+    "it": "Tour di Pokémon GO: Alola - Los Angeles 2027"
    },
    "label": {
     "ko": "GO 투어",
@@ -4812,15 +4812,15 @@
    "start": "2027-02-27T00:00:00",
    "end": "2027-02-28T23:59:00",
    "title": {
-    "ko": "Pokémon GO Tour: Alola - Global 2027",
-    "ja": "Pokémon GO Tour: Alola - Global 2027",
+    "ko": "Pokémon GO Tour: 알로라 - 전 세계 2027",
+    "ja": "Pokémon GO Tour：アローラ - グローバル 2027",
     "en": "Pokémon GO Tour: Alola - Global 2027",
-    "zh-Hant": "Pokémon GO Tour: Alola - Global 2027",
-    "zh-Hans": "Pokémon GO Tour: Alola - Global 2027",
-    "fr": "Pokémon GO Tour: Alola - Global 2027",
-    "de": "Pokémon GO Tour: Alola - Global 2027",
-    "es": "Pokémon GO Tour: Alola - Global 2027",
-    "it": "Pokémon GO Tour: Alola - Global 2027"
+    "zh-Hant": "Pokémon GO Tour：阿羅拉 - 全球 2027",
+    "zh-Hans": "Pokémon GO Tour：阿罗拉 - 全球 2027",
+    "fr": "Circuit Pokémon GO : Alola - mondial 2027",
+    "de": "Pokémon GO Tour: Alola - weltweit 2027",
+    "es": "Tour de Pokémon GO: Alola - global 2027",
+    "it": "Tour di Pokémon GO: Alola - globale 2027"
    },
    "label": {
     "ko": "GO 투어",
