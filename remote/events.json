@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "updatedAt": "2026-11-27T02:29:02Z",
+ "updatedAt": "2026-11-27T05:31:44Z",
  "_comment": "자동 생성 파일 — 직접 고치지 말고 schedule/events.json·raids.json을 고친 뒤 tools/build_schedule.py 실행. title은 9개 언어, label은 종류 이름.",
  "events": [
   {
@@ -313,7 +313,24 @@
    },
    "summary": {},
    "priority": [],
-   "pokemonRefs": [],
+   "pokemonRefs": [
+    {
+     "dex": 398,
+     "formId": "normal"
+    },
+    {
+     "dex": 609,
+     "formId": "normal"
+    },
+    {
+     "dex": 942,
+     "formId": "normal"
+    },
+    {
+     "dex": 943,
+     "formId": "normal"
+    }
+   ],
    "sourceUrl": "https://pokemongo.com/news",
    "footnoteIds": [],
    "alarmPresetsMin": [],
@@ -438,7 +455,12 @@
    },
    "summary": {},
    "priority": [],
-   "pokemonRefs": [],
+   "pokemonRefs": [
+    {
+     "dex": 448,
+     "formId": "normal"
+    }
+   ],
    "sourceUrl": "https://pokemongo.com/news",
    "footnoteIds": [],
    "alarmPresetsMin": [],
@@ -1789,7 +1811,24 @@
    },
    "summary": {},
    "priority": [],
-   "pokemonRefs": [],
+   "pokemonRefs": [
+    {
+     "dex": 25,
+     "formId": "normal"
+    },
+    {
+     "dex": 52,
+     "formId": "normal"
+    },
+    {
+     "dex": 441,
+     "formId": "normal"
+    },
+    {
+     "dex": 448,
+     "formId": "normal"
+    }
+   ],
    "sourceUrl": "https://pokemongo.com/news",
    "footnoteIds": [],
    "alarmPresetsMin": [],
@@ -2915,7 +2954,7 @@
    }
   },
   {
-   "id": "event-2026-11-24-clefairy",
+   "id": "event-2026-11-24-staryu",
    "category": "event",
    "region": "global",
    "timeMode": "local",
@@ -2947,10 +2986,6 @@
    "priority": [],
    "pokemonRefs": [
     {
-     "dex": 35,
-     "formId": "normal"
-    },
-    {
      "dex": 120,
      "formId": "normal"
     },
@@ -2959,7 +2994,59 @@
      "formId": "normal"
     },
     {
+     "dex": 15,
+     "formId": "normal"
+    },
+    {
+     "dex": 25,
+     "formId": "normal"
+    },
+    {
+     "dex": 35,
+     "formId": "normal"
+    },
+    {
+     "dex": 94,
+     "formId": "normal"
+    },
+    {
+     "dex": 196,
+     "formId": "normal"
+    },
+    {
+     "dex": 197,
+     "formId": "normal"
+    },
+    {
+     "dex": 229,
+     "formId": "normal"
+    },
+    {
+     "dex": 302,
+     "formId": "normal"
+    },
+    {
+     "dex": 310,
+     "formId": "normal"
+    },
+    {
+     "dex": 426,
+     "formId": "normal"
+    },
+    {
      "dex": 744,
+     "formId": "normal"
+    },
+    {
+     "dex": 840,
+     "formId": "normal"
+    },
+    {
+     "dex": 942,
+     "formId": "normal"
+    },
+    {
+     "dex": 946,
      "formId": "normal"
     }
    ],
@@ -4050,22 +4137,648 @@
    }
   },
   {
-   "id": "max_battle_day-2026-12-05-max-battle-day",
+   "id": "event-2026-12-01-pyukumuku",
+   "category": "event",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-01T10:00:00",
+   "end": "2026-12-07T20:00:00",
+   "title": {
+    "ko": "열대낙원",
+    "ja": "熱帯楽園",
+    "en": "Tropical Paradise",
+    "zh-Hant": "熱帶樂園",
+    "zh-Hans": "热带乐园",
+    "fr": "Paradis tropical",
+    "de": "Tropisches Paradies",
+    "es": "Paraíso tropical",
+    "it": "Paradiso tropicale"
+   },
+   "label": {
+    "ko": "이벤트",
+    "ja": "イベント",
+    "en": "Event",
+    "zh-Hant": "活動",
+    "zh-Hans": "活动",
+    "fr": "Évènement",
+    "de": "Event",
+    "es": "Evento",
+    "it": "Evento"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 771,
+     "formId": "normal"
+    },
+    {
+     "dex": 50,
+     "formId": "alola"
+    },
+    {
+     "dex": 54,
+     "formId": "normal"
+    },
+    {
+     "dex": 72,
+     "formId": "normal"
+    },
+    {
+     "dex": 79,
+     "formId": "normal"
+    },
+    {
+     "dex": 80,
+     "formId": "normal"
+    },
+    {
+     "dex": 90,
+     "formId": "normal"
+    },
+    {
+     "dex": 103,
+     "formId": "alola"
+    },
+    {
+     "dex": 143,
+     "formId": "normal"
+    },
+    {
+     "dex": 187,
+     "formId": "normal"
+    },
+    {
+     "dex": 199,
+     "formId": "normal"
+    },
+    {
+     "dex": 270,
+     "formId": "normal"
+    },
+    {
+     "dex": 278,
+     "formId": "normal"
+    },
+    {
+     "dex": 285,
+     "formId": "normal"
+    },
+    {
+     "dex": 287,
+     "formId": "normal"
+    },
+    {
+     "dex": 592,
+     "formId": "normal"
+    },
+    {
+     "dex": 769,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ],
+   "sources": [
+    "https://pokemongo.com/news/tropical-paradise-2026",
+    "https://leekduck.com/events/tropical-paradise-2026/",
+    "https://pokemongohub.net/post/event/pokemon-go-december-2026-events/"
+   ],
+   "about": {
+    "ko": "바다·열대 테마 이벤트(12/1 10:00 ~ 12/7 20:00 현지). 해무기가 3성 레이드와 이벤트 GO 패스로 처음 나와요. 12/4부터는 야생에 다른 포켓몬이 더 나와요.",
+    "ja": "海と南国がテーマのイベント（12/1 10:00〜12/7 20:00 現地）。ナマコブシが★3レイドとイベントのGOパスで初登場。12/4からは野生に別のポケモンも増えます。",
+    "en": "A sea-and-tropics event (Dec 1, 10:00 – Dec 7, 20:00 local). Pyukumuku debuts in 3-star raids and the event GO Pass. From Dec 4, more Pokémon join the wild spawns.",
+    "zh-Hant": "海洋與熱帶主題活動（12/1 10:00～12/7 20:00 當地）。拳海參在三星團體戰與活動GO Pass中首次登場。12/4起野生會出現更多寶可夢。",
+    "zh-Hans": "海洋与热带主题活动（12/1 10:00～12/7 20:00 当地）。拳海参在三星团体战与活动GO Pass中首次登场。12/4起野生会出现更多宝可梦。",
+    "fr": "Évènement mer et tropiques (du 1/12 10 h au 7/12 20 h, heure locale). Concombaffe débute dans les raids 3 étoiles et le Passe GO de l’évènement. À partir du 4/12, d’autres Pokémon sauvages apparaissent.",
+    "de": "Event rund um Meer und Tropen (1.12., 10:00 – 7.12., 20:00 Ortszeit). Gufa erscheint erstmals in 3-Sterne-Raids und im Event-GO-Pass. Ab 4.12. erscheinen weitere wilde Pokémon.",
+    "es": "Evento de mar y trópico (del 1/12 a las 10:00 al 7/12 a las 20:00, hora local). Pyukumuku debuta en incursiones de 3 estrellas y en el Pase de GO del evento. Desde el 4/12 aparecen más Pokémon salvajes.",
+    "it": "Evento a tema mare e tropici (dall’1/12 ore 10:00 al 7/12 ore 20:00, ora locale). Pyukumuku debutta nei raid a 3 stelle e nel biglietto GO dell’evento. Dal 4/12 compaiono altri Pokémon selvatici."
+   }
+  },
+  {
+   "id": "go-pass-december-2026",
+   "category": "go_pass",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-01T10:00:00",
+   "end": "2027-01-05T10:00:00",
+   "title": {
+    "ko": "GO 패스: 12월",
+    "ja": "GOパス：12月",
+    "en": "GO Pass: December",
+    "zh-Hant": "GO Pass：12月",
+    "zh-Hans": "GO Pass：12月",
+    "fr": "Passe GO : décembre",
+    "de": "GO-Pass: Dezember",
+    "es": "Pase de GO de diciembre",
+    "it": "Biglietto GO di dicembre"
+   },
+   "label": {
+    "ko": "GO 패스",
+    "ja": "GOパス",
+    "en": "GO Pass",
+    "zh-Hant": "GO通行證",
+    "zh-Hans": "GO通行证",
+    "fr": "Pass GO",
+    "de": "GO-Pass",
+    "es": "Pase GO",
+    "it": "Pass GO"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [],
+   "sources": [
+    "https://pokemongo.com/news/go-pass-december-2026",
+    "https://leekduck.com/events/go-pass-december-2026/",
+    "https://pokemongohub.net/post/event/pokemon-go-december-2026-events/"
+   ],
+   "about": {
+    "ko": "모든 트레이너에게 자동 지급되는 무료 월간 패스. 패스 과제로 GO 포인트를 모아 랭크를 올림(랭크 100 이후 반복 보상).",
+    "ja": "全トレーナーに自動配布される無料の月間パス。パスタスクでGOポイントを集めてランクアップ（ランク100以降は繰り返しリワード）。",
+    "en": "Free monthly pass given to all Trainers automatically. Earn GO Points from Pass Tasks to rank up (repeat rewards after Rank 100).",
+    "zh-Hant": "自動發放給所有訓練家的免費月度通行證。完成通行證任務累積GO點數升級（等級100後有重複獎勵）。",
+    "zh-Hans": "自动发放给所有训练家的免费月度通行证。完成通行证任务累积GO点数升级（等级100后有重复奖励）。",
+    "fr": "Pass mensuel gratuit distribué automatiquement. Gagnez des Points GO via les tâches du pass pour monter en rang (récompenses répétées après le rang 100).",
+    "de": "Kostenloser Monatspass für alle Trainer. GO-Punkte aus Pass-Aufgaben sammeln und aufsteigen (Wiederholungsbelohnungen ab Rang 100).",
+    "es": "Pase mensual gratuito para todos los Entrenadores. Gana Puntos GO con las tareas del pase para subir de rango (recompensas repetidas tras el rango 100).",
+    "it": "Pass mensile gratuito per tutti gli Allenatori. Ottieni Punti GO con le attività del pass per salire di grado (ricompense ripetute dopo il grado 100)."
+   },
+   "passFree": [
+    {
+     "ko": "큐레무 만남",
+     "ja": "キュレムと出会える",
+     "en": "Kyurem encounter",
+     "zh-Hant": "酋雷姆相遇",
+     "zh-Hans": "酋雷姆相遇",
+     "fr": "Kyurem : rencontre",
+     "de": "Kyurem-Begegnung",
+     "es": "Kyurem: encuentro",
+     "it": "Kyurem: incontro"
+    }
+   ],
+   "passDeluxe": [],
+   "passClaim": "2027-01-07 10:00"
+  },
+  {
+   "id": "season-2026-12-01-daydream-destinations",
+   "category": "season",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-01T10:00:00",
+   "end": "2027-03-01T10:00:00",
+   "title": {
+    "ko": "꿈꾸던 길",
+    "ja": "うたた寝の途",
+    "en": "Daydream Destinations",
+    "zh-Hant": "夢途漫漫",
+    "zh-Hans": "梦途漫漫",
+    "fr": "Destinations de rêve",
+    "de": "Traumhafte Reiseziele",
+    "es": "Destinos de Ensueño",
+    "it": "Destinazioni da sogno"
+   },
+   "label": {
+    "ko": "시즌",
+    "ja": "シーズン",
+    "en": "Season",
+    "zh-Hant": "季節",
+    "zh-Hans": "季节",
+    "fr": "Saison",
+    "de": "Saison",
+    "es": "Temporada",
+    "it": "Stagione"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 27,
+     "formId": "alola"
+    },
+    {
+     "dex": 79,
+     "formId": "normal"
+    },
+    {
+     "dex": 341,
+     "formId": "normal"
+    },
+    {
+     "dex": 478,
+     "formId": "normal"
+    },
+    {
+     "dex": 780,
+     "formId": "normal"
+    },
+    {
+     "dex": 818,
+     "formId": "normal"
+    },
+    {
+     "dex": 849,
+     "formId": "amped"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [],
+   "sources": [
+    "https://pokemongo.com/seasons/daydream-destinations",
+    "https://leekduck.com/events/season-25-daydream-destinations/",
+    "https://pokemongohub.net/post/guide/daydream-destinations-season/"
+   ],
+   "about": {
+    "ko": "약 3개월 단위의 시즌. 야생·알·리서치에서 나오는 포켓몬, 요일 보너스, 매달 GO 패스, GO배틀리그 일정이 시즌마다 바뀌어요.",
+    "ja": "約3か月ごとのシーズン。野生・タマゴ・リサーチのポケモン、曜日ボーナス、毎月のGOパス、GOバトルリーグの日程がシーズンごとに変わります。",
+    "en": "A roughly three-month Season. Wild, Egg and research Pokémon, Daily Discoveries, the monthly GO Pass and the GO Battle League schedule change each Season.",
+    "zh-Hant": "約3個月一次的季節。野外・蛋・調查的寶可夢、每日發現加成、每月GO通行證與GO對戰聯盟日程每季更換。",
+    "zh-Hans": "约3个月一次的季节。野外・蛋・调查的宝可梦、每日发现加成、每月GO通行证与GO对战联盟日程每季更换。",
+    "fr": "Une saison d'environ trois mois. Pokémon sauvages, des Œufs et des études, bonus quotidiens, Pass GO mensuel et calendrier de la Ligue de Combat GO changent à chaque saison.",
+    "de": "Eine etwa dreimonatige Saison. Wilde, Ei- und Forschungs-Pokémon, Tagesboni, der monatliche GO-Pass und der GO-Kampfliga-Plan wechseln mit jeder Saison.",
+    "es": "Una temporada de unos tres meses. Los Pokémon salvajes, de Huevos e investigaciones, las bonificaciones diarias, el Pase GO mensual y el calendario de la Liga de Combates GO cambian cada temporada.",
+    "it": "Una stagione di circa tre mesi. Pokémon selvatici, dalle Uova e dalle ricerche, bonus giornalieri, GO Pass mensile e calendario della Lega Lotte GO cambiano a ogni stagione."
+   }
+  },
+  {
+   "id": "tropical-paradise-2026",
+   "category": "go_pass",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-01T10:00:00",
+   "end": "2026-12-07T20:00:00",
+   "title": {
+    "ko": "GO 패스: 열대낙원",
+    "ja": "GOパス：熱帯楽園",
+    "en": "GO Pass: Tropical Paradise",
+    "zh-Hant": "GO Pass：熱帶樂園",
+    "zh-Hans": "GO Pass：热带乐园",
+    "fr": "Passe GO : Paradis tropical",
+    "de": "GO-Pass: Tropisches Paradies",
+    "es": "Pase de GO: Paraíso tropical",
+    "it": "Biglietto GO: Paradiso tropicale"
+   },
+   "label": {
+    "ko": "GO 패스",
+    "ja": "GOパス",
+    "en": "GO Pass",
+    "zh-Hant": "GO通行證",
+    "zh-Hans": "GO通行证",
+    "fr": "Pass GO",
+    "de": "GO-Pass",
+    "es": "Pase GO",
+    "it": "Pass GO"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [],
+   "sources": [
+    "https://pokemongo.com/news/tropical-paradise-2026",
+    "https://leekduck.com/events/tropical-paradise-2026/",
+    "https://pokemongohub.net/post/event/pokemon-go-december-2026-events/"
+   ],
+   "about": {
+    "ko": "이벤트 기간 동안 자동 지급되는 무료 이벤트 패스.",
+    "ja": "イベント期間中に自動配布される無料のイベントパス。",
+    "en": "Free event pass given automatically during the event.",
+    "zh-Hant": "活動期間自動發放的免費活動通行證。",
+    "zh-Hans": "活动期间自动发放的免费活动通行证。",
+    "fr": "Pass d’événement gratuit distribué automatiquement pendant l’événement.",
+    "de": "Kostenloser Event-Pass, automatisch während des Events.",
+    "es": "Pase de evento gratuito entregado automáticamente durante el evento.",
+    "it": "Pass evento gratuito assegnato automaticamente durante l’evento."
+   },
+   "passFree": [],
+   "passDeluxe": [],
+   "passClaim": "2026-12-09 20:00"
+  },
+  {
+   "id": "raid_battles-2026-12-02-5-895",
+   "category": "raid_battles",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-02T06:00:00",
+   "end": "2026-12-08T22:00:00",
+   "title": {
+    "ko": "★5 레이드: 레지드래고",
+    "ja": "★5レイド：レジドラゴ",
+    "en": "5-Star Raids: Regidrago",
+    "zh-Hant": "五星團體戰：雷吉鐸拉戈",
+    "zh-Hans": "五星团体战：雷吉铎拉戈",
+    "fr": "Raids 5 étoiles : Regidrago",
+    "de": "5-Sterne-Raids: Regidrago",
+    "es": "Incursiones de 5 estrellas: Regidrago",
+    "it": "Raid a 5 stelle: Regidrago"
+   },
+   "label": {
+    "ko": "레이드",
+    "ja": "レイド",
+    "en": "Raids",
+    "zh-Hant": "團體戰",
+    "zh-Hans": "团体战",
+    "fr": "Raids",
+    "de": "Raids",
+    "es": "Incursiones",
+    "it": "Raid"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 895,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ],
+   "about": {
+    "ko": "체육관 레이드에 나오는 보스 목록이에요. 5성·메가 보스는 보통 수요일 10:00(현지)에 바뀌고, 1성·3성 보스는 이벤트에 따라 바뀌어요.",
+    "ja": "ジムのレイドに登場するボスの一覧。★5・メガのボスはふだん水曜10:00（現地）に入れ替わり、★1・★3はイベントによって変わります。",
+    "en": "The current raid boss line-up at Gyms. Five-star and Mega bosses usually change on Wednesdays at 10:00 local; 1- and 3-star bosses change with events.",
+    "zh-Hant": "道館團體戰頭目一覽。五星・超級頭目通常在週三10:00（當地）更換，一星・三星依活動更換。",
+    "zh-Hans": "道馆团体战头目一览。五星・超级头目通常在周三10:00（当地）更换，一星・三星依活动更换。",
+    "fr": "Les boss de Raid actuels dans les Arènes. Les boss 5 étoiles et Méga changent en général le mercredi à 10 h ; ceux de 1 et 3 étoiles changent selon les événements.",
+    "de": "Die aktuellen Raid-Bosse in Arenen. 5-Sterne- und Mega-Bosse wechseln meist mittwochs um 10:00 Ortszeit; 1- und 3-Sterne-Bosse je nach Event.",
+    "es": "Los jefes de incursión actuales en los gimnasios. Los de 5 estrellas y Mega suelen cambiar el miércoles a las 10:00; los de 1 y 3 estrellas cambian con los eventos.",
+    "it": "I boss dei raid attuali nelle Palestre. Quelli da 5 stelle e Mega cambiano di solito il mercoledì alle 10:00; quelli da 1 e 3 stelle con gli eventi."
+   },
+   "auto": "schedule/raids.json에서 자동 생성"
+  },
+  {
+   "id": "raid_battles-2026-12-02-mega-80",
+   "category": "raid_battles",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-02T06:00:00",
+   "end": "2026-12-08T22:00:00",
+   "title": {
+    "ko": "메가 레이드: 메가야도란",
+    "ja": "メガレイド：メガヤドラン",
+    "en": "Mega Raids: Mega Slowbro",
+    "zh-Hant": "超級進化團體戰：超級呆殼獸",
+    "zh-Hans": "超级进化团体战：超级呆壳兽",
+    "fr": "Raids Méga : Méga-Flagadoss",
+    "de": "Mega-Raids: Mega-Lahmus",
+    "es": "Incursiones Mega: Mega-Slowbro",
+    "it": "Raid Mega: MegaSlowbro"
+   },
+   "label": {
+    "ko": "레이드",
+    "ja": "レイド",
+    "en": "Raids",
+    "zh-Hant": "團體戰",
+    "zh-Hans": "团体战",
+    "fr": "Raids",
+    "de": "Raids",
+    "es": "Incursiones",
+    "it": "Raid"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 80,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ],
+   "about": {
+    "ko": "체육관 레이드에 나오는 보스 목록이에요. 5성·메가 보스는 보통 수요일 10:00(현지)에 바뀌고, 1성·3성 보스는 이벤트에 따라 바뀌어요.",
+    "ja": "ジムのレイドに登場するボスの一覧。★5・メガのボスはふだん水曜10:00（現地）に入れ替わり、★1・★3はイベントによって変わります。",
+    "en": "The current raid boss line-up at Gyms. Five-star and Mega bosses usually change on Wednesdays at 10:00 local; 1- and 3-star bosses change with events.",
+    "zh-Hant": "道館團體戰頭目一覽。五星・超級頭目通常在週三10:00（當地）更換，一星・三星依活動更換。",
+    "zh-Hans": "道馆团体战头目一览。五星・超级头目通常在周三10:00（当地）更换，一星・三星依活动更换。",
+    "fr": "Les boss de Raid actuels dans les Arènes. Les boss 5 étoiles et Méga changent en général le mercredi à 10 h ; ceux de 1 et 3 étoiles changent selon les événements.",
+    "de": "Die aktuellen Raid-Bosse in Arenen. 5-Sterne- und Mega-Bosse wechseln meist mittwochs um 10:00 Ortszeit; 1- und 3-Sterne-Bosse je nach Event.",
+    "es": "Los jefes de incursión actuales en los gimnasios. Los de 5 estrellas y Mega suelen cambiar el miércoles a las 10:00; los de 1 y 3 estrellas cambian con los eventos.",
+    "it": "I boss dei raid attuali nelle Palestre. Quelli da 5 stelle e Mega cambiano di solito il mercoledì alle 10:00; quelli da 1 e 3 stelle con gli eventi."
+   },
+   "auto": "schedule/raids.json에서 자동 생성"
+  },
+  {
+   "id": "raid_battles-2026-12-02-shadow_5-483",
+   "category": "raid_battles",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-02T06:00:00",
+   "end": "2027-01-05T22:00:00",
+   "title": {
+    "ko": "그림자 레이드: 그림자 디아루가",
+    "ja": "シャドウレイド：シャドウディアルガ",
+    "en": "Shadow Raids: Shadow Dialga",
+    "zh-Hant": "暗影團體戰：暗影帝牙盧卡",
+    "zh-Hans": "暗影团体战：暗影帝牙卢卡",
+    "fr": "Raids Obscurs : Dialga obscur",
+    "de": "Crypto-Raids: Crypto-Dialga",
+    "es": "Incursiones Oscuras: Dialga oscuro",
+    "it": "Raid Ombra: Dialga ombra"
+   },
+   "label": {
+    "ko": "레이드",
+    "ja": "レイド",
+    "en": "Raids",
+    "zh-Hant": "團體戰",
+    "zh-Hans": "团体战",
+    "fr": "Raids",
+    "de": "Raids",
+    "es": "Incursiones",
+    "it": "Raid"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 483,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ],
+   "about": {
+    "ko": "체육관 레이드에 나오는 보스 목록이에요. 5성·메가 보스는 보통 수요일 10:00(현지)에 바뀌고, 1성·3성 보스는 이벤트에 따라 바뀌어요.",
+    "ja": "ジムのレイドに登場するボスの一覧。★5・メガのボスはふだん水曜10:00（現地）に入れ替わり、★1・★3はイベントによって変わります。",
+    "en": "The current raid boss line-up at Gyms. Five-star and Mega bosses usually change on Wednesdays at 10:00 local; 1- and 3-star bosses change with events.",
+    "zh-Hant": "道館團體戰頭目一覽。五星・超級頭目通常在週三10:00（當地）更換，一星・三星依活動更換。",
+    "zh-Hans": "道馆团体战头目一览。五星・超级头目通常在周三10:00（当地）更换，一星・三星依活动更换。",
+    "fr": "Les boss de Raid actuels dans les Arènes. Les boss 5 étoiles et Méga changent en général le mercredi à 10 h ; ceux de 1 et 3 étoiles changent selon les événements.",
+    "de": "Die aktuellen Raid-Bosse in Arenen. 5-Sterne- und Mega-Bosse wechseln meist mittwochs um 10:00 Ortszeit; 1- und 3-Sterne-Bosse je nach Event.",
+    "es": "Los jefes de incursión actuales en los gimnasios. Los de 5 estrellas y Mega suelen cambiar el miércoles a las 10:00; los de 1 y 3 estrellas cambian con los eventos.",
+    "it": "I boss dei raid attuali nelle Palestre. Quelli da 5 stelle e Mega cambiano di solito il mercoledì alle 10:00; quelli da 1 e 3 stelle con gli eventi."
+   },
+   "auto": "schedule/raids.json에서 자동 생성"
+  },
+  {
+   "id": "raid_hour-2026-12-02-895",
+   "category": "raid_hour",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-02T18:00:00",
+   "end": "2026-12-02T19:00:00",
+   "title": {
+    "ko": "레지드래고 레이드 아워",
+    "ja": "レイドアワー：レジドラゴ",
+    "en": "Regidrago Raid Hour",
+    "zh-Hant": "團體戰時間：雷吉鐸拉戈",
+    "zh-Hans": "团体战时间：雷吉铎拉戈",
+    "fr": "Heure de Raids : Regidrago",
+    "de": "Raid-Stunde: Regidrago",
+    "es": "Hora de Incursiones: Regidrago",
+    "it": "Ora dei Raid: Regidrago"
+   },
+   "label": {
+    "ko": "레이드 아워",
+    "ja": "レイドアワー",
+    "en": "Raid Hour",
+    "zh-Hant": "團體戰時間",
+    "zh-Hans": "团体战时间",
+    "fr": "Heure de Raids",
+    "de": "Raid-Stunde",
+    "es": "Hora de Incursiones",
+    "it": "Ora dei Raid"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 895,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    30,
+    0
+   ],
+   "about": {
+    "ko": "매주 수요일 18:00~19:00(현지). 그 주의 5성 레이드 보스가 많은 체육관에 나와요. 수요일 하루 동안 직접 가서 하는 레이드를 깨면 이상한사탕 XL 1개. 5성·메가 레이드 보스는 수요일 0시에 바뀌어요.",
+    "ja": "毎週水曜18:00〜19:00（現地）。その週の★5レイドボスが多くのジムに登場。水曜日は一日中、現地でレイドに勝つとふしぎなアメXLが1個。★5・メガレイドのボスは水曜0時に入れ替わります。",
+    "en": "Every Wednesday 6–7 p.m. local. Many Gyms host the week's five-star raid boss. All Wednesday, complete an in-person raid for one Rare Candy XL. Five-star and Mega Raid bosses change at the start of Wednesday.",
+    "zh-Hant": "每週三18:00～19:00（當地）。該週的五星團體戰頭目會出現在許多道館。週三全天親自完成團體戰可獲得1個神奇糖果XL。五星・超級團體戰頭目在週三0點更換。",
+    "zh-Hans": "每周三18:00～19:00（当地）。该周的五星团体战头目会出现在许多道馆。周三全天亲自完成团体战可获得1个神奇糖果XL。五星・超级团体战头目在周三0点更换。",
+    "fr": "Chaque mercredi de 18 h à 19 h (heure locale). De nombreuses Arènes accueillent le boss de Raid 5 étoiles de la semaine. Tout le mercredi, terminez un Raid sur place pour 1 Super Bonbon XL. Les boss 5 étoiles et Méga changent le mercredi à minuit.",
+    "de": "Jeden Mittwoch 18–19 Uhr (Ortszeit). Viele Arenen zeigen den 5-Sterne-Raid-Boss der Woche. Den ganzen Mittwoch gibt es für einen Raid vor Ort 1 Sonderbonbon XL. 5-Sterne- und Mega-Bosse wechseln Mittwoch um 0 Uhr.",
+    "es": "Cada miércoles de 18:00 a 19:00 (hora local). Muchos gimnasios tienen al jefe de incursión de 5 estrellas de la semana. Todo el miércoles, completa una incursión en persona para 1 Caramelo Raro XL. Los jefes de 5 estrellas y Mega cambian el miércoles a las 0:00.",
+    "it": "Ogni mercoledì dalle 18:00 alle 19:00 (ora locale). Molte Palestre ospitano il boss dei raid 5 stelle della settimana. Tutto il mercoledì, completa un raid di persona per 1 Caramella Rara XL. I boss 5 stelle e Mega cambiano il mercoledì a mezzanotte."
+   },
+   "auto": "schedule/raids.json에서 자동 생성"
+  },
+  {
+   "id": "spotlight_hour-2026-12-03-wimpod",
+   "category": "spotlight_hour",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-03T18:00:00",
+   "end": "2026-12-03T19:00:00",
+   "title": {
+    "ko": "꼬시레 스포트라이트 아워",
+    "ja": "スポットライトアワー：コソクムシ",
+    "en": "Wimpod Spotlight Hour",
+    "zh-Hant": "聚光燈時刻：膽小蟲",
+    "zh-Hans": "聚光灯时刻：胆小虫",
+    "fr": "Heure Vedette : Sovkipou",
+    "de": "Rampenlicht-Stunde: Reißlaus",
+    "es": "Hora Destacada: Wimpod",
+    "it": "Ora del Pokémon in evidenza: Wimpod"
+   },
+   "label": {
+    "ko": "스포트라이트 아워",
+    "ja": "スポットライトアワー",
+    "en": "Spotlight Hour",
+    "zh-Hant": "聚光燈時刻",
+    "zh-Hans": "聚光灯时刻",
+    "fr": "Heure Vedette",
+    "de": "Rampenlicht-Stunde",
+    "es": "Hora Destacada",
+    "it": "Ora del Pokémon in evidenza"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 767,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    30,
+    0
+   ],
+   "sources": [
+    "https://leekduck.com/events/pokemonspotlighthour2026-12-03/",
+    "https://pokemongohub.net/post/event/pokemon-go-december-2026-events/"
+   ],
+   "about": {
+    "ko": "매주 목요일 18:00~19:00(현지). 정해진 포켓몬이 야생에 아주 많이 나오고, 1시간 동안 보너스 하나(포획 사탕·별의모래·XP 2배 등)가 붙어요.",
+    "ja": "毎週木曜18:00〜19:00（現地）。特定のポケモンが野生にたくさん出現し、1時間ボーナスが1つ（捕獲時のアメ・ほしのすな・XP2倍など）付きます。",
+    "en": "Every Thursday 18:00–19:00 local. A featured Pokémon appears in large numbers, with one bonus for the hour (e.g. 2× catch Candy, Stardust or XP).",
+    "zh-Hant": "每週四18:00～19:00（當地）。指定寶可夢大量出現在野外，1小時內附有一種加成（捕捉糖果・星星沙子・XP 2倍等）。",
+    "zh-Hans": "每周四18:00～19:00（当地）。指定宝可梦大量出现在野外，1小时内附有一种加成（捕捉糖果・星星沙子・XP 2倍等）。",
+    "fr": "Chaque jeudi de 18 h à 19 h (heure locale). Un Pokémon vedette apparaît en masse, avec un bonus pendant l'heure (Bonbons, Poussière Étoile ou XP ×2, etc.).",
+    "de": "Jeden Donnerstag 18–19 Uhr Ortszeit. Ein Pokémon erscheint massenhaft, dazu eine Stunde lang ein Bonus (z. B. 2× Fang-Bonbons, Sternenstaub oder EP).",
+    "es": "Cada jueves de 18:00 a 19:00 (hora local). Un Pokémon protagonista aparece en masa, con una bonificación durante la hora (2× caramelos, polvoestelar o PX, etc.).",
+    "it": "Ogni giovedì dalle 18:00 alle 19:00 (ora locale). Un Pokémon protagonista appare in massa, con un bonus per un'ora (2× Caramelle, polvere di stelle o PE, ecc.)."
+   },
+   "bonuses": [
+    {
+     "code": "transfer_candy_2x",
+     "text": {
+      "ko": "박사에게 보내면 사탕 2배",
+      "ja": "博士に送るとアメ2倍",
+      "en": "2× Candy for transferring",
+      "zh-Hant": "傳送給博士糖果2倍",
+      "zh-Hans": "传送给博士糖果2倍",
+      "fr": "Bonbons ×2 en transférant",
+      "de": "2× Bonbons beim Verschicken",
+      "es": "2× caramelos al transferir",
+      "it": "2× caramelle trasferendo"
+     }
+    }
+   ]
+  },
+  {
+   "id": "max_battle_day-2026-12-05-inteleon",
    "category": "max_battle_day",
    "region": "global",
    "timeMode": "local",
    "start": "2026-12-05T14:00:00",
    "end": "2026-12-05T17:00:00",
    "title": {
-    "ko": "맥스배틀 데이",
-    "ja": "マックスバトル・デイ",
-    "en": "Max Battle Day",
-    "zh-Hant": "極巨對戰日",
-    "zh-Hans": "极巨对战日",
-    "fr": "Journée Combats Dynamax",
-    "de": "Dyna-Kampftag",
-    "es": "Día de Combates Max",
-    "it": "Giornata delle Lotte Dynamax"
+    "ko": "인텔리레온 맥스배틀 데이",
+    "ja": "マックスバトル・デイ：インテレオン",
+    "en": "Inteleon Max Battle Day",
+    "zh-Hant": "極巨對戰日：千面避役",
+    "zh-Hans": "极巨对战日：千面避役",
+    "fr": "Journée Combats Dynamax : Lézargus",
+    "de": "Dyna-Kampftag: Intelleon",
+    "es": "Día de Combates Max: Inteleon",
+    "it": "Giornata delle Lotte Dynamax: Inteleon"
    },
    "label": {
     "ko": "맥스배틀 데이",
@@ -4080,12 +4793,22 @@
    },
    "summary": {},
    "priority": [],
-   "pokemonRefs": [],
+   "pokemonRefs": [
+    {
+     "dex": 818,
+     "formId": "normal"
+    }
+   ],
    "sourceUrl": "https://pokemongo.com/news",
    "footnoteIds": [],
    "alarmPresetsMin": [
     60,
     0
+   ],
+   "sources": [
+    "https://pokemongo.com/news/gigantamax-inteleon-max-battle-day-2026",
+    "https://leekduck.com/events/gigantamax-inteleon-max-battle-day-2026/",
+    "https://pokemongohub.net/post/event/pokemon-go-december-2026-events/"
    ],
    "about": {
     "ko": "맥스배틀 데이(12/5 14:00~17:00 현지). 주인공 포켓몬과 보너스는 아직 발표 전이에요. 보통 정해진 포켓몬이 대부분의 파워스폿에 나오고 보너스가 붙어요.",
@@ -4102,6 +4825,471 @@
     "https://pokemongo.com/news/save-the-date-s25",
     "https://leekduck.com/events/max-battle-day-december-2026/",
     "https://leekduck.com/events/"
+   ]
+  },
+  {
+   "id": "max_monday-2026-12-07-deino",
+   "category": "max_monday",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-07T06:00:00",
+   "end": "2026-12-07T21:00:00",
+   "title": {
+    "ko": "맥스 먼데이 · 다이맥스 모노두",
+    "ja": "マックスマンデー：ダイマックスモノズ",
+    "en": "Max Monday: Dynamax Deino",
+    "zh-Hant": "極巨星期一：極巨化單首龍",
+    "zh-Hans": "极巨星期一：极巨化单首龙",
+    "fr": "Lundi Dynamax : Solochi Dynamax",
+    "de": "Dyna-Montag: Dynamax-Kapuno",
+    "es": "Lunes Max: Deino Dinamax",
+    "it": "Dynalunedì: Deino Dynamax"
+   },
+   "label": {
+    "ko": "맥스 먼데이",
+    "ja": "マックスマンデー",
+    "en": "Max Monday",
+    "zh-Hant": "極巨星期一",
+    "zh-Hans": "极巨星期一",
+    "fr": "Lundi Dynamax",
+    "de": "Dyna-Montag",
+    "es": "Lunes Max",
+    "it": "Dynalunedì"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 633,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    30,
+    0
+   ],
+   "sources": [
+    "https://leekduck.com/events/max-mondays-2026-12-07/",
+    "https://pokemongohub.net/post/event/pokemon-go-december-2026-events/"
+   ],
+   "about": {
+    "ko": "매주 월요일 6:00~21:00(현지). 파워스폿이 더 많이 생기고 더 자주 바뀌며, 그 주의 다이맥스 포켓몬이 맥스 배틀에 나와요. 직접 가서 하는 맥스 배틀에서 이기면 이상한사탕 XL 1개 확정.",
+    "ja": "毎週月曜6:00〜21:00（現地）。パワースポットが増えて入れ替わりも早くなり、その週のダイマックスポケモンがマックスバトルに登場。現地でマックスバトルに勝つとふしぎなアメXLが1個確定。",
+    "en": "Every Monday 6:00 a.m.–9:00 p.m. local. More Power Spots that refresh more often, featuring the week's Dynamax Pokémon in Max Battles. Win an in-person Max Battle for one guaranteed Rare Candy XL.",
+    "zh-Hant": "每週一6:00～21:00（當地）。能量點變多、更新更快，該週的極巨化寶可夢會出現在極巨對戰。親自參加極巨對戰獲勝，必定獲得1個神奇糖果XL。",
+    "zh-Hans": "每周一6:00～21:00（当地）。能量点变多、更新更快，该周的极巨化宝可梦会出现在极巨对战。亲自参加极巨对战获胜，必定获得1个神奇糖果XL。",
+    "fr": "Chaque lundi de 6 h à 21 h (heure locale). Plus de Zones Dynamax, renouvelées plus souvent, avec le Pokémon Dynamax de la semaine en Combats Max. Gagnez un Combat Max sur place pour 1 Super Bonbon XL garanti.",
+    "de": "Jeden Montag 6–21 Uhr (Ortszeit). Mehr Kraftquellen, die öfter wechseln, mit dem Dynamax-Pokémon der Woche in Dyna-Kämpfen. Ein vor Ort gewonnener Dyna-Kampf bringt garantiert 1 Sonderbonbon XL.",
+    "es": "Cada lunes de 6:00 a 21:00 (hora local). Más Puntos Energéticos que cambian más a menudo, con el Pokémon Dinamax de la semana en los combates Max. Gana un combate Max en persona para 1 Caramelo Raro XL asegurado.",
+    "it": "Ogni lunedì dalle 6:00 alle 21:00 (ora locale). Più Aree Power che cambiano più spesso, con il Pokémon Dynamax della settimana nelle lotte Dynamax. Vinci una lotta Dynamax di persona per 1 Caramella Rara XL garantita."
+   }
+  },
+  {
+   "id": "event-2026-12-08-pok-mon-champions-celebration-event",
+   "category": "event",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-08T10:00:00",
+   "end": "2026-12-14T20:00:00",
+   "title": {
+    "ko": "「Pokémon Champions」 콜라보 이벤트",
+    "ja": "『Pokémon Champions』コラボイベント",
+    "en": "Pokémon Champions Celebration Event",
+    "zh-Hant": "《Pokémon Champions》聯名活動",
+    "zh-Hans": "《Pokémon Champions》联名活动",
+    "fr": "Célébration pour Pokémon Champions",
+    "de": "Event zur Feier von Pokémon Champions",
+    "es": "Evento de celebración de Pokémon Champions",
+    "it": "Festeggiamenti per Pokémon Champions"
+   },
+   "label": {
+    "ko": "이벤트",
+    "ja": "イベント",
+    "en": "Event",
+    "zh-Hant": "活動",
+    "zh-Hans": "活动",
+    "fr": "Évènement",
+    "de": "Event",
+    "es": "Evento",
+    "it": "Evento"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 4,
+     "formId": "normal"
+    },
+    {
+     "dex": 26,
+     "formId": "normal"
+    },
+    {
+     "dex": 352,
+     "formId": "normal"
+    },
+    {
+     "dex": 359,
+     "formId": "normal"
+    },
+    {
+     "dex": 371,
+     "formId": "normal"
+    },
+    {
+     "dex": 380,
+     "formId": "normal"
+    },
+    {
+     "dex": 381,
+     "formId": "normal"
+    },
+    {
+     "dex": 396,
+     "formId": "normal"
+    },
+    {
+     "dex": 443,
+     "formId": "normal"
+    },
+    {
+     "dex": 445,
+     "formId": "normal"
+    },
+    {
+     "dex": 485,
+     "formId": "normal"
+    },
+    {
+     "dex": 638,
+     "formId": "normal"
+    },
+    {
+     "dex": 639,
+     "formId": "normal"
+    },
+    {
+     "dex": 640,
+     "formId": "normal"
+    },
+    {
+     "dex": 725,
+     "formId": "normal"
+    },
+    {
+     "dex": 810,
+     "formId": "normal"
+    },
+    {
+     "dex": 812,
+     "formId": "normal"
+    },
+    {
+     "dex": 894,
+     "formId": "normal"
+    },
+    {
+     "dex": 895,
+     "formId": "normal"
+    },
+    {
+     "dex": 996,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ],
+   "sources": [
+    "https://pokemongo.com/news/pokemon-champions-celebration-event-2026",
+    "https://leekduck.com/events/pokemon-champions-celebration-event-2026/",
+    "https://pokemongohub.net/post/event/pokemon-go-december-2026-events/"
+   ],
+   "about": {
+    "ko": "「Pokémon Champions」 콜라보 이벤트(12/8 10:00 ~ 12/14 20:00 현지). 이벤트 레이드에 스페셜 배경 포켓몬이 나오고, 포켓스톱에서 켈리몬을 만날 확률이 올라가요. 5성 레이드는 12/9~12/15에 전설 포켓몬 8마리가 정해진 일정으로 나와요.",
+    "ja": "『Pokémon Champions』コラボイベント（12/8 10:00〜12/14 20:00 現地）。イベントのレイドでスペシャル背景のポケモンが登場し、ポケストップでカクレオンに出会いやすくなります。★5レイドは12/9〜12/15に伝説のポケモン8匹が日替わりで登場。",
+    "en": "Pokémon Champions Celebration (Dec 8, 10:00 – Dec 14, 20:00 local). Event raids can have Special Backgrounds, and Kecleon appears more at PokéStops. Eight Legendary Pokémon have scheduled 5-star raid appearances from Dec 9 to 15.",
+    "zh-Hant": "《Pokémon Champions》聯名活動（12/8 10:00～12/14 20:00 當地）。活動團體戰可能出現特別背景的寶可夢，在寶可補給站更容易遇到變隱龍。12/9～12/15五星團體戰將依排程出現8隻傳說寶可夢。",
+    "zh-Hans": "《Pokémon Champions》联名活动（12/8 10:00～12/14 20:00 当地）。活动团体战可能出现特别背景的宝可梦，在宝可补给站更容易遇到变隐龙。12/9～12/15五星团体战将按排程出现8只传说宝可梦。",
+    "fr": "Célébration pour Pokémon Champions (du 8/12 10 h au 14/12 20 h, heure locale). Fonds spéciaux dans les raids de l’évènement et plus de Kecleon aux PokéStops. Huit Pokémon légendaires apparaissent selon un calendrier dans les raids 5 étoiles du 9 au 15/12.",
+    "de": "Event zur Feier von Pokémon Champions (8.12., 10:00 – 14.12., 20:00 Ortszeit). Event-Raids mit Spezialhintergründen, mehr Kecleon an PokéStops. Acht legendäre Pokémon erscheinen vom 9. bis 15.12. nach Plan in 5-Sterne-Raids.",
+    "es": "Evento de celebración de Pokémon Champions (del 8/12 a las 10:00 al 14/12 a las 20:00, hora local). Fondos especiales en incursiones del evento y más Kecleon en las Poképaradas. Ocho Pokémon legendarios aparecen según calendario en incursiones de 5 estrellas del 9 al 15/12.",
+    "it": "Festeggiamenti per Pokémon Champions (dall’8/12 ore 10:00 al 14/12 ore 20:00, ora locale). Sfondi speciali nei raid dell’evento e più Kecleon ai PokéStop. Otto Pokémon leggendari compaiono a calendario nei raid a 5 stelle dal 9 al 15/12."
+   }
+  },
+  {
+   "id": "pokemon-champions-celebration-2026",
+   "category": "go_pass",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-08T10:00:00",
+   "end": "2026-12-14T20:00:00",
+   "title": {
+    "ko": "GO 패스: 콜라보 이벤트",
+    "ja": "GOパス：コラボセレブレーションイベント",
+    "en": "GO Pass: Collaboration Celebration Event",
+    "zh-Hant": "GO Pass：聯名慶典活動",
+    "zh-Hans": "GO Pass：联名庆典活动",
+    "fr": "Passe GO : Célébration pour Pokémon Champions",
+    "de": "GO-Pass: Event zur Feier von Pokémon Champions",
+    "es": "Pase de GO: Celebración del evento de colaboración",
+    "it": "Biglietto GO: Festeggiamenti per Pokémon Champions"
+   },
+   "label": {
+    "ko": "GO 패스",
+    "ja": "GOパス",
+    "en": "GO Pass",
+    "zh-Hant": "GO通行證",
+    "zh-Hans": "GO通行证",
+    "fr": "Pass GO",
+    "de": "GO-Pass",
+    "es": "Pase GO",
+    "it": "Pass GO"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [],
+   "sources": [
+    "https://pokemongo.com/news/pokemon-champions-celebration-event-2026",
+    "https://leekduck.com/events/pokemon-champions-celebration-event-2026/",
+    "https://pokemongohub.net/post/event/pokemon-go-december-2026-events/"
+   ],
+   "about": {
+    "ko": "이벤트 기간 동안 자동 지급되는 무료 이벤트 패스.",
+    "ja": "イベント期間中に自動配布される無料のイベントパス。",
+    "en": "Free event pass given automatically during the event.",
+    "zh-Hant": "活動期間自動發放的免費活動通行證。",
+    "zh-Hans": "活动期间自动发放的免费活动通行证。",
+    "fr": "Pass d’événement gratuit distribué automatiquement pendant l’événement.",
+    "de": "Kostenloser Event-Pass, automatisch während des Events.",
+    "es": "Pase de evento gratuito entregado automáticamente durante el evento.",
+    "it": "Pass evento gratuito assegnato automaticamente durante l’evento."
+   },
+   "passFree": [],
+   "passDeluxe": [],
+   "passClaim": "2026-12-16 20:00"
+  },
+  {
+   "id": "raid_battles-2026-12-09-5-380-381-485-638-639-640-894-895",
+   "category": "raid_battles",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-09T06:00:00",
+   "end": "2026-12-15T22:00:00",
+   "title": {
+    "ko": "★5 레이드: 라티아스, 라티오스, 히드런, 코바르온, 테라키온, 비리디온, 레지에레키, 레지드래고",
+    "ja": "★5レイド：ラティアス・ラティオス・ヒードラン・コバルオン・テラキオン・ビリジオン・レジエレキ・レジドラゴ",
+    "en": "5-Star Raids: Latias, Latios, Heatran, Cobalion, Terrakion, Virizion, Regieleki, Regidrago",
+    "zh-Hant": "五星團體戰：拉帝亞斯、拉帝歐斯、席多藍恩、勾帕路翁、代拉基翁、畢力吉翁、雷吉艾勒奇、雷吉鐸拉戈",
+    "zh-Hans": "五星团体战：拉帝亚斯、拉帝欧斯、席多蓝恩、勾帕路翁、代拉基翁、毕力吉翁、雷吉艾勒奇、雷吉铎拉戈",
+    "fr": "Raids 5 étoiles : Latias, Latios, Heatran, Cobaltium, Terrakium, Viridium, Regieleki, Regidrago",
+    "de": "5-Sterne-Raids: Latias, Latios, Heatran, Kobalium, Terrakium, Viridium, Regieleki, Regidrago",
+    "es": "Incursiones de 5 estrellas: Latias, Latios, Heatran, Cobalion, Terrakion, Virizion, Regieleki, Regidrago",
+    "it": "Raid a 5 stelle: Latias, Latios, Heatran, Cobalion, Terrakion, Virizion, Regieleki, Regidrago"
+   },
+   "label": {
+    "ko": "레이드",
+    "ja": "レイド",
+    "en": "Raids",
+    "zh-Hant": "團體戰",
+    "zh-Hans": "团体战",
+    "fr": "Raids",
+    "de": "Raids",
+    "es": "Incursiones",
+    "it": "Raid"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 380,
+     "formId": "normal"
+    },
+    {
+     "dex": 381,
+     "formId": "normal"
+    },
+    {
+     "dex": 485,
+     "formId": "normal"
+    },
+    {
+     "dex": 638,
+     "formId": "normal"
+    },
+    {
+     "dex": 639,
+     "formId": "normal"
+    },
+    {
+     "dex": 640,
+     "formId": "normal"
+    },
+    {
+     "dex": 894,
+     "formId": "normal"
+    },
+    {
+     "dex": 895,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ],
+   "about": {
+    "ko": "체육관 레이드에 나오는 보스 목록이에요. 5성·메가 보스는 보통 수요일 10:00(현지)에 바뀌고, 1성·3성 보스는 이벤트에 따라 바뀌어요.",
+    "ja": "ジムのレイドに登場するボスの一覧。★5・メガのボスはふだん水曜10:00（現地）に入れ替わり、★1・★3はイベントによって変わります。",
+    "en": "The current raid boss line-up at Gyms. Five-star and Mega bosses usually change on Wednesdays at 10:00 local; 1- and 3-star bosses change with events.",
+    "zh-Hant": "道館團體戰頭目一覽。五星・超級頭目通常在週三10:00（當地）更換，一星・三星依活動更換。",
+    "zh-Hans": "道馆团体战头目一览。五星・超级头目通常在周三10:00（当地）更换，一星・三星依活动更换。",
+    "fr": "Les boss de Raid actuels dans les Arènes. Les boss 5 étoiles et Méga changent en général le mercredi à 10 h ; ceux de 1 et 3 étoiles changent selon les événements.",
+    "de": "Die aktuellen Raid-Bosse in Arenen. 5-Sterne- und Mega-Bosse wechseln meist mittwochs um 10:00 Ortszeit; 1- und 3-Sterne-Bosse je nach Event.",
+    "es": "Los jefes de incursión actuales en los gimnasios. Los de 5 estrellas y Mega suelen cambiar el miércoles a las 10:00; los de 1 y 3 estrellas cambian con los eventos.",
+    "it": "I boss dei raid attuali nelle Palestre. Quelli da 5 stelle e Mega cambiano di solito il mercoledì alle 10:00; quelli da 1 e 3 stelle con gli eventi."
+   },
+   "auto": "schedule/raids.json에서 자동 생성"
+  },
+  {
+   "id": "raid_battles-2026-12-09-mega-94",
+   "category": "raid_battles",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-09T06:00:00",
+   "end": "2026-12-15T22:00:00",
+   "title": {
+    "ko": "메가 레이드: 메가팬텀",
+    "ja": "メガレイド：メガゲンガー",
+    "en": "Mega Raids: Mega Gengar",
+    "zh-Hant": "超級進化團體戰：超級耿鬼",
+    "zh-Hans": "超级进化团体战：超级耿鬼",
+    "fr": "Raids Méga : Méga-Ectoplasma",
+    "de": "Mega-Raids: Mega-Gengar",
+    "es": "Incursiones Mega: Mega-Gengar",
+    "it": "Raid Mega: MegaGengar"
+   },
+   "label": {
+    "ko": "레이드",
+    "ja": "レイド",
+    "en": "Raids",
+    "zh-Hant": "團體戰",
+    "zh-Hans": "团体战",
+    "fr": "Raids",
+    "de": "Raids",
+    "es": "Incursiones",
+    "it": "Raid"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 94,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ],
+   "about": {
+    "ko": "체육관 레이드에 나오는 보스 목록이에요. 5성·메가 보스는 보통 수요일 10:00(현지)에 바뀌고, 1성·3성 보스는 이벤트에 따라 바뀌어요.",
+    "ja": "ジムのレイドに登場するボスの一覧。★5・メガのボスはふだん水曜10:00（現地）に入れ替わり、★1・★3はイベントによって変わります。",
+    "en": "The current raid boss line-up at Gyms. Five-star and Mega bosses usually change on Wednesdays at 10:00 local; 1- and 3-star bosses change with events.",
+    "zh-Hant": "道館團體戰頭目一覽。五星・超級頭目通常在週三10:00（當地）更換，一星・三星依活動更換。",
+    "zh-Hans": "道馆团体战头目一览。五星・超级头目通常在周三10:00（当地）更换，一星・三星依活动更换。",
+    "fr": "Les boss de Raid actuels dans les Arènes. Les boss 5 étoiles et Méga changent en général le mercredi à 10 h ; ceux de 1 et 3 étoiles changent selon les événements.",
+    "de": "Die aktuellen Raid-Bosse in Arenen. 5-Sterne- und Mega-Bosse wechseln meist mittwochs um 10:00 Ortszeit; 1- und 3-Sterne-Bosse je nach Event.",
+    "es": "Los jefes de incursión actuales en los gimnasios. Los de 5 estrellas y Mega suelen cambiar el miércoles a las 10:00; los de 1 y 3 estrellas cambian con los eventos.",
+    "it": "I boss dei raid attuali nelle Palestre. Quelli da 5 stelle e Mega cambiano di solito il mercoledì alle 10:00; quelli da 1 e 3 stelle con gli eventi."
+   },
+   "auto": "schedule/raids.json에서 자동 생성"
+  },
+  {
+   "id": "spotlight_hour-2026-12-10-starly",
+   "category": "spotlight_hour",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-10T18:00:00",
+   "end": "2026-12-10T19:00:00",
+   "title": {
+    "ko": "찌르꼬 스포트라이트 아워",
+    "ja": "スポットライトアワー：ムックル",
+    "en": "Starly Spotlight Hour",
+    "zh-Hant": "聚光燈時刻：姆克兒",
+    "zh-Hans": "聚光灯时刻：姆克儿",
+    "fr": "Heure Vedette : Étourmi",
+    "de": "Rampenlicht-Stunde: Staralili",
+    "es": "Hora Destacada: Starly",
+    "it": "Ora del Pokémon in evidenza: Starly"
+   },
+   "label": {
+    "ko": "스포트라이트 아워",
+    "ja": "スポットライトアワー",
+    "en": "Spotlight Hour",
+    "zh-Hant": "聚光燈時刻",
+    "zh-Hans": "聚光灯时刻",
+    "fr": "Heure Vedette",
+    "de": "Rampenlicht-Stunde",
+    "es": "Hora Destacada",
+    "it": "Ora del Pokémon in evidenza"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 396,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    30,
+    0
+   ],
+   "sources": [
+    "https://leekduck.com/events/pokemonspotlighthour2026-12-10/",
+    "https://pokemongohub.net/post/event/pokemon-go-december-2026-events/"
+   ],
+   "about": {
+    "ko": "매주 목요일 18:00~19:00(현지). 정해진 포켓몬이 야생에 아주 많이 나오고, 1시간 동안 보너스 하나(포획 사탕·별의모래·XP 2배 등)가 붙어요.",
+    "ja": "毎週木曜18:00〜19:00（現地）。特定のポケモンが野生にたくさん出現し、1時間ボーナスが1つ（捕獲時のアメ・ほしのすな・XP2倍など）付きます。",
+    "en": "Every Thursday 18:00–19:00 local. A featured Pokémon appears in large numbers, with one bonus for the hour (e.g. 2× catch Candy, Stardust or XP).",
+    "zh-Hant": "每週四18:00～19:00（當地）。指定寶可夢大量出現在野外，1小時內附有一種加成（捕捉糖果・星星沙子・XP 2倍等）。",
+    "zh-Hans": "每周四18:00～19:00（当地）。指定宝可梦大量出现在野外，1小时内附有一种加成（捕捉糖果・星星沙子・XP 2倍等）。",
+    "fr": "Chaque jeudi de 18 h à 19 h (heure locale). Un Pokémon vedette apparaît en masse, avec un bonus pendant l'heure (Bonbons, Poussière Étoile ou XP ×2, etc.).",
+    "de": "Jeden Donnerstag 18–19 Uhr Ortszeit. Ein Pokémon erscheint massenhaft, dazu eine Stunde lang ein Bonus (z. B. 2× Fang-Bonbons, Sternenstaub oder EP).",
+    "es": "Cada jueves de 18:00 a 19:00 (hora local). Un Pokémon protagonista aparece en masa, con una bonificación durante la hora (2× caramelos, polvoestelar o PX, etc.).",
+    "it": "Ogni giovedì dalle 18:00 alle 19:00 (ora locale). Un Pokémon protagonista appare in massa, con un bonus per un'ora (2× Caramelle, polvere di stelle o PE, ecc.)."
+   },
+   "bonuses": [
+    {
+     "code": "catch_stardust_2x",
+     "text": {
+      "ko": "포획 별의모래 2배",
+      "ja": "捕獲時のほしのすな2倍",
+      "en": "2× Catch Stardust",
+      "zh-Hant": "捕捉星星沙子2倍",
+      "zh-Hans": "捕捉星星沙子2倍",
+      "fr": "Poussière de capture ×2",
+      "de": "2× Fang-Sternenstaub",
+      "es": "2× polvoestelar al atrapar",
+      "it": "2× polvere di stelle per cattura"
+     }
+    }
    ]
   },
   {
@@ -4135,7 +5323,12 @@
    },
    "summary": {},
    "priority": [],
-   "pokemonRefs": [],
+   "pokemonRefs": [
+    {
+     "dex": 774,
+     "formId": "blue"
+    }
+   ],
    "sourceUrl": "https://pokemongo.com/news",
    "footnoteIds": [
     "fn_meteor_shower"
@@ -4224,12 +5417,166 @@
    },
    "summary": {},
    "priority": [],
-   "pokemonRefs": [],
+   "pokemonRefs": [
+    {
+     "dex": 37,
+     "formId": "alola"
+    },
+    {
+     "dex": 37,
+     "formId": "normal"
+    },
+    {
+     "dex": 38,
+     "formId": "alola"
+    },
+    {
+     "dex": 38,
+     "formId": "normal"
+    },
+    {
+     "dex": 393,
+     "formId": "normal"
+    },
+    {
+     "dex": 394,
+     "formId": "normal"
+    },
+    {
+     "dex": 395,
+     "formId": "normal"
+    },
+    {
+     "dex": 443,
+     "formId": "normal"
+    },
+    {
+     "dex": 444,
+     "formId": "normal"
+    },
+    {
+     "dex": 445,
+     "formId": "normal"
+    },
+    {
+     "dex": 570,
+     "formId": "normal"
+    },
+    {
+     "dex": 571,
+     "formId": "normal"
+    },
+    {
+     "dex": 624,
+     "formId": "normal"
+    },
+    {
+     "dex": 625,
+     "formId": "normal"
+    },
+    {
+     "dex": 633,
+     "formId": "normal"
+    },
+    {
+     "dex": 634,
+     "formId": "normal"
+    },
+    {
+     "dex": 635,
+     "formId": "normal"
+    },
+    {
+     "dex": 810,
+     "formId": "normal"
+    },
+    {
+     "dex": 811,
+     "formId": "normal"
+    },
+    {
+     "dex": 812,
+     "formId": "normal"
+    },
+    {
+     "dex": 813,
+     "formId": "normal"
+    },
+    {
+     "dex": 814,
+     "formId": "normal"
+    },
+    {
+     "dex": 815,
+     "formId": "normal"
+    },
+    {
+     "dex": 816,
+     "formId": "normal"
+    },
+    {
+     "dex": 817,
+     "formId": "normal"
+    },
+    {
+     "dex": 818,
+     "formId": "normal"
+    },
+    {
+     "dex": 827,
+     "formId": "normal"
+    },
+    {
+     "dex": 828,
+     "formId": "normal"
+    },
+    {
+     "dex": 915,
+     "formId": "normal"
+    },
+    {
+     "dex": 916,
+     "formId": "normal"
+    },
+    {
+     "dex": 957,
+     "formId": "normal"
+    },
+    {
+     "dex": 958,
+     "formId": "normal"
+    },
+    {
+     "dex": 959,
+     "formId": "normal"
+    },
+    {
+     "dex": 983,
+     "formId": "normal"
+    },
+    {
+     "dex": 996,
+     "formId": "normal"
+    },
+    {
+     "dex": 997,
+     "formId": "normal"
+    },
+    {
+     "dex": 998,
+     "formId": "normal"
+    }
+   ],
    "sourceUrl": "https://pokemongo.com/news",
    "footnoteIds": [],
    "alarmPresetsMin": [
     60,
     0
+   ],
+   "sources": [
+    "https://pokemongo.com/news/community-day-december-2026",
+    "https://leekduck.com/events/december-communityday2026/",
+    "https://pokemongohub.net/post/event/pokemon-go-december-2026-events/"
    ],
    "about": {
     "ko": "한 달에 한 번 정해진 포켓몬이 3시간(보통 14:00~17:00 현지) 야생에 아주 많이 나오는 날. 그 시간이나 그 뒤 몇 시간 안에 진화하면 특별한 기술을 배우고, 별의모래·사탕 같은 보너스가 붙어요.",
@@ -4242,6 +5589,308 @@
     "es": "Una vez al mes, un Pokémon protagonista aparece en masa durante 3 horas (normalmente de 14:00 a 17:00, hora local). Si lo evolucionas durante o unas horas después aprende un movimiento exclusivo, y hay bonificaciones como más polvoestelar o caramelos.",
     "it": "Una volta al mese un Pokémon protagonista appare in massa per 3 ore (di solito 14:00–17:00, ora locale). Facendolo evolvere durante o qualche ora dopo impara una mossa esclusiva, con bonus come più polvere di stelle o Caramelle."
    }
+  },
+  {
+   "id": "max_monday-2026-12-14-eevee",
+   "category": "max_monday",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-14T06:00:00",
+   "end": "2026-12-14T21:00:00",
+   "title": {
+    "ko": "맥스 먼데이 · 다이맥스 이브이",
+    "ja": "マックスマンデー：ダイマックスイーブイ",
+    "en": "Max Monday: Dynamax Eevee",
+    "zh-Hant": "極巨星期一：極巨化伊布",
+    "zh-Hans": "极巨星期一：极巨化伊布",
+    "fr": "Lundi Dynamax : Évoli Dynamax",
+    "de": "Dyna-Montag: Dynamax-Evoli",
+    "es": "Lunes Max: Eevee Dinamax",
+    "it": "Dynalunedì: Eevee Dynamax"
+   },
+   "label": {
+    "ko": "맥스 먼데이",
+    "ja": "マックスマンデー",
+    "en": "Max Monday",
+    "zh-Hant": "極巨星期一",
+    "zh-Hans": "极巨星期一",
+    "fr": "Lundi Dynamax",
+    "de": "Dyna-Montag",
+    "es": "Lunes Max",
+    "it": "Dynalunedì"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 133,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    30,
+    0
+   ],
+   "sources": [
+    "https://leekduck.com/events/max-mondays-2026-12-14/",
+    "https://pokemongohub.net/post/event/pokemon-go-december-2026-events/"
+   ],
+   "about": {
+    "ko": "매주 월요일 6:00~21:00(현지). 파워스폿이 더 많이 생기고 더 자주 바뀌며, 그 주의 다이맥스 포켓몬이 맥스 배틀에 나와요. 직접 가서 하는 맥스 배틀에서 이기면 이상한사탕 XL 1개 확정.",
+    "ja": "毎週月曜6:00〜21:00（現地）。パワースポットが増えて入れ替わりも早くなり、その週のダイマックスポケモンがマックスバトルに登場。現地でマックスバトルに勝つとふしぎなアメXLが1個確定。",
+    "en": "Every Monday 6:00 a.m.–9:00 p.m. local. More Power Spots that refresh more often, featuring the week's Dynamax Pokémon in Max Battles. Win an in-person Max Battle for one guaranteed Rare Candy XL.",
+    "zh-Hant": "每週一6:00～21:00（當地）。能量點變多、更新更快，該週的極巨化寶可夢會出現在極巨對戰。親自參加極巨對戰獲勝，必定獲得1個神奇糖果XL。",
+    "zh-Hans": "每周一6:00～21:00（当地）。能量点变多、更新更快，该周的极巨化宝可梦会出现在极巨对战。亲自参加极巨对战获胜，必定获得1个神奇糖果XL。",
+    "fr": "Chaque lundi de 6 h à 21 h (heure locale). Plus de Zones Dynamax, renouvelées plus souvent, avec le Pokémon Dynamax de la semaine en Combats Max. Gagnez un Combat Max sur place pour 1 Super Bonbon XL garanti.",
+    "de": "Jeden Montag 6–21 Uhr (Ortszeit). Mehr Kraftquellen, die öfter wechseln, mit dem Dynamax-Pokémon der Woche in Dyna-Kämpfen. Ein vor Ort gewonnener Dyna-Kampf bringt garantiert 1 Sonderbonbon XL.",
+    "es": "Cada lunes de 6:00 a 21:00 (hora local). Más Puntos Energéticos que cambian más a menudo, con el Pokémon Dinamax de la semana en los combates Max. Gana un combate Max en persona para 1 Caramelo Raro XL asegurado.",
+    "it": "Ogni lunedì dalle 6:00 alle 21:00 (ora locale). Più Aree Power che cambiano più spesso, con il Pokémon Dynamax della settimana nelle lotte Dynamax. Vinci una lotta Dynamax di persona per 1 Caramella Rara XL garantita."
+   }
+  },
+  {
+   "id": "raid_battles-2026-12-16-5-250",
+   "category": "raid_battles",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-16T06:00:00",
+   "end": "2026-12-22T22:00:00",
+   "title": {
+    "ko": "★5 레이드: 칠색조",
+    "ja": "★5レイド：ホウオウ",
+    "en": "5-Star Raids: Ho-Oh",
+    "zh-Hant": "五星團體戰：鳳王",
+    "zh-Hans": "五星团体战：凤王",
+    "fr": "Raids 5 étoiles : Ho-Oh",
+    "de": "5-Sterne-Raids: Ho-Oh",
+    "es": "Incursiones de 5 estrellas: Ho-Oh",
+    "it": "Raid a 5 stelle: Ho-Oh"
+   },
+   "label": {
+    "ko": "레이드",
+    "ja": "レイド",
+    "en": "Raids",
+    "zh-Hant": "團體戰",
+    "zh-Hans": "团体战",
+    "fr": "Raids",
+    "de": "Raids",
+    "es": "Incursiones",
+    "it": "Raid"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 250,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ],
+   "about": {
+    "ko": "체육관 레이드에 나오는 보스 목록이에요. 5성·메가 보스는 보통 수요일 10:00(현지)에 바뀌고, 1성·3성 보스는 이벤트에 따라 바뀌어요.",
+    "ja": "ジムのレイドに登場するボスの一覧。★5・メガのボスはふだん水曜10:00（現地）に入れ替わり、★1・★3はイベントによって変わります。",
+    "en": "The current raid boss line-up at Gyms. Five-star and Mega bosses usually change on Wednesdays at 10:00 local; 1- and 3-star bosses change with events.",
+    "zh-Hant": "道館團體戰頭目一覽。五星・超級頭目通常在週三10:00（當地）更換，一星・三星依活動更換。",
+    "zh-Hans": "道馆团体战头目一览。五星・超级头目通常在周三10:00（当地）更换，一星・三星依活动更换。",
+    "fr": "Les boss de Raid actuels dans les Arènes. Les boss 5 étoiles et Méga changent en général le mercredi à 10 h ; ceux de 1 et 3 étoiles changent selon les événements.",
+    "de": "Die aktuellen Raid-Bosse in Arenen. 5-Sterne- und Mega-Bosse wechseln meist mittwochs um 10:00 Ortszeit; 1- und 3-Sterne-Bosse je nach Event.",
+    "es": "Los jefes de incursión actuales en los gimnasios. Los de 5 estrellas y Mega suelen cambiar el miércoles a las 10:00; los de 1 y 3 estrellas cambian con los eventos.",
+    "it": "I boss dei raid attuali nelle Palestre. Quelli da 5 stelle e Mega cambiano di solito il mercoledì alle 10:00; quelli da 1 e 3 stelle con gli eventi."
+   },
+   "auto": "schedule/raids.json에서 자동 생성"
+  },
+  {
+   "id": "raid_battles-2026-12-16-mega-227",
+   "category": "raid_battles",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-16T06:00:00",
+   "end": "2026-12-22T22:00:00",
+   "title": {
+    "ko": "메가 레이드: 메가무장조",
+    "ja": "メガレイド：メガエアームド",
+    "en": "Mega Raids: Mega Skarmory",
+    "zh-Hant": "超級進化團體戰：超級盔甲鳥",
+    "zh-Hans": "超级进化团体战：超级盔甲鸟",
+    "fr": "Raids Méga : Méga-Airmure",
+    "de": "Mega-Raids: Mega-Panzaeron",
+    "es": "Incursiones Mega: Mega-Skarmory",
+    "it": "Raid Mega: MegaSkarmory"
+   },
+   "label": {
+    "ko": "레이드",
+    "ja": "レイド",
+    "en": "Raids",
+    "zh-Hant": "團體戰",
+    "zh-Hans": "团体战",
+    "fr": "Raids",
+    "de": "Raids",
+    "es": "Incursiones",
+    "it": "Raid"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 227,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ],
+   "about": {
+    "ko": "체육관 레이드에 나오는 보스 목록이에요. 5성·메가 보스는 보통 수요일 10:00(현지)에 바뀌고, 1성·3성 보스는 이벤트에 따라 바뀌어요.",
+    "ja": "ジムのレイドに登場するボスの一覧。★5・メガのボスはふだん水曜10:00（現地）に入れ替わり、★1・★3はイベントによって変わります。",
+    "en": "The current raid boss line-up at Gyms. Five-star and Mega bosses usually change on Wednesdays at 10:00 local; 1- and 3-star bosses change with events.",
+    "zh-Hant": "道館團體戰頭目一覽。五星・超級頭目通常在週三10:00（當地）更換，一星・三星依活動更換。",
+    "zh-Hans": "道馆团体战头目一览。五星・超级头目通常在周三10:00（当地）更换，一星・三星依活动更换。",
+    "fr": "Les boss de Raid actuels dans les Arènes. Les boss 5 étoiles et Méga changent en général le mercredi à 10 h ; ceux de 1 et 3 étoiles changent selon les événements.",
+    "de": "Die aktuellen Raid-Bosse in Arenen. 5-Sterne- und Mega-Bosse wechseln meist mittwochs um 10:00 Ortszeit; 1- und 3-Sterne-Bosse je nach Event.",
+    "es": "Los jefes de incursión actuales en los gimnasios. Los de 5 estrellas y Mega suelen cambiar el miércoles a las 10:00; los de 1 y 3 estrellas cambian con los eventos.",
+    "it": "I boss dei raid attuali nelle Palestre. Quelli da 5 stelle e Mega cambiano di solito il mercoledì alle 10:00; quelli da 1 e 3 stelle con gli eventi."
+   },
+   "auto": "schedule/raids.json에서 자동 생성"
+  },
+  {
+   "id": "raid_hour-2026-12-16-250",
+   "category": "raid_hour",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-16T18:00:00",
+   "end": "2026-12-16T19:00:00",
+   "title": {
+    "ko": "칠색조 레이드 아워",
+    "ja": "レイドアワー：ホウオウ",
+    "en": "Ho-Oh Raid Hour",
+    "zh-Hant": "團體戰時間：鳳王",
+    "zh-Hans": "团体战时间：凤王",
+    "fr": "Heure de Raids : Ho-Oh",
+    "de": "Raid-Stunde: Ho-Oh",
+    "es": "Hora de Incursiones: Ho-Oh",
+    "it": "Ora dei Raid: Ho-Oh"
+   },
+   "label": {
+    "ko": "레이드 아워",
+    "ja": "レイドアワー",
+    "en": "Raid Hour",
+    "zh-Hant": "團體戰時間",
+    "zh-Hans": "团体战时间",
+    "fr": "Heure de Raids",
+    "de": "Raid-Stunde",
+    "es": "Hora de Incursiones",
+    "it": "Ora dei Raid"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 250,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    30,
+    0
+   ],
+   "about": {
+    "ko": "매주 수요일 18:00~19:00(현지). 그 주의 5성 레이드 보스가 많은 체육관에 나와요. 수요일 하루 동안 직접 가서 하는 레이드를 깨면 이상한사탕 XL 1개. 5성·메가 레이드 보스는 수요일 0시에 바뀌어요.",
+    "ja": "毎週水曜18:00〜19:00（現地）。その週の★5レイドボスが多くのジムに登場。水曜日は一日中、現地でレイドに勝つとふしぎなアメXLが1個。★5・メガレイドのボスは水曜0時に入れ替わります。",
+    "en": "Every Wednesday 6–7 p.m. local. Many Gyms host the week's five-star raid boss. All Wednesday, complete an in-person raid for one Rare Candy XL. Five-star and Mega Raid bosses change at the start of Wednesday.",
+    "zh-Hant": "每週三18:00～19:00（當地）。該週的五星團體戰頭目會出現在許多道館。週三全天親自完成團體戰可獲得1個神奇糖果XL。五星・超級團體戰頭目在週三0點更換。",
+    "zh-Hans": "每周三18:00～19:00（当地）。该周的五星团体战头目会出现在许多道馆。周三全天亲自完成团体战可获得1个神奇糖果XL。五星・超级团体战头目在周三0点更换。",
+    "fr": "Chaque mercredi de 18 h à 19 h (heure locale). De nombreuses Arènes accueillent le boss de Raid 5 étoiles de la semaine. Tout le mercredi, terminez un Raid sur place pour 1 Super Bonbon XL. Les boss 5 étoiles et Méga changent le mercredi à minuit.",
+    "de": "Jeden Mittwoch 18–19 Uhr (Ortszeit). Viele Arenen zeigen den 5-Sterne-Raid-Boss der Woche. Den ganzen Mittwoch gibt es für einen Raid vor Ort 1 Sonderbonbon XL. 5-Sterne- und Mega-Bosse wechseln Mittwoch um 0 Uhr.",
+    "es": "Cada miércoles de 18:00 a 19:00 (hora local). Muchos gimnasios tienen al jefe de incursión de 5 estrellas de la semana. Todo el miércoles, completa una incursión en persona para 1 Caramelo Raro XL. Los jefes de 5 estrellas y Mega cambian el miércoles a las 0:00.",
+    "it": "Ogni mercoledì dalle 18:00 alle 19:00 (ora locale). Molte Palestre ospitano il boss dei raid 5 stelle della settimana. Tutto il mercoledì, completa un raid di persona per 1 Caramella Rara XL. I boss 5 stelle e Mega cambiano il mercoledì a mezzanotte."
+   },
+   "auto": "schedule/raids.json에서 자동 생성"
+  },
+  {
+   "id": "spotlight_hour-2026-12-17-bergmite",
+   "category": "spotlight_hour",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-17T18:00:00",
+   "end": "2026-12-17T19:00:00",
+   "title": {
+    "ko": "꽁어름 스포트라이트 아워",
+    "ja": "スポットライトアワー：カチコール",
+    "en": "Bergmite Spotlight Hour",
+    "zh-Hant": "聚光燈時刻：冰寶",
+    "zh-Hans": "聚光灯时刻：冰宝",
+    "fr": "Heure Vedette : Grelaçon",
+    "de": "Rampenlicht-Stunde: Arktip",
+    "es": "Hora Destacada: Bergmite",
+    "it": "Ora del Pokémon in evidenza: Bergmite"
+   },
+   "label": {
+    "ko": "스포트라이트 아워",
+    "ja": "スポットライトアワー",
+    "en": "Spotlight Hour",
+    "zh-Hant": "聚光燈時刻",
+    "zh-Hans": "聚光灯时刻",
+    "fr": "Heure Vedette",
+    "de": "Rampenlicht-Stunde",
+    "es": "Hora Destacada",
+    "it": "Ora del Pokémon in evidenza"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 712,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    30,
+    0
+   ],
+   "sources": [
+    "https://leekduck.com/events/pokemonspotlighthour2026-12-17/",
+    "https://pokemongohub.net/post/event/pokemon-go-december-2026-events/"
+   ],
+   "about": {
+    "ko": "매주 목요일 18:00~19:00(현지). 정해진 포켓몬이 야생에 아주 많이 나오고, 1시간 동안 보너스 하나(포획 사탕·별의모래·XP 2배 등)가 붙어요.",
+    "ja": "毎週木曜18:00〜19:00（現地）。特定のポケモンが野生にたくさん出現し、1時間ボーナスが1つ（捕獲時のアメ・ほしのすな・XP2倍など）付きます。",
+    "en": "Every Thursday 18:00–19:00 local. A featured Pokémon appears in large numbers, with one bonus for the hour (e.g. 2× catch Candy, Stardust or XP).",
+    "zh-Hant": "每週四18:00～19:00（當地）。指定寶可夢大量出現在野外，1小時內附有一種加成（捕捉糖果・星星沙子・XP 2倍等）。",
+    "zh-Hans": "每周四18:00～19:00（当地）。指定宝可梦大量出现在野外，1小时内附有一种加成（捕捉糖果・星星沙子・XP 2倍等）。",
+    "fr": "Chaque jeudi de 18 h à 19 h (heure locale). Un Pokémon vedette apparaît en masse, avec un bonus pendant l'heure (Bonbons, Poussière Étoile ou XP ×2, etc.).",
+    "de": "Jeden Donnerstag 18–19 Uhr Ortszeit. Ein Pokémon erscheint massenhaft, dazu eine Stunde lang ein Bonus (z. B. 2× Fang-Bonbons, Sternenstaub oder EP).",
+    "es": "Cada jueves de 18:00 a 19:00 (hora local). Un Pokémon protagonista aparece en masa, con una bonificación durante la hora (2× caramelos, polvoestelar o PX, etc.).",
+    "it": "Ogni giovedì dalle 18:00 alle 19:00 (ora locale). Un Pokémon protagonista appare in massa, con un bonus per un'ora (2× Caramelle, polvere di stelle o PE, ecc.)."
+   },
+   "bonuses": [
+    {
+     "code": "evolve_xp_2x",
+     "text": {
+      "ko": "진화 XP 2배",
+      "ja": "進化時のXP2倍",
+      "en": "2× Evolution XP",
+      "zh-Hant": "進化XP2倍",
+      "zh-Hans": "进化XP2倍",
+      "fr": "XP d’évolution ×2",
+      "de": "2× Entwicklungs-EP",
+      "es": "2× PX por evolucionar",
+      "it": "2× PE per evoluzione"
+     }
+    }
+   ]
   },
   {
    "id": "raid_day-2026-12-19-raid-day",
@@ -4292,6 +5941,308 @@
     "es": "Durante unas horas, un jefe de incursión aparece en la mayoría de gimnasios. Bonificaciones como más Pases de incursión gratis de los Discos Foto; una entrada de pago añade más.",
     "it": "Per alcune ore un boss dei raid appare nella maggior parte delle Palestre. Bonus come Biglietti raid gratuiti extra dai Dischi Foto; un biglietto a pagamento ne aggiunge altri."
    }
+  },
+  {
+   "id": "max_monday-2026-12-21-sandshrew",
+   "category": "max_monday",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-21T06:00:00",
+   "end": "2026-12-21T21:00:00",
+   "title": {
+    "ko": "맥스 먼데이 · 다이맥스 모래두지",
+    "ja": "マックスマンデー：ダイマックスサンド",
+    "en": "Max Monday: Dynamax Sandshrew",
+    "zh-Hant": "極巨星期一：極巨化穿山鼠",
+    "zh-Hans": "极巨星期一：极巨化穿山鼠",
+    "fr": "Lundi Dynamax : Sabelette Dynamax",
+    "de": "Dyna-Montag: Dynamax-Sandan",
+    "es": "Lunes Max: Sandshrew Dinamax",
+    "it": "Dynalunedì: Sandshrew Dynamax"
+   },
+   "label": {
+    "ko": "맥스 먼데이",
+    "ja": "マックスマンデー",
+    "en": "Max Monday",
+    "zh-Hant": "極巨星期一",
+    "zh-Hans": "极巨星期一",
+    "fr": "Lundi Dynamax",
+    "de": "Dyna-Montag",
+    "es": "Lunes Max",
+    "it": "Dynalunedì"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 27,
+     "formId": "alola"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    30,
+    0
+   ],
+   "sources": [
+    "https://leekduck.com/events/max-mondays-2026-12-21/",
+    "https://pokemongohub.net/post/event/pokemon-go-december-2026-events/"
+   ],
+   "about": {
+    "ko": "매주 월요일 6:00~21:00(현지). 파워스폿이 더 많이 생기고 더 자주 바뀌며, 그 주의 다이맥스 포켓몬이 맥스 배틀에 나와요. 직접 가서 하는 맥스 배틀에서 이기면 이상한사탕 XL 1개 확정.",
+    "ja": "毎週月曜6:00〜21:00（現地）。パワースポットが増えて入れ替わりも早くなり、その週のダイマックスポケモンがマックスバトルに登場。現地でマックスバトルに勝つとふしぎなアメXLが1個確定。",
+    "en": "Every Monday 6:00 a.m.–9:00 p.m. local. More Power Spots that refresh more often, featuring the week's Dynamax Pokémon in Max Battles. Win an in-person Max Battle for one guaranteed Rare Candy XL.",
+    "zh-Hant": "每週一6:00～21:00（當地）。能量點變多、更新更快，該週的極巨化寶可夢會出現在極巨對戰。親自參加極巨對戰獲勝，必定獲得1個神奇糖果XL。",
+    "zh-Hans": "每周一6:00～21:00（当地）。能量点变多、更新更快，该周的极巨化宝可梦会出现在极巨对战。亲自参加极巨对战获胜，必定获得1个神奇糖果XL。",
+    "fr": "Chaque lundi de 6 h à 21 h (heure locale). Plus de Zones Dynamax, renouvelées plus souvent, avec le Pokémon Dynamax de la semaine en Combats Max. Gagnez un Combat Max sur place pour 1 Super Bonbon XL garanti.",
+    "de": "Jeden Montag 6–21 Uhr (Ortszeit). Mehr Kraftquellen, die öfter wechseln, mit dem Dynamax-Pokémon der Woche in Dyna-Kämpfen. Ein vor Ort gewonnener Dyna-Kampf bringt garantiert 1 Sonderbonbon XL.",
+    "es": "Cada lunes de 6:00 a 21:00 (hora local). Más Puntos Energéticos que cambian más a menudo, con el Pokémon Dinamax de la semana en los combates Max. Gana un combate Max en persona para 1 Caramelo Raro XL asegurado.",
+    "it": "Ogni lunedì dalle 6:00 alle 21:00 (ora locale). Più Aree Power che cambiano più spesso, con il Pokémon Dynamax della settimana nelle lotte Dynamax. Vinci una lotta Dynamax di persona per 1 Caramella Rara XL garantita."
+   }
+  },
+  {
+   "id": "raid_battles-2026-12-23-5-249",
+   "category": "raid_battles",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-23T06:00:00",
+   "end": "2026-12-29T22:00:00",
+   "title": {
+    "ko": "★5 레이드: 루기아",
+    "ja": "★5レイド：ルギア",
+    "en": "5-Star Raids: Lugia",
+    "zh-Hant": "五星團體戰：洛奇亞",
+    "zh-Hans": "五星团体战：洛奇亚",
+    "fr": "Raids 5 étoiles : Lugia",
+    "de": "5-Sterne-Raids: Lugia",
+    "es": "Incursiones de 5 estrellas: Lugia",
+    "it": "Raid a 5 stelle: Lugia"
+   },
+   "label": {
+    "ko": "레이드",
+    "ja": "レイド",
+    "en": "Raids",
+    "zh-Hant": "團體戰",
+    "zh-Hans": "团体战",
+    "fr": "Raids",
+    "de": "Raids",
+    "es": "Incursiones",
+    "it": "Raid"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 249,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ],
+   "about": {
+    "ko": "체육관 레이드에 나오는 보스 목록이에요. 5성·메가 보스는 보통 수요일 10:00(현지)에 바뀌고, 1성·3성 보스는 이벤트에 따라 바뀌어요.",
+    "ja": "ジムのレイドに登場するボスの一覧。★5・メガのボスはふだん水曜10:00（現地）に入れ替わり、★1・★3はイベントによって変わります。",
+    "en": "The current raid boss line-up at Gyms. Five-star and Mega bosses usually change on Wednesdays at 10:00 local; 1- and 3-star bosses change with events.",
+    "zh-Hant": "道館團體戰頭目一覽。五星・超級頭目通常在週三10:00（當地）更換，一星・三星依活動更換。",
+    "zh-Hans": "道馆团体战头目一览。五星・超级头目通常在周三10:00（当地）更换，一星・三星依活动更换。",
+    "fr": "Les boss de Raid actuels dans les Arènes. Les boss 5 étoiles et Méga changent en général le mercredi à 10 h ; ceux de 1 et 3 étoiles changent selon les événements.",
+    "de": "Die aktuellen Raid-Bosse in Arenen. 5-Sterne- und Mega-Bosse wechseln meist mittwochs um 10:00 Ortszeit; 1- und 3-Sterne-Bosse je nach Event.",
+    "es": "Los jefes de incursión actuales en los gimnasios. Los de 5 estrellas y Mega suelen cambiar el miércoles a las 10:00; los de 1 y 3 estrellas cambian con los eventos.",
+    "it": "I boss dei raid attuali nelle Palestre. Quelli da 5 stelle e Mega cambiano di solito il mercoledì alle 10:00; quelli da 1 e 3 stelle con gli eventi."
+   },
+   "auto": "schedule/raids.json에서 자동 생성"
+  },
+  {
+   "id": "raid_battles-2026-12-23-mega-362",
+   "category": "raid_battles",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-23T06:00:00",
+   "end": "2026-12-29T22:00:00",
+   "title": {
+    "ko": "메가 레이드: 메가얼음귀신",
+    "ja": "メガレイド：メガオニゴーリ",
+    "en": "Mega Raids: Mega Glalie",
+    "zh-Hant": "超級進化團體戰：超級冰鬼護",
+    "zh-Hans": "超级进化团体战：超级冰鬼护",
+    "fr": "Raids Méga : Méga-Oniglali",
+    "de": "Mega-Raids: Mega-Firnontor",
+    "es": "Incursiones Mega: Mega-Glalie",
+    "it": "Raid Mega: MegaGlalie"
+   },
+   "label": {
+    "ko": "레이드",
+    "ja": "レイド",
+    "en": "Raids",
+    "zh-Hant": "團體戰",
+    "zh-Hans": "团体战",
+    "fr": "Raids",
+    "de": "Raids",
+    "es": "Incursiones",
+    "it": "Raid"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 362,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ],
+   "about": {
+    "ko": "체육관 레이드에 나오는 보스 목록이에요. 5성·메가 보스는 보통 수요일 10:00(현지)에 바뀌고, 1성·3성 보스는 이벤트에 따라 바뀌어요.",
+    "ja": "ジムのレイドに登場するボスの一覧。★5・メガのボスはふだん水曜10:00（現地）に入れ替わり、★1・★3はイベントによって変わります。",
+    "en": "The current raid boss line-up at Gyms. Five-star and Mega bosses usually change on Wednesdays at 10:00 local; 1- and 3-star bosses change with events.",
+    "zh-Hant": "道館團體戰頭目一覽。五星・超級頭目通常在週三10:00（當地）更換，一星・三星依活動更換。",
+    "zh-Hans": "道馆团体战头目一览。五星・超级头目通常在周三10:00（当地）更换，一星・三星依活动更换。",
+    "fr": "Les boss de Raid actuels dans les Arènes. Les boss 5 étoiles et Méga changent en général le mercredi à 10 h ; ceux de 1 et 3 étoiles changent selon les événements.",
+    "de": "Die aktuellen Raid-Bosse in Arenen. 5-Sterne- und Mega-Bosse wechseln meist mittwochs um 10:00 Ortszeit; 1- und 3-Sterne-Bosse je nach Event.",
+    "es": "Los jefes de incursión actuales en los gimnasios. Los de 5 estrellas y Mega suelen cambiar el miércoles a las 10:00; los de 1 y 3 estrellas cambian con los eventos.",
+    "it": "I boss dei raid attuali nelle Palestre. Quelli da 5 stelle e Mega cambiano di solito il mercoledì alle 10:00; quelli da 1 e 3 stelle con gli eventi."
+   },
+   "auto": "schedule/raids.json에서 자동 생성"
+  },
+  {
+   "id": "raid_hour-2026-12-23-249",
+   "category": "raid_hour",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-23T18:00:00",
+   "end": "2026-12-23T19:00:00",
+   "title": {
+    "ko": "루기아 레이드 아워",
+    "ja": "レイドアワー：ルギア",
+    "en": "Lugia Raid Hour",
+    "zh-Hant": "團體戰時間：洛奇亞",
+    "zh-Hans": "团体战时间：洛奇亚",
+    "fr": "Heure de Raids : Lugia",
+    "de": "Raid-Stunde: Lugia",
+    "es": "Hora de Incursiones: Lugia",
+    "it": "Ora dei Raid: Lugia"
+   },
+   "label": {
+    "ko": "레이드 아워",
+    "ja": "レイドアワー",
+    "en": "Raid Hour",
+    "zh-Hant": "團體戰時間",
+    "zh-Hans": "团体战时间",
+    "fr": "Heure de Raids",
+    "de": "Raid-Stunde",
+    "es": "Hora de Incursiones",
+    "it": "Ora dei Raid"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 249,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    30,
+    0
+   ],
+   "about": {
+    "ko": "매주 수요일 18:00~19:00(현지). 그 주의 5성 레이드 보스가 많은 체육관에 나와요. 수요일 하루 동안 직접 가서 하는 레이드를 깨면 이상한사탕 XL 1개. 5성·메가 레이드 보스는 수요일 0시에 바뀌어요.",
+    "ja": "毎週水曜18:00〜19:00（現地）。その週の★5レイドボスが多くのジムに登場。水曜日は一日中、現地でレイドに勝つとふしぎなアメXLが1個。★5・メガレイドのボスは水曜0時に入れ替わります。",
+    "en": "Every Wednesday 6–7 p.m. local. Many Gyms host the week's five-star raid boss. All Wednesday, complete an in-person raid for one Rare Candy XL. Five-star and Mega Raid bosses change at the start of Wednesday.",
+    "zh-Hant": "每週三18:00～19:00（當地）。該週的五星團體戰頭目會出現在許多道館。週三全天親自完成團體戰可獲得1個神奇糖果XL。五星・超級團體戰頭目在週三0點更換。",
+    "zh-Hans": "每周三18:00～19:00（当地）。该周的五星团体战头目会出现在许多道馆。周三全天亲自完成团体战可获得1个神奇糖果XL。五星・超级团体战头目在周三0点更换。",
+    "fr": "Chaque mercredi de 18 h à 19 h (heure locale). De nombreuses Arènes accueillent le boss de Raid 5 étoiles de la semaine. Tout le mercredi, terminez un Raid sur place pour 1 Super Bonbon XL. Les boss 5 étoiles et Méga changent le mercredi à minuit.",
+    "de": "Jeden Mittwoch 18–19 Uhr (Ortszeit). Viele Arenen zeigen den 5-Sterne-Raid-Boss der Woche. Den ganzen Mittwoch gibt es für einen Raid vor Ort 1 Sonderbonbon XL. 5-Sterne- und Mega-Bosse wechseln Mittwoch um 0 Uhr.",
+    "es": "Cada miércoles de 18:00 a 19:00 (hora local). Muchos gimnasios tienen al jefe de incursión de 5 estrellas de la semana. Todo el miércoles, completa una incursión en persona para 1 Caramelo Raro XL. Los jefes de 5 estrellas y Mega cambian el miércoles a las 0:00.",
+    "it": "Ogni mercoledì dalle 18:00 alle 19:00 (ora locale). Molte Palestre ospitano il boss dei raid 5 stelle della settimana. Tutto il mercoledì, completa un raid di persona per 1 Caramella Rara XL. I boss 5 stelle e Mega cambiano il mercoledì a mezzanotte."
+   },
+   "auto": "schedule/raids.json에서 자동 생성"
+  },
+  {
+   "id": "spotlight_hour-2026-12-24-delibird",
+   "category": "spotlight_hour",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-24T18:00:00",
+   "end": "2026-12-24T19:00:00",
+   "title": {
+    "ko": "딜리버드 스포트라이트 아워",
+    "ja": "スポットライトアワー：デリバード",
+    "en": "Delibird Spotlight Hour",
+    "zh-Hant": "聚光燈時刻：信使鳥",
+    "zh-Hans": "聚光灯时刻：信使鸟",
+    "fr": "Heure Vedette : Cadoizo",
+    "de": "Rampenlicht-Stunde: Botogel",
+    "es": "Hora Destacada: Delibird",
+    "it": "Ora del Pokémon in evidenza: Delibird"
+   },
+   "label": {
+    "ko": "스포트라이트 아워",
+    "ja": "スポットライトアワー",
+    "en": "Spotlight Hour",
+    "zh-Hant": "聚光燈時刻",
+    "zh-Hans": "聚光灯时刻",
+    "fr": "Heure Vedette",
+    "de": "Rampenlicht-Stunde",
+    "es": "Hora Destacada",
+    "it": "Ora del Pokémon in evidenza"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 225,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    30,
+    0
+   ],
+   "sources": [
+    "https://leekduck.com/events/pokemonspotlighthour2026-12-24/",
+    "https://pokemongohub.net/post/event/pokemon-go-december-2026-events/"
+   ],
+   "about": {
+    "ko": "매주 목요일 18:00~19:00(현지). 정해진 포켓몬이 야생에 아주 많이 나오고, 1시간 동안 보너스 하나(포획 사탕·별의모래·XP 2배 등)가 붙어요.",
+    "ja": "毎週木曜18:00〜19:00（現地）。特定のポケモンが野生にたくさん出現し、1時間ボーナスが1つ（捕獲時のアメ・ほしのすな・XP2倍など）付きます。",
+    "en": "Every Thursday 18:00–19:00 local. A featured Pokémon appears in large numbers, with one bonus for the hour (e.g. 2× catch Candy, Stardust or XP).",
+    "zh-Hant": "每週四18:00～19:00（當地）。指定寶可夢大量出現在野外，1小時內附有一種加成（捕捉糖果・星星沙子・XP 2倍等）。",
+    "zh-Hans": "每周四18:00～19:00（当地）。指定宝可梦大量出现在野外，1小时内附有一种加成（捕捉糖果・星星沙子・XP 2倍等）。",
+    "fr": "Chaque jeudi de 18 h à 19 h (heure locale). Un Pokémon vedette apparaît en masse, avec un bonus pendant l'heure (Bonbons, Poussière Étoile ou XP ×2, etc.).",
+    "de": "Jeden Donnerstag 18–19 Uhr Ortszeit. Ein Pokémon erscheint massenhaft, dazu eine Stunde lang ein Bonus (z. B. 2× Fang-Bonbons, Sternenstaub oder EP).",
+    "es": "Cada jueves de 18:00 a 19:00 (hora local). Un Pokémon protagonista aparece en masa, con una bonificación durante la hora (2× caramelos, polvoestelar o PX, etc.).",
+    "it": "Ogni giovedì dalle 18:00 alle 19:00 (ora locale). Un Pokémon protagonista appare in massa, con un bonus per un'ora (2× Caramelle, polvere di stelle o PE, ecc.)."
+   },
+   "bonuses": [
+    {
+     "code": "catch_xp_2x",
+     "text": {
+      "ko": "포획 XP 2배",
+      "ja": "捕獲時のXP2倍",
+      "en": "2× Catch XP",
+      "zh-Hant": "捕捉XP2倍",
+      "zh-Hans": "捕捉XP2倍",
+      "fr": "XP de capture ×2",
+      "de": "2× Fang-EP",
+      "es": "2× PX al atrapar",
+      "it": "2× PE per cattura"
+     }
+    }
+   ]
   },
   {
    "id": "event-2026-12-26-hatch-day",
@@ -4346,6 +6297,328 @@
     "https://pokemongo.com/news/save-the-date-s25",
     "https://leekduck.com/events/hatch-day-december-2026/",
     "https://leekduck.com/events/"
+   ]
+  },
+  {
+   "id": "max_monday-2026-12-28-magikarp",
+   "category": "max_monday",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-28T06:00:00",
+   "end": "2026-12-28T21:00:00",
+   "title": {
+    "ko": "맥스 먼데이 · 다이맥스 잉어킹",
+    "ja": "マックスマンデー：ダイマックスコイキング",
+    "en": "Max Monday: Dynamax Magikarp",
+    "zh-Hant": "極巨星期一：極巨化鯉魚王",
+    "zh-Hans": "极巨星期一：极巨化鲤鱼王",
+    "fr": "Lundi Dynamax : Magicarpe Dynamax",
+    "de": "Dyna-Montag: Dynamax-Karpador",
+    "es": "Lunes Max: Magikarp Dinamax",
+    "it": "Dynalunedì: Magikarp Dynamax"
+   },
+   "label": {
+    "ko": "맥스 먼데이",
+    "ja": "マックスマンデー",
+    "en": "Max Monday",
+    "zh-Hant": "極巨星期一",
+    "zh-Hans": "极巨星期一",
+    "fr": "Lundi Dynamax",
+    "de": "Dyna-Montag",
+    "es": "Lunes Max",
+    "it": "Dynalunedì"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 129,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    30,
+    0
+   ],
+   "sources": [
+    "https://leekduck.com/events/max-mondays-2026-12-28/",
+    "https://pokemongohub.net/post/event/pokemon-go-december-2026-events/"
+   ],
+   "about": {
+    "ko": "매주 월요일 6:00~21:00(현지). 파워스폿이 더 많이 생기고 더 자주 바뀌며, 그 주의 다이맥스 포켓몬이 맥스 배틀에 나와요. 직접 가서 하는 맥스 배틀에서 이기면 이상한사탕 XL 1개 확정.",
+    "ja": "毎週月曜6:00〜21:00（現地）。パワースポットが増えて入れ替わりも早くなり、その週のダイマックスポケモンがマックスバトルに登場。現地でマックスバトルに勝つとふしぎなアメXLが1個確定。",
+    "en": "Every Monday 6:00 a.m.–9:00 p.m. local. More Power Spots that refresh more often, featuring the week's Dynamax Pokémon in Max Battles. Win an in-person Max Battle for one guaranteed Rare Candy XL.",
+    "zh-Hant": "每週一6:00～21:00（當地）。能量點變多、更新更快，該週的極巨化寶可夢會出現在極巨對戰。親自參加極巨對戰獲勝，必定獲得1個神奇糖果XL。",
+    "zh-Hans": "每周一6:00～21:00（当地）。能量点变多、更新更快，该周的极巨化宝可梦会出现在极巨对战。亲自参加极巨对战获胜，必定获得1个神奇糖果XL。",
+    "fr": "Chaque lundi de 6 h à 21 h (heure locale). Plus de Zones Dynamax, renouvelées plus souvent, avec le Pokémon Dynamax de la semaine en Combats Max. Gagnez un Combat Max sur place pour 1 Super Bonbon XL garanti.",
+    "de": "Jeden Montag 6–21 Uhr (Ortszeit). Mehr Kraftquellen, die öfter wechseln, mit dem Dynamax-Pokémon der Woche in Dyna-Kämpfen. Ein vor Ort gewonnener Dyna-Kampf bringt garantiert 1 Sonderbonbon XL.",
+    "es": "Cada lunes de 6:00 a 21:00 (hora local). Más Puntos Energéticos que cambian más a menudo, con el Pokémon Dinamax de la semana en los combates Max. Gana un combate Max en persona para 1 Caramelo Raro XL asegurado.",
+    "it": "Ogni lunedì dalle 6:00 alle 21:00 (ora locale). Più Aree Power che cambiano più spesso, con il Pokémon Dynamax della settimana nelle lotte Dynamax. Vinci una lotta Dynamax di persona per 1 Caramella Rara XL garantita."
+   }
+  },
+  {
+   "id": "raid_battles-2026-12-30-5-641-642-645",
+   "category": "raid_battles",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-30T06:00:00",
+   "end": "2027-01-05T22:00:00",
+   "title": {
+    "ko": "★5 레이드: 토네로스, 볼트로스, 랜드로스",
+    "ja": "★5レイド：トルネロス・ボルトロス・ランドロス",
+    "en": "5-Star Raids: Tornadus, Thundurus, Landorus",
+    "zh-Hant": "五星團體戰：龍捲雲、雷電雲、土地雲",
+    "zh-Hans": "五星团体战：龙卷云、雷电云、土地云",
+    "fr": "Raids 5 étoiles : Boréas, Fulguris, Démétéros",
+    "de": "5-Sterne-Raids: Boreos, Voltolos, Demeteros",
+    "es": "Incursiones de 5 estrellas: Tornadus, Thundurus, Landorus",
+    "it": "Raid a 5 stelle: Tornadus, Thundurus, Landorus"
+   },
+   "label": {
+    "ko": "레이드",
+    "ja": "レイド",
+    "en": "Raids",
+    "zh-Hant": "團體戰",
+    "zh-Hans": "团体战",
+    "fr": "Raids",
+    "de": "Raids",
+    "es": "Incursiones",
+    "it": "Raid"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 641,
+     "formId": "therian"
+    },
+    {
+     "dex": 642,
+     "formId": "therian"
+    },
+    {
+     "dex": 645,
+     "formId": "therian"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ],
+   "about": {
+    "ko": "체육관 레이드에 나오는 보스 목록이에요. 5성·메가 보스는 보통 수요일 10:00(현지)에 바뀌고, 1성·3성 보스는 이벤트에 따라 바뀌어요.",
+    "ja": "ジムのレイドに登場するボスの一覧。★5・メガのボスはふだん水曜10:00（現地）に入れ替わり、★1・★3はイベントによって変わります。",
+    "en": "The current raid boss line-up at Gyms. Five-star and Mega bosses usually change on Wednesdays at 10:00 local; 1- and 3-star bosses change with events.",
+    "zh-Hant": "道館團體戰頭目一覽。五星・超級頭目通常在週三10:00（當地）更換，一星・三星依活動更換。",
+    "zh-Hans": "道馆团体战头目一览。五星・超级头目通常在周三10:00（当地）更换，一星・三星依活动更换。",
+    "fr": "Les boss de Raid actuels dans les Arènes. Les boss 5 étoiles et Méga changent en général le mercredi à 10 h ; ceux de 1 et 3 étoiles changent selon les événements.",
+    "de": "Die aktuellen Raid-Bosse in Arenen. 5-Sterne- und Mega-Bosse wechseln meist mittwochs um 10:00 Ortszeit; 1- und 3-Sterne-Bosse je nach Event.",
+    "es": "Los jefes de incursión actuales en los gimnasios. Los de 5 estrellas y Mega suelen cambiar el miércoles a las 10:00; los de 1 y 3 estrellas cambian con los eventos.",
+    "it": "I boss dei raid attuali nelle Palestre. Quelli da 5 stelle e Mega cambiano di solito il mercoledì alle 10:00; quelli da 1 e 3 stelle con gli eventi."
+   },
+   "auto": "schedule/raids.json에서 자동 생성"
+  },
+  {
+   "id": "raid_battles-2026-12-30-mega-870",
+   "category": "raid_battles",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-30T06:00:00",
+   "end": "2027-01-05T22:00:00",
+   "title": {
+    "ko": "메가 레이드: 메가대여르",
+    "ja": "メガレイド：メガタイレーツ",
+    "en": "Mega Raids: Mega Falinks",
+    "zh-Hant": "超級進化團體戰：超級列陣兵",
+    "zh-Hans": "超级进化团体战：超级列阵兵",
+    "fr": "Raids Méga : Méga-Hexadron",
+    "de": "Mega-Raids: Mega-Legios",
+    "es": "Incursiones Mega: Mega-Falinks",
+    "it": "Raid Mega: MegaFalinks"
+   },
+   "label": {
+    "ko": "레이드",
+    "ja": "レイド",
+    "en": "Raids",
+    "zh-Hant": "團體戰",
+    "zh-Hans": "团体战",
+    "fr": "Raids",
+    "de": "Raids",
+    "es": "Incursiones",
+    "it": "Raid"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 870,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    60,
+    0
+   ],
+   "about": {
+    "ko": "체육관 레이드에 나오는 보스 목록이에요. 5성·메가 보스는 보통 수요일 10:00(현지)에 바뀌고, 1성·3성 보스는 이벤트에 따라 바뀌어요.",
+    "ja": "ジムのレイドに登場するボスの一覧。★5・メガのボスはふだん水曜10:00（現地）に入れ替わり、★1・★3はイベントによって変わります。",
+    "en": "The current raid boss line-up at Gyms. Five-star and Mega bosses usually change on Wednesdays at 10:00 local; 1- and 3-star bosses change with events.",
+    "zh-Hant": "道館團體戰頭目一覽。五星・超級頭目通常在週三10:00（當地）更換，一星・三星依活動更換。",
+    "zh-Hans": "道馆团体战头目一览。五星・超级头目通常在周三10:00（当地）更换，一星・三星依活动更换。",
+    "fr": "Les boss de Raid actuels dans les Arènes. Les boss 5 étoiles et Méga changent en général le mercredi à 10 h ; ceux de 1 et 3 étoiles changent selon les événements.",
+    "de": "Die aktuellen Raid-Bosse in Arenen. 5-Sterne- und Mega-Bosse wechseln meist mittwochs um 10:00 Ortszeit; 1- und 3-Sterne-Bosse je nach Event.",
+    "es": "Los jefes de incursión actuales en los gimnasios. Los de 5 estrellas y Mega suelen cambiar el miércoles a las 10:00; los de 1 y 3 estrellas cambian con los eventos.",
+    "it": "I boss dei raid attuali nelle Palestre. Quelli da 5 stelle e Mega cambiano di solito il mercoledì alle 10:00; quelli da 1 e 3 stelle con gli eventi."
+   },
+   "auto": "schedule/raids.json에서 자동 생성"
+  },
+  {
+   "id": "raid_hour-2026-12-30-641-642-645",
+   "category": "raid_hour",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-30T18:00:00",
+   "end": "2026-12-30T19:00:00",
+   "title": {
+    "ko": "토네로스, 볼트로스, 랜드로스 레이드 아워",
+    "ja": "レイドアワー：トルネロス・ボルトロス・ランドロス",
+    "en": "Tornadus, Thundurus, Landorus Raid Hour",
+    "zh-Hant": "團體戰時間：龍捲雲、雷電雲、土地雲",
+    "zh-Hans": "团体战时间：龙卷云、雷电云、土地云",
+    "fr": "Heure de Raids : Boréas, Fulguris, Démétéros",
+    "de": "Raid-Stunde: Boreos, Voltolos, Demeteros",
+    "es": "Hora de Incursiones: Tornadus, Thundurus, Landorus",
+    "it": "Ora dei Raid: Tornadus, Thundurus, Landorus"
+   },
+   "label": {
+    "ko": "레이드 아워",
+    "ja": "レイドアワー",
+    "en": "Raid Hour",
+    "zh-Hant": "團體戰時間",
+    "zh-Hans": "团体战时间",
+    "fr": "Heure de Raids",
+    "de": "Raid-Stunde",
+    "es": "Hora de Incursiones",
+    "it": "Ora dei Raid"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 641,
+     "formId": "therian"
+    },
+    {
+     "dex": 642,
+     "formId": "therian"
+    },
+    {
+     "dex": 645,
+     "formId": "therian"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    30,
+    0
+   ],
+   "about": {
+    "ko": "매주 수요일 18:00~19:00(현지). 그 주의 5성 레이드 보스가 많은 체육관에 나와요. 수요일 하루 동안 직접 가서 하는 레이드를 깨면 이상한사탕 XL 1개. 5성·메가 레이드 보스는 수요일 0시에 바뀌어요.",
+    "ja": "毎週水曜18:00〜19:00（現地）。その週の★5レイドボスが多くのジムに登場。水曜日は一日中、現地でレイドに勝つとふしぎなアメXLが1個。★5・メガレイドのボスは水曜0時に入れ替わります。",
+    "en": "Every Wednesday 6–7 p.m. local. Many Gyms host the week's five-star raid boss. All Wednesday, complete an in-person raid for one Rare Candy XL. Five-star and Mega Raid bosses change at the start of Wednesday.",
+    "zh-Hant": "每週三18:00～19:00（當地）。該週的五星團體戰頭目會出現在許多道館。週三全天親自完成團體戰可獲得1個神奇糖果XL。五星・超級團體戰頭目在週三0點更換。",
+    "zh-Hans": "每周三18:00～19:00（当地）。该周的五星团体战头目会出现在许多道馆。周三全天亲自完成团体战可获得1个神奇糖果XL。五星・超级团体战头目在周三0点更换。",
+    "fr": "Chaque mercredi de 18 h à 19 h (heure locale). De nombreuses Arènes accueillent le boss de Raid 5 étoiles de la semaine. Tout le mercredi, terminez un Raid sur place pour 1 Super Bonbon XL. Les boss 5 étoiles et Méga changent le mercredi à minuit.",
+    "de": "Jeden Mittwoch 18–19 Uhr (Ortszeit). Viele Arenen zeigen den 5-Sterne-Raid-Boss der Woche. Den ganzen Mittwoch gibt es für einen Raid vor Ort 1 Sonderbonbon XL. 5-Sterne- und Mega-Bosse wechseln Mittwoch um 0 Uhr.",
+    "es": "Cada miércoles de 18:00 a 19:00 (hora local). Muchos gimnasios tienen al jefe de incursión de 5 estrellas de la semana. Todo el miércoles, completa una incursión en persona para 1 Caramelo Raro XL. Los jefes de 5 estrellas y Mega cambian el miércoles a las 0:00.",
+    "it": "Ogni mercoledì dalle 18:00 alle 19:00 (ora locale). Molte Palestre ospitano il boss dei raid 5 stelle della settimana. Tutto il mercoledì, completa un raid di persona per 1 Caramella Rara XL. I boss 5 stelle e Mega cambiano il mercoledì a mezzanotte."
+   },
+   "auto": "schedule/raids.json에서 자동 생성"
+  },
+  {
+   "id": "spotlight_hour-2026-12-31-plusle",
+   "category": "spotlight_hour",
+   "region": "global",
+   "timeMode": "local",
+   "start": "2026-12-31T18:00:00",
+   "end": "2026-12-31T19:00:00",
+   "title": {
+    "ko": "플러시, 마이농 스포트라이트 아워",
+    "ja": "スポットライトアワー：プラスル・マイナン",
+    "en": "Plusle, Minun Spotlight Hour",
+    "zh-Hant": "聚光燈時刻：正電拍拍、負電拍拍",
+    "zh-Hans": "聚光灯时刻：正电拍拍、负电拍拍",
+    "fr": "Heure Vedette : Posipi, Négapi",
+    "de": "Rampenlicht-Stunde: Plusle, Minun",
+    "es": "Hora Destacada: Plusle, Minun",
+    "it": "Ora del Pokémon in evidenza: Plusle, Minun"
+   },
+   "label": {
+    "ko": "스포트라이트 아워",
+    "ja": "スポットライトアワー",
+    "en": "Spotlight Hour",
+    "zh-Hant": "聚光燈時刻",
+    "zh-Hans": "聚光灯时刻",
+    "fr": "Heure Vedette",
+    "de": "Rampenlicht-Stunde",
+    "es": "Hora Destacada",
+    "it": "Ora del Pokémon in evidenza"
+   },
+   "summary": {},
+   "priority": [],
+   "pokemonRefs": [
+    {
+     "dex": 311,
+     "formId": "normal"
+    },
+    {
+     "dex": 312,
+     "formId": "normal"
+    }
+   ],
+   "sourceUrl": "https://pokemongo.com/news",
+   "footnoteIds": [],
+   "alarmPresetsMin": [
+    30,
+    0
+   ],
+   "sources": [
+    "https://leekduck.com/events/pokemonspotlighthour2026-12-31/",
+    "https://pokemongohub.net/post/event/pokemon-go-december-2026-events/"
+   ],
+   "about": {
+    "ko": "매주 목요일 18:00~19:00(현지). 정해진 포켓몬이 야생에 아주 많이 나오고, 1시간 동안 보너스 하나(포획 사탕·별의모래·XP 2배 등)가 붙어요.",
+    "ja": "毎週木曜18:00〜19:00（現地）。特定のポケモンが野生にたくさん出現し、1時間ボーナスが1つ（捕獲時のアメ・ほしのすな・XP2倍など）付きます。",
+    "en": "Every Thursday 18:00–19:00 local. A featured Pokémon appears in large numbers, with one bonus for the hour (e.g. 2× catch Candy, Stardust or XP).",
+    "zh-Hant": "每週四18:00～19:00（當地）。指定寶可夢大量出現在野外，1小時內附有一種加成（捕捉糖果・星星沙子・XP 2倍等）。",
+    "zh-Hans": "每周四18:00～19:00（当地）。指定宝可梦大量出现在野外，1小时内附有一种加成（捕捉糖果・星星沙子・XP 2倍等）。",
+    "fr": "Chaque jeudi de 18 h à 19 h (heure locale). Un Pokémon vedette apparaît en masse, avec un bonus pendant l'heure (Bonbons, Poussière Étoile ou XP ×2, etc.).",
+    "de": "Jeden Donnerstag 18–19 Uhr Ortszeit. Ein Pokémon erscheint massenhaft, dazu eine Stunde lang ein Bonus (z. B. 2× Fang-Bonbons, Sternenstaub oder EP).",
+    "es": "Cada jueves de 18:00 a 19:00 (hora local). Un Pokémon protagonista aparece en masa, con una bonificación durante la hora (2× caramelos, polvoestelar o PX, etc.).",
+    "it": "Ogni giovedì dalle 18:00 alle 19:00 (ora locale). Un Pokémon protagonista appare in massa, con un bonus per un'ora (2× Caramelle, polvere di stelle o PE, ecc.)."
+   },
+   "bonuses": [
+    {
+     "code": "catch_candy_2x",
+     "text": {
+      "ko": "포획 사탕 2배",
+      "ja": "捕獲時のアメ2倍",
+      "en": "2× Catch Candy",
+      "zh-Hant": "捕捉糖果2倍",
+      "zh-Hans": "捕捉糖果2倍",
+      "fr": "Bonbons de capture ×2",
+      "de": "2× Fang-Bonbons",
+      "es": "2× caramelos al atrapar",
+      "it": "2× caramelle per cattura"
+     }
+    }
    ]
   },
   {

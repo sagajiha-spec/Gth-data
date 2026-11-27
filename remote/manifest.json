@@ -1,17 +1,17 @@
 {
  "schemaVersion": 2,
- "publishedAt": "2026-11-27T02:29:16Z",
+ "publishedAt": "2026-11-27T05:32:05Z",
  "minAppVersion": "1.0.0",
  "files": [
   {
    "path": "events.json",
-   "version": 25,
-   "sha256": "5988055feb82dd5c54c0f4ffa510eb66cec13e2619b24924a6f610ee548c0123"
+   "version": 26,
+   "sha256": "82d072302149a79d8f7114392d9df02b2c24a9e32c04113eb85f48a3892df6dc"
   },
   {
    "path": "raids.json",
-   "version": 27,
-   "sha256": "757d688251aebaaa3ec5ff1cb0d772c4f17c9618a5e91a4e111b151046a2c773"
+   "version": 28,
+   "sha256": "686f2106012071184b41287b2595c611dd1459a0b9ed1e4830a66b65689db342"
   },
   {
    "path": "config.json",
