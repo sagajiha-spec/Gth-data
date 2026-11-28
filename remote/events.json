@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "updatedAt": "2026-11-28T00:41:32Z",
+ "updatedAt": "2026-11-28T01:30:47Z",
  "_comment": "자동 생성 파일 — 직접 고치지 말고 schedule/events.json·raids.json을 고친 뒤 tools/build_schedule.py 실행. title은 9개 언어, label은 종류 이름.",
  "events": [
   {
@@ -3901,15 +3901,15 @@
     0
    ],
    "about": {
-    "ko": "픽시 슈퍼 메가 레이드 데이(11/28 14:00~17:00 현지). 메가픽시가 슈퍼 메가 레이드(일부 체육관, 여럿이 협력)에 처음 나와요. 잡은 픽시는 메가 레벨 1이 열려 있고, 메가 레벨을 최대보다 더 올리면 「문포스+」를 배울 수 있어요.",
-    "ja": "ピクシーのスーパーメガレイド・デイ（11/28 14:00〜17:00 現地）。メガピクシーがスーパーメガレイド（一部のジム・協力プレイ）に初登場。ゲットしたピクシーはメガレベル1が解放済みで、メガレベルを最大よりさらに上げると「ムーンフォース+」を覚えられます。",
-    "en": "Clefable Super Mega Raid Day (Nov 28, 14:00–17:00 local). Mega Clefable debuts in Super Mega Raids (at certain Gyms, teamwork needed). Clefable caught there has Mega Level 1 unlocked; raising it past Max Mega Level lets it learn Moonblast+.",
-    "zh-Hant": "皮可西超級Mega團體戰日（11/28 14:00～17:00 當地）。超級皮可西首次登場於超級Mega團體戰（部分道館、需合作）。捕捉到的皮可西已解鎖超級進化等級1，將等級提升到最高以上可學會「月亮之力+」。",
-    "zh-Hans": "皮可西超级Mega团体战日（11/28 14:00～17:00 当地）。超级皮可西首次登场于超级Mega团体战（部分道馆、需合作）。捕捉到的皮可西已解锁超级进化等级1，将等级提升到最高以上可学会「月亮之力+」。",
-    "fr": "Journée Super Méga-Raids de Mélodelfe (28/11 de 14 h à 17 h, heure locale). Méga-Mélodelfe débute en Super Méga-Raids (certaines Arènes, à plusieurs). Les Mélodelfe attrapés ont le niveau Méga 1 débloqué ; au-delà du niveau Méga max, ils peuvent apprendre Pouvoir Lunaire+.",
-    "de": "Super-Mega-Raid-Tag mit Pixi (28.11., 14–17 Uhr Ortszeit). Mega-Pixi debütiert in Super-Mega-Raids (bestimmte Arenen, Teamarbeit). Gefangene Pixi haben Mega-Level 1 freigeschaltet; über das maximale Mega-Level hinaus lernen sie Mondgewalt+.",
-    "es": "Día de Súper Megaincursiones de Clefable (28/11 de 14:00 a 17:00, hora local). Mega-Clefable debuta en Súper Megaincursiones (en ciertos gimnasios, en equipo). Los Clefable atrapados tienen el nivel Mega 1 desbloqueado; por encima del nivel Mega máximo aprenden Fuerza Lunar+.",
-    "it": "Giornata dei Super Megaraid di Clefable (28/11 dalle 14:00 alle 17:00, ora locale). MegaClefable debutta nei Super Megaraid (in certe Palestre, di squadra). I Clefable catturati hanno il livello Mega 1 sbloccato; oltre il livello Mega massimo imparano Forza Lunare+."
+    "ko": "픽시 슈퍼 메가 레이드 데이(11/28 14:00~17:00 현지). 메가픽시가 슈퍼 메가 레이드(일부 체육관, 여럿이 협력)에 처음 나와요. 이번부터 메가픽시는 슈퍼 맥스까지 올릴 수 있고, 메가진화 중에는 「문포스+」를 써요(레벨이 오를수록 강해짐).",
+    "ja": "ピクシーのスーパーメガレイド・デイ（11/28 14:00〜17:00 現地）。メガピクシーがスーパーメガレイド（一部のジム・協力プレイ）に初登場。メガピクシーはスーパーマックスまで上げられるようになり、メガシンカ中は「ムーンフォース+」を使えます（レベルが上がるほど強い）。",
+    "en": "Clefable Super Mega Raid Day (Nov 28, 14:00–17:00 local). Mega Clefable debuts in Super Mega Raids (at certain Gyms, teamwork needed). Mega Clefable can now reach Super Max and uses Moonblast+ while Mega Evolved (stronger at higher Mega Levels).",
+    "zh-Hant": "皮可西超級Mega團體戰日（11/28 14:00～17:00 當地）。超級皮可西首次登場於超級Mega團體戰（部分道館、需合作）。超級皮可西可提升到超級最高等級，超級進化時可使用「月亮之力+」（等級越高越強）。",
+    "zh-Hans": "皮可西超级Mega团体战日（11/28 14:00～17:00 当地）。超级皮可西首次登场于超级Mega团体战（部分道馆、需合作）。超级皮可西可提升到超级最高等级，超级进化时可使用「月亮之力+」（等级越高越强）。",
+    "fr": "Journée Super Méga-Raids de Mélodelfe (28/11 de 14 h à 17 h, heure locale). Méga-Mélodelfe débute en Super Méga-Raids (certaines Arènes, à plusieurs). Méga-Mélodelfe peut désormais atteindre le niveau Super Max et utilise Pouvoir Lunaire+ pendant la Méga-Évolution (plus fort avec le niveau Méga).",
+    "de": "Super-Mega-Raid-Tag mit Pixi (28.11., 14–17 Uhr Ortszeit). Mega-Pixi debütiert in Super-Mega-Raids (bestimmte Arenen, Teamarbeit). Mega-Pixi kann jetzt Super-Max erreichen und nutzt Mondgewalt+ während der Mega-Entwicklung (stärker mit höherem Mega-Level).",
+    "es": "Día de Súper Megaincursiones de Clefable (28/11 de 14:00 a 17:00, hora local). Mega-Clefable debuta en Súper Megaincursiones (en ciertos gimnasios, en equipo). Mega-Clefable ya puede llegar a Súper Máx. y usa Fuerza Lunar+ durante la megaevolución (más fuerte con más nivel Mega).",
+    "it": "Giornata dei Super Megaraid di Clefable (28/11 dalle 14:00 alle 17:00, ora locale). MegaClefable debutta nei Super Megaraid (in certe Palestre, di squadra). MegaClefable ora può arrivare a Super Max e usa Forza Lunare+ durante la megaevoluzione (più forte con livello Mega più alto)."
    },
    "detailSources": [
     "https://pokemongo.com/news/clefable-super-mega-raid-day-2026",
@@ -4249,16 +4249,79 @@
     "https://pokemongohub.net/post/event/pokemon-go-december-2026-events/"
    ],
    "about": {
-    "ko": "바다·열대 테마 이벤트(12/1 10:00 ~ 12/7 20:00 현지). 해무기가 3성 레이드와 이벤트 GO 패스로 처음 나와요. 12/4부터는 야생에 다른 포켓몬이 더 나와요.",
-    "ja": "海と南国がテーマのイベント（12/1 10:00〜12/7 20:00 現地）。ナマコブシが★3レイドとイベントのGOパスで初登場。12/4からは野生に別のポケモンも増えます。",
-    "en": "A sea-and-tropics event (Dec 1, 10:00 – Dec 7, 20:00 local). Pyukumuku debuts in 3-star raids and the event GO Pass. From Dec 4, more Pokémon join the wild spawns.",
-    "zh-Hant": "海洋與熱帶主題活動（12/1 10:00～12/7 20:00 當地）。拳海參在三星團體戰與活動GO Pass中首次登場。12/4起野生會出現更多寶可夢。",
-    "zh-Hans": "海洋与热带主题活动（12/1 10:00～12/7 20:00 当地）。拳海参在三星团体战与活动GO Pass中首次登场。12/4起野生会出现更多宝可梦。",
-    "fr": "Évènement mer et tropiques (du 1/12 10 h au 7/12 20 h, heure locale). Concombaffe débute dans les raids 3 étoiles et le Passe GO de l’évènement. À partir du 4/12, d’autres Pokémon sauvages apparaissent.",
-    "de": "Event rund um Meer und Tropen (1.12., 10:00 – 7.12., 20:00 Ortszeit). Gufa erscheint erstmals in 3-Sterne-Raids und im Event-GO-Pass. Ab 4.12. erscheinen weitere wilde Pokémon.",
-    "es": "Evento de mar y trópico (del 1/12 a las 10:00 al 7/12 a las 20:00, hora local). Pyukumuku debuta en incursiones de 3 estrellas y en el Pase de GO del evento. Desde el 4/12 aparecen más Pokémon salvajes.",
-    "it": "Evento a tema mare e tropici (dall’1/12 ore 10:00 al 7/12 ore 20:00, ora locale). Pyukumuku debutta nei raid a 3 stelle e nel biglietto GO dell’evento. Dal 4/12 compaiono altri Pokémon selvatici."
-   }
+    "ko": "바다·열대 테마 이벤트(12/1 10:00 ~ 12/7 20:00 현지). 해무기가 3성 레이드와 이벤트 GO 패스로 처음 나오고, 빠른 기술 「물붓기」를 배울 수 있어요. 메가야도란은 이번부터 슈퍼 맥스까지 올릴 수 있고, 메가진화 중 「찬물끼얹기+」를 써요.",
+    "ja": "海と南国がテーマのイベント（12/1 10:00〜12/7 20:00 現地）。ナマコブシが★3レイドとイベントのGOパスで初登場し、ノーマルアタック「みずびたし」を覚えます。メガヤドランはスーパーマックスまで上げられるようになり、メガシンカ中は「ひやみず+」を使えます。",
+    "en": "A sea-and-tropics event (Dec 1, 10:00 – Dec 7, 20:00 local). Pyukumuku debuts in 3-star raids and the event GO Pass and can learn the Fast Attack Soak. Mega Slowbro can now reach Super Max and uses Chilling Water+ while Mega Evolved.",
+    "zh-Hant": "海洋與熱帶主題活動（12/1 10:00～12/7 20:00 當地）。拳海參在三星團體戰與活動GO Pass首次登場，可學會一般招式「浸水」。超級呆殼獸可提升到超級最高等級，超級進化時可使用「潑冷水+」。",
+    "zh-Hans": "海洋与热带主题活动（12/1 10:00～12/7 20:00 当地）。拳海参在三星团体战与活动GO Pass首次登场，可学会一般招式「浸水」。超级呆壳兽可提升到超级最高等级，超级进化时可使用「潑冷水+」。",
+    "fr": "Évènement mer et tropiques (du 1/12 10 h au 7/12 20 h, heure locale). Concombaffe débute en raids 3 étoiles et dans le Passe GO de l’évènement et peut apprendre l’Attaque Immédiate Détrempage. Méga-Flagadoss peut désormais atteindre le niveau Super Max et utilise Douche Froide+ pendant la Méga-Évolution.",
+    "de": "Event rund um Meer und Tropen (1.12., 10:00 – 7.12., 20:00 Ortszeit). Gufa erscheint erstmals in 3-Sterne-Raids und im Event-GO-Pass und kann die Sofort-Attacke Überflutung lernen. Mega-Lahmus kann jetzt Super-Max erreichen und nutzt Kalte Dusche+ während der Mega-Entwicklung.",
+    "es": "Evento de mar y trópico (del 1/12 a las 10:00 al 7/12 a las 20:00, hora local). Pyukumuku debuta en incursiones de 3 estrellas y en el Pase de GO del evento y puede aprender el ataque rápido Empapar. Mega-Slowbro ya puede llegar a Súper Máx. y usa Agua Fría+ durante la megaevolución.",
+    "it": "Evento a tema mare e tropici (dall’1/12 ore 10:00 al 7/12 ore 20:00, ora locale). Pyukumuku debutta nei raid a 3 stelle e nel biglietto GO dell’evento e può imparare la mossa veloce Inondazione. MegaSlowbro ora può arrivare a Super Max e usa Doccia Fredda+ durante la megaevoluzione."
+   },
+   "detailSources": [
+    "https://pokemongo.com/news/tropical-paradise-2026",
+    "https://pokemongohub.net/post/event/pokemon-go-tropical-paradise-2026/",
+    "https://leekduck.com/events/tropical-paradise-2026/"
+   ],
+   "bonuses": [
+    {
+     "code": "custom",
+     "text": {
+      "ko": "GO 패스 랭크 10: 레이드 XP 2배",
+      "ja": "GOパス ランク10：レイドXP2倍",
+      "en": "GO Pass Rank 10: 2× Raid XP",
+      "zh-Hant": "GO Pass 等級10：團體戰XP 2倍",
+      "zh-Hans": "GO Pass 等级10：团体战XP 2倍",
+      "fr": "Passe GO rang 10 : XP de raid ×2",
+      "de": "GO-Pass Rang 10: 2× Raid-EP",
+      "es": "Pase de GO rango 10: PX de incursión ×2",
+      "it": "Biglietto GO grado 10: PE dei raid ×2"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "GO 패스 랭크 20: 파트너가 야돈·야도란·야도킹일 때 걸으면 메가 에너지 5배(메가야도란 1번 이상 메가진화한 경우)",
+      "ja": "GOパス ランク20：ヤドン・ヤドラン・ヤドキングを相棒にして歩くとメガエナジー5倍（メガヤドランに1回以上メガシンカ済みの場合）",
+      "en": "GO Pass Rank 20: 5× Mega Energy when exploring with Slowpoke, Slowbro, Slowking as your buddy (after Mega Evolving Slowbro once)",
+      "zh-Hant": "GO Pass 等級20：以呆呆獸・呆殼獸・呆呆王為夥伴探索時超級能量5倍（需超級進化過呆殼獸）",
+      "zh-Hans": "GO Pass 等级20：以呆呆兽・呆壳兽・呆呆王为伙伴探索时超级能量5倍（需超级进化过呆壳兽）",
+      "fr": "Passe GO rang 20 : Méga-Énergie ×5 en explorant avec Ramoloss, Flagadoss, Roigada comme copain (après avoir Méga-Évolué Flagadoss une fois)",
+      "de": "GO-Pass Rang 20: 5× Mega-Energie beim Erkunden mit Flegmon, Lahmus, Laschoking als Kumpel (nach einer Mega-Entwicklung von Lahmus)",
+      "es": "Pase de GO rango 20: Megaenergía ×5 al explorar con Slowpoke, Slowbro, Slowking de compañero (tras megaevolucionar a Slowbro una vez)",
+      "it": "Biglietto GO grado 20: Megaenergia ×5 esplorando con Slowpoke, Slowbro, Slowking come compagno (dopo aver megaevoluto Slowbro una volta)"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "야생: 야돈·셀러·갈모매·게을로 등, 운 좋으면 잠만보 · 12/4 10:00부터 통통코·연꽃몬·버섯꼬 등, 운 좋으면 나시 (알로라의 모습)",
+      "ja": "野生：ヤドン・シェルダー・キャモメ・ナマケロなど、運がよければカビゴン・12/4 10:00からハネッコ・ハスボー・キノココなど、運がよければナッシー (アローラのすがた)",
+      "en": "Wild: Slowpoke, Shellder, Wingull, Slakoth and more, rarely Snorlax · from Dec 4, 10:00: Hoppip, Lotad, Shroomish and more, rarely Exeggutor (Alolan Form)",
+      "zh-Hant": "野生：呆呆獸・大舌貝・長翅鷗・懶人獺等，運氣好可遇到卡比獸・12/4 10:00起毽子草・蓮葉童子・蘑蘑菇等，運氣好可遇到椰蛋樹 (阿羅拉的樣子)",
+      "zh-Hans": "野生：呆呆兽・大舌贝・长翅鸥・懒人獭等，运气好可遇到卡比兽・12/4 10:00起毽子草・莲叶童子・蘑蘑菇等，运气好可遇到椰蛋树 (阿羅拉的樣子)",
+      "fr": "Sauvages : Ramoloss, Kokiyas, Goélise, Parecool, etc., parfois Ronflex · dès le 4/12 10 h : Granivol, Nénupiot, Balignon, etc., parfois Noadkoko (Forme d’Alola)",
+      "de": "Wild: Flegmon, Muschas, Wingull, Bummelz u. a., selten Relaxo · ab 4.12. 10:00: Hoppspross, Loturzel, Knilz u. a., selten Kokowei (Alola-Form)",
+      "es": "Salvajes: Slowpoke, Shellder, Wingull, Slakoth y más, a veces Snorlax · desde el 4/12 10:00: Hoppip, Lotad, Shroomish y más, a veces Exeggutor (Forma de Alola)",
+      "it": "Selvatici: Slowpoke, Shellder, Wingull, Slakoth e altri, a volte Snorlax · dal 4/12 ore 10:00: Hoppip, Lotad, Shroomish e altri, a volte Exeggutor (Forma di Alola)"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "레이드: 1성 디그다 (알로라의 모습)·탱그릴·모래꿍 · 3성 해무기 | 필드리서치: 고라파덕·왕눈해·셀러 등 만남, 메가야도란 메가 에너지",
+      "ja": "レイド：★1 ディグダ (アローラのすがた)・プルリル・スナバァ・★3 ナマコブシ｜フィールドリサーチ：コダック・メノクラゲ・シェルダーなどと出会える、ヤドランのメガエナジー",
+      "en": "Raids: 1-star Diglett (Alolan Form), Frillish, Sandygast · 3-star Pyukumuku | Field Research: Psyduck, Tentacool, Shellder and more, Slowbro Mega Energy",
+      "zh-Hant": "團體戰：一星地鼠 (阿羅拉的樣子)・輕飄飄・沙丘娃・三星拳海參｜田野調查：可達鴨・瑪瑙水母・大舌貝等、呆殼獸的超級能量",
+      "zh-Hans": "团体战：一星地鼠 (阿羅拉的樣子)・轻飘飘・沙丘娃・三星拳海参｜田野调查：可达鸭・玛瑙水母・大舌贝等、呆壳兽的超级能量",
+      "fr": "Raids : 1 étoile Taupiqueur (Forme d’Alola), Viskuse, Bacabouh · 3 étoiles Concombaffe | Études de terrain : Psykokwak, Tentacool, Kokiyas, etc., Méga-Énergie de Flagadoss",
+      "de": "Raids: 1 Stern Digda (Alola-Form), Quabbel, Sankabuh · 3 Sterne Gufa | Feldforschung: Enton, Tentacha, Muschas u. a., Lahmus-Mega-Energie",
+      "es": "Incursiones: 1 estrella Diglett (Forma de Alola), Frillish, Sandygast · 3 estrellas Pyukumuku | Investigación de campo: Psyduck, Tentacool, Shellder y más, Megaenergía de Slowbro",
+      "it": "Raid: 1 stella Diglett (Forma di Alola), Frillish, Sandygast · 3 stelle Pyukumuku | Ricerca sul campo: Psyduck, Tentacool, Shellder e altri, Megaenergia di Slowbro"
+     }
+    }
+   ]
   },
   {
    "id": "go-pass-december-2026",
@@ -4397,16 +4460,65 @@
     "https://pokemongohub.net/post/guide/daydream-destinations-season/"
    ],
    "about": {
-    "ko": "약 3개월 단위의 시즌. 야생·알·리서치에서 나오는 포켓몬, 요일 보너스, 매달 GO 패스, GO배틀리그 일정이 시즌마다 바뀌어요.",
-    "ja": "約3か月ごとのシーズン。野生・タマゴ・リサーチのポケモン、曜日ボーナス、毎月のGOパス、GOバトルリーグの日程がシーズンごとに変わります。",
-    "en": "A roughly three-month Season. Wild, Egg and research Pokémon, Daily Discoveries, the monthly GO Pass and the GO Battle League schedule change each Season.",
-    "zh-Hant": "約3個月一次的季節。野外・蛋・調查的寶可夢、每日發現加成、每月GO通行證與GO對戰聯盟日程每季更換。",
-    "zh-Hans": "约3个月一次的季节。野外・蛋・调查的宝可梦、每日发现加成、每月GO通行证与GO对战联盟日程每季更换。",
-    "fr": "Une saison d'environ trois mois. Pokémon sauvages, des Œufs et des études, bonus quotidiens, Pass GO mensuel et calendrier de la Ligue de Combat GO changent à chaque saison.",
-    "de": "Eine etwa dreimonatige Saison. Wilde, Ei- und Forschungs-Pokémon, Tagesboni, der monatliche GO-Pass und der GO-Kampfliga-Plan wechseln mit jeder Saison.",
-    "es": "Una temporada de unos tres meses. Los Pokémon salvajes, de Huevos e investigaciones, las bonificaciones diarias, el Pase GO mensual y el calendario de la Liga de Combates GO cambian cada temporada.",
-    "it": "Una stagione di circa tre mesi. Pokémon selvatici, dalle Uova e dalle ricerche, bonus giornalieri, GO Pass mensile e calendario della Lega Lotte GO cambiano a ogni stagione."
-   }
+    "ko": "새 시즌(12/1 10:00 ~ 3/1 10:00 현지). 2월 GO Tour: 알로라(오프라인 2/19~21 로스앤젤레스·가오슝, 전 세계 2/27~28), 레이드 데이에 메가눈여아·메가할비롱, 맥스배틀에 다이맥스 모래두지 (알로라의 모습)·야돈·가재군 등, 거다이맥스 인텔리레온·스트린더 맥스배틀 데이. 커뮤니티 데이: 12/12~13, 1/2(클래식), 1/16, 2/6.",
+    "ja": "新シーズン（12/1 10:00〜3/1 10:00 現地）。2月にGO Tour：アローラ（リアル2/19〜21 ロサンゼルス・高雄、グローバル2/27〜28）、レイド・デイにメガユキメノコ・メガジジーロン、マックスバトルにダイマックスサンド (アローラのすがた)・ヤドン・ヘイガニなど、キョダイマックスインテレオン・ストリンダーのマックスバトル・デイ。コミュニティ・デイ：12/12〜13、1/2（クラシック）、1/16、2/6。",
+    "en": "New Season (Dec 1, 10:00 – Mar 1, 10:00 local). GO Tour: Alola in February (in person Feb 19–21 in Los Angeles & Kaohsiung, global Feb 27–28), Mega Froslass and Mega Drampa in Raid Days, Dynamax Sandshrew (Alolan Form), Slowpoke, Corphish and more in Max Battles, Gigantamax Inteleon, Toxtricity Max Battle Days. Community Days: Dec 12–13, Jan 2 (Classic), Jan 16, Feb 6.",
+    "zh-Hant": "新季節（12/1 10:00～3/1 10:00 當地）。2月GO Tour：阿羅拉（現場2/19～21 洛杉磯・高雄，全球2/27～28），團體戰日有超級雪妖女・超級老翁龍，極巨對戰有極巨化穿山鼠 (阿羅拉的樣子)・呆呆獸・龍蝦小兵等，超極巨千面避役・顫弦蠑螈極巨對戰日。社群日：12/12～13、1/2（經典）、1/16、2/6。",
+    "zh-Hans": "新季节（12/1 10:00～3/1 10:00 当地）。2月GO Tour：阿罗拉（现场2/19～21 洛杉矶・高雄，全球2/27～28），团体战日有超级雪妖女・超级老翁龙，极巨对战有极巨化穿山鼠 (阿羅拉的樣子)・呆呆兽・龙虾小兵等，超极巨千面避役・颤弦蝾螈极巨对战日。社群日：12/12～13、1/2（经典）、1/16、2/6。",
+    "fr": "Nouvelle saison (du 1/12 10 h au 1/3 10 h, heure locale). Circuit GO : Alola en février (en personne du 19 au 21/2 à Los Angeles et Kaohsiung, mondial les 27–28/2), Méga-Momartik et Méga-Draïeul lors de Journées de Raids, Sabelette (Forme d’Alola), Ramoloss, Écrapince Dynamax et d’autres en Combats Dynamax, Journées Combats Dynamax Lézargus, Salarsen Gigamax. Journées Communauté : 12–13/12, 2/1 (Classique), 16/1, 6/2.",
+    "de": "Neue Saison (1.12., 10:00 – 1.3., 10:00 Ortszeit). GO Tour: Alola im Februar (vor Ort 19.–21.2. in Los Angeles & Kaohsiung, weltweit 27.–28.2.), Mega-Frosdedje und Mega-Sen-Long an Raid-Tagen, Dynamax-Sandan (Alola-Form), Flegmon, Krebscorps u. a. in Dyna-Kämpfen, Dyna-Kampftage mit Gigadynamax-Intelleon, Riffex. Community Days: 12.–13.12., 2.1. (Classic), 16.1., 6.2.",
+    "es": "Nueva temporada (del 1/12 a las 10:00 al 1/3 a las 10:00, hora local). Tour de Pokémon GO: Alola en febrero (presencial del 19 al 21/2 en Los Ángeles y Kaohsiung, global 27–28/2), Mega-Froslass y Mega-Drampa en Días de Incursiones, Sandshrew (Forma de Alola), Slowpoke, Corphish Dinamax y más en Combates Max, Días de Combates Max de Inteleon, Toxtricity Gigamax. Días de la Comunidad: 12–13/12, 2/1 (Clásico), 16/1, 6/2.",
+    "it": "Nuova stagione (dall’1/12 ore 10:00 all’1/3 ore 10:00, ora locale). Tour di Pokémon GO: Alola a febbraio (dal vivo 19–21/2 a Los Angeles e Kaohsiung, globale 27–28/2), MegaFroslass e MegaDrampa nelle Giornate dei raid, Sandshrew (Forma di Alola), Slowpoke, Corphish Dynamax e altri nelle Lotte Dynamax, Giornate delle Lotte Dynamax di Inteleon, Toxtricity Gigamax. Community Day: 12–13/12, 2/1 (Classico), 16/1, 6/2."
+   },
+   "detailSources": [
+    "https://pokemongo.com/seasons/daydream-destinations",
+    "https://leekduck.com/events/season-25-daydream-destinations/",
+    "https://pokemongohub.net/post/guide/daydream-destinations-season/"
+   ],
+   "bonuses": [
+    {
+     "code": "custom",
+     "text": {
+      "ko": "GO 패스 랭크 1: 우정 레벨업 XP 증가 · 레이드 우정 보너스 데미지 2배",
+      "ja": "GOパス ランク1：なかよしレベルアップのXP増加・レイドのなかよしボーナスダメージ2倍",
+      "en": "GO Pass Rank 1: more XP from Friendship level-ups · 2× Friendship bonus damage in raids",
+      "zh-Hant": "GO Pass 等級1：友誼等級提升XP增加・團體戰友誼加成傷害2倍",
+      "zh-Hans": "GO Pass 等级1：友谊等级提升XP增加・团体战友谊加成伤害2倍",
+      "fr": "Passe GO rang 1 : plus d’XP en montant de niveau d’amitié · dégâts bonus d’amitié ×2 en raid",
+      "de": "GO-Pass Rang 1: mehr EP beim Freundschaftsaufstieg · 2× Freundschafts-Bonusschaden in Raids",
+      "es": "Pase de GO rango 1: más PX al subir de nivel de amistad · daño extra por amistad ×2 en incursiones",
+      "it": "Biglietto GO grado 1: più PE salendo di livello di amicizia · danni bonus amicizia ×2 nei raid"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "GO 패스 랭크 25: 선물 열기·받기·보관 한도 증가",
+      "ja": "GOパス ランク25：ギフトを開ける・受け取る・持てる上限アップ",
+      "en": "GO Pass Rank 25: higher limits on opening, receiving and storing Gifts",
+      "zh-Hant": "GO Pass 等級25：打開、收取、持有禮物的上限增加",
+      "zh-Hans": "GO Pass 等级25：打开、收取、持有礼物的上限增加",
+      "fr": "Passe GO rang 25 : limites de Cadeaux (ouverture, réception, stockage) augmentées",
+      "de": "GO-Pass Rang 25: höhere Limits beim Öffnen, Erhalten und Aufbewahren von Geschenken",
+      "es": "Pase de GO rango 25: más límite para abrir, recibir y guardar regalos",
+      "it": "Biglietto GO grado 25: limiti più alti per aprire, ricevere e conservare regali"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "GO 패스 랭크 50: 산책향로 지속 시간 2배 · 랭크 75: 알 부화 XP·별의모래 증가",
+      "ja": "GOパス ランク50：おさんぽおこうの効果時間2倍・ランク75：タマゴふかのXP・ほしのすな増加",
+      "en": "GO Pass Rank 50: 2× Daily Adventure Incense duration · Rank 75: more XP and Stardust from hatching Eggs",
+      "zh-Hant": "GO Pass 等級50：散步小薰香持續時間2倍・等級75：孵蛋XP・星星沙子增加",
+      "zh-Hans": "GO Pass 等级50：散步小薰香持续时间2倍・等级75：孵蛋XP・星星沙子增加",
+      "fr": "Passe GO rang 50 : durée de l’Encens d’aventure quotidienne ×2 · rang 75 : plus d’XP et de Poussière Étoile à l’éclosion",
+      "de": "GO-Pass Rang 50: 2× Dauer von Täglicher Abenteuerrauch · Rang 75: mehr EP und Sternenstaub beim Schlüpfen",
+      "es": "Pase de GO rango 50: duración del Incienso de aventura diario ×2 · rango 75: más PX y polvoestelar al eclosionar",
+      "it": "Biglietto GO grado 50: durata dell’Aroma avventura giornaliera ×2 · grado 75: più PE e polvere di stelle dalle schiuse"
+     }
+    }
+   ]
   },
   {
    "id": "tropical-paradise-2026",
@@ -4811,20 +4923,92 @@
     "https://pokemongohub.net/post/event/pokemon-go-december-2026-events/"
    ],
    "about": {
-    "ko": "맥스배틀 데이(12/5 14:00~17:00 현지). 주인공 포켓몬과 보너스는 아직 발표 전이에요. 보통 정해진 포켓몬이 대부분의 파워스폿에 나오고 보너스가 붙어요.",
-    "ja": "マックスバトル・デイ（12/5 14:00〜17:00 現地）。対象ポケモンとボーナスはまだ未発表。ふだんは特定のポケモンがほとんどのパワースポットに登場し、ボーナスが付きます。",
-    "en": "Max Battle Day (Dec 5, 14:00–17:00 local). The featured Pokémon and bonuses haven't been announced yet. Usually one Pokémon takes over most Power Spots, with bonuses.",
-    "zh-Hant": "極巨對戰日（12/5 14:00～17:00 當地）。主角寶可夢與加成尚未公布。通常指定寶可夢會佔領大部分能量點並附有加成。",
-    "zh-Hans": "极巨对战日（12/5 14:00～17:00 当地）。主角宝可梦与加成尚未公布。通常指定宝可梦会占领大部分能量点并附有加成。",
-    "fr": "Journée Combats Dynamax (5/12 de 14 h à 17 h, heure locale). Pokémon vedette et bonus pas encore annoncés. En général, un Pokémon occupe la plupart des Sources d'Énergie, avec des bonus.",
-    "de": "Dyna-Kampftag (5.12., 14–17 Uhr Ortszeit). Pokémon und Boni noch nicht angekündigt. Meist besetzt ein Pokémon die meisten Kraftquellen, dazu gibt es Boni.",
-    "es": "Día de Combates Max (5/12 de 14:00 a 17:00, hora local). El Pokémon protagonista y las bonificaciones aún no se han anunciado. Normalmente un Pokémon ocupa la mayoría de nodos energéticos, con bonificaciones.",
-    "it": "Giornata delle Lotte Dynamax (5/12 dalle 14:00 alle 17:00, ora locale). Pokémon protagonista e bonus non ancora annunciati. Di solito un Pokémon occupa la maggior parte dei Punti energetici, con dei bonus."
+    "ko": "거다이맥스 인텔리레온 맥스배틀 데이(12/5 14:00~17:00 현지). 6성 맥스배틀에 거다이맥스 인텔리레온이 나오고, 처음으로 색이 다른 모습도 나와요.",
+    "ja": "キョダイマックスインテレオンのマックスバトル・デイ（12/5 14:00〜17:00 現地）。★6マックスバトルにキョダイマックスインテレオンが登場し、初めて色違いも出ます。",
+    "en": "Gigantamax Inteleon Max Battle Day (Dec 5, 14:00–17:00 local). Gigantamax Inteleon appears in six-star Max Battles, and can be Shiny for the first time.",
+    "zh-Hant": "超極巨千面避役極巨對戰日（12/5 14:00～17:00 當地）。超極巨千面避役登場於六星極巨對戰，並首次可能出現異色。",
+    "zh-Hans": "超极巨千面避役极巨对战日（12/5 14:00～17:00 当地）。超极巨千面避役登场于六星极巨对战，并首次可能出现异色。",
+    "fr": "Journée Combats Dynamax Lézargus Gigamax (5/12 de 14 h à 17 h, heure locale). Lézargus Gigamax apparaît en Combats Dynamax 6 étoiles, et peut être chromatique pour la première fois.",
+    "de": "Dyna-Kampftag mit Gigadynamax-Intelleon (5.12., 14–17 Uhr Ortszeit). Gigadynamax-Intelleon erscheint in 6-Sterne-Dyna-Kämpfen und kann erstmals schillernd sein.",
+    "es": "Día de Combates Max de Inteleon Gigamax (5/12 de 14:00 a 17:00, hora local). Inteleon Gigamax aparece en Combates Max de 6 estrellas y puede ser variocolor por primera vez.",
+    "it": "Giornata delle Lotte Dynamax di Inteleon Gigamax (5/12 dalle 14:00 alle 17:00, ora locale). Inteleon Gigamax compare nelle Lotte Dynamax a 6 stelle e può essere cromatico per la prima volta."
    },
    "detailSources": [
-    "https://pokemongo.com/news/save-the-date-s25",
-    "https://leekduck.com/events/max-battle-day-december-2026/",
-    "https://leekduck.com/events/"
+    "https://pokemongo.com/news/gigantamax-inteleon-max-battle-day-2026",
+    "https://leekduck.com/events/gigantamax-inteleon-max-battle-day-2026/",
+    "https://pokemongohub.net/post/event/pokemon-go-december-2026-events/"
+   ],
+   "bonuses": [
+    {
+     "code": "custom",
+     "text": {
+      "ko": "맥스 파티클 보관 한도 1,600 · 파워스폿에서 맥스 파티클 8배",
+      "ja": "マックス粒子の上限1,600・パワースポットでマックス粒子8倍",
+      "en": "Max Particles limit 1,600 · 8× Max Particles from Power Spots",
+      "zh-Hant": "極巨粒子上限1,600・能量點極巨粒子8倍",
+      "zh-Hans": "极巨粒子上限1,600・能量点极巨粒子8倍",
+      "fr": "Limite de Particules Max 1 600 · Particules Max ×8 aux Source d’Énergies",
+      "de": "Dyna-Partikel-Limit 1.600 · 8× Dyna-Partikel von Kraftquellen",
+      "es": "Límite de Partículas Max 1600 · Partículas Max ×8 en nodo energéticos",
+      "it": "Limite Particelle Dynamax 1.600 · Particelle Dynamax ×8 dai Punto energetico"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "모든 파워스폿에서 거다이맥스 배틀, 파워스폿이 더 많이·더 자주 바뀜",
+      "ja": "すべてのパワースポットでキョダイマックスバトル、パワースポットが増えて入れ替わりも早い",
+      "en": "All Power Spots host Gigantamax Battles; more Power Spots, refreshing more often",
+      "zh-Hant": "所有能量點都是超極巨對戰，能量點更多、更常更新",
+      "zh-Hans": "所有能量点都是超极巨对战，能量点更多、更常更新",
+      "fr": "Toutes les Source d’Énergies accueillent des Combats Gigamax ; plus de Source d’Énergies, renouvelées plus souvent",
+      "de": "Alle Kraftquellen mit Gigadynamax-Kämpfen; mehr Kraftquellen, die öfter wechseln",
+      "es": "Todos los nodo energéticos con combates Gigamax; más nodo energéticos que cambian más a menudo",
+      "it": "Tutti i Punto energetico ospitano Lotte Gigamax; più Punto energetico, rinnovati più spesso"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "특별한 교환 하루 최대 3번 · 리모트 레이드 하루 20번(12/4 16:00~12/5 20:00 PST)",
+      "ja": "特別な交換は1日最大3回・リモートレイドは1日20回（12/4 16:00〜12/5 20:00 PST）",
+      "en": "Up to 3 Special Trades · 20 Remote Raids per day (Dec 4, 16:00 – Dec 5, 20:00 PST)",
+      "zh-Hant": "特別交換每天最多3次・遠距團體戰每天20次（12/4 16:00～12/5 20:00 PST）",
+      "zh-Hans": "特别交换每天最多3次・远距团体战每天20次（12/4 16:00～12/5 20:00 PST）",
+      "fr": "Jusqu'à 3 Échanges spéciaux · 20 Raids à distance par jour (4/12 16 h – 5/12 20 h PST)",
+      "de": "Bis zu 3 Spezialtausche · 20 Fern-Raids pro Tag (4.12. 16:00 – 5.12. 20:00 PST)",
+      "es": "Hasta 3 intercambios especiales · 20 incursiones remotas al día (4/12 16:00 – 5/12 20:00 PST)",
+      "it": "Fino a 3 scambi speciali · 20 raid a distanza al giorno (4/12 16:00 – 5/12 20:00 PST)"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "12/5 0:00~17:00: 탐험으로 얻는 맥스 파티클 2배, 받는 거리 1/4",
+      "ja": "12/5 0:00〜17:00：冒険で集めるマックス粒子2倍、必要な距離1/4",
+      "en": "Dec 5, 0:00–17:00: 2× Max Particles from exploring, 1/4 distance to collect",
+      "zh-Hant": "12/5 0:00～17:00：探索獲得的極巨粒子2倍、所需距離1/4",
+      "zh-Hans": "12/5 0:00～17:00：探索获得的极巨粒子2倍、所需距离1/4",
+      "fr": "5/12 0 h–17 h : Particules Max ×2 en explorant, distance ÷4",
+      "de": "5.12. 0–17 Uhr: 2× Dyna-Partikel beim Erkunden, 1/4 Distanz",
+      "es": "5/12 0:00–17:00: Partículas Max ×2 al explorar, 1/4 de distancia",
+      "it": "5/12 0:00–17:00: Particelle Dynamax ×2 esplorando, 1/4 della distanza"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "티켓(현지 가격): 다이버섯 1개, XP 25,000, 맥스 파티클 6,400 + 맥스배틀 XP 2배",
+      "ja": "チケット（現地価格）：ダイキノコ1個、XP 25,000、マックス粒子6,400＋マックスバトルXP2倍",
+      "en": "Ticket (local price): 1 Max Mushroom, 25,000 XP, 6,400 Max Particles + 2× Max Battle XP",
+      "zh-Hant": "門票（當地價格）：極巨菇菇1個、XP 25,000、極巨粒子6,400＋極巨對戰XP 2倍",
+      "zh-Hans": "门票（当地价格）：极巨菇菇1个、XP 25,000、极巨粒子6,400＋极巨对战XP 2倍",
+      "fr": "Billet (prix local) : 1 Maxi Champi, 25 000 XP, 6 400 Particules Max + XP ×2 en Combats Dynamax",
+      "de": "Ticket (lokaler Preis): 1 Dyna-Pilz, 25.000 EP, 6.400 Dyna-Partikel + 2× EP aus Dyna-Kämpfen",
+      "es": "Entrada (precio local): 1 Maxiseta, 25 000 PX, 6400 Partículas Max + PX ×2 en Combates Max",
+      "it": "Biglietto (prezzo locale): 1 Fungomax, 25.000 PE, 6.400 Particelle Dynamax + PE ×2 dalle Lotte Dynamax"
+     }
+    }
    ]
   },
   {
@@ -5011,16 +5195,79 @@
     "https://pokemongohub.net/post/event/pokemon-go-december-2026-events/"
    ],
    "about": {
-    "ko": "「Pokémon Champions」 콜라보 이벤트(12/8 10:00 ~ 12/14 20:00 현지). 이벤트 레이드에 스페셜 배경 포켓몬이 나오고, 포켓스톱에서 켈리몬을 만날 확률이 올라가요. 5성 레이드는 12/9~12/15에 전설 포켓몬 8마리가 정해진 일정으로 나와요.",
-    "ja": "『Pokémon Champions』コラボイベント（12/8 10:00〜12/14 20:00 現地）。イベントのレイドでスペシャル背景のポケモンが登場し、ポケストップでカクレオンに出会いやすくなります。★5レイドは12/9〜12/15に伝説のポケモン8匹が日替わりで登場。",
-    "en": "Pokémon Champions Celebration (Dec 8, 10:00 – Dec 14, 20:00 local). Event raids can have Special Backgrounds, and Kecleon appears more at PokéStops. Eight Legendary Pokémon have scheduled 5-star raid appearances from Dec 9 to 15.",
-    "zh-Hant": "《Pokémon Champions》聯名活動（12/8 10:00～12/14 20:00 當地）。活動團體戰可能出現特別背景的寶可夢，在寶可補給站更容易遇到變隱龍。12/9～12/15五星團體戰將依排程出現8隻傳說寶可夢。",
-    "zh-Hans": "《Pokémon Champions》联名活动（12/8 10:00～12/14 20:00 当地）。活动团体战可能出现特别背景的宝可梦，在宝可补给站更容易遇到变隐龙。12/9～12/15五星团体战将按排程出现8只传说宝可梦。",
-    "fr": "Célébration pour Pokémon Champions (du 8/12 10 h au 14/12 20 h, heure locale). Fonds spéciaux dans les raids de l’évènement et plus de Kecleon aux PokéStops. Huit Pokémon légendaires apparaissent selon un calendrier dans les raids 5 étoiles du 9 au 15/12.",
-    "de": "Event zur Feier von Pokémon Champions (8.12., 10:00 – 14.12., 20:00 Ortszeit). Event-Raids mit Spezialhintergründen, mehr Kecleon an PokéStops. Acht legendäre Pokémon erscheinen vom 9. bis 15.12. nach Plan in 5-Sterne-Raids.",
-    "es": "Evento de celebración de Pokémon Champions (del 8/12 a las 10:00 al 14/12 a las 20:00, hora local). Fondos especiales en incursiones del evento y más Kecleon en las Poképaradas. Ocho Pokémon legendarios aparecen según calendario en incursiones de 5 estrellas del 9 al 15/12.",
-    "it": "Festeggiamenti per Pokémon Champions (dall’8/12 ore 10:00 al 14/12 ore 20:00, ora locale). Sfondi speciali nei raid dell’evento e più Kecleon ai PokéStop. Otto Pokémon leggendari compaiono a calendario nei raid a 5 stelle dal 9 al 15/12."
-   }
+    "ko": "「Pokémon Champions」 콜라보 이벤트(12/8 10:00 ~ 12/14 20:00 현지). 이벤트 레이드 포켓몬에 스페셜 배경이 붙고, 5성 레이드는 12/9~12/15에 라티아스·라티오스·히드런·코바르온·테라키온·비리디온·레지에레키·레지드래고가 정해진 일정으로 나와요. 포켓몬 GO에서 잡은 포켓몬을 Pokémon HOME으로 보내 Pokémon Champions에 보내면 선물을 받아요.",
+    "ja": "『Pokémon Champions』コラボイベント（12/8 10:00〜12/14 20:00 現地）。イベントのレイドのポケモンにスペシャル背景が付き、★5レイドは12/9〜12/15にラティアス・ラティオス・ヒードラン・コバルオン・テラキオン・ビリジオン・レジエレキ・レジドラゴが日替わりで登場。『Pokémon GO』で捕まえたポケモンを『Pokémon HOME』経由で『Pokémon Champions』に送るとプレゼントがもらえます。",
+    "en": "Pokémon Champions Celebration (Dec 8, 10:00 – Dec 14, 20:00 local). Event raid Pokémon can have Special Backgrounds; 5-star raids feature Latias, Latios, Heatran, Cobalion, Terrakion, Virizion, Regieleki, Regidrago on a schedule from Dec 9 to 15. Send a Pokémon caught in GO to Pokémon Champions via Pokémon HOME for a gift.",
+    "zh-Hant": "《Pokémon Champions》聯名活動（12/8 10:00～12/14 20:00 當地）。活動團體戰的寶可夢可能有特別背景，五星團體戰12/9～12/15依排程出現拉帝亞斯・拉帝歐斯・席多藍恩・勾帕路翁・代拉基翁・畢力吉翁・雷吉艾勒奇・雷吉鐸拉戈。將在GO捕捉的寶可夢經由Pokémon HOME送到Pokémon Champions可獲得禮物。",
+    "zh-Hans": "《Pokémon Champions》联名活动（12/8 10:00～12/14 20:00 当地）。活动团体战的宝可梦可能有特别背景，五星团体战12/9～12/15按排程出现拉帝亚斯・拉帝欧斯・席多蓝恩・勾帕路翁・代拉基翁・毕力吉翁・雷吉艾勒奇・雷吉铎拉戈。将在GO捕捉的宝可梦经由Pokémon HOME送到Pokémon Champions可获得礼物。",
+    "fr": "Célébration pour Pokémon Champions (du 8/12 10 h au 14/12 20 h, heure locale). Les Pokémon des raids de l’évènement peuvent avoir un Fond spécial ; les raids 5 étoiles proposent Latias, Latios, Heatran, Cobaltium, Terrakium, Viridium, Regieleki, Regidrago selon un calendrier du 9 au 15/12. Envoyez un Pokémon capturé dans GO vers Pokémon Champions via Pokémon HOME pour recevoir un cadeau.",
+    "de": "Event zur Feier von Pokémon Champions (8.12., 10:00 – 14.12., 20:00 Ortszeit). Event-Raid-Pokémon können Spezialhintergründe haben; 5-Sterne-Raids mit Latias, Latios, Heatran, Kobalium, Terrakium, Viridium, Regieleki, Regidrago nach Plan vom 9. bis 15.12. Schicke ein in GO gefangenes Pokémon über Pokémon HOME zu Pokémon Champions und erhalte ein Geschenk.",
+    "es": "Evento de celebración de Pokémon Champions (del 8/12 a las 10:00 al 14/12 a las 20:00, hora local). Los Pokémon de incursiones del evento pueden tener fondo especial; las de 5 estrellas traen a Latias, Latios, Heatran, Cobalion, Terrakion, Virizion, Regieleki, Regidrago según calendario del 9 al 15/12. Envía un Pokémon atrapado en GO a Pokémon Champions mediante Pokémon HOME para recibir un regalo.",
+    "it": "Festeggiamenti per Pokémon Champions (dall’8/12 ore 10:00 al 14/12 ore 20:00, ora locale). I Pokémon dei raid dell’evento possono avere uno sfondo speciale; i raid a 5 stelle propongono Latias, Latios, Heatran, Cobalion, Terrakion, Virizion, Regieleki, Regidrago a calendario dal 9 al 15/12. Invia un Pokémon catturato in GO a Pokémon Champions tramite Pokémon HOME per ricevere un regalo."
+   },
+   "detailSources": [
+    "https://pokemongo.com/news/pokemon-champions-celebration-event-2026",
+    "https://leekduck.com/events/pokemon-champions-celebration-event-2026/",
+    "https://pokemongohub.net/post/event/pokemon-go-december-2026-events/"
+   ],
+   "bonuses": [
+    {
+     "code": "custom",
+     "text": {
+      "ko": "포켓스톱에서 켈리몬을 만날 확률 증가",
+      "ja": "ポケストップでカクレオンに出会いやすい",
+      "en": "Higher chance to find Kecleon at PokéStops",
+      "zh-Hant": "在寶可補給站更容易遇到變隱龍",
+      "zh-Hans": "在宝可补给站更容易遇到变隐龙",
+      "fr": "Plus de chances de trouver Kecleon aux PokéStops",
+      "de": "Höhere Chance auf Kecleon an PokéStops",
+      "es": "Más probabilidad de encontrar a Kecleon en Poképaradas",
+      "it": "Più probabilità di trovare Kecleon ai PokéStop"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "GO 패스 랭크 1: GO 트랜스포터 에너지 7배 · 랭크 10: 포획 사탕 2배(12월 커뮤니티 데이 보너스와 겹치지 않음) · 랭크 20: 레이드 XP +3,000",
+      "ja": "GOパス ランク1：GOトランスポーターのエネルギー7倍・ランク10：捕獲時のアメ2倍（12月コミュニティ・デイのボーナスとは重複しない）・ランク20：レイドXP+3,000",
+      "en": "GO Pass Rank 1: 7× GO Transporter energy · Rank 10: 2× catch Candy (doesn’t stack with December Community Day) · Rank 20: +3,000 Raid XP",
+      "zh-Hant": "GO Pass 等級1：GO傳輸器能量7倍・等級10：捕捉糖果2倍（不與12月社群日加成疊加）・等級20：團體戰XP+3,000",
+      "zh-Hans": "GO Pass 等级1：GO传输器能量7倍・等级10：捕捉糖果2倍（不与12月社群日加成叠加）・等级20：团体战XP+3,000",
+      "fr": "Passe GO rang 1 : énergie du Transporteur GO ×7 · rang 10 : Bonbons de capture ×2 (non cumulable avec la Journée Communauté de décembre) · rang 20 : +3 000 XP de raid",
+      "de": "GO-Pass Rang 1: 7× GO-Transporter-Energie · Rang 10: 2× Fang-Bonbons (nicht mit dem Community Day im Dezember kombinierbar) · Rang 20: +3.000 Raid-EP",
+      "es": "Pase de GO rango 1: energía del Transportador GO ×7 · rango 10: caramelos al atrapar ×2 (no se acumula con el Día de la Comunidad de diciembre) · rango 20: +3000 PX de incursión",
+      "it": "Biglietto GO grado 1: energia del Trasportatore GO ×7 · grado 10: caramelle per cattura ×2 (non cumulabile con il Community Day di dicembre) · grado 20: +3.000 PE dai raid"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "GO 패스 디럭스: 체육관 포토디스크를 돌리면 무료 레이드패스 하루 최대 2장 · 필드리서치 보상 이상한사탕",
+      "ja": "GOパスデラックス：ジムのフォトディスクを回すと無料のレイドパスが1日最大2枚・フィールドリサーチでふしぎなアメ",
+      "en": "GO Pass Deluxe: up to 2 free Raid Passes per day from Gym Photo Discs · Field Research rewards Rare Candy",
+      "zh-Hant": "GO Pass豪華版：轉動道館照片圓盤每天最多2張免費團體戰入場券・田野調查獎勵神奇糖果",
+      "zh-Hans": "GO Pass豪华版：转动道馆照片圆盘每天最多2张免费团体战入场券・田野调查奖励神奇糖果",
+      "fr": "Passe GO Deluxe : jusqu’à 2 Passe de Raid gratuits par jour aux Disques Photo d’Arène · Études de terrain : Super Bonbon",
+      "de": "GO-Pass-Deluxe: bis zu 2 kostenlose Raid-Passe pro Tag von Arena-Fotoscheiben · Feldforschung: Sonderbonbon",
+      "es": "Pase de GO deluxe: hasta 2 Pase de incursión gratis al día de los Discos Foto de gimnasio · Investigación de campo: Caramelo Raro",
+      "it": "Biglietto GO deluxe: fino a 2 Biglietto raid gratuiti al giorno dai Photo Disc delle Palestre · Ricerca sul campo: Caramella Rara"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "야생: 파이리·찌르꼬·흥나숭 등, 운 좋으면 앱솔·딥상어동 | 레이드: 1성 아공이·냐오불·드니차 · 3성 라이츄·한카리아스·고릴타",
+      "ja": "野生：ヒトカゲ・ムックル・サルノリなど、運がよければアブソル・フカマル｜レイド：★1 タツベイ・ニャビー・セビエ・★3 ライチュウ・ガブリアス・ゴリランダー",
+      "en": "Wild: Charmander, Starly, Grookey and more, rarely Absol, Gible | Raids: 1-star Bagon, Litten, Frigibax · 3-star Raichu, Garchomp, Rillaboom",
+      "zh-Hant": "野生：小火龍・姆克兒・敲音猴等，運氣好可遇到阿勃梭魯・圓陸鯊｜團體戰：一星寶貝龍・火斑喵・涼脊龍・三星雷丘・烈咬陸鯊・轟擂金剛猩",
+      "zh-Hans": "野生：小火龙・姆克儿・敲音猴等，运气好可遇到阿勃梭鲁・圆陆鲨｜团体战：一星宝贝龙・火斑喵・凉脊龙・三星雷丘・烈咬陆鲨・轰擂金刚猩",
+      "fr": "Sauvages : Salamèche, Étourmi, Ouistempo, etc., parfois Absol, Griknot | Raids : 1 étoile Draby, Flamiaou, Frigodo · 3 étoiles Raichu, Carchacrok, Gorythmic",
+      "de": "Wild: Glumanda, Staralili, Chimpep u. a., selten Absol, Kaumalat | Raids: 1 Stern Kindwurm, Flamiau, Frospino · 3 Sterne Raichu, Knakrack, Gortrom",
+      "es": "Salvajes: Charmander, Starly, Grookey y más, a veces Absol, Gible | Incursiones: 1 estrella Bagon, Litten, Frigibax · 3 estrellas Raichu, Garchomp, Rillaboom",
+      "it": "Selvatici: Charmander, Starly, Grookey e altri, a volte Absol, Gible | Raid: 1 stella Bagon, Litten, Frigibax · 3 stelle Raichu, Garchomp, Rillaboom"
+     }
+    }
+   ]
   },
   {
    "id": "pokemon-champions-celebration-2026",
@@ -5579,16 +5826,107 @@
     "https://pokemongohub.net/post/event/pokemon-go-december-2026-events/"
    ],
    "about": {
-    "ko": "한 달에 한 번 정해진 포켓몬이 3시간(보통 14:00~17:00 현지) 야생에 아주 많이 나오는 날. 그 시간이나 그 뒤 몇 시간 안에 진화하면 특별한 기술을 배우고, 별의모래·사탕 같은 보너스가 붙어요.",
-    "ja": "月に1回、特定のポケモンが3時間（通常14:00〜17:00 現地）野生にたくさん出現する日。その時間やその後の数時間に進化させると特別な技を覚え、ほしのすな・アメなどのボーナスが付きます。",
-    "en": "Once a month, a featured Pokémon appears in huge numbers for 3 hours (usually 14:00–17:00 local). Evolving it during or a few hours after gives an exclusive move, plus bonuses like extra Stardust or Candy.",
-    "zh-Hant": "每月一次，指定寶可夢在3小時內（通常14:00～17:00 當地）大量出現在野外。在活動期間或之後數小時內進化可學會特別招式，並有星星沙子・糖果等加成。",
-    "zh-Hans": "每月一次，指定宝可梦在3小时内（通常14:00～17:00 当地）大量出现在野外。在活动期间或之后数小时内进化可学会特别招式，并有星星沙子・糖果等加成。",
-    "fr": "Une fois par mois, un Pokémon vedette apparaît en masse pendant 3 h (souvent 14 h – 17 h, heure locale). Le faire évoluer pendant ou quelques heures après donne une capacité exclusive, avec des bonus comme plus de Poussière Étoile ou de Bonbons.",
-    "de": "Einmal im Monat erscheint ein Pokémon 3 Stunden lang massenhaft (meist 14–17 Uhr Ortszeit). Entwickelst du es währenddessen oder einige Stunden danach, lernt es eine exklusive Attacke; dazu Boni wie mehr Sternenstaub oder Bonbons.",
-    "es": "Una vez al mes, un Pokémon protagonista aparece en masa durante 3 horas (normalmente de 14:00 a 17:00, hora local). Si lo evolucionas durante o unas horas después aprende un movimiento exclusivo, y hay bonificaciones como más polvoestelar o caramelos.",
-    "it": "Una volta al mese un Pokémon protagonista appare in massa per 3 ore (di solito 14:00–17:00, ora locale). Facendolo evolvere durante o qualche ora dopo impara una mossa esclusiva, con bonus come più polvere di stelle o Caramelle."
-   }
+    "ko": "12월 커뮤니티 데이(12/12·12/13 14:00~17:00 현지). 2026년 커뮤니티 데이 포켓몬이 다시 나와요(원래 커뮤니티 데이와 같은 이로치 확률, 스페셜 배경 가능). 12/12: 식스테일·식스테일 (알로라의 모습)·흥나숭·염버니·맛보돈·어리짱(운 좋으면 팽도리) · 12/13: 조로아·자망칼·울머기·훔처우·드니차(운 좋으면 딥상어동·모노두). 9:00~21:00에도 어느 날 포켓몬이든 나올 수 있어요.",
+    "ja": "12月のコミュニティ・デイ（12/12・12/13 14:00〜17:00 現地）。2026年のコミュニティ・デイのポケモンが再登場（当時と同じ色違い確率、スペシャル背景あり）。12/12：ロコン・ロコン (アローラのすがた)・サルノリ・ヒバニー・グルトン・カヌチャン（運がよければポッチャマ）・12/13：ゾロア・コマタナ・メッソン・クスネ・セビエ（運がよければフカマル・モノズ）。9:00〜21:00はどちらの日のポケモンも出ることがあります。",
+    "en": "December Community Day (Dec 12 & 13, 14:00–17:00 local). 2026 Community Day Pokémon return (same Shiny odds as their original days, Special Backgrounds possible). Dec 12: Vulpix, Vulpix (Alolan Form), Grookey, Scorbunny, Lechonk, Tinkatink (rarely Piplup) · Dec 13: Zorua, Pawniard, Sobble, Nickit, Frigibax (rarely Gible, Deino). From 9:00 to 21:00, Pokémon from either day may appear.",
+    "zh-Hant": "12月社群日（12/12・12/13 14:00～17:00 當地）。2026年社群日的寶可夢再次登場（異色機率與當時相同，可能有特別背景）。12/12：六尾・六尾 (阿羅拉的樣子)・敲音猴・炎兔兒・愛吃豚・小鍛匠（運氣好可遇到波加曼）・12/13：索羅亞・駒刀小兵・淚眼蜥・偷兒狐・涼脊龍（運氣好可遇到圓陸鯊・單首龍）。9:00～21:00兩天的寶可夢都可能出現。",
+    "zh-Hans": "12月社群日（12/12・12/13 14:00～17:00 当地）。2026年社群日的宝可梦再次登场（异色概率与当时相同，可能有特别背景）。12/12：六尾・六尾 (阿羅拉的樣子)・敲音猴・炎兔儿・爱吃豚・小锻匠（运气好可遇到波加曼）・12/13：索罗亚・驹刀小兵・泪眼蜥・狡小狐・凉脊龙（运气好可遇到圆陆鲨・单首龙）。9:00～21:00两天的宝可梦都可能出现。",
+    "fr": "Journée Communauté de décembre (12 et 13/12, de 14 h à 17 h, heure locale). Les Pokémon des Journées Communauté 2026 reviennent (mêmes chances de chromatique, Fonds spéciaux possibles). 12/12 : Goupix, Goupix (Forme d’Alola), Ouistempo, Flambino, Gourmelet, Forgerette (parfois Tiplouf) · 13/12 : Zorua, Scalpion, Larméléon, Goupilou, Frigodo (parfois Griknot, Solochi). De 9 h à 21 h, ceux des deux jours peuvent apparaître.",
+    "de": "Community Day im Dezember (12. & 13.12., 14–17 Uhr Ortszeit). Die Community-Day-Pokémon 2026 kehren zurück (gleiche Shiny-Chance wie damals, Spezialhintergründe möglich). 12.12.: Vulpix, Vulpix (Alola-Form), Chimpep, Hopplo, Ferkuli, Forgita (selten Plinfa) · 13.12.: Zorua, Gladiantri, Memmeon, Kleptifux, Frospino (selten Kaumalat, Kapuno). Von 9 bis 21 Uhr können Pokémon beider Tage erscheinen.",
+    "es": "Día de la Comunidad de diciembre (12 y 13/12, de 14:00 a 17:00, hora local). Vuelven los Pokémon de los Días de la Comunidad de 2026 (misma probabilidad variocolor, fondos especiales posibles). 12/12: Vulpix, Vulpix (Forma de Alola), Grookey, Scorbunny, Lechonk, Tinkatink (a veces Piplup) · 13/12: Zorua, Pawniard, Sobble, Nickit, Frigibax (a veces Gible, Deino). De 9:00 a 21:00 pueden salir los de ambos días.",
+    "it": "Community Day di dicembre (12 e 13/12, dalle 14:00 alle 17:00, ora locale). Tornano i Pokémon dei Community Day 2026 (stesse probabilità di cromatico, sfondi speciali possibili). 12/12: Vulpix, Vulpix (Forma di Alola), Grookey, Scorbunny, Lechonk, Tinkatink (a volte Piplup) · 13/12: Zorua, Pawniard, Sobble, Nickit, Frigibax (a volte Gible, Deino). Dalle 9:00 alle 21:00 possono comparire quelli di entrambi i giorni."
+   },
+   "detailSources": [
+    "https://pokemongo.com/news/community-day-december-2026",
+    "https://leekduck.com/events/december-communityday2026/",
+    "https://pokemongohub.net/post/event/pokemon-go-december-2026-events/"
+   ],
+   "bonuses": [
+    {
+     "code": "custom",
+     "text": {
+      "ko": "포획 XP 2배 · 포획 별의모래 2배 · 포획 사탕 2배 · 사탕XL 확률 2배(Lv.31+) (14:00~17:00)",
+      "ja": "捕獲XP2倍・捕獲ほしのすな2倍・捕獲アメ2倍・アメXL確率2倍（TL31以上）（14:00〜17:00）",
+      "en": "2× catch XP · 2× catch Stardust · 2× catch Candy · 2× Candy XL chance (level 31+) (14:00–17:00)",
+      "zh-Hant": "捕捉XP 2倍・捕捉星星沙子2倍・捕捉糖果2倍・XL糖果機率2倍（等級31以上）（14:00～17:00）",
+      "zh-Hans": "捕捉XP 2倍・捕捉星星沙子2倍・捕捉糖果2倍・XL糖果概率2倍（等级31以上）（14:00～17:00）",
+      "fr": "XP de capture ×2 · Poussière Étoile ×2 · Bonbons ×2 · chance de Bonbon XL ×2 (niv. 31+) (14 h–17 h)",
+      "de": "2× Fang-EP · 2× Sternenstaub · 2× Bonbons · 2× Bonbon-XL-Chance (ab Level 31) (14–17 Uhr)",
+      "es": "PX al atrapar ×2 · polvoestelar ×2 · caramelos ×2 · probabilidad de caramelo XL ×2 (nivel 31+) (14:00–17:00)",
+      "it": "PE per cattura ×2 · polvere di stelle ×2 · caramelle ×2 · probabilità caramelle XL ×2 (livello 31+) (14:00–17:00)"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "알 부화 거리 1/2 · 향로 3시간 · 루어모듈 1시간",
+      "ja": "タマゴのふか距離1/2・おこう3時間・ルアーモジュール1時間",
+      "en": "1/2 Egg hatch distance · 3-hour Incense · 1-hour Lure Modules",
+      "zh-Hant": "孵蛋距離1/2・薰香3小時・誘餌模組1小時",
+      "zh-Hans": "孵蛋距离1/2・薰香3小时・誘餌模組1小时",
+      "fr": "Distance d’éclosion ÷2 · Encens 3 h · Module Leurre 1 h",
+      "de": "1/2 Brutdistanz · Rauch 3 Std. · Lockmodul 1 Std.",
+      "es": "Distancia de eclosión ÷2 · Incienso 3 h · Módulo Cebo 1 h",
+      "it": "Distanza di schiusa ÷2 · Aroma 3 ore · Modulo esca 1 ora"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "12/12 9:00~12/13 21:00: 특별한 교환 하루 2번 · 교환 별의모래 50% 감소",
+      "ja": "12/12 9:00〜12/13 21:00：特別な交換は1日2回・交換のほしのすな50%減",
+      "en": "Dec 12, 9:00 – Dec 13, 21:00: 2 Special Trades per day · 50% less trade Stardust",
+      "zh-Hant": "12/12 9:00～12/13 21:00：特別交換每天2次・交換星星沙子減少50%",
+      "zh-Hans": "12/12 9:00～12/13 21:00：特别交换每天2次・交换星星沙子减少50%",
+      "fr": "12/12 9 h – 13/12 21 h : 2 Échanges spéciaux par jour · –50 % de Poussière Étoile pour les échanges",
+      "de": "12.12. 9:00 – 13.12. 21:00: 2 Spezialtausche pro Tag · 50 % weniger Sternenstaub beim Tauschen",
+      "es": "12/12 9:00 – 13/12 21:00: 2 intercambios especiales al día · 50 % menos polvoestelar al intercambiar",
+      "it": "12/12 9:00 – 13/12 21:00: 2 scambi speciali al giorno · 50% di polvere di stelle in meno negli scambi"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "12/12 9:00~12/13 21:00 진화 특별 기술: 나인테일→에너지볼·나인테일 (알로라의 모습)→찬물끼얹기·엠페르트→하이드로캐논·한카리아스→대지의힘·조로아크→기습·삼삼드래→세차게휘두르기·고릴타→하드플랜트·에이스번→블라스트번·인텔리레온→하이드로캐논·폭슬라이→얼어붙은바람·퍼퓨돈→진흙뿌리기·두드리짱→거대해머·대도각참→도각참·드닐레이브→대검돌격",
+      "ja": "12/12 9:00〜12/13 21:00 進化で覚える特別な技：キュウコン→エナジーボール・キュウコン (アローラのすがた)→ひやみず・エンペルト→ハイドロカノン・ガブリアス→だいちのちから・ゾロアーク→ふいうち・サザンドラ→ぶんまわす・ゴリランダー→ハードプラント・エースバーン→ブラストバーン・インテレオン→ハイドロカノン・フォクスライ→こごえるかぜ・パフュートン→どろかけ・デカヌチャン→デカハンマー・ドドゲザン→ドゲザン・セグレイブ→きょけんとつげき",
+      "en": "Featured attacks by evolving (Dec 12, 9:00 – Dec 13, 21:00): Ninetales: Energy Ball, Ninetales (Alolan Form): Chilling Water, Empoleon: Hydro Cannon, Garchomp: Earth Power, Zoroark: Sucker Punch, Hydreigon: Brutal Swing, Rillaboom: Frenzy Plant, Cinderace: Blast Burn, Inteleon: Hydro Cannon, Thievul: Icy Wind, Oinkologne: Mud-Slap, Tinkaton: Gigaton Hammer, Kingambit: Kowtow Cleave, Baxcalibur: Glaive Rush",
+      "zh-Hant": "12/12 9:00～12/13 21:00 進化可學會特別招式：九尾→能量球・九尾 (阿羅拉的樣子)→潑冷水・帝王拿波→加農水炮・烈咬陸鯊→大地之力・索羅亞克→突襲・三首惡龍→狂舞揮打・轟擂金剛猩→瘋狂植物・閃焰王牌→爆炸烈焰・千面避役→加農水炮・狐大盜→冰凍之風・飄香豚→掷泥・巨鍛匠→巨力錘・仆斬將軍→仆刀・戟脊龍→巨劍突擊",
+      "zh-Hans": "12/12 9:00～12/13 21:00 进化可学会特别招式：九尾→能量球・九尾 (阿羅拉的樣子)→潑冷水・帝王拿波→加農水炮・烈咬陆鲨→大地之力・索罗亚克→突襲・三首恶龙→狂舞揮打・轰擂金刚猩→瘋狂植物・闪焰王牌→爆炸烈焰・千面避役→加農水炮・猾大狐→冰凍之风・飘香豚→掷泥・巨锻匠→巨力錘・仆刀将军→仆刀・戟脊龙→巨劍突击",
+      "fr": "Attaques vedettes par évolution (12/12 9 h – 13/12 21 h) : Feunard: Éco-Sphère, Feunard (Forme d’Alola): Douche Froide, Pingoléon: Hydroblast, Carchacrok: Telluriforce, Zoroark: Coup Bas, Trioxhydre: Centrifugifle, Gorythmic: Végé-Attaque, Pyrobut: Rafale Feu, Lézargus: Hydroblast, Roublenard: Vent Glace, Fragroin: Coud’Boue, Forgelina: Marteau Mastoc, Scalpereur: Génusection, Glaivodo: Charge Glaive",
+      "de": "Besondere Attacken durch Entwicklung (12.12. 9:00 – 13.12. 21:00): Vulnona: Energieball, Vulnona (Alola-Form): Kalte Dusche, Impoleon: Aquahaubitze, Knakrack: Erdkräfte, Zoroark: Tiefschlag, Trikephalo: Wirbler, Gortrom: Flora-Statue, Liberlo: Lohekanonade, Intelleon: Aquahaubitze, Gaunux: Eissturm, Fragrunz: Lehmschelle, Granforgita: Riesenhammer, Gladimperio: Kniefallspalter, Espinodon: Großklingenstoß",
+      "es": "Ataques destacados al evolucionar (12/12 9:00 – 13/12 21:00): Ninetales: Energibola, Ninetales (Forma de Alola): Agua Fría, Empoleon: Hidrocañón, Garchomp: Tierra Viva, Zoroark: Golpe Bajo, Hydreigon: Giro Vil, Rillaboom: Planta Feroz, Cinderace: Anillo Ígneo, Inteleon: Hidrocañón, Thievul: Viento Hielo, Oinkologne: Bofetón Lodo, Tinkaton: Martillo Colosal, Kingambit: Genufendiente, Baxcalibur: Asalto Espadón",
+      "it": "Mosse speciali evolvendo (12/12 9:00 – 13/12 21:00): Ninetales: Energipalla, Ninetales (Forma di Alola): Doccia Fredda, Empoleon: Idrocannone, Garchomp: Geoforza, Zoroark: Sbigoattacco, Hydreigon: Vorticolpo, Rillaboom: Radicalbero, Cinderace: Incendio, Inteleon: Idrocannone, Thievul: Ventogelato, Oinkologne: Fangosberla, Tinkaton: Granmartello, Kingambit: Genufendente, Baxcalibur: Spadoncarica"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "절각참을 파트너로 악·강철 타입 레이드 보스를 1번 쓰러뜨리면 대도각참(으)로 진화 가능(12/13 21:00까지)",
+      "ja": "キリキザンを相棒にしてあく・はがねタイプのレイドボスを1回倒すとドドゲザンに進化可能（12/13 21:00まで）",
+      "en": "Evolve Bisharp into Kingambit after defeating one Dark- or Steel-type Raid Boss with it as your buddy (until Dec 13, 21:00)",
+      "zh-Hant": "以劈斬司令為夥伴打倒1次惡・鋼屬性團體戰首領即可進化為仆斬將軍（至12/13 21:00）",
+      "zh-Hans": "以劈斩司令为伙伴打倒1次恶・钢属性团体战首领即可进化为仆刀将军（至12/13 21:00）",
+      "fr": "Faites évoluer Scalproie en Scalpereur après avoir vaincu un boss de raid Ténèbres ou Acier avec lui comme copain (jusqu’au 13/12 21 h)",
+      "de": "Entwickle Caesurio zu Gladimperio, nachdem es als Kumpel einen Unlicht- oder Stahl-Raid-Boss besiegt hat (bis 13.12. 21:00)",
+      "es": "Evoluciona a Bisharp en Kingambit tras derrotar a un jefe de incursión de tipo Siniestro o Acero con él de compañero (hasta el 13/12 21:00)",
+      "it": "Evolvi Bisharp in Kingambit dopo aver sconfitto un boss dei raid di tipo Buio o Acciaio con lui come compagno (fino al 13/12 21:00)"
+     }
+    },
+    {
+     "code": "custom",
+     "text": {
+      "ko": "스페셜 리서치(현지 가격)",
+      "ja": "スペシャルリサーチ（現地価格）",
+      "en": "Special Research (local price)",
+      "zh-Hant": "特殊調查（當地價格）",
+      "zh-Hans": "特殊调查（当地价格）",
+      "fr": "Étude spéciale (prix local)",
+      "de": "Spezialforschung (lokaler Preis)",
+      "es": "Investigación especial (precio local)",
+      "it": "Ricerca speciale (prezzo locale)"
+     }
+    }
+   ]
   },
   {
    "id": "max_monday-2026-12-14-eevee",
