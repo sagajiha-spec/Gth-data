@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "updatedAt": "2026-11-27T05:31:44Z",
+ "updatedAt": "2026-11-28T00:41:32Z",
  "_comment": "자동 생성 파일 — 직접 고치지 말고 schedule/events.json·raids.json을 고친 뒤 tools/build_schedule.py 실행. title은 9개 언어, label은 종류 이름.",
  "events": [
   {
@@ -3963,15 +3963,15 @@
     {
      "code": "custom",
      "text": {
-      "ko": "티켓(US$4.99): 레이드 이상한사탕XL 확률 증가, 슈퍼 메가 레이드 XP·별의모래 +5,000",
-      "ja": "チケット（US$4.99）：レイドでふしぎなアメXLが出やすい、スーパーメガレイドでXP・ほしのすな+5,000",
-      "en": "Ticket (US$4.99): better Rare Candy XL odds from raids, +5,000 XP and Stardust from Super Mega Raids",
-      "zh-Hant": "門票（US$4.99）：團體戰神奇糖果XL機率提升，超級Mega團體戰XP・星星沙子+5,000",
-      "zh-Hans": "门票（US$4.99）：团体战神奇糖果XL概率提升，超级Mega团体战XP・星星沙子+5,000",
+      "ko": "티켓(현지 가격): 레이드 이상한사탕XL 확률 증가, 슈퍼 메가 레이드 XP·별의모래 +5,000",
+      "ja": "チケット（現地価格）：レイドでふしぎなアメXLが出やすい、スーパーメガレイドでXP・ほしのすな+5,000",
+      "en": "Ticket (local price): better Rare Candy XL odds from raids, +5,000 XP and Stardust from Super Mega Raids",
+      "zh-Hant": "門票（當地價格）：團體戰神奇糖果XL機率提升，超級Mega團體戰XP・星星沙子+5,000",
+      "zh-Hans": "门票（当地价格）：团体战神奇糖果XL概率提升，超级Mega团体战XP・星星沙子+5,000",
       "fr": "Billet (4,99 $ US) : plus de Super Bonbons L en Raid, +5 000 XP et Poussière Étoile en Super Méga-Raids",
-      "de": "Ticket (4,99 US$): höhere Chance auf Sonderbonbon XL aus Raids, +5.000 EP und Sternenstaub aus Super-Mega-Raids",
-      "es": "Entrada (4,99 US$): más probabilidad de Caramelo Raro ++ en incursiones, +5000 PX y polvoestelar en Súper Megaincursiones",
-      "it": "Biglietto (4,99 US$): più probabilità di Caramella Rara L dai raid, +5.000 PE e polvere di stelle dai Super Megaraid"
+      "de": "Ticket (lokaler Preis): höhere Chance auf Sonderbonbon XL aus Raids, +5.000 EP und Sternenstaub aus Super-Mega-Raids",
+      "es": "Entrada (precio local): más probabilidad de Caramelo Raro ++ en incursiones, +5000 PX y polvoestelar en Súper Megaincursiones",
+      "it": "Biglietto (prezzo locale): più probabilità di Caramella Rara L dai raid, +5.000 PE e polvere di stelle dai Super Megaraid"
      }
     },
     {
