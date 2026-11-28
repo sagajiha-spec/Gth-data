@@ -1,0 +1,146 @@
+{
+ "schemaVersion": 1,
+ "updatedAt": "2026-11-28",
+ "_comment": "시작 동영상 쪽지에 나오는 팁. 고친 뒤 python3 tools/publish_remote.py 로 올리면 앱을 다시 설치하지 않아도 바뀜. 추가: tips 에 한 줄 추가(id 는 겹치지 않게). 삭제: 그 줄 삭제. 잠깐 끄기: \"off\": true. 요일 팁: \"event\" 에 일정 id(예: friendship_friday)를 넣으면 그 요일 보너스가 일정에 있는 날에만 나오고, 그날 처음 켤 때 먼저 나옴. 기간 한정: \"from\"/\"until\" (YYYY-MM-DD). 나머지 팁은 켤 때마다 바로 전 팁과 다르게 무작위로 나옴. 9개 언어 모두 적기(빠지면 영어로 나옴). 돈 가격은 숫자로 쓰지 않음.",
+ "label": {
+  "ko": "오늘의 팁",
+  "ja": "今日のヒント",
+  "en": "Today's Tip",
+  "zh-Hant": "今日小提示",
+  "zh-Hans": "今日小提示",
+  "fr": "Astuce du jour",
+  "de": "Tipp des Tages",
+  "es": "Consejo del día",
+  "it": "Consiglio del giorno"
+ },
+ "tips": [
+  {
+   "id": "friday_trade_xl",
+   "event": "friendship_friday",
+   "text": {
+    "ko": "금요일엔 직접 만나서 교환하면 사탕XL 2개 확정! (Lv.31 이상)",
+    "ja": "金曜日は直接会って交換するとアメXLが2個確定！（TL31以上）",
+    "en": "On Fridays, in-person trades give 2 guaranteed Candy XL! (Lv. 31+)",
+    "zh-Hant": "週五面對面交換，必定獲得2個糖果XL！（31級以上）",
+    "zh-Hans": "周五面对面交换，必定获得2个糖果XL！（31级以上）",
+    "fr": "Le vendredi, les échanges en personne donnent 2 Bonbons L garantis ! (niv. 31+)",
+    "de": "Freitags gibt's beim Tausch vor Ort garantiert 2 Bonbons XL! (ab Lv. 31)",
+    "es": "¡Los viernes, los intercambios en persona dan 2 Caramelos ++ asegurados! (nivel 31+)",
+    "it": "Il venerdì gli scambi di persona danno 2 Caramelle L garantite! (liv. 31+)"
+   }
+  },
+  {
+   "id": "thursday_gbl_dust",
+   "event": "go_battle_thursday",
+   "text": {
+    "ko": "목요일엔 GO배틀리그 승리 별의모래가 최대 4배, 하루 10세트까지!",
+    "ja": "木曜日はGOバトルリーグの勝利でもらえるほしのすなが最大4倍、1日10セットまで！",
+    "en": "On Thursdays, GO Battle League wins give up to 4× Stardust, up to 10 sets a day!",
+    "zh-Hant": "週四GO對戰聯盟勝利獲得的星星沙子最多4倍，每天最多10組！",
+    "zh-Hans": "周四GO对战联盟胜利获得的星星沙子最多4倍，每天最多10组！",
+    "fr": "Le jeudi, les victoires en Ligue Combat GO donnent jusqu'à 4× plus de Poussières Étoiles, jusqu'à 10 séries par jour !",
+    "de": "Donnerstags gibt's für Siege in der GO-Kampfliga bis zu 4× Sternenstaub – bis zu 10 Sätze am Tag!",
+    "es": "¡Los jueves, las victorias en la Liga Combates GO dan hasta 4× Polvos Estelares, hasta 10 series al día!",
+    "it": "Il giovedì le vittorie nella Lega Lotte GO danno fino a 4× polvere di stelle, fino a 10 serie al giorno!"
+   }
+  },
+  {
+   "id": "audino_dust",
+   "text": {
+    "ko": "다부니를 잡으면 별의모래 2,100개! 보통 포켓몬(100~500개)보다 훨씬 많아요",
+    "ja": "タブンネを捕まえるとほしのすな2,100！ふつうのポケモン（100〜500）よりずっと多い！",
+    "en": "Catch Audino for 2,100 Stardust! Way more than usual (100–500).",
+    "zh-Hant": "捕捉差不多娃娃可獲得2,100星星沙子！比一般寶可夢（100～500）多很多",
+    "zh-Hans": "捕捉差不多娃娃可获得2,100星星沙子！比一般宝可梦（100～500）多很多",
+    "fr": "Attrape Nanméouïe pour 2 100 Poussières Étoiles ! Bien plus que d'habitude (100 à 500).",
+    "de": "Ohrdoch fangen bringt 2.100 Sternenstaub! Viel mehr als sonst (100–500).",
+    "es": "¡Atrapa a Audino y consigue 2100 Polvos Estelares! Mucho más de lo normal (100-500).",
+    "it": "Cattura Audino per 2.100 polvere di stelle! Molto più del solito (100-500)."
+   }
+  },
+  {
+   "id": "pinap_candy",
+   "text": {
+    "ko": "파인열매는 포획률을 안 올려요. 대신 사탕이 2배!",
+    "ja": "パイルのみは捕まえやすくならないけど、アメが2倍！",
+    "en": "Pinap Berries don't raise your catch rate, but they double the Candy!",
+    "zh-Hant": "凰梨果不會提高捕獲率，但糖果加倍！",
+    "zh-Hans": "凰梨果不会提高捕获率，但糖果加倍！",
+    "fr": "Les Baies Nanana n'aident pas à attraper, mais doublent les Bonbons !",
+    "de": "Sananabeeren erhöhen nicht die Fangchance, verdoppeln aber die Bonbons!",
+    "es": "¡Las Bayas Pinia no ayudan a capturar, pero duplican los Caramelos!",
+    "it": "Le Baccananas non aiutano la cattura, ma raddoppiano le caramelle!"
+   }
+  },
+  {
+   "id": "lucky_egg_friend",
+   "text": {
+    "ko": "행복의알을 켜고 우정 레벨업 선물을 열면 XP 2배!",
+    "ja": "しあわせタマゴを使ってから仲良し度が上がるギフトを開けるとXP2倍！",
+    "en": "Use a Lucky Egg before opening a Gift that raises your Friendship Level: 2× XP!",
+    "zh-Hant": "先使用幸運蛋，再打開會提升友誼等級的友情禮物，XP加倍！",
+    "zh-Hans": "先使用幸运蛋，再打开会提升友谊等级的友情礼物，XP加倍！",
+    "fr": "Active un Œuf Chance avant d'ouvrir un Cadeau qui monte ton Niveau d'amitié : 2× PX !",
+    "de": "Nutze ein Glücks-Ei, bevor du ein Geschenk öffnest, das dein Freundschaftslevel erhöht: 2× EP!",
+    "es": "¡Usa un Huevo Suerte antes de abrir un Regalo que sube tu Nivel de amistad: 2× PX!",
+    "it": "Usa un Fortunuovo prima di aprire un Pacco amicizia che alza il Livello di amicizia: PE ×2!"
+   }
+  },
+  {
+   "id": "shadow_attack",
+   "text": {
+    "ko": "그림자포켓몬은 공격 1.2배! 레이드 딜러로 최고예요 (강화 비용도 1.2배)",
+    "ja": "シャドーポケモンはこうげき1.2倍！レイドのアタッカーに最適（強化コストも1.2倍）",
+    "en": "Shadow Pokémon deal 1.2× damage! Great raid attackers (power-ups cost 1.2× too).",
+    "zh-Hant": "影子寶可夢攻擊1.2倍！最適合團體戰輸出（強化花費也是1.2倍）",
+    "zh-Hans": "影子宝可梦攻击1.2倍！最适合团体战输出（强化花费也是1.2倍）",
+    "fr": "Les Pokémon Ombre infligent 1,2× plus de dégâts ! Parfaits en Raid (l'amélioration coûte aussi 1,2× plus).",
+    "de": "Schatten-Pokémon machen 1,2× Schaden! Top-Angreifer für Raids (Power-ups kosten auch 1,2×).",
+    "es": "¡Los Pokémon Sombra hacen 1,2× de daño! Geniales en incursiones (mejorarlos también cuesta 1,2×).",
+    "it": "I Pokémon Ombra infliggono danni ×1,2! Ottimi attaccanti nei raid (anche il potenziamento costa ×1,2)."
+   }
+  },
+  {
+   "id": "excellent_ring",
+   "text": {
+    "ko": "링이 가장 작을 때 링 안에 맞히면 엑설런트!",
+    "ja": "円がいちばん小さいときに円の中に当てるとExcellent！",
+    "en": "Hit inside the ring when it's at its smallest for an Excellent throw!",
+    "zh-Hant": "在圈圈最小時投進圈內就是Excellent！",
+    "zh-Hans": "在圈圈最小时投进圈内就是Excellent！",
+    "fr": "Vise dans le cercle quand il est au plus petit pour un lancer Excellent !",
+    "de": "Triff in den Ring, wenn er am kleinsten ist: „Einfach fabelhaft!“",
+    "es": "¡Acierta dentro del círculo cuando esté más pequeño para un lanzamiento Excelente!",
+    "it": "Colpisci dentro il cerchio quando è più piccolo per un lancio Eccellente!"
+   }
+  },
+  {
+   "id": "gift_bag_full",
+   "text": {
+    "ko": "가방에 선물이 꽉 차면 포켓스톱에서 선물이 안 나와요. 미리 보내 두세요",
+    "ja": "バッグのギフトがいっぱいだとポケストップでギフトが出ません。先に送っておこう",
+    "en": "If your bag is full of Gifts, PokéStops won't give you more. Send some first!",
+    "zh-Hant": "包包裡的友情禮物滿了，寶可補給站就不會再掉禮物。記得先送出去",
+    "zh-Hans": "包包里的友情礼物满了，宝可补给站就不会再掉礼物。记得先送出去",
+    "fr": "Si ton sac est plein de Cadeaux, les PokéStops n'en donnent plus. Envoie-les avant !",
+    "de": "Ist dein Beutel voller Geschenke, gibt's an PokéStops keine neuen. Verschick sie vorher!",
+    "es": "Si tu mochila está llena de Regalos, las Poképaradas no te darán más. ¡Envíalos antes!",
+    "it": "Se hai troppi Pacchi amicizia, i Pokéstop non te ne danno altri. Inviali prima!"
+   }
+  },
+  {
+   "id": "legacy_elite_tm",
+   "text": {
+    "ko": "레거시 기술(커뮤니티 데이·이벤트 한정 기술)은 평소엔 대단한 기술머신으로만 배울 수 있어요",
+    "ja": "レガシー技（コミュニティ・デイやイベント限定の技）は、ふだんはすごいわざマシンでしか覚えられません",
+    "en": "Legacy moves (Community Day and event-only moves) can normally only be learned with an Elite TM.",
+    "zh-Hant": "限定招式（社群日・活動限定）平常只能用厲害招式學習器學會",
+    "zh-Hans": "限定招式（社区日・活动限定）平常只能用厉害招式学习器学会",
+    "fr": "Les attaques héritées (Journée Communauté, événements) ne s'apprennent normalement qu'avec une CT d'élite.",
+    "de": "Legacy-Attacken (Community Day, Events) lernt man normalerweise nur mit einer Top-TM.",
+    "es": "Los ataques legado (Día de la Comunidad, eventos) normalmente solo se aprenden con una MT élite.",
+    "it": "Le mosse speciali (Community Day, eventi) si imparano di solito solo con una MT fuoriclasse."
+   }
+  }
+ ]
+}
