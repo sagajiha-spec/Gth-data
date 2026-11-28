@@ -1,18 +1,7 @@
 {
  "schemaVersion": 1,
  "updatedAt": "2026-11-28",
- "_comment": "시작 동영상 쪽지에 나오는 팁. 고친 뒤 python3 tools/publish_remote.py 로 올리면 앱을 다시 설치하지 않아도 바뀜. 추가: tips 에 한 줄 추가(id 는 겹치지 않게). 삭제: 그 줄 삭제. 잠깐 끄기: \"off\": true. 요일 팁: \"event\" 에 일정 id(예: friendship_friday)를 넣으면 그 요일 보너스가 일정에 있는 날에만 나오고, 그날 처음 켤 때 먼저 나옴. 기간 한정: \"from\"/\"until\" (YYYY-MM-DD). 나머지 팁은 켤 때마다 바로 전 팁과 다르게 무작위로 나옴. 9개 언어 모두 적기(빠지면 영어로 나옴). 돈 가격은 숫자로 쓰지 않음.",
- "label": {
-  "ko": "오늘의 팁",
-  "ja": "今日のヒント",
-  "en": "Today's Tip",
-  "zh-Hant": "今日小提示",
-  "zh-Hans": "今日小提示",
-  "fr": "Astuce du jour",
-  "de": "Tipp des Tages",
-  "es": "Consejo del día",
-  "it": "Consiglio del giorno"
- },
+ "_comment": "시작 동영상 종이에 나오는 팁 (내용만 나옴, 제목 없음). 고친 뒤 python3 tools/publish_remote.py 로 올리면 앱을 다시 설치하지 않아도 바뀜. 추가: tips 에 한 줄 추가(id 는 겹치지 않게). 삭제: 그 줄 삭제. 잠깐 끄기: \"off\": true. 요일 팁: \"event\" 에 일정 id(예: friendship_friday)를 넣으면 그 요일 보너스가 일정에 있는 날에만 나오고, 그날 처음 켤 때 먼저 나옴. 기간 한정: \"from\"/\"until\" (YYYY-MM-DD). 나머지 팁은 켤 때마다 바로 전 팁과 다르게 무작위로 나옴. 9개 언어 모두 적기(빠지면 영어로 나옴). 돈 가격은 숫자로 쓰지 않음.",
  "tips": [
   {
    "id": "friday_trade_xl",
