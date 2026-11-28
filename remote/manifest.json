@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "publishedAt": "2026-11-28T02:48:42Z",
+ "publishedAt": "2026-11-28T02:56:47Z",
  "minAppVersion": "1.0.0",
  "files": [
   {
@@ -70,8 +70,8 @@
   },
   {
    "path": "intro_tips.json",
-   "version": 1,
-   "sha256": "4004c947e96e8f73186264f255358213eba46334df23077d32e3b8c8e1f86d0d"
+   "version": 2,
+   "sha256": "b4b73d813febcf8cfe9cde4124732506fe6f80fb7074194939d563f30f74c058"
   }
  ]
 }
