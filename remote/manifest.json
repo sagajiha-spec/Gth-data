@@ -1,17 +1,17 @@
 {
  "schemaVersion": 2,
- "publishedAt": "2026-11-28T02:56:47Z",
+ "publishedAt": "2026-11-28T03:08:26Z",
  "minAppVersion": "1.0.0",
  "files": [
   {
    "path": "events.json",
-   "version": 30,
-   "sha256": "2bf6bcdfe96faf4db64a34d79819f393199041802f675c6137e4b8ad0bbc7460"
+   "version": 31,
+   "sha256": "3b215c323ddc017dce4f5986d85af8f953aad0e5df34c4bd849ec69be6c497bc"
   },
   {
    "path": "raids.json",
-   "version": 32,
-   "sha256": "19b8ffafd63673060690240b77b84473018155e55a4556711161d9c3925d98d5"
+   "version": 33,
+   "sha256": "0afbbd35a0ef8959bfafda9cbc63320f4252115f7f8e926a7c681f0a4c56b88d"
   },
   {
    "path": "config.json",
@@ -20,8 +20,8 @@
   },
   {
    "path": "footnotes_remote.json",
-   "version": 2,
-   "sha256": "ba39b39fcbd7df54ddb8e21c7f834547dbcd2fb02d7c2e4af04ced369978ef87"
+   "version": 3,
+   "sha256": "70a8357b09f1065ce5b5162433d9f95a8b830a075d6786adca65b72c34eb66bc"
   },
   {
    "path": "shop.json",

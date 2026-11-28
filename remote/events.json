@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "updatedAt": "2026-11-28T01:30:47Z",
+ "updatedAt": "2026-11-28T03:08:11Z",
  "_comment": "자동 생성 파일 — 직접 고치지 말고 schedule/events.json·raids.json을 고친 뒤 tools/build_schedule.py 실행. title은 9개 언어, label은 종류 이름.",
  "events": [
   {
@@ -1310,10 +1310,10 @@
     "en": "Every Monday 6:00 a.m.–9:00 p.m. local. More Power Spots that refresh more often, featuring the week's Dynamax Pokémon in Max Battles. Win an in-person Max Battle for one guaranteed Rare Candy XL.",
     "zh-Hant": "每週一6:00～21:00（當地）。能量點變多、更新更快，該週的極巨化寶可夢會出現在極巨對戰。親自參加極巨對戰獲勝，必定獲得1個神奇糖果XL。",
     "zh-Hans": "每周一6:00～21:00（当地）。能量点变多、更新更快，该周的极巨化宝可梦会出现在极巨对战。亲自参加极巨对战获胜，必定获得1个神奇糖果XL。",
-    "fr": "Chaque lundi de 6 h à 21 h (heure locale). Plus de Zones Dynamax, renouvelées plus souvent, avec le Pokémon Dynamax de la semaine en Combats Max. Gagnez un Combat Max sur place pour 1 Super Bonbon XL garanti.",
+    "fr": "Chaque lundi de 6 h à 21 h (heure locale). Plus de Zones Dynamax, renouvelées plus souvent, avec le Pokémon Dynamax de la semaine en Combats Max. Gagnez un Combat Max sur place pour 1 Super Bonbon L garanti.",
     "de": "Jeden Montag 6–21 Uhr (Ortszeit). Mehr Kraftquellen, die öfter wechseln, mit dem Dynamax-Pokémon der Woche in Dyna-Kämpfen. Ein vor Ort gewonnener Dyna-Kampf bringt garantiert 1 Sonderbonbon XL.",
-    "es": "Cada lunes de 6:00 a 21:00 (hora local). Más Puntos Energéticos que cambian más a menudo, con el Pokémon Dinamax de la semana en los combates Max. Gana un combate Max en persona para 1 Caramelo Raro XL asegurado.",
-    "it": "Ogni lunedì dalle 6:00 alle 21:00 (ora locale). Più Aree Power che cambiano più spesso, con il Pokémon Dynamax della settimana nelle lotte Dynamax. Vinci una lotta Dynamax di persona per 1 Caramella Rara XL garantita."
+    "es": "Cada lunes de 6:00 a 21:00 (hora local). Más Puntos Energéticos que cambian más a menudo, con el Pokémon Dinamax de la semana en los combates Max. Gana un combate Max en persona para 1 Caramelo Raro ++ asegurado.",
+    "it": "Ogni lunedì dalle 6:00 alle 21:00 (ora locale). Più Aree Power che cambiano più spesso, con il Pokémon Dynamax della settimana nelle lotte Dynamax. Vinci una lotta Dynamax di persona per 1 Caramella Rara L garantita."
    },
    "weekly": "mon"
   },
@@ -2044,10 +2044,10 @@
     "en": "Every Wednesday 6–7 p.m. local. Many Gyms host the week's five-star raid boss. All Wednesday, complete an in-person raid for one Rare Candy XL. Five-star and Mega Raid bosses change at the start of Wednesday.",
     "zh-Hant": "每週三18:00～19:00（當地）。該週的五星團體戰頭目會出現在許多道館。週三全天親自完成團體戰可獲得1個神奇糖果XL。五星・超級團體戰頭目在週三0點更換。",
     "zh-Hans": "每周三18:00～19:00（当地）。该周的五星团体战头目会出现在许多道馆。周三全天亲自完成团体战可获得1个神奇糖果XL。五星・超级团体战头目在周三0点更换。",
-    "fr": "Chaque mercredi de 18 h à 19 h (heure locale). De nombreuses Arènes accueillent le boss de Raid 5 étoiles de la semaine. Tout le mercredi, terminez un Raid sur place pour 1 Super Bonbon XL. Les boss 5 étoiles et Méga changent le mercredi à minuit.",
+    "fr": "Chaque mercredi de 18 h à 19 h (heure locale). De nombreuses Arènes accueillent le boss de Raid 5 étoiles de la semaine. Tout le mercredi, terminez un Raid sur place pour 1 Super Bonbon L. Les boss 5 étoiles et Méga changent le mercredi à minuit.",
     "de": "Jeden Mittwoch 18–19 Uhr (Ortszeit). Viele Arenen zeigen den 5-Sterne-Raid-Boss der Woche. Den ganzen Mittwoch gibt es für einen Raid vor Ort 1 Sonderbonbon XL. 5-Sterne- und Mega-Bosse wechseln Mittwoch um 0 Uhr.",
-    "es": "Cada miércoles de 18:00 a 19:00 (hora local). Muchos gimnasios tienen al jefe de incursión de 5 estrellas de la semana. Todo el miércoles, completa una incursión en persona para 1 Caramelo Raro XL. Los jefes de 5 estrellas y Mega cambian el miércoles a las 0:00.",
-    "it": "Ogni mercoledì dalle 18:00 alle 19:00 (ora locale). Molte Palestre ospitano il boss dei raid 5 stelle della settimana. Tutto il mercoledì, completa un raid di persona per 1 Caramella Rara XL. I boss 5 stelle e Mega cambiano il mercoledì a mezzanotte."
+    "es": "Cada miércoles de 18:00 a 19:00 (hora local). Muchos gimnasios tienen al jefe de incursión de 5 estrellas de la semana. Todo el miércoles, completa una incursión en persona para 1 Caramelo Raro ++. Los jefes de 5 estrellas y Mega cambian el miércoles a las 0:00.",
+    "it": "Ogni mercoledì dalle 18:00 alle 19:00 (ora locale). Molte Palestre ospitano il boss dei raid 5 stelle della settimana. Tutto il mercoledì, completa un raid di persona per 1 Caramella Rara L. I boss 5 stelle e Mega cambiano il mercoledì a mezzanotte."
    },
    "auto": "schedule/raids.json에서 자동 생성"
   },
@@ -2397,10 +2397,10 @@
     "en": "Every Friday, all day (local). In-person trades only: up to 2 extra Special Trades, higher Lucky Trade chance, 20% less Stardust for trades, and 2 guaranteed Candy XL per trade (Trainer level 31+).",
     "zh-Hant": "每週五全天（當地）。僅限面對面交換：特別交換最多增加2次、亮晶晶交換機率提升、交換所需星星沙子減少20%、交換時必定獲得2個XL糖果（訓練家等級31以上）。",
     "zh-Hans": "每周五全天（当地）。仅限面对面交换：特别交换最多增加2次、亮晶晶交换概率提升、交换所需星星沙子减少20%、交换时必定获得2个XL糖果（训练家等级31以上）。",
-    "fr": "Chaque vendredi, toute la journée (heure locale). Échanges en personne uniquement : jusqu'à 2 Échanges spéciaux en plus, plus de chances d'Échange chanceux, 20 % de Poussière Étoile en moins et 2 Bonbons XL garantis par échange (niveau 31 et plus).",
+    "fr": "Chaque vendredi, toute la journée (heure locale). Échanges en personne uniquement : jusqu'à 2 Échanges spéciaux en plus, plus de chances d'Échange chanceux, 20 % de Poussière Étoile en moins et 2 Bonbons L garantis par échange (niveau 31 et plus).",
     "de": "Jeden Freitag, ganztägig (Ortszeit). Nur bei Tausch vor Ort: bis zu 2 zusätzliche Spezialtausche, höhere Glückstausch-Chance, 20 % weniger Sternenstaub und 2 garantierte Bonbons XL pro Tausch (ab Trainerlevel 31).",
-    "es": "Cada viernes, todo el día (hora local). Solo intercambios en persona: hasta 2 intercambios especiales extra, más probabilidad de intercambio con suerte, 20 % menos de polvos estelares y 2 caramelos XL asegurados por intercambio (nivel 31 o más).",
-    "it": "Ogni venerdì, tutto il giorno (ora locale). Solo scambi di persona: fino a 2 scambi speciali in più, più probabilità di scambio fortunato, 20% di polvere di stelle in meno e 2 caramelle XL garantite per scambio (livello Allenatore 31 o più)."
+    "es": "Cada viernes, todo el día (hora local). Solo intercambios en persona: hasta 2 intercambios especiales extra, más probabilidad de intercambio con suerte, 20 % menos de polvos estelares y 2 caramelos ++ asegurados por intercambio (nivel 31 o más).",
+    "it": "Ogni venerdì, tutto il giorno (ora locale). Solo scambi di persona: fino a 2 scambi speciali in più, più probabilità di scambio fortunato, 20% di polvere di stelle in meno e 2 caramelle L garantite per scambio (livello Allenatore 31 o più)."
    },
    "weekly": "fri"
   },
@@ -2694,7 +2694,7 @@
       "zh-Hant": "31級以上捕捉獲得糖果XL機率2倍",
       "zh-Hans": "31级以上捕捉获得糖果XL概率2倍",
       "fr": "Chance de Bonbon L ×2 en capturant (niv. 31+)",
-      "de": "2× Chance auf XL-Bonbons beim Fangen (Lv. 31+)",
+      "de": "2× Chance auf Bonbons XL beim Fangen (Lv. 31+)",
       "es": "2× probabilidad de Caramelo++ al atrapar (nv. 31+)",
       "it": "2× probabilità di Caramella L catturando (liv. 31+)"
      }
@@ -2947,10 +2947,10 @@
     "en": "Every Monday 6:00 a.m.–9:00 p.m. local. More Power Spots that refresh more often, featuring the week's Dynamax Pokémon in Max Battles. Win an in-person Max Battle for one guaranteed Rare Candy XL.",
     "zh-Hant": "每週一6:00～21:00（當地）。能量點變多、更新更快，該週的極巨化寶可夢會出現在極巨對戰。親自參加極巨對戰獲勝，必定獲得1個神奇糖果XL。",
     "zh-Hans": "每周一6:00～21:00（当地）。能量点变多、更新更快，该周的极巨化宝可梦会出现在极巨对战。亲自参加极巨对战获胜，必定获得1个神奇糖果XL。",
-    "fr": "Chaque lundi de 6 h à 21 h (heure locale). Plus de Zones Dynamax, renouvelées plus souvent, avec le Pokémon Dynamax de la semaine en Combats Max. Gagnez un Combat Max sur place pour 1 Super Bonbon XL garanti.",
+    "fr": "Chaque lundi de 6 h à 21 h (heure locale). Plus de Zones Dynamax, renouvelées plus souvent, avec le Pokémon Dynamax de la semaine en Combats Max. Gagnez un Combat Max sur place pour 1 Super Bonbon L garanti.",
     "de": "Jeden Montag 6–21 Uhr (Ortszeit). Mehr Kraftquellen, die öfter wechseln, mit dem Dynamax-Pokémon der Woche in Dyna-Kämpfen. Ein vor Ort gewonnener Dyna-Kampf bringt garantiert 1 Sonderbonbon XL.",
-    "es": "Cada lunes de 6:00 a 21:00 (hora local). Más Puntos Energéticos que cambian más a menudo, con el Pokémon Dinamax de la semana en los combates Max. Gana un combate Max en persona para 1 Caramelo Raro XL asegurado.",
-    "it": "Ogni lunedì dalle 6:00 alle 21:00 (ora locale). Più Aree Power che cambiano più spesso, con il Pokémon Dynamax della settimana nelle lotte Dynamax. Vinci una lotta Dynamax di persona per 1 Caramella Rara XL garantita."
+    "es": "Cada lunes de 6:00 a 21:00 (hora local). Más Puntos Energéticos que cambian más a menudo, con el Pokémon Dinamax de la semana en los combates Max. Gana un combate Max en persona para 1 Caramelo Raro ++ asegurado.",
+    "it": "Ogni lunedì dalle 6:00 alle 21:00 (ora locale). Più Aree Power che cambiano più spesso, con il Pokémon Dynamax della settimana nelle lotte Dynamax. Vinci una lotta Dynamax di persona per 1 Caramella Rara L garantita."
    }
   },
   {
@@ -3591,10 +3591,10 @@
     "en": "Every Wednesday 6–7 p.m. local. Many Gyms host the week's five-star raid boss. All Wednesday, complete an in-person raid for one Rare Candy XL. Five-star and Mega Raid bosses change at the start of Wednesday.",
     "zh-Hant": "每週三18:00～19:00（當地）。該週的五星團體戰頭目會出現在許多道館。週三全天親自完成團體戰可獲得1個神奇糖果XL。五星・超級團體戰頭目在週三0點更換。",
     "zh-Hans": "每周三18:00～19:00（当地）。该周的五星团体战头目会出现在许多道馆。周三全天亲自完成团体战可获得1个神奇糖果XL。五星・超级团体战头目在周三0点更换。",
-    "fr": "Chaque mercredi de 18 h à 19 h (heure locale). De nombreuses Arènes accueillent le boss de Raid 5 étoiles de la semaine. Tout le mercredi, terminez un Raid sur place pour 1 Super Bonbon XL. Les boss 5 étoiles et Méga changent le mercredi à minuit.",
+    "fr": "Chaque mercredi de 18 h à 19 h (heure locale). De nombreuses Arènes accueillent le boss de Raid 5 étoiles de la semaine. Tout le mercredi, terminez un Raid sur place pour 1 Super Bonbon L. Les boss 5 étoiles et Méga changent le mercredi à minuit.",
     "de": "Jeden Mittwoch 18–19 Uhr (Ortszeit). Viele Arenen zeigen den 5-Sterne-Raid-Boss der Woche. Den ganzen Mittwoch gibt es für einen Raid vor Ort 1 Sonderbonbon XL. 5-Sterne- und Mega-Bosse wechseln Mittwoch um 0 Uhr.",
-    "es": "Cada miércoles de 18:00 a 19:00 (hora local). Muchos gimnasios tienen al jefe de incursión de 5 estrellas de la semana. Todo el miércoles, completa una incursión en persona para 1 Caramelo Raro XL. Los jefes de 5 estrellas y Mega cambian el miércoles a las 0:00.",
-    "it": "Ogni mercoledì dalle 18:00 alle 19:00 (ora locale). Molte Palestre ospitano il boss dei raid 5 stelle della settimana. Tutto il mercoledì, completa un raid di persona per 1 Caramella Rara XL. I boss 5 stelle e Mega cambiano il mercoledì a mezzanotte."
+    "es": "Cada miércoles de 18:00 a 19:00 (hora local). Muchos gimnasios tienen al jefe de incursión de 5 estrellas de la semana. Todo el miércoles, completa una incursión en persona para 1 Caramelo Raro ++. Los jefes de 5 estrellas y Mega cambian el miércoles a las 0:00.",
+    "it": "Ogni mercoledì dalle 18:00 alle 19:00 (ora locale). Molte Palestre ospitano il boss dei raid 5 stelle della settimana. Tutto il mercoledì, completa un raid di persona per 1 Caramella Rara L. I boss 5 stelle e Mega cambiano il mercoledì a mezzanotte."
    },
    "auto": "schedule/raids.json에서 자동 생성"
   },
@@ -3850,10 +3850,10 @@
     "en": "Every Friday, all day (local). In-person trades only: up to 2 extra Special Trades, higher Lucky Trade chance, 20% less Stardust for trades, and 2 guaranteed Candy XL per trade (Trainer level 31+).",
     "zh-Hant": "每週五全天（當地）。僅限面對面交換：特別交換最多增加2次、亮晶晶交換機率提升、交換所需星星沙子減少20%、交換時必定獲得2個XL糖果（訓練家等級31以上）。",
     "zh-Hans": "每周五全天（当地）。仅限面对面交换：特别交换最多增加2次、亮晶晶交换概率提升、交换所需星星沙子减少20%、交换时必定获得2个XL糖果（训练家等级31以上）。",
-    "fr": "Chaque vendredi, toute la journée (heure locale). Échanges en personne uniquement : jusqu'à 2 Échanges spéciaux en plus, plus de chances d'Échange chanceux, 20 % de Poussière Étoile en moins et 2 Bonbons XL garantis par échange (niveau 31 et plus).",
+    "fr": "Chaque vendredi, toute la journée (heure locale). Échanges en personne uniquement : jusqu'à 2 Échanges spéciaux en plus, plus de chances d'Échange chanceux, 20 % de Poussière Étoile en moins et 2 Bonbons L garantis par échange (niveau 31 et plus).",
     "de": "Jeden Freitag, ganztägig (Ortszeit). Nur bei Tausch vor Ort: bis zu 2 zusätzliche Spezialtausche, höhere Glückstausch-Chance, 20 % weniger Sternenstaub und 2 garantierte Bonbons XL pro Tausch (ab Trainerlevel 31).",
-    "es": "Cada viernes, todo el día (hora local). Solo intercambios en persona: hasta 2 intercambios especiales extra, más probabilidad de intercambio con suerte, 20 % menos de polvos estelares y 2 caramelos XL asegurados por intercambio (nivel 31 o más).",
-    "it": "Ogni venerdì, tutto il giorno (ora locale). Solo scambi di persona: fino a 2 scambi speciali in più, più probabilità di scambio fortunato, 20% di polvere di stelle in meno e 2 caramelle XL garantite per scambio (livello Allenatore 31 o più)."
+    "es": "Cada viernes, todo el día (hora local). Solo intercambios en persona: hasta 2 intercambios especiales extra, más probabilidad de intercambio con suerte, 20 % menos de polvos estelares y 2 caramelos ++ asegurados por intercambio (nivel 31 o más).",
+    "it": "Ogni venerdì, tutto il giorno (ora locale). Solo scambi di persona: fino a 2 scambi speciali in più, più probabilità di scambio fortunato, 20% di polvere di stelle in meno e 2 caramelle L garantite per scambio (livello Allenatore 31 o più)."
    },
    "weekly": "fri"
   },
@@ -4130,10 +4130,10 @@
     "en": "Every Monday 6:00 a.m.–9:00 p.m. local. More Power Spots that refresh more often, featuring the week's Dynamax Pokémon in Max Battles. Win an in-person Max Battle for one guaranteed Rare Candy XL.",
     "zh-Hant": "每週一6:00～21:00（當地）。能量點變多、更新更快，該週的極巨化寶可夢會出現在極巨對戰。親自參加極巨對戰獲勝，必定獲得1個神奇糖果XL。",
     "zh-Hans": "每周一6:00～21:00（当地）。能量点变多、更新更快，该周的极巨化宝可梦会出现在极巨对战。亲自参加极巨对战获胜，必定获得1个神奇糖果XL。",
-    "fr": "Chaque lundi de 6 h à 21 h (heure locale). Plus de Zones Dynamax, renouvelées plus souvent, avec le Pokémon Dynamax de la semaine en Combats Max. Gagnez un Combat Max sur place pour 1 Super Bonbon XL garanti.",
+    "fr": "Chaque lundi de 6 h à 21 h (heure locale). Plus de Zones Dynamax, renouvelées plus souvent, avec le Pokémon Dynamax de la semaine en Combats Max. Gagnez un Combat Max sur place pour 1 Super Bonbon L garanti.",
     "de": "Jeden Montag 6–21 Uhr (Ortszeit). Mehr Kraftquellen, die öfter wechseln, mit dem Dynamax-Pokémon der Woche in Dyna-Kämpfen. Ein vor Ort gewonnener Dyna-Kampf bringt garantiert 1 Sonderbonbon XL.",
-    "es": "Cada lunes de 6:00 a 21:00 (hora local). Más Puntos Energéticos que cambian más a menudo, con el Pokémon Dinamax de la semana en los combates Max. Gana un combate Max en persona para 1 Caramelo Raro XL asegurado.",
-    "it": "Ogni lunedì dalle 6:00 alle 21:00 (ora locale). Più Aree Power che cambiano più spesso, con il Pokémon Dynamax della settimana nelle lotte Dynamax. Vinci una lotta Dynamax di persona per 1 Caramella Rara XL garantita."
+    "es": "Cada lunes de 6:00 a 21:00 (hora local). Más Puntos Energéticos que cambian más a menudo, con el Pokémon Dinamax de la semana en los combates Max. Gana un combate Max en persona para 1 Caramelo Raro ++ asegurado.",
+    "it": "Ogni lunedì dalle 6:00 alle 21:00 (ora locale). Più Aree Power che cambiano più spesso, con il Pokémon Dynamax della settimana nelle lotte Dynamax. Vinci una lotta Dynamax di persona per 1 Caramella Rara L garantita."
    }
   },
   {
@@ -4792,10 +4792,10 @@
     "en": "Every Wednesday 6–7 p.m. local. Many Gyms host the week's five-star raid boss. All Wednesday, complete an in-person raid for one Rare Candy XL. Five-star and Mega Raid bosses change at the start of Wednesday.",
     "zh-Hant": "每週三18:00～19:00（當地）。該週的五星團體戰頭目會出現在許多道館。週三全天親自完成團體戰可獲得1個神奇糖果XL。五星・超級團體戰頭目在週三0點更換。",
     "zh-Hans": "每周三18:00～19:00（当地）。该周的五星团体战头目会出现在许多道馆。周三全天亲自完成团体战可获得1个神奇糖果XL。五星・超级团体战头目在周三0点更换。",
-    "fr": "Chaque mercredi de 18 h à 19 h (heure locale). De nombreuses Arènes accueillent le boss de Raid 5 étoiles de la semaine. Tout le mercredi, terminez un Raid sur place pour 1 Super Bonbon XL. Les boss 5 étoiles et Méga changent le mercredi à minuit.",
+    "fr": "Chaque mercredi de 18 h à 19 h (heure locale). De nombreuses Arènes accueillent le boss de Raid 5 étoiles de la semaine. Tout le mercredi, terminez un Raid sur place pour 1 Super Bonbon L. Les boss 5 étoiles et Méga changent le mercredi à minuit.",
     "de": "Jeden Mittwoch 18–19 Uhr (Ortszeit). Viele Arenen zeigen den 5-Sterne-Raid-Boss der Woche. Den ganzen Mittwoch gibt es für einen Raid vor Ort 1 Sonderbonbon XL. 5-Sterne- und Mega-Bosse wechseln Mittwoch um 0 Uhr.",
-    "es": "Cada miércoles de 18:00 a 19:00 (hora local). Muchos gimnasios tienen al jefe de incursión de 5 estrellas de la semana. Todo el miércoles, completa una incursión en persona para 1 Caramelo Raro XL. Los jefes de 5 estrellas y Mega cambian el miércoles a las 0:00.",
-    "it": "Ogni mercoledì dalle 18:00 alle 19:00 (ora locale). Molte Palestre ospitano il boss dei raid 5 stelle della settimana. Tutto il mercoledì, completa un raid di persona per 1 Caramella Rara XL. I boss 5 stelle e Mega cambiano il mercoledì a mezzanotte."
+    "es": "Cada miércoles de 18:00 a 19:00 (hora local). Muchos gimnasios tienen al jefe de incursión de 5 estrellas de la semana. Todo el miércoles, completa una incursión en persona para 1 Caramelo Raro ++. Los jefes de 5 estrellas y Mega cambian el miércoles a las 0:00.",
+    "it": "Ogni mercoledì dalle 18:00 alle 19:00 (ora locale). Molte Palestre ospitano il boss dei raid 5 stelle della settimana. Tutto il mercoledì, completa un raid di persona per 1 Caramella Rara L. I boss 5 stelle e Mega cambiano il mercoledì a mezzanotte."
    },
    "auto": "schedule/raids.json에서 자동 생성"
   },
@@ -5064,10 +5064,10 @@
     "en": "Every Monday 6:00 a.m.–9:00 p.m. local. More Power Spots that refresh more often, featuring the week's Dynamax Pokémon in Max Battles. Win an in-person Max Battle for one guaranteed Rare Candy XL.",
     "zh-Hant": "每週一6:00～21:00（當地）。能量點變多、更新更快，該週的極巨化寶可夢會出現在極巨對戰。親自參加極巨對戰獲勝，必定獲得1個神奇糖果XL。",
     "zh-Hans": "每周一6:00～21:00（当地）。能量点变多、更新更快，该周的极巨化宝可梦会出现在极巨对战。亲自参加极巨对战获胜，必定获得1个神奇糖果XL。",
-    "fr": "Chaque lundi de 6 h à 21 h (heure locale). Plus de Zones Dynamax, renouvelées plus souvent, avec le Pokémon Dynamax de la semaine en Combats Max. Gagnez un Combat Max sur place pour 1 Super Bonbon XL garanti.",
+    "fr": "Chaque lundi de 6 h à 21 h (heure locale). Plus de Zones Dynamax, renouvelées plus souvent, avec le Pokémon Dynamax de la semaine en Combats Max. Gagnez un Combat Max sur place pour 1 Super Bonbon L garanti.",
     "de": "Jeden Montag 6–21 Uhr (Ortszeit). Mehr Kraftquellen, die öfter wechseln, mit dem Dynamax-Pokémon der Woche in Dyna-Kämpfen. Ein vor Ort gewonnener Dyna-Kampf bringt garantiert 1 Sonderbonbon XL.",
-    "es": "Cada lunes de 6:00 a 21:00 (hora local). Más Puntos Energéticos que cambian más a menudo, con el Pokémon Dinamax de la semana en los combates Max. Gana un combate Max en persona para 1 Caramelo Raro XL asegurado.",
-    "it": "Ogni lunedì dalle 6:00 alle 21:00 (ora locale). Più Aree Power che cambiano più spesso, con il Pokémon Dynamax della settimana nelle lotte Dynamax. Vinci una lotta Dynamax di persona per 1 Caramella Rara XL garantita."
+    "es": "Cada lunes de 6:00 a 21:00 (hora local). Más Puntos Energéticos que cambian más a menudo, con el Pokémon Dinamax de la semana en los combates Max. Gana un combate Max en persona para 1 Caramelo Raro ++ asegurado.",
+    "it": "Ogni lunedì dalle 6:00 alle 21:00 (ora locale). Più Aree Power che cambiano più spesso, con il Pokémon Dynamax della settimana nelle lotte Dynamax. Vinci una lotta Dynamax di persona per 1 Caramella Rara L garantita."
    }
   },
   {
@@ -5850,10 +5850,10 @@
       "en": "2× catch XP · 2× catch Stardust · 2× catch Candy · 2× Candy XL chance (level 31+) (14:00–17:00)",
       "zh-Hant": "捕捉XP 2倍・捕捉星星沙子2倍・捕捉糖果2倍・XL糖果機率2倍（等級31以上）（14:00～17:00）",
       "zh-Hans": "捕捉XP 2倍・捕捉星星沙子2倍・捕捉糖果2倍・XL糖果概率2倍（等级31以上）（14:00～17:00）",
-      "fr": "XP de capture ×2 · Poussière Étoile ×2 · Bonbons ×2 · chance de Bonbon XL ×2 (niv. 31+) (14 h–17 h)",
+      "fr": "XP de capture ×2 · Poussière Étoile ×2 · Bonbons ×2 · chance de Bonbon L ×2 (niv. 31+) (14 h–17 h)",
       "de": "2× Fang-EP · 2× Sternenstaub · 2× Bonbons · 2× Bonbon-XL-Chance (ab Level 31) (14–17 Uhr)",
-      "es": "PX al atrapar ×2 · polvoestelar ×2 · caramelos ×2 · probabilidad de caramelo XL ×2 (nivel 31+) (14:00–17:00)",
-      "it": "PE per cattura ×2 · polvere di stelle ×2 · caramelle ×2 · probabilità caramelle XL ×2 (livello 31+) (14:00–17:00)"
+      "es": "PX al atrapar ×2 · polvoestelar ×2 · caramelos ×2 · probabilidad de caramelo ++ ×2 (nivel 31+) (14:00–17:00)",
+      "it": "PE per cattura ×2 · polvere di stelle ×2 · caramelle ×2 · probabilità caramelle L ×2 (livello 31+) (14:00–17:00)"
      }
     },
     {
@@ -5981,10 +5981,10 @@
     "en": "Every Monday 6:00 a.m.–9:00 p.m. local. More Power Spots that refresh more often, featuring the week's Dynamax Pokémon in Max Battles. Win an in-person Max Battle for one guaranteed Rare Candy XL.",
     "zh-Hant": "每週一6:00～21:00（當地）。能量點變多、更新更快，該週的極巨化寶可夢會出現在極巨對戰。親自參加極巨對戰獲勝，必定獲得1個神奇糖果XL。",
     "zh-Hans": "每周一6:00～21:00（当地）。能量点变多、更新更快，该周的极巨化宝可梦会出现在极巨对战。亲自参加极巨对战获胜，必定获得1个神奇糖果XL。",
-    "fr": "Chaque lundi de 6 h à 21 h (heure locale). Plus de Zones Dynamax, renouvelées plus souvent, avec le Pokémon Dynamax de la semaine en Combats Max. Gagnez un Combat Max sur place pour 1 Super Bonbon XL garanti.",
+    "fr": "Chaque lundi de 6 h à 21 h (heure locale). Plus de Zones Dynamax, renouvelées plus souvent, avec le Pokémon Dynamax de la semaine en Combats Max. Gagnez un Combat Max sur place pour 1 Super Bonbon L garanti.",
     "de": "Jeden Montag 6–21 Uhr (Ortszeit). Mehr Kraftquellen, die öfter wechseln, mit dem Dynamax-Pokémon der Woche in Dyna-Kämpfen. Ein vor Ort gewonnener Dyna-Kampf bringt garantiert 1 Sonderbonbon XL.",
-    "es": "Cada lunes de 6:00 a 21:00 (hora local). Más Puntos Energéticos que cambian más a menudo, con el Pokémon Dinamax de la semana en los combates Max. Gana un combate Max en persona para 1 Caramelo Raro XL asegurado.",
-    "it": "Ogni lunedì dalle 6:00 alle 21:00 (ora locale). Più Aree Power che cambiano più spesso, con il Pokémon Dynamax della settimana nelle lotte Dynamax. Vinci una lotta Dynamax di persona per 1 Caramella Rara XL garantita."
+    "es": "Cada lunes de 6:00 a 21:00 (hora local). Más Puntos Energéticos que cambian más a menudo, con el Pokémon Dinamax de la semana en los combates Max. Gana un combate Max en persona para 1 Caramelo Raro ++ asegurado.",
+    "it": "Ogni lunedì dalle 6:00 alle 21:00 (ora locale). Più Aree Power che cambiano più spesso, con il Pokémon Dynamax della settimana nelle lotte Dynamax. Vinci una lotta Dynamax di persona per 1 Caramella Rara L garantita."
    }
   },
   {
@@ -6148,10 +6148,10 @@
     "en": "Every Wednesday 6–7 p.m. local. Many Gyms host the week's five-star raid boss. All Wednesday, complete an in-person raid for one Rare Candy XL. Five-star and Mega Raid bosses change at the start of Wednesday.",
     "zh-Hant": "每週三18:00～19:00（當地）。該週的五星團體戰頭目會出現在許多道館。週三全天親自完成團體戰可獲得1個神奇糖果XL。五星・超級團體戰頭目在週三0點更換。",
     "zh-Hans": "每周三18:00～19:00（当地）。该周的五星团体战头目会出现在许多道馆。周三全天亲自完成团体战可获得1个神奇糖果XL。五星・超级团体战头目在周三0点更换。",
-    "fr": "Chaque mercredi de 18 h à 19 h (heure locale). De nombreuses Arènes accueillent le boss de Raid 5 étoiles de la semaine. Tout le mercredi, terminez un Raid sur place pour 1 Super Bonbon XL. Les boss 5 étoiles et Méga changent le mercredi à minuit.",
+    "fr": "Chaque mercredi de 18 h à 19 h (heure locale). De nombreuses Arènes accueillent le boss de Raid 5 étoiles de la semaine. Tout le mercredi, terminez un Raid sur place pour 1 Super Bonbon L. Les boss 5 étoiles et Méga changent le mercredi à minuit.",
     "de": "Jeden Mittwoch 18–19 Uhr (Ortszeit). Viele Arenen zeigen den 5-Sterne-Raid-Boss der Woche. Den ganzen Mittwoch gibt es für einen Raid vor Ort 1 Sonderbonbon XL. 5-Sterne- und Mega-Bosse wechseln Mittwoch um 0 Uhr.",
-    "es": "Cada miércoles de 18:00 a 19:00 (hora local). Muchos gimnasios tienen al jefe de incursión de 5 estrellas de la semana. Todo el miércoles, completa una incursión en persona para 1 Caramelo Raro XL. Los jefes de 5 estrellas y Mega cambian el miércoles a las 0:00.",
-    "it": "Ogni mercoledì dalle 18:00 alle 19:00 (ora locale). Molte Palestre ospitano il boss dei raid 5 stelle della settimana. Tutto il mercoledì, completa un raid di persona per 1 Caramella Rara XL. I boss 5 stelle e Mega cambiano il mercoledì a mezzanotte."
+    "es": "Cada miércoles de 18:00 a 19:00 (hora local). Muchos gimnasios tienen al jefe de incursión de 5 estrellas de la semana. Todo el miércoles, completa una incursión en persona para 1 Caramelo Raro ++. Los jefes de 5 estrellas y Mega cambian el miércoles a las 0:00.",
+    "it": "Ogni mercoledì dalle 18:00 alle 19:00 (ora locale). Molte Palestre ospitano il boss dei raid 5 stelle della settimana. Tutto il mercoledì, completa un raid di persona per 1 Caramella Rara L. I boss 5 stelle e Mega cambiano il mercoledì a mezzanotte."
    },
    "auto": "schedule/raids.json에서 자동 생성"
   },
@@ -6333,10 +6333,10 @@
     "en": "Every Monday 6:00 a.m.–9:00 p.m. local. More Power Spots that refresh more often, featuring the week's Dynamax Pokémon in Max Battles. Win an in-person Max Battle for one guaranteed Rare Candy XL.",
     "zh-Hant": "每週一6:00～21:00（當地）。能量點變多、更新更快，該週的極巨化寶可夢會出現在極巨對戰。親自參加極巨對戰獲勝，必定獲得1個神奇糖果XL。",
     "zh-Hans": "每周一6:00～21:00（当地）。能量点变多、更新更快，该周的极巨化宝可梦会出现在极巨对战。亲自参加极巨对战获胜，必定获得1个神奇糖果XL。",
-    "fr": "Chaque lundi de 6 h à 21 h (heure locale). Plus de Zones Dynamax, renouvelées plus souvent, avec le Pokémon Dynamax de la semaine en Combats Max. Gagnez un Combat Max sur place pour 1 Super Bonbon XL garanti.",
+    "fr": "Chaque lundi de 6 h à 21 h (heure locale). Plus de Zones Dynamax, renouvelées plus souvent, avec le Pokémon Dynamax de la semaine en Combats Max. Gagnez un Combat Max sur place pour 1 Super Bonbon L garanti.",
     "de": "Jeden Montag 6–21 Uhr (Ortszeit). Mehr Kraftquellen, die öfter wechseln, mit dem Dynamax-Pokémon der Woche in Dyna-Kämpfen. Ein vor Ort gewonnener Dyna-Kampf bringt garantiert 1 Sonderbonbon XL.",
-    "es": "Cada lunes de 6:00 a 21:00 (hora local). Más Puntos Energéticos que cambian más a menudo, con el Pokémon Dinamax de la semana en los combates Max. Gana un combate Max en persona para 1 Caramelo Raro XL asegurado.",
-    "it": "Ogni lunedì dalle 6:00 alle 21:00 (ora locale). Più Aree Power che cambiano più spesso, con il Pokémon Dynamax della settimana nelle lotte Dynamax. Vinci una lotta Dynamax di persona per 1 Caramella Rara XL garantita."
+    "es": "Cada lunes de 6:00 a 21:00 (hora local). Más Puntos Energéticos que cambian más a menudo, con el Pokémon Dinamax de la semana en los combates Max. Gana un combate Max en persona para 1 Caramelo Raro ++ asegurado.",
+    "it": "Ogni lunedì dalle 6:00 alle 21:00 (ora locale). Più Aree Power che cambiano più spesso, con il Pokémon Dynamax della settimana nelle lotte Dynamax. Vinci una lotta Dynamax di persona per 1 Caramella Rara L garantita."
    }
   },
   {
@@ -6500,10 +6500,10 @@
     "en": "Every Wednesday 6–7 p.m. local. Many Gyms host the week's five-star raid boss. All Wednesday, complete an in-person raid for one Rare Candy XL. Five-star and Mega Raid bosses change at the start of Wednesday.",
     "zh-Hant": "每週三18:00～19:00（當地）。該週的五星團體戰頭目會出現在許多道館。週三全天親自完成團體戰可獲得1個神奇糖果XL。五星・超級團體戰頭目在週三0點更換。",
     "zh-Hans": "每周三18:00～19:00（当地）。该周的五星团体战头目会出现在许多道馆。周三全天亲自完成团体战可获得1个神奇糖果XL。五星・超级团体战头目在周三0点更换。",
-    "fr": "Chaque mercredi de 18 h à 19 h (heure locale). De nombreuses Arènes accueillent le boss de Raid 5 étoiles de la semaine. Tout le mercredi, terminez un Raid sur place pour 1 Super Bonbon XL. Les boss 5 étoiles et Méga changent le mercredi à minuit.",
+    "fr": "Chaque mercredi de 18 h à 19 h (heure locale). De nombreuses Arènes accueillent le boss de Raid 5 étoiles de la semaine. Tout le mercredi, terminez un Raid sur place pour 1 Super Bonbon L. Les boss 5 étoiles et Méga changent le mercredi à minuit.",
     "de": "Jeden Mittwoch 18–19 Uhr (Ortszeit). Viele Arenen zeigen den 5-Sterne-Raid-Boss der Woche. Den ganzen Mittwoch gibt es für einen Raid vor Ort 1 Sonderbonbon XL. 5-Sterne- und Mega-Bosse wechseln Mittwoch um 0 Uhr.",
-    "es": "Cada miércoles de 18:00 a 19:00 (hora local). Muchos gimnasios tienen al jefe de incursión de 5 estrellas de la semana. Todo el miércoles, completa una incursión en persona para 1 Caramelo Raro XL. Los jefes de 5 estrellas y Mega cambian el miércoles a las 0:00.",
-    "it": "Ogni mercoledì dalle 18:00 alle 19:00 (ora locale). Molte Palestre ospitano il boss dei raid 5 stelle della settimana. Tutto il mercoledì, completa un raid di persona per 1 Caramella Rara XL. I boss 5 stelle e Mega cambiano il mercoledì a mezzanotte."
+    "es": "Cada miércoles de 18:00 a 19:00 (hora local). Muchos gimnasios tienen al jefe de incursión de 5 estrellas de la semana. Todo el miércoles, completa una incursión en persona para 1 Caramelo Raro ++. Los jefes de 5 estrellas y Mega cambian el miércoles a las 0:00.",
+    "it": "Ogni mercoledì dalle 18:00 alle 19:00 (ora locale). Molte Palestre ospitano il boss dei raid 5 stelle della settimana. Tutto il mercoledì, completa un raid di persona per 1 Caramella Rara L. I boss 5 stelle e Mega cambiano il mercoledì a mezzanotte."
    },
    "auto": "schedule/raids.json에서 자동 생성"
   },
@@ -6690,10 +6690,10 @@
     "en": "Every Monday 6:00 a.m.–9:00 p.m. local. More Power Spots that refresh more often, featuring the week's Dynamax Pokémon in Max Battles. Win an in-person Max Battle for one guaranteed Rare Candy XL.",
     "zh-Hant": "每週一6:00～21:00（當地）。能量點變多、更新更快，該週的極巨化寶可夢會出現在極巨對戰。親自參加極巨對戰獲勝，必定獲得1個神奇糖果XL。",
     "zh-Hans": "每周一6:00～21:00（当地）。能量点变多、更新更快，该周的极巨化宝可梦会出现在极巨对战。亲自参加极巨对战获胜，必定获得1个神奇糖果XL。",
-    "fr": "Chaque lundi de 6 h à 21 h (heure locale). Plus de Zones Dynamax, renouvelées plus souvent, avec le Pokémon Dynamax de la semaine en Combats Max. Gagnez un Combat Max sur place pour 1 Super Bonbon XL garanti.",
+    "fr": "Chaque lundi de 6 h à 21 h (heure locale). Plus de Zones Dynamax, renouvelées plus souvent, avec le Pokémon Dynamax de la semaine en Combats Max. Gagnez un Combat Max sur place pour 1 Super Bonbon L garanti.",
     "de": "Jeden Montag 6–21 Uhr (Ortszeit). Mehr Kraftquellen, die öfter wechseln, mit dem Dynamax-Pokémon der Woche in Dyna-Kämpfen. Ein vor Ort gewonnener Dyna-Kampf bringt garantiert 1 Sonderbonbon XL.",
-    "es": "Cada lunes de 6:00 a 21:00 (hora local). Más Puntos Energéticos que cambian más a menudo, con el Pokémon Dinamax de la semana en los combates Max. Gana un combate Max en persona para 1 Caramelo Raro XL asegurado.",
-    "it": "Ogni lunedì dalle 6:00 alle 21:00 (ora locale). Più Aree Power che cambiano più spesso, con il Pokémon Dynamax della settimana nelle lotte Dynamax. Vinci una lotta Dynamax di persona per 1 Caramella Rara XL garantita."
+    "es": "Cada lunes de 6:00 a 21:00 (hora local). Más Puntos Energéticos que cambian más a menudo, con el Pokémon Dinamax de la semana en los combates Max. Gana un combate Max en persona para 1 Caramelo Raro ++ asegurado.",
+    "it": "Ogni lunedì dalle 6:00 alle 21:00 (ora locale). Più Aree Power che cambiano più spesso, con il Pokémon Dynamax della settimana nelle lotte Dynamax. Vinci una lotta Dynamax di persona per 1 Caramella Rara L garantita."
    }
   },
   {
@@ -6873,10 +6873,10 @@
     "en": "Every Wednesday 6–7 p.m. local. Many Gyms host the week's five-star raid boss. All Wednesday, complete an in-person raid for one Rare Candy XL. Five-star and Mega Raid bosses change at the start of Wednesday.",
     "zh-Hant": "每週三18:00～19:00（當地）。該週的五星團體戰頭目會出現在許多道館。週三全天親自完成團體戰可獲得1個神奇糖果XL。五星・超級團體戰頭目在週三0點更換。",
     "zh-Hans": "每周三18:00～19:00（当地）。该周的五星团体战头目会出现在许多道馆。周三全天亲自完成团体战可获得1个神奇糖果XL。五星・超级团体战头目在周三0点更换。",
-    "fr": "Chaque mercredi de 18 h à 19 h (heure locale). De nombreuses Arènes accueillent le boss de Raid 5 étoiles de la semaine. Tout le mercredi, terminez un Raid sur place pour 1 Super Bonbon XL. Les boss 5 étoiles et Méga changent le mercredi à minuit.",
+    "fr": "Chaque mercredi de 18 h à 19 h (heure locale). De nombreuses Arènes accueillent le boss de Raid 5 étoiles de la semaine. Tout le mercredi, terminez un Raid sur place pour 1 Super Bonbon L. Les boss 5 étoiles et Méga changent le mercredi à minuit.",
     "de": "Jeden Mittwoch 18–19 Uhr (Ortszeit). Viele Arenen zeigen den 5-Sterne-Raid-Boss der Woche. Den ganzen Mittwoch gibt es für einen Raid vor Ort 1 Sonderbonbon XL. 5-Sterne- und Mega-Bosse wechseln Mittwoch um 0 Uhr.",
-    "es": "Cada miércoles de 18:00 a 19:00 (hora local). Muchos gimnasios tienen al jefe de incursión de 5 estrellas de la semana. Todo el miércoles, completa una incursión en persona para 1 Caramelo Raro XL. Los jefes de 5 estrellas y Mega cambian el miércoles a las 0:00.",
-    "it": "Ogni mercoledì dalle 18:00 alle 19:00 (ora locale). Molte Palestre ospitano il boss dei raid 5 stelle della settimana. Tutto il mercoledì, completa un raid di persona per 1 Caramella Rara XL. I boss 5 stelle e Mega cambiano il mercoledì a mezzanotte."
+    "es": "Cada miércoles de 18:00 a 19:00 (hora local). Muchos gimnasios tienen al jefe de incursión de 5 estrellas de la semana. Todo el miércoles, completa una incursión en persona para 1 Caramelo Raro ++. Los jefes de 5 estrellas y Mega cambian el miércoles a las 0:00.",
+    "it": "Ogni mercoledì dalle 18:00 alle 19:00 (ora locale). Molte Palestre ospitano il boss dei raid 5 stelle della settimana. Tutto il mercoledì, completa un raid di persona per 1 Caramella Rara L. I boss 5 stelle e Mega cambiano il mercoledì a mezzanotte."
    },
    "auto": "schedule/raids.json에서 자동 생성"
   },

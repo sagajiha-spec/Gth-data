@@ -64,10 +64,10 @@
     "en": "Remote participants receive fewer XL Candy than in-person players.",
     "zh-Hant": "遠距參加獲得的XL糖果比現場參加少。",
     "zh-Hans": "远程参加获得的XL糖果比现场参加少。",
-    "fr": "Les participants à distance reçoivent moins de Bonbons XL qu'en personne.",
-    "de": "Fern-Teilnehmer erhalten weniger XL-Bonbons als Spieler vor Ort.",
-    "es": "Quien participa en remoto recibe menos Caramelos XL que en persona.",
-    "it": "Chi partecipa a distanza riceve meno Caramelle XL rispetto a chi è sul posto."
+    "fr": "Les participants à distance reçoivent moins de Bonbons L qu'en personne.",
+    "de": "Fern-Teilnehmer erhalten weniger Bonbons XL als Spieler vor Ort.",
+    "es": "Quien participa en remoto recibe menos Caramelos ++ que en persona.",
+    "it": "Chi partecipa a distanza riceve meno Caramelle L rispetto a chi è sul posto."
    },
    "sourceUrl": null,
    "verifiedAt": "2026-11-19",
@@ -77,10 +77,10 @@
     "en": "Remote XL Candy",
     "zh-Hant": "遠距XL糖果",
     "zh-Hans": "远程XL糖果",
-    "fr": "Bonbons XL à distance",
-    "de": "XL-Bonbons bei Fern-Raids",
-    "es": "Caramelos XL en remoto",
-    "it": "Caramelle XL a distanza"
+    "fr": "Bonbons L à distance",
+    "de": "Bonbons XL bei Fern-Raids",
+    "es": "Caramelos ++ en remoto",
+    "it": "Caramelle L a distanza"
    }
   }
  ]
